@@ -1,0 +1,194 @@
+{
+  "title": "Doha and Ras Laffan NDT Report Validation | LNG Data Review",
+  "description": "Independent review of NDT reports and digital inspection data from Ras Laffan LNG, GTL and petrochemical work and Mesaieed plants in Qatar, done remotely.",
+  "h1": "Report review for Qatar's LNG, petrochemical and gas plants, from Ras Laffan to Mesaieed",
+  "eyebrow": "Report validation: Doha and Ras Laffan, Qatar",
+  "intro": "Qatar's process industry is split between two coasts. In the north, Ras Laffan holds the LNG trains, condensate refineries, gas-to-liquids plants and a petrochemical complex under construction; in the south, Mesaieed holds the older refinery, gas liquids plants and fertiliser works. Doha, between them, is where project teams, insurers, lenders and lawyers read the resulting records. We review NDT reports and digital inspection data from both coasts independently, against the procedure, the operator's specification and the code, and say in writing what the evidence supports. Atlantis has no Doha office and no presence in Qatar; the review is carried out remotely on what you send.",
+  "highlights": [
+    {
+      "h": "LNG materials, LNG techniques",
+      "p": "Cryogenic stainless and low-temperature steels need examination techniques qualified for them. The reviewer checks that the technique could actually find the flaw in that material, not just that the report looks complete."
+    },
+    {
+      "h": "New build and decades-old plant",
+      "p": "Ras Laffan's expansion work sends fabrication packages; Mesaieed's long-running plants send inspection histories that stretch back across several contractors and record systems. Both are reviewed against the documents that governed them."
+    },
+    {
+      "h": "Opinions for every reader",
+      "p": "Operators, EPC contractors, fabricators, inspection companies, partners and their advisers ask for different things. The opinion is written for the reader who has to act on it."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Two industrial coasts and a capital that reads their records",
+      "p": [
+        "Qatar's gas wealth comes ashore at Ras Laffan Industrial City on the north-east coast, and most of the country's large process plant is there or in Mesaieed Industrial City to the south of Doha. Between them, inspection records move constantly: from contractors to operators, from fabricators to EPC contractors, from operators to their partners and insurers. Many of those readers sit in Doha, and many of the review requests we expect from Qatar start there rather than at the plant gate.",
+        "Independent reviews are usually commissioned by someone one step removed from the examination: an operator's inspection group accepting a contractor's work, an EPC contractor deciding whether a fabricator's package is ready to submit, an inspection company answering a rejection, or a partner, lender or insurer who needs to know what a set of records can prove. Facilities named below are there to describe the area. Naming them is not a claim that we have reviewed their records or worked for their owners."
+      ]
+    },
+    {
+      "h": "Ras Laffan: LNG trains, condensate refineries and gas-to-liquids",
+      "p": [
+        "QatarEnergy LNG, the company known as Qatargas until it changed its name in 2023, describes itself as operating fourteen LNG trains with a total capacity of 77 million tonnes a year, six of them mega trains of 7.8 million tonnes each. It also lists two condensate refineries, three helium production facilities, two domestic sales gas plants and the Ras Laffan Terminal Operations among its responsibilities. QatarEnergy is adding further trains at Ras Laffan under its North Field expansion programme, so the site carries construction and operating records side by side.",
+        "Gas-to-liquids adds a different kind of plant. QatarEnergy lists the Oryx GTL plant in Ras Laffan Industrial City, which began production in 2006, and Pearl GTL, developed with Shell and able to convert up to 1.6 billion cubic feet a day of wellhead gas into liquids and refined products. GTL units bring reactors, high-temperature piping and large heat exchange networks, all with inspection programmes of their own.",
+        "Operating LNG trains produce turnaround records familiar from any gas plant: thickness surveys on piping and vessels, corrosion maps, exchanger tube data, weld examinations on repairs and modifications, and PT and VT on stainless components. What sets them apart is the share of austenitic stainless and low-temperature carbon steel in the record, and the size of the cold boxes, main cryogenic heat exchangers and refrigerant circuits that the reports describe."
+      ]
+    },
+    {
+      "h": "New construction: the petrochemical complex and the expansion trains",
+      "p": [
+        "Ras Laffan Petrochemicals is a joint venture of QatarEnergy, with 70 per cent, and Chevron Phillips Chemical, with 30 per cent. Chevron Phillips describes an ethane cracker rated at 2,080 thousand tonnes a year of ethylene and two high-density polyethylene units with a combined 1,680 thousand tonnes a year, on a 435-acre site in Ras Laffan Industrial City, and lists the project as under construction with start-up expected in late 2026. Together with the LNG expansion trains, it means a large volume of new-build weld and fabrication records is being generated, accepted and archived at the same time.",
+        "Construction records arrive from fabrication yards in several countries, each working to the project specification as it understood it. Module data books, field weld records, DR images of piping welds, TOFD and PAUT data on thick-walled columns and drums, and post-weld heat treatment charts all have to pass the owner's acceptance before mechanical completion. A targeted review of the first packages from each fabricator, followed by a sample review at turnover, catches systematic problems while they can still be corrected at the yard."
+      ]
+    },
+    {
+      "h": "The seven checks in construction and in operation",
+      "p": [
+        "Every review runs the same seven checks, but what each check looks for changes between a new-build package and a turnaround record. The table sets the two side by side, because Ras Laffan sends both."
+      ],
+      "table": {
+        "head": [
+          "Check",
+          "New-build trains and the cracker",
+          "Operating LNG, GTL and refinery plant"
+        ],
+        "rows": [
+          [
+            "Procedure compliance",
+            "Procedure qualified for the material and thickness, approved under the project specification before use",
+            "Procedure revision in force on the outage date, especially where contractors changed between outages"
+          ],
+          [
+            "Personnel qualification",
+            "Certificates under the scheme the project names, valid on the weld dates, for the technique actually used",
+            "Certificates and vision records valid on the inspection date, including for analysts who interpreted data off site"
+          ],
+          [
+            "Equipment and calibration",
+            "Instrument and probe serials, reference blocks made from representative material, system checks before and after scanning",
+            "Calibration matching the instrument in the record; thickness gauges verified on the temperature range of the plant"
+          ],
+          [
+            "Technique adequacy",
+            "Coverage of the weld volume, austenitic weld techniques, DR image quality on thin-wall stainless",
+            "Whether the technique could find the damage mechanism expected at that location"
+          ],
+          [
+            "Acceptance criteria",
+            "Project specification tables where they are stricter than the code, correct joint category",
+            "The operator's in-service criteria and the code edition the inspection programme adopts"
+          ],
+          [
+            "Interpretation and sizing",
+            "Every indication dispositioned, sizing method permitted by the procedure",
+            "Wall loss sized and trended consistently with previous outages"
+          ],
+          [
+            "Completeness and traceability",
+            "Weld map, line list and isometric numbers that agree with the reports and the turnover system",
+            "Readings filed against the right condition monitoring locations, raw files kept with reports"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Cryogenic and stainless welds: where reports go wrong",
+      "p": [
+        "LNG plant is full of austenitic stainless steel, and austenitic welds are hard to examine ultrasonically. The coarse, oriented grain structure of the weld metal scatters and bends the beam, so a technique that works on carbon steel can miss a flaw entirely while producing a clean screen. A credible report on a stainless weld shows a procedure and probe selection demonstrated on representative material, and a scan plan that proves coverage. When the review finds a carbon steel technique applied to a stainless weld, the verdict is usually deficient in disposition, because the record cannot support the acceptance it claims.",
+        "Penetrant testing on stainless components is the other common source of findings. The reviewer checks the penetrant system and its family, the dwell and removal steps, the surface temperature range on the day and whether materials were controlled for contaminants the specification restricts. For thin-wall stainless piping examined with digital radiography, image quality indicators, basic spatial resolution and any processing applied before interpretation are checked against the procedure. None of these leave a mark on the component, so the record is the only evidence they were done right."
+      ]
+    },
+    {
+      "h": "Mesaieed: the older industrial base to the south",
+      "p": [
+        "Mesaieed Industrial City holds plant with much longer inspection histories. QatarEnergy's refinery there was first established in 1954 and has been expanded in several phases; it can process more than 100,000 barrels of feed a day. QatarEnergy also lists four natural gas liquids plants in the industrial city, and Industries Qatar became the sole owner of the fertiliser producer QAFCO in 2020.",
+        "Long-running plants raise their own questions. A vessel examined by four contractors over two decades has four sets of templates, several procedure revisions and possibly a move from paper to a digital inspection database along the way. When an owner wants to rely on that history, for a life extension study, a change of inspection interval or a dispute, the review checks whether each record still stands up on its own and whether the series can be compared reading for reading. Gaps in the history are reported plainly, because a missing baseline is a finding in itself."
+      ]
+    },
+    {
+      "h": "Operator specifications and Qatar's radiation regulator",
+      "p": [
+        "Contracts at Ras Laffan and Mesaieed are written to the operator's own engineering specifications, which call up the international codes: ASME Section V for technique, Section VIII and B31.3 for acceptance on new construction, API 510 and API 570 for in-service equipment, and ISO weld examination standards on many packages engineered in Europe or Asia. Where the specification goes further than the code, the specification controls. We read the report against the specification set your contract names, and the opinion quotes the clause behind each finding without relying on numbers that the record does not state.",
+        "Radiation use in Qatar is licensed by the Radiation Protection Department of the Ministry of Environment and Climate Change, which reviews licence applications for radiological facilities and practices and inspects them. Radiographs from Qatari projects should therefore trace back to a radiography contractor operating under that department's licence. Atlantis does not perform radiography in Qatar; film, CR and DR images from your licensed contractor are reviewed as documents."
+      ]
+    },
+    {
+      "h": "Digital inspection data across many contractors",
+      "p": [
+        "With expansion work and operating plant running side by side, a single owner in Ras Laffan can receive digital inspection data from a dozen contractors in a dozen formats: encoded PAUT and TOFD files, CR and DR images, corrosion maps, tube data and thickness readings captured directly into a digital reporting platform. The PDF report is only the end of that chain.",
+        "The review follows the chain back. File headers are matched to the weld or location in the report, DR processing history is checked for changes after interpretation, setup and calibration files are matched to the instrument named, and template fields are checked for values carried over from a previous job. Electronic signatures are compared with the certificates valid on the date they were applied, and revision histories are read for changes made after approval. On construction projects we also check that native files stayed attached to their reports through transmittals between the yard, the EPC contractor and the owner, because a turnover dossier without its raw data is much harder to defend later."
+      ]
+    },
+    {
+      "h": "Running a review from outside Qatar",
+      "p": [
+        "Atlantis has no Doha office and no team, agent or partner in Qatar. Reviews are run from Houston and Hyderabad; Hyderabad is two and a half hours ahead of Doha, so most of your working day overlaps ours. A document and data review needs no site access, no gate pass and no travel."
+      ],
+      "list": [
+        "Describe the asset, the method, the specification and code, and the decision the record supports; we reply within one business day with a scope and a quote",
+        "Share reports, procedures, certificates, calibration records and raw digital files through a secure transfer, or through your company's own platform",
+        "The reviewer works through the seven checks and logs every finding against the clause, table or procedure step it rests on",
+        "Questions the documents cannot answer go back to you, or to the contractor with your permission",
+        "You receive a written opinion and a verdict: sound, deficient in documentation only, or deficient in disposition",
+        "If a contractor or partner disputes the opinion, the reviewer walks them through the reasoning"
+      ]
+    },
+    {
+      "h": "Who reviews, and what stays with you",
+      "p": [
+        "An ASNT NDT Level III certified in ultrasonic, radiographic, magnetic particle, penetrant and visual testing leads the review of records in those methods, supported by team members whose backgrounds are in nuclear, maritime, oil and gas and petrochemical work. Eddy current tube data and any other method outside those five goes to a reviewer the proposal names, with the certification the contract requires.",
+        "Fitness-for-service and remaining-life calculations stay with the operator's engineer, decisions on return to service stay with the owner, and the inspector of record remains whoever the inspection programme names. Atlantis reviews only records of examinations it did not perform, and personnel certification is outside the service."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have an office, inspectors or a partner in Qatar?",
+      "a": "No. Atlantis has no office, inspector or partner in Doha, Ras Laffan or anywhere else in Qatar. Reviews are carried out remotely from Houston and Hyderabad on the files you send."
+    },
+    {
+      "q": "Can you review UT reports on austenitic stainless welds from LNG piping?",
+      "a": "Yes. The reviewer checks whether the procedure and probes were demonstrated on representative stainless material and whether the scan plan proves coverage, because a carbon steel technique on an austenitic weld can produce a clean report while missing flaws."
+    },
+    {
+      "q": "We are a fabricator supplying the Ras Laffan expansion. Can you check our first package before submission?",
+      "a": "Yes. A review of the first package usually catches anything systematic, such as the wrong acceptance table or an unapproved technique, before it repeats through the rest of the scope."
+    },
+    {
+      "q": "Do you take radiographs in Qatar?",
+      "a": "No. Radiation use in Qatar is licensed by the Ministry of Environment and Climate Change. We review film, CR and DR images from your licensed radiography contractor as documents."
+    },
+    {
+      "q": "Can you check an inspection history that spans several contractors at Mesaieed?",
+      "a": "Yes. The review tests each record on its own and checks whether the series can be compared reading for reading, then reports any gaps in the history, such as a missing baseline or an untraceable change of reference point."
+    },
+    {
+      "q": "Who reviews exchanger tube data from LNG and GTL plants?",
+      "a": "A reviewer named in the proposal, holding the eddy current certification your contract specifies. The raw tube files are reopened rather than the summary table being accepted as it stands."
+    },
+    {
+      "q": "Does the opinion decide whether equipment can return to service?",
+      "a": "No. The opinion says whether the inspection data can be relied on. Return to service, fitness-for-service and remaining-life decisions stay with the owner and the owner's engineer."
+    },
+    {
+      "q": "How do we request a review from Doha?",
+      "a": "Use the form or email info@atlantisndt.com with the asset, the method, the specification and the reason for the review. You will hear from us within one business day with the scope, the reviewer and a quote."
+    }
+  ],
+  "related": [
+    ["/ndt-training-doha", "NDT training in Doha"],
+    ["/ndt-training-ras-laffan", "NDT training in Ras Laffan"],
+    ["/practical-ndt-ras-laffan", "Practical NDT simulator in Ras Laffan"],
+    ["/practical-ndt-mesaieed", "Practical NDT simulator in Mesaieed"]
+  ],
+  "sources": [
+    "https://www.qna.org.qa/en/News-Area/News/2023-09/14/0023-qatargas-changes-name-to-qatarenergy-lng",
+    "https://www.qatarenergylng.qa/About-Us",
+    "https://qatarenergy.qa/en/WhatWeDo/Pages/Refining.aspx",
+    "https://www.cpchem.com/ras-laffan-petrochemical-project",
+    "https://www.qna.org.qa/en/News-Area/News/2023-01/08/0031-qatarenergy-signs-fid-to-build-ras-laffan-petrochemicals-complex",
+    "https://thepeninsulaqatar.com/article/14/09/2020/IQ-becomes-sole-owner-of-QAFCO,-the-world%E2%80%99s-largest-single-site-urea-producer",
+    "https://qna.org.qa/en/News-Area/News/2026-4/20/radiation-protection-department-at-ministry-of-environment-a-safety-valve-first-line-of-defense-against-pollution",
+    "https://thepeninsulaqatar.com/article/20/08/2024/moecc-authorises-entities-providing-radiation-protection-services"
+  ]
+}
