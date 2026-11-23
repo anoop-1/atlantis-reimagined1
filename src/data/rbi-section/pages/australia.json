@@ -1,0 +1,192 @@
+{
+  "title": "Risk-Based Inspection in Australia: AS/NZS 3788 and API 580",
+  "description": "How state safety law, plant registration, AS/NZS 3788 and major hazard facility rules shape RBI in Australia, and how Atlantis runs remote RBI studies there.",
+  "h1": "Risk-based inspection for Australia's refineries, fuel terminals and process plants",
+  "eyebrow": "Risk-based inspection in Australia",
+  "intro": "Australian pressure equipment law sets duties and leaves the method to the owner, which gives a risk-based programme room to work but puts the burden of proof on the plant. This page is for integrity engineers and inspection coordinators at refineries, fuel import terminals and chemical plants. It explains how state and territory safety law, plant registration, AS/NZS 3788 and the major hazard facility regimes bear on risk-based inspection, where Australia's two refineries and its import terminals sit, and how Atlantis delivers an RBI study remotely, with field checks carried out by your own inspectors.",
+  "highlights": [
+    { "h": "Duties, not a fixed calendar", "p": "Australian safety law asks the owner to keep plant safe and to have it inspected by a competent person. It rarely sets an interval itself, so a documented risk basis carries real weight, and the same documents have to stand up when a regulator or insurer asks how a date was chosen." },
+    { "h": "Two refineries, many terminals", "p": "With only Geelong and Lytton still refining crude, most of the country's fuel arrives by sea and is held in coastal tank farms. Tank floors, shells and roofs therefore take a large share of the national inspection effort, and tank RBI sits at the centre of many programmes." },
+    { "h": "Three clocks, two without daylight saving", "p": "Workshops are booked in the site's own hours: Australian Eastern time in Victoria and Queensland, Western time around Perth. Queensland and Western Australia keep standard time all year, which keeps their overlap with the study team in Hyderabad steady from season to season." }
+  ],
+  "sections": [
+    {
+      "id": "au-framework",
+      "h": "Who regulates pressure equipment and hazardous sites in Australia",
+      "p": [
+        "Workplace safety in Australia is state and territory law. Most jurisdictions have adopted the national model Work Health and Safety Act and Regulations, each with its own regulator. Victoria is the main exception: it kept its Occupational Health and Safety Act 2004 and the Occupational Health and Safety Regulations 2017. Western Australia moved to its own version of the model laws in 2022 with the Work Health and Safety (General) Regulations 2022, but it still regulates dangerous goods sites, including its major hazard facilities, under a separate Dangerous Goods Safety Act 2004.",
+        "None of these laws hands an owner a fixed internal inspection date for a refinery vessel. They place a duty on whoever manages or controls plant to keep it safe, to have it inspected and maintained by a competent person, and to manage risk so far as is reasonably practicable. That is where the Australian Standards come in: AS/NZS 3788 describes how pressure equipment is inspected in service, AS 1940 sets requirements for storing flammable and combustible liquids, and an owner who departs from either should be able to explain why.",
+        "Offshore petroleum facilities in Commonwealth waters answer to NOPSEMA, the national offshore regulator, under their own safety case regime. This page deals with onshore refineries, terminals and process plants."
+      ],
+      "table": {
+        "head": ["Jurisdiction", "Safety law and regulator", "Points an RBI programme has to fit"],
+        "rows": [
+          ["Victoria", "Occupational Health and Safety Act 2004 and OHS Regulations 2017, administered by WorkSafe Victoria", "Victorian plant registration; major hazard facilities registered, then licensed for up to five years on an accepted safety case; dangerous goods storage under the Dangerous Goods (Storage and Handling) Regulations 2022"],
+          ["Queensland", "Work Health and Safety Act 2011 and Work Health and Safety Regulation 2011, administered by Workplace Health and Safety Queensland", "Boilers and pressure vessels of hazard level A, B or C registered as items; major hazard facilities licensed for up to five years, with a safety case outline due within three months of determination"],
+          ["Western Australia", "WHS (General) Regulations 2022 for plant; Dangerous Goods Safety Act 2004 for dangerous goods sites; both administered by the Department of Local Government, Industry Regulation and Safety through WorkSafe", "Item registration with WorkSafe WA that does not expire; major hazard facilities hold a dangerous goods licence and a safety report under the Dangerous Goods Safety (Major Hazard Facilities) Regulations 2007"],
+          ["New South Wales, South Australia, Tasmania and the territories", "Model WHS laws, each with its own regulator", "The model registration schedule and major hazard facility chapter, administered locally; check any local guidance before a risk-based date is relied on"],
+          ["Offshore, Commonwealth waters", "NOPSEMA", "Facility safety cases under offshore petroleum law; outside the scope of this page"]
+        ]
+      }
+    },
+    {
+      "id": "au-registration",
+      "h": "Plant registration and AS 4343 hazard levels",
+      "p": [
+        "Under the model regulations, which Queensland and Western Australia both apply, boilers and pressure vessels classed as hazard level A, B or C under AS 4343 must be registered as items, in addition to the design registration that higher-hazard pressure equipment needs. Gas cylinders, automotive LPG fuel vessels and serially produced vessels are excluded from item registration, and so is pressure piping, however large or hazardous the line. Victoria runs its own plant registration scheme under the 2017 OHS Regulations to much the same purpose.",
+        "Registration records that a vessel was designed and built to a recognised standard and who is responsible for it. It is not an inspection plan. In Western Australia an item registration with WorkSafe WA never expires, so nothing in the registration process prompts the next internal examination. The RBI register should still carry each item's registration number and hazard level, because the hazard level is a useful screen on consequence and because an auditor will want to trace every registered vessel to an inspection decision.",
+        "Piping is the obvious gap. Process piping is not registrable, yet piping failures feature regularly in loss-of-containment investigations, and the general duty to keep plant safe applies to it in full. A risk-based programme is often the only document that gives piping circuits, injection points, dead legs and small-bore connections an explicit inspection basis, which is one reason Australian owners tend to extend RBI from vessels to piping early."
+      ]
+    },
+    {
+      "id": "as-3788",
+      "h": "AS/NZS 3788 and risk-based intervals",
+      "p": [
+        "AS/NZS 3788 is the Australian and New Zealand standard for in-service inspection of pressure equipment. Its 2024 edition, published by Standards Australia as AS 3788:2024 and listed as AS/NZS 3788:2024 since a 2025 amendment, replaced the long-running 2006 edition. The foreword lists a revision of the inspection requirements, including those for risk-based inspection, among the major changes, and the standard is organised around choosing an inspection strategy and then determining the inspection date or interval, with time-based intervals as one of the routes.",
+        "In practice an owner can run equipment on dates that follow from a documented assessment of damage and consequence rather than from a nominal table, provided the assessment is done properly, by competent people, and kept current. We do not reproduce the clause text here, and owners should read the edition their insurer and regulator rely on. Some sites still have procedures written against the 2006 edition, and moving them across is a sensible moment to restate the RBI method as well.",
+        "API RP 580 and API RP 581 sit comfortably beside the Australian Standard. Many refiners and terminal operators here already inspect to API 510, API 570 and API 653 inside a programme that satisfies AS/NZS 3788, and an RBI study can be written to show both: the API method behind each probability and consequence, and the Australian obligations each interval has to respect. The 2024 edition also deals with fitness for service; when inspection finds damage that needs that kind of assessment, it stays with the owner's engineer, because Atlantis does not provide fitness-for-service assessments."
+      ]
+    },
+    {
+      "id": "au-mhf",
+      "h": "Major hazard facilities: RBI as evidence in the safety case",
+      "p": [
+        "Refineries, larger fuel terminals and many chemical plants hold enough hazardous material to be major hazard facilities. Each state requires the operator to notify the regulator once holdings pass a fraction of the threshold quantity, to go through a determination, and then to operate under a licence backed by a safety case, which Western Australia calls a safety report. Victorian and Queensland licences run for up to five years before renewal.",
+        "A safety case has to show how the operator identifies major incidents, assesses them and justifies the controls it relies on. Mechanical integrity of vessels, piping and tanks is one of those controls in almost every loss-of-containment scenario, so the inspection programme is part of what the regulator examines. An RBI study helps in two ways: it ties inspection effort to the same release scenarios the safety case describes, and it gives a written reason for each interval that a regulator's inspector can follow during a site visit.",
+        "The study should therefore use consequence cases that match the safety case rather than a generic consequence model run in isolation. Where the two disagree, for example where the RBI model treats a release as minor but the safety case lists it as a major incident, the difference is raised in the report so the owner can decide which needs correcting before the next licence renewal is lodged."
+      ]
+    },
+    {
+      "id": "au-tanks",
+      "h": "Storage tanks: AS 1940 for the installation, API 653 for the inspection",
+      "p": [
+        "AS 1940, currently the 2017 edition with its amendments, governs how flammable and combustible liquids are stored and handled: separation distances, bunding, fire protection and operating controls. Fuel terminal owners usually treat it as the baseline their dangerous goods regulator will assess against, whether under Victoria's Dangerous Goods (Storage and Handling) Regulations 2022 or the equivalent rules in other states. AS 1940 describes what a safe installation looks like; it does not offer a risk-based method for deciding when a tank comes out of service for internal inspection.",
+        "For in-service inspection most Australian terminal and refinery tank programmes follow API 653. Its alternative internal inspection interval lets an RBI assessment carried out to API RP 580 set the out-of-service date, provided the assessment is validated and reviewed at least every ten years; in the current edition the RBI intervals after that carry no fixed year limit of their own. That route is how most Australian owners move a tank farm onto risk-based dates.",
+        "Because so much of the country's fuel is imported and held in coastal terminals, tank RBI here carries particular weight. Floors on sandy coastal ground, product-side corrosion under water bottoms, salt-laden air on shells and roofs, and cathodic protection that may have been added long after a tank was built all change the probability side of the assessment, and the data request names each of them."
+      ]
+    },
+    {
+      "id": "au-supply",
+      "h": "Two refineries and an import-dependent supply chain",
+      "p": [
+        "Australia now refines crude at only two sites: Viva Energy's Geelong refinery on Corio Bay in Victoria and Ampol's Lytton refinery near the mouth of the Brisbane River in Queensland. In March 2026 the federal government extended the Fuel Security Services Payment, which supports both refineries when margins fall, to 30 June 2030. Much of the country's demand is met with refined product brought in through import terminals, among them the former BP refinery at Kwinana south of Perth, which was converted into a fuel import terminal in 2021.",
+        "That structure shapes what RBI is used for. At the two refineries the study looks like refinery RBI anywhere, with crude, conversion, treating and hydroprocessing loops, set against long run lengths between shutdowns. At the terminals the register is dominated by large tanks, transfer piping and marine loading lines, and the useful question is usually which tanks to take out of service next. Chemical and fertiliser plants, such as those in the Kwinana Industrial Area, bring a different set of mechanisms again."
+      ],
+      "table": {
+        "head": ["Hub", "What is there", "What usually drives the risk ranking"],
+        "rows": [
+          ["Geelong, Victoria", "Viva Energy's refinery on Corio Bay and its crude and product storage", "Residue cracking and crude unit circuits, sour water and treating systems, bay atmosphere on tanks and piping, equipment held out of service"],
+          ["Brisbane and Lytton, Queensland", "Ampol's Lytton refinery, fuel terminals on the lower Brisbane River and the port precinct", "Overhead and hydroprocessing salt corrosion, CUI in subtropical humidity, floating roof drainage in summer storms, low-lying riverside ground"],
+          ["Kwinana, Western Australia", "BP's import terminal on the former refinery site, with chemical, fertiliser and lithium hydroxide plants nearby", "Tank floors and repurposed tankage, ammonia and nitric acid service, new plant without inspection history, hot dry summers and sea breeze"]
+        ]
+      },
+      "links": [
+        ["/inspection/risk-based-inspection/geelong", "Geelong, Victoria"],
+        ["/inspection/risk-based-inspection/brisbane-lytton", "Brisbane and Lytton, Queensland"],
+        ["/inspection/risk-based-inspection/kwinana", "Kwinana, Western Australia"]
+      ]
+    },
+    {
+      "id": "au-scopes",
+      "h": "What Australian owners typically ask an outside RBI team for",
+      "p": [
+        "Requests tend to follow a licence renewal, a change of ownership or a gap the existing programme has exposed. The usual starting points are these."
+      ],
+      "list": [
+        "Restating a vessel and piping RBI programme against the 2024 edition of AS/NZS 3788, so the procedure, the method and the interval rules all refer to the current standard",
+        "Aligning RBI consequence cases with the major incidents in the safety case or safety report ahead of a licence renewal",
+        "Ranking an import terminal's tanks so out-of-service inspections and floor scans go first where condition and consequence justify it",
+        "Extending an existing programme from registered vessels to unregistered process piping, including small-bore connections and dead legs",
+        "Assessing equipment taken out of service or isolated for a long period, and setting what must be inspected before it returns",
+        "Building a first register for a newly commissioned plant from design data and baseline inspection where no service history exists",
+        "Checking a register inherited from a previous operator, so the new owner knows which intervals it can rely on and which need fresh evidence"
+      ]
+    },
+    {
+      "id": "au-remote",
+      "h": "Running a study across Australian time zones",
+      "p": [
+        "The study starts in a shared data room: P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, registration records, inspection and thickness history, process chemistry and the integrity operating windows the site runs to. A data-gap log is issued before workshops begin, so the site sees early which missing records will force conservative assumptions.",
+        "Three standard time zones matter for this work. Victoria runs on Australian Eastern Standard Time, ten hours ahead of UTC, and moves to daylight time from October to April. Queensland uses the same Eastern time but keeps it all year. Western Australia runs on Australian Western Standard Time, eight hours ahead of UTC, with no daylight saving. Hyderabad is four and a half hours behind Brisbane and two and a half hours behind Perth, so an afternoon workshop in Queensland starts in the Hyderabad morning, and a Perth session can sit almost anywhere in the Hyderabad working day. Houston's late afternoon overlaps the start of the eastern Australian working day for short follow-up calls.",
+        "Corrosion loops and damage mechanisms are assigned to API 571 and tested in video workshops with your process, operations, corrosion and inspection people. Probability and consequence are worked at the level the scope needs, from a qualitative screen to a quantitative assessment to API RP 581 or your corporate RBI standard, and each item receives a plan with method, coverage, expected effectiveness and due date. The study itself needs no travel; walkdowns and data verification are done by your own inspectors or the inspection contractor you already use, working from a verification list that states what to check and to what coverage."
+      ]
+    },
+    {
+      "id": "au-approval",
+      "h": "Competent persons and who accepts the plan",
+      "p": [
+        "Australian law gives the inspection decision to a competent person, and the owner's procedure names who that is for each class of equipment: often an in-house inspection engineer, sometimes an inspection body engaged by the owner or required by the insurer. The RBI study proposes intervals and tasks with their reasoning. It does not accept them, and Atlantis does not act as inspector of record or as a registered inspection body in any Australian state or territory.",
+        "Inspection results return to the register as they arrive. A new finding reopens the assessment for that item and for others in the same corrosion loop, and the next due dates move with the evidence. The report also lists the events that should trigger reassessment between scheduled reviews: an operating window excursion, a change of crude or product, a repair or alteration, a change in an item's registration or hazard level, and a revision of the safety case."
+      ]
+    }
+  ],
+  "codes": [
+    "AS/NZS 3788:2024 (pressure equipment, in-service inspection)",
+    "AS 4343 (pressure equipment hazard levels)",
+    "AS 1940:2017 (storage and handling of flammable and combustible liquids)",
+    "API RP 580 and API RP 581 (risk-based inspection)",
+    "API RP 571 (damage mechanisms)",
+    "API 510, API 570 and API 653",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "Model WHS Regulations, Schedule 5 (registrable plant)",
+    "Victorian OHS Regulations 2017 and Dangerous Goods (Storage and Handling) Regulations 2022",
+    "WA Dangerous Goods Safety (Major Hazard Facilities) Regulations 2007"
+  ],
+  "deliverables": [
+    "RBI register with corrosion loops, damage mechanisms, probability, consequence and risk for each item",
+    "Inspection plan per item with method, coverage, expected effectiveness and due date",
+    "Registration number and AS 4343 hazard level recorded against each registered item",
+    "Comparison of RBI consequence cases with the safety case or safety report",
+    "Data-gap log and field verification list for the owner's inspectors",
+    "Method statement and reassessment triggers written against AS/NZS 3788:2024"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Fuel import terminals",
+    "Chemicals and fertilisers",
+    "Lithium and mineral processing",
+    "Gas processing",
+    "Bulk liquid storage"
+  ],
+  "faqs": [
+    { "q": "Is risk-based inspection a legal requirement in Australia?", "a": "No Australian jurisdiction requires RBI by name. The law requires plant to be kept safe and inspected by a competent person, and it requires major hazard facilities to show that their controls are adequate. RBI is one way of meeting those duties with a documented reason for every interval. For a refinery or a large terminal it is often the most practical way, because a fixed calendar either over-inspects low-risk equipment or leaves a high-risk item waiting." },
+    { "q": "Does AS/NZS 3788 allow intervals set by risk?", "a": "The 2024 edition revised its inspection requirements, including those for risk-based inspection, and asks the owner to select an inspection strategy and determine inspection dates within it, with time-based intervals as one route. Read the clauses in the edition your insurer and regulator rely on before adopting extended dates, and make sure the method, the competent person and the review cycle are written into your inspection procedure." },
+    { "q": "Does registering a pressure vessel set its inspection date?", "a": "No. Design and item registration record that the equipment was designed and built to a recognised standard and who is responsible for it, and in Western Australia an item registration does not expire. The inspection date comes from the owner's inspection programme, which is where an RBI assessment sits. The register should record each item's registration number and hazard level alongside its plan." },
+    { "q": "How does an RBI study support a major hazard facility licence renewal?", "a": "Mechanical integrity is a control in most major incident scenarios, so the regulator looks at how inspection is planned. A study whose consequence cases match the safety case, and whose intervals each carry a written basis, gives the operator clear evidence that inspection effort follows the hazards. Differences between the RBI model and the safety case are listed so they can be resolved before the renewal is lodged." },
+    { "q": "Can RBI set out-of-service dates for tanks at an Australian fuel terminal?", "a": "Usually, through API 653's alternative internal inspection interval, which relies on an RBI assessment to API RP 580 that is validated and reviewed at least every ten years. AS 1940 governs the installation and how it is operated rather than internal inspection timing. Check whether a licence condition or company standard fixes an interval for particular tanks; where one does, the plan flags it." },
+    { "q": "Does anyone from Atlantis need to travel to Australia for the study?", "a": "No. The study is delivered remotely from your records, historian data and video workshops, and it needs no travel. Field checks are done by your own inspectors or your inspection contractor: insulation and coating condition, injection point locations, floor scan coverage and any extra thickness readings the data-gap log asks for. Their results are loaded into the register and the affected items are reassessed." },
+    { "q": "When do the workshops run?", "a": "In the site's own hours. For Victorian and Queensland sites that means Australian Eastern time, with Victoria an hour further ahead during daylight saving; for Perth and Kwinana it means Western time. Sessions are kept short so operators and inspectors can attend between shift duties, and document review continues in Hyderabad and Houston between them." },
+    { "q": "Who signs off the risk-based intervals?", "a": "The competent person your procedure names, which may be your own inspection engineer or an inspection body engaged by you or your insurer. The study proposes each interval with its reasoning and the code limits it respects; Atlantis does not approve intervals. Decisions on continued operation after damage is found stay with your engineer, and the register is updated once they are made." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/inspection/risk-based-inspection/singapore", "RBI in Singapore"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection support"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "AS 3788:2024 Pressure equipment: In-service inspection, approved 25 May 2024, published 28 June 2024, supersedes AS/NZS 3788:2006; foreword lists 'Revision of inspection requirements including risk-based inspection'; contents include selecting the inspection strategy, determining the inspection date or interval, time-based inspection intervals", "url": "https://www.intertekinform.com/preview/1569218984991.pdf" },
+    { "fact": "Listed as AS/NZS 3788:2024 with Amendment 1:2025 (front cover, title page and preface); scope covers in-service inspection and fitness for service of pressure equipment", "url": "https://webstore.ansi.org/standards/sai/nzs37882024amdt2025" },
+    { "fact": "AS/NZS 3788:2024 scope: minimum requirements for in-service inspection and fitness for service of pressure and associated equipment", "url": "https://webstore.ansi.org/standards/sai/nzs37882024" },
+    { "fact": "WA Department of Local Government, Industry Regulation and Safety formed 1 July 2025; its WorkSafe Group oversees dangerous goods safety legislation including the State's major hazard facilities", "url": "https://www.wa.gov.au/organisation/department-of-local-government-industry-regulation-and-safety/about-the-department-of-local-government-industry-regulation-and-safety" },
+    { "fact": "WA MHFs: Dangerous Goods Safety (Major Hazard Facilities) Regulations 2007; Chief Dangerous Goods Officer determines status; MHF needs a dangerous goods licence; safety report", "url": "https://www.worksafe.wa.gov.au/when-dangerous-goods-site-also-major-hazard-facility-mhf" },
+    { "fact": "WA item registration under WHS (General) Regulations 2022 Schedule 5: boilers and pressure vessels hazard level A, B or C to AS 4343:2014; pressure piping, gas cylinders, automotive LPG vessels and serially produced vessels excluded; registration with WorkSafe WA does not expire", "url": "https://www.wa.gov.au/government/multi-step-guides/plant-and-design-registration/item-of-plant-registration" },
+    { "fact": "Queensland WHS Regulation 2011 Schedule 5 Part 2 registrable plant: pressure vessels and boilers hazard level A, B or C under AS 4343:2014; pressure piping excluded", "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/plant-registration/what-type-of-plant-requires-registration" },
+    { "fact": "Queensland MHFs regulated by Workplace Health and Safety Queensland under WHS Regulation 2011; licences up to five years; safety case outline within three months of determination; notify above 10% of Schedule 15 threshold; up to 24 months to apply for licence", "url": "https://worksafe.qld.gov.au/safety-and-prevention/hazards/workplace-hazards/major-hazard-facilities-mhf/major-hazard-facilities-regulation" },
+    { "fact": "Victoria MHFs: notify WorkSafe above 10% of Schedule 14 threshold (reg 360); registration; safety case under Part 5.2 of the OHS Regulations 2017; licence valid up to five years", "url": "https://www.worksafe.vic.gov.au/major-hazard-facility-notification-registration-and-licence" },
+    { "fact": "Victorian Dangerous Goods (Storage and Handling) Regulations 2022 in force", "url": "https://www.legislation.vic.gov.au/in-force/statutory-rules/dangerous-goods-storage-and-handling-regulations-2022" },
+    { "fact": "AS 1940:2017 current, with Amendment 2 (2021)", "url": "https://store.standards.org.au/product/as-1940-2017-amd-2-2021" },
+    { "fact": "Fuel Security Services Payment extended to 30 June 2030 (announced 20 March 2026), covering Ampol Lytton and Viva Energy Geelong", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2803693-australia-extends-subsidy-plan-for-refiners-to-2030" },
+    { "fact": "BP Kwinana refinery converted into a fuel import terminal in 2021", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/020425-bp-puts-the-brakes-on-australias-kwinana-biofuels-project" },
+    { "fact": "Geelong refinery operating in 2026 (RCCU and associated units returning to service June 2026)", "url": "https://announcements.asx.com.au/asxpdf/20260623/pdf/070x821h436k83.pdf" },
+    { "fact": "Lytton refinery operating in 2026, 109,000 b/d near Brisbane", "url": "https://www.argusmedia.com/de/news-and-insights/latest-market-news/2803760-australia-s-ampol-to-delay-lytton-refinery-turnaround" }
+  ]
+}

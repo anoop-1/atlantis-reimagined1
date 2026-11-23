@@ -1,0 +1,177 @@
+{
+  "title": "RBI on Jurong Island and Pulau Bukom: Refining and Chemicals",
+  "description": "Risk-based inspection for Jurong Island and Pulau Bukom refineries, crackers and chemical units: shared pipelines, insulated stainless and the safety case.",
+  "h1": "Risk-based inspection for the plants of Jurong Island and Pulau Bukom",
+  "eyebrow": "Risk-based inspection in Singapore",
+  "intro": "Jurong Island and Pulau Bukom hold most of Singapore's refining and petrochemical plant: crude units, steam crackers, oxides and glycols, aromatics, polymers and the utilities that feed them, all within a few kilometres of each other and joined by pipelines that cross company boundaries. This page is for the inspection, integrity and process safety people at those sites. It explains how an RBI study handles an island where one operator's equipment feeds another's, which damage mechanisms the unit mix and the climate push up the register, how RBI evidence supports the safety case, and how Atlantis delivers the study remotely.",
+  "highlights": [
+    { "h": "Boundaries drawn first", "p": "Lines that leave one operator's fence and enter another's, shared racks and bought-in utilities are mapped before any risk is calculated, so the register says who owns each segment, whose data it rests on and whose inspector approves its plan." },
+    { "h": "Timed to the safety case", "p": "MOM expects a major hazard installation to revise its safety case every five years and after significant change. The RBI revalidation can be scheduled to land ahead of that revision, so the two documents describe the same equipment, the same scenarios and the same barriers." },
+    { "h": "Stainless steel screened on its own", "p": "Insulated austenitic stainless steel in oxide, glycol and aromatics service is ranked for external chloride cracking as a separate population with its own techniques, instead of being folded into a corrosion under insulation category written for carbon steel." }
+  ],
+  "sections": [
+    {
+      "id": "island-layout",
+      "h": "An island assembled for process plant",
+      "p": [
+        "Jurong Island was formed by joining seven small islands off the south-western coast of the Singapore mainland into one landmass of about 3,000 hectares. JTC Corporation, which developed it, counts more than a hundred energy and chemicals companies there, among them ExxonMobil, BASF, Sumitomo, Chevron Oronite and Mitsui Chemicals. Pulau Bukom lies to the east and carries a refinery and a steam cracker of its own, joined to sister plants on Jurong Island by a subsea pipeline about five kilometres long.",
+        "The island was planned so that companies could share what a standalone plant would otherwise build for itself. JTC describes more than 100 kilometres of pipelines serving its shared infrastructure, and steam, power, industrial gases, cooling water, storage and jetty capacity are commonly bought from neighbours or utility providers rather than produced inside each fence. That integration is the island's commercial strength. For inspection planning it means that an item's consequence of failure, and sometimes its probability, depends on plants its owner does not control.",
+        "The refineries, crackers and larger chemical plants are the kind of installation Singapore's major hazard regime was written for, and they are far too large for any turnaround to open everything. Both facts argue for risk-based planning. The integration decides how the study has to be organised."
+      ]
+    },
+    {
+      "id": "bukom-aster",
+      "h": "Pulau Bukom and the Aster park since April 2025",
+      "p": [
+        "On 1 April 2025 Shell completed the sale of its Singapore energy and chemicals park to CAPGC, a joint venture in which Chandra Asri holds 80 percent and Glencore 20 percent. The assets sit in Aster Chemicals and Energy, now the formal operator: the 237,000 barrel-per-stream-day refinery and the ethylene cracker on Pulau Bukom, and chemical units at two Jurong Island locations, Seraya, with propylene oxide, styrene monomer, mono-propylene glycol and polyols, and Merbau, with ethylene oxide, ethoxylates and monoethylene glycol.",
+        "For the inspection department a change of owner is quieter than it sounds when, as here, the operator keeps the existing workforce. What changes is the framework around those people: the corporate engineering standards, the RBI procedure and its risk matrix, the software licences that held the models, and the line of authority for approving intervals. Each of those can leave with a seller, and each has to be replaced or re-licensed for the programme to keep running under the new name.",
+        "Two sites also raise a boundary question that a single-site refinery never meets. A pipeline running under the sea between islands is normally managed under pipeline integrity practice rather than plant piping rules. The RBI study records where plant piping ends and pipeline begins at each landfall, which programme owns the line between those points, and how a leak on it would affect the plants at either end."
+      ]
+    },
+    {
+      "id": "unit-risk",
+      "h": "What tends to rank highest, unit by unit",
+      "p": [
+        "The island's plants cover most of the process families a risk register can hold. The table summarises where risk usually concentrates in each, as a starting point for the damage mechanism workshops rather than a substitute for them.",
+        "Fired heater coils and steam cracker radiant tubes usually sit in a dedicated furnace programme under API 530 and API 573 rather than in the RBI model, and the study records that hand-off so nothing falls between the two. Boilers and receivers registered with MOM keep their statutory examinations whatever their risk ranking."
+      ],
+      "table": {
+        "head": ["Unit family", "Items that usually carry the risk", "Mechanisms to screen first"],
+        "rows": [
+          ["Crude, vacuum and residue upgrading", "Furnace outlets, transfer lines, vacuum column bottoms, overhead systems", "High-temperature sulfidation, naphthenic acid corrosion where the crude slate brings it, overhead chloride and ammonium salt corrosion"],
+          ["Hydroprocessing", "Reactor effluent trains, air coolers, separators, recycle gas and amine systems", "Ammonium bisulfide and ammonium chloride corrosion, wet hydrogen sulfide cracking, high-temperature hydrogen attack in susceptible steels"],
+          ["Steam crackers", "Quench towers, dilution steam systems, caustic wash towers, cold box and demethaniser equipment", "Quench water and dilution steam corrosion, caustic cracking, low-temperature embrittlement after depressuring, thermal fatigue"],
+          ["Oxides, glycols and styrene", "Hot carbonate carbon dioxide removal systems, reactors and coolant circuits, high-temperature dehydrogenation equipment, stainless columns", "Carbonate cracking of carbon steel, creep and thermal fatigue at high temperature, external chloride cracking of insulated stainless steel"],
+          ["Polymers and specialty chemicals", "Reactors, purge and recovery systems, solvent and monomer storage", "Mostly mild service suited to longer intervals, with exceptions for corrosive catalysts, solvents and chlorides"],
+          ["Utilities and seawater systems", "Seawater intakes and cooling exchangers, boilers, steam and condensate networks, nitrogen and fuel gas headers", "Microbiologically influenced corrosion, under-deposit attack, erosion, condensate corrosion"],
+          ["Jetties and interconnecting lines", "Loading arms, jetty headers, racks crossing roads and plot boundaries", "Atmospheric corrosion in spray zones, corrosion at pipe supports, corrosion under insulation on heated product lines"]
+        ]
+      }
+    },
+    {
+      "id": "shared-lines",
+      "h": "Pipelines, racks and utilities shared across fence lines",
+      "p": [
+        "On an integrated island the question of who owns a pipe is not academic. A feed line may belong to the supplier up to a metering station and to the receiver after it, a rack may carry lines belonging to several companies on steelwork owned by a third, and a utility header may serve a dozen plots. When an RBI study stops at the operator's property line without saying so, the segments beyond it end up with no plan at all, or are assumed to be someone else's responsibility when they are not.",
+        "The study therefore opens with a boundary register: every line that crosses the operator's fence, the owner of each segment, the documented demarcation point and the programme that covers it. Segments the operator owns go into the RBI model in the ordinary way. Segments owned by others are listed with the agreement or contact that governs them, so the operator can show that its end of each interface is managed even where the far end is not its to inspect.",
+        "Consequence modelling changes too. A release from a shared rack can reach people and equipment in a neighbouring plant, and the loss of a bought-in utility can stop units that have no leak of their own. Consequence ratings allow for neighbouring occupancy, and the business consequence of each utility and feed line reflects what actually stops when it fails."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"]
+      ]
+    },
+    {
+      "id": "stainless-under-insulation",
+      "h": "Insulated stainless steel in salt air and equatorial heat",
+      "p": [
+        "Carbon steel corrosion under insulation is familiar on every Singapore site, and the country page sets out the general picture. Island chemical plants add a second population that deserves its own treatment: austenitic stainless steel piping and vessels in oxide, glycol, aromatics and polymer service, insulated for heat conservation or personnel protection. When chlorides reach their outer surface under wet insulation and the metal is warm enough, they can crack it from the outside in without measurable wall loss, and a thickness survey will not find the damage.",
+        "API 571 associates external chloride stress corrosion cracking of austenitic stainless steel mainly with metal temperatures from about 60 °C upward. Chlorides arrive in sea salt carried by the wind, in fire water and deluge testing, in leachate from unsuitable insulation and in rainwater entering damaged cladding. Duplex grades resist the mechanism better than 300-series stainless, and insulation intended for austenitic stainless steel is specified with limits on leachable chlorides, for example to ASTM C795, but neither removes the need to know where the risk sits.",
+        "The study ranks these items by operating temperature and cycling, insulation type and age, cladding condition, any coating under the insulation, exposure to spray or deluge, and repair history. High-ranked items get targeted insulation removal and penetrant examination of exposed welds and heat-affected zones; low-ranked items keep visual surveillance of the cladding. The plan also names stainless items that normally run cool but pass through the susceptible range during start-up, shutdown or steam-out, which a screen based on design temperature alone tends to miss."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/standards/api-571", "API 571 damage mechanisms"],
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"]
+      ]
+    },
+    {
+      "id": "safety-case-fit",
+      "h": "RBI evidence inside an island-wide safety case",
+      "p": [
+        "MOM's Major Hazards Department assesses safety cases and can verify them on site. Its guidance asks each installation to revise its safety case every five years, and sooner when there is new knowledge or a modification, with significant changes notified to the department and the cumulative effect of minor changes considered at each review. The case is organised around major accident scenarios and the safety critical events that lead to them, together with a demonstration that risk is as low as reasonably practicable.",
+        "Mechanical integrity sits underneath many of those scenarios, because most of them start with a loss of containment. An RBI register can be mapped to them directly: each item that takes part in a major accident scenario carries a flag, its consequence rating is checked against the scenario's description, and its inspection plan becomes the evidence that the containment barrier is maintained. When an interval is lengthened on a flagged item, the change is visible to whoever prepares the next revision.",
+        "Timing matters as much as content. A revalidated register that arrives a few months before the five-yearly revision gives the safety case team current damage mechanisms, current inspection effectiveness and an honest list of data gaps. Many small interval changes made between revisions can also add up to a material change in how a barrier is maintained, which is the cumulative effect the guidance asks installations to weigh, so the study keeps a log of every interval it changes and the reason for it."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"]
+      ]
+    },
+    {
+      "id": "island-turnarounds",
+      "h": "Turnaround windows when the neighbours are shutting down too",
+      "p": [
+        "A turnaround on Jurong Island is never planned in isolation. A cracker outage takes feedstock away from downstream plants, a refinery outage changes what moves through shared lines and jetties, and every major shutdown draws on the same pool of scaffolders, insulators, inspection contractors and specialist NDT crews. Operators coordinate where they can, but the contractor market is finite, and a scope that grows late is the one that gets squeezed.",
+        "An RBI plan helps by making the outage scope smaller and settling it earlier. Each task is classed as shutdown-only, because it needs entry, isolation or access that only an outage provides; on-stream, because an external technique such as ultrasonic thickness work or corrosion mapping can do it with the unit running; or deferrable, because the item's risk will still be within target at the next window. Moving on-stream work ahead of the outage reduces peak demand on the contractor pool, and the shutdown-only list is fixed in time for scaffold and insulation planning.",
+        "A neighbour's outage can also change the operating envelope of a shared line, for example by leaving it idle and full of stagnant product for weeks, and the line's damage mechanisms can change with it. The plan lists such conditions as reassessment triggers, so that a lay-up arranged by somebody else does not quietly invalidate an interval."
+      ],
+      "links": [
+        ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"]
+      ]
+    },
+    {
+      "id": "island-remote-study",
+      "h": "Organising the study without travelling to the island",
+      "p": [
+        "Visits to island plants need passes, inductions and escorts arranged in advance, and the study avoids all of that. Drawings, datasheets, inspection histories and process data come through a data room the operator controls, workshops are held by video, and anything that has to be seen on the plant is written into a verification list for the operator's own inspectors or its inspection contractor. Their findings return to the model before the plan is issued.",
+        "For an operator with plants at several island locations, the data request is arranged by site and by unit so that each plot's documents stay with the people who know them. Workshops are booked in the Singapore late morning and afternoon, inside the Indian working day in Hyderabad, and review work continues from Houston while Singapore sleeps, so a question raised in one session usually has an answer by the next. The study is delivered remotely from the first data request to the final report.",
+        "Deliverables are written to load into the operator's existing inspection data system or RBI software, with every interval traceable to the inputs and assumptions behind it, so the inspection department can carry the programme forward without the study team."
+      ]
+    },
+    {
+      "id": "island-approval",
+      "h": "Approval, statutory items and damage beyond the code",
+      "p": [
+        "Intervals in the plan take effect only when the operator's inspector of record or inspection authority approves them under its mechanical integrity procedure. Steam boilers, air and steam receivers and other vessels registered with MOM keep the examination dates the regulations set and the Authorised Examiner who examines them; the study lists them and supplies their damage mechanism basis but does not move their dates. Atlantis does not act as inspector of record and does not examine registered pressure vessels.",
+        "Where inspection reveals damage beyond the construction code's acceptance limits, the engineering assessment that follows belongs to the operator's engineer. Atlantis does not perform fitness-for-service assessments; once the engineer's conclusion is known, the item's risk and plan are updated to match it."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API RP 584 (integrity operating windows)",
+    "API 510 and API 570",
+    "API 530 and API 573 (fired heater tubes and fired heater inspection)",
+    "ASTM C795 (thermal insulation for use over austenitic stainless steel)",
+    "Workplace Safety and Health (Major Hazard Installations) Regulations",
+    "Workplace Safety and Health (General Provisions) Regulations (registered pressure vessels)"
+  ],
+  "deliverables": [
+    "Boundary register of every line crossing the operator's fence, with segment owners and demarcation points",
+    "RBI register with damage mechanisms, probability, consequence and risk, and a flag on items in major accident scenarios",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Ranked population of insulated austenitic stainless steel with an examination plan",
+    "Turnaround task classification: shutdown-only, on-stream and deferrable",
+    "Log of interval changes and their reasons for the next safety case revision",
+    "Data-gap log, verification list for the operator's inspectors and reassessment triggers"
+  ],
+  "industries": [
+    "Refining",
+    "Steam cracking and olefins",
+    "Oxides, glycols and chemical intermediates",
+    "Polymers and specialty chemicals",
+    "Utilities and industrial gases",
+    "Jetties and interconnecting pipelines"
+  ],
+  "faqs": [
+    { "q": "Should lines shared with a neighbouring plant be in our RBI register?", "a": "Yes, at least up to the demarcation point. Segments you own are assessed like any other piping circuit. Segments owned by others are listed in a boundary register with the agreement or contact that governs them, so your programme shows that every interface it touches is either inspected by you or managed by someone named. Consequence ratings for your own segments allow for the neighbour's people and equipment close by." },
+    { "q": "How is a subsea line between two of our sites handled?", "a": "As a boundary item first. The study records where plant piping ends and pipeline begins at each landfall, which integrity programme owns the line between those points, and what a leak would mean for the plants at both ends. Onshore piping up to each landfall goes into the RBI model; the subsea section normally follows the operator's pipeline integrity management, which the register cross-references rather than duplicates." },
+    { "q": "Can RBI lengthen inspection intervals in a steam cracker?", "a": "In parts of it, where the inspection history supports it. Cold-section equipment in clean, dry service and much of the downstream fractionation often shows little degradation and can carry longer intervals within code limits. Quench systems, dilution steam, caustic towers and equipment exposed to low-temperature excursions usually need closer attention. Radiant coils are normally managed by the furnace programme, and the register shows where that programme takes over." },
+    { "q": "How does the RBI study support our five-yearly safety case revision?", "a": "By flagging every item that takes part in a major accident scenario, reconciling its consequence rating with the scenario description, and logging every interval change with its reason. Delivered a few months before the revision, a revalidated register gives the safety case team current damage mechanisms, current inspection effectiveness and an honest data-gap list, and lets them judge the cumulative effect of the interval changes made since the last revision." },
+    { "q": "Why treat insulated stainless steel separately from carbon steel CUI?", "a": "Because the damage and the way to find it are different. Carbon steel under wet insulation loses wall thickness, which screening and thickness techniques can locate. Austenitic stainless steel can crack from chlorides on its outer surface with no measurable thinning, so thickness data say nothing about it. The study ranks those items on their own drivers and plans surface examination of exposed welds wherever the ranking is high." },
+    { "q": "We kept the plant but changed owner. Does the RBI model survive?", "a": "The engineering usually does; the framework around it may not. Corporate standards, the risk matrix, the RBI procedure and software licences can leave with the seller. The study takes the exported registers and inspection histories, re-bases them on the new owner's procedure, grades how much of the inherited inspection record can still be credited, and lists anything that was lost in the transfer." },
+    { "q": "When should an RBI study start relative to a turnaround?", "a": "Early enough that its shutdown-only task list is settled before scaffold, insulation and contractor plans are frozen, which means finishing the risk assessment well ahead of scope freeze and leaving the plant time to review the plan. Work that external techniques can do on stream then moves ahead of the outage, which eases demand on contractors that every operator on the island is competing for." },
+    { "q": "Does the study need anyone on Jurong Island or Pulau Bukom?", "a": "No. The engineering runs from documents and video workshops, and the study needs no travel or island passes. Anything that must be seen on the plant, from cladding damage to whether a dead leg still exists, is listed for your own inspectors or your inspection contractor, and their results are fed into the assessment before the register is issued." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/singapore", "RBI in Singapore"],
+    ["/inspection/risk-based-inspection/singapore-tank-terminals", "RBI for Singapore's independent tank terminals"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/standards/api-583", "API 583 explained"],
+    ["/standards/api-584", "API 584 and integrity operating windows"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Shell completed the sale of its Singapore energy and chemicals park on 1 April 2025 to CAPGC (Chandra Asri Capital 80%, Glencore 20%); assets held in Aster Chemicals and Energy Pte Ltd, now the formal operator keeping the existing workforce; 237,000 b/sd Bukom refinery and 1.161 Mtpa Bukom ethylene cracker; Jurong Island units at Seraya (MPG, polyols, PO, SM) and Merbau (EO, ethoxylates, MEG); Bukom and Jurong Island linked by a 5-km subsea pipeline", "url": "https://www.ogj.com/general-interest/companies/article/55279025/shell-concludes-sale-of-singapore-downstream-refining-chemicals-park" },
+    { "fact": "Jurong Island combines seven small islands into about 3,000 hectares; over 100 energy and chemicals companies including ExxonMobil, BASF, Chevron Oronite, Mitsui Chemicals and Sumitomo; over 100 km of pipelines serving shared infrastructure (JTC, 25th anniversary release)", "url": "https://www.jtc.gov.sg/about-jtc/news-and-stories/press-releases/jurong-island-celebrates-25-years" },
+    { "fact": "MOM Major Hazards Department assesses safety cases and may verify on site; safety case revised every 5 years and on new knowledge or modification; significant changes notified to MHD; reviews cover the cumulative effect of minor changes; major accident scenarios, safety critical events and ALARP demonstration", "url": "https://www.mom.gov.sg/maintenance/workplace-safety-and-health/major-hazard-installations/preparing-for-safety-case" },
+    { "fact": "MOM registered pressure vessels (steam boilers, air and steam receivers) examined by Authorised Examiners at intervals set in the WSH (General Provisions) Regulations (as on the Singapore country page)", "url": "https://www.mom.gov.sg/maintenance/workplace-safety-and-health/pressure-vessels/regular-inspections" }
+  ]
+}

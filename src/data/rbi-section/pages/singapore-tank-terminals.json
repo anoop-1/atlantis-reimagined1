@@ -1,0 +1,178 @@
+{
+  "title": "Singapore Tank Terminal RBI: Floors, Roofs and Service Changes",
+  "description": "Risk-based inspection for Singapore's independent oil and chemical terminals: ranking large tank populations, product switches, reclaimed-land floors.",
+  "h1": "Risk-based inspection for Singapore's independent oil and chemical tank terminals",
+  "eyebrow": "Risk-based inspection in Singapore",
+  "intro": "Singapore's independent storage terminals lease tankage to traders, refiners and chemical makers, and a single site can hold more than a hundred tanks of fuel oil, gasoil, biofuels, chemicals and liquefied gases, with many tanks changing what they hold several times in their lives. This page is for terminal managers and the engineers who plan out-of-service inspections. It covers where the storage sits, how a terminal ranks a large tank population, why a product switch is an RBI trigger, what reclaimed ground does to tank floors, how floating roofs fare in tropical storms, where SCDF licensing fits, and how Atlantis runs the study remotely.",
+  "highlights": [
+    { "h": "A population, not a list", "p": "Tanks are grouped by component, construction era, foundation, product family and cathodic protection status, screened as groups and then assessed one by one where the screen shows real risk, so engineering effort follows the tanks that need it." },
+    { "h": "Every switch is logged", "p": "The register holds each tank's service history with dates. A change of product reopens the damage mechanism review for that tank, and a tank whose past contents are unknown is assessed on the most aggressive service it could plausibly have held." },
+    { "h": "Floors on made ground", "p": "Much of the storage stands on reclaimed land. Soil-side floor corrosion, settlement and the state of cathodic protection carry most of the weight, and whole floor scan maps, not a single minimum reading, drive the next out-of-service date." }
+  ],
+  "sections": [
+    {
+      "id": "terminal-map",
+      "h": "Where Singapore's independent storage sits",
+      "p": [
+        "Independent storage in Singapore is spread across Jurong Island, the small southern islands and the mainland waterfront. On Jurong Island, Vopak's Banyan terminal describes itself as an integrated oil, chemical and gas hybrid storage terminal, with mild steel and stainless steel tanks, spheres, an LPG facility run with SK Gas, and pipeline delivery into neighbouring plants. Pulau Sebarok carries SPC's terminal, thirteen tanks of fuel oil and gas oil that support its bunkering and trading, alongside the terminal Vopak names after the island. Pulau Busing, a reclaimed island west of Pulau Bukom, is largely given over to a tank farm of more than a hundred tanks.",
+        "Below ground, the Jurong Rock Caverns hold liquid hydrocarbons in caverns excavated beneath the seabed off Jurong Island, and the refineries and chemical plants keep their own tank farms inside their fences. The table sets out what each kind of site usually means for an RBI study."
+      ],
+      "table": {
+        "head": ["Kind of site", "What it typically stores", "Points the study has to pick up"],
+        "rows": [
+          ["Hybrid terminals on Jurong Island", "Chemicals, petroleum products, base oils, LPG and other gases", "Mixed tank materials, spheres that are pressure vessels rather than tanks, pipeline transfers to and from neighbouring plants"],
+          ["Fuel oil and bunkering terminals on the southern islands", "Fuel oil, gasoil, marine fuel blends and biofuel blends", "Heated tanks with heating coils, water and sludge in the bottom, frequent blending, large tankers and barges at the jetties"],
+          ["Large island tank farms", "Crude oil and a wide range of products held for trading", "Very large tank populations to rank, many tanks on reclaimed ground, product switching between customers"],
+          ["Rock caverns", "Liquid hydrocarbons held in caverns excavated in rock", "Outside API 653 and tank RBI; the surface pipework, pumps and vessels can be assessed with the rest of the plant"],
+          ["Plant tank farms", "Feedstock, intermediates and finished product", "Usually part of a refinery or chemical plant study, with the tanks assessed alongside the process units"]
+        ]
+      }
+    },
+    {
+      "id": "ranking-hundreds",
+      "h": "Ranking a tank population measured in hundreds",
+      "p": [
+        "A terminal with a hundred or more tanks cannot sensibly run a detailed quantitative assessment on every one before it knows which ones matter. The study works in two passes. The first groups tanks by what drives their risk: construction era and standard, floor design, foundation type, release prevention barrier, cathodic protection, product family, heating, roof type, and the date and findings of the last out-of-service inspection. Each group is screened, and the screen decides which tanks go forward to a detailed assessment and which can be planned at group level.",
+        "The second pass assesses each high-ranked tank component by component. API RP 581 provides a method for the floor and the shell courses, with the floor usually dominating; roofs, seals, nozzles and appurtenances are planned on condition and code requirements rather than given a calculated risk. Consequence reflects the product, the inventory, the bund and its drainage, the distance to the shoreline and the jetty, and the commercial effect of losing the tank for the customer who leases it.",
+        "The outcome is a ranked population with a due date for every tank and a stated reason for each. Two tanks of the same size and age can end up years apart: one sits on well-drained fill with working cathodic protection and holds clean product, while the other spent a decade in heavy fuel oil service on a pad that holds water after rain."
+      ]
+    },
+    {
+      "id": "service-switching",
+      "h": "Why a product switch is an RBI trigger",
+      "p": [
+        "Trading terminals earn their living by being flexible. A tank that held high-sulphur fuel oil may be cleaned and leased for gasoil, a biodiesel blend, a chemical or a base oil when the market moves, and the shift towards lower-carbon fuels has quickened the pace: Vopak has said that it repurposed some Singapore fuel oil capacity for biofuels and expects to adapt existing tanks rather than build new ones. Each switch changes what attacks the floor and lower shell from the inside, and an interval set for the old service may not hold for the new one.",
+        "The register therefore keeps a service history for every tank, with dates, product, temperature, heating and any lining or coating work. A change of service reopens the damage mechanism review for that tank, in line with API 653's expectation that suitability for continued service is evaluated when a tank's service changes. Where the history before a certain date has been lost, the tank is assessed on the most aggressive service it could plausibly have held until an out-of-service inspection replaces the assumption with data."
+      ],
+      "table": {
+        "head": ["Change of service", "What changes in the assessment"],
+        "rows": [
+          ["Heavy fuel oil to gasoil or another light product", "Lower temperature and different water separation; the sludge history and any under-deposit corrosion stay on the floor record; vapour and fire consequence rise"],
+          ["Into biodiesel or other bio-blends", "More water carried in and retained, a higher chance of microbial growth and microbiologically influenced corrosion in the water bottom, lining compatibility to confirm"],
+          ["Into fuel-grade ethanol", "Susceptibility of carbon steel to ethanol stress corrosion cracking, which API 571 describes, alongside tighter water management"],
+          ["Into caustic or other chemicals", "Caustic cracking where the tank is heated, chemical-specific corrosion, compatibility of materials and linings, toxic rather than only flammable consequence"],
+          ["Unheated to heated service", "Faster product-side corrosion wherever water is present, heating coil leaks, thermal effects on bottom and lower shell"],
+          ["Cleaning between services", "Possible lining damage from steam or chemical cleaning, and an inspection opportunity that should be recorded as such"]
+        ]
+      }
+    },
+    {
+      "id": "reclaimed-floors",
+      "h": "Tank floors on reclaimed land",
+      "p": [
+        "Much of Singapore's storage stands on land reclaimed from the sea, and the soil side of a tank floor is where reclaimed ground shows. Fill quality varies, the water table sits close to the surface and can carry chlorides, and the drainage around a tank pad decides whether the underside of the floor stays dry or sits in brackish water after every storm. Cathodic protection can hold soil-side corrosion in check, but only where it was designed for the tank, has been kept running and is surveyed, and the study credits it only on those terms.",
+        "Settlement is the other inheritance of made ground. Edge settlement and uneven settlement of the floor and shell distort the bottom, load lap welds, pond water at low points and change how the floor carries the product. Settlement surveys belong in the data request as much as floor scans do, and a tank whose survey shows movement since the last inspection is reassessed ahead of its due date.",
+        "Floor scanning with magnetic flux leakage, followed by ultrasonic sizing of the indications, produces the map the probability assessment depends on. The study uses the whole map, including the extent and location of soil-side and product-side indications and the condition of the annular plate and chime, rather than a single minimum reading. Where a tank has never had a full floor scan, the plan says so and assumes conservatively until one has been done."
+      ],
+      "links": [
+        ["/standards/api-651", "API 651 and tank cathodic protection"],
+        ["/standards/api-653", "API 653 explained"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "roofs-rain",
+      "h": "Floating roofs in tropical storms",
+      "p": [
+        "Singapore has no dry season. Rain falls in every month, intense afternoon thunderstorms are common between the monsoons, and squall lines can bring sudden bursts of wind and rain. For an external floating roof that means repeated heavy loading of the deck, constant work for the roof drain, and seals wetted far more often than at a terminal in a temperate climate.",
+        "The roof drain is the component that most often decides whether a storm becomes an incident. A blocked drain or a failed flexible hose lets water build up on the deck, and a deck carrying water can tilt, damage its seals or sink; a leaking hose can also let product into the drain and out of the tank. Pontoon compartments that take on water, corroded deck plates and damaged rim seals reduce the margin further. None of these items gets a calculated risk in a tank RBI, but the plan sets condition-based checks for them, ties some of the checks to storm events, and records the results so the next assessment knows how each roof has fared.",
+        "Fixed-roof tanks with internal floating roofs, common in chemical service, keep rain off the internal deck but carry their own checks: roof plate corrosion under condensation, vent condition, and the seal between the internal roof and the shell. Stainless and lined tanks need the same discipline at roof level as carbon steel ones."
+      ]
+    },
+    {
+      "id": "scdf-licence",
+      "h": "SCDF licensing beside the tank inspection plan",
+      "p": [
+        "Every terminal holding petroleum and flammable materials above the exempt quantities needs a storage licence from the Singapore Civil Defence Force, renewed on a cycle of up to three years. The licence is about fire safety and emergency readiness: what is stored, how ignition and fire are prevented and fought, and how the site responds when something goes wrong. It does not tell a terminal when to take a tank out of service, which is why the inspection basis lives in the owner's API 653 programme or its own tank standard.",
+        "The two still meet. A licence renewal is a natural moment to refresh the tank register, confirm which tanks are in which service and check that the inspection programme matches the materials the licence covers. Fixed fire protection on tanks, such as foam systems and cooling water rings, and the fire water mains that feed them deserve a place in the inspection plan too, even though a tank RBI does not calculate their risk, because a corroded foam line that fails on demand undermines the very arrangements the licence relies on. Larger terminals may also fall within the major hazard installation regime, where the tank register becomes part of the safety case evidence."
+      ]
+    },
+    {
+      "id": "out-of-service-windows",
+      "h": "Out-of-service windows, leases and the plan",
+      "p": [
+        "For an independent terminal, taking a tank out of service means telling a customer that leased capacity will be unavailable while the tank is emptied, cleaned, inspected and repaired. The RBI plan turns that from a calendar event into a window: an earliest date when inspection would add useful information, and a latest date beyond which the tank would exceed its risk target. Inside the window the terminal can sequence tanks so that no grade or customer loses too much capacity at once.",
+        "A due date in the plan is the latest acceptable date, not a target to wait for. Where a tank's window and its lease cycle line up, inspecting it at the end of a contract avoids a separate disruption later. The plan also lists the on-stream work that narrows uncertainty without emptying the tank, such as shell thickness surveys, settlement surveys, cathodic protection checks and roof inspections, so that the out-of-service visit is spent on what only an empty tank can show."
+      ],
+      "links": [
+        ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"]
+      ]
+    },
+    {
+      "id": "terminal-remote",
+      "h": "How a remote study runs for a terminal",
+      "p": [
+        "The data a terminal holds is usually split between the inspection department and the terminal management system. The study asks for the tank register with construction data, API 653 inspection reports and floor scan maps, cathodic protection and settlement surveys, repair records, and the service history the terminal management system can export, including product, temperature and dates. Documents come through a data room the terminal controls, and where an export is incomplete, the gap is logged rather than filled with a guess.",
+        "Workshops bring together terminal operations, maintenance and inspection staff with the commercial people who know which tanks are committed to which customers. They run by video in the Singapore working day, with the Hyderabad team two and a half hours behind and Houston carrying the analysis through the Singapore night. The study needs no travel: anything that has to be seen, such as the state of a roof drain, the ground around a tank pad or the condition of an annular plate, goes on a verification list for the terminal's own inspectors or its inspection contractor."
+      ]
+    },
+    {
+      "id": "terminal-approval",
+      "h": "Who approves the next out-of-service date",
+      "p": [
+        "Under the current edition of API 653, a validated risk-based assessment may set the internal inspection interval, provided it is reviewed at least every ten years; the terminal's own procedure names who signs the result, normally its API 653 inspector or inspection authority. Atlantis prepares and documents the assessment and does not act as inspector of record.",
+        "If an inspection finds floor or shell damage beyond what the standard accepts, the evaluation that follows stays with the owner's engineer, and the tank's risk is updated once that evaluation is known. Atlantis does not perform fitness-for-service assessments."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology, including aboveground tank floors and shells)",
+    "API 653 (tank inspection, repair, alteration and reconstruction)",
+    "API RP 575 (inspection practices for atmospheric and low-pressure storage tanks)",
+    "API 650 (welded tanks for oil storage)",
+    "API RP 651 (cathodic protection of aboveground petroleum storage tanks)",
+    "API RP 571 (damage mechanisms)",
+    "Fire Safety (Petroleum and Flammable Materials) Regulations 2020",
+    "Workplace Safety and Health (Major Hazard Installations) Regulations"
+  ],
+  "deliverables": [
+    "Ranked tank population with a screening basis for every group",
+    "Component-by-component assessment and plan for each high-ranked tank",
+    "Service history register with change-of-service triggers",
+    "Out-of-service window for each tank: earliest useful date and latest acceptable date",
+    "Condition-based roof, seal and drain checks, with storm-event triggers",
+    "List of on-stream work that can be done without emptying a tank",
+    "Data-gap log, verification list for the terminal's inspectors and next review date"
+  ],
+  "industries": [
+    "Independent oil terminals",
+    "Chemical storage",
+    "Bunkering and marine fuels",
+    "LPG and gas storage",
+    "Biofuels and renewable feedstock storage"
+  ],
+  "faqs": [
+    { "q": "How many tanks can one study cover?", "a": "There is no fixed limit, because the method scales by grouping. Tanks are screened in groups that share their main risk drivers, and only the tanks the screen picks out get a detailed, component-by-component assessment. A terminal can start with its whole population at screening level and deepen the assessment for the tanks that matter, rather than assessing every tank in full before acting on any of them." },
+    { "q": "What happens to a tank's risk when we switch it from fuel oil to a biofuel blend?", "a": "The damage mechanism review for that tank is reopened. Biofuel blends tend to carry and hold more water, which raises the chance of microbial growth and microbiologically influenced corrosion in the water bottom, and lining compatibility has to be confirmed. The floor record from fuel oil service stays relevant, and the interval is recalculated for the new service before the tank goes back to work." },
+    { "q": "Do floating roofs get a risk-based interval?", "a": "Not a calculated one. Tank RBI methods assess the floor and the shell; roofs, seals, drains and pontoons are planned on condition and on code requirements. The plan still sets checks for them, links some of those checks to storm events, and records the findings, so roof condition becomes part of each tank's history instead of a separate log that never reaches the risk assessment." },
+    { "q": "Our tanks sit on reclaimed land with no release prevention barrier. Can RBI still extend intervals?", "a": "It can, but the evidence has to do the work a barrier would otherwise do. Recent full floor scans, cathodic protection that is running and surveyed, stable settlement surveys and a clean product history all count. Where those are missing, the study assumes conservatively, and the plan sets out which data would justify a longer interval at the next assessment." },
+    { "q": "Does the SCDF storage licence require an RBI programme?", "a": "No. The licence deals with fire safety and emergency readiness for petroleum and flammable materials and is renewed on a cycle of up to three years. Tank inspection intervals come from API 653 or the operator's tank standard. Many terminals use the renewal as a moment to refresh the tank register and check that the inspection programme matches what the licence covers." },
+    { "q": "Are the Jurong Rock Caverns covered by a tank RBI?", "a": "No. Rock caverns are not aboveground tanks, and neither API 653 nor tank RBI methods apply to them. Their surface facilities, such as pipework, pumps and pressure vessels, can be assessed with the rest of the site's equipment, while the caverns themselves are managed under their own integrity arrangements." },
+    { "q": "Can the study use our terminal management system data?", "a": "Yes, and it usually should. Service history, product, temperature and dates are often more complete in the terminal management system than in the inspection files. The study takes an export, reconciles it with inspection records and floor scans, and logs any period where the history cannot be reconstructed, so the assumptions behind each tank's risk are visible to whoever approves the plan." },
+    { "q": "Who decides the next out-of-service date?", "a": "The owner's API 653 inspector or inspection authority, under the terminal's procedure. The study proposes a window and a latest date for each tank with the basis behind it, and the commercial team can then sequence tanks within those windows. If inspection finds damage beyond what the standard accepts, the evaluation stays with the owner's engineer." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/singapore", "RBI in Singapore"],
+    ["/inspection/risk-based-inspection/jurong-island", "RBI in Jurong Island and Pulau Bukom"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/standards/api-651", "API 651 explained"],
+    ["/consulting/api-653-tank-inspector-services", "API 653 tank inspector support"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
+    ["/corrosion-mapping", "Corrosion mapping"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "Vopak Singapore Banyan terminal (51 Banyan Avenue): integrated oil, chemical and gas hybrid storage terminal; petroleum products, chemicals, base oil, gases and LPG; mild steel, sphere and stainless steel tanks; LPG facility run by Vopak Gas Terminal LLP (80% Vopak Terminals Singapore, 20% SK Gas International); delivery to plants via pipe connectivity", "url": "https://www.vopak.com/terminals/vopak-singapore-banyan-terminal" },
+    { "fact": "Vopak Singapore Sebarok terminal exists (petroleum products, chemical blendstock, blending and heating, nine berths)", "url": "https://www.vopak.com/terminals/vopak-singapore-sebarok-terminal" },
+    { "fact": "Vopak repurposed some Singapore fuel oil capacity to store biofuels and plans to repurpose and retrofit existing assets rather than build new (S&P Global, August 2023)", "url": "https://spglobal.com/commodity-insights/en/news-research/latest-news/crude-oil/083123-interview-vopak-singapore-looks-to-repurpose-tanks-amid-renewables-push" },
+    { "fact": "SPC storage terminal at Pulau Sebarok: 220,000 m3 in 13 tanks, fuel oil and gas oil, deepwater jetty, supports marine bunker operations and trading", "url": "https://www.spc.com.sg/our-business/storage-terminalling/" },
+    { "fact": "Pulau Busing lies west of Pulau Bukom, is a reclaimed island used for oil storage, with a tank farm of 112 tanks (operator not named on this page because its current status was not verified)", "url": "https://www.wikiwand.com/en/articles/Pulau_Busing" },
+    { "fact": "SCDF P&FM storage licence under the Fire Safety (Petroleum and Flammable Materials) Regulations 2020, valid up to 3 years depending on risk; covers register of materials, fire prevention and ventilation, emergency response plan; no tank inspection intervals", "url": "https://scdf.gov.sg/fire-safety-services-listing/petroleum-and-flammable-material-licences/p-fm-storage-licence" },
+    { "fact": "Jurong Rock Caverns underground liquid hydrocarbon storage at Jurong Island (already on the site)", "url": "https://atlantisndt.com/digital-twin-jurong-island" },
+    { "fact": "API 653 current edition: RBI may set the internal inspection interval if validated and reviewed at least every 10 years (project brief, as on the storage tank topic page)", "url": "https://atlantisndt.com/standards/api-653" }
+  ]
+}

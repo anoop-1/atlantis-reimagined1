@@ -1,0 +1,148 @@
+{
+  "title": "RBI in Brisbane and Lytton: Refinery and River Terminals",
+  "description": "Remote risk-based inspection for Ampol's Lytton refinery and Brisbane River fuel terminals: subtropical CUI, tank roofs, Queensland MHF rules and plans.",
+  "h1": "Risk-based inspection for Lytton and the lower Brisbane River",
+  "eyebrow": "Risk-based inspection in Brisbane",
+  "intro": "The lower Brisbane River carries Queensland's sole crude oil refinery, Ampol's Lytton plant close to the river mouth, together with fuel terminals at Pinkenba and in the Port of Brisbane precinct. This page is written for the inspection engineers and integrity leads who plan those assets. It looks at what a light sweet crude diet means for the damage picture, how subtropical heat, summer storms and low-lying ground affect insulated plant and tank roofs, how Queensland's WHS and major hazard facility rules bear on RBI, and how Atlantis runs the study remotely.",
+  "highlights": [
+    { "h": "Light crude, different priorities", "p": "Lytton runs light sweet crude, which lowers the high-temperature sulfidation load that dominates many refinery registers. Attention shifts to overhead salts, hydroprocessing effluent and the mechanisms that come with making low-sulfur fuels for the Queensland market." },
+    { "h": "Wet season on the river", "p": "Summer downpours load floating roofs and drains, humidity keeps damaged insulation wet for weeks, and parts of the riverside sit on low ground. The register treats rainfall, drainage and flooding as inputs to probability, not as weather notes in a report appendix." },
+    { "h": "No daylight saving to plan around", "p": "Brisbane stays on standard time all year, so its gap to Hyderabad never moves from four and a half hours. Workshops sit in the Brisbane afternoon, which is the Hyderabad morning, without the seasonal reshuffle that sites further south face." }
+  ],
+  "sections": [
+    {
+      "id": "lytton-assets",
+      "h": "Refinery, terminals and port on the lower river",
+      "p": [
+        "Ampol's Lytton refinery stands on the southern side of the Brisbane River near its mouth, next to the Port of Brisbane. It is rated at about 109,000 barrels a day and processes light sweet crude. Across the river at Pinkenba, Viva Energy runs a fuel terminal whose published safety case summary describes tankage for petrol, diesel, jet fuel, solvents and LPG, a dedicated jet fuel pipeline to Brisbane Airport and a major hazard facility licence first granted in 2004. The port precinct downstream holds further bulk liquid storage.",
+        "Crude and refined products move between ships, tanks, process units and pipelines along a few kilometres of river. For an RBI programme the result is a mix of process equipment, large atmospheric tanks, pressurised LPG storage and long transfer lines, often under one inspection procedure but with very different mechanisms. The study keeps each asset type in its own corrosion loops while using one risk matrix, so a riverside transfer line and a hydrotreater reactor can be compared on the same scale."
+      ]
+    },
+    {
+      "id": "light-sweet-crude",
+      "h": "What light sweet crude changes in the damage picture",
+      "p": [
+        "A refinery that runs low-sulfur crude carries a smaller high-temperature sulfidation load than one built for heavy sour barrels, and its crude and vacuum circuits often show modest rates in the hot sections. That does not make the register short. Chlorides and nitrogen still arrive with the crude, ammonium chloride and ammonium bisulfide still form in overheads and hydroprocessing effluent, and making low-sulfur petrol and diesel puts heavy duty on hydrotreaters, where high-temperature hydrogen attack and effluent-side fouling have to be screened.",
+        "Crude flexibility is the other side of the question. When supply disruption or margins push a refinery towards cargoes outside its usual slate, sulfur, acid and salt contents can move quickly, and an inspection plan built for one diet can quietly become a plan for another. The register records the crude and product assumptions behind each high-temperature and hydroprocessing loop, so a cargo outside them sends the loop back for reassessment rather than waiting for the next scheduled review."
+      ],
+      "table": {
+        "head": ["Circuit", "Mechanisms that usually head the ranking", "Data the study asks for"],
+        "rows": [
+          ["Crude unit overhead and preheat", "Hydrochloric acid and ammonium chloride corrosion, under-deposit attack at salt points, CUI on insulated overhead lines", "Desalter performance, chloride and pH in overhead water, wash water rates, thickness readings at injection and mix points"],
+          ["Hydrotreater reactor effluent and air coolers", "Ammonium bisulfide and ammonium chloride corrosion and fouling, high-temperature hydrogen attack, high-temperature hydrogen and hydrogen sulfide corrosion", "Effluent velocity and bisulfide concentration, wash water injection, actual operating temperature and hydrogen partial pressure, tube and header inspection history"],
+          ["Amine, sour water and sulfur recovery", "Amine stress corrosion cracking, amine corrosion, wet hydrogen sulfide damage, acid dew point attack in tail gas equipment", "Post-weld heat treatment records, lean and rich amine loadings, crack-detection inspection history at welds"],
+          ["Atmospheric tanks and LPG storage", "Floor corrosion on both sides, shell corrosion at the liquid line, external corrosion of spheres and bullets under fireproofing", "Floor scan coverage, cathodic protection surveys, roof and seal condition, fireproofing and insulation inspection records"],
+          ["River and port transfer lines", "External corrosion at supports and road crossings, soil and water contact, microbiologically influenced corrosion at low points", "Line lists, coating and cathodic protection history, in-line inspection or thickness survey results where they exist"]
+        ]
+      }
+    },
+    {
+      "id": "subtropical-cui",
+      "h": "Subtropical humidity and insulated equipment",
+      "p": [
+        "Brisbane's summers are hot and humid, and much of the year's rain arrives between December and March, often as short, heavy storms. Insulation soaked in a summer storm can stay wet for weeks in that humidity, and the steel under it sits in the band where corrosion under insulation runs fastest for long stretches of the year. Equipment that cycles, such as lines in intermittent service or units that come off-line for maintenance, adds its own condensation to the rainfall.",
+        "The CUI assessment ranks every insulated item on its operating temperature profile, insulation material, jacketing and sealing condition and the age of the insulation system, with API RP 583 as the framework. Items near cooling towers, deluge systems or the riverbank, and items with a record of damaged jacketing after storms, move up the list. Where the site screens long insulated runs, the plan credits screening for detecting general wall loss, then sends insulation removal and direct examination to the points the screening and the ranking select together.",
+        "Fireproofing on vessel skirts, sphere legs and pipe rack steel is reviewed on the same basis. Cementitious fireproofing that has cracked or pulled away holds water against the steel, and in this climate it can do so through a whole wet season before anyone sees rust staining on the surface."
+      ]
+    },
+    {
+      "id": "river-tanks",
+      "h": "Tank roofs, drains and floors beside the river",
+      "p": [
+        "Heavy summer rain is a structural load on an external floating roof. Partly blocked or leaking roof drains, pontoons with undetected holes and seals that let water past all raise the chance of a roof problem, and a roof that sinks or tilts turns an inspection question into a fire and environmental one. A tank RBI on the lower Brisbane River therefore takes roof drain inspection and test records, pontoon inspection results and seal condition as inputs alongside shell and floor thickness.",
+        "Floors are the other half. Soil-side corrosion depends on the foundation, the water table, the quality of any cathodic protection and whether a release prevention barrier was fitted, and low-lying ground beside a tidal river can keep foundations damp. Product-side corrosion depends on water draw-off practice and the stored product, with diesel and jet fuel tanks prone to microbiologically influenced corrosion where water bottoms stand. The study sets out-of-service dates through API 653's alternative internal interval, assessed to API RP 580 and validated and reviewed at least every ten years, and states how far each floor scan and each in-service inspection is allowed to count.",
+        "Flooding is assessed explicitly. Where tanks, pumps or pipe supports sit on ground that a major flood or storm tide could reach, the plan carries post-event inspection triggers: what to check, in which order, and which items go back into the risk calculation once the water has receded."
+      ]
+    },
+    {
+      "id": "queensland-rules",
+      "h": "Queensland's WHS and major hazard facility rules",
+      "p": [
+        "Queensland applies the Work Health and Safety Act 2011 and the Work Health and Safety Regulation 2011, administered by Workplace Health and Safety Queensland. Schedule 5 of the regulation lists the plant that must be registered, including boilers and pressure vessels classed as hazard level A, B or C under AS 4343, with pressure piping excluded. In-service inspection of that equipment follows the owner's programme, with AS/NZS 3788 as the Australian benchmark and API 510, API 570 and API 653 widely used at refineries and fuel terminals.",
+        "The refinery and the larger terminals are major hazard facilities. A site holding more than 10 per cent of a Schedule 15 threshold quantity must notify the regulator; once determined to be a major hazard facility it has three months to provide a safety case outline and up to 24 months to apply for a licence, and licences run for up to five years. Workplace Health and Safety Queensland grants a licence only when it is satisfied that the facility can operate safely and that its safety management system controls the risk.",
+        "An RBI programme in Queensland should therefore be traceable from both directions: from each registered vessel to its inspection plan, and from each major incident in the safety case to the inspection tasks that control it. The study delivers both views of the register and lists any scenario that appears in the safety case without a matching inspection basis."
+      ]
+    },
+    {
+      "id": "lytton-shutdowns",
+      "h": "Shutdown windows that move",
+      "p": [
+        "With only two refineries left in the country, neither can come down lightly, and the timing of major work moves with markets and supply. In March 2026 Ampol moved Lytton's planned maintenance from early June to the start of August. Plans built around a fixed turnaround date have to be able to absorb that kind of shift without leaving equipment past its risk target.",
+        "The plan tags each task as on-stream or shutdown, states the latest date by which it must be done to stay inside the owner's risk target, and shows what the risk would become if the window moved. When a shutdown slips, the planning team can see at once which items need an interim on-stream inspection, an operating limit or a short isolation, and which can safely wait for the new date. Corrosion mapping, guided wave screening and external visual inspection are scheduled on-stream wherever they can earn the effectiveness the model credits."
+      ]
+    },
+    {
+      "id": "brisbane-remote",
+      "h": "A remote study on Queensland time",
+      "p": [
+        "Brisbane keeps Australian Eastern Standard Time, ten hours ahead of UTC, all year round. The gap to Hyderabad is fixed at four and a half hours, and the gap to Houston is fifteen or sixteen hours depending on whether Texas is on daylight time. A workshop at one o'clock in the Brisbane afternoon starts at half past eight in Hyderabad, and an afternoon call from Houston lands early in the Brisbane morning.",
+        "Documents arrive through a shared data room: P&IDs, PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, Queensland registration records, inspection and thickness history, tank roof and drain records, process chemistry and the integrity operating windows. A data-gap log is issued before any risk work begins. Corrosion loops and damage mechanisms are then reviewed by video with your process, operations, corrosion and inspection specialists, and risk is assessed at the level the scope requires, qualitative, semi-quantitative or quantitative to API RP 581, or under your corporate RBI standard.",
+        "The study needs no travel to Brisbane. Field checks, including jacketing and fireproofing condition, roof drain and pontoon inspections and thickness readings at the points the gap log names, are done by your own inspectors or your inspection contractor, and their results are fed back into the register as they come in."
+      ]
+    },
+    {
+      "id": "lytton-approval",
+      "h": "Approval and the limits of the study",
+      "p": [
+        "The study proposes intervals and inspection tasks with their reasoning; the competent person named in the site procedure accepts them. Atlantis does not act as inspector of record and holds no registration as an inspection body in Queensland. If inspection under the plan finds damage that calls for an assessment of continued operation, the owner's engineer makes that assessment, and the register is updated with the outcome before the next due dates are fixed."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API 510, API 570 and API 653",
+    "AS/NZS 3788:2024 (pressure equipment, in-service inspection)",
+    "AS 4343 (pressure equipment hazard levels)",
+    "AS 1940:2017 (flammable and combustible liquids)",
+    "Work Health and Safety Regulation 2011 (Qld), Schedule 5 and major hazard facility provisions"
+  ],
+  "deliverables": [
+    "RBI register with corrosion loops for process units, tanks, LPG storage and transfer lines",
+    "Inspection plan per item with method, coverage, expected effectiveness, due date and on-stream or shutdown tag",
+    "Crude and product assumptions recorded for each high-temperature and hydroprocessing loop",
+    "Floating roof, drain and seal inputs in the tank assessment, with post-flood inspection triggers",
+    "Two-way traceability between registered vessels, safety case scenarios and inspection tasks",
+    "Data-gap log and verification list for the owner's inspectors"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Fuel import and distribution terminals",
+    "LPG storage",
+    "Aviation fuel supply",
+    "Bulk liquid storage"
+  ],
+  "faqs": [
+    { "q": "Does light sweet crude mean a lighter RBI programme?", "a": "Not necessarily. Low-sulfur crude reduces high-temperature sulfidation, but overhead chloride corrosion, ammonium salt attack in hydroprocessing effluent, amine and sour water cracking and CUI all remain. The study ranks what the crude actually does to each circuit and records the crude assumptions, so a move to heavier or saltier cargoes triggers reassessment of the loops it affects." },
+    { "q": "How are floating roofs handled in a tank RBI?", "a": "Roofs are assessed alongside shells and floors. Drain inspection and test records, pontoon checks, seal condition and the site's rainfall history feed the probability of a roof failure, and the plan sets inspection tasks for each element. For tanks on the lower Brisbane River, summer storm loading is an explicit input to the assessment rather than an assumption buried in it." },
+    { "q": "Does Workplace Health and Safety Queensland approve inspection intervals?", "a": "The regulator licenses major hazard facilities and registers plant; it does not approve individual inspection dates. It has to be satisfied that the safety management system controls the risks, and mechanical integrity is part of that. The competent person named in your procedure accepts the intervals, and the RBI report gives the basis for each one." },
+    { "q": "Can the study account for flood and storm tide risk?", "a": "Yes. Items on ground that a flood or storm tide could reach are identified from site data you provide, and the plan carries post-event triggers: which tanks, pumps, supports and insulated lines to inspect first, what to look for and when to rerun the risk assessment. Flood mapping itself comes from the owner or the relevant authority rather than from the study." },
+    { "q": "What happens to the plan if a shutdown moves?", "a": "Each task carries the latest date that keeps the item inside your risk target and is tagged on-stream or shutdown. When a window moves, the items that would cross the target before the new date are listed with options: an interim on-stream inspection, an operating limit or a short isolation. Everything else keeps its date." },
+    { "q": "Can one study cover the refinery and a separate terminal?", "a": "Yes, where both belong to the same owner or the owners agree to share one method. Each asset type keeps its own corrosion loops, and the risk matrix and targets are stated once so results can be compared. Where the refinery and the terminal sit under different licences, the report separates them so each safety case can be supported on its own." },
+    { "q": "Does anyone need to come to Lytton for the study?", "a": "No. The study runs remotely and needs no travel. Your inspectors or your inspection contractor carry out the walkdowns and the checks the data-gap log calls for, from jacketing condition to roof drain tests, using a verification list that states what to look at and to what coverage, and the results are loaded into the register." },
+    { "q": "Who signs the intervals?", "a": "The competent person your inspection procedure names. The study gives each interval its reasoning and the code limits it respects, but it does not approve dates. Fitness-for-service decisions after a finding stay with the owner's engineer, and the register is updated with their outcome before the next due dates are set." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/australia", "RBI in Australia"],
+    ["/inspection/risk-based-inspection/geelong", "RBI in Geelong"],
+    ["/inspection/risk-based-inspection/kwinana", "RBI in Kwinana"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/standards/api-583", "API 583 corrosion under insulation"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection support"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/corrosion-mapping", "Corrosion mapping"]
+  ],
+  "sources": [
+    { "fact": "Ampol Lytton refinery near Brisbane, 109,000 b/d, processes light sweet crude; maintenance planned for early June 2026 moved to the start of August (article 20 March 2026)", "url": "https://www.argusmedia.com/de/news-and-insights/latest-market-news/2803760-australia-s-ampol-to-delay-lytton-refinery-turnaround" },
+    { "fact": "Viva Energy Pinkenba terminal alongside the Brisbane River: tank farm for gasoline, solvents, kerosene (Jet A1), diesel and LPG; dedicated jet fuel pipeline to Brisbane Airport; MHF operational licence, first licensed 2004; safety case assessed by Workplace Health and Safety Queensland", "url": "https://www.vivaenergy.com.au/ArticleDocuments/685/VIV22333_Pinkenba%20Terminal_Safety%20Case%20Summary_WEB.pdf.aspx" },
+    { "fact": "Queensland WHS Regulation 2011 Schedule 5 Part 2: pressure vessels and boilers hazard level A, B or C under AS 4343:2014 registrable; pressure piping excluded", "url": "https://www.worksafe.qld.gov.au/licensing-and-registrations/plant-registration/what-type-of-plant-requires-registration" },
+    { "fact": "Queensland MHFs: Workplace Health and Safety Queensland; notify above 10% of Schedule 15 threshold; safety case outline within three months of determination; up to 24 months to apply for licence; licences up to five years; licence granted only if satisfied facility can operate safely and SMS controls risk", "url": "https://worksafe.qld.gov.au/safety-and-prevention/hazards/workplace-hazards/major-hazard-facilities-mhf/major-hazard-facilities-regulation" },
+    { "fact": "Port of Brisbane precinct at Lytton holds bulk liquid (crude) storage classified as an MHF (2021 notice; operator name and current status not used on the page)", "url": "https://www.ior.com.au/wp-content/uploads/2021/06/POB_Community-Information-Notice_MAY21.pdf" },
+    { "fact": "Fuel Security Services Payment extended to 30 June 2030; Lytton and Geelong are Australia's two refineries", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2803693-australia-extends-subsidy-plan-for-refiners-to-2030" }
+  ]
+}

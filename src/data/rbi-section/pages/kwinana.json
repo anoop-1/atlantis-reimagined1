@@ -1,0 +1,151 @@
+{
+  "title": "RBI in Kwinana: Import Terminal, Chemicals and Lithium",
+  "description": "Remote risk-based inspection for Kwinana's fuel import terminal and its chemical, fertiliser and lithium plants, written for WA's dangerous goods and MHF rules.",
+  "h1": "Risk-based inspection for Kwinana and the Kwinana Industrial Area",
+  "eyebrow": "Risk-based inspection in Kwinana",
+  "intro": "Kwinana, on Cockburn Sound about 40 kilometres south of Perth, stopped refining crude in 2021 when BP turned its refinery into a fuel import terminal, and the industrial area around it still runs fertiliser, chemical and lithium hydroxide plants. This page is for inspection and integrity staff at those sites. It covers repurposed tankage and inherited records, the mechanisms that ammonia, nitric acid and new hydrometallurgical plant bring, how Western Australia's separate dangerous goods regime frames an RBI programme, and how Atlantis runs the study remotely on Perth time.",
+  "highlights": [
+    { "h": "A terminal built from a refinery", "p": "Tanks that once held crude and intermediates now hold imported fuel. Service changes, retained process piping and decades of records written under a different operating model all bear on what the inspection history can be trusted to show." },
+    { "h": "New plant, short history", "p": "A lithium hydroxide refinery that made its first product in 2025 has design data and commissioning records but little in-service history. Its RBI starts from damage mechanisms and baseline inspection rather than from corrosion rates it does not yet have." },
+    { "h": "Dangerous goods law on its own track", "p": "Western Australia regulates plant under its WHS laws but dangerous goods sites, including major hazard facilities, under a separate Act and regulations. The RBI method statement is written so that it sits comfortably inside both." }
+  ],
+  "sections": [
+    {
+      "id": "kwinana-sites",
+      "h": "What operates around Kwinana today",
+      "p": [
+        "BP's Kwinana refinery, once the largest in Australia at about 146,000 barrels a day, stopped refining in 2021 and was converted into a fuel import terminal. In 2025 BP rephased a renewable fuels project planned for part of the site. Beside it, the Kwinana Industrial Area holds Wesfarmers' CSBP complex, which runs ammonia, nitric acid and ammonium nitrate plants and Australian Gold Reagents' sodium cyanide plants, and Covalent Lithium's lithium hydroxide refinery, owned equally by Wesfarmers and SQM, which made its first lithium hydroxide in July 2025 and has been ramping up since.",
+        "Some of the area's best-known plants are no longer part of the operating picture. Alcoa fully curtailed its Kwinana alumina refinery in 2024 and announced in September 2025 that it would close it permanently, and CSBP's superphosphate plant is in care and maintenance. An RBI scope for the area should therefore start from what is running, what is preserved for a possible restart and what is being decommissioned, not from a historical list of names."
+      ],
+      "table": {
+        "head": ["Site type", "Typical equipment in scope", "Mechanisms that usually lead the ranking"],
+        "rows": [
+          ["Fuel import terminal on the former refinery site", "Large atmospheric tanks, transfer and marine loading lines, pumps and retained piping", "Floor corrosion, shell corrosion at the liquid line, dead legs in retained piping, external corrosion from sea air"],
+          ["Ammonia and nitrogen chemicals", "Reformer and synthesis loop, refrigerated and pressurised ammonia storage, nitric acid plants, ammonium nitrate solution and prilling", "Ammonia stress corrosion cracking, nitriding and hydrogen damage in the synthesis loop, nitric acid attack on stainless steel, creep in reformer tubes"],
+          ["Sodium cyanide production", "Reaction and absorption equipment, liquid product storage and transfer", "Caustic stress corrosion cracking in hot sodium hydroxide service, high-temperature damage in the reaction section"],
+          ["Lithium hydroxide refining", "Kilns, leach and purification vessels, evaporators and crystallisers, slurry and solution piping", "Erosion-corrosion in slurry lines, caustic cracking in hot alkaline service, acid attack in acid-handling stages"]
+        ]
+      }
+    },
+    {
+      "id": "kwinana-repurposed-tanks",
+      "h": "Tanks and piping inherited from a refinery",
+      "p": [
+        "Converting a refinery into a terminal leaves an inspection programme with a particular set of problems. Tanks that held crude, intermediates or blending components may now hold petrol, diesel or jet fuel, which changes product-side corrosion, the significance of water bottoms and the consequence of a floor leak. Piping that once ran between process units may be retained, blinded, used now and then or left as dead legs. And the inspection records were written by a refinery inspection department working to different priorities.",
+        "The study deals with that history directly. For each tank it records the service history as far as the documents show, the date and extent of the last floor scan, repairs and replacement floors, coating and lining history and the cathodic protection record, then assesses probability for the current service rather than the old one. Readings taken under a previous service still describe the steel, but the corrosion rate that matters is the one expected now, and the plan says where a fresh baseline is needed before a long interval can be justified.",
+        "Retained process piping is screened for whether it still has a purpose. Lines kept but rarely used are assessed for dead-leg corrosion and the damage that stagnant product and water can do; lines with no remaining function are listed so the owner can decide whether to remove or positively isolate them rather than go on inspecting them."
+      ]
+    },
+    {
+      "id": "kwinana-nitrogen-chemicals",
+      "h": "Ammonia, nitric acid and ammonium nitrate service",
+      "p": [
+        "Nitrogen chemical plants carry mechanisms that a refinery-trained team can underrate. Carbon steel in ammonia storage can suffer stress corrosion cracking, and the risk depends on oxygen contamination, water content, the strength of the steel and the residual stress in its welds, which is why refrigerated and pressurised ammonia vessels need crack-detection inspection at a frequency the corrosion loop justifies rather than thickness checks. The synthesis loop adds nitriding of hot surfaces and hydrogen damage, and the reformer adds creep in its tubes and outlet system.",
+        "Nitric acid plants depend on stainless steels whose resistance turns on acid strength, temperature and the steel's heat treatment, and intergranular attack follows where those conditions drift. Ammonium nitrate solution and prilling systems combine hot concentrated solution with process safety constraints of their own. The study assigns these mechanisms to API 571 where it covers them and to the owner's chemical industry references and licensor guidance where it does not, and it records which source each assignment rests on.",
+        "Inspection effectiveness is the central question in these units. A vessel inspected regularly for wall loss can still carry a high cracking probability if its welds have never had a wet fluorescent magnetic particle or equivalent crack-detection examination. The plan credits only what each past technique could have found and specifies the examination that will earn credit next time."
+      ]
+    },
+    {
+      "id": "kwinana-new-plant",
+      "h": "A lithium refinery with little in-service history",
+      "p": [
+        "RBI usually leans on measured corrosion rates. A plant that produced its first lithium hydroxide in 2025, and has spent much of the time since ramping up and dealing with start-up issues, has very few. Its first register has to be built from design data, materials selection reports, licensor process chemistry and the operating data gathered so far, with damage mechanisms assigned stage by stage rather than inferred from history.",
+        "That changes how intervals are set. Until baseline and first in-service inspections exist, probability is assessed conservatively, and early inspection is concentrated where the predicted mechanism is most severe or the consequence highest: hot alkaline equipment, slurry lines with erosion potential, acid handling and items in unfamiliar alloys. As inspection results arrive, measured rates replace the assumptions and intervals lengthen where the evidence supports it.",
+        "Ramp-up is itself a reassessment trigger. Higher throughput, changes to reagent use and the operating windows that settle after commissioning all move the damage rates the first register assumed, so the plan states the operating basis it was built on and the point at which the register should be rerun."
+      ]
+    },
+    {
+      "id": "wa-two-tracks",
+      "h": "Western Australia's two tracks: plant law and dangerous goods law",
+      "p": [
+        "Western Australia adopted its own version of the national model work health and safety laws in 2022. Plant falls under the Work Health and Safety (General) Regulations 2022, and boilers and pressure vessels classed as hazard level A, B or C under AS 4343 are registered as items with WorkSafe WA, a registration that does not expire. Pressure piping sits outside item registration. In-service inspection of the registered equipment follows the owner's programme, with AS/NZS 3788 as the Australian benchmark.",
+        "Dangerous goods sites, including the State's major hazard facilities, are regulated under the Dangerous Goods Safety Act 2004 and its regulations, among them the Dangerous Goods Safety (Major Hazard Facilities) Regulations 2007. Since 1 July 2025 they have been administered by the Department of Local Government, Industry Regulation and Safety through its WorkSafe group, with the Chief Dangerous Goods Officer deciding whether a site is a major hazard facility. A major hazard facility needs a dangerous goods licence and a safety report showing how the operator identifies foreseeable major incidents, assesses them and justifies its controls.",
+        "For an RBI programme that means two audiences. The plant regulator expects registered equipment to be inspected by competent people under a sound programme, and the dangerous goods regulator expects the integrity controls described in the safety report to be real and maintained. The study writes the method statement so it can be referenced from both and maps inspection tasks to the major incident scenarios in the safety report."
+      ]
+    },
+    {
+      "id": "kwinana-climate",
+      "h": "Heat, sea breeze and sandy ground",
+      "p": [
+        "Kwinana has hot, dry summers and mild, wet winters, and it sits on the shore of Cockburn Sound, where an afternoon sea breeze carries salt inland across the industrial area through much of the summer. Dry heat slows some corrosion, but it also bakes coatings, opens insulation joints as metal expands and contracts each day, and leaves salt deposits that the first winter rains turn into an electrolyte.",
+        "Tank foundations on coastal sand raise their own questions. Sandy ground drains well, which helps, but the condition of the pad, the presence of a liner or release prevention barrier, the water table and the performance of cathodic protection decide how fast the underside of a floor corrodes. The study asks for foundation and cathodic protection records tank by tank and treats a floor with neither a scan history nor protection data as a priority for inspection, whatever its age.",
+        "Insulated equipment is assessed for CUI on the same evidence as anywhere else: operating temperature, insulation type, sealing and exposure. Winter rain fronts and plant wash-down do most of the wetting; in summer, equipment that runs cold, such as refrigerated ammonia storage, can sweat under damaged vapour barriers and hold water against the steel."
+      ]
+    },
+    {
+      "id": "kwinana-remote",
+      "h": "Running the study on Perth time",
+      "p": [
+        "Perth and Kwinana keep Australian Western Standard Time, eight hours ahead of UTC, with no daylight saving. Hyderabad is two and a half hours behind, which puts most of the Kwinana working day inside Hyderabad business hours: a nine o'clock workshop in Kwinana opens at half past six in Hyderabad, and an early afternoon session ends well before the Hyderabad day does. Houston is thirteen or fourteen hours behind, so calls with the Houston team fall at the start of the Kwinana day, which is the Houston evening.",
+        "The data room is the first step: P&IDs and PFDs, heat and material balances, datasheets and manufacturer's data reports, WorkSafe WA registration records, inspection and thickness history including records inherited from previous operators, commissioning and baseline inspection records for new plant, process chemistry and integrity operating windows. A data-gap log is issued before risk work starts, so the site can decide which gaps to close and which to cover with conservative assumptions.",
+        "Corrosion loops and damage mechanisms are reviewed in video workshops with your process, operations, corrosion and inspection people, and risk is calculated at the level the scope calls for, from qualitative screening to a quantitative API RP 581 assessment or the owner's corporate RBI standard. The study needs no travel to Western Australia; walkdowns, foundation and coating checks and any thickness readings the gap log calls for are done by your own inspectors or the inspection contractor you already use."
+      ]
+    },
+    {
+      "id": "kwinana-approval",
+      "h": "Who accepts the intervals",
+      "p": [
+        "The competent person your inspection procedure names accepts each interval; the RBI study supplies the reasoning, the code limits and the reassessment triggers. Atlantis does not act as inspector of record and is not a registered inspection body in Western Australia. Where inspection finds damage that needs an assessment of continued operation, the owner's engineer carries it out, and the register is updated with the result before the affected due dates are reset."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms)",
+    "API 510, API 570 and API 653",
+    "AS/NZS 3788:2024 (pressure equipment, in-service inspection)",
+    "AS 4343 (pressure equipment hazard levels)",
+    "AS 1940:2017 (flammable and combustible liquids)",
+    "WHS (General) Regulations 2022 (WA), Schedule 5",
+    "Dangerous Goods Safety Act 2004 (WA) and Dangerous Goods Safety (Major Hazard Facilities) Regulations 2007"
+  ],
+  "deliverables": [
+    "RBI register with corrosion loops for terminal, chemical, fertiliser and lithium assets",
+    "Inspection plan per item with method, coverage, expected effectiveness and due date",
+    "Service history and current-service probability for each repurposed tank",
+    "Baseline inspection plan and conservative first-cycle intervals for newly commissioned plant",
+    "Mapping of inspection tasks to major incident scenarios in the safety report",
+    "Data-gap log and verification list for the owner's inspectors"
+  ],
+  "industries": [
+    "Fuel import terminals",
+    "Ammonia and nitrogen fertilisers",
+    "Industrial chemicals",
+    "Lithium hydroxide refining",
+    "Bulk liquid storage"
+  ],
+  "faqs": [
+    { "q": "Can an RBI study rely on inspection records from the refinery era?", "a": "Yes, with care. Thickness readings and floor scans taken under the old service still describe the steel, but the corrosion rate that matters is the one expected in the current service. The study uses the history to establish condition, assesses probability for present service and states where a new baseline is needed before a long interval can be justified." },
+    { "q": "How is a newly commissioned plant assessed with no corrosion history?", "a": "From design data, materials selection, licensor process chemistry and the damage mechanisms each stage can suffer. Probability is set conservatively until baseline and first in-service inspections exist, early inspection goes to the items with the most severe predicted mechanisms or the highest consequence, and intervals lengthen as measured rates replace the assumptions made at the start." },
+    { "q": "Which regulator does an RBI programme in Kwinana answer to?", "a": "Usually two. Registered boilers and pressure vessels fall under the WHS (General) Regulations 2022 and are registered with WorkSafe WA. Dangerous goods sites, including major hazard facilities, fall under the Dangerous Goods Safety Act 2004 and its regulations, administered by the Department of Local Government, Industry Regulation and Safety. The method statement is written so both can follow it." },
+    { "q": "Does a WorkSafe WA item registration need renewing before inspection?", "a": "No. An item registration in Western Australia does not expire, so it never prompts the next examination. The inspection date comes from the owner's programme. The register still records each item's registration number and hazard level, which helps with consequence screening and lets an auditor trace every registered vessel to an inspection decision." },
+    { "q": "How does the study handle ammonia storage?", "a": "Ammonia storage is assessed for stress corrosion cracking, which depends on oxygen contamination, water content, steel strength and weld stress, as well as for external corrosion and CUI on refrigerated tanks and vessels. Wall thickness checks do not find cracking, so the plan specifies crack-detection examination at welds and credits past inspection only where such a technique was used." },
+    { "q": "Are idle or preserved assets in the area included?", "a": "If the owner wants them included, yes. Equipment in care and maintenance is assessed for the damage that can happen while it stands idle, with its preservation method and the date it was last checked recorded in the register. The plan sets what must be inspected before any restart, so a decision to bring a unit back is made on current evidence." },
+    { "q": "Does anyone need to travel to Kwinana for the study?", "a": "No. The study is delivered remotely, needs no travel and runs on documents, historian data and video workshops. Your own inspectors or your inspection contractor carry out walkdowns, coating and foundation checks and any readings the data-gap log asks for, and their results are loaded into the register as they arrive." },
+    { "q": "Who signs off the intervals?", "a": "The competent person your procedure names. The study proposes each interval with its basis and the limits of the governing code, but it does not approve dates, and continued-operation assessments after a finding stay with the owner's engineer. Atlantis is not the inspector of record for any item in the plan." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/australia", "RBI in Australia"],
+    ["/inspection/risk-based-inspection/geelong", "RBI in Geelong"],
+    ["/inspection/risk-based-inspection/brisbane-lytton", "RBI in Brisbane and Lytton"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection support"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/erp/apps/asset-management", "Inspection records in the Atlantis ERP"]
+  ],
+  "sources": [
+    { "fact": "BP Kwinana refinery, once Australia's largest at 146,000 b/d, converted into a fuel import terminal in 2021; BP rephased the Kwinana Renewable Fuels project (February 2025)", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/020425-bp-puts-the-brakes-on-australias-kwinana-biofuels-project" },
+    { "fact": "CSBP Kwinana complex in the Kwinana Industrial Area about 40 km south of Perth CBD: ammonia plant, nitric acid plants, ammonium nitrate solution and prilling, AN emulsion; Australian Gold Reagents sodium cyanide plants; superphosphate plant in care and maintenance (report dated 14 May 2026)", "url": "https://csbp.com.au/wp-content/uploads/2026/05/MS1217_Feb24-to-Jun25-CSBP-Annual-Compliance-Assessment-Report.pdf" },
+    { "fact": "Covalent Lithium (50% Wesfarmers, 50% SQM) Kwinana lithium hydroxide refinery: first product July 2025, ramp-up affected by intermittent odour issues, recovery below design rate in FY2027 (27 August 2026)", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/082726-wesfarmers-ceo-confident-of-australian-lithium-refinery-ramp-up-amid-challenges" },
+    { "fact": "Alcoa Kwinana alumina refinery fully curtailed June 2024; permanent closure announced 29 September 2025", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/100225-alcoas-australian-refinery-closure-signals-decline-in-alumina-industry" },
+    { "fact": "WA Department of Local Government, Industry Regulation and Safety formed 1 July 2025; WorkSafe Group oversees dangerous goods safety legislation including major hazard facilities", "url": "https://www.wa.gov.au/organisation/department-of-local-government-industry-regulation-and-safety/about-the-department-of-local-government-industry-regulation-and-safety" },
+    { "fact": "WA MHFs: Dangerous Goods Safety (Major Hazard Facilities) Regulations 2007; Chief Dangerous Goods Officer decides MHF status; dangerous goods licence; operators show how they identify foreseeable major incidents, assess likelihood and consequences and justify controls (safety report)", "url": "https://www.worksafe.wa.gov.au/when-dangerous-goods-site-also-major-hazard-facility-mhf" },
+    { "fact": "WA item registration under WHS (General) Regulations 2022 Schedule 5: boilers and pressure vessels hazard A, B or C to AS 4343:2014; pressure piping excluded; registration with WorkSafe WA does not expire", "url": "https://www.wa.gov.au/government/multi-step-guides/plant-and-design-registration/item-of-plant-registration" },
+    { "fact": "Dangerous Goods Safety Act 2004 (WA) is the governing Act for dangerous goods safety", "url": "https://ablis.business.gov.au/service/wa/as-nzs-3788-pressure-equipment-in-service-inspection/46658" }
+  ]
+}
