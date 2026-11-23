@@ -1,0 +1,225 @@
+{
+ "title": "Computed Radiography (CR) Report Review | Plates and Scanners",
+ "description": "Independent review of computed radiography reports: imaging plate condition, scanner performance checks, IQI, SNR, processing and the CR image files, remotely.",
+ "h1": "Computed radiography report review: imaging plates, scanners and the files behind the result",
+ "eyebrow": "Method review: computed radiography (CR)",
+ "intro": "Computed radiography sits between film and digital detector arrays. The exposure looks like film work, with flexible cassettes wrapped around a pipe, but the image is a digital file read out of a reusable phosphor plate by a laser scanner. Each step leaves its own evidence: the plate's history, the scanner's performance checks, the scan settings, the processing and the exported image. We review that evidence independently, against the procedure and the code, and tell you in writing whether the report's conclusions follow from it. Reviews are carried out remotely on the files and records you send.",
+ "highlights": [
+  {
+   "h": "The plate is part of the evidence",
+   "p": "Imaging plates are reused many times, and scratches, fading, incomplete erasure and storage near sources all leave marks. We check plate identification and condition before trusting what an image appears to show."
+  },
+  {
+   "h": "Scanner settings decide resolution",
+   "p": "Pixel size, laser and photomultiplier settings and scan speed shape every CR image. We compare the settings recorded in each file with the qualified settings and the periodic scanner performance results."
+  },
+  {
+   "h": "Digital images, digitally checked",
+   "p": "We open the CR files, measure image quality where the record allows, check the processing that was applied, and trace each picture in the digital report back to a plate, a scan and a weld."
+  }
+ ],
+ "sections": [
+  {
+   "h": "How a CR image is made, and the trail each step leaves",
+   "p": [
+    "A CR imaging plate carries a layer of photostimulable phosphor. Radiation passing through the part traps electrons in the phosphor and forms a latent image. In the scanner, a laser releases that stored energy as light, a photomultiplier converts the light to an electrical signal, and the signal becomes a grey value for each pixel. The plate is then flooded with bright light to erase it, ready for the next exposure.",
+    "That sequence explains most of what goes wrong. The latent image is stable for hours but fades with time, so a long delay between exposure and scan costs signal. A plate that was not fully erased can carry a ghost of the previous shot. Plates stored near radiation sources can pick up a background image. Pixel size depends on how fast the plate moves through the scanner and how often the signal is sampled, so the scan settings decide the finest detail the image can hold, whatever the exposure.",
+    "A good CR report captures enough of this trail for someone else to follow it: which plate, which scanner, which settings, when the plate was scanned, what processing was applied and which file the reported image came from. A weak report shows a picture and a verdict. Our review measures the distance between the two."
+   ]
+  },
+  {
+   "h": "Standards behind a computed radiography report",
+   "p": [
+    "CR has its own family of ASTM documents, separate from the digital detector array standards, and a report that cites the DDA practices for a CR job, or cites nothing beyond the construction code, has started on the wrong foot. The table sets out what each document does and what we look for under it."
+   ],
+   "table": {
+    "head": [
+     "Document",
+     "Role",
+     "Review focus"
+    ],
+    "rows": [
+     [
+      "ASME Section V, Article 2 with its appendix for phosphor imaging plates",
+      "CR examination under ASME construction and in-service codes",
+      "Procedure written to the CR appendix of the edition the referencing code names"
+     ],
+     [
+      "ASTM E2033",
+      "Practice for radiographic examination using computed radiography (the photostimulable luminescence method)",
+      "Technique, image quality and documentation requirements invoked by the procedure"
+     ],
+     [
+      "ASTM E2445",
+      "Performance evaluation and long-term stability of CR systems",
+      "Baseline and periodic scanner and system tests, and their dates against the examination"
+     ],
+     [
+      "ASTM E2446",
+      "Manufacturing characterization of CR systems",
+      "That the plate and scanner combination is of a class suited to the application, where the procedure or code relies on classification"
+     ],
+     [
+      "ASTM E2007",
+      "A tutorial guide to CR principles and terms; it gives no techniques or acceptance criteria",
+      "Used to read terms correctly, never as the basis for a requirement"
+     ],
+     [
+      "ASTM E747 and E1025",
+      "Wire and hole-type image quality indicators",
+      "IQI type, designation, placement and the sensitivity actually shown"
+     ],
+     [
+      "ASTM E2002",
+      "Total image unsharpness and basic spatial resolution",
+      "Duplex wire measurement and how basic spatial resolution was derived"
+     ],
+     [
+      "ISO 17636-2",
+      "Digital radiography of welds with CR or DDAs on many international contracts; acceptance levels come from a separate standard",
+      "Testing class, image quality values and the acceptance standard named alongside it"
+     ],
+     [
+      "The construction or in-service code",
+      "ASME Section VIII, B31.3, API 1104 and others supply the acceptance criteria",
+      "Correct edition, weld category and acceptance table applied to each indication"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Imaging plates: identity, condition and artefacts",
+   "p": [
+    "A plate is a consumable that does not look consumed. It can be scratched by grit in a cassette, creased by bending around a small-diameter pipe, marked by pressure, cracked at the edges or worn in the middle after many cycles. Each of those defects produces a pattern in the image, and some of those patterns resemble weld indications closely enough to cause trouble in either direction: a real lack of fusion dismissed as a scratch, or a scratch rejected as a crack.",
+    "We look for a plate identification on every image, a plate log or inspection record showing that plates are checked and retired, and evidence that the procedure's handling rules were followed: lead screens, cassette type, the time between exposure and scanning and how plates were stored between shots. Where an image carries a linear feature, we compare it with other images taken on the same plate. A mark that moves with the plate rather than with the weld is a plate artefact.",
+    "Erasure deserves its own check. An incompletely erased plate can show a faint image of the previous component, and in a run of similar welds that ghost can sit almost exactly where an indication would. The record should show that the erase cycle was run and, for plates that sat unused, that they were erased again before exposure."
+   ],
+   "list": [
+    "Plate ID visible or recorded for each exposure, and traceable to a plate inspection or retirement log",
+    "Linear or curved marks compared across other images from the same plate before any disposition",
+    "Exposure-to-scan intervals within what the procedure allows, especially for field work in hot climates",
+    "Erase cycles recorded, and plates stored away from sources between uses",
+    "Lead screen and cassette arrangement matching the technique sheet"
+   ]
+  },
+  {
+   "h": "Scanner performance checks and scan settings",
+   "p": [
+    "The scanner is where a CR system's resolution is won or lost. Laser spot size, sampling interval, transport speed and photomultiplier gain together decide the pixel size and the noise in the image, and each scanner model behaves a little differently. ASTM E2445 provides the baseline and periodic tests that show a system is performing as it did when it was qualified. Those results, with dates, should be part of any record that will be relied on.",
+    "We compare three things: the settings the procedure and system qualification specify, the settings recorded in the header of each image, and the results of the periodic checks around the examination date. A scan performed at a coarser pixel size than qualified, perhaps to speed up a backlog, can still produce an image that looks acceptable at normal zoom while failing to resolve the fine detail the acceptance criteria rely on.",
+    "Mechanical problems also leave signatures. Jitter in the plate transport produces regular banding; a dirty light guide can leave a stripe along the scan direction; a laser losing power produces a gradual change in signal across the plate. When we see those patterns, we check whether the scanner's next performance test caught the problem and which images were affected."
+   ]
+  },
+  {
+   "h": "Image quality on the production image",
+   "p": [
+    "IQI sensitivity remains the headline figure in most CR reports, but on its own it can mislead. A wire or hole can be visible in a region of low noise while the weld, under a heavier section or a less favourable exposure, carries far more. That is why procedures written to the current CR practices also ask for a signal-to-noise measure, normalized to the basic spatial resolution, and for the basic spatial resolution itself to be measured with a duplex wire indicator.",
+    "Underexposure is the CR failure we meet most often. Phosphor plates tolerate a wide exposure range, so an underexposed image still looks like a picture once software has stretched its contrast. The penalty is noise: fine wires and small rounded indications sink into it. A measured SNR in the weld region is the way to show that the exposure was adequate, and its absence from a report is a gap we record even when the IQI appears satisfactory.",
+    "CR plates also vary in their intrinsic resolution, and some plate types used for speed in field work cannot match film for fine detail without geometric magnification. The technique sheet should show why the plate type, distances and pixel size chosen were enough for the thickness and the smallest flaw the acceptance criteria require to be detected."
+   ]
+  },
+  {
+   "h": "Processing, display and interpretation",
+   "p": [
+    "CR software applies a look-up table to turn raw signal into a displayable image, and most packages also offer filters for edge enhancement and noise suppression. Display adjustment is normal practice. Filtering that changes the stored data is acceptable only within the limits the procedure sets, and the original unprocessed scan should be kept so that another reader can start from the same point.",
+    "We review the processing history where the software records it, open the raw scan where it was kept, and compare what the interpreter saw with what the data supports. Over-processing can create halos around dense features and edges, and it can make porosity look sharper than it is. We also check the measurement calibration: a length or diameter read from a CR image is only as good as the pixel size the software was told to use.",
+    "Interpretation conditions belong in the record too. The procedure will normally set requirements for the monitor and the viewing environment. A monitor that has never been checked against a test pattern, or images evaluated on a laptop in a site cabin, are points a challenging reader will raise. We raise them first."
+   ]
+  },
+  {
+   "h": "The digital record from plate to report",
+   "p": [
+    "Between exposure and the issued report, a CR image passes through several hands and programs: the scanner workstation, the interpretation software, perhaps a digital reporting platform that pulls images into a template, and finally an archive. At each hand-over, an image can be renamed, compressed, cropped or matched to the wrong weld. Data lineage is the record that shows none of that happened.",
+    "We match each image in the report to a source file, using the file name, the header data and the visible markers on the image. We check that the archived files are in a lossless format, ideally DICONDE under ASTM E2339 or the vendor's native format with a viewer available, and that the exported pictures in the PDF have not been substituted for the originals in the archive. Electronic signatures, approval dates and any revisions to dispositions are traced through the reporting system as well."
+   ]
+  },
+  {
+   "h": "Typical reasons a CR report fails an independent review",
+   "p": [
+    "These are the findings that recur. Several are documentation gaps that the contractor can usually close from records it already holds; others go to the heart of the accept or reject call."
+   ],
+   "list": [
+    "Procedure written for film, with CR bolted on and none of the CR practice requirements addressed",
+    "No periodic scanner performance results for the period, or results from a different scanner",
+    "Pixel size or scanner settings in the image headers that differ from those qualified",
+    "Plate artefacts dispositioned as weld indications, or weld indications dismissed as plate marks without comparison",
+    "Underexposed images accepted on IQI visibility alone, with no SNR measured in the weld region",
+    "Raw scans not kept, so the interpretation cannot be repeated from the data",
+    "Images in the digital report that cannot be traced to a plate, a scan file or a weld",
+    "Acceptance taken from the wrong table for the joint category or service"
+   ]
+  },
+  {
+   "h": "US projects, remote review and who reads the images",
+   "p": [
+    "Atlantis does not carry out industrial radiography in the United States, where that work is licensed under 10 CFR Part 34 or the equivalent Agreement State rules. CR images exposed by your licensed contractor can still be reviewed, because the review deals only with documents and digital image files and is carried out remotely from Houston and Hyderabad. Source handling, dosimetry and license compliance remain the contractor's responsibility and the regulator's concern.",
+    "The radiographic interpretation in our reviews is led by an ASNT NDT Level III whose certification covers radiography alongside UT, MT, PT and VT. The wider review team draws on members with backgrounds in nuclear, maritime, oil and gas and petrochemical work, so the reviewer reads the CR report with the service conditions of the component in mind as well as the image itself."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is a CR report reviewed in the same way as a film report?",
+   "a": "Interpretation and acceptance are checked the same way, but a CR review adds checks that film never needed: plate identity and condition, scanner settings and performance tests, measured SNR and basic spatial resolution, processing history and the integrity of the image files."
+  },
+  {
+   "q": "What files should we send for a CR review?",
+   "a": "The issued report, the procedure and technique sheets, personnel records, the scanner performance and system qualification records, and the CR image files in their native or DICONDE format, unprocessed where available. Plate logs and cassette records help where plate artefacts are in question."
+  },
+  {
+   "q": "Can a CR image with a visible IQI still be rejected on review?",
+   "a": "Yes. A visible IQI shows sensitivity in one place. If the weld region is much noisier, the pixel size was coarser than qualified, or the IQI was in the wrong position or the wrong designation, the image may not support the acceptance of small indications."
+  },
+  {
+   "q": "How do you tell a plate artefact from a weld indication?",
+   "a": "By comparing the feature with other images from the same plate, checking whether it follows the plate or the weld geometry, looking at its profile in the raw data, and checking erasure and handling records. Where the record cannot settle it, the opinion says that a repeat exposure is needed."
+  },
+  {
+   "q": "Does Atlantis expose CR plates on US sites?",
+   "a": "No. Atlantis does not perform industrial radiography in the United States. Reviewing CR images and reports produced by your licensed contractor is a document and data review, and that is what this page describes."
+  },
+  {
+   "q": "Do you need the contractor's software?",
+   "a": "Not always. DICONDE files can be read by several independent viewers, and many CR vendors supply a reader for their own format. If a format needs licensed software we say so when we scope the work."
+  },
+  {
+   "q": "What does the written opinion contain?",
+   "a": "A verdict that the report is sound, deficient in documentation only, or deficient in disposition, followed by each finding with the clause or procedure step it rests on, the image or record that shows it, and what would resolve it."
+  },
+  {
+   "q": "Can you review CR work produced in the Gulf states?",
+   "a": "Yes, remotely. Contracts there often name ISO 17636-2 or an operator's radiography standard in addition to the ASME codes, and we read the image quality class and acceptance standard the contract actually invokes."
+  }
+ ],
+ "related": [
+  [
+   "/report-validation/radiographic-film-and-digital-interpretation-review",
+   "Radiograph interpretation review"
+  ],
+  [
+   "/standards/asme-section-v-article-2",
+   "ASME Section V Article 2 explained"
+  ],
+  [
+   "/standards/iso-17636",
+   "ISO 17636 radiographic testing of welds"
+  ],
+  [
+   "/radiographic-testing",
+   "Radiographic testing"
+  ],
+  [
+   "/report-validation/pipeline-girth-weld-report-review",
+   "Pipeline girth weld report review"
+  ]
+ ],
+ "sources": [
+  "https://cdn.standards.iteh.ai/samples/115531/d87f662b437c4fe0b493840a0f367b9b/ASTM-E2007-10-2023-.pdf",
+  "https://webstore.ansi.org/standards/astm/astme2033e2033m24",
+  "https://store.astm.org/e2033-17.html",
+  "https://webstore.ansi.org/standards/astm/astme2445e2445m20",
+  "https://store.astm.org/e2446-24.html",
+  "https://www.iso.org/standard/78320.html",
+  "https://www.nrc.gov/reading-rm/doc-collections/cfr/part034"
+ ]
+}
