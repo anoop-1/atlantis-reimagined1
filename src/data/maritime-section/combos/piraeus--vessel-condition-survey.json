@@ -1,0 +1,131 @@
+{
+  "port": "piraeus",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey Piraeus | Greek-Managed Fleets",
+  "description": "Vessel condition surveys in Piraeus for Greek owners, managers, charterers and banks: holds, tanks, coatings and machinery at Perama or the anchorage.",
+  "h1": "Owner's condition surveys for Greek-managed ships at Piraeus, Perama and the anchorages",
+  "intro": "For a Greek technical department, a vessel condition survey in Piraeus answers a practical question: what state is the ship in now, and what will the next charter, loan review or docking ask of it? Superintendents can attend in person because the ships come to them, for afloat repairs at the Perama quays, a floating-dock period, a winter refit or a wait at the anchorage off the port. Atlantis rates structure, tanks, coatings and running machinery area by area and ranks each defect for action. Every job is staffed by a team that travels from India to the vessel, with Schengen visas obtained before departure.",
+  "highlights": [
+    {
+      "h": "The superintendent sees it first-hand",
+      "p": "Technical managers in Piraeus can join the survey at the quay or by launch, look into the worst tanks themselves and agree the priority of each defect on the spot, instead of reading about it days later in a report sent from a distant load port they could not reach."
+    },
+    {
+      "h": "Annual fleet reviews on one scale",
+      "p": "Greek owners running several bulk carriers and tankers often want each ship reviewed every year in the same way. Coatings are rated in IACS terms and structure and machinery on a written scale, so this year's report can be read against last year's, ship by ship and space by space."
+    },
+    {
+      "h": "Evidence ready before the bank asks",
+      "p": "Loan agreements with Greek and international lenders often call for periodic reports on the condition of the mortgaged ships. A survey timed to a Perama repair or an anchorage wait gives the owner measured evidence to send, with the defects already ranked and the repairs already planned against them."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-at-piraeus",
+      "h": "Where can a condition survey be done in Piraeus and Perama?",
+      "p": [
+        "Each setting allows a different depth of survey. Alongside the Perama repair quays, holds, ballast tanks and voids can be opened and ventilated while afloat repairs go on around them, and yard staging rigged for other work sometimes brings upper hold structure within reach. In one of the port authority's floating docks the bottom shell, sea chests, rudder and stern frame area are dry and can be added to the survey. At the outer anchorage the work covers what the crew has prepared, usually ballast tanks, holds in ballast, the deck, hatch covers and machinery that is running.",
+        "Passenger ships run to a different calendar. Ro-pax ferries and cruise ships are rarely free between spring and autumn, so their owners book condition surveys during the winter refit, when vehicle decks, voids, tanks and machinery spaces can be opened with no passengers aboard. Container ships at the Neo Ikonio piers stay only for their cargo window, which limits a survey there to deck structure, lashing gear, closing appliances and the engine room. For heavy dockings, managers also look to the two large Elefsina bay yards a short drive away, and a survey there can follow the ship from the anchorage into dock."
+      ],
+      "list": [
+        "Perama repair quays: holds, ballast tanks, voids, deck and machinery while afloat repairs run",
+        "PPA floating docks at Perama: all of that plus bottom shell, sea chests, rudder and stern area with the hull dry",
+        "Outer anchorage: prepared tanks and holds, deck and closing appliances on ships waiting for orders or a repair slot",
+        "Passenger harbour in winter: vehicle decks, voids, tanks and machinery on ferries and cruise ships in refit",
+        "Neo Ikonio container piers: deck, lashing structure and engine-room readings inside the port stay"
+      ]
+    },
+    {
+      "id": "who-commissions",
+      "h": "Which Piraeus-managed ships get condition surveys, and for whom?",
+      "p": [
+        "Bulk carriers and tankers in their second and third decades make up most of the work, because that is the age profile of much of the Greek-controlled fleet and the age at which owners start weighing further trading against the ship's condition. Each survey has a different first reader. A technical manager wants a fleet check at a consistent depth. A chartering department fixing a ship on period wants confidence that holds, tanks and deck cranes will stand up to the charterer's own inspection. A bank holding the ship as security wants a plain statement of its condition. An owner heading for a docking wants the repair specification to rest on what the ship actually needs.",
+        "Tankers past about fifteen years add vetting to the list. Oil-major inspectors look closely at ballast tank coatings, deck piping and closing appliances, and a condition survey some months beforehand lets the manager put right what an inspector would otherwise write up. Ferry operators commission surveys before each season, when they need confidence that ramps, vehicle decks, watertight doors and machinery will last through a summer of island crossings without unplanned stops."
+      ]
+    },
+    {
+      "id": "how-scoped",
+      "h": "How is a Piraeus condition survey scoped for an ageing bulk carrier or tanker?",
+      "p": [
+        "We start from the purpose and the ship's history. Piraeus managers usually know the trading pattern in detail, whether grain and steel cargoes around the eastern Mediterranean, coal and ore on long hauls or clean products between refineries, and that tells us where wastage and mechanical damage are likely. On a bulk carrier the scope normally covers hold frames, lower brackets and bulkhead strakes, topside and hopper tanks, hatch covers and coamings, and the deck cranes with their pedestals. On a tanker it starts with the ballast tanks, then deck plating and piping, cargo tanks where a gas-free certificate allows, and pump room structure and lines.",
+        "Spot thickness readings are taken where each space is most likely to be losing steel and marked by frame and member on a sketch, so the next survey measures the same points. Magnetic particle testing goes on hatch corners, bracket toes and crane pedestal welds where the surface can be cleaned; those results are the owner's own NDT records, not class findings. Machinery is assessed while it runs, which at Perama means agreeing with the chief engineer when generators and pumps can be loaded without getting in the way of the repair contractors.",
+        "Weather and timing shape the visit. Summer meltemi winds can make launch transfers at the outer anchorage rough, and the agent may move boarding to a calmer hour. Where the survey is meant to shape a docking specification, the useful moment is a few weeks before the dock date, while the yard is still preparing its offer and steel can still be added to the work list."
+      ]
+    },
+    {
+      "id": "typical-findings",
+      "h": "Typical condition findings on Greek-managed bulk carriers, tankers and ferries",
+      "p": [
+        "Coating breakdown in ballast and topside tanks is the commonest Priority 2 finding: first along stiffener edges and welds, then general rusting in the upper parts of the tank where heat and condensation are worst. In holds, frames and brackets carry grab and bulldozer damage, and lower bulkhead strakes waste where corrosive cargoes have lain against them. Hatch covers show worn seals, wasted compression bars and seized cleats. On deck, air pipe heads, ventilator coamings and fire main sections are the items Paris MoU inspectors from the Hellenic Coast Guard most often question, and they are quick to put right once found.",
+        "Scrubbers fitted some years ago are now a regular source of Priority 1 items. The Mediterranean has been a sulphur emission control area since May 2025, so scrubber-fitted ships around Piraeus run their systems hard, and wash-water and overboard lines with broken linings corrode fast. The survey gauges those lines at bends and close to the shell and records the condition of the penetrations; the Scrubber Piping Inspection page covers a closer examination. In the engine room, vibration spectra on ballast and fire pumps and thermal images of the main and emergency switchboards pick up faults the crew has learned to live with.",
+        "Ferries show their own pattern: wear and wastage on vehicle deck plating where trailers turn and lashings concentrate load, corrosion around ramp hinges and bow and stern door seals, and wasted void spaces below the car decks where condensation collects. Those findings decide what the winter yard period has to include before the timetable starts again."
+      ]
+    },
+    {
+      "id": "cap-and-charterers",
+      "h": "Is a condition survey the same as a CAP survey or the charterer's on-hire survey?",
+      "p": [
+        "No. A Condition Assessment Programme rating is issued by the ship's classification society to its own procedure, and Piraeus tanker managers often prepare for one because charterers ask for it; our survey can show where a CAP survey will find trouble, but it does not produce a rating. The IMO Condition Assessment Scheme is a statutory process for older single-hull oil tankers and is a separate job again. Charterers and P&I clubs appoint their own surveyors, and an owner's survey replaces none of them.",
+        "Thickness readings follow the same logic. Atlantis holds no UR Z17 approval yet; it is working through the process with DNV, Lloyd's Register and ABS, so readings from a condition survey are the owner's evidence for planning repairs and dockings rather than gauging that class credits. Where a renewal survey is close, they show the superintendent where the class gauging is likely to call for renewal, and how much steel to plan for."
+      ]
+    },
+    {
+      "id": "planning-piraeus",
+      "h": "Planning a condition survey in Piraeus: Schengen visas, access and timing",
+      "p": [
+        "Greece is in the Schengen area, so each technician needs a Schengen visa issued in India before the team can fly to Athens, and that is the long-lead item. Send the vessel, the purpose and the likely place and dates as soon as a Perama repair, a dock slot or an anchorage period comes into view. The ship's agent requests port authority gate passes, repair-zone access and launches, and the team's crew list and certificates go to the agent early so ISPS clearance is ready when they land.",
+        "With the enquiry, include the last condition and thickness reports, the class survey status and any charterer's or lender's report format. If several ships in one Greek fleet need surveys over the coming months, telling us the order lets a single mobilisation cover more than one ship when their port calls line up. Write to info@atlantisndt.com or use the enquiry form."
+      ]
+    }
+  ],
+  "vessels": [
+    "Bulk carriers",
+    "Crude and product tankers",
+    "Chemical tankers",
+    "Container ships",
+    "Ro-pax ferries",
+    "Cruise ships"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and the GOOD, FAIR and POOR coating terms",
+    "IACS UR Z10.2 – Hull surveys of bulk carriers",
+    "IACS UR Z10.1 and Z10.4 – Hull surveys of oil tankers and double-hull oil tankers",
+    "SOLAS chapter II-1 – Structure, subdivision and stability, including watertight doors on passenger ships",
+    "ISM Code, section 10 – Maintenance of the ship and equipment",
+    "ISO 20816-1 – Mechanical vibration: evaluation of machine vibration by measurements"
+  ],
+  "deliverables": [
+    "Summary of overall condition and the decisions facing the owner, charterer or lender",
+    "Area-by-area ratings for structure, coatings, closing appliances, deck machinery and engine room",
+    "Defect list in three priority groups, each with location, photograph and recommended action",
+    "Spot thickness readings on frame-and-member sketches, compared with earlier reports where they exist",
+    "Vibration spectra and thermal images for running machinery, with the load noted",
+    "Spaces and items not surveyed, and why"
+  ],
+  "faqs": [
+    {
+      "q": "Can a condition survey be combined with afloat repairs at Perama?",
+      "a": "Often, and it is one of the best times for it. Tanks are already opened and ventilated for the repair contractors, staging may be up in holds, and the superintendent is usually on site. We agree the order of work with the yard so the survey does not hold up repairs, and anything found that should be added to the repair list goes to the superintendent the same day."
+    },
+    {
+      "q": "Will a Greek bank accept an owner's condition survey for loan reporting?",
+      "a": "That depends on the loan agreement, which sometimes names the surveyors a lender will accept. Where the owner can choose, our report gives the bank what it usually looks for: condition by area, ranked defects, measured machinery readings and a statement of what the next class survey is likely to require. If the lender has its own reporting template, send it beforehand and the findings are set out in it."
+    },
+    {
+      "q": "Can you survey a ro-pax ferry during its winter refit in Piraeus?",
+      "a": "Yes, and winter is the right time. With the ship out of service, vehicle decks can be walked and gauged where traffic and lashings concentrate wear, voids and ballast tanks can be opened, ramps and doors examined, and machinery read as maintenance allows. The findings can then go into the refit work list before the yard period ends and the island timetable resumes."
+    },
+    {
+      "q": "Does a condition survey help prepare a tanker for CAP or oil-major vetting?",
+      "a": "It helps, though it is not either of them. A survey some months ahead shows the manager which ballast tanks are heading for a POOR rating, where deck piping and fire main sections are wasting, and which closing appliances an inspector would question. That leaves time to repair before the CAP survey or vetting inspection, rather than learning the problems from their findings."
+    },
+    {
+      "q": "How far ahead should a condition survey at Piraeus be booked?",
+      "a": "As early as the place and dates are reasonably firm. Schengen visas for a team travelling from India set the pace, so a survey linked to a known Perama repair or dock date is easier to plan than one at an anchorage where the ship's arrival may move. If the dates shift after booking, tell us at once and we re-plan the visit around the new window."
+    },
+    {
+      "q": "Can one trip cover several ships of a Greek fleet?",
+      "a": "Frequently. Ships of the same management often pass through Piraeus, Perama or the Elefsina bay yards within weeks of each other. If the technical department shares its expected port calls and docking dates, we line up the surveys so one mobilisation covers two or more ships, using the same method on each so the fleet review stays consistent."
+    }
+  ]
+}

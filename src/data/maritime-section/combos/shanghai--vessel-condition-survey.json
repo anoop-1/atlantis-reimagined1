@@ -1,0 +1,131 @@
+{
+  "port": "shanghai",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey Shanghai | Owners, Lessors, Charterers",
+  "description": "Vessel condition surveys in Shanghai at Yangshan, the Yangtze estuary anchorages or repair yards: tanks, coatings, thickness and machinery for owners.",
+  "h1": "Condition surveys of ships at Shanghai: container berth, estuary anchorage or upriver yard",
+  "intro": "Shanghai is where many Chinese owners, ship lessors and charterers decide how a ship should be maintained, financed, chartered or docked, and a call at the port is often the easiest moment to establish its condition first. A vessel condition survey here may be a focused few hours on a container ship at Yangshan, a fuller survey of a bulk carrier waiting in the Yangtze estuary, or a docking-period survey at a yard on the lower Yangtze or in Zhoushan. Atlantis rates every area and ranks the defects found. Technicians fly from India on Chinese business visas, so the survey is fixed to a confirmed window.",
+  "highlights": [
+    {
+      "h": "Container ships checked mid-charter",
+      "p": "Non-operating owners whose container ships are on long charters to liner companies rarely see them. A survey during a Yangshan or Waigaoqiao call shows the owner how deck structure, coamings, lashing bridges and machinery are standing up, well before the redelivery survey makes the condition a matter for negotiation."
+    },
+    {
+      "h": "Lessors' periodic and lease-end checks",
+      "p": "Leasing companies in Shanghai own ships that other companies operate. A condition survey at a review point or at the end of a bareboat charter gives the lessor its own measured evidence of hull, tanks and machinery, rated and ranked, instead of relying on the operator's account."
+    },
+    {
+      "h": "Findings carried to the docking yard",
+      "p": "Because Shanghai's large yards mostly build new ships, repair dockings usually happen upriver or in Zhoushan. Every finding is located on the ship's drawings and every defect ranked, so the superintendent can write the docking specification before the ship leaves the estuary."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-shanghai",
+      "h": "Where can a vessel condition survey be done in the Shanghai port system?",
+      "p": [
+        "The answer depends on how long the ship will sit still and in what condition. A bulk carrier, ore carrier or tanker waiting at the Yangtze estuary anchorages in ballast allows the most complete survey of a ship still trading: ballast tanks, prepared holds, deck, closing appliances and machinery, reached by a launch the agent arranges. A ship at a repair yard on the lower Yangtze or in the Zhoushan archipelago allows more again, because the hull is dry, staging is up and tanks are opened for the class surveyor.",
+        "The container terminals give the narrowest window. At Yangshan, reached over the Donghai Bridge, and at Waigaoqiao, mainline ships and feeders work cargo to a tight crane plan, so the survey is limited to what can be seen and measured around it: weather deck, hatch coaming tops, lashing bridges, accommodation, engine room and accessible piping. Product and chemical tankers at the estuary oil terminals offer deck and pump room access under the terminal's rules, and cruise ships at Wusongkou can be surveyed in part on turnaround days."
+      ],
+      "list": [
+        "Yangtze estuary anchorages: ballast tanks, holds in ballast, deck, hatch covers and machinery on ships waiting for a berth or for passage upriver",
+        "Yangshan Deep-Water Port and Waigaoqiao: deck, coamings, lashing bridges and engine room during the container call",
+        "Lower Yangtze and Zhoushan repair yards: a complete survey including bottom shell, sea chests and opened tanks",
+        "Estuary oil and petrochemical terminals: deck, piping and pump room on product and chemical tankers",
+        "Wusongkou cruise terminal: machinery spaces, accessible tanks and piping during turnaround"
+      ]
+    },
+    {
+      "id": "who-commissions",
+      "h": "Which owners, lessors and charterers in Shanghai commission condition surveys?",
+      "p": [
+        "Chinese owners and technical managers use them as a fleet tool, surveying each bulk carrier, tanker or feeder at a consistent depth so the board can see which ships need repair work and which are holding up. Owners whose ships are on period charter to liner operators or major charterers use them to keep an eye on tonnage they rarely board, and to start building the record they will want if redelivery turns into a dispute.",
+        "Shanghai is also a centre of Chinese ship leasing, with several bank-owned leasing houses based in the city. A lessor that owns a ship under a bareboat charter or finance lease may ask for a periodic condition survey during the term and a full one before the ship comes back. Charterers form a smaller group: a company taking a ship on period sometimes commissions its own survey before delivery, alongside the on-hire survey the charter provides for.",
+        "None of these replaces the surveyors the parties appoint under a charter, the P&I club's entry or condition surveyor, or the class surveyor. The owner's or lessor's survey is its own evidence, gathered before the others board."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is a Shanghai condition survey scoped for each setting?",
+      "p": [
+        "At a container berth the scope is agreed item by item before arrival, because there is no time to decide on board. The team works from a list fixed with the superintendent, typically deck plating along the hatchways, coaming corners, lashing bridge supports, the scrubber wash-water and overboard lines, sea-water piping and the main machinery that is running for the call. If the master can release one or two ballast tanks safely during a longer stay, they are added; otherwise they wait for the anchorage or the yard.",
+        "At the estuary anchorage the survey can run space by space. Ballast tanks along the length are entered once certified safe, holds are inspected after washing, the deck and closing appliances are checked, and machinery is read with the chief engineer. Tidal streams in the river mouth decide when the launch can come alongside, so the agent's timing governs the start and the finish of each day aboard.",
+        "At a repair yard the survey is fitted around the yard's sequence of blasting, staging and steel work, and the most useful moment is before the steel list is fixed. Readings and coating ratings feed directly into the specification, and anything the survey finds that the yard has not planned for goes to the superintendent the same day."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What do condition surveys find on ships trading to Shanghai?",
+      "p": [
+        "Ships on the China coal and iron ore trades show the wear those cargoes inflict: grab and bulldozer damage on tank tops and hopper plating, distorted and wasted lower frames, and hatch covers with corroded drain channels and tired packing. Feeders and river shuttles that call at Shanghai and the Yangtze ports week after week accumulate fendering damage to the side shell, wear at mooring fittings and fatigue cracks at coaming corners faster than their age suggests.",
+        "Scrubber systems on ships trading into Chinese waters spend long periods in open-loop mode at sea and then run closed or idle near the coast under China's domestic emission rules. That uneven duty erodes wash-water lines and corrodes the shell penetrations, and the survey gauges both. Port state control inspections by the China Maritime Safety Administration look at structural condition, corrosion in accessible spaces and safety piping such as the fire main, so the survey reports those items in a form a superintendent can act on before the next Chinese port call.",
+        "Machinery readings complete the picture: vibration spectra on pumps, fans, purifiers and compressors, and thermal images of switchboards, starters and exhaust lagging. Cracks confirmed by magnetic particle testing are the owner's own NDT records and do not stand in for a class finding."
+      ]
+    },
+    {
+      "id": "class-cas-cap",
+      "h": "How does a condition survey differ from class work, CAS and CAP?",
+      "p": [
+        "It is commercial and carries no class status. The IMO Condition Assessment Scheme applies to older single-hull oil tankers and ends with a flag statement of compliance; a Condition Assessment Programme is a class rating that charterers read. A vessel condition survey borrows their discipline, rating coatings in IACS GOOD, FAIR and POOR terms and measuring steel at recorded points, without becoming either.",
+        "Thickness readings in a Shanghai condition survey help the owner, lessor or charterer decide, and that is all they do. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS and does not yet hold it from any society, so the readings are not credited to a class survey. They are, though, a good guide to where the next renewal survey's gauging will call for steel."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning a condition survey in Shanghai: what to send",
+      "p": [
+        "Send the vessel and its purpose, then the expected berth, anchorage or yard and dates, the class survey status, earlier condition and thickness reports, and any report format a lessor, charterer or fleet department uses. The Chinese business visa for a team travelling from India is issued against an invitation letter, so the application starts as soon as the window is known rather than when the final ETA arrives. Pudong is the usual arrival airport, with Hongqiao handy for domestic connections to the upriver yards, and terminal passes and launches are arranged by the ship's agent. Write to info@atlantisndt.com or use the enquiry form."
+      ]
+    }
+  ],
+  "vessels": [
+    "Container ships",
+    "Feeder container ships",
+    "Bulk carriers",
+    "Ore carriers",
+    "Product and chemical tankers",
+    "Cruise ships"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition terms",
+    "IACS UR Z10.2 – Hull surveys of bulk carriers",
+    "IACS UR S21 – Evaluation of scantlings of hatch covers and hatch coamings",
+    "ISM Code, section 10 – Maintenance of the ship and equipment",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration",
+    "ASTM E797 – Ultrasonic thickness measurement by the manual pulse-echo contact method"
+  ],
+  "deliverables": [
+    "Opening summary of overall condition and the decisions it raises for the owner, lessor or charterer",
+    "Condition ratings for each area, with IACS terms for coatings",
+    "Defect list ranked in three priorities, each located and photographed",
+    "Thickness readings and crack checks marked on the ship's drawings for the docking yard",
+    "Vibration and thermal readings with the machinery's load when measured",
+    "Spaces not surveyed at the berth or anchorage, and the reason"
+  ],
+  "faqs": [
+    {
+      "q": "Can a condition survey be done on a container ship during a Yangshan call?",
+      "a": "A focused one can. During the call the team surveys the weather deck, coaming corners, lashing bridges, accommodation, the engine room and scrubber lines, working around the crane plan from a list agreed beforehand. Holds and most tanks are not accessible with cargo on board, so a complete container ship survey fits better into a lay-by, an anchorage wait or a docking."
+    },
+    {
+      "q": "Do you carry out condition surveys for Chinese leasing companies?",
+      "a": "Yes. A lessor that owns a ship under a bareboat charter or finance lease can commission a periodic survey during the term or a full survey before redelivery. The report gives the lessor's technical team and credit staff a measured record of condition by area, ranked defects and machinery readings, and it can follow the lessor's own template if one is sent with the enquiry."
+    },
+    {
+      "q": "Can the survey be done at a Zhoushan or lower Yangtze yard instead of Shanghai?",
+      "a": "Yes, and for a complete survey that is often better. With the ship in dock, the bottom shell, sea chests and stern area are visible and tanks are opened and ventilated for the class surveyor. The team travels from India to the yard, and the findings are delivered in time to add work to the specification while the ship is still there."
+    },
+    {
+      "q": "How does a condition survey help before a Chinese port state control inspection?",
+      "a": "It finds the items inspectors commonly raise while there is time to repair them: wasted deck plating, holed air pipes, corroded vent coamings, fire main leaks and defective closing appliances. The survey is not an inspection by any authority and gives no assurance of the outcome, but a superintendent who knows the ship's weak points before arrival is much better placed at the gangway."
+    },
+    {
+      "q": "Are ships classed with China Classification Society surveyed differently?",
+      "a": "No. The survey method, rating scale and report are the same whichever society classes the ship, because the survey is commercial and sits outside the class cycle. Where the owner shares the latest class survey status and thickness report, we read them first so the readings can be compared, and the report notes where our findings point to items the next class survey will look at."
+    },
+    {
+      "q": "What should we send before a Shanghai condition survey?",
+      "a": "The vessel name or IMO number, the purpose of the survey and who will read the report, the expected location and dates, the class survey status, earlier condition and thickness reports, the midship section if available, and any report template. Because the Chinese visa process for the team is the slowest step, please send the vessel and window as soon as the survey is agreed."
+    }
+  ]
+}

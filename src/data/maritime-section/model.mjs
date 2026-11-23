@@ -44,7 +44,7 @@ export const CLASS_APPROVAL_AUDITS = ['DNV', "Lloyd's Register", 'ABS'];
 /** [slug, label, card text, group, lucide icon]. Groups: survey | compliance | ndt | advanced. */
 export const SERVICE_DEFS = [
   // 2026-11-23 (owner): services for ship owners, buyers, managers and charterers (CLAUDE.md §83).
-  ['comprehensive-vessel-inspection-programme', 'CVIP (Comprehensive Vessel Inspection Programme)', 'One owner-commissioned programme for the whole ship: hull and structure, thickness, piping, machinery condition and coatings, with one report the technical manager can act on.', 'owner', 'Ship'],
+  ['comprehensive-vessel-inspection-programme', 'CVIP (Comprehensive Vessel Inspection Programme)', 'One owner-commissioned programme for the whole ship, also called an owner\'s CAS or CAP: hull and structure, thickness, piping, machinery condition and coatings, with one report the technical manager can act on.', 'owner', 'Ship'],
   ['pre-purchase-inspection', 'Pre-Purchase Inspection', 'Condition inspection of a second-hand ship for the buyer before the deal closes: steel, tanks, machinery condition and records, reported in time for the negotiation.', 'owner', 'FileCheck'],
   ['vessel-condition-survey', 'Vessel Condition Survey', 'Owner, charterer or financier condition assessment survey of a ship in service: structure, thickness, machinery and coatings, independent of the class survey cycle.', 'owner', 'ClipboardCheck'],
   ['condition-monitoring', 'Condition Monitoring', 'Trending the ship between surveys: repeat thickness readings, thermography, vibration and noise measurements, and hull and coating condition tracking.', 'owner', 'Gauge'],
@@ -103,6 +103,7 @@ const HIGHLIGHT_ICONS = ['Anchor', 'Ship', 'FileCheck'];
 
 const card = ([slug, label, text]) => ({ href: path(slug), label, text });
 const GROUP_INTRO = {
+  owner: 'Work commissioned by the people who own, buy, manage, charter or finance the ship, on their timetable rather than the class survey cycle: a whole-ship inspection programme, a pre-purchase inspection, a condition survey, and condition monitoring between surveys.',
   survey: 'Thickness measurement and inspection tied to the class survey cycle, charterers\' condition ratings and the structure and systems a hull survey looks at: the work most superintendents call us for first.',
   compliance: 'Surveys a ship needs for rules outside the hull survey: the hazardous materials inventory for EU port calls and recycling, noise levels for crew spaces, and thermal checks that catch electrical and insulation faults early.',
   ndt: 'The conventional methods, chosen by the defect: visual inspection for what can be seen, magnetic particle and dye penetrant for surface cracks, and ultrasonic testing for flaws inside a weld.',
@@ -111,7 +112,7 @@ const GROUP_INTRO = {
 /** Hubs (landing, regions, countries): survey and compliance services plus the two NDT overview pages. */
 const HUB_CARDS = SERVICE_DEFS.filter(([s, , , g]) => g === 'survey' || g === 'compliance' || s === 'marine-ndt-services' || s === 'advanced-ndt').map(card);
 /** Port pages: the ten services most ships calling at a European port ask for. */
-const CITY_CARD_SLUGS = ['pre-purchase-inspection', 'vessel-condition-survey', 'ultrasonic-thickness-measurement', 'special-survey-thickness-measurement', 'condition-assessment-scheme', 'condition-assessment-programme', 'enhanced-survey-programme', 'hull-structural-integrity', 'ship-piping-inspection', 'scrubber-piping-inspection', 'inventory-of-hazardous-materials', 'marine-ndt-services'];
+const CITY_CARD_SLUGS = ['comprehensive-vessel-inspection-programme', 'pre-purchase-inspection', 'vessel-condition-survey', 'ultrasonic-thickness-measurement', 'special-survey-thickness-measurement', 'condition-assessment-scheme', 'condition-assessment-programme', 'enhanced-survey-programme', 'hull-structural-integrity', 'ship-piping-inspection', 'scrubber-piping-inspection', 'inventory-of-hazardous-materials', 'marine-ndt-services'];
 const CITY_CARDS = CITY_CARD_SLUGS.map((s) => card(SERVICE_DEFS.find((d) => d[0] === s)));
 
 // ── Shared knowledge rendered on every city page (written once, varied by slug) ───────────────────

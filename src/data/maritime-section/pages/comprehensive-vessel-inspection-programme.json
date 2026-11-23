@@ -1,9 +1,9 @@
 {
   "slug": "comprehensive-vessel-inspection-programme",
   "navLabel": "CVIP (Comprehensive Vessel Inspection Programme)",
-  "title": "CVIP: Comprehensive Vessel Inspection Programme for Ship Owners",
-  "description": "CVIP, the Atlantis Comprehensive Vessel Inspection Programme: a baseline and repeat inspections of hull, tanks, piping and machinery, with one trend record.",
-  "h1": "CVIP: One Comprehensive Vessel Inspection Programme for the Whole Ship",
+  "title": "CVIP: Owner's CAS/CAP Comprehensive Vessel Inspection",
+  "description": "CVIP, the Atlantis Comprehensive Vessel Inspection Programme, also called an owner's CAS or CAP: a whole-ship condition assessment for the owner, not class.",
+  "h1": "CVIP: Owner's CAS/CAP and One Comprehensive Vessel Inspection Programme for the Whole Ship",
   "eyebrow": "Maritime inspection · Owner's programme",
   "intro": "CVIP, the Comprehensive Vessel Inspection Programme, is an Atlantis NDT programme for ship owners and managers; it is not an IMO, flag or classification society scheme. It brings together inspections an owner usually buys one at a time, from thickness gauging and crack detection to piping, hatch covers, coatings, thermography, vibration and noise, into one plan for the ship: a baseline visit, repeat visits timed to the survey cycle and port calls, one report format and one trend record for as long as the programme runs.",
   "highlights": [
@@ -29,16 +29,69 @@
         "It sits beside the statutory and class framework, not inside it. CVIP does not replace annual, intermediate or renewal surveys, the Enhanced Survey Programme for tankers and bulk carriers, the IMO Condition Assessment Scheme or a class Condition Assessment Programme, and it does not produce a rating. It produces measured evidence that belongs to the owner. The programme draws on these individual services, each described on its own page:"
       ],
       "links": [
-        ["/maritime/ultrasonic-thickness-measurement", "Ultrasonic Thickness Measurement (UTM)"],
-        ["/maritime/hull-structural-integrity", "Hull Structural Integrity"],
-        ["/maritime/magnetic-particle-inspection", "Magnetic Particle Inspection (MPI)"],
-        ["/maritime/ship-piping-inspection", "Ship Piping Inspection"],
-        ["/maritime/scrubber-piping-inspection", "Scrubber Piping Inspection"],
-        ["/maritime/hatch-cover-ultrasonic-testing", "Hatch Cover Ultrasonic Tightness Testing"],
-        ["/maritime/infrared-thermography", "Infrared Thermography"],
-        ["/maritime/condition-monitoring", "Condition Monitoring"],
-        ["/maritime/noise-survey", "Ship Noise Survey"],
-        ["/maritime/corrosion-mapping", "Corrosion Mapping"]
+        [
+          "/maritime/ultrasonic-thickness-measurement",
+          "Ultrasonic Thickness Measurement (UTM)"
+        ],
+        [
+          "/maritime/hull-structural-integrity",
+          "Hull Structural Integrity"
+        ],
+        [
+          "/maritime/magnetic-particle-inspection",
+          "Magnetic Particle Inspection (MPI)"
+        ],
+        [
+          "/maritime/ship-piping-inspection",
+          "Ship Piping Inspection"
+        ],
+        [
+          "/maritime/scrubber-piping-inspection",
+          "Scrubber Piping Inspection"
+        ],
+        [
+          "/maritime/hatch-cover-ultrasonic-testing",
+          "Hatch Cover Ultrasonic Tightness Testing"
+        ],
+        [
+          "/maritime/infrared-thermography",
+          "Infrared Thermography"
+        ],
+        [
+          "/maritime/condition-monitoring",
+          "Condition Monitoring"
+        ],
+        [
+          "/maritime/noise-survey",
+          "Ship Noise Survey"
+        ],
+        [
+          "/maritime/corrosion-mapping",
+          "Corrosion Mapping"
+        ]
+      ]
+    },
+    {
+      "id": "owners-cas-cap",
+      "h": "CVIP, owner's CAS and owner's CAP: one programme, three names",
+      "p": [
+        "Technical managers and owners often ask us for an \"owner's CAS\" or an \"owner's CAP\". They mean CVIP. The words come from the two best-known condition assessments in shipping: the IMO Condition Assessment Scheme, which flag administrations verify for certain older tankers, and the Condition Assessment Programme, the voluntary rating that classification societies issue and charterers ask for. Both follow the same pattern: a close-up survey of the structure to a plan, thickness gauging at defined locations, coatings and machinery assessed, findings graded, and one condition report for the whole ship.",
+        "CVIP follows that pattern for the owner's own requirement. The owner, manager, charterer or financier commissions it; the scope, the grading and the report format are agreed with them; and the record belongs to them. It is not issued by class or flag, it does not award a CAP rating or a CAS Statement of Compliance, and it does not replace either of them when a charterer or administration specifically requires the official scheme. What it gives is the same depth of evidence on the owner's timetable: before a charter, ahead of the 15-year or 20-year special survey, when a lender reviews the fleet, or as the baseline for a sale.",
+        "When a charterer's vetting department specifies a class CAP rating, the owner books CAP with the ship's classification society; CVIP readings then help the owner know the likely result first. For everything else, from fleet benchmarking to docking planning, the owner's CAS or CAP that people describe is what CVIP delivers."
+      ],
+      "links": [
+        [
+          "/maritime/condition-assessment-scheme",
+          "CAS (Condition Assessment Scheme)"
+        ],
+        [
+          "/maritime/condition-assessment-programme",
+          "CAP Thickness Measurement"
+        ],
+        [
+          "/maritime/vessel-condition-survey",
+          "Vessel Condition Survey"
+        ]
       ]
     },
     {
@@ -48,15 +101,47 @@
         "The owner chooses the modules; most programmes take all of the first six and add noise where accommodation or crew complaints make it relevant. Timings below are the usual pattern and are fixed for each ship in the programme plan."
       ],
       "table": {
-        "head": ["Programme module", "What is measured", "When"],
+        "head": [
+          "Programme module",
+          "What is measured",
+          "When"
+        ],
         "rows": [
-          ["Hull, tanks and holds", "Close-up visual condition of structure, coating condition in GOOD, FAIR and POOR terms, anodes, deformation and contact damage", "Baseline; then whenever tanks and holds are opened in port, and before each docking"],
-          ["Thickness at fixed locations", "Spot ultrasonic readings at numbered points, transverse sections where the owner wants them, corrosion mapping where pitting governs", "Baseline; then yearly or as tank access allows; a pre-docking round months before the yard"],
-          ["Crack detection at hot spots", "Magnetic particle inspection at hatch corners, bracket toes, crane pedestals, side frame ends and other fatigue details for the ship type", "Baseline; at each docking; after heavy weather or a reported contact"],
-          ["Piping and scrubber piping", "Wall thickness at bends, tees, reducers and downstream of valves; scrubber wash-water, overboard and drain lines and the shell around the outlet", "Baseline; then every six to twelve months for scrubber and sea-water lines"],
-          ["Hatch covers and closing appliances", "Seals, compression bars, cleats, drains and cross-joints, with an ultrasonic tightness test as the owner's own check", "Baseline; then yearly, or before cargoes that cannot tolerate water"],
-          ["Machinery condition", "Vibration of rotating machinery and infrared thermography of switchboards, motor control centres, motors and hot surfaces", "Baseline; quarterly to six-monthly for critical machinery; electrical thermography yearly"],
-          ["Noise, where wanted", "Levels at the positions of the ship's noise survey report", "Baseline; after machinery, ventilation or accommodation changes"]
+          [
+            "Hull, tanks and holds",
+            "Close-up visual condition of structure, coating condition in GOOD, FAIR and POOR terms, anodes, deformation and contact damage",
+            "Baseline; then whenever tanks and holds are opened in port, and before each docking"
+          ],
+          [
+            "Thickness at fixed locations",
+            "Spot ultrasonic readings at numbered points, transverse sections where the owner wants them, corrosion mapping where pitting governs",
+            "Baseline; then yearly or as tank access allows; a pre-docking round months before the yard"
+          ],
+          [
+            "Crack detection at hot spots",
+            "Magnetic particle inspection at hatch corners, bracket toes, crane pedestals, side frame ends and other fatigue details for the ship type",
+            "Baseline; at each docking; after heavy weather or a reported contact"
+          ],
+          [
+            "Piping and scrubber piping",
+            "Wall thickness at bends, tees, reducers and downstream of valves; scrubber wash-water, overboard and drain lines and the shell around the outlet",
+            "Baseline; then every six to twelve months for scrubber and sea-water lines"
+          ],
+          [
+            "Hatch covers and closing appliances",
+            "Seals, compression bars, cleats, drains and cross-joints, with an ultrasonic tightness test as the owner's own check",
+            "Baseline; then yearly, or before cargoes that cannot tolerate water"
+          ],
+          [
+            "Machinery condition",
+            "Vibration of rotating machinery and infrared thermography of switchboards, motor control centres, motors and hot surfaces",
+            "Baseline; quarterly to six-monthly for critical machinery; electrical thermography yearly"
+          ],
+          [
+            "Noise, where wanted",
+            "Levels at the positions of the ship's noise survey report",
+            "Baseline; after machinery, ventilation or accommodation changes"
+          ]
         ]
       }
     },
@@ -149,6 +234,10 @@
     {
       "q": "Is CVIP a class or IMO scheme?",
       "a": "No. CVIP is a programme Atlantis NDT offers to ship owners and managers, and it is commissioned and owned by them. It does not replace any class survey, the Enhanced Survey Programme, the IMO Condition Assessment Scheme or a class Condition Assessment Programme, and it does not award a rating. Its value is the measured, repeatable record it builds, which the owner can show to charterers, lenders and buyers."
+    },
+    {
+      "q": "Is CVIP the same as an owner's CAS or CAP survey?",
+      "a": "Yes, in substance. Owners often call an owner-commissioned condition assessment an owner's CAS or owner's CAP, because it follows the same pattern of close-up survey, gauging, grading and one report. CVIP is our name for it. It is done for the owner's requirement, not issued by class or flag, so it does not give a CAP rating or a CAS Statement of Compliance; where a charterer requires the official scheme, the owner books it with class."
     },
     {
       "q": "Can CVIP thickness readings be used for a class survey?",

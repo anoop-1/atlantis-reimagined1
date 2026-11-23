@@ -1,0 +1,131 @@
+{
+  "port": "hong-kong",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey Hong Kong | Managers and Lessors",
+  "description": "Vessel condition surveys for Hong Kong managers, lessors and charterers, in Hong Kong waters or at Asian yards: tanks, holds, coatings and machinery.",
+  "h1": "Condition surveys for Hong Kong owners, managers and lessors, in the harbour or at the yard",
+  "intro": "Many condition surveys commissioned in Hong Kong are for ships that never come near the harbour. Owners, ship managers, banks and lessors in the city control fleets trading across Asia and beyond, and they need an independent account of a ship before a charter starts, a lease ends, a loan is reviewed or a docking is specified. When the ship is in Hong Kong waters, at a designated anchorage, at Kwai Tsing or at a Tsing Yi repair yard, the survey is done there; when it docks in Shenzhen or further afield, the team goes to that yard. Either way the surveyors travel from India to the ship.",
+  "highlights": [
+    {
+      "h": "Lease-end condition, measured",
+      "p": "Lessors with Hong Kong desks take ships back at the end of bareboat charters and finance leases. A survey shortly before redelivery gives lessor and lessee the same measured picture of holds, tanks, coatings and machinery, which narrows any argument over what the return conditions in the lease require."
+    },
+    {
+      "h": "One method across Asian yards",
+      "p": "Hong Kong managers dock ships in mainland China, Southeast Asia and further afield. The same rating scale, reading positions and report layout are used at every yard, so a superintendent comparing this docking with the last one, or one sister ship with another, is comparing like with like."
+    },
+    {
+      "h": "Ready for the Marine Department",
+      "p": "Hong Kong-registered ships face flag state inspection by the Marine Department, and every foreign ship calling here is open to port state control. A survey beforehand finds wasted air pipes, corroded vent coamings and fire main leaks while there is still time to repair them quietly."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-hong-kong",
+      "h": "Where in Hong Kong can a vessel condition survey be carried out?",
+      "p": [
+        "The designated anchorages allow the most complete survey of a ship that is still trading. A bulk carrier, tanker or gas carrier stopping for fuel, stores, crew or orders is out of cargo work and, in ballast, can prepare holds and ballast tanks for entry, while its generators, pumps and compressors run for the readings. The agent books the launch, and in a harbour this busy the transfer is timed around ferry lanes and barge movements as well as the weather.",
+        "At the Tsing Yi repair yards a ship under afloat repair has tanks open and the superintendent on hand, which suits a survey intended to set the scope of the next drydocking. Container ships at Kwai Tsing work cargo for the whole call, so the survey there covers deck plating, hatch coamings, lashing bridges, closing appliances and the engine room. Ships at the mid-stream buoys are surrounded by barges and allow little beyond deck fittings, accessible piping and machinery."
+      ],
+      "list": [
+        "Designated anchorages: holds, ballast tanks, deck, hatch covers and machinery on ships stopping between Asian ports",
+        "Kwai Tsing Container Terminals: deck, coamings, lashing bridges and engine room during the cargo window",
+        "Tsing Yi repair yards: tanks, piping and structure with the ship afloat and repairs under way",
+        "Mid-stream buoys: deck fittings, accessible piping and running machinery around the barge work",
+        "Shenzhen, Delta and other Asian yards: a complete docking-period survey for Hong Kong-managed ships"
+      ]
+    },
+    {
+      "id": "who-commissions",
+      "h": "Who commissions condition surveys from Hong Kong, and what do they need?",
+      "p": [
+        "Ship managers are the largest group. A Hong Kong technical department may run bulk carriers, tankers, container ships and gas carriers for owners on several continents, and it uses condition surveys to check each ship at a consistent depth, to brief an owner who has never seen the ship, and to decide what the next docking must include. The report is laid out so a fleet manager reading many of them can find the same information in the same place.",
+        "Banks and lessors are the second. Many lessors with Hong Kong desks are linked to Chinese banks and hold ships under sale-and-leaseback or finance lease arrangements, with the ship chartered back to the operator. During the lease they may ask for a periodic statement of condition; at its end they need a measured record of what is coming back. Banks lending against tonnage ask for similar evidence when a facility is reviewed.",
+        "Charterers form the third group. A charterer taking a ship on period may want its own picture of holds, tanks and cranes before delivery, and an owner may want the same before redelivery so that damage claims rest on facts. In both cases the on-hire and off-hire surveyors appointed under the charter still do their work; an owner's or charterer's condition survey sits alongside them and does not replace them, or the surveyor a P&I club or hull insurer sends."
+      ]
+    },
+    {
+      "id": "lease-end",
+      "h": "What does a lease-end or charter-end condition survey look at?",
+      "p": [
+        "Most bareboat charters, including those on BIMCO's BARECON form, require the ship to come back in the same structure, state and class as when she was delivered, fair wear and tear excepted. Deciding what counts as fair wear is a matter for the parties and, failing agreement, for arbitration, but both sides are better served by measured evidence than by competing impressions. The survey therefore records the spaces where disputes usually arise: hold plating and frames, hatch covers and coamings, ballast tank coatings, deck machinery, accommodation and the main and auxiliary machinery.",
+        "Where a delivery condition report exists, the survey follows its layout and revisits its positions, so each area can be shown as unchanged, worn or damaged. Readings are taken at marked points and photographs repeat the earlier views. The report states facts and ranks defects by urgency; it does not apportion responsibility between lessor and lessee, which remains a question for the lease and the parties."
+      ]
+    },
+    {
+      "id": "anchorage-scope",
+      "h": "How is a condition survey scoped for a ship anchored in Hong Kong?",
+      "p": [
+        "A Hong Kong anchorage stop is usually short, so the order of work is fixed before boarding. Ballast tanks along the length come first, then holds that the crew has cleaned and ventilated, then the deck, hatch covers, air pipes and mooring gear, and finally the engine room. If time runs out, the items dropped are the ones of least weight to the purpose, and the report lists them for the next call.",
+        "Gas carriers need particular care. Their cargo tanks are never entered on a survey of this kind, so the work concentrates on ballast spaces, the deck structure around tank domes, cargo piping supports and the machinery, with cargo compressors read only if they are running and the master agrees. On a tanker, cargo tanks are entered only with a gas-free certificate, and the report says plainly which spaces were assessed from records instead.",
+        "Weather can take a day away. Between early summer and autumn, tropical cyclone warnings can halt launch services and send ships out of the anchorages, so surveys in that season are booked where possible early in the ship's stay. In the winter monsoon, wind against tide in the approaches can also make boarding slow."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What do condition surveys of Hong Kong-managed ships usually find?",
+      "p": [
+        "Findings follow the trades the managers run. Container ships on Asian and transpacific services show cracking at hatch coaming corners and at lashing bridge supports, and wastage on sea-water lines in the engine room. Bulk carriers on the China coal and ore trades carry grab damage on hold frames and tank tops, wastage at the lower bulkhead strakes and worn hatch cover seals. Gas carriers and tankers usually show coating breakdown in the upper parts of ballast tanks and wastage on deck piping supports and air pipes.",
+        "Scrubber-fitted ships trading between Hong Kong and mainland ports switch modes repeatedly to suit different discharge rules, and their wash-water lines and shell penetrations deserve a look on every survey. In machinery spaces, vibration spectra on pumps, purifiers and fans, together with thermal images of switchboards and motor starters, show faults before they stop a ship. Cracks confirmed by magnetic particle testing are reported as the owner's NDT records, not as class findings, and every defect is placed in one of three priorities, the first told to the master before the team goes ashore."
+      ]
+    },
+    {
+      "id": "limits-and-planning",
+      "h": "Class, CAS, CAP and planning a Hong Kong survey",
+      "p": [
+        "A vessel condition survey is a commercial survey and carries no class or flag status. It is not the IMO Condition Assessment Scheme for older single-hull oil tankers, nor a classification society's Condition Assessment Programme rating, though it shows where either would find trouble. Its thickness readings support the client's decisions only: Atlantis is still in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, so nothing in the survey is credited to a class survey.",
+        "Hong Kong sets its own entry rules for Indian passport holders, separate from the mainland, and we confirm them for each assignment; a ship docking in Shenzhen or Guangdong also needs a Chinese visa for the team, which takes longer. Send the vessel, the purpose, the expected anchorage, berth or yard and dates, any delivery condition report or earlier survey, and the format a lessor, bank or fleet department requires. Write to info@atlantisndt.com or use the enquiry form."
+      ]
+    }
+  ],
+  "vessels": [
+    "Container ships",
+    "Bulk carriers",
+    "Crude and product tankers",
+    "LNG and LPG carriers",
+    "Chemical tankers",
+    "River trade vessels and barges"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition definitions",
+    "IACS UR Z10.2 – Hull surveys of bulk carriers",
+    "IACS UR Z10.4 – Hull surveys of double-hull oil tankers",
+    "ISM Code, section 10 – Maintenance of the ship and equipment",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration",
+    "ASNT SNT-TC-1A – Qualification and certification of NDT personnel"
+  ],
+  "deliverables": [
+    "Overall condition summary written for the manager, lessor, bank or charterer named in the brief",
+    "Area ratings for structure, coatings, closing appliances, deck machinery and machinery spaces",
+    "Comparison with the delivery condition report or earlier survey, area by area, where one exists",
+    "Spot thickness readings and crack-check results located on the ship's drawings",
+    "Vibration and thermal readings for each machine, with the running condition recorded",
+    "Defects in three priority groups, with photographs and recommended actions"
+  ],
+  "faqs": [
+    {
+      "q": "Can you carry out a condition survey for a Hong Kong manager at a yard in mainland China?",
+      "a": "Yes, and many Hong Kong surveys happen that way. The team travels from India to the Shenzhen, Delta or other yard where the ship is docking, using the same method and report layout the manager's fleet already has. A docking-period survey sees the hull dry and tanks opened, so it is the most complete kind; the Chinese visa is the long-lead item, so send the dock date early."
+    },
+    {
+      "q": "Is a lease-end survey suitable for both the lessor and the lessee?",
+      "a": "It can be addressed to either or to both, as the client decides. The survey records measured facts: readings at marked points, coating ratings, defects with photographs and machinery measurements, compared with any delivery report. It does not decide who is responsible for a defect under the lease. Many parties find that a single factual record reduces the area of disagreement before any negotiation over return conditions."
+    },
+    {
+      "q": "Can a condition survey be done at Kwai Tsing while a container ship works cargo?",
+      "a": "Part of one. While the cranes work, the team can survey deck plating, hatch coamings, lashing bridges, closing appliances, accommodation and the engine room, with machinery readings taken on what is running. Holds and most ballast tanks cannot be entered during cargo operations, so a fuller survey of a container ship is better timed to an anchorage stop or a yard visit."
+    },
+    {
+      "q": "Will the survey help a Hong Kong-flag ship before a Marine Department inspection?",
+      "a": "It helps the owner prepare, but it is not a flag inspection and does not stand in for one. The survey looks closely at the items that inspectors and port state control officers commonly raise, such as air pipe heads, ventilator coamings, fire main sections, closing appliances and emergency equipment condition, so that they can be repaired before the inspection rather than recorded during it."
+    },
+    {
+      "q": "How often should a Hong Kong-managed fleet be surveyed?",
+      "a": "No rule sets it, so managers choose. Many survey each ship once a year, or between the intermediate and renewal surveys so the docking specification rests on recent evidence. Others survey on events: a new charter, a lease review, an incident or a redelivery. A regular interval makes the comparison with the previous report far more informative, because changes can then be tied to a period of trading."
+    },
+    {
+      "q": "Can the report follow a lessor's or bank's own template?",
+      "a": "Yes. Send the template with the enquiry and the findings are set out in it, with our own ratings, readings and photographs attached as appendices so nothing is lost in the translation. Lessors and banks often want a short opening statement on the risks to the ship's trading life; that sits at the front of the report, above the detailed findings."
+    }
+  ]
+}

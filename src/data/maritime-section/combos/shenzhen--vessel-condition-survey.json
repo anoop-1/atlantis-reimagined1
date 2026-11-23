@@ -1,0 +1,131 @@
+{
+  "port": "shenzhen",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey Shenzhen | Yantian and Shekou",
+  "description": "Vessel condition surveys in Shenzhen: focused checks on Yantian container ships and full surveys at Shekou yards and offshore bases for owners and charterers.",
+  "h1": "Owner's condition surveys in Shenzhen, from a Yantian berth window to a Shekou docking",
+  "intro": "How a vessel condition survey runs in Shenzhen depends on which half of the port the ship is in. At Yantian, mainline container ships stay for hours, and the survey is a targeted look at the structure and systems that matter on young, heavily loaded hulls. In the western port, feeders, offshore vessels between contracts and ships docked at the Shekou repair facilities offer days of access for a survey of the whole ship. Owners, charterers, lessors and the Hong Kong managers next door commission them for charter handovers, lease reviews and docking plans, and the team travels from India to whichever side the ship is on.",
+  "highlights": [
+    {
+      "h": "Young mainliners: the right few hours",
+      "p": "Owners of large container ships chartered to liner companies care less about general wastage than about coaming corners, lashing bridge supports, scrubber piping and machinery. A survey list agreed before the Yantian call lets the team spend the berth window on exactly those items, without touching the crane plan."
+    },
+    {
+      "h": "Offshore charters on and off hire",
+      "p": "Supply and support vessels based in the western port change charterers as field programmes start and finish. An owner's condition survey at the base, before delivery to a new charterer or after the last one releases the vessel, records deck, tanks and machinery in measured terms."
+    },
+    {
+      "h": "Shekou docking specified from evidence",
+      "p": "A survey at anchor off the western port or at a Chiwan berth, a few weeks before a Shekou docking, gives the superintendent coating ratings, readings and ranked defects to build the repair specification on, instead of discovering the work once the ship is already in dock."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-shenzhen",
+      "h": "Where in Shenzhen can a vessel condition survey be carried out?",
+      "p": [
+        "In the east, Yantian International Container Terminals handle mainline container ships on tight schedules, and a survey there covers what can be reached while cargo is worked: weather deck, hatch coamings, lashing bridges, accommodation, engine room, sea-water lines and the scrubber system. In the west, the terminals at Shekou, Chiwan and Dachan Bay serve feeders and regional services whose longer stays sometimes allow ballast tanks to be opened, and the offshore vessel bases hold supply and support ships between contracts, with tanks and decks free to survey properly.",
+        "The Shekou repair facilities give the fullest view: container ships, tankers, bulk carriers, offshore units and cruise ships in dock, with the bottom shell dry and tanks ventilated for repair and survey. Ships lying at the anchorages off the western port while they wait for a berth, a yard slot or orders can be reached by launch, and in ballast they open holds and tanks for a survey that does not depend on any berth time."
+      ],
+      "list": [
+        "Yantian International Container Terminals: coamings, lashing bridges, deck, scrubber lines and engine room within the berth window",
+        "Shekou, Chiwan and Dachan Bay terminals: feeders and regional container ships, with ballast tanks when the stay allows",
+        "Offshore vessel bases in the western port: cargo deck, tanks, deck machinery and engine room between contracts",
+        "Shekou repair facilities: complete surveys of docked ships, including bottom shell and opened tanks",
+        "Anchorages off the western port: holds, ballast tanks, deck and machinery on ships waiting in ballast"
+      ]
+    },
+    {
+      "id": "who-and-why",
+      "h": "Who commissions condition surveys in Shenzhen, and for what decisions?",
+      "p": [
+        "Container ship owners are a large group. Many large ships calling at Yantian belong to non-operating owners and lessors and are chartered to liner companies for years at a time, so the owner sees the ship rarely and learns about its condition mostly from the charterer. A survey during a Yantian call, or a fuller one when the ship next lies at the western port, gives the owner its own evidence well before the redelivery survey.",
+        "Offshore vessel owners use condition surveys around their contracts. When a supply or support vessel finishes a South China Sea programme and returns to base, the owner wants to know what the charterer's work has done to the cargo deck, crash rails, tanks and machinery before offering the vessel again; when a new charter is about to start, a record of condition at delivery protects both sides. The on-hire and off-hire surveys the charter itself calls for still take place; the owner's survey sits alongside them.",
+        "Lessors and banks form a third group. Shenzhen is home to bank-owned leasing companies, and Hong Kong lessors and managers work across the boundary, so periodic condition reports on financed ships and records at lease end are a steady part of the work. Cruise operators complete the list, commissioning surveys before a Shekou docking so that piping, tanks and machinery work can be specified in advance."
+      ]
+    },
+    {
+      "id": "scoping",
+      "h": "How is a condition survey scoped at Yantian compared with the western port?",
+      "p": [
+        "At Yantian the scope is a short written list, fixed with the superintendent before the ship arrives and ordered so that the most important items are reached first. A typical list takes coaming tops and corners along the cargo length, lashing bridge legs and their deck connections, deck plating between hatches, the scrubber wash-water and overboard lines down to the shell, the sea-water piping, and vibration and thermal readings on the machinery running for the call. Because mainland rules restrict open-loop discharge in some areas, the scrubber is often idle or in closed loop, which opens its piping to inspection.",
+        "In the western port the survey runs space by space. On an offshore vessel at base that means the cargo deck plating where pipe and containers have been landed and dragged, crash rails and their supports, the liquid mud, brine, drill water and fuel tanks where they can be cleaned for entry, the deck winches, and the generators and thruster drives. On a feeder or a ship at anchor it means ballast tanks, holds, closing appliances and machinery. In dock at Shekou the bottom shell, sea chests and stern area join the list, and the survey is timed after the hull is washed but before new coating hides the steel."
+      ]
+    },
+    {
+      "id": "findings",
+      "h": "What do condition surveys of ships at Shenzhen usually find?",
+      "p": [
+        "On young mainline container ships the findings are local rather than general: fatigue cracking at hatch coaming corners and at lashing bridge supports, wear and corrosion on coaming tops where covers seat, erosion at bends in scrubber wash-water lines, and wall loss in sea-water piping. Those items decide whether the next docking needs crack repairs and pipe renewal, and they are what a charterer's redelivery surveyor will look at first.",
+        "Offshore vessels show heavier, more mechanical wear: dented and wasted cargo deck plating, cracked crash rail supports, corroded tank boundaries behind mud residue and worn winch foundations. Feeders show fendering damage to side shell and wear at mooring fittings from frequent calls. Cruise ships coming to Shekou for repair show the familiar problems of grey-water, black-water and sea-water piping and their tanks, which corrode quickly and cause disproportionate trouble when they leak.",
+        "Each defect is placed in one of three priorities, and the first group is reported to the master and the technical manager before the team leaves. Magnetic particle checks at coaming corners or lashing bridge supports are recorded as the owner's NDT records, not as class findings, and the machinery section notes the load each reading was taken at."
+      ]
+    },
+    {
+      "id": "class-cas-cap",
+      "h": "Is a Shenzhen condition survey a class survey, CAS or CAP?",
+      "p": [
+        "It is none of them. A vessel condition survey is a commercial survey whose scope follows the client's purpose. The IMO Condition Assessment Scheme is a statutory process for older single-hull oil tankers and a Condition Assessment Programme is a class rating; both are explained on their own pages. The survey also leaves the work of the class surveyor, the charter's on-hire and off-hire surveyors and the P&I club's surveyor where it is.",
+        "Readings taken here serve the owner's, lessor's or charterer's own decisions. Atlantis is working through UR Z17 approval with DNV, Lloyd's Register and ABS and has no certificate yet, so its condition survey readings are not credited to class. They still show the superintendent where a coming renewal survey's gauging is likely to find wastage."
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Planning a Shenzhen condition survey: visas, passes and timing",
+      "p": [
+        "The mainland visa is the slowest part of the plan for a team travelling from India, because it is issued against an invitation letter, so send the vessel and the likely berth, base, anchorage or dock date as soon as they are known. Shenzhen Bao'an International Airport serves both halves of the port; if the team routes through Hong Kong, it needs Hong Kong entry as well. Terminal passes and escorts, launches and yard gate passes with safety induction are arranged by the ship's agent or the yard.",
+        "Include the purpose of the survey, earlier condition and thickness reports, any delivery condition record from the current charter, the class survey status and any report template a charterer, lessor or fleet department uses. When a ship moves between Yantian and the western port, or between Shenzhen and Hong Kong, one mobilisation can sometimes cover both stops. Write to info@atlantisndt.com or use the enquiry form."
+      ]
+    }
+  ],
+  "vessels": [
+    "Container ships",
+    "Feeder container ships",
+    "Offshore supply and support vessels",
+    "Cruise ships",
+    "Product tankers",
+    "Bulk carriers"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition terms",
+    "IACS UR S21 – Evaluation of scantlings of hatch covers and hatch coamings",
+    "SOLAS chapter II-1 – Structure, subdivision and machinery installations",
+    "ISM Code, section 10 – Maintenance of the ship and equipment",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration",
+    "ASTM E709 – Guide for magnetic particle testing"
+  ],
+  "deliverables": [
+    "Summary of overall condition, written for the owner, charterer or lessor named in the brief",
+    "Condition ratings by area, with coatings in IACS terms",
+    "Crack-check results at coaming corners and lashing supports, located on drawings",
+    "Spot thickness readings at marked positions, with original and allowable values",
+    "Vibration and thermal readings for running machinery, noted with the load",
+    "Defects ranked in three priority groups, and a list of spaces not surveyed"
+  ],
+  "faqs": [
+    {
+      "q": "How much of a container ship can be surveyed during a Yantian call?",
+      "a": "The items that matter most on a young, large container ship can be: coaming corners and tops, lashing bridge supports, deck plating, scrubber and sea-water piping, accommodation and the running machinery. Holds and most tanks stay closed with cargo aboard. The team works from a list fixed beforehand, so the berth window is spent measuring, and the report lists everything that could not be reached."
+    },
+    {
+      "q": "Can you survey an offshore supply vessel at its Shenzhen base between charters?",
+      "a": "Yes, and that is the best time to do it. With the vessel off contract, the cargo deck can be gauged where loads were landed, crash rails and winch foundations examined, tanks cleaned for entry where residue allows, and the generators and thruster drives read with the chief engineer. The report records the condition the last charter left and the starting point for the next."
+    },
+    {
+      "q": "Does an owner's condition survey replace the on-hire or off-hire survey of an offshore charter?",
+      "a": "No. The charter party usually provides for its own on-hire and off-hire surveys, attended for both parties, and those still happen. The owner's condition survey is a separate, more detailed record of structure, tanks and machinery, often taken shortly before the handover, which lets the owner repair or document defects first and gives it measured evidence if condition is later disputed."
+    },
+    {
+      "q": "Can the survey feed a docking specification at the Shekou repair facilities?",
+      "a": "That is one of its main uses. Surveyed at anchor or at a western-port berth some weeks before the dock date, the ship's likely steel renewal areas, coating breakdown, piping wear and machinery faults can be written into the specification before the yard prepares its offer. If the ship is already in dock, the survey is timed after washing and before coating."
+    },
+    {
+      "q": "Can a Hong Kong manager attend a condition survey in Shenzhen?",
+      "a": "Certainly. Many ships calling at Shenzhen are managed from Hong Kong, and superintendents often cross the boundary for the day. The Atlantis team travels separately from India on Chinese visas, and we agree the meeting point, the order of work and any spaces the superintendent particularly wants to see before the team boards."
+    },
+    {
+      "q": "Do you survey cruise ships docking at Shekou?",
+      "a": "Yes. A cruise ship in dock opens grey-water, black-water, ballast and sea-water systems and their tanks in a way that turnaround days at the Shekou cruise terminal never allow. The survey records piping wall thickness at bends and tees, tank condition, structure and machinery, with defects ranked so the operator can decide what the docking must include."
+    }
+  ]
+}

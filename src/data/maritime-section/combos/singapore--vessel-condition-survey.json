@@ -1,0 +1,134 @@
+{
+  "port": "singapore",
+  "service": "vessel-condition-survey",
+  "title": "Vessel Condition Survey in Singapore for Owners and Charterers",
+  "description": "Vessel condition surveys in Singapore at the anchorages, terminals or repair yards: tanks, holds, coatings, thickness and machinery for owners and lenders.",
+  "h1": "Condition surveys of ships stopping in Singapore: anchorage, terminal or repair yard",
+  "intro": "A vessel condition survey in Singapore usually rides on a stop the ship is making anyway: bunkers, a crew change, stores, a delivery or redelivery under a time charter, or a docking at a Seatrium, Tuas or Benoi yard. Owners and technical managers based in the city use those hours to learn what state a ship is really in, space by space, before a charter, a loan review or a docking specification depends on it. Atlantis surveys structure, tanks, coatings and running machinery and ranks every defect for action. The survey team flies in from India for each job and reaches the ship by launch or through the yard gate.",
+  "highlights": [
+    {
+      "h": "Built around the bunker stop",
+      "p": "Most ships anchor off Singapore for hours rather than days. We agree with the technical manager beforehand which ballast tanks, holds and machinery the crew can release during that stop, so the work is planned before the launch leaves the pier and the ship sails on schedule with the findings already reported."
+    },
+    {
+      "h": "Delivery and redelivery on record",
+      "p": "Singapore is written into many time charters as the place a ship goes on or comes off hire. An owner's own condition record taken here, with photographs and readings at marked positions, gives a factual starting point if damage to holds, tanks or deck fittings is argued about months later."
+    },
+    {
+      "h": "Fleet checks for Singapore-based managers",
+      "p": "Managers running ships across Asia can have one survey method and one rating scale applied whether a ship is at a Singapore anchorage this month or in a Chinese yard next quarter, so reports on different ships and different years can be laid side by side and read the same way."
+    }
+  ],
+  "sections": [
+    {
+      "id": "where-in-singapore",
+      "h": "Where can a vessel condition survey be carried out in Singapore?",
+      "p": [
+        "Location decides how much of the ship can be seen. At the Eastern and Western anchorages the team boards by launch from Marina South Pier or West Coast Pier, whichever the agent books for the ship's position. A bulk carrier or tanker in ballast can open its holds and ballast tanks there, and machinery can be run while the ship is out of cargo work. A tanker releases its cargo tanks only once it holds a gas-free certificate, which few have during a bunker call.",
+        "The repair yards give the widest view. A ship docked at Seatrium or at one of the Tuas and Benoi yards has its bottom shell dry, staging rigged and tanks ventilated, so the survey can take in the external hull as well as the internals. At the container terminals, including Tuas Port, and at the Jurong Island oil and chemical berths, stays are short and the work is confined to deck structure, closing appliances, accessible piping and machinery already running for the call.",
+        "A ship lying outside Singapore port limits may be in a neighbouring state's waters, where boarding follows different rules. The agent confirms what is permitted before a launch is booked, so tell us the expected anchorage position as soon as it is known."
+      ],
+      "list": [
+        "Eastern and Western anchorages: holds, ballast tanks, deck, hatch covers and machinery on ships stopping for bunkers, crew or stores",
+        "Seatrium and the Tuas and Benoi repair yards: a complete survey with the hull dry and tanks opened for the docking",
+        "PSA terminals and Tuas Port: deck, coamings, lashing structure and engine-room readings during a container call",
+        "Jurong Island terminals: external structure, deck piping and machinery on chemical and product tankers, under terminal safety rules",
+        "Harbour bunker tankers at their maintenance stops: cargo tanks, hull and cargo piping on hard-worked craft"
+      ]
+    },
+    {
+      "id": "why-singapore",
+      "h": "Why do owners, charterers and lenders commission condition surveys in Singapore?",
+      "p": [
+        "Because the decision-makers sit here and the ships pass through. Singapore holds one of Asia's largest concentrations of ship managers, charterers' technical and vetting departments, banks and lessors, and many of the ships they control call at the anchorages several times a year. A survey timed to one of those calls lets a superintendent attend in the morning and be back at a desk by the afternoon, which is rarely possible at a remote load port.",
+        "The purposes vary. A technical manager may want each ship in a fleet surveyed yearly at a consistent depth. A charterer taking a bulk carrier or product tanker on period may want an independent picture of holds, tanks and deck machinery before the fixture starts. A bank or lessor reviewing its security may ask how structure, coatings and machinery stand against the ship's remaining trading life. And a manager with a docking booked in Singapore, China or the Gulf wants likely renewal areas and coating breakdown identified while they can still be written into the repair specification.",
+        "Singapore is also among the commonest delivery and redelivery points in time charters for ships trading east of Suez. At a handover here the owner and the charterer normally each appoint their own on-hire or off-hire surveyor, and our survey replaces neither. What it gives the owner is a measured record of its own, made shortly before or after the handover, of the spaces most often disputed: hold plating and frames, hatch covers, ballast tank coatings and deck fittings."
+      ]
+    },
+    {
+      "id": "scoping-at-anchor",
+      "h": "How is a condition survey scoped around a short anchorage stop?",
+      "p": [
+        "Time at anchor is the constraint, so the scope is settled before the team flies. We ask the technical manager for the expected hours at anchor, the loading condition on arrival and which tanks the crew can ventilate and certify safe. Ballast tanks usually come first, because they are the spaces most likely to have lost coating since the last docking and the ones a short stop can open. Holds follow on a bulk carrier in ballast, and the deck, hatch covers, vent heads and mooring gear are surveyed while the tanks are being ventilated.",
+        "Bunkering brings its own limits. During fuel transfer the master normally restricts enclosed-space entry and keeps people clear of the manifold, so tank entries are sequenced before or after the bunker tanker comes alongside. Machinery readings need the chief engineer to run generators, pumps and compressors under load; at anchor most auxiliaries are running anyway, but main engine readings depend on the ship's schedule and are often taken on the approach or on departure.",
+        "Weather matters more than visitors expect. Afternoon thunderstorms are frequent through much of the year, and deck work and launch transfers stop when lightning is close, so the team aims to finish external areas in the morning. During the north-east and south-west monsoons boarding at the outer anchorages can be uncomfortable, and the agent may hold the launch until conditions settle."
+      ]
+    },
+    {
+      "id": "what-we-find",
+      "h": "What do condition surveys of ships calling at Singapore usually find?",
+      "p": [
+        "Ballast tank coatings on ships in their second decade are the most frequent concern. Warm, humid tank atmospheres and repeated ballast changes on short Asian voyages break coatings down first at stiffener edges, welds and the undersides of horizontal girders, and each tank is rated in the IACS GOOD, FAIR and POOR terms so a charterer or class surveyor reading the report sees familiar words. On bulk carriers, hold frames and their lower brackets often carry grab damage and local wastage, and hatch cover seals and cleats are frequently worn.",
+        "Scrubber-fitted ships are a case of their own. Open-loop discharge is not allowed in Singapore port waters, so the scrubber is often idle or in closed loop at anchor, which is the moment to gauge wash-water and overboard piping and examine the shell penetrations it passes through. On machinery, vibration readings on purifiers, ballast pumps and engine-room fans, and thermal images of switchboards and starter panels, regularly pick up loose connections and bearing wear the planned maintenance system has not yet flagged.",
+        "Every defect is placed in one of three priority groups, and the first group is told to the master and the technical manager before the launch takes the team ashore. Crack checks by magnetic particle testing at hatch corners or crane pedestals are recorded as the owner's own NDT records; they are not class findings and do not close a class item."
+      ]
+    },
+    {
+      "id": "class-cas-cap",
+      "h": "How does an owner's condition survey in Singapore relate to class, CAS and CAP?",
+      "p": [
+        "It stands outside all three. The survey is commissioned by an owner, a charterer or a lender for a commercial purpose, so its scope follows that purpose rather than a rule. It is not the IMO Condition Assessment Scheme, which is statutory and applies to older single-hull oil tankers, and it is not a class Condition Assessment Programme rating; each has its own page here if a charterer has asked for one of them.",
+        "The thickness readings are a structured sample taken where steel is most likely to be wasting. Atlantis does not yet hold UR Z17 approval and is working towards it with DNV, Lloyd's Register and ABS, so these readings help the owner plan and are not credited to any class survey. With a renewal survey approaching, they show where class gauging is likely to find wastage, early enough to agree steel work with a Singapore yard."
+      ]
+    },
+    {
+      "id": "planning-singapore",
+      "h": "Planning a condition survey in Singapore: what to send and when",
+      "p": [
+        "Tell us the vessel, the purpose and the expected anchorage, terminal or yard as soon as the call is likely, because the team needs Singapore visas and, where an assignment calls for it, work-pass clearance before travel. Each yard runs its own contractor registration, so technician names and documents go to the yard ahead of arrival. Earlier condition or thickness reports, the midship section and the coating specification help us mark readings at points that can be repeated next time.",
+        "If the charterer, financier or fleet department uses its own report format, send it with the enquiry and the findings are delivered in that layout. Write to info@atlantisndt.com or use the enquiry form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Crude and product tankers",
+    "Bulk carriers",
+    "Container ships",
+    "LNG and LPG carriers",
+    "Chemical tankers",
+    "Bunker tankers",
+    "Offshore support vessels"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys, including the GOOD, FAIR and POOR coating condition terms",
+    "IACS UR Z10.2 and Z10.5 – Hull surveys of bulk carriers and double-skin bulk carriers",
+    "IACS UR Z10.1 and Z10.4 – Hull surveys of oil tankers and double-hull oil tankers",
+    "ISM Code, section 10 – Maintenance of the ship and equipment",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration",
+    "ASTM E797 – Ultrasonic thickness measurement by the manual pulse-echo contact method"
+  ],
+  "deliverables": [
+    "Overall condition summary, with the Priority 1 items told to the master before the team leaves",
+    "Coating ratings for ballast tanks and holds in IACS GOOD, FAIR and POOR terms, space by space",
+    "Spot thickness readings at marked, repeatable positions, compared with original and allowable values",
+    "Vibration and thermal readings on running machinery, each noted with the load at the time",
+    "Ranked defect list with photographs and recommended actions for the docking specification",
+    "List of spaces not entered at anchor, with the reason for each"
+  ],
+  "faqs": [
+    {
+      "q": "Can a vessel condition survey be done at a Singapore anchorage?",
+      "a": "Yes, and most are. A ship stopping for bunkers, stores or a crew change can release ballast tanks, holds in ballast, the deck, closing appliances and running machinery to a team that boards by launch from Marina South Pier or West Coast Pier. Cargo tanks on a tanker need a gas-free certificate and the external bottom needs a dock, so those are assessed from records and listed as not entered."
+    },
+    {
+      "q": "How long does a condition survey take on a ship anchored off Singapore?",
+      "a": "That depends on the ship and the scope rather than on the port. A focused survey of ballast tanks, deck and machinery on a bulk carrier can often be fitted into a bunker stop, while a complete survey of a large tanker usually needs a longer anchorage period or a docking. We agree the scope against the hours the ship actually expects to stay and list anything left for the next call."
+    },
+    {
+      "q": "Does your survey replace the on-hire or off-hire survey for a Singapore delivery?",
+      "a": "No. When a ship is delivered or redelivered at Singapore, the owner and the charterer normally each appoint a surveyor for the on-hire or off-hire survey, and each relies on its own. Our survey is the owner's own detailed record, with measured readings and photographs at marked positions, and it can be taken days before the handover so that defects can be repaired or documented first."
+    },
+    {
+      "q": "Can you survey a Singapore-managed ship somewhere else in Asia?",
+      "a": "Yes. Many managers based in Singapore commission surveys for ships docking or trading in China, Southeast Asia or the Gulf, and the team travels from India to wherever the ship will be. Keeping the same method, rating scale and repeatable reading positions across a fleet is often the reason they ask, because it lets each new report be compared with the previous one, ship by ship."
+    },
+    {
+      "q": "What should a lender or lessor expect from a condition survey in Singapore?",
+      "a": "A plain account of the ship's condition and the risks to its trading life: structure and coatings rated by area, the Priority 1 and 2 defects, measured machinery readings, and what the next class survey or docking is likely to demand. The survey does not value the ship and does not stand in for class records, which a lender obtains through the owner and the classification society."
+    },
+    {
+      "q": "Can scrubber piping be checked during a Singapore condition survey?",
+      "a": "Usually, and Singapore is a good place for it. With open-loop discharge not permitted in port waters, scrubbers are often idle or running closed-loop at anchor, so wash-water and overboard lines can be gauged at bends and near the shell, and the penetrations examined. A deeper examination of those systems is described on the Scrubber Piping Inspection page."
+    }
+  ]
+}
