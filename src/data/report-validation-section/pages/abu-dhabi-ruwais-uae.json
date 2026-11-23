@@ -1,0 +1,194 @@
+{
+  "title": "Abu Dhabi and Ruwais NDT Report Validation | Remote Review",
+  "description": "Independent review of NDT reports and digital inspection data from Ruwais refining, polyolefins, gas and LNG work and Abu Dhabi projects, carried out remotely.",
+  "h1": "Independent NDT report review for Abu Dhabi and the Ruwais industrial complex",
+  "eyebrow": "Report validation: Abu Dhabi and Ruwais, UAE",
+  "intro": "Ruwais concentrates more process plant on one stretch of coast than almost anywhere else in the Gulf: two ADNOC refineries' worth of distillation, Borouge's polyolefins site, the UAE's NGL fractionation plant and, now under construction, a two-train LNG export project. Each of them produces inspection reports and digital inspection data that an owner, a contractor or a partner eventually has to accept or defend. We review those records independently against the procedure, the ADNOC specification and the code edition named in the contract, then state in writing what the evidence supports. Atlantis has no Abu Dhabi office; the review is carried out remotely on the files you send.",
+  "highlights": [
+    {
+      "h": "Built around ADNOC specifications",
+      "p": "Abu Dhabi contracts layer the operator's group engineering specifications over ASME, API, AWS and ISO standards. The reviewer reads each report against that whole stack, and the opinion names the document and edition behind every finding."
+    },
+    {
+      "h": "Construction and operations",
+      "p": "Records from the Ruwais LNG and Borouge expansions arrive as fabrication packages and field weld data, while the operating refineries and gas plants send turnaround and integrity records. The checks are the same seven; the emphasis changes."
+    },
+    {
+      "h": "Nuclear framed correctly",
+      "p": "For anything touching Barakah's supply chain, the review is an independent technical opinion for the licensee's quality organisation to weigh. We make no supplier-list claim and no claim of work at the plant."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Why Ruwais and Abu Dhabi produce records that need a second reader",
+      "p": [
+        "ADNOC Refining runs the Ruwais refinery and the Abu Dhabi refinery, which together process more than 922,000 barrels a day of crude and condensate. Eni and OMV took minority stakes in the company in 2019, so its inspection records are read by partners as well as by the operator. Next door, Borouge operates the polyolefins production site at Ruwais, and its Borouge 4 expansion, owned 70 per cent by ADNOC and 30 per cent by OMV, adds a 1.5 million tonne ethane cracker and 1.4 million tonnes of polyethylene capacity. ADNOC and OMV have also been combining Borouge, Borealis and Nova Chemicals into Borouge Group International, with ADNOC's interest held through its XRG subsidiary.",
+        "Gas is the third pillar. ADNOC Gas describes the Al Ruwais Industrial Complex as home to the UAE's only natural gas liquids fractionation plant, fed from an onshore system whose core, the Habshan complex, has five plants and fourteen processing trains. Further along the industrial city, the Ruwais LNG project is being built as two liquefaction trains of 4.8 million tonnes a year each. ADNOC holds 60 per cent, with ADNOC Gas planning to take over that stake, and BP, Mitsui, Shell and TotalEnergies each hold 10 per cent; start-up was announced for the second half of 2028.",
+        "With this much plant, and this many owners, reviews are usually requested by someone at one remove from the examination. An operator's inspection engineer wants a second reader before accepting a contractor's close-out. An EPC contractor needs to know whether a fabricator's package will survive the owner's receiving inspection. An inspection company wants a technical answer to a rejection it thinks is wrong. A partner, a lender or an insurer wants to know what a set of records can prove. The sites named on this page illustrate the area; naming them does not mean we have reviewed their records or worked for their owners."
+      ]
+    },
+    {
+      "h": "Asset groups in the area and the records each one sends for review",
+      "p": [
+        "The mix of construction and operating plant around Ruwais means the same week can bring a vendor data book for an LNG module and a corrosion map from a twenty-year-old refinery column. The table sorts the area's main asset groups by the records they most often produce."
+      ],
+      "table": {
+        "head": [
+          "Asset group",
+          "Examples in the area",
+          "Records and digital inspection data that typically reach review"
+        ],
+        "rows": [
+          [
+            "Refining",
+            "ADNOC Refining's Ruwais and Abu Dhabi refineries",
+            "Turnaround packages, API 510 and API 570 reports, CML thickness data, corrosion maps on columns and drums, PAUT on repair welds, CR on small-bore connections"
+          ],
+          [
+            "Polyolefins",
+            "Borouge production site at Ruwais, including the Borouge 4 expansion",
+            "Cracker furnace and quench system records, exchanger tube data, PT and MT on rotating equipment supports, new-build weld records from the expansion"
+          ],
+          [
+            "Gas processing",
+            "ADNOC Gas NGL fractionation at Ruwais, the Habshan complex",
+            "Sour service piping inspection, hardness and PMI records, UT thickness surveys, TOFD on thick-wall vessels, column internals reports"
+          ],
+          [
+            "LNG under construction",
+            "Ruwais LNG, two trains in Al Ruwais Industrial City",
+            "Module fabrication data books, DR images of stainless and low-temperature carbon steel welds, PAUT used in place of radiography, PT on austenitic welds"
+          ],
+          [
+            "Nuclear supply chain",
+            "Barakah, operated by Nawah for ENEC",
+            "Supplier NDT records on components and spares, procedure and personnel files, owner's second-opinion requests on contested indications"
+          ],
+          [
+            "Pipelines and shops",
+            "Export and feed lines, fabrication yards serving the emirate",
+            "Girth weld radiographs and DR images, automated UT data, spool and skid data books, hydrotest records"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "ADNOC specifications and the UAE authorities behind a report",
+      "p": [
+        "ADNOC has been standardising its engineering standards and specifications across its group companies, covering structural steel, piping and valves, pipelines, mechanical equipment and the other disciplines that a fabrication or inspection contract touches. In practice, a Ruwais NDT report is written to an ADNOC specification that calls up an international code: ASME Section V for technique, Section VIII or B31.3 for acceptance, API 510, 570 and 653 for in-service work, API 1104 for pipelines, AWS D1.1 for structures, and in many European-led packages the ISO standards for radiography and ultrasonic testing of welds. When the operator's specification is stricter than the code, the specification governs, and a report that applies only the code can be wrong on exactly the indication that matters.",
+        "That layering is the commonest source of findings in reports from the emirate. We see acceptance criteria taken from the code's general table where the specification asks for a tighter one, examination extents that satisfy the code but not the project's inspection and test plan, and personnel certified under one scheme where the contract asked for another. The review states which document controls each point, and the opinion quotes it, so the contractor and the owner can resolve the question from the text rather than from memory.",
+        "Radiation is a federal matter. The Federal Authority for Nuclear Regulation requires a licence for any use of radioactive materials and radiation sources in the country, industrial users included, so every radiograph from the emirate should trace back to a licensed radiography contractor. FANR is also the independent regulator for the Barakah plant. Atlantis does not carry out radiography in the UAE; film, CR and DR images from your licensed contractor are reviewed as documents."
+      ]
+    },
+    {
+      "h": "Construction records from the Ruwais expansions",
+      "p": [
+        "Large new-build projects in the industrial city bring records from fabricators across Asia, Europe and the Gulf, each with its own templates and its own reading of the specification. The owner's quality team receives them in waves, often while the modules are already on the water. An independent review is most useful at two points: when a fabricator's package is first submitted, so that systematic problems are caught before they repeat across a hundred spools, and at mechanical completion, when the turnover dossier has to be accepted as complete.",
+        "On LNG work the materials set the agenda. Austenitic stainless and low-temperature carbon steel welds need techniques qualified for that material; ultrasonic examination of coarse-grained austenitic welds in particular needs probes and procedures shown to work on it, and a report that uses a carbon steel technique on a stainless weld can look perfectly tidy while having examined very little. Digital radiography of thin-wall stainless piping raises its own questions about image quality indicators, basic spatial resolution and the processing applied before interpretation."
+      ],
+      "list": [
+        "Examination extent per line class and joint category, checked against the specification and the inspection and test plan rather than the code minimum",
+        "Whether ultrasonic examination used instead of radiography was approved for that joint, with a qualified procedure and the scan plan to show coverage",
+        "Image quality on DR and CR images, including the duplex wire or equivalent measure the procedure calls for",
+        "PT technique on austenitic welds: penetrant family, dwell, removal and the temperature range of the surface on the day",
+        "Personnel certificates valid on the dates in the report, under the scheme the contract names",
+        "Repair and re-examination records that close every rejected joint on the weld map"
+      ]
+    },
+    {
+      "h": "Turnaround and integrity records from operating plant",
+      "p": [
+        "The operating refineries, the polyolefins site and the gas plants run planned shutdowns on long cycles, and each one ends with a stack of inspection reports from several contractors that the owner's inspectors must close before the unit restarts. Reviews here are normally a targeted sample agreed with the owner: repairs, items with rejectable or borderline findings, equipment whose inspection technique has changed since the last outage, and work by contractors new to the site.",
+        "Thickness and corrosion data deserve particular care, because integrity decisions are made from trends rather than single readings. A corrosion map that was acquired with a different grid, a different probe or a different reference point from the last outage can produce an apparent wall loss, or hide a real one. The reviewer checks that readings sit against the right condition monitoring locations, that the calibration and the probe match the record, and that any reprocessing of the map is documented.",
+        "Exchanger bundles in the fractionation and cracker trains often come back with eddy current or other electromagnetic tube data. Those raw files are reopened by a reviewer whom the proposal names, holding the eddy current certification your contract requires, rather than being taken from the summary sheet. Remaining-life and fitness-for-service calculations stay with your engineer; the opinion tells that engineer which inspection data can be relied on."
+      ]
+    },
+    {
+      "h": "Nuclear: where an independent opinion fits around Barakah",
+      "p": [
+        "Abu Dhabi's Barakah nuclear energy plant has four APR1400 units, and the fourth entered commercial operation in September 2024. Nawah Energy Company, the operating and maintenance subsidiary of the Emirates Nuclear Energy Corporation, runs the plant, and FANR regulates it. A fleet that size generates a steady flow of supplier records for components, spares and outage work.",
+        "Atlantis is not on Nawah's, ENEC's or any other licensee's approved supplier list, holds no 10 CFR 50 Appendix B or NQA-1 approval, and claims no work at Barakah. What we can provide is an independent technical opinion on an NDT record, which the licensee's quality organisation decides how to use. Typical cases are a second opinion on a contested indication in a supplier's report, oversight of NDT records on non-safety-related scope, or a dispute between a supplier and its customer about whether a report meets the purchase order. Members of the review team come from nuclear, maritime, oil and gas and petrochemical work, so nuclear records are read by someone used to their documentation demands."
+      ]
+    },
+    {
+      "h": "Digital inspection data on Abu Dhabi projects",
+      "p": [
+        "Very little from a Ruwais project now arrives on paper. Encoded PAUT and TOFD files, CR and DR images, corrosion maps and tube data come from several contractors, each using its own acquisition software, and reports are often produced in a digital reporting platform that pulls readings and images in automatically. That is useful for a reviewer, because raw data can be reopened and measured again, but it also introduces failure modes that a PDF hides.",
+        "We follow the data lineage from acquisition to the signed report. Does the file name and header match the weld or the CML in the report? Was a DR image reprocessed after it was interpreted, and is that recorded? Do the setup and calibration files belong to the instrument listed, on the date listed? Was a digital reporting template carrying values over from a previous job? Was the electronic signature applied by a person certified on that date, and does the revision history show who changed what after approval? On multinational projects we also check that transmittals and native files stayed together when they moved between the fabricator, the EPC and the owner, because a report separated from its raw data is much harder to defend."
+      ]
+    },
+    {
+      "h": "How the review runs from Houston and Hyderabad",
+      "p": [
+        "Atlantis has no Abu Dhabi office, staff or partner in the UAE. Its offices are in Houston and Hyderabad, and the Hyderabad working day overlaps almost all of the UAE's, which keeps questions moving while your team is at work. Nothing in a document review needs site access, a gate pass or a visa."
+      ],
+      "list": [
+        "Tell us the asset, the method, the specification and code, and the decision the record supports; we reply within one business day with the scope and a quote",
+        "Reports, procedures, certificates, calibration records and raw digital files arrive through a secure transfer, or your own platform if company rules require it",
+        "The reviewer works through procedure compliance, personnel, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability",
+        "Questions the documents cannot answer come back to you, or with your permission to the contractor that produced the report",
+        "You receive a written opinion with one of three verdicts: sound, deficient in documentation only, or deficient in disposition",
+        "If the contractor or a partner challenges the opinion, the reviewer explains the reasoning on a call"
+      ]
+    },
+    {
+      "h": "Who reviews, and where the opinion stops",
+      "p": [
+        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under the direction of an ASNT NDT Level III whose certification spans those five methods. Eddy current, acoustic emission and other methods outside that scope go to a reviewer named in the proposal with the certification the contract asks for.",
+        "The opinion covers the record, not the asset. Fitness-for-service and remaining-life assessments stay with the operator's engineer, the inspector of record stays the person your inspection programme names, and decisions on return to service remain with the owner. We never review a report on an examination Atlantis itself carried out, and certifying personnel is not part of the service."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have an office or inspectors in Abu Dhabi or Ruwais?",
+      "a": "No. Atlantis has no office, inspector or partner anywhere in the UAE. The review is a remote document and data review carried out from Houston and Hyderabad on the records you send."
+    },
+    {
+      "q": "Can you review a report against an ADNOC specification as well as the code?",
+      "a": "Yes. Send the specification and the inspection and test plan with the report. The reviewer checks which document governs each requirement, and where the specification is stricter than the code, the opinion applies the specification and says so."
+    },
+    {
+      "q": "We are a fabricator supplying packages for a Ruwais project. Can you check a data book before we submit it?",
+      "a": "Yes, and early is better. Reviewing the first package from a fabricator usually finds any systematic problem, such as the wrong acceptance table or an unapproved technique, before it repeats across the rest of the scope."
+    },
+    {
+      "q": "Do you review radiographs and DR images taken in the UAE?",
+      "a": "Yes, as documents. Images from your licensed radiography contractor are checked for image quality, coverage, technique and interpretation. Atlantis does not perform radiography in the UAE; every use of a radiation source there needs a FANR licence held by the contractor."
+    },
+    {
+      "q": "Can you give an opinion on NDT records from a nuclear supplier?",
+      "a": "We can give an independent technical opinion that the licensee's quality organisation decides how to use. Atlantis is not on any licensee's approved supplier list, holds no Appendix B or NQA-1 approval and claims no work at Barakah."
+    },
+    {
+      "q": "Who reviews eddy current tube data from exchanger bundles?",
+      "a": "A reviewer named in the proposal, holding the eddy current certification your contract requires. That reviewer reopens the raw tube files instead of relying on the summary table. The in-house Level III certification covers UT, RT, MT, PT and VT."
+    },
+    {
+      "q": "Will the review tell us whether a vessel can stay in service?",
+      "a": "It tells you whether the inspection data can be relied on and where it falls short. Fitness-for-service, remaining-life and return-to-service decisions stay with your engineer and your inspection programme."
+    },
+    {
+      "q": "How do we start?",
+      "a": "Use the form or write to info@atlantisndt.com with the asset, the method, the specification and what the review is for. We reply within one business day with the scope, the reviewer and a quote."
+    }
+  ],
+  "related": [
+    ["/ndt-training-abu-dhabi", "NDT training in Abu Dhabi"],
+    ["/ndt-training-ruwais", "NDT training in Ruwais"],
+    ["/practical-ndt-ruwais", "Practical NDT simulator in Ruwais"],
+    ["/consulting/ndt-consulting-level-iii", "Outsourced ASNT Level III consulting"]
+  ],
+  "sources": [
+    "https://adnoc.ae/news-and-media/press-releases/2019/adnoc-closes-landmark-strategic-partnership-agreements-with-eni-and-omv-in-refining-and-trading",
+    "https://adnoc.ae/en/news-and-media/press-releases/2026/adnoc-and-omv-advance-formation-of-borouge-group-international-ag",
+    "https://www.hydrocarbonengineering.com/petrochemicals/04112026/borouge-international-increases-2030-global-growth-plans-to-138-million-t/",
+    "https://adnocgas.ae/en/our-operations/gas-processing",
+    "https://www.thenationalnews.com/business/energy/2024/07/10/international-energy-companies-take-40-stake-in-adnocs-ruwais-lng-project",
+    "https://mediaoffice.abudhabi/en/energy/unit-4-of-abu-dhabis-barakah-nuclear-energy-plant-begins-commercial-operations",
+    "https://world-nuclear.org/world-nuclear-performance-report/case-studies/enec.aspx",
+    "https://enec.gov.ae/barakah-plant/frequently-asked-questions",
+    "https://adnoc.ae/en/suppliers/engineering-standards-and-specifications",
+    "https://gulfnews.com/uae/government/licences-will-ensure-safe-use-of-radioactive-materials-1.634711"
+  ]
+}
