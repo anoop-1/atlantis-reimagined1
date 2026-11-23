@@ -1,6 +1,6 @@
 {
   "title": "Corrosion Mapping Data Review: Encoded UT C-Scan Checks",
-  "description": "Independent review of encoded UT corrosion mapping data: grid and step size, coverage, velocity, temperature, gates and export to API 510, 570 and 653 CML records.",
+  "description": "Independent review of encoded UT corrosion mapping: grid and step size, coverage, velocity, temperature, gates and export to API 510, 570 and 653 CML records.",
   "h1": "Corrosion mapping data review for encoded ultrasonic thickness scans",
   "eyebrow": "Method review: corrosion mapping",
   "intro": "A corrosion map is a picture made from thousands of thickness readings, and its colours are only as honest as the settings behind them. Velocity, temperature, gate placement, step size and the filters applied on export all decide what the map shows and what the inspection record ends up saying. We review encoded corrosion mapping data independently: we open the files, check the acquisition against the procedure and scan plan, and compare what the report and the CML system record with what the data actually contains. The review is carried out remotely on the files you send.",
