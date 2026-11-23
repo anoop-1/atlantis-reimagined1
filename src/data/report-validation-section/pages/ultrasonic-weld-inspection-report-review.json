@@ -1,0 +1,140 @@
+{
+  "title": "Ultrasonic Weld Inspection Report Review: ASME V, AWS D1.1",
+  "description": "Independent review of manual angle-beam UT weld reports: reference reflectors, DAC or TCG, scan coverage and indication rating to ASME V Article 4 or AWS D1.1.",
+  "h1": "Independent review of ultrasonic weld examination reports",
+  "eyebrow": "Method review: UT of welds",
+  "intro": "A manual shear-wave UT weld report reduces an hour of probe movement to a few lines: the welds examined, the angles used, the indications found and a verdict. Whether that verdict can be trusted depends on things the summary rarely shows, such as the reflector the sensitivity was set on, whether the scan covered the full weld volume from the sides the code requires, and which rating method turned a signal into an accept or reject. We review UT weld reports and their calibration records independently against the procedure and the code the work was done to, remotely, from the documents and any digital data you send.",
+  "highlights": [
+    { "h": "Code method, not house habit", "p": "ASME Section V Article 4, the AWS D1.1 ultrasonic method and API 1104 each set sensitivity, scanning and evaluation in their own way. The review checks the report against the one the contract named, not a blend of all three." },
+    { "h": "Calibration traced to the reflector", "p": "Every amplitude in the report depends on the reference reflector and the curve or reference level built from it. The reviewer follows that chain and checks that it held from the opening scan to the last weld of the shift." },
+    { "h": "Indications, not just verdicts", "p": "Recorded indications are tested for length, rating and classification against the acceptance table, and the reviewer looks for signals the report should have recorded but did not." }
+  ],
+  "sections": [
+    {
+      "h": "What a manual UT weld report has to prove",
+      "p": [
+        "Manual angle-beam ultrasonic testing is the oldest volumetric weld method still in daily use, and it leaves the thinnest trail. Unless the instrument stored waveforms, nothing of the scan survives except what the technician wrote down. A report therefore has to carry, in its own pages, enough evidence for a stranger to believe the examination happened as described: the procedure and its revision, the instrument and search units by serial number, the calibration block and reflector, the sensitivity reference and any transfer correction, the scanning levels, the surfaces scanned from, the indications recorded and how each one was evaluated.",
+        "A review asks whether that evidence exists and whether it hangs together. A single beam angle listed for a thick weld where the code expects more than one, a distance-amplitude curve built on a block from a different material group, or a weld examined from one side when the geometry allowed two, are the kinds of contradiction that change what the report can claim. None of them shows in the summary line that says the weld was accepted.",
+        "Most UT weld reports we see are workmanlike, and a review that says so is useful: a buyer can close out the package and a contractor can answer a challenge with evidence. Where a report is weak, the opinion separates missing paperwork from decisions the examination cannot support."
+      ]
+    },
+    {
+      "h": "Three code methods that are often confused",
+      "p": [
+        "Many disputes over UT weld reports start with a report written to one method and judged against another. The three methods below share the physics and very little else. ASME Section V Article 4 is a method article: it says how to examine and leaves acceptance to the construction code that invokes it, such as Section VIII, Section I, B31.1 or B31.3. AWS D1.1 carries a complete ultrasonic method inside its inspection clause, Clause 8, with its own reference standard, scanning patterns and decibel rating, and its own acceptance tables for statically and cyclically loaded connections. API 1104 governs pipeline girth welds, where ultrasonic examination of mainline construction is often mechanized and the procedure is approved by the pipeline company.",
+        "The comparison below is the starting point of every UT weld review. Once the governing method is clear, each indication can be judged by the rules that actually applied on the day."
+      ],
+      "table": {
+        "head": ["Item", "ASME Section V Article 4", "AWS D1.1 ultrasonic method", "API 1104 (pipeline girth welds)"],
+        "rows": [
+          ["Where acceptance comes from", "The referencing code: Section VIII, Section I, B31.1, B31.3 and others", "D1.1's own UT acceptance tables, split by statically and cyclically loaded connections", "API 1104's own acceptance standards for ultrasonic testing"],
+          ["Sensitivity reference", "Side-drilled holes in a basic calibration block of acoustically similar material, used to build a DAC or a TCG", "A reference hole in an IIW-type block, with indication amplitude compared in decibels", "Set out in the written UT procedure the pipeline company approves"],
+          ["How an indication is judged", "Amplitude against the reference level, then type and length against the referencing code", "An indication rating d = a − b − c placed in classes A to D, then compared by length", "Type and length against the API 1104 limits, frequently from mechanized data"],
+          ["Attenuation", "Built into the DAC or TCG curve taken on the block", "A fixed correction of 2 dB per inch of sound path beyond the first inch", "As the approved procedure sets it"],
+          ["Typical report gap", "No record of transfer correction or of calibration confirmation", "Testing angle that does not match the thickness, or rating arithmetic not shown", "Procedure approval and reference standard records missing from the package"]
+        ]
+      }
+    },
+    {
+      "h": "Reference reflectors, DAC and TCG: where sensitivity quietly goes wrong",
+      "p": [
+        "Every amplitude in a UT weld report is relative. It means something only in relation to the reflector the instrument was set on, so a reviewer begins by identifying that reflector and following it through. Under Article 4 the basic calibration block should match the component's material and product form closely enough to be acoustically similar, with side-drilled holes at depths that bracket the thickness examined. Points taken from those holes become a distance-amplitude correction curve, or the instrument's time-corrected gain flattens them to one level on screen.",
+        "Three things break that chain. A block of a different material group or heat treatment changes attenuation, so the curve no longer describes the part. Curvature is ignored on small-diameter pipe or nozzles, so the probe rocks and couples differently on the job than on the block. And no transfer correction is recorded where the surface condition differs between block and component; a rough, painted or scaled surface can cost several decibels that nobody added back. The review checks whether the report records each of these, not whether the technician probably did them.",
+        "Calibration also has to hold. The written procedure requires confirmation checks at set points, typically at the start and end of each examination and whenever a search unit, cable, couplant or instrument changes, and it states what happens when sensitivity or the distance scale has drifted. A drop in sensitivity beyond the allowed limit voids the welds examined since the last good check. A report that records one calibration at the start of a shift and none afterwards cannot show that welds examined late in the day were examined at the stated sensitivity."
+      ]
+    },
+    {
+      "h": "Angle choice and scanning coverage",
+      "p": [
+        "Coverage is where manual UT reports are most often weak, because it depends on geometry the report seldom draws. The reviewer rebuilds it from the material thickness, bevel angle and joint type, cap width, the surfaces actually accessible and the angles listed. From that it is possible to judge whether the beam reached the fusion faces and the root at an angle likely to return a signal from planar flaws, and whether any part of the weld volume and heat-affected zone was covered only by the edge of the beam or not at all.",
+        "AWS D1.1 makes part of this explicit. Its testing-angle table ties the probe angle and the face scanned from to the thickness and weld type, and its scanning patterns call for separate movements to find longitudinal and transverse discontinuities. Article 4 states coverage in terms of overlap between passes, a scanning sensitivity above the reference level and examination of the required volume, and leaves the detail to the written procedure. Either way, a report should say which faces and sides were scanned, with which angles, and why any part was left out.",
+        "Two gaps recur. Weld caps left unground prevent scanning on top of the weld for transverse flaws, and the report is silent about it. Base metal in the beam path is not checked with a straight beam for laminations where the procedure calls for it, so a lamination may have hidden part of the weld from the angle beam. Each belongs in the report as a stated limitation; when it is missing, the review records it as one."
+      ]
+    },
+    {
+      "h": "Indication length, rating and classification",
+      "p": [
+        "Once an indication is found, the report has to turn it into something the acceptance standard can judge. Under Article 4, indications above a stated fraction of the reference level are investigated and then evaluated against the referencing code; many construction codes judge manual UT indications by type and length, with cracks, lack of fusion and incomplete penetration rejected whatever their size. Under AWS D1.1, the technician computes an indication rating from the indication level, the reference level and the attenuation factor, places the result in a severity class and compares its length with the limit for that class and that type of loading.",
+        "The reviewer reworks the arithmetic where the numbers are recorded and checks the sizing method against the procedure. Length measured by the 6 dB drop on one indication and to a DAC boundary on the next, ratings computed with the attenuation factor applied twice, or a crack-like reflector called slag because its length was acceptable for slag, are all findings that can change a disposition. Where acceptance depends on flaw height, as it does when UT replaces radiography under some construction codes, manual amplitude methods are seldom adequate and those codes generally expect recorded, encoded data.",
+        "Classification deserves its own check. Calling an indication volumetric or planar is an interpretation, and the record should show what supported it: echo dynamics, response from more than one angle, position relative to the bevel. A disposition that rests on classification alone, with no supporting observation written down, is weaker than it looks on the page."
+      ]
+    },
+    {
+      "h": "What a complete UT weld report records",
+      "p": [
+        "We read the report against a list like the one below. Not every item is mandatory under every code, but each missing one removes a piece of evidence that someone may later ask for, usually at the least convenient moment."
+      ],
+      "list": [
+        "Procedure number and revision, and the code and edition it was written to",
+        "Weld or joint identification that ties to a drawing, weld map or isometric, with the datum and direction used to locate indications",
+        "Instrument, search units with frequency, size and angle, and cables, each identified",
+        "Calibration block and reflectors, the DAC, TCG or reference level, and any transfer correction",
+        "Couplant, surface condition and component temperature where the procedure limits them",
+        "Scanning sensitivity, the surfaces and sides scanned, and any areas not examined with the reason",
+        "Every recordable indication with location, length, amplitude or rating, and its classification",
+        "Calibration confirmation results and the times they were made",
+        "Names of the person who scanned and the person who evaluated, with method, level and date of certification"
+      ]
+    },
+    {
+      "h": "Digital data behind a manual examination",
+      "p": [
+        "Manual UT has moved onto digital instruments, and that helps a review. Many flaw detectors now store setup files, DAC curves and A-scan snapshots for each recorded indication, and some log a time stamp with every saved waveform. Where those files exist, we ask for them alongside the PDF, because a saved setup shows the gain, range and probe delay actually used, and a stored A-scan lets a signal be judged again instead of taken on trust.",
+        "Digital reporting brings its own failure modes. Templates that pre-fill the probe list or calibration block from the previous job, time stamps showing a calibration saved after the examination it claims to cover, and A-scan images exported at a resolution too coarse to read are the problems we meet most. An independent review of the digital inspection data checks that each stored file belongs to the weld, the instrument and the date the report names, and that the issued report was not altered after electronic signature without a new revision. Where the same welds were also examined with phased array or TOFD, those encoded data sets are reviewed on their own method pages."
+      ]
+    },
+    {
+      "h": "How UT weld reports fail, and what the review checks",
+      "p": [
+        "The table sets out the checks we run on a manual UT weld report and the failure in each that most often decides the verdict."
+      ],
+      "table": {
+        "head": ["Check", "What the reviewer looks at", "Failure that changes the verdict"],
+        "rows": [
+          ["Procedure", "Revision in force, essential variables, demonstration where the code requires one", "Examination outside the procedure's thickness, material or angle range"],
+          ["Personnel", "Method, level and date of certification; who evaluated, not only who scanned", "Indications evaluated and signed by someone not certified to evaluate them"],
+          ["Calibration", "Block, reflectors, curve, transfer correction and confirmation checks", "Sensitivity drift beyond the limit with no re-examination recorded"],
+          ["Coverage", "Angles, faces and sides scanned against the joint geometry", "Root or fusion faces never reached at a useful angle"],
+          ["Evaluation", "Rating arithmetic or length sizing, and the evidence for classification", "Crack-like indication accepted on length as though it were volumetric"],
+          ["Acceptance", "Code, edition, table and the loading or service category", "Statically loaded limits applied to a cyclically loaded connection"],
+          ["Traceability", "Weld identifiers, datum points, signatures and dates", "Indications that could not be found on the weld again"]
+        ]
+      }
+    },
+    {
+      "h": "Verdicts, independence and who reviews the report",
+      "p": [
+        "Each review ends with one of three outcomes: the report is sound; it is deficient in documentation only; or it is deficient in disposition because an accept or reject decision is not supported by the evidence. The written opinion ties each finding to the procedure step or code requirement behind it, so the contractor can answer it point by point and the owner can see at once whether anything holds up the job.",
+        "UT weld reports are reviewed under the direction of an ASNT NDT Level III whose certification covers ultrasonic testing along with RT, MT, PT and VT, supported by review team members whose backgrounds include nuclear, maritime, oil and gas and petrochemical work. We do not review reports from projects where we carried out the examination. The review is a document review carried out remotely; where the records cannot settle a question, the opinion says so and names the re-examination that would."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Can you review a UT weld report if the waveforms were not saved?", "a": "Yes. Most manual UT reports have no stored data, and the review then rests on the written record: calibration, coverage, indication tables and the procedure. The opinion is explicit about what a paper record can and cannot establish, and it says when only a repeat scan would settle a disputed indication." },
+    { "q": "Our report was written to Article 4 but the client is judging it to AWS D1.1. Who is right?", "a": "The contract and the referencing code decide which method governs, and the review starts by establishing that. Structural steel built to D1.1 normally takes the code's own UT method; pressure equipment normally takes Article 4 with the construction code's acceptance standards. We set out which applies and what that means for each indication in your report." },
+    { "q": "Do you check the indication rating arithmetic in D1.1 reports?", "a": "Yes, wherever the indication level, reference level and sound path are recorded. Plain arithmetic slips are less common than an attenuation factor applied wrongly or a rating placed in the wrong class, but all three are checked." },
+    { "q": "Is a missing transfer correction a documentation gap or a disposition problem?", "a": "It depends on the surfaces. Where the block and component had a similar finish, it is usually documentation. Where the component was rough, coated or curved and the loss could have been several decibels, indications near the evaluation level may have been missed or under-rated, and the review treats it as a disposition question." },
+    { "q": "Will you review UT data for welds examined with phased array or TOFD?", "a": "Yes, on the method pages for those techniques. Encoded data is reviewed differently, because the files can be reopened and re-measured; this page covers manual pulse-echo examination with angle beams." },
+    { "q": "Do you need the welding procedure as well as the UT procedure?", "a": "It helps. Joint geometry, bevel angle and process tell the reviewer where lack of fusion is likely and whether the angles chosen could find it. We read welding documents only as context; Atlantis does not write or qualify welding procedures." },
+    { "q": "Can the review be used when a client has rejected our UT report?", "a": "Yes. The opinion states whether the rejection is technically supported, which findings are paperwork that existing records can close, and which point to a real gap in the examination. It is written so it can be sent to the client unchanged." },
+    { "q": "How do we send a UT weld report for review?", "a": "Use the form on this page or email info@atlantisndt.com with the report, the UT procedure, calibration records and the code the work was done to. We reply within one business day with the scope and a quote." }
+  ],
+  "related": [
+    ["/report-validation/phased-array-data-review-paut", "Phased array (PAUT) data review"],
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"],
+    ["/ultrasonic-weld-inspection", "Ultrasonic weld inspection"],
+    ["/standards/asme-section-v-article-4", "ASME Section V Article 4 explained"],
+    ["/standards/asme-section-v-article-5", "ASME Section V Article 5 explained"],
+    ["/standards/aws-d1-1", "AWS D1.1 explained"],
+    ["/standards/api-1104-vs-aws-d1-1", "API 1104 vs AWS D1.1"],
+    ["/consulting/ndt-consulting-level-iii", "ASNT Level III consulting"]
+  ],
+  "sources": [
+    "https://ims.evidentscientific.com/en/learn/ndt-tutorials/flaw-detection/aws",
+    "https://www.fhwa.dot.gov/publications/research/infrastructure/structures/bridge/14075/14075.pdf",
+    "https://engstandards.lanl.gov/esm/welding/vol6/ITM-1306-NDE-UT-501.pdf",
+    "https://www.munichre.com/hsb/en/services/engineering/global-inspection/resource-center/pressure-points/25q402.content.html",
+    "https://www.asme.org/codes-standards/bpvc-standards/bpvc-2025",
+    "https://www.aws.org/magazines-and-media/welding-journal/wj-may-25-feature-01-green-wje/"
+  ]
+}
