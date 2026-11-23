@@ -1,0 +1,176 @@
+{
+  "title": "RBI in Cilacap: Refinery, Aromatics and Lube Oil Planning",
+  "description": "Remote RBI for the Cilacap refinery: fuels, aromatics, lube base oil and co-processing units, Indian Ocean exposure, large tank farms and Migas rules.",
+  "h1": "Risk-based inspection for the Cilacap refinery complex on Java's south coast",
+  "eyebrow": "Risk-based inspection in Cilacap",
+  "intro": "Cilacap is the biggest of Pertamina's refinery units by capacity and one of the most varied: crude distillation and fuels, an aromatics complex, a lube base oil plant and asphalt, and since 2025 co-processing of used cooking oil, all on the Indian Ocean coast of Central Java. This page is for the inspection, reliability and integrity engineers who plan inspection there. It looks at how the process families differ in damage mechanisms, why feed changes should reopen the register, what the coastal climate does to insulated plant and tanks, and how Atlantis runs an RBI study for the complex remotely.",
+  "highlights": [
+    { "h": "Several plants inside one fence", "p": "Fuels units, the paraxylene and benzene complex, lube base oil and asphalt production each bring a different damage mechanism profile. The study groups them by process family, so critical units get item-level attention while mild services are handled efficiently by corrosion loop." },
+    { "h": "New feeds reopen the register", "p": "Used cooking oil now passes through a distillate hydrotreater alongside conventional feed. Each change in bio-feed share, contaminant level or operating window is treated as a reassessment trigger, with integrity operating windows written to catch the corrosion it can bring." },
+    { "h": "Remote on Western Indonesia Time", "p": "Cilacap keeps UTC+7, an hour and a half ahead of Hyderabad, so workshops fill the site's late morning and early afternoon. Nobody needs to travel: the refinery's inspectors work through a written verification list and report back into the model." }
+  ],
+  "sections": [
+    {
+      "id": "cil-complex",
+      "h": "What sits inside the Cilacap refinery",
+      "p": [
+        "KPI lists Refinery Unit IV at Cilacap at 348,000 barrels per day, the largest capacity in the group. Its product list runs from gasoline grades, diesel, jet fuel and LPG to paraxylene and benzene, lube base oil and asphalt, which tells an inspection planner that the site is really several plants sharing utilities, tankage and a marine terminal. Each of those plants has its own inspection history, its own turnaround rhythm and its own dominant damage mechanisms.",
+        "The green refinery work adds another layer. KPI's Green Refinery Cilacap project covers hydrotreated vegetable oil, sustainable aviation fuel and bio-naphtha from used cooking oil, and the refinery shipped its first batch of fuel made with used cooking oil in August 2025 after trials at a low blend share. A separate biorefinery project at Cilacap has been announced with a target of operation in 2029. Units of that kind should enter the RBI register from commissioning, with their baseline data, instead of being added after their first turnaround."
+      ]
+    },
+    {
+      "id": "cil-process-families",
+      "h": "Process families and the mechanisms that drive them",
+      "p": [
+        "The table summarises how the main process families at a complex like Cilacap differ for RBI purposes. Each assignment is confirmed against the actual units, materials and operating data before it goes into the register; the table is a starting map, not a conclusion."
+      ],
+      "table": {
+        "head": ["Process family", "Mechanisms usually examined", "Where the study concentrates"],
+        "rows": [
+          ["Crude and vacuum distillation", "High-temperature sulfidation, naphthenic acid corrosion where the crude slate carries acid, overhead hydrochloric acid and ammonium chloride corrosion", "Transfer lines, furnace outlets and overhead systems, assessed against the crudes actually run rather than the design crude"],
+          ["Hydrotreating, including co-processing", "Wet hydrogen sulfide damage, ammonium bisulfide and ammonium chloride corrosion, and for bio-feeds the water, carbon oxides and acids formed when oxygen is removed", "Reactor effluent trains, air coolers, wash water systems and the feed system upstream of the reactor"],
+          ["Catalytic reforming and aromatics", "Chloride carried over from reforming, high-temperature hydrogen service, and largely mild hydrocarbon service further downstream", "A small number of critical items, with longer risk-based intervals justified across the clean aromatics trains"],
+          ["Lube base oil production", "Corrosion where solvents degrade or pick up water in recovery sections, fouling and high-temperature service in heaters", "Solvent recovery equipment and heater coils, using the plant's own operating history"],
+          ["Asphalt and heavy products", "High-temperature service, heated storage and corrosion beneath heating coils and insulation", "Heated tanks, loading lines and steam tracing"],
+          ["Utilities, cooling water and jetties", "Microbiologically influenced corrosion, fouling, atmospheric and splash-zone corrosion", "Seawater and cooling water circuits, jetty piping and firewater mains"]
+        ]
+      }
+    },
+    {
+      "id": "cil-coprocessing",
+      "h": "Co-processing: treating a feed change as a trigger",
+      "p": [
+        "A company statement reported in October 2026 described the Cilacap green refinery producing about 11 million litres of co-processed aviation fuel in a month in its thermal distillate hydrotreating unit, with used cooking oil allowed up to five percent of the unit's capacity. From an inspection point of view that is a change of feed to an existing unit, and a register built for the old feed does not automatically describe the new one.",
+        "Removing oxygen from triglycerides and fatty acids produces water and carbon oxides in the reactor section, and incomplete conversion can leave organic acids where the equipment was previously dry and free of acid. Used cooking oil can also carry chlorides, phosphorus, metals and other contaminants, depending on how it was collected and pretreated, and their effect on catalyst, deposits and downstream corrosion needs to be measured rather than assumed. The heat released by the reactions differs from conventional hydrotreating too, which can shift temperatures through the reactor and effluent train.",
+        "The study handles this through management of change rather than a single review. Damage mechanisms of the co-processing unit and the equipment downstream are reassessed for the bio-feed case, integrity operating windows are proposed for the variables that drive the new risks, such as feed contaminant levels, wash water rates and effluent temperatures, and any step up in bio-feed share is written in as a reassessment trigger. The same logic will apply to the units at Dumai and Balongan that Pertamina is preparing for co-processing."
+      ],
+      "links": [
+        ["/standards/api-584", "API 584 integrity operating windows"],
+        ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"]
+      ]
+    },
+    {
+      "id": "cil-coast",
+      "h": "The Indian Ocean coast and what it does to steel",
+      "p": [
+        "Cilacap sits on the south coast of Java facing the Indian Ocean, in a wet tropical climate where humidity stays high through the year and the rainy season brings long spells of heavy rain. Onshore winds carry salt over the tank farms and process areas, and the difference between the wetter and drier months is one of rainfall more than of temperature.",
+        "For insulated carbon steel this means insulation that rarely dries once water has got in. The study screens insulated equipment by operating temperature band, insulation and jacketing type and condition, coating age and repair history, and ranks it for corrosion under insulation to API RP 583, with external chloride cracking assessed separately wherever austenitic stainless steel is insulated. Jetty lines, tank roofs and wind girders, pipe rack steel and fireproofed supports are assessed for atmospheric attack, which on this coast can move quickly once a coating has broken down.",
+        "Rain matters to the tank programme as well. Floating roofs have to shed large volumes of water through their drains, and drain failures, pontoon leaks and seal damage are findings that a tank RBI model should be able to take in as reassessment triggers instead of waiting for the next scheduled review."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "cil-tanks",
+      "h": "Tank farms and the marine terminal",
+      "p": [
+        "Crude receipts, intermediates, finished fuels, aromatics and lube products all need storage, so the refinery's tank population is large and mixed. Atmospheric tanks for hydrocarbon fluids are one of the equipment classes the Migas regulation names for inspection, and API 653 allows the internal inspection interval to be set by an RBI assessment that is validated and reviewed at least every ten years. That gives the site a defensible way to stagger out-of-service inspections instead of taking whole groups of tanks out at once.",
+        "Probability on a Cilacap tank floor is driven by the soil-side condition, the effectiveness of cathodic protection and any release prevention barrier, product-side corrosion where water settles, and the quality and coverage of previous floor scans. Consequence is not uniform either. A benzene or paraxylene tank carries a toxic and environmental consequence that a lube base oil tank does not, and the consequence ratings should reflect the product, the tank's position relative to the shoreline and drainage, and the containment around it.",
+        "Jetty and transfer piping between the marine terminal and the tank farms tends to fall between the process unit programme and the tank programme. The study gives it an owner in the register, with its own corrosion loops for marine exposure, dead legs and sections that sit full of stagnant product between movements."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/standards/api-653", "API 653 explained"]
+      ]
+    },
+    {
+      "id": "cil-rules",
+      "h": "Rules the Cilacap programme answers to",
+      "p": [
+        "The refinery's oil and gas equipment comes under Permen ESDM 32/2021, which accepts periodic inspection intervals based on a risk analysis and ties the length of each operating approval to how the interval was set. For a risk-based interval the approval follows remaining service life, which is why the study puts real effort into corrosion rates and thickness data for the vessels and tanks with the shortest remaining life. Recommendations in an issued risk analysis must be carried out, so the plan names only techniques and coverage that the refinery and its inspection company can actually deliver.",
+        "Pressure vessels and tanks are also within the scope of the manpower ministry's occupational safety regulation, and the refinery's own procedures sit on top of both. The register carries a column for the governing regime and any statutory date against each item, so the risk-based plan never appears to override an examination that the law fixes."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"]
+      ]
+    },
+    {
+      "id": "cil-study",
+      "h": "Running a remote study for a complex this size",
+      "p": [
+        "A refinery with this many process families is rarely assessed in one pass. The usual approach is to phase the study by process area in the order of the turnaround calendar, so that each area's plan is ready before its next shutdown scope is frozen, and to build corrosion loops and damage mechanism logic in the first area that carry over to the rest. Shared systems such as flare, fuel gas, cooling water and the tank farms can run as a phase of their own.",
+        "Cilacap keeps Western Indonesia Time, UTC+7. Workshops are booked in the refinery's late morning and early afternoon, which falls in the Hyderabad morning, and the Houston team, twelve or thirteen hours behind Cilacap, picks up calculations and drafting while the site is closed. Documents arrive through a data room the refinery controls, reports written in Bahasa Indonesia are summarised under an arrangement agreed with the site engineers, and no part of the study depends on travel.",
+        "Field verification goes on a written list for the refinery's inspectors or the inspection company the Kepala Teknik appoints: insulation and jacketing condition on the items ranked highest for CUI, the location and condition of injection and mix points, the state of tank annular plates and chimes, and any dead legs the drawings show but the plant may since have removed. Their findings return to the register before the plan is issued."
+      ]
+    },
+    {
+      "id": "cil-scopes",
+      "h": "Where Cilacap studies usually start",
+      "p": ["Requests for this complex tend to take one of these shapes."],
+      "list": [
+        "A damage mechanism review and RBI update for the co-processing hydrotreater and everything downstream of it.",
+        "A risk-based tank programme that staggers out-of-service inspections across crude, product and aromatics tankage.",
+        "A remaining life review for vessels whose operating approval is coming up for renewal.",
+        "CUI ranking with an insulation removal and screening plan, taken one process area at a time.",
+        "Corrosion loops and inspection plans for the lube base oil plant, built from its own operating history.",
+        "A baseline register for new green refinery or biorefinery units as they are commissioned."
+      ]
+    },
+    {
+      "id": "cil-approval",
+      "h": "Decisions that stay with the refinery",
+      "p": [
+        "The intervals in the plan become binding only when the refinery's organisation under its Kepala Teknik adopts them and the inspection authority on site approves them. Atlantis builds and documents the study and recommends; it does not act as inspector of record and holds no approval as an inspection company under the Migas regulation.",
+        "When an inspection turns up damage that the construction code does not accept, the engineering assessment that follows belongs to the refinery's engineers, and the register takes up the outcome before the next interval is set."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "Permen ESDM 32/2021 (technical inspection and safety examination of oil and gas installations)",
+    "Minister of Manpower Regulation No. 37 of 2016 (pressure vessels and storage tanks)"
+  ],
+  "deliverables": [
+    "RBI register grouped by process family, with damage mechanisms, probability, consequence and risk for every item",
+    "Bio-feed case reassessment for the co-processing unit, with proposed integrity operating windows",
+    "Tank-by-tank risk ranking and an out-of-service inspection schedule",
+    "Remaining life review for items with short or uncertain remaining life",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Verification list for the refinery's inspectors and a data-gap log"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Aromatics and petrochemicals",
+    "Lube base oil production",
+    "Renewable fuels co-processing",
+    "Refinery tank farms and marine terminals"
+  ],
+  "faqs": [
+    { "q": "Can RBI cover the whole Cilacap complex, or only some units?", "a": "Either. Most sites phase it by process area, starting where the next turnaround scope has to be set or where the data are strongest, and extend the register unit by unit. Corrosion loops, damage mechanism logic and the register structure are built once and reused, so each later phase builds on the first and the whole complex ends up in one consistent model rather than several incompatible ones." },
+    { "q": "How does co-processing used cooking oil change the RBI for the hydrotreater?", "a": "It changes the chemistry the equipment sees. Oxygen removed from the bio-feed forms water and carbon oxides, incomplete conversion can leave organic acids, and contaminants in the oil can add chlorides and deposits. The unit and its downstream equipment are reassessed for the bio-feed case, operating windows are proposed for the variables that matter, and any increase in bio-feed share becomes a trigger for reassessment." },
+    { "q": "Are the aromatics tanks treated differently from fuel tanks?", "a": "In consequence, yes. Benzene and paraxylene carry toxic and environmental consequences that a fuel oil or lube base oil tank does not, so the same floor condition can sit in a different risk band. Probability is assessed the same way for every tank, from floor scan history, cathodic protection, product-side corrosion and any release prevention barrier, within API 653's conditions for risk-based internal intervals." },
+    { "q": "Does the Migas regulation accept a risk-based interval for refinery vessels?", "a": "Permen ESDM 32/2021 allows periodic inspection to be scheduled from a risk analysis instead of a fixed period. The operating approval then runs while the remaining service life holds, and for half of it once less than eight years remain. The study supplies the risk analysis content and remaining life basis for the refinery to adopt, organised to the Migas mechanism the site works to." },
+    { "q": "Will the coastal climate shorten intervals across the board?", "a": "Not across the board. It raises the probability of external damage on particular populations: insulated lines in the temperature range where CUI is most active, coated steel near the shore where coatings have failed, and floating roofs and drains under heavy rain. The study ranks those populations and targets them, which usually lets sheltered, uninsulated or mildly exposed equipment keep longer intervals." },
+    { "q": "Does anyone from Atlantis need to come to Cilacap?", "a": "No travel is needed for the study. Data review and workshops run remotely, and the checks that need eyes on the plant, from insulation condition to tank annular plates, are written into a verification list for the refinery's inspectors or its appointed inspection company. Their findings return to the model before the plan is finalised." },
+    { "q": "Can you work from our existing RBI register or software exports?", "a": "Yes. Most refineries already hold a register, a spreadsheet model or exports from commercial RBI software. The study starts from those, checks the damage mechanism basis and the inspection effectiveness credited, updates what has changed, and returns results in the same structure so they load back into the refinery's own system without rework." },
+    { "q": "Who signs off the inspection intervals?", "a": "The refinery's inspection authority, within the organisation headed by its Kepala Teknik, and inside the Migas approval process for equipment under a PLO. The study shows the basis for each interval, the inspection effectiveness credited and the triggers that would reopen it, so the decision can be defended to a Migas inspector or an auditor." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"],
+    ["/inspection/risk-based-inspection/balikpapan", "RBI in Balikpapan"],
+    ["/inspection/risk-based-inspection/dumai", "RBI in Dumai and Sungai Pakning"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/inspection/turnarounds-shutdowns", "Turnarounds and shutdowns"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "RU IV Cilacap 348,000 bpd, largest in KPI's list; products include Pertalite, Pertamax, Solar, Pertadex, Avtur, LPG, paraxylene, benzene, lube base oil, asphalt; Green Refinery Cilacap project (HVO, SAF, bionaphtha from UCO)", "url": "https://kpi.pertamina.com/en/profil-perusahaan/bisnis-kami" },
+    { "fact": "Cilacap green refinery produced about 11 million litres of co-processed SAF in October 2026 in its thermal distillate hydrotreating unit; UCO up to 5% of unit capacity; first UCO-derived batch shipped August 2025 after trials at 3%; Dumai and Balongan being prepared for co-processing", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/102826-pertamina-produces-11-mil-liters-co-processed-saf-ahead-2027-mandate" },
+    { "fact": "Biorefinery Cilacap project targeted to operate in 2029", "url": "https://katadata.co.id/berita/energi/6aa338c250f04/pertamina-targetkan-proyek-biorefinery-cilacap-rp19-triliun-beroperasi-2029" },
+    { "fact": "Cilacap as the largest contributor to Pertamina's fuel output", "url": "https://finance.detik.com/foto-bisnis/d-8081778/intip-kilang-minyak-di-cilacap-kontributor-terbesar-bbm-pertamina?zoom=1" },
+    { "fact": "Permen ESDM 32/2021: periodic inspection by fixed period or risk analysis; PLO validity tied to remaining service life; recommendations of a risk analysis must be implemented; atmospheric hydrocarbon tanks among equipment classes", "url": "https://peraturan.bpk.go.id/Download/261051/Permen%20ESDM%20No.%2032%20Tahun%202021.pdf" },
+    { "fact": "Permenaker 37/2016 covers pressure vessels and storage tanks", "url": "https://pasal.id/peraturan/permen/permenaker-no-37-tahun-2016" }
+  ]
+}

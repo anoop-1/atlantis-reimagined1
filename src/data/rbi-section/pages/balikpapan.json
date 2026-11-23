@@ -1,0 +1,175 @@
+{
+  "title": "RBI in Balikpapan: RDMP Refinery and Lawe-Lawe Tanks",
+  "description": "Remote RBI for the expanded Balikpapan refinery: baselining RDMP units beside older plant, the Lawe-Lawe crude tanks, coastal exposure and PLO dates.",
+  "h1": "Risk-based inspection for Balikpapan after the refinery development master plan",
+  "eyebrow": "Risk-based inspection in Balikpapan",
+  "intro": "The Balikpapan refinery has just come through what was described as Indonesia's largest refinery development project. The expansion inaugurated in January 2026 added a new crude unit, a residue fluid catalytic cracker, a single point mooring and two very large crude tanks at Lawe-Lawe, and it is designed to lift capacity from 260,000 to 360,000 barrels per day. This page is for the inspection and integrity engineers who now plan inspection across new and old plant together. It explains why commissioning is the moment to set an RBI baseline, where the tie-ins carry risk, what the East Kalimantan coast does to equipment, and how Atlantis runs the study remotely.",
+  "highlights": [
+    { "h": "Baseline at start-up", "p": "New units arrive with as-built thickness data, material certificates and manufacturer's records that will never be easier to collect. The study builds them into the register from day one, so the first risk-based intervals rest on measured starting points rather than nominal ones." },
+    { "h": "Old and new in one register", "p": "Existing units now run alongside, feed or receive from the new plant, often at different rates and conditions. Every tie-in and every changed operating window is treated as a point where the old register may no longer describe the equipment." },
+    { "h": "Central Indonesia Time", "p": "Balikpapan keeps WITA, UTC+8, two and a half hours ahead of Hyderabad. Workshops sit in the site's late morning and afternoon, and field checks go on a written list for the refinery's own inspectors, so the study needs no travel." }
+  ],
+  "sections": [
+    {
+      "id": "bpn-site",
+      "h": "A refinery with a long past and a new core",
+      "p": [
+        "Refining at Balikpapan goes back about a century, and the site is now run by PT Kilang Pertamina Balikpapan, a company established in 2019 and owned by KPI to carry out the development project and operate Refinery Unit V. President Prabowo Subianto inaugurated the expansion on 12 January 2026. The project centres on a new crude distillation unit and a residue fluid catalytic cracking unit, and it was designed to raise capacity from 260,000 to 360,000 barrels per day while bringing the refinery's fuels to Euro V quality.",
+        "Around the process units the project added a single point mooring for large crude carriers, a 78-kilometre gas pipeline from Senipah to Balikpapan, the Tanjung Batu fuel terminal to supply eastern Indonesia, and two crude storage tanks of a million barrels each at Lawe-Lawe. For inspection planning, that means a site where equipment from several generations now operates as one system, with one set of crude receipts, one utility network and one turnaround calendar to coordinate."
+      ]
+    },
+    {
+      "id": "bpn-baseline",
+      "h": "Commissioning is when an RBI baseline is easiest to set",
+      "p": [
+        "For new equipment, the inputs an RBI study needs are at their most complete during handover: design data, manufacturer's data reports, material test certificates, positive material identification records, coating and insulation specifications, hydrotest records and baseline thickness surveys taken before or soon after start-up. A few years later much of that has been archived, scattered between contractors or lost, and the first inspection has to reconstruct what could have been recorded once.",
+        "The study turns the handover package into a register while it is still intact. Baseline thickness readings at the locations future surveys will repeat give real corrosion rates from the first follow-up survey, instead of rates inferred from nominal thickness. Damage mechanisms are assigned from the design and the actual operating conditions of the first months, and the first inspection of each item is planned to look for early-life problems, such as fabrication flaws, material mix-ups and unexpected corrosion at start-up, before longer risk-based intervals take over.",
+        "The table shows how the study treats the three kinds of equipment a site in this position contains."
+      ],
+      "table": {
+        "head": ["Equipment group", "What the register starts from", "What the first plan emphasises"],
+        "rows": [
+          ["New RDMP units and offsites", "As-built data, material certificates, baseline thickness and the first months of operating data", "Early-life inspection to confirm the baseline, then intervals that lengthen as measured corrosion rates confirm low risk"],
+          ["Existing units modified or tied in", "The existing register, reopened for every change in feed, throughput, temperature or pressure", "Tie-in points, changed circuits and items whose damage mechanisms the new operating conditions could alter"],
+          ["Existing units left as they were", "The existing register and inspection history, graded for effectiveness", "A revalidation of the model and its corrosion rates, changed only where the data show a reason"]
+        ]
+      }
+    },
+    {
+      "id": "bpn-tie-ins",
+      "h": "Tie-ins, changed rates and changed windows",
+      "p": [
+        "The riskiest places in an expanded refinery are often not inside the new units but where new meets old: the tie-in welds, existing lines now carrying different flows, exchangers running at new duties and older vessels that receive streams of a different composition. A register written for the refinery as it ran before the expansion may assign the right mechanisms to the wrong conditions.",
+        "The Migas regulation makes a related point in its own terms. It requires design review for installations that are built or changed, and it counts a capacity change of ten percent or more of the original design, a change of material or a change of process function as a change. The same events should reopen the risk analysis behind inspection intervals. The study lists every modified circuit and item, checks its operating window against the new heat and material balances, and re-ranks it where the mechanism or the rate has moved.",
+        "Integrity operating windows deserve particular attention in the first years after start-up, while operators are still learning how the new units behave. Limits on variables such as overhead temperatures, wash water rates, chloride levels and catalyst carry-over are written into the plan, so that an exceedance triggers a review instead of slipping into the history unnoticed."
+      ],
+      "links": [
+        ["/standards/api-584", "API 584 integrity operating windows"],
+        ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"]
+      ]
+    },
+    {
+      "id": "bpn-units",
+      "h": "Mechanisms in the new crude and cracking units",
+      "p": [
+        "A new crude distillation unit carries the familiar refinery set: high-temperature sulfidation in the hot sections, naphthenic acid corrosion where the crude slate brings acid, and overhead corrosion from hydrochloric acid and ammonium chloride. All of these depend on the crudes the single point mooring will bring in rather than on one design crude, and desalter performance and overhead chemistry control are where an assessment of such a unit gains or loses most of its confidence.",
+        "A residue fluid catalytic cracker brings a different list. The reactor, regenerator, cyclones and transfer lines see erosion by catalyst, refractory damage, thermal fatigue and high-temperature degradation of materials, and austenitic stainless components face polythionic acid stress corrosion cracking when exposed to air and moisture during shutdowns unless they are protected. Downstream, the main fractionator overhead and the gas concentration section are known for wet hydrogen sulfide damage, ammonium bisulfide corrosion and carbonate stress corrosion cracking, none of which an external visual examination will find; the plan has to name techniques that can.",
+        "Many of these mechanisms are slow to show and quick to matter. The plan for the first operating cycle therefore relies on technique and coverage more than on interval length, and it records what each inspection found, even when it found nothing, so later reassessments can credit that inspection properly."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+        ["/standards/api-571", "API 571 damage mechanisms"]
+      ]
+    },
+    {
+      "id": "bpn-lawe-lawe",
+      "h": "The Lawe-Lawe crude tanks and the marine receipt",
+      "p": [
+        "The two new crude tanks at Lawe-Lawe hold a million barrels each, so taking one out of service removes a large share of the refinery's crude buffer. That makes them strong candidates for a risk-based internal inspection interval under API 653, which in its current edition lets the interval be set by an RBI assessment that is validated and reviewed at least every ten years.",
+        "New tanks give the assessment a clean start. Construction records, the foundation design and settlement monitoring, the bottom plate and coating specifications, any release prevention barrier and leak detection, and the commissioning records of the cathodic protection system define the soil-side picture, while the crude slate and water handling define the product side. Early settlement surveys matter on a new pad, because uneven settlement in the first years loads the shell-to-bottom junction and changes how water drains.",
+        "The single point mooring and the lines that bring crude ashore sit outside the tank programme but feed the same risk picture, since a crude with more water, salt or sediment changes product-side corrosion in the tanks and corrosion in the crude unit alike. The study connects them through shared assumptions about crude quality instead of assessing each in isolation."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+        ["/standards/api-653", "API 653 explained"]
+      ]
+    },
+    {
+      "id": "bpn-climate",
+      "h": "The East Kalimantan coast",
+      "p": [
+        "Balikpapan lies on the east coast of Borneo, just south of the equator, with rain spread across the year and high humidity throughout. The refinery and its tank farms sit beside Balikpapan Bay, where salt-laden air reaches pipe racks, jetty lines and tank roofs. That combination keeps corrosion under insulation and coating breakdown at the top of the external damage list, with chloride cracking to be considered wherever stainless steel is insulated.",
+        "New plant does not escape this. Insulation systems fail at penetrations, supports and damaged jacketing from the first year, and coatings applied in a humid climate can underperform if surface preparation or curing conditions were poor. The study therefore gives new insulated equipment a CUI ranking from the start, based on operating temperature and the insulation and coating systems actually installed, rather than assuming that new means sound for a decade."
+      ],
+      "links": [
+        ["/standards/api-583", "API 583 and corrosion under insulation"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "bpn-plo",
+      "h": "Operating approvals for a plant in transition",
+      "p": [
+        "Under Permen ESDM 32/2021 each installation needs a PLO after technical inspection, and where intervals are set by risk analysis, the approval runs while the remaining service life holds, falling to half the remaining life when less than eight years are left. New units with measured baseline thickness and low early corrosion rates will show long remaining lives; units that have run for decades may not. Putting both into one register makes it clear which items will drive the next renewal cycle.",
+        "Each item receives a remaining life with the data and assumptions behind it, items whose remaining life is short or uncertain are flagged, and the study states which data would firm the figure up. For new equipment it avoids projecting a remaining life from a single baseline reading; the figure becomes credible only once a second survey gives a measured rate, and until then the plan says so plainly."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"]
+      ]
+    },
+    {
+      "id": "bpn-study",
+      "h": "Running the study remotely on Central Indonesia Time",
+      "p": [
+        "Balikpapan works on WITA, UTC+8, two and a half hours ahead of Hyderabad and thirteen or fourteen hours ahead of Houston depending on the US season. Workshops are held in the refinery's late morning and afternoon, which is the Indian morning and early afternoon, and work continues in Houston overnight. The data request for an expanded site has two parts: the handover and commissioning records of the new units, often still held by the project organisation and its contractors, and the inspection history of the existing plant.",
+        "Workshops bring the project team's knowledge of the new units together with the operators and inspectors who know the old ones, often the first time those groups have worked through the same equipment list. Field checks, including baseline survey locations, insulation condition, tie-in points and tank settlement readings, go on a written list for the refinery's inspectors or the inspection company appointed by its Kepala Teknik. The study needs no travel, and their results are folded into the register before the plan is issued."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"]
+      ]
+    },
+    {
+      "id": "bpn-approval",
+      "h": "Approval and boundaries",
+      "p": [
+        "The refinery's inspection authority, within the organisation headed by its Kepala Teknik, approves the intervals the study recommends, and equipment under a PLO stays within the Migas approval process. Atlantis prepares the study; it does not act as inspector of record, holds no inspection company approval under the Migas regulation and does not issue technical inspection certificates.",
+        "Where inspection finds damage outside what the construction code accepts, the assessment that follows is made by the refinery's own engineers, because Atlantis does not perform fitness-for-service assessments. The register is then updated with the outcome."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "Permen ESDM 32/2021 (technical inspection and safety examination of oil and gas installations)"
+  ],
+  "deliverables": [
+    "Baseline RBI register for the new units, built from handover and commissioning records",
+    "Tie-in and modified-circuit review with re-ranked items",
+    "Integrity operating windows for the first operating cycle of the new units",
+    "Risk-based internal inspection basis for the Lawe-Lawe crude tanks",
+    "Remaining life review across new and existing equipment, with short or uncertain items flagged",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Data-gap log and verification list for the refinery's inspectors"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Fluid catalytic cracking",
+    "Crude receipt and storage",
+    "Fuel terminals",
+    "Refinery expansion projects"
+  ],
+  "faqs": [
+    { "q": "When should RBI start for the new RDMP units?", "a": "At handover, while the as-built data, material certificates and baseline thickness surveys are complete and easy to find. Building the register then means the first inspections are planned to confirm the baseline and catch early-life problems, and later intervals rest on measured corrosion rates. Waiting until the first turnaround usually means reconstructing records that were sitting in the handover package at start-up." },
+    { "q": "Do the older units need a full new study because of the expansion?", "a": "Not necessarily. Units left unchanged need a revalidation of their model, corrosion rates and inspection effectiveness. Units that were tied in, modified or now run at different rates or conditions need a closer look, because the mechanisms or rates in the old register may no longer hold. The study separates the two groups so that effort goes where something has actually changed." },
+    { "q": "Can the Lawe-Lawe tanks go straight to a risk-based internal inspection interval?", "a": "API 653 allows the internal interval to be set by RBI under its conditions, including validation and a review at least every ten years. For new tanks the assessment rests on construction and foundation records, cathodic protection commissioning, any release prevention barrier and the expected crude quality. The first interval is usually set cautiously until settlement and early corrosion data confirm the assumptions, and the refinery's tank inspector approves it." },
+    { "q": "Which mechanisms matter most in the new residue cracker?", "a": "Catalyst erosion, refractory damage, thermal fatigue and high-temperature material degradation in the reactor and regenerator circuit; polythionic acid cracking of austenitic stainless parts during shutdowns; and wet hydrogen sulfide damage, ammonium bisulfide corrosion and carbonate cracking in the fractionator overhead and gas concentration section. Each is confirmed against the unit's materials and operating data, and the plan names techniques able to find it." },
+    { "q": "How does the expansion affect our PLO renewals?", "a": "Where intervals are risk-based, each PLO follows remaining service life, and runs for half of it once under eight years remain. New units with measured baselines will usually show long remaining lives; older units may not. The study gives every item a remaining life with its basis, flags short or uncertain ones and states what data would firm them up, so renewals can be planned rather than discovered." },
+    { "q": "Our commissioning documents are still with the EPC contractors. Is that a problem?", "a": "It is common, and the data request is written with it in mind. The study lists which handover records it needs for each item, the refinery collects them from the project organisation, and anything that cannot be found is logged with an agreed assumption. Gathering those records while the project team is still in place is far easier than chasing them after it disperses." },
+    { "q": "Does the study involve travel to Balikpapan?", "a": "No. The study is built to run remotely through a data room and video workshops. Anything that needs eyes on the equipment, such as baseline survey locations, insulation condition, tie-in welds or tank settlement readings, goes on a verification list for the refinery's inspectors or its appointed inspection company, and their findings are fed into the register before it is issued." },
+    { "q": "Who approves the intervals for the new units?", "a": "The refinery's inspection authority, under the organisation headed by its Kepala Teknik, and within the Migas process for equipment under a PLO. The study documents the basis for each interval, the inspection effectiveness assumed and the reassessment triggers, so the decision is traceable to data that a Migas inspector or an auditor can follow." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/indonesia", "RBI in Indonesia"],
+    ["/inspection/risk-based-inspection/cilacap", "RBI in Cilacap"],
+    ["/inspection/risk-based-inspection/dumai", "RBI in Dumai and Sungai Pakning"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/standards/api-580", "API 580 explained"],
+    ["/inspection/turnarounds-shutdowns", "Turnarounds and shutdowns"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    { "fact": "RDMP Balikpapan inaugurated 12 January 2026 by President Prabowo Subianto; capacity planned to rise from 260,000 to 360,000 bpd; described as the largest RDMP project in Indonesia; CDU and RFCC as main facilities; SPM for large crude carriers; 78 km Senipah-Balikpapan gas pipeline; Tanjung Batu Fuel Terminal for eastern Indonesia; two Lawe-Lawe crude tanks of 1 million bbl each; Euro V products", "url": "https://www.hydrocarbonengineering.com/refining/14012026/indonesia-inaugurates-balikpapan-refinery" },
+    { "fact": "PT Kilang Pertamina Balikpapan founded 7 May 2019, 99.997% owned by KPI, set up to carry out the RDMP and run Refinery Unit V; RDMP Balikpapan and Lawe-Lawe, 260 to 360 kbpd, Euro V", "url": "https://kpb.pertamina.com/en/about-us" },
+    { "fact": "Balikpapan refinery about 100 years old", "url": "https://finance.detik.com/energi/d-5889589/kilang-balikpapan-sudah-100-tahun-kini-dibenahi-biar-tokcer/2" },
+    { "fact": "RU V Balikpapan 260,000 bpd rising to 360,000 under RDMP (KPI)", "url": "https://kpi.pertamina.com/en/profil-perusahaan/bisnis-kami" },
+    { "fact": "Permen ESDM 32/2021: design review required for new or changed installations, change defined as capacity change of at least 10% of design, change of material or of process function (Pasal 8); PLO validity rules (Pasal 23)", "url": "https://peraturan.bpk.go.id/Download/261051/Permen%20ESDM%20No.%2032%20Tahun%202021.pdf" }
+  ]
+}
