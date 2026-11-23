@@ -1,0 +1,155 @@
+{
+  "title": "Structural Steel and Bridge NDT Report Review: D1.1, D1.5",
+  "description": "Independent review of UT, MT and VT reports on building and bridge welds to AWS D1.1 and AASHTO/AWS D1.5, including nonredundant steel tension members.",
+  "h1": "Independent review of structural steel and bridge weld inspection reports",
+  "eyebrow": "Structural and bridge report review",
+  "intro": "On a steel building or a bridge, an NDT report decides whether a connection is accepted, repaired or argued over, and the argument usually arrives once the steel is already erected. Fabricators answering a rejection, erectors, general contractors, engineers of record and bridge owners ask for an independent reading of ultrasonic, magnetic particle and visual reports and the digital inspection data behind them. We test each record against AWS D1.1, AASHTO/AWS D1.5, AISC 360 and the project specification, and we say in writing what it proves. Atlantis is not a special inspection agency: this is a remote document review, separate from the special inspections the building code requires.",
+  "highlights": [
+    { "h": "Separate from special inspection", "p": "The building official's approved agency performs special inspections. Our opinion is independent of that role and is written to help the parties understand, and resolve, what a report actually says." },
+    { "h": "The code's own UT method, recomputed", "p": "D1.1 and D1.5 prescribe how ultrasonic indications are rated and accepted. The review recomputes ratings from the recorded values and confirms the acceptance table suits the weld's loading." },
+    { "h": "Bridge steel read with current guidance", "p": "Nonredundant tension members, phased array under D1.5 and the acoustic behaviour of modern plate all affect what a bridge UT report can prove, and the review accounts for each." }
+  ],
+  "sections": [
+    {
+      "h": "Who asks for a structural report review, and why it comes late",
+      "p": [
+        "Structural disputes tend to surface after the fact. A QA inspector rejects a run of complete-joint-penetration welds after erection, the fabricator believes the rejection used the wrong acceptance table, and the schedule depends on who is right. A bridge owner receives a fabricator's UT reports on girder flange splices and wants confidence before acceptance. An engineer of record sees a field report that contradicts the shop report for the same joint. Each situation calls for a reading of the record by someone with no interest in the outcome."
+      ],
+      "list": [
+        "Fabricators and erectors answering a QA rejection, a repair order or a back-charge",
+        "General contractors and construction managers caught between two inspection reports that disagree",
+        "Engineers of record who want an independent check before accepting a repair or a deviation",
+        "State and local bridge owners reviewing fabrication or in-service NDT records on steel bridges",
+        "Owners, insurers and counsel assembling the inspection record after a dispute",
+        "Steel buyers checking a supplier's weld inspection records before shipment or payment"
+      ]
+    },
+    {
+      "h": "How the building code, AISC 360 and D1.1 connect",
+      "p": [
+        "For buildings, the International Building Code sends structural steel special inspection and nondestructive testing to AISC 360, and AISC 360 Chapter N divides the work into quality control by the fabricator or erector and quality assurance by someone else. Welding itself is governed by AWS D1.1, whose current edition is D1.1/D1.1M:2025, and seismic force-resisting systems pick up additional inspection and testing from AISC 341.",
+        "Chapter N makes ultrasonic testing of complete-joint-penetration groove welds in tension-loaded joints mandatory in many structures, with the extent set by risk category and material thickness: all such welds in material five-sixteenths of an inch or thicker in Risk Category III and IV buildings, and a ten percent sample in Risk Category II. A fabricator the building official has approved may perform its own NDT, in which case the QA agency reviews the fabricator's reports instead of repeating the testing. Either way the reports become the basis of acceptance, and their quality decides whether that acceptance holds up."
+      ],
+      "table": {
+        "head": ["Document", "What it controls", "What the reviewer checks on the report"],
+        "rows": [
+          ["The building code's special inspection chapter", "Which inspections and tests are required and which approved agency performs them", "That the report comes from the party the statement of special inspections assigns, and covers the items listed there"],
+          ["AISC 360 Chapter N", "QC and QA roles, inspection tasks, NDT extent by risk category and thickness, and reporting", "Whether the NDT extent matched the risk category and whether QC and QA records can be told apart"],
+          ["AISC 341", "Additional inspection and testing for seismic force-resisting systems", "Whether demand-critical welds received the extra examination the project required"],
+          ["AWS D1.1", "Welding, visual acceptance, UT technique, indication rating and acceptance criteria", "Indication ratings, the acceptance table for the loading, scanning coverage and the content the code requires in a UT report"],
+          ["Project specification", "Owner additions such as a higher NDT percentage or phased array in place of conventional UT", "That the report applied the specification wherever it is stricter than the code"]
+        ]
+      }
+    },
+    {
+      "h": "Ultrasonic testing of CJP groove welds under D1.1",
+      "p": [
+        "D1.1 uses its own ultrasonic method. The technician sets a reference level on the code's calibration block, measures each indication's level, applies an attenuation correction for sound path and records an indication rating, written as a minus b minus c equals d. That rating is compared with an acceptance table chosen by the weld's loading and by the thickness and angle used. Because every element of the rating is written down, an independent reviewer can recompute it, and many disputes can be settled by doing exactly that.",
+        "The review checks the transducer angle against the thickness range, the scanning patterns, the attenuation factor, the indication length measurement, the table applied for statically or cyclically loaded connections, and whether tension-loaded welds were assessed against the stricter criteria. It also checks the report against what the code expects a UT report to contain, including clear identification of the area examined and of each rejected indication.",
+        "Where phased array has replaced the code's conventional technique, the review asks whether the contract documents and the code edition permit it, whether a written procedure supports it, and whether the people who acquired and evaluated the data were qualified for phased array rather than for conventional UT alone."
+      ]
+    },
+    {
+      "h": "Bridges: D1.5, nonredundant members and phased array",
+      "p": [
+        "Steel bridges are welded under AASHTO/AWS D1.5, whose 2025 edition is current, with the owner's specifications layered on top. Members whose failure could bring down a span were long called fracture critical; the National Bridge Inspection Standards rule that took effect in June 2022 renamed them nonredundant steel tension members. Fabricating such members brings in the bridge welding code's fracture control plan, and in service they receive hands-on inspections, typically every twenty-four months, with NDT used wherever the inspector needs it.",
+        "D1.5 includes a phased array annex with its own reference levels and indication classes, so a PAUT report on a bridge weld has to show more than an impressive sectorial image: the scan plan, how the reference level was set, the class assigned to each indication and the encoded data that support it.",
+        "In December 2024 the FHWA issued a memorandum on acoustic dissimilarity and anisotropy in bridge steel. Shear wave velocity in some plate, particularly thermo-mechanically controlled processed steel, differs from the velocity in the calibration block or varies with rolling direction, which can mislocate indications and underrate them at higher angles. The memorandum offers supplemental contract provisions that measure a velocity ratio and restrict the test angle when the ratio falls outside set bounds. Where an owner has adopted those provisions, the review checks that the measurements were made and recorded and that the angle limits were respected."
+      ]
+    },
+    {
+      "h": "Magnetic particle and visual reports on structural welds",
+      "p": [
+        "Visual examination is the acceptance foundation for every structural weld, and most rejections are visual: undercut, profile, fillet size, porosity, cracks and arc strikes. The 2025 edition of D1.5 revised its undercut tolerances and treatments, which matters when a bridge report quotes an older table. A visual report should identify the weld, the acceptance criteria and the gauges used, and photographs should be tied to piece marks instead of being left as an unlabelled set.",
+        "Magnetic particle reports on structural steel usually describe yoke technique on fillet and groove welds, root passes or repaired excavations. The review checks the magnetising technique and field direction, the lifting power check, the particle type and lighting, and whether indications were evaluated against the code's criteria for that weld. Penetrant testing appears less often on carbon steel and is reviewed the same way when it does."
+      ]
+    },
+    {
+      "h": "Who signed the report: qualifications on structural projects",
+      "p": [
+        "Structural projects mix several qualification systems, and reports are often signed by the right kind of person for the wrong task. AISC 360 sets welding inspector qualifications for QC and QA by reference to the inspector levels in AWS B5.1. NDT personnel are normally certified to ASNT SNT-TC-1A or ANSI/ASNT CP-189 under the employer's written practice, and many specifications also ask UT technicians to pass a practical performance test such as the one AWS D1.8 describes, often administered by an examiner independent of the employer.",
+        "Ultrasonic, magnetic particle, visual, radiographic and penetrant records on steel projects are reviewed under the direction of an ASNT NDT Level III who holds all five of those methods, working with colleagues from nuclear, maritime, oil and gas and petrochemical backgrounds."
+      ],
+      "table": {
+        "head": ["Role on the report", "What is normally required", "What the record should show"],
+        "rows": [
+          ["UT technician", "Level II in UT under the employer's written practice, plus any performance test the project specifies", "A certificate covering the date of work, a current vision examination and the performance test result where required"],
+          ["PAUT technician", "UT certification plus phased array training, experience and a practical examination", "Phased array scope on the certificate, not conventional UT alone"],
+          ["MT technician", "Level II in MT, or Level I working under a Level II who evaluates", "Who interpreted each indication and who signed the evaluation"],
+          ["QC or QA welding inspector", "The welding inspector qualification AISC 360 sets for that role", "Which party the inspector worked for, so QC and QA records are not confused"],
+          ["NDT Level III", "Approval of NDT procedures and of the written practice", "Procedure approval signatures dated before the work began"]
+        ]
+      }
+    },
+    {
+      "h": "Where structural reports most often fail review",
+      "p": [
+        "None of these patterns is exotic, and each is enough on its own to make an acceptance or a rejection hard to defend."
+      ],
+      "list": [
+        "An acceptance table for statically loaded connections applied to a cyclically loaded or tension-critical weld",
+        "Indication ratings recorded without the attenuation factor, or with a sound path that does not fit the angle and thickness",
+        "Welds identified only by gridline or floor, so the rejected joint cannot be found again on the shop drawings",
+        "Field reports and shop reports for the same joint using different identification schemes",
+        "Phased array results presented as images without the scan plan, reference level or indication classification",
+        "Repaired welds accepted with no record of re-examination along the full repair length",
+        "Certificates covering conventional UT presented for phased array work, or vision examinations that lapsed before the work date"
+      ]
+    },
+    {
+      "h": "Digital records on steel projects",
+      "p": [
+        "Steel projects now generate digital inspection records at every stage: tablet-based visual and UT reports keyed to piece marks, weld maps linked to shop drawings, encoded phased array files on bridge welds, location-tagged photographs, and punch lists kept in project management software. Digital reporting can make traceability far better than a paper log, provided the identifiers in the inspection app match those on the drawings and on the erected steel.",
+        "The review follows each rejected or disputed weld from the digital record back to the drawing and forward to its repair and re-examination. It checks whether report revisions are visible, whether electronic signatures belong to the person whose qualification is claimed, and whether the export that reached the engineer of record contains every attachment the inspection system holds."
+      ]
+    },
+    {
+      "h": "How a structural review runs remotely",
+      "p": [
+        "Reviewing a record never requires a site visit. You send the reports, the drawings that locate the welds, the procedures and personnel records, the project specification and any phased array files through a secure transfer. The reviewer works through the record, returns questions the documents cannot answer, and issues a written opinion that finds the record sound, deficient in documentation only, or deficient in disposition.",
+        "If the record cannot settle the question, for instance where the original UT left no way to recompute a rating, the opinion says so and describes what re-examination would resolve it. The parties can then agree on that scope before anyone mobilises."
+      ]
+    },
+    {
+      "h": "What a structural review does not do",
+      "p": [
+        "The opinion is more useful to everyone when its edges are clear."
+      ],
+      "list": [
+        "Atlantis is not a special inspection agency and does not perform the special inspections or tests the building code assigns to an approved agency",
+        "The review does not replace the QA agency's report or the fabricator's QC report, and it does not sign acceptance for the building official or the bridge owner",
+        "Structural adequacy, repair design and acceptance of deviations stay with the engineer of record",
+        "Atlantis does not perform industrial radiography in the United States; radiographs produced by a licensed contractor can be reviewed as documents",
+        "Welders, welding inspectors and NDT personnel are not certified through the review; it reports whether the qualifications on file covered the work"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Is Atlantis a special inspection agency?", "a": "No. Special inspections and tests under the building code are performed by the approved agency the project names. Our review is an independent document review that helps the parties understand what an inspection record proves; it is not a special inspection and does not replace one." },
+    { "q": "Can you settle a dispute over a D1.1 UT rejection?", "a": "We can tell you in writing whether the rejection follows from the recorded data: whether the rating was computed correctly, whether the right acceptance table was used and whether the scanning covered the weld. If the record is not enough to decide, the opinion says what re-examination would be." },
+    { "q": "Do you review bridge PAUT reports to D1.5?", "a": "Yes. The review checks the scan plan, reference level, indication classification and encoded files against the code's phased array requirements and the owner's specification, including any FHWA acoustic dissimilarity provisions the owner has adopted." },
+    { "q": "Do you review in-service NDT on nonredundant steel tension members?", "a": "Yes, as a review of the NDT records: technique, coverage, personnel and how indications were recorded and located. Load rating, structural evaluation and inspection program decisions stay with the bridge owner and its engineers." },
+    { "q": "We are an approved fabricator doing our own NDT. Can you check our reports before the QA agency sees them?", "a": "Yes. An independent read before submission lets you close documentation gaps first, and the opinion lists the points a QA reviewer is likely to question." },
+    { "q": "Which edition of D1.1 do you apply?", "a": "The edition the contract documents invoke. Many projects still run on D1.1:2020 or earlier even though D1.1:2025 is current, and acceptance criteria and clause references differ between editions. The opinion states which edition it applied." },
+    { "q": "Is the structural review done on site?", "a": "No. It is remote, on the reports, drawings and digital inspection data you send. That keeps it independent of the site schedule and lets every party see the same record." },
+    { "q": "How do we start a structural report review?", "a": "Send a description of the structure, the report types, the code and specification and the decision that is pending, through the form or to info@atlantisndt.com. We reply within one business day with a scope and a quote for that structure." }
+  ],
+  "related": [
+    ["/standards/aws-d1-1", "AWS D1.1 explained"],
+    ["/standards/aws-d1-5", "AASHTO/AWS D1.5 explained"],
+    ["/magnetic-particle-inspection-structural-steel", "Magnetic particle inspection of structural steel"],
+    ["/ultrasonic-weld-inspection", "Ultrasonic weld inspection"],
+    ["/report-validation/client-rejected-our-ndt-report", "When a client rejects your NDT report"]
+  ],
+  "sources": [
+    "https://www.iccsafe.org/building-safety-journal/bsj-technical/non-destructive-testing-building-code-requirements-and-ias-ac472-accreditation/",
+    "https://www.aws.org/magazines-and-media/inspection-trends/it-aug-25-feat-01-gase/",
+    "https://www.aws.org/about/news/d11-release/",
+    "https://www.aws.org/magazines-and-media/inspection-trends/it-feb-25-feature-02-hay-d11/",
+    "https://www.govinfo.gov/content/pkg/FR-2022-05-06/html/2022-09512.htm",
+    "https://www.txdot.gov/manuals/brg/ins/chapter-4-field-inspection-requirements-and-proced/section-7-nonredundant-steel-tension-member-inspec.html",
+    "https://www.fhwa.dot.gov/bridge/inspection/Memo_Dec2024_Acoustic_Dissimilarities_Steel_Ultrasonic_Weld_Inspection.pdf",
+    "https://www.aws.org/magazines-and-media/welding-digest/wd-july-2025--new-undercut-tolerances-and-treatments-in-the-2025-d15-bridge-welding-code/",
+    "https://aashtojournal.transportation.org/new-joint-bridge-welding-code-edition-published/"
+  ]
+}
