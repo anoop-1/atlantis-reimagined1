@@ -4385,8 +4385,8 @@
           "Ultrasonic in lieu of radiography",
           "As fully radiographed",
           "As fully radiographed",
-          "Where radiography is impracticable or geometry defeats the image",
-          "Mandatory Appendix 12 / Code Case 2235"
+          "Welds with a thinner member of 1/4 in. (6 mm) or more, by the fabricator's choice",
+          "UW-51(a)(4), to the Division 2 para. 7.5.5 rules (Appendix 12 is manual UT where Division 1 calls for it)"
         ],
         [
           "Magnetic particle, ferromagnetic surfaces",
@@ -4412,7 +4412,7 @@
       },
       {
         "q": "Can ultrasonic testing replace radiography on a Division 1 vessel?",
-        "a": "Yes, by two routes. Mandatory Appendix 12 covers ultrasonic examination of welds where Division 1 permits it, and ASME Code Case 2235 authorizes ultrasonics in lieu of radiography above a minimum thickness set in the Case. Both require a written procedure demonstrated on representative flaws, personnel qualified to the employer's written practice, and Authorized Inspector concurrence. Acceptance is flaw-based, not image interpretation."
+        "a": "Yes. Under UW-51(a)(4), ultrasonic examination may replace radiography on welds whose thinner member is 1/4 in. (6 mm) or more, using the rules of Division 2 para. 7.5.5: encoded, computer-based scanning and acceptance by flaw size. Mandatory Appendix 12 is a different thing: manual UT where Division 1 itself calls for UT, such as a final closure seam or a repair. Code Case 2235 was the earlier route that UW-51(a)(4) replaced. Each needs a written procedure, personnel qualified to the employer's written practice and the Authorized Inspector's acceptance."
       },
       {
         "q": "What does UW-51 reject on a full radiograph?",
