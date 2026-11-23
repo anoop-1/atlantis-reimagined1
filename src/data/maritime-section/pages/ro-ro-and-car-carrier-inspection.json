@@ -1,0 +1,188 @@
+{
+  "slug": "ro-ro-and-car-carrier-inspection",
+  "navLabel": "Ro-Ro and Car Carrier Inspection Guide",
+  "title": "Ro-Ro and Car Carrier Inspection: Bow Doors, Ramps and Car Decks",
+  "description": "How ro-ro ships, ro-pax ferries and car carriers are inspected: bow, side and stern doors under UR S8, S9 and Z24, ramps, car decks and hull surveys.",
+  "h1": "Inspecting Ro-Ro Ships, Ro-Pax Ferries and Car Carriers: Shell Doors, Ramps and Vehicle Decks",
+  "eyebrow": "Ship inspection guide",
+  "datePublished": "2026-11-23",
+  "intro": "Ro-ro ships load through openings in the hull. Bow, side and stern doors, ramps and the long undivided vehicle decks behind them are what make the trade work, and they are also where a ro-ro ship is most exposed. Class treats the doors as safety-critical, with design rules in UR S8 and UR S9 and survey requirements in UR Z24. This guide covers ro-ro cargo ships, ro-pax ferries and pure car and truck carriers: what the door rules ask, where doors, ramps and car decks wear and crack, and what owners and buyers check.",
+  "highlights": [
+    {
+      "h": "Doors keep the sea off the vehicle deck",
+      "p": "A vehicle deck has no internal subdivision to limit water that gets in. Securing, supporting and locking devices, seals, indicator lights, television surveillance and leakage detection together keep shell doors closed and prove that they are, which is why each one is examined."
+    },
+    {
+      "h": "Ramps and car decks are moving structure",
+      "p": "Stern and internal ramps, liftable car decks and their hoisting gear combine structure, hinges, wires and hydraulics that work at every port call. Fatigue at hinges and supports, wear in pins and contact damage from vehicles are the findings that recur from ship to ship."
+    },
+    {
+      "h": "The register matters as much as the steel",
+      "p": "Each ship keeps an operating and maintenance manual with a register of inspections, repairs and renewals of door securing, supporting and locking devices. Surveyors and buyers read that register alongside the structure, because it shows how wear has been managed over the years."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-doors-matter",
+      "h": "Why do shell doors decide the safety of a ro-ro ship?",
+      "p": [
+        "Most cargo ships keep the sea out with a continuous deck and hatch covers well above the waterline. A ro-ro ship has large openings in its shell close to the waterline at the bow, stern or side, and behind them a vehicle deck running most of the ship's length without transverse bulkheads. Water that enters can run from side to side across that deck, and its free surface quickly erodes stability. The door requirements are built around three ideas: the doors must be strong enough for the sea loads, they must be held shut by devices that cannot work loose, and the bridge must know at all times whether they are closed and locked.",
+        "The same logic explains the inner door. Under UR S8 the inner door, often combined with the bow ramp, forms part of the collision bulkhead extension, so a damaged or open outer door still leaves a second barrier between the sea and the vehicle deck."
+      ]
+    },
+    {
+      "id": "door-types",
+      "h": "Bow doors, inner doors, side doors and stern doors: what is examined?",
+      "p": [
+        "Bow doors are either visor type, lifted upwards about hinges on the foredeck, or side-opening, swinging outwards in two leaves. Side shell doors abaft the collision bulkhead serve side ports on ro-pax ships and car carriers, and stern doors close the after end, often combined with the stern ramp. UR S8 and UR S9 use the same three terms for all of them: a securing device keeps the door closed by preventing it from rotating about its hinges, a supporting device transmits loads from the door to a securing device, and a locking device locks a securing device in the closed position. Inspectors examine each group separately, because each fails in its own way."
+      ],
+      "table": {
+        "head": ["Door type", "Main parts examined", "Typical findings"],
+        "rows": [
+          ["Bow visor", "Visor structure, deck hinges and lifting arms, side and bottom locks, hydraulic cylinders and their lugs", "Hinge and lug wear, cracks at lifting arm and cylinder brackets, worn locking pins and bushes"],
+          ["Side-opening bow doors", "Door leaves, vertical hinges, edge cleats, centreline locks", "Leaf sag from worn hinges, cracked cleat brackets, seals not compressed"],
+          ["Inner door or bow ramp", "Door or ramp structure, securing cleats, seals, operating gear", "Distortion from impact, worn cleats, damaged packing"],
+          ["Side shell doors", "Door frame and shell cut-out, hinges, securing and locking devices, seals", "Cracks at opening corners, seal damage, misalignment"],
+          ["Stern door or door-ramp", "Transom hinges, cylinders or wires, securing devices, seals", "Hinge wear and cracking, wire and sheave wear, damage from quay contact"]
+        ]
+      }
+    },
+    {
+      "id": "survey-rules",
+      "h": "Which rules govern ro-ro doors? UR S8, UR S9 and UR Z24",
+      "p": [
+        "UR S8, Bow Doors and Inner Doors, and UR S9, Side Shell Doors and Stern Doors, set design requirements for ro-ro passenger ships and ro-ro cargo ships on international and domestic voyages, other than high-speed light craft. They cover strength, the arrangement of securing, supporting and locking devices, indication and monitoring, and the operating and maintenance manual. Their survey counterpart is UR Z24, Survey Requirements for Shell and Inner Doors of Ro-Ro Ships, applied at the periodical class surveys. The rest of the hull is surveyed under UR Z7, Hull Classification Surveys, since ro-ro cargo ships are among the types excluded from the general dry cargo requirements of UR Z7.1.",
+        "Door surveys typically combine examination of the door structure and the hull opening around it, hinges and bearings, the securing, supporting and locking devices and their wear, seals and seating, an operational test of opening, closing and securing, and checks of indicator lights, alarms, television surveillance and drainage. The surveyor reads the operating and maintenance manual and its register and asks for crack detection or clearance measurements where wear or damage suggests them. Extent and acceptance criteria are those of the ship's class society and the door maker."
+      ]
+    },
+    {
+      "id": "monitoring-systems",
+      "h": "Indicator lights, television surveillance and leakage detection",
+      "p": [
+        "UR S8 requires separate indicator lights and audible alarms on the navigation bridge and at the operating panel to show that bow doors, inner doors and their securing and locking devices are properly closed. The system is fail-safe, with a lamp test, and a harbour and sea voyage mode sounds an alarm on the bridge if the ship leaves harbour with a door not closed or a securing device out of position. Television covers the space between the bow door and the inner door, with monitors on the bridge and in the engine control room, leakage through the inner door raises an alarm, and water collecting in that space is drained with a bridge alarm at a set level.",
+        "UR S9 applies similar indication to side and stern doors bounding special category or ro-ro spaces where flooding could occur. Passenger ships need leakage detection with an audible alarm and television reporting to the bridge and engine control room, cargo ships an audible alarm on the bridge. For inspection, the sensors are the weak point: proximity switches knocked out of alignment, cabling damaged at hinges, fogged camera housings and blocked drains behind the bow door. Functional tests with the crew show whether each signal is genuine."
+      ]
+    },
+    {
+      "id": "wear-cracking",
+      "h": "Hinges, locks and cylinders: where do doors wear and crack?",
+      "p": [
+        "Door hardware wears every time it moves and every time the sea loads it. Hinge pins and bushes wear oval, the door drops or shifts, seals stop compressing evenly and securing devices start carrying loads they were not designed for. Locking pins and housings wear, cleats lose their bite, and hydraulic cylinders weep at their seals and work loose at their lugs. Slamming on a bow visor in head seas concentrates load at the hinges, lifting arms and lower locks, and cracks start at the weld toes of lugs and brackets.",
+        "The inspection records clearances at hinges and locks against the maker's limits, examines lug and bracket welds by eye and confirms indications with magnetic particle testing, checks pins and bushes when they are drawn, and reads the repair register for patterns: the same lock repaired at every docking points to misalignment, not a bad part. Seal tightness on doors closing against packing can be checked ultrasonically, following the maker's seal arrangement."
+      ],
+      "table": {
+        "head": ["Component", "Typical defect", "How it is checked"],
+        "rows": [
+          ["Hinge pins and bushes", "Oval wear, seizure, cracked hinge lugs", "Clearance measurement, visual and MPI on lug welds, pin inspection when drawn"],
+          ["Securing and locking devices", "Worn pins and housings, bent cleats, faulty limit switches", "Operational test, wear measurement, indicator check at the bridge panel"],
+          ["Supporting devices and door edges", "Wear, cracked brackets, local deformation", "Close visual, MPI at brackets, measurement against drawings"],
+          ["Hydraulic cylinders and lugs", "Leaks, worn eyes and pins, cracked mounting lugs", "Visual for leaks, pin clearance, MPI on lug welds"],
+          ["Seals and seating", "Hardened or torn packing, damaged seating bars", "Visual, compression check, ultrasonic tightness test"],
+          ["Shell opening corners", "Fatigue cracks from the corner radius", "Close-up after cleaning, MPI"]
+        ]
+      },
+      "links": [
+        ["/maritime/hatch-cover-ultrasonic-testing", "Ultrasonic tightness testing"],
+        ["/maritime/magnetic-particle-inspection", "Magnetic particle inspection (MPI)"]
+      ]
+    },
+    {
+      "id": "ramps",
+      "h": "Stern, quarter and internal ramps: what fails?",
+      "p": [
+        "Ramps carry every vehicle that boards. A stern or quarter ramp is a hinged steel structure, often in two or three folding sections with flaps or fingers at its outer end, raised by wires and sheaves or by hydraulic cylinders. The hinge connection to the ship is the critical detail: fatigue cracks start in the hinge lugs, the transom structure behind them and the ramp's own hinge girder, and pin wear lets the ramp work under traffic. Flaps and fingers are bent by quay contact, ramp plating dents under heavy axles, and wires, sheaves and their foundations wear and crack.",
+        "Internal ramps between decks on car carriers and ro-pax ships bring the same issues on a smaller scale, with cracking where fixed ramps meet the decks they join and wear at the hinges of ramps that also close openings between decks. Wires, winches and hydraulics are maintained under the maker's instructions by the crew; the structure, hinges and foundations are where crack detection and thickness readings help."
+      ]
+    },
+    {
+      "id": "car-decks",
+      "h": "Liftable car decks, pillars and vehicle deck structure",
+      "p": [
+        "A pure car and truck carrier can have a dozen or more decks, several of them liftable panels raised or lowered to suit high and heavy cargo. The panels rest on brackets or pins on the side shell, casings and pillars, and the usual findings are worn or cracked support brackets, bent locking pins, panels distorted by overloading or impact, worn hoisting wires and seized deck locks. Fixed car decks use thin plating on light stiffeners, so corrosion and dents erode their margin quickly, especially where seawater and road salt drip from vehicles and condensation forms in cold weather.",
+        "The main vehicle deck, usually the freeboard deck, carries trailers and heavy units and is examined for deformation, wastage and cracking at deck girders and pillars. D-rings and flush lashing sockets are welded attachments checked for cracks and for wastage of the deck around them. Scuppers, drains and their non-return valves matter because water left on a vehicle deck is a stability issue as well as a corrosion one. Fire doors, drencher pipework, ventilation openings and insulation are noted visually where damage is seen, without testing; those systems are surveyed under SOLAS chapter II-2 and by class."
+      ]
+    },
+    {
+      "id": "hull-surveys",
+      "h": "Hull surveys and thickness measurement on ro-ro ships",
+      "p": [
+        "Hull surveys on ro-ro ships follow UR Z7, so the thickness measurement minimum grows from suspect areas at special survey No. 1, to a transverse section of deck plating at No. 2, two sections with the peak tank internals at No. 3 and at least three sections from No. 4. On a ro-ro ship those sections cut through vehicle decks, side casings and double-bottom tanks, and the gauging plan adds areas peculiar to the type: heeling tanks used to keep the ship upright during loading, the shell and frames around side door openings, the transom in way of stern door and ramp hinges, and vehicle deck plating where water lies. Under UR Z3 the outside of the bottom is examined at least twice in each five-year period, at intervals not exceeding 36 months.",
+        "Ballast tanks, heeling tanks included, go on annual examination when their coating deteriorates, as on any ship. On ro-pax ferries with many port calls and short passages, an owner's inspection timed to a lay-by period or short docking lets structure be gauged and crack-checked without disturbing the timetable."
+      ],
+      "links": [
+        ["/maritime/special-survey-thickness-measurement", "Special survey thickness measurement"],
+        ["/maritime/ultrasonic-thickness-measurement", "Ultrasonic thickness measurement (UTM)"]
+      ]
+    },
+    {
+      "id": "owner-buyer",
+      "h": "What owners and buyers check on a ro-ro ship or car carrier",
+      "p": [
+        "An owner preparing for a class survey, or a buyer before a sale, starts with the operating and maintenance manual and its register of inspections, repairs and renewals of securing, supporting and locking devices. The requirements recommend that ship's staff inspect those devices and record the result monthly, so gaps in the register are themselves informative. Then come the class records for the doors, earlier crack detection and clearance reports, ramp and car deck repair history, hoisting system condition and thickness trends for vehicle decks and ballast tanks. On board, functional tests of doors, indicators, alarms and cameras with the crew are followed by close inspection of hinges, locks, ramps and decks.",
+        "Atlantis NDT supports owners and buyers with pre-purchase inspections, vessel condition surveys and CVIP, its Comprehensive Vessel Inspection Programme, mobilising teams from India to the ship. Work is planned and supervised by the founder, the company's Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT. Atlantis does not yet hold UR Z17 approval from any classification society and is in the process of obtaining it from DNV, Lloyd's Register and ABS; until a certificate is issued, its readings and crack detection results serve the owner's decisions, not class credit. Contact info@atlantisndt.com."
+      ],
+      "links": [
+        ["/maritime/pre-purchase-inspection", "Pre-purchase inspection"],
+        ["/maritime/vessel-condition-survey", "Vessel condition survey"],
+        ["/maritime/comprehensive-vessel-inspection-programme", "CVIP (Comprehensive Vessel Inspection Programme)"]
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR S8 – Bow doors and inner doors",
+    "IACS UR S9 – Side shell doors and stern doors",
+    "IACS UR Z24 – Survey requirements for shell and inner doors of ro-ro ships",
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom and related items",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "SOLAS chapter II-2 – Construction: fire protection, fire detection and fire extinction",
+    "International Convention on Load Lines, 1966, and its 1988 Protocol",
+    "ASTM E709 – Standard guide for magnetic particle testing"
+  ],
+  "deliverables": [
+    "The operating and maintenance manual for shell and inner doors, with its register of inspections, repairs and renewals",
+    "Door and ramp maker's drawings with clearance and wear limits",
+    "Earlier crack detection reports for hinges, lugs and shell opening corners",
+    "Car deck and hoisting system maintenance records, with the load limit of each deck",
+    "Earlier thickness measurement reports for vehicle decks, ballast tanks and heeling tanks",
+    "Time on board with doors and ramps operable, so functional tests can be witnessed"
+  ],
+  "industries": [
+    "Ro-ro cargo ship owners and operators",
+    "Ro-pax ferry operators",
+    "Pure car and truck carrier owners",
+    "Charterers of ro-ro and car carrier tonnage",
+    "Ship buyers and sale-and-purchase brokers",
+    "Technical superintendents and fleet managers"
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between UR S8 and UR S9?",
+      "a": "UR S8 covers bow doors and the inner doors behind them, which form part of the collision bulkhead extension. UR S9 covers side shell doors abaft the collision bulkhead and stern doors leading to enclosed spaces. Both apply to ro-ro passenger ships and ro-ro cargo ships, define securing, supporting and locking devices in the same way, and require indication on the bridge and an operating and maintenance manual."
+    },
+    {
+      "q": "How often are ro-ro shell doors surveyed?",
+      "a": "Class examines shell and inner doors at its periodical surveys under UR Z24, with the extent set by the society's rules and the most thorough examination at the renewal survey. Between surveys the ship's staff are expected to inspect securing, supporting and locking devices and record the results, the requirements recommending a monthly interval, and damage found is reported to class."
+    },
+    {
+      "q": "What are securing, supporting and locking devices on a ro-ro door?",
+      "a": "A securing device keeps a door closed by stopping it rotating about its hinges. A supporting device transmits external or internal loads from the door to a securing device. A locking device locks a securing device in the closed position. The rules treat them separately because each carries load differently, and an inspection checks the wear, fit and condition of each group in turn."
+    },
+    {
+      "q": "Why does the bridge need door indicators and cameras?",
+      "a": "Because a door that looks closed from a distance may not be secured, and on a ro-ro ship sailing with a door open means water on an undivided vehicle deck. The indicator panel shows whether doors and their securing and locking devices are in position, an alarm sounds if the ship leaves harbour otherwise, and television and leakage alarms show what is happening behind the bow door."
+    },
+    {
+      "q": "Can ultrasonic testing check the seals of ro-ro doors?",
+      "a": "Yes, on doors that close against compressed packing. A transmitter on one side and a receiver run around the frame on the other show where the seal is not seating. The method suits weathertight shell doors and many internal closures, is planned around the door maker's seal arrangement, and its results sit beside the clearance and wear measurements that explain why a seal leaks."
+    },
+    {
+      "q": "What fails on car carrier decks?",
+      "a": "Liftable decks suffer worn or cracked support brackets, bent locking pins, distorted panels and worn hoisting wires, often from high and heavy cargo placed beyond the deck's design load. Fixed decks are built from thin plating, so dents and corrosion from seawater and road salt reduce their margins quickly. Lashing points, scuppers and drains are checked on every deck as part of the same inspection."
+    },
+    {
+      "q": "Who can take thickness readings on a ro-ro ship for class?",
+      "a": "Readings credited to a class survey must be taken by a firm approved under IACS UR Z17 by the ship's own classification society, with the surveyor controlling the work. Owner's readings and crack detection taken before a survey or a sale need no such approval, and they give the owner the information needed to plan the docking scope and any steel or door repairs in advance."
+    }
+  ]
+}
