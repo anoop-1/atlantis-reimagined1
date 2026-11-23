@@ -1,0 +1,169 @@
+{
+  "title": "Hardisty Tank Farm RBI: Crude Terminal Inspection Planning",
+  "description": "Remote risk-based inspection for Hardisty crude terminals: API 653 tank ranking, floor corrosion, frost and settlement, within CER or provincial programmes.",
+  "h1": "Risk-based inspection for the Hardisty crude oil terminals",
+  "eyebrow": "Risk-based inspection in Hardisty",
+  "intro": "Hardisty, a small town on the Battle River in east-central Alberta, is where much of western Canada's crude oil is stored, blended and handed on to export pipelines. Its terminals hold tens of millions of barrels in large aboveground tanks, alongside salt-cavern storage. This page is for the people who plan inspection of those tanks: what a tank-farm RBI looks like when floors carry most of the risk, how prairie frost and snow change the picture, which integrity programme a given tank belongs to, and how Atlantis runs the study remotely while your API 653 inspectors handle the field work.",
+  "highlights": [
+    { "h": "A whole farm, ranked", "p": "An out-of-service inspection takes a tank away from commercial use, so the order of entries matters. The study ranks every tank on probability and consequence and proposes a sequence that sends the next entry where the risk evidence is strongest." },
+    { "h": "Floors carry the risk", "p": "Water and sediment settling out of heavy and diluted crude, sludge, and soil-side attack under the plate usually make the bottom the governing component. The plan treats floor scan coverage and prove-up quality as the evidence each interval rests on." },
+    { "h": "Frost, snow and settlement", "p": "Freeze-thaw cycles work on ringwalls and foundations, snow loads sit on roofs and frozen drains can sink a floating roof. Each condition enters the assessment as a named factor, with the survey data it depends on listed beside it." }
+  ],
+  "sections": [
+    {
+      "id": "hardisty-terminals",
+      "h": "What is stored at Hardisty",
+      "p": [
+        "Several companies run tank terminals around Hardisty, and their published figures give a sense of the scale. Gibson Energy reports roughly 14 million barrels of storage in 43 tanks across four separate terminals, with exclusive access to the Hardisty Unit Rail Facility, a joint venture with USD Group. Enbridge reports about 8 million barrels of aboveground storage at its Hardisty Contract Terminal, beside some 3.6 million barrels in salt caverns. The Canadian section of the Keystone pipeline, now operated by South Bow, runs from its own storage tanks at Hardisty, a tank farm the Canada Energy Regulator describes as having the third-largest capacity among the tank facilities it regulates. Other shippers and operators hold tankage in the area as well.",
+        "Gibson and Enbridge alone report more than 20 million barrels of aboveground capacity, held in large, high-turnover crude tanks. What moves through them is a mix of diluted bitumen, synthetic crude and conventional grades, with condensate and other diluent stored for blending. That mix, the pace of filling and emptying, and the fact that taking any single tank out of service removes a real share of a terminal's working capacity shape every choice a Hardisty RBI study makes."
+      ],
+      "table": {
+        "head": ["Operator", "What the operator or regulator publishes", "What it means for a tank RBI"],
+        "rows": [
+          ["Gibson Energy", "About 14 million barrels in 43 tanks at four terminals; rail loading through the Hardisty Unit Rail Facility", "A large tank count spread over several sites, so one method and one register keep rankings comparable"],
+          ["Enbridge", "About 8 million barrels aboveground at the Hardisty Contract Terminal and about 3.6 million barrels in salt caverns", "Caverns sit outside a tank RBI; the surface tankage and piping around them do not"],
+          ["South Bow (Keystone)", "Keystone's Canadian section starts at its Hardisty tanks; the CER says the tank farm has the third-largest capacity of the tank facilities it regulates", "Tanks managed inside a CER-regulated integrity management programme, built to API 650 and managed under API 653"]
+        ]
+      }
+    },
+    {
+      "id": "hardisty-rules",
+      "h": "Which rules a Hardisty tank answers to",
+      "p": [
+        "Atmospheric tanks fall outside Alberta's pressure equipment legislation, so the question at Hardisty is not whether ABSA accepts an interval but whose integrity programme a tank belongs to. Tanks that form part of an interprovincial or international pipeline sit inside the pipeline company's management system under the Canadian Energy Regulator Onshore Pipeline Regulations. The CER's 2026 facility integrity management audit of the Keystone system included the Hardisty Terminal Complex and examined how the company identifies hazards, assesses risk, sets controls, manages change and inspects and monitors its facilities. The audit report records that the Hardisty tanks were built to API 650 and are managed under API 653.",
+        "Tanks that are not part of a federally regulated pipeline answer to provincial requirements instead, and which of those apply depends on how the terminal is licensed and permitted. Fire code storage provisions, environmental approvals and insurers' expectations all bear on the inspection programme. Station piping that belongs to a pipeline system is normally governed by CSA Z662 rather than API 570, while pressure vessels on the site come under ABSA. The study records the governing basis for each item, so a CER auditor, a provincial authority and an insurer can each find the part of the programme they look at.",
+        "Owners with terminals on both sides of the border should keep the two regimes apart. The US federal rule that bars the API 653 risk-based internal interval for pipeline breakout tanks applies to US tanks. At a CER-regulated Canadian terminal, the regulator's audits look at whether risk assessment, controls and inspection are documented and controlled within the company's management system, and the RBI method has to be written to sit there."
+      ]
+    },
+    {
+      "id": "hardisty-floors",
+      "h": "Tank floors: where the risk usually sits",
+      "p": [
+        "On a crude tank farm the bottom is usually the component that sets the internal inspection interval, and it can corrode from both sides. On the product side, water and sediment carried in heavy and diluted crude settle onto the floor, sludge builds up where mixers do not reach, and microbiologically influenced corrosion takes hold under deposits, often as isolated deep pits. On the soil side, corrosion depends on the foundation, drainage, any release prevention barrier and whether cathodic protection current is actually reaching the plate. A liner that keeps a leak out of the soil can also shield the underside of the bottom from that current.",
+        "API 653 ties the minimum allowable bottom thickness at the end of the next run to the tank's leak protection: a tank with a release prevention barrier and leak detection may run to a thinner remaining bottom than one without. The study therefore asks for the design of each bottom, the history of patch plates and replacements, the last floor scan map with its prove-up results, internal lining condition, cathodic protection survey data, water draw records and any leak detection history.",
+        "How well the last inspection was done matters as much as what it found. A floor scan with good coverage and every indication proved up with ultrasonic testing supports a long interval; a partial scan, or spot readings taken through a manway, supports much less. The plan states the coverage and prove-up the next out-of-service inspection must achieve, including the critical zone next to the shell, so the inspection contractor knows exactly what the interval assumed."
+      ]
+    },
+    {
+      "id": "hardisty-throughput",
+      "h": "Throughput, blending and service changes",
+      "p": [
+        "Hardisty tanks work hard. Frequent filling and emptying flexes shells, cycles floating roof seals and keeps sediment moving, and blending diluent into bitumen means the same tank can hold very different products over its life. A tank that stored diluent for years and is switched to heavy crude takes on a different floor corrosion picture, and one switched the other way moves to lighter, more volatile service with its own consequence of release.",
+        "The study records each tank's service history as well as its current service, and treats a change of stored product, a sustained change in turnover or a new heating or mixing arrangement as a trigger for reassessment. Where commercial records show which grades a tank has held, they are often a better guide to product-side corrosion than the design datasheet."
+      ],
+      "list": [
+        "Service history by product grade, including periods in diluent and blended service",
+        "Water draw frequency and volumes, and the dates of any sludge removal",
+        "Internal lining type, age and the findings recorded at the last entry",
+        "Mixer arrangement and any heating coils or recirculation",
+        "Floating roof type, seal condition and roof drain history"
+      ]
+    },
+    {
+      "id": "prairie-weather",
+      "h": "Frost, snow and wind on a prairie tank farm",
+      "p": [
+        "East-central Alberta's winters bring deep frost, with repeated freeze-thaw in spring and autumn. Frost acting on a poorly drained foundation can lift and crack a ringwall and disturb the support under the bottom edge, and the settlement that follows shows up as shell out-of-roundness, bottom distortion and stress at the shell-to-bottom joint. Settlement surveys evaluated against API 653 Annex B are the evidence the study asks for, and a tank whose survey is old or missing does not get a long interval on the strength of its thickness readings alone.",
+        "Roofs carry their own winter risks. Snow and ice load fixed roofs and floating roof decks alike, a frozen or blocked primary drain on an external floating roof can let rain and meltwater build up until the roof lists or sinks, and seals stiffen and tear in the cold. Wind across open prairie loads shells and wind girders on large-diameter tanks. External shell corrosion is usually milder than on a coastal site, but it concentrates at the bottom edge where snow and meltwater collect against the chime.",
+        "Seasonal access bears on the plan too. Out-of-service work that involves cleaning, cranes and repair crews is easier to schedule outside winter, and spring road restrictions can hold up heavy equipment. Each due date in the plan comes with the seasonal window in which it can realistically be met."
+      ]
+    },
+    {
+      "id": "hardisty-ranking",
+      "h": "Ranking a whole tank farm",
+      "p": [
+        "For a terminal with dozens of tanks, the most useful output of an RBI study is often a ranked inspection sequence rather than a list of separate intervals. Probability comes from each tank's floor, shell and roof condition, the effectiveness of its past inspections and the mechanisms its service and foundation make likely. Consequence is assessed for the receptors that matter at Hardisty: soil and groundwater beneath and around the dikes, the Battle River valley, neighbouring tanks and facilities, people on and near the site, and the commercial effect of a tank being unavailable.",
+        "API RP 581's tank method assesses shell courses and the bottom separately and treats the consequence of a bottom leak mainly as an environmental and financial question that depends on how far a release could migrate. Many owners use a semi-quantitative approach for a first ranking of a large farm and move the highest-risk tanks to the quantitative method. Either way, the plan states the risk target the owner set, so a tank that ranks low is low for a stated reason."
+      ],
+      "table": {
+        "head": ["Tank attribute", "Effect on the ranking", "Where the data usually comes from"],
+        "rows": [
+          ["Last floor scan coverage and prove-up", "Raises or lowers confidence in the bottom corrosion rate", "Report of the previous out-of-service inspection"],
+          ["Release prevention barrier and leak detection", "Lowers the consequence of a bottom leak and affects the allowable remaining thickness", "Construction records and the tank datasheet"],
+          ["Cathodic protection performance", "Changes the soil-side corrosion rate assumed", "Periodic cathodic protection survey records"],
+          ["Settlement survey results", "Can override an otherwise favourable corrosion picture", "Survey reports evaluated to API 653 Annex B"],
+          ["Stored product history and turnover", "Changes product-side corrosion and the consequence of a release", "Operations and commercial records"],
+          ["Distance to drainage paths and the river valley", "Raises environmental consequence", "Site plans and environmental assessments"]
+        ]
+      }
+    },
+    {
+      "id": "api-653-rbi-route",
+      "h": "Using API 653's risk-based internal interval",
+      "p": [
+        "API 653 sets a default route to the internal inspection interval, based on corrosion rates and minimum thicknesses, and an alternative route that lets an owner set the interval from an RBI assessment carried out to API RP 580. The current edition expects that assessment to consider a defined set of likelihood and consequence factors, to be carried out by people knowledgeable in risk management, to be validated, ideally by a third party, and to be reviewed at least every ten years. The owner's authorised API 653 inspector approves the resulting interval.",
+        "For an owner taking that route at Hardisty, the practical questions are evidence and control. The study documents which likelihood and consequence factors were assessed for each tank and how, delivers the register in a form the owner can maintain between reviews, and lists the events, such as a service change, a floor finding or an adverse settlement survey, that send a tank back for reassessment before its scheduled review."
+      ]
+    },
+    {
+      "id": "hardisty-remote",
+      "h": "Running the study without a site visit",
+      "p": [
+        "The study runs from records and video sessions. Tank datasheets and construction records, previous out-of-service and in-service inspection reports, floor scan maps, settlement surveys, cathodic protection data, lining records, service history and site environmental information go into a shared data room. A data-gap log is issued before the first workshop, and on a large farm the tanks are taken in groups so that the terminal's operations and inspection staff are not tied up for long stretches.",
+        "Workshops run in Mountain time; Houston is an hour ahead, and work continues in Hyderabad overnight Alberta time. Atlantis does not send field teams to Canadian sites, so external visual inspections, roof and seal checks, settlement surveys and any extra thickness readings are carried out by the owner's API 653 inspectors or the inspection contractor the owner already uses. The data-gap log tells them which tank, which component, which method and what coverage is needed, and their results are loaded into the register."
+      ]
+    },
+    {
+      "id": "hardisty-approval",
+      "h": "Approval, and what happens after a finding",
+      "p": [
+        "The study recommends; the owner's authorised API 653 inspector approves the intervals and the scope of each inspection, within the integrity management programme the tank belongs to. Atlantis does not act as inspector of record. If an inspection finds bottom or shell damage that needs an engineering judgement on continued service, that fitness-for-service evaluation stays with the owner's engineer and is not something Atlantis offers. The register is then updated with the decision and any repair, and the tank's place in the ranking moves accordingly."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology, including atmospheric storage tanks)",
+    "API 653 (tank inspection, repair, alteration and reconstruction)",
+    "API 650 (welded tanks for oil storage)",
+    "API RP 575 (inspection practices for atmospheric and low-pressure storage tanks)",
+    "API RP 651 (cathodic protection of aboveground petroleum storage tanks)",
+    "CER Onshore Pipeline Regulations",
+    "CSA Z662 (oil and gas pipeline systems)"
+  ],
+  "deliverables": [
+    "Tank-by-tank register with floor, shell and roof mechanisms, probability, consequence and risk",
+    "Ranked out-of-service inspection sequence with proposed intervals and seasonal windows",
+    "Floor scan coverage and prove-up requirements for each scheduled entry",
+    "Settlement and foundation findings tied to each tank's interval",
+    "Data-gap log naming the readings and surveys for the owner's inspectors",
+    "Reassessment triggers for service changes, inspection findings and review dates"
+  ],
+  "industries": [
+    "Crude oil storage terminals",
+    "Pipeline tank farms",
+    "Rail loading terminals",
+    "Diluent and condensate storage",
+    "Crude blending facilities"
+  ],
+  "faqs": [
+    { "q": "Can RBI set the out-of-service interval for our Hardisty tanks?", "a": "Yes, through API 653's alternative internal interval, which relies on an RBI assessment to API RP 580 that considers the factors the standard lists, is validated and is reviewed at least every ten years. For tanks in a CER-regulated pipeline system, the approach also has to sit within the company's management system and integrity management programme. The owner's API 653 inspector approves the resulting intervals." },
+    { "q": "How do you treat a tank whose floor has never been fully scanned?", "a": "Without credible bottom data the study cannot justify a long interval, so the tank is assessed conservatively and flagged in the data-gap log. The plan specifies the floor scan coverage and ultrasonic prove-up needed at the next entry, and once those results are loaded the tank is reassessed with a measured corrosion rate rather than an assumed one." },
+    { "q": "Does a release prevention barrier change the risk?", "a": "Usually it lowers the consequence of a bottom leak, because product is contained and detected before it reaches soil or groundwater, and API 653 allows a thinner minimum bottom thickness where a barrier and leak detection are in place. A barrier can also shield the underside of the bottom from cathodic protection, so the soil-side corrosion assumption is checked rather than taken for granted." },
+    { "q": "Our tanks switch between diluent, synthetic and heavy crude. How is that handled?", "a": "Service history is recorded tank by tank, and the product-side corrosion assumptions reflect the grades actually stored rather than the design service. A planned change of stored product, or a sustained change in turnover, is listed as a reassessment trigger, so the ranking is updated before a tank runs for years on an outdated basis." },
+    { "q": "How does the study account for frost and settlement?", "a": "Settlement is treated as a risk factor in its own right. The study asks for recent settlement surveys evaluated to API 653 Annex B, foundation and drainage condition and ringwall observations. A tank with significant or unexplained settlement, or no recent survey at all, is not given an extended interval on thickness data alone." },
+    { "q": "Are the salt caverns included?", "a": "Cavern storage is outside an aboveground tank and piping study, because caverns are managed under their own engineering and regulatory regime. The surface tanks, piping and any pressure vessels that serve the caverns can be included, each with its own damage mechanisms and the rules that apply to it." },
+    { "q": "Will Atlantis inspect our tanks at Hardisty?", "a": "No. The study is delivered remotely, and Atlantis does not send field teams to Canadian sites. Your API 653 inspectors, or your inspection contractor, carry out the external checks, settlement surveys and any additional readings the data-gap log calls for, as well as the out-of-service inspections the plan schedules." },
+    { "q": "Who approves the plan?", "a": "The owner's authorised API 653 inspector, working within the integrity management programme the tank belongs to, whether that is a CER-regulated pipeline company's programme or the owner's own. The study supplies the ranking, the proposed intervals and the reasoning behind them; the decisions stay with the owner." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/edmonton", "RBI in Edmonton and the Industrial Heartland"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection support"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/erp/apps/asset-management", "Keeping tank inspection records in one system"]
+  ],
+  "sources": [
+    { "fact": "Gibson Hardisty Terminal: approximately 14 million barrels of storage in 43 tanks at four separate terminals; exclusive access to the Hardisty Unit Rail Facility, a joint venture with USD Group", "url": "https://www.gibsonenergy.com/operations/hardisty-terminal/" },
+    { "fact": "Enbridge: approximately 3.6 million barrels of salt cavern storage at Hardisty Caverns and 8 million barrels of above ground storage at Hardisty Contract Terminal", "url": "https://enbridge.com/About-Us/Liquids-Pipelines/Crude-and-Liquids-Contract-Terminals" },
+    { "fact": "CER Facility Integrity Management Operational Audit of South Bow GP (Canada) Ltd., audit period 1 April - 16 July 2026, report 11 September 2026: Keystone's Canadian portion runs from its storage tanks in Hardisty; Hardisty tank farm has the third largest capacity of CER-regulated tank facilities; Hardisty Terminal Complex inspected; tanks built to API 650 and managed under API 653; OPR 6.5(1) hazard identification, risk assessment, controls, MOC, inspection and monitoring", "url": "https://www.cer-rec.gc.ca/en/safety-environment/industry-performance/reports-compliance-enforcement/audit/2026/cv2627-006/south-bow-gp-cv2627-006-final-audit-report.pdf" },
+    { "fact": "API 653 fifth edition RBI route: defined likelihood and consequence factors, people knowledgeable in risk management, validated ideally by a third party, reviewed at least every 10 years", "url": "https://www.federalregister.gov/documents/2026/06/02/2026-10969/pipeline-safety-breakout-tank-inspection-rule" },
+    { "fact": "49 CFR 195.432(b): US breakout tanks may not use the API 653 risk-based internal interval", "url": "https://www.law.cornell.edu/cfr/text/49/195.432" },
+    { "fact": "Hardisty is a crude oil storage and terminal hub where large tank farms feed export pipelines including Keystone (already on the site)", "url": "https://atlantisndt.com/inspection-services-alberta" },
+    { "fact": "API RP 581 tank method: risk per shell course and bottom; bottom consequence financial, dependent on migration to soil, groundwater and surface water", "url": "https://e2g.com/industry-insights-ar/tank-rbi-not-just-an-inspection-deferral-tool/" }
+  ]
+}

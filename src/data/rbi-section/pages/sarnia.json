@@ -1,0 +1,158 @@
+{
+  "title": "RBI in Sarnia: Chemical Valley Refineries and Petrochemicals",
+  "description": "Remote risk-based inspection for Sarnia's Chemical Valley refineries, crackers and chemical plants, planned around TSSA certificates and the St. Clair River.",
+  "h1": "Risk-based inspection for Sarnia and Ontario's Chemical Valley",
+  "eyebrow": "Risk-based inspection in Sarnia",
+  "intro": "Along a short stretch of the St. Clair River at Sarnia, three refineries, an ethylene cracker and polyethylene plants, synthetic rubber, fertiliser production and pipeline terminals operate close to one another, beside a First Nation community and upstream of towns that draw drinking water from the river. This page is for the integrity and inspection teams at those sites. It covers the facilities, the refinery and chemical damage mechanisms that dominate there, why consequence modelling carries extra weight in Chemical Valley, how an RBI plan fits Ontario's certificate of inspection system, and how Atlantis delivers the study remotely.",
+  "highlights": [
+    { "h": "Refinery and chemical in one register", "p": "Sarnia owners often hold refinery units, chemical plants and interplant pipelines on neighbouring sites. The study keeps refinery, olefins and specialty chemical corrosion loops separate, so a mechanism that belongs to one process is never quietly assumed for another." },
+    { "h": "Consequence close to people and water", "p": "Plants sit next to Aamjiwnaang First Nation and on the St. Clair River. Off-site population and environmental receptors are modelled explicitly, and the same inventory and receptor data can support the plant's Ontario spill prevention plan." },
+    { "h": "Inside the certificate cycle", "p": "Regulated Ontario equipment needs a current certificate of inspection. Every RBI due date is checked against the inspection the certificate depends on, and conflicts are flagged for the owner to settle with TSSA before the plan is used." }
+  ],
+  "sections": [
+    {
+      "id": "chemical-valley-sites",
+      "h": "The refineries and plants along the St. Clair River",
+      "p": [
+        "Sarnia and the neighbouring township of St. Clair hold one of Canada's densest concentrations of refining and chemical plant. Imperial's Sarnia site combines a refinery, rated at about 124,000 barrels a day, with a chemical plant; Suncor runs a refinery in Sarnia; and Shell's Sarnia Manufacturing Centre at Corunna refines roughly 75,000 barrels a day into gasoline, diesel, jet fuel and other products. NOVA Chemicals operates an ethylene cracker at Corunna and polyethylene plants in the area, ARLANXEO makes butyl rubber, CF Industries' Courtright complex produces nitrogen products, and a cogeneration plant supplies steam to its neighbours. INEOS Styrolution's styrene plant closed at the end of 2025.",
+        "Crude reaches the valley by pipeline, including Enbridge's Line 5, which crosses the St. Clair River into Sarnia, and the area is laced with interplant pipelines, tank farms and storage caverns. Imperial has scheduled a full turnaround at its Sarnia refinery for the second half of 2026, and the other sites follow outage cycles of their own, so the valley's turnaround calendar is crowded and work at neighbouring plants competes for the same contractors."
+      ],
+      "table": {
+        "head": ["Asset group", "Facilities", "What drives the risk"],
+        "rows": [
+          ["Refining", "Imperial Sarnia, Suncor Sarnia and Shell's Sarnia Manufacturing Centre", "High-temperature sulfidation, hydroprocessing effluent corrosion, HTHA screening, amine and sour water systems"],
+          ["Olefins and polyethylene", "NOVA Chemicals' Corunna cracker and polyethylene plants; Imperial's chemical plant", "Furnace tube creep and carburisation, caustic towers, cold-end toughness, polymer reactor systems"],
+          ["Specialty chemicals and rubber", "ARLANXEO's butyl rubber plant; the closed styrene site", "Process-specific corrosion and cracking, low-temperature service, equipment idled or being decommissioned"],
+          ["Fertiliser", "CF Industries' Courtright complex", "Ammonia stress corrosion cracking in storage and hydrogen damage in the synthesis loop"],
+          ["Pipelines and storage", "Enbridge deliveries including Line 5, interplant pipelines, tank farms and caverns", "Tank floors, pipeline station piping and cold service in NGL handling"]
+        ]
+      }
+    },
+    {
+      "id": "sarnia-refinery-mechanisms",
+      "h": "Refinery units: what the crude slate does to the equipment",
+      "p": [
+        "The valley's refineries run crude and synthetic crude delivered by pipeline, and their damage mechanisms follow the sulfur, acid and chloride the feed brings with it. Crude and vacuum units carry high-temperature sulfidation, which API RP 939-C addresses alloy by alloy. Carbon steel piping in hot sulfur service needs component-by-component attention, because a fitting or pipe spool with low silicon content can corrode much faster than the components either side of it, and a thickness survey that samples only a few locations will miss it.",
+        "Hydroprocessing effluent systems carry ammonium bisulfide and ammonium chloride corrosion, so air cooler velocity limits and wash water practice have to be recorded if the model is going to rely on them. High-temperature hydrogen attack in reactor circuits is screened against API RP 941 from actual operating temperature and hydrogen partial pressure. Sour water strippers and amine regenerators carry wet hydrogen sulfide damage and amine cracking where welds were not post-weld heat treated, and an alkylation unit, where a refinery runs one, brings acid-specific corrosion that needs its own loop and its own operating windows."
+      ]
+    },
+    {
+      "id": "sarnia-chemical-mechanisms",
+      "h": "Crackers, polyethylene and specialty chemicals",
+      "p": [
+        "The chemical plants have to be assessed on their own terms. Ethylene furnace radiant tubes age by creep and carburisation, and their condition is better judged from tube metal temperature records and creep-strain measurements than from wall thickness. Quench and dilution steam systems foul and corrode, caustic wash towers carry caustic stress corrosion cracking at welds that were not stress relieved, and the cold end of the cracker depends on material toughness at very low temperature, so brittle fracture screening matters more there than any corrosion rate.",
+        "Polymer reactors and their recycle, devolatilisation and extrusion systems run through cycles of pressure and temperature that bring fatigue alongside fouling and corrosion. Synthetic rubber and other specialty processes have mechanisms that the licensor's technology documents and the plant's own failure history describe better than any refinery list, and the study works from those sources. Where a unit has been idled or is being decommissioned, as the styrene plant was, any equipment that stays connected, pressurised or holding inventory still needs an inspection basis, and preserved equipment has mechanisms of its own."
+      ]
+    },
+    {
+      "id": "sarnia-consequence",
+      "h": "Consequence: people, the river and the spill plan",
+      "p": [
+        "Consequence of failure carries extra weight in Chemical Valley. Aamjiwnaang First Nation lies right beside several of the plants, the City of Sarnia is close by, and the St. Clair River flows past the sites towards communities that take drinking water from it and on to Lake St. Clair. A consequence model that treats off-site population or a release to water generically will understate the risk of equipment near the fence line or the river bank.",
+        "The study therefore asks for the plant's own consequence inputs: fluid properties and inventories, isolation and detection capability, and the distance from each unit to the fence line, to occupied buildings and to drainage paths that reach the river, together with the emergency response arrangements. Toxic consequence is modelled where the inventory calls for it, including hydrogen sulfide, ammonia and benzene-bearing streams.",
+        "Ontario's spill prevention and contingency plan regulation, O. Reg. 224/07 under the Environmental Protection Act, already requires the plants it covers to identify reasonably foreseeable spills, analyse their likelihood, map nearby sensitive places, assess the risk and keep equipment in good repair. The data an RBI consequence assessment needs overlaps heavily with that plan. The study is set up to draw on the spill plan's inventories and receptor information and to return inspection findings that support it, instead of building a second, inconsistent picture of the same risks."
+      ]
+    },
+    {
+      "id": "sarnia-river-weather",
+      "h": "River cooling water, lake weather and winter",
+      "p": [
+        "Where a plant cools with water drawn from the St. Clair River, its exchangers face a different corrosion picture from a seawater-cooled coastal site. Fresh water is less aggressive, but under-deposit corrosion, microbiologically influenced corrosion and fouling still develop where velocities fall, and invasive mussels have fouled Great Lakes intakes and cooling systems for decades. Exchanger RBI here asks for cooling water treatment records, velocity and outlet temperature data, the tube material and the eddy current or IRIS history of each bundle.",
+        "Winters off Lake Huron bring freeze-thaw cycles, snow and wind-driven moisture that work into damaged insulation, and humid summers do the same from the other direction. Corrosion under insulation is ranked on operating temperature history, cycling and insulation condition rather than design data, and austenitic stainless lines are checked for chloride cracking wherever wet insulation or deluge water can reach them. Tasks that need insulation stripped or tanks opened are tagged so they can be scheduled in the season and the outage window that suits them."
+      ]
+    },
+    {
+      "id": "sarnia-tssa",
+      "h": "Fitting an RBI plan to Ontario's certificate system",
+      "p": [
+        "Ontario regulates boilers and pressure vessels through TSSA under the Technical Standards and Safety Act and O. Reg. 220/01, and a regulated item needs a current certificate of inspection to operate. Large plants may run certified owner-user self-inspection programmes, and insured equipment can be inspected by the insurer's inspector. Atmospheric tanks sit outside that regime and are normally inspected to API 653 under the owner's own programme.",
+        "TSSA's published guideline for owner-user self-inspection does not deal with risk-based intervals, so in Ontario an RBI plan has to work within the inspection cycle the certificate relies on rather than replace it. The register carries, for each regulated item, its certificate basis and the next date on which the certificate requires an inspection, and any proposed RBI due date falling beyond it is flagged. In practice RBI in Ontario decides what each inspection covers, which method it uses and which items get earlier or more thorough attention, while the certificate cycle sets the outer limit unless TSSA agrees otherwise."
+      ]
+    },
+    {
+      "id": "sarnia-boundaries",
+      "h": "Interplant lines, shared utilities and study boundaries",
+      "p": [
+        "Chemical Valley sites trade feedstocks, products, steam and utilities across property lines, so drawing the study boundary is a real decision rather than a formality. A line that leaves one plant and enters another may be owned by one company, operated by another and regulated as a pipeline rather than as plant piping. The study begins by listing every item that crosses the boundary, who owns and operates it and which code governs its inspection, so that nothing is assessed twice or missed altogether.",
+        "Where an owner holds several sites in the valley, one RBI method, one risk matrix and one register across all of them make rankings comparable and let inspection resources follow the risk. Each site still keeps its own corrosion loops, operating windows and consequence data, because the same nominal service can behave quite differently on two units a few kilometres apart."
+      ]
+    },
+    {
+      "id": "sarnia-remote",
+      "h": "How the remote study is run for a Sarnia site",
+      "p": [
+        "Data arrives through a shared data room: P&IDs and PFDs, heat and material balances, datasheets and manufacturer's data reports with their Canadian registration numbers, inspection and thickness history, certificate records, process chemistry and integrity operating windows, cooling water data and the spill prevention plan's inventories. A data-gap log is issued first, so the plant can see which missing items will force conservative assumptions before any workshop is held.",
+        "Workshops run in Eastern time, an hour ahead of Houston, and the Hyderabad team carries the analysis forward while the plant is closed. Damage mechanisms are assigned by corrosion loop to API 571 and reviewed with your process, operations, corrosion and inspection specialists. Probability and consequence are calculated at the level the scope calls for, from qualitative screening to a quantitative assessment to API RP 581 or your corporate standard, and each item receives a plan with method, coverage, expected effectiveness and due date.",
+        "Nobody from Atlantis needs to be on site for the study, and Atlantis does not send field teams to Canadian sites. Walkdowns, checks on injection points and dead legs, insulation condition surveys and any extra readings are carried out by your own certified inspectors or your inspection contractor, working from a verification list that gives the location, method and coverage for each item."
+      ]
+    },
+    {
+      "id": "sarnia-approval",
+      "h": "Who accepts the plan in Ontario",
+      "p": [
+        "Acceptance belongs to the people Ontario's system recognises: the TSSA inspector, the insurer's inspector for insured equipment or the owner-user's certified self-inspection staff, and the owner's API 653 inspector for tanks. Atlantis does not act as inspector of record and certifies nothing in Ontario. Where inspection under the plan finds damage that calls for an engineering assessment of continued operation, that fitness-for-service work stays with the owner's engineer and is not offered by Atlantis; the register is then updated with the outcome."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 939-C (avoiding sulfidation corrosion failures)",
+    "API RP 941 (steels for hydrogen service)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "Ontario Regulation 220/01 (boilers and pressure vessels)",
+    "Ontario Regulation 224/07 (spill prevention and contingency plans)",
+    "CSA B51 (boiler, pressure vessel and pressure piping code)"
+  ],
+  "deliverables": [
+    "RBI register with separate refinery, olefins and specialty chemical corrosion loops",
+    "Inspection plan per item with method, coverage, expected effectiveness and due date",
+    "Certificate-cycle check flagging any due date beyond the inspection a certificate depends on",
+    "Consequence inputs aligned with the plant's O. Reg. 224/07 spill prevention plan",
+    "Boundary register for interplant lines and shared utilities",
+    "Data-gap log and verification list for the owner's inspectors"
+  ],
+  "industries": [
+    "Petroleum refining",
+    "Olefins and polyethylene",
+    "Synthetic rubber and specialty chemicals",
+    "Nitrogen fertiliser",
+    "Pipeline terminals and tank farms",
+    "Cogeneration and utilities"
+  ],
+  "faqs": [
+    { "q": "Can we use RBI to extend inspection intervals on Ontario pressure vessels?", "a": "RBI can decide what each inspection covers and prioritise equipment within the cycle, but regulated equipment still needs a current certificate of inspection under O. Reg. 220/01, and TSSA's owner-user guideline does not address risk-based intervals. Any proposed due date beyond the inspection the certificate depends on is flagged, so the owner can raise it with TSSA before relying on it." },
+    { "q": "How does the study handle consequence near Aamjiwnaang First Nation and the river?", "a": "Off-site receptors are modelled explicitly rather than generically. The study uses the distance from each unit to the fence line, to occupied areas and to drainage paths that reach the St. Clair River, together with inventories, isolation and detection. Equipment whose release could reach people or the river ranks higher for the same probability of failure, and its plan reflects that." },
+    { "q": "Can the RBI study use our O. Reg. 224/07 spill plan?", "a": "Yes, and it should. The spill plan already identifies foreseeable spills, analyses their likelihood and maps nearby sensitive places. The study reuses those inventories and receptor maps in its consequence assessment and returns inspection priorities that support the plan, so the two documents describe the same risks in the same way." },
+    { "q": "Can one RBI programme cover our refinery and chemical units?", "a": "Yes, with one method and risk matrix and separate corrosion loops for each process. Refinery sulfidation and hydroprocessing mechanisms, cracker furnace and cold-end mechanisms and specialty chemical mechanisms are assessed from each unit's own process and materials data, so rankings stay comparable without assumptions leaking from one process into another." },
+    { "q": "How are exchangers on river cooling water assessed?", "a": "From cooling water treatment records, tube velocities and outlet temperatures, tube material and each bundle's tube inspection history. Under-deposit corrosion, microbiologically influenced corrosion and mussel fouling are the usual drivers, and the plan names which bundles to pull and test at the next outage and to what coverage." },
+    { "q": "What happens to equipment in a unit that has been shut down?", "a": "If it is disconnected, emptied and isolated, it can be recorded as out of service with its status stated. If it stays connected, under pressure or holding inventory, it still needs an inspection basis. Mothballed equipment has its own mechanisms, such as corrosion under trapped moisture, so the study records the preservation method and checks it." },
+    { "q": "Will Atlantis send inspectors to Sarnia?", "a": "No. RBI studies for Canadian sites are delivered remotely, and Atlantis does not send field teams to Canada. Your inspectors or contractor carry out the walkdowns and readings the data-gap log calls for, and the results are loaded into the register so the affected items can be reassessed." },
+    { "q": "Who approves the plan?", "a": "For regulated pressure equipment, the TSSA inspector, the insurer's inspector or your certified owner-user staff; for tanks, your API 653 inspector. The study proposes tasks and dates with the reasoning behind each one, while approval and accountability stay with the owner." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/edmonton", "RBI in Edmonton and the Industrial Heartland"],
+    ["/inspection/risk-based-inspection/saint-john", "RBI in Saint John, New Brunswick"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/standards/api-584", "API 584 integrity operating windows"],
+    ["/consulting/api-570-piping-inspector-services", "API 570 piping inspection support"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"]
+  ],
+  "sources": [
+    { "fact": "Imperial Sarnia refinery 124,000 b/d; full turnaround planned Q3/Q4 2026", "url": "https://ogj.com/refining-processing/refining/operations/news/55338848/imperial-plans-2026-turnarounds-at-two-canadian-refineries" },
+    { "fact": "Shell Sarnia Manufacturing Centre refines approximately 75,000 barrels per day into gasoline, diesel, jet fuel and more", "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/sarnia-manufacturing-centre.html" },
+    { "fact": "Imperial Sarnia refinery and chemical complex", "url": "https://www.gem.wiki/Imperial_Oil_Sarnia_Refinery_and_Chemical_Complex" },
+    { "fact": "Imperial, Suncor Sarnia refineries; NOVA Chemicals Corunna cracker and polyethylene; ARLANXEO butyl rubber; CF Industries Courtright nitrogen; cogeneration steam (already on the site)", "url": "https://atlantisndt.com/consulting/ndt-consulting-sarnia" },
+    { "fact": "INEOS Styrolution Sarnia styrene plant officially closed (December 2025)", "url": "https://petrolialambtonindependent.ca/2025/12/18/ineos-officially-closed-after-saying-new-benzene-targets-impossible-to-meet/" },
+    { "fact": "Enbridge Line 5 crosses the St. Clair River into Sarnia; area laced with interconnecting pipelines, tank farms and storage caverns (already on the site)", "url": "https://atlantisndt.com/ndt-training-sarnia" },
+    { "fact": "Aamjiwnaang First Nation adjacent to Chemical Valley plants", "url": "https://Www.wikipedia.org/wiki/Environmental_impact_of_the_chemical_industry_in_Sarnia" },
+    { "fact": "O. Reg. 224/07 Spill Prevention and Contingency Plans (Environmental Protection Act): identify reasonably foreseeable spills, likelihood analysis, map of nearby sensitive places, risk assessment, maintaining equipment in good repair; applies to classes prescribed in O. Reg. 222/07", "url": "https://www.ontario.ca/laws/regulation/070224" },
+    { "fact": "TSSA owner-user self-inspection guideline does not address risk-based intervals; O. Reg. 220/01 certificate of inspection (verified for the Canada page)", "url": "https://www.tssa.org/sites/default/files/2026-06/Guideline%20for%20Companies%20Requesting%20Certificatation%20for%20Owner-User%20Self%20Inspection%20-%2004-26.pdf" }
+  ]
+}

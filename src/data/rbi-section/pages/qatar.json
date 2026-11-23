@@ -1,0 +1,272 @@
+{
+ "title": "Risk-Based Inspection in Qatar: LNG, GTL and Refinery RBI",
+ "description": "Remote RBI studies for Qatar's LNG trains, condensate refineries, GTL plants and Mesaieed industries: frameworks, damage mechanisms and how the work runs.",
+ "h1": "Risk-based inspection for Qatar's LNG, refining and industrial plants",
+ "eyebrow": "Risk-based inspection in Qatar",
+ "intro": "Qatar's hydrocarbon industry is concentrated in two industrial cities and built around one resource, the North Field gas. That gives RBI here a different shape from a crude-oil country: LNG trains, condensate splitters, gas-to-liquids plants, ethane crackers and fertiliser plants make up most of the equipment, and cryogenic, amine and ammonia service matter as much as crude-unit corrosion. This page explains how inspection is governed, where the plants are, which damage mechanisms the assets and the climate bring, and how Atlantis delivers an RBI study remotely for a Qatari facility.",
+ "highlights": [
+  {
+   "h": "A gas-led asset mix",
+   "p": "Most of Qatar's process equipment exists to treat, liquefy, convert or split North Field gas and condensate. The risk register therefore leans towards cryogenic, acid gas, sulfur, ammonia and urea service, and the damage mechanism library has to reflect that from the first workshop."
+  },
+  {
+   "h": "Owner standards decide",
+   "p": "Inspection requirements for Qatar's plants are set chiefly in the operating companies' own standards and contracts. The study is built to the governing company's RBI procedure and risk matrix, so it can be adopted without being reworked into another format."
+  },
+  {
+   "h": "Remote by design",
+   "p": "Ras Laffan and Mesaieed have controlled access. A remote study avoids passes and mobilisation entirely: records move through a data room, decisions are taken in video workshops on Arabia Standard Time, and the plant's own inspectors verify on site."
+  }
+ ],
+ "sections": [
+  {
+   "id": "qatar-framework",
+   "h": "How inspection is governed in Qatar",
+   "p": [
+    "We have not found a published Qatari regulation that sets in-service inspection intervals for refinery, LNG or petrochemical pressure equipment, or one that addresses risk-based inspection directly. In practice the requirements are written into the operating companies' own engineering and inspection standards and reach contractors through their specifications. QatarEnergy, its group companies and joint ventures, and the international companies that operate alongside them each maintain such standards, which commonly draw on the API and ASME inspection codes and on API RP 580, API RP 581 or ASME PCC-3 for risk-based planning.",
+    "The industrial cities add a further layer. Mesaieed and its industrial area are administered by a division of QatarEnergy, and parts of the area passed to the Economic Zones Company (Manateq) in 2017. Ras Laffan Industrial City, about 80 km north-east of Doha, hosts the LNG trains, the Laffan Refinery, the gas-to-liquids plants and their export port. Each city has its own access, permit and environmental conditions, which matter to an RBI study mainly on the consequence side: a release inside a congested industrial city, or into the shallow Gulf waters around it, carries consequences the model has to capture.",
+    "Where several companies share an industrial city, utilities and infrastructure are often owned by one party and used by many. The study records who owns each asset in scope and whose procedure applies, so a shared pipe rack or a common seawater system is not assessed twice to two different methodologies."
+   ]
+  },
+  {
+   "id": "qatar-capacity",
+   "h": "Where Qatar's plants are",
+   "p": [
+    "Ras Laffan is the centre of the gas industry. QatarEnergy LNG, formerly Qatargas, operates fourteen LNG export trains there, and the North Field East, South and West projects add further trains. The city also holds the Laffan Refinery, a condensate refinery of about 306,000 barrels per day formed when Laffan Refinery 1 and 2 were merged in 2023; Shell's Pearl GTL, which the US Energy Information Administration describes as the world's largest gas-to-liquids facility; and Oryx GTL, a joint venture of QatarEnergy and Sasol.",
+    "Mesaieed, south of Doha, is the older industrial base. It holds QatarEnergy's refinery, about 137,000 barrels per day with a crude distillation unit for Dukhan crude and a condensate splitter for North Field condensate, together with Qatar Fertiliser Company (QAFCO), Qatar Petrochemical Company (QAPCO), Qatar Chemical Company (Q-Chem), Qatar Vinyl Company, Qatar Fuel Additives Company, Qatar Steel, Qatalum and Mesaieed Port. Dukhan, on the west coast, is the onshore oil field whose crude feeds that refinery.",
+    "The table groups the plants by the equipment classes that dominate their RBI scope."
+   ],
+   "table": {
+    "head": [
+     "Area",
+     "Main assets",
+     "Equipment classes that dominate the RBI scope"
+    ],
+    "rows": [
+     [
+      "Ras Laffan: LNG",
+      "Liquefaction trains, acid gas removal, sulfur recovery, LNG and LPG storage and loading",
+      "Cryogenic exchangers and piping, amine and sulfur units, refrigerated tanks, seawater cooling"
+     ],
+     [
+      "Ras Laffan: refining and GTL",
+      "Condensate splitters, hydrotreaters, Fischer-Tropsch synthesis and upgrading units",
+      "Hydroprocessing reactors and exchangers, condensate tankage, high-temperature hydrogen service"
+     ],
+     [
+      "Mesaieed: refining",
+      "Crude unit, condensate splitter, product storage",
+      "Crude unit and overhead corrosion, sulfidation, tank floors"
+     ],
+     [
+      "Mesaieed: fertiliser and petrochemicals",
+      "Ammonia and urea plants, ethylene, polyethylene, vinyl and fuel additive plants",
+      "Ammonia storage, urea synthesis, cracked gas and caustic service, chloride and wet hydrogen chloride service in vinyl production"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "lng-rbi",
+   "h": "What changes when the plant makes LNG",
+   "p": [
+    "An LNG train concentrates mechanisms that a refinery RBI library treats as secondary. Inlet facilities and acid gas removal carry wet H2S, CO2 and amine service, so carbonic acid corrosion, amine corrosion and amine stress corrosion cracking need explicit treatment. Downstream, much of the cold section is austenitic stainless steel or aluminium and largely free of internal corrosion, but carbon steel nearby is at risk of brittle fracture if a cold release or an upset takes it below its design temperature, and the consequence of a cryogenic leak is driven by flammable vapour dispersion rather than by liquid pool spread alone.",
+    "Several mechanisms are specific enough to be missed. Where mercury is present in the feed gas and its removal is imperfect, brazed aluminium heat exchangers are vulnerable to liquid metal embrittlement, which gives little warning. Equipment that cycles between ambient and cryogenic temperature, such as some loading lines and boil-off systems, can suffer thermal fatigue at supports and welds, and cold insulation that fails lets moisture freeze into the system and corrode the steel during warm periods. Refrigerated LNG and LPG tanks bring their own inspection limits: internal entry is rare, so the study leans on monitoring, settlement and external evidence, and records why an internal inspection is or is not credited.",
+    "For new trains the opportunity is to start risk-based. A baseline study built from design data, material certificates and pre-service thickness readings lets the first in-service plan follow the risk from day one, instead of applying generic intervals until enough history has accumulated."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/damage-mechanism-review",
+     "Damage mechanism review"
+    ],
+    [
+     "/standards/api-571",
+     "API 571 damage mechanisms"
+    ],
+    [
+     "/api-inspection/amine-caustic-cracking",
+     "Amine and caustic cracking"
+    ]
+   ]
+  },
+  {
+   "id": "qatar-climate",
+   "h": "Coastal climate and site conditions",
+   "p": [
+    "Both industrial cities sit on the coast, on low ground with saline soils, in a climate that alternates extreme summer heat with humid nights. The external mechanisms are the familiar Gulf set, but their weight in the register is high because so much equipment is insulated: hot and cold insulation, jacketing that degrades under UV, and frequent wetting from condensation, winter fog and fire water testing. Carbon steel under insulation, chloride cracking of stainless steel under wet insulation and corrosion at insulation penetrations and supports are often among the higher-ranked items.",
+    "Seawater is the main cooling medium at both sites, and Gulf water off Qatar is warm and saline. Seawater-side pitting and crevice corrosion, fouling, microbiologically influenced corrosion and erosion at exchanger inlets belong in the loops for every seawater-cooled exchanger, along with the intake and outfall piping, which often uses lined or non-metallic material whose inspection needs its own approach. Tank farms on saline ground add soil-side floor corrosion, where the condition of cathodic protection and the tank pad decides much of the probability."
+   ],
+   "links": [
+    [
+     "/api-inspection/cui-in-api-570-and-api-510-inspection-plans",
+     "CUI in inspection plans"
+    ],
+    [
+     "/standards/api-583",
+     "API 583 and corrosion under insulation"
+    ]
+   ]
+  },
+  {
+   "id": "fertiliser-petrochemical",
+   "h": "Fertiliser and petrochemical plants at Mesaieed",
+   "p": [
+    "Ammonia and urea plants carry mechanisms that a refinery-trained team can underestimate. Ammonia stored in carbon steel spheres and tanks is susceptible to ammonia stress corrosion cracking, which depends on the oxygen and water content of the ammonia and on residual stress, so the inspection plan needs a crack-detection technique and an interval tied to those controls. Urea synthesis equipment is exposed to carbamate corrosion of its stainless steel and needs passivation and liner inspection that ordinary thickness monitoring does not cover. Reformers and high-temperature synthesis loops add creep and high-temperature hydrogen attack screening.",
+    "Ethylene and polymer plants bring cracked gas compression, caustic towers with their caustic cracking risk, dilution steam systems and cold sections down to cryogenic temperatures. Vinyl production adds chloride and wet hydrogen chloride service, where small changes in moisture move corrosion rates sharply. An RBI study for these sites works best when the damage mechanism review takes in the licensor's materials guidance as well as API RP 571, and when the integrity operating windows for moisture, oxygen and temperature are written into the plan."
+   ]
+  },
+  {
+   "id": "qatar-scopes",
+   "h": "What Qatari owners typically need",
+   "p": [
+    "Requests from Qatar reflect a large and growing gas-based asset base. The scopes that come up most are:"
+   ],
+   "list": [
+    "Baseline RBI for new LNG trains and their utilities, so inspection planning is risk-based from the first shutdown",
+    "Reassessment of existing trains ahead of a planned shutdown, with the work list and on-stream programme drawn from the result",
+    "Harmonising RBI methods and registers where organisations or units have merged, such as the two Laffan refineries combined in 2023, so one methodology and one risk matrix cover the whole asset",
+    "Independent review of a contractor's RBI study before it is adopted",
+    "Tank and sphere programmes for LNG, LPG, condensate and ammonia storage, where internal inspection is infrequent and indirect evidence carries the plan",
+    "A coastal CUI campaign that ranks insulated lines and vessels so stripping and inspection start where risk is highest",
+    "Updating the RBI after a change in feed composition, for example a new gas source with different acid gas or mercury content"
+   ]
+  },
+  {
+   "id": "qatar-remote-delivery",
+   "h": "How the study runs from outside Qatar",
+   "p": [
+    "Qatar keeps Arabia Standard Time, three hours ahead of UTC, with no daylight saving and a Friday and Saturday weekend for most companies. Hyderabad is two and a half hours ahead of Doha, which puts the plant's whole working day inside Indian office hours, and Houston follows on after the Qatari day for review and drafting. Workshops are booked in the plant's hours, kept short and frequent rather than long, and shortened further during Ramadan.",
+    "Records go into a data room, which can be hosted on the owner's own platform: P&IDs and PFDs, heat and material balances, equipment datasheets and data reports, licensor materials guidance, inspection and thickness history, corrosion monitoring data, process chemistry and the integrity operating windows. A gap log is issued before the workshops start. In the workshops, operations, process, corrosion and inspection specialists confirm corrosion loops and damage mechanisms against API RP 571, and probability and consequence are then worked out at the level the owner's procedure sets, whether qualitative, semi-quantitative or quantitative to API RP 581.",
+    "Each item comes out with a plan: technique, coverage, expected effectiveness and due date, with CML and TML locations rationalised where the thickness history allows. Verification on site, from nameplate checks to confirming that isometrics match the pipe, is done by the owner's inspectors or contractor, guided by a walkdown list that explains what each check decides. Nobody from Atlantis needs a Ras Laffan or Mesaieed pass for the study."
+   ]
+  },
+  {
+   "id": "qatar-approval",
+   "h": "Approval and what stays with the owner",
+   "p": [
+    "The deliverable proposes intervals and inspection tasks with their reasoning, and the owner's inspection authority accepts or changes them. Atlantis does not take on the inspector-of-record role and does not approve intervals for Qatari assets.",
+    "When an inspection reveals damage that needs an engineering judgement on continued service, the fitness-for-service work is done by the owner's engineers, not by Atlantis. The RBI model is then updated with their decision so that later due dates reflect it."
+   ]
+  }
+ ],
+ "codes": [
+  "API RP 580 (elements of a risk-based inspection programme)",
+  "API RP 581 (RBI methodology)",
+  "ASME PCC-3 (inspection planning using risk-based methods)",
+  "API RP 571 (damage mechanisms)",
+  "API 510, API 570 and API 653",
+  "API RP 583 (corrosion under insulation)",
+  "API RP 584 (integrity operating windows)"
+ ],
+ "deliverables": [
+  "RBI register per item in the owner's risk matrix: damage mechanisms, probability, consequence and risk",
+  "Inspection plan per item with technique, coverage, effectiveness and due date",
+  "Damage mechanism basis covering cryogenic, amine, sulfur, ammonia and urea service where in scope",
+  "Storage programme for refrigerated tanks and spheres, stating how indirect evidence is credited",
+  "Ownership map of shared utilities and infrastructure in the study scope",
+  "Data-gap log and walkdown list for the owner's inspectors",
+  "Reassessment triggers tied to feed composition, integrity operating windows and management of change"
+ ],
+ "industries": [
+  "LNG production and export",
+  "Condensate refining",
+  "Gas-to-liquids",
+  "Fertilisers (ammonia and urea)",
+  "Petrochemicals and polymers",
+  "Crude oil refining and storage"
+ ],
+ "faqs": [
+  {
+   "q": "Is RBI required by law in Qatar?",
+   "a": "We have not found a Qatari regulation that requires RBI or sets in-service intervals for refinery and LNG equipment. The requirement normally sits in the operating company's own standards, which commonly adopt API RP 580 and 581 or ASME PCC-3 for risk-based planning, together with the industrial city's permit and environmental conditions."
+  },
+  {
+   "q": "Can RBI be applied to cryogenic LNG equipment?",
+   "a": "Yes, with a damage mechanism library suited to it. Much of the cold section has low internal corrosion risk, so the assessment concentrates on brittle fracture of nearby carbon steel, cold insulation failure, thermal fatigue in cycling lines and, where mercury may be present, liquid metal embrittlement of aluminium exchangers. Consequence modelling reflects vapour dispersion from a cryogenic release."
+  },
+  {
+   "q": "We have just started up a new train. When should RBI start?",
+   "a": "Before the first shutdown plan is fixed. A baseline study from design data, material certificates and pre-service readings sets risk-based intervals from the outset, and the first inspections then confirm or correct the predicted corrosion rates instead of discovering them from scratch."
+  },
+  {
+   "q": "Do your studies cover ammonia and urea plants?",
+   "a": "Yes. The study covers ammonia stress corrosion cracking in storage, carbamate corrosion in urea synthesis, creep and hydrogen attack screening in reformers and synthesis loops, and the integrity operating windows that control them. Licensor materials guidance is included in the damage mechanism review alongside API RP 571."
+  },
+  {
+   "q": "Will Atlantis staff need site access in Ras Laffan or Mesaieed?",
+   "a": "No. The study is delivered remotely through a data room and video workshops, so no passes or mobilisation are needed. Your inspectors or inspection contractor carry out walkdowns and any readings that close a data gap, using a list that sets out the purpose, technique and coverage of each check."
+  },
+  {
+   "q": "How do you handle two companies' procedures on one site?",
+   "a": "We record the owner and the governing procedure for every asset in scope and apply that procedure's method and risk matrix to it. Shared utilities and pipe racks are assigned to one owner's register, so they are not assessed twice in different ways."
+  },
+  {
+   "q": "What working hours do the workshops use?",
+   "a": "The plant's own, on Arabia Standard Time, in a Sunday-to-Thursday week. Hyderabad's day overlaps the Qatari day completely, so sessions can be scheduled whenever operations staff are free, with document review continuing between them."
+  },
+  {
+   "q": "Who signs the inspection plan?",
+   "a": "The owner's inspection authority. The study supplies proposed intervals and tasks with the evidence behind each one; it does not approve them, and fitness-for-service judgements remain with the owner's engineers."
+  }
+ ],
+ "related": [
+  [
+   "/inspection/risk-based-inspection/saudi-arabia",
+   "RBI in Saudi Arabia"
+  ],
+  [
+   "/inspection/risk-based-inspection/united-arab-emirates",
+   "RBI in the United Arab Emirates"
+  ],
+  [
+   "/inspection/risk-based-inspection/kuwait",
+   "RBI in Kuwait"
+  ],
+  [
+   "/inspection/risk-based-inspection/remote-rbi",
+   "How a remote RBI study works"
+  ],
+  [
+   "/inspection/risk-based-inspection/damage-mechanism-review",
+   "Damage mechanism review and corrosion loops"
+  ],
+  [
+   "/inspection/risk-based-inspection/pressure-vessel-rbi",
+   "RBI for pressure vessels and heat exchangers"
+  ],
+  [
+   "/standards/api-581",
+   "API 581 explained"
+  ],
+  [
+   "/standards/api-584",
+   "API 584 integrity operating windows"
+  ],
+  [
+   "/inspection/turnarounds-shutdowns",
+   "Turnaround and shutdown inspection"
+  ],
+  [
+   "/contact",
+   "Contact Atlantis"
+  ]
+ ],
+ "sources": [
+  {
+   "fact": "Refineries: Mesaieed/Umm Said (QatarEnergy 100%, 137 kb/d: 80 kb/d CDU on Dukhan crude + 57 kb/d condensate splitter); Laffan Refinery (306 kb/d condensate splitter; LR1 and LR2 merged February 2023); Pearl GTL (Shell) world's largest GTL; Oryx GTL (QatarEnergy 51%, Sasol 49%); QatarEnergy LNG (formerly Qatargas) operates 14 LNG export trains; North Field East, South and West expansion projects",
+   "url": "https://www.eia.gov/international/content/analysis/countries_long/qatar"
+  },
+  {
+   "fact": "Ras Laffan Industrial City located 80 km north-east of Doha, energy-industry hub with port, storage and export facilities",
+   "url": "https://www.qatarenergylng.qa/Operations/Ras-Laffan-Industrial-City"
+  },
+  {
+   "fact": "Mesaieed Industrial Area: QP Refinery, QAFCO, QAFAC, QAPCO, Qatar Steel, QVC, Q-Chem, Qatalum, Mesaieed port; administered by a subdivision of QatarEnergy; portions transferred to Manateq effective January 2017",
+   "url": "https://en.wikipedia.org/wiki/Mesaieed_Industrial_Area"
+  },
+  {
+   "fact": "Ras Laffan port loads products of the Pearl and Oryx GTL plants; strict port entry controls; warm Gulf intake water (already on the site)",
+   "url": "https://atlantisndt.com/maritime/ras-laffan"
+  }
+ ]
+}

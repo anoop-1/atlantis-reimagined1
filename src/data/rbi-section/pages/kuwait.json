@@ -1,0 +1,298 @@
+{
+ "title": "Risk-Based Inspection in Kuwait: Refineries, Gas and Tanks",
+ "description": "Remote RBI for Kuwait's Mina Al-Ahmadi, Mina Abdullah and Al-Zour refineries, gas plants and tank farms: frameworks, northern Gulf damage and scheduling.",
+ "h1": "Risk-based inspection for Kuwaiti refineries, gas plants and tank farms",
+ "eyebrow": "Risk-based inspection in Kuwait",
+ "intro": "Kuwait's oil industry is organised under one state holding company and a small number of operating companies, which makes the governing standards easy to identify and the scope of an RBI study easy to draw. The asset base is unusual, though: two long-established refineries and a large grassroots refinery that reached full operation in 2024 share the coast south of Kuwait City, alongside upstream gathering facilities that handle sand and produced water in one of the hottest climates the industry works in. This page covers the framework, the facilities, the damage mechanisms and how Atlantis delivers an RBI study remotely for a Kuwaiti plant.",
+ "highlights": [
+  {
+   "h": "A compact operating structure",
+   "p": "Kuwait Petroleum Corporation's operating companies divide the industry clearly: Kuwait Oil Company upstream, Kuwait National Petroleum Company in refining and gas, and Kuwait Integrated Petroleum Industries Company at Al-Zour. Each asset's governing standard is therefore known before the study begins."
+  },
+  {
+   "h": "Old and new side by side",
+   "p": "Decades of inspection history on one site, design data and baseline readings on another. The study treats them differently: corrosion rates from history where it exists, conservative predictions where it does not, with the gap closing at each inspection."
+  },
+  {
+   "h": "Fits the Kuwaiti week",
+   "p": "Workshops run Sunday to Thursday on Arabia Standard Time. Hyderabad sits two and a half hours ahead of Kuwait City, so the plant's full day is covered, and nobody needs to travel for the study."
+  }
+ ],
+ "sections": [
+  {
+   "id": "kuwait-structure",
+   "h": "Who owns what in Kuwait's oil sector",
+   "p": [
+    "Kuwait's hydrocarbon assets are held by operating companies of Kuwait Petroleum Corporation. Kuwait Oil Company (KOC) runs exploration and production, including the gathering facilities that separate oil, gas and water in the fields, the crude storage behind the coast and the export facilities at Mina Al Ahmadi, where crude is loaded onto tankers, very large crude carriers among them. Kuwait National Petroleum Company (KNPC) runs the Mina Al-Ahmadi and Mina Abdullah refineries, the gas plant at Mina Al-Ahmadi, the LPG filling plants at Shuaiba and Umm Al-Aish and the local fuel depot network. Kuwait Integrated Petroleum Industries Company (KIPIC) was formed for the Al-Zour complex, and KNPC has reported progress on merging the two companies, with the Al-Zour refinery included in the merger. Al-Zour also has an LNG import facility.",
+    "Petrochemicals form a separate branch, and Kuwait Oil Tanker Company runs the national tanker fleet. For an RBI study the practical consequence is clarity: each asset belongs to one operating company whose engineering standards, inspection procedures and approval route are defined, and contractors work to them through their contracts. The study confirms which company's procedure applies, and what risk matrix and targets it sets, before any analysis starts.",
+    "We have not found a published Kuwaiti regulation that fixes in-service inspection intervals or requires RBI for refinery or upstream equipment. The requirements sit in the companies' own standards, which commonly reference the API and ASME inspection codes, and in the fire, environmental and safety conditions the state's authorities apply to the facilities."
+   ]
+  },
+  {
+   "id": "kuwait-facilities",
+   "h": "The refineries, gas plant and export terminal",
+   "p": [
+    "KNPC gives the capacity of Mina Al-Ahmadi as 346,000 barrels per day and Mina Abdullah as 454,000 barrels per day. The Al-Zour refinery, inaugurated in May 2024 and in full operation the same year, adds 615,000 barrels per day, which on the reported figures makes it the largest refinery in the country.",
+    "The gas plant at Mina Al-Ahmadi, inaugurated in 1978, has five trains. Upstream, KOC's gathering facilities separate produced fluids before crude moves to storage and export, and the export facilities at Mina Al Ahmadi load tankers at berth and at offshore loading points. The table sets out where the RBI effort usually concentrates in each group of facilities."
+   ],
+   "table": {
+    "head": [
+     "Facility group",
+     "Operating company",
+     "Where the RBI effort usually concentrates"
+    ],
+    "rows": [
+     [
+      "Mina Al-Ahmadi refinery and gas plant",
+      "KNPC",
+      "Long inspection histories to turn into corrosion rates, crude and overhead corrosion, sulfidation, amine and sour water service, gas plant cold sections"
+     ],
+     [
+      "Mina Abdullah refinery",
+      "KNPC",
+      "Process units in sulfur and hydrogen service, crude unit corrosion, product tankage"
+     ],
+     [
+      "Al-Zour refinery",
+      "KIPIC, with the merger into KNPC under way",
+      "Baseline assessment from design and pre-service data, and verification of predicted corrosion rates at the first shutdowns"
+     ],
+     [
+      "Gathering facilities and export terminal",
+      "KOC",
+      "Sand erosion, produced water corrosion, crude tank floors, marine loading lines"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "kuwait-climate",
+   "h": "Heat, dust and the northern Gulf",
+   "p": [
+    "Kuwait's summers are among the hottest any oil-producing coast experiences, and the facilities stand beside the shallow northern Gulf, whose water is warm and saline. Dust storms deposit fine sand that holds moisture and salts against steel and abrades coatings, and the swing between day and night temperatures cracks sealants and lifts jacketing. On insulated equipment those conditions mean more water ingress and longer wet periods, so corrosion under insulation on carbon steel and chloride cracking of stainless steel are standing items in coastal plant registers.",
+    "Process water and cooling water bring their own problems. Seawater-cooled exchangers and intake systems drawing on the warm, silty northern Gulf face fouling, under-deposit corrosion, pitting and erosion, and the deposits themselves can harbour microbiologically influenced corrosion. Tank farms on saline coastal ground carry soil-side floor corrosion risk, and the study treats cathodic protection records, pad condition and drainage as inputs to the probability rather than afterthoughts."
+   ],
+   "links": [
+    [
+     "/standards/api-583",
+     "API 583 and corrosion under insulation"
+    ],
+    [
+     "/api-inspection/chloride-stress-corrosion-cracking",
+     "Chloride stress corrosion cracking"
+    ]
+   ]
+  },
+  {
+   "id": "kuwait-upstream",
+   "h": "Upstream: sand, water and sour service",
+   "p": [
+    "KOC's gathering facilities handle produced fluids rather than refined streams, and the damage picture differs accordingly. Where fields produce sand, erosion and erosion-corrosion concentrate at bends, tees, chokes and downstream of control valves, and the rate depends on flow velocity and sand rate as much as on metallurgy. Produced water carries chlorides, dissolved CO2 and, in some streams, H2S, so separators, water handling and water injection systems need assessment for CO2 corrosion, wet H2S damage and under-deposit attack, with microbiologically influenced corrosion in stagnant sections and deadlegs.",
+    "RBI for this kind of facility leans on monitoring data as much as on periodic inspection. Sand detector and erosion probe records, coupon and probe corrosion rates, inhibitor availability and water chemistry belong in the data room, because they show whether the conditions the risk model assumes are holding. Where monitoring and inspection disagree, the study flags the discrepancy rather than averaging it away, and the plan says which measurement should settle it."
+   ],
+   "links": [
+    [
+     "/api-inspection/erosion-corrosion-piping",
+     "Erosion-corrosion in piping"
+    ],
+    [
+     "/inspection/risk-based-inspection/piping-rbi",
+     "RBI for process piping"
+    ],
+    [
+     "/api-inspection/api-570-deadleg-inspection",
+     "Deadleg inspection"
+    ]
+   ]
+  },
+  {
+   "id": "kuwait-storage",
+   "h": "Crude, product and gas storage",
+   "p": [
+    "Storage in Kuwait spans three quite different populations, and an RBI study treats each on its own terms. Crude tanks behind the export facilities and at the refineries see water and sediment settling out of the crude onto the floor, where product-side pitting develops under the sludge, while the underside of the floor sits on saline coastal ground and depends on its cathodic protection and pad drainage. Product tanks at the refineries and depots change grade and turn over often, which works floating roofs, seals and roof drains, and the summer heat on shells and roofs ages coatings and seals faster than in milder climates. For both, the alternative internal interval in API 653, set by an RBI assessment made to API RP 580, lets out-of-service inspections follow condition and consequence rather than a fixed calendar, once the owner's inspection authority accepts it.",
+    "Gas and LPG storage is pressure equipment and follows the vessel code instead. Spheres and bullets at the gas plant and the LPG filling plants carry external corrosion risk at legs, under fireproofing and at insulation or support contact points, and wet H2S or caustic carryover can bring cracking risk inside, so the plan has to say which welds receive crack detection and how often. Refrigerated LNG storage at Al-Zour sits in its own category: internal entry is seldom possible, and the assessment relies on settlement monitoring, temperature records, external examination and the tank's operating history to decide what can be credited."
+   ],
+   "links": [
+    [
+     "/standards/api-653",
+     "API 653 explained"
+    ],
+    [
+     "/consulting/api-510-pressure-vessel-inspector-services",
+     "API 510 pressure vessel inspector support"
+    ]
+   ]
+  },
+  {
+   "id": "kuwait-old-and-new",
+   "h": "Assessing a new refinery beside established ones",
+   "p": [
+    "An RBI study for a long-established refinery and one for a newly commissioned plant start from opposite ends. On the older units decades of inspection records exist, and the work is to turn them into credible corrosion rates: reconciling readings taken to different procedures, recognising where CMLs have moved, separating real thinning from measurement scatter and deciding how much credit each past inspection deserves. On a new refinery such as Al-Zour there is little history, so probability rests on predicted corrosion rates from the design basis, materials selection and process chemistry, and the first inspections are planned specifically to test those predictions.",
+    "Organisational change adds a third task. Where companies merge, as KNPC and KIPIC have been doing, RBI programmes built by different teams to different procedures, risk matrices and terminology have to be brought together. A harmonisation study maps each register to one methodology, resolves differences in consequence assumptions and risk targets, and produces a single register that the combined inspection organisation can maintain. Differences that need a management decision, such as which risk target applies, are listed for that decision rather than settled quietly inside the model."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/rbi-revalidation-audit",
+     "RBI revalidation and audit readiness"
+    ],
+    [
+     "/api-inspection/corrosion-rate-calculation-long-term-short-term",
+     "Long-term and short-term corrosion rates"
+    ]
+   ]
+  },
+  {
+   "id": "kuwait-scopes",
+   "h": "What Kuwaiti owners usually need",
+   "p": [
+    "The requests we expect from Kuwaiti facilities follow from that asset mix:"
+   ],
+   "list": [
+    "Turning long inspection histories at an established refinery into defensible corrosion rates and CML sets before the next shutdown",
+    "Baseline and first-cycle RBI for recently commissioned units, with an inspection plan built to test the design corrosion predictions",
+    "Harmonising RBI registers, methods and risk matrices across organisations that are merging",
+    "Erosion and produced-water risk ranking for gathering facilities, combining monitoring data with inspection results",
+    "Crude and product tank ranking so floor scans and out-of-service inspections go where condition and consequence justify them",
+    "A CUI and external corrosion programme for coastal plant exposed to heat, dust and humidity",
+    "Independent review of an existing RBI study before an interval extension is relied on"
+   ]
+  },
+  {
+   "id": "kuwait-remote-delivery",
+   "h": "Running the study remotely from Houston and Hyderabad",
+   "p": [
+    "Kuwait keeps Arabia Standard Time, UTC plus three hours, with no daylight saving, and the working week runs Sunday to Thursday for most companies. Hyderabad is two and a half hours ahead, so Kuwaiti working hours fall entirely within the Indian working day, while Houston, eight or nine hours behind Kuwait depending on the season, picks up document review once the Kuwaiti day closes. During Ramadan, sessions are moved and shortened to suit the plant's reduced hours.",
+    "The inputs are the familiar ones, gathered in a data room the owner can host: P&IDs and PFDs, heat and material balances, datasheets and manufacturer's data reports, inspection and thickness history, monitoring data, process chemistry and integrity operating windows. Before workshops, the data is screened and a gap log issued. Workshops with the plant's process, operations, corrosion and inspection specialists confirm the corrosion loops and assign damage mechanisms to API RP 571, and probability and consequence are then calculated at the depth the company's procedure calls for, up to a quantitative assessment to API RP 581.",
+    "For every item the study proposes the inspection technique, the coverage, the effectiveness that technique can be credited with and a due date, and recommends where CMLs and TMLs can be added, moved or retired. Field checks, from confirming nameplates to taking the readings a data gap calls for, are done by the owner's inspectors or contractor; Atlantis does not send field teams to Kuwait for the study."
+   ]
+  },
+  {
+   "id": "kuwait-approval",
+   "h": "Approval stays with the operating company",
+   "p": [
+    "The output is a recommendation backed by its evidence. The operating company's inspection authority approves intervals and decides how the plan is adopted; Atlantis does not act as inspector of record and has no approval role for Kuwaiti assets.",
+    "If inspection finds damage that requires an assessment of fitness for continued service, that evaluation stays with the owner's engineers rather than Atlantis, and the RBI model is updated with the result so the next due dates reflect it."
+   ]
+  }
+ ],
+ "codes": [
+  "API RP 580 (elements of a risk-based inspection programme)",
+  "API RP 581 (RBI methodology)",
+  "ASME PCC-3 (inspection planning using risk-based methods)",
+  "API RP 571 (damage mechanisms)",
+  "API 510, API 570 and API 653",
+  "API RP 583 (corrosion under insulation)",
+  "API RP 584 (integrity operating windows)"
+ ],
+ "deliverables": [
+  "RBI register per item in the operating company's risk matrix",
+  "Inspection plan per item: technique, coverage, credited effectiveness and due date",
+  "Reconciled corrosion rates and CML recommendations from historical thickness data",
+  "Harmonisation map and single register where programmes are being merged",
+  "Erosion and produced-water ranking that links monitoring data to inspection tasks",
+  "Data-gap log and walkdown list for the plant's inspectors",
+  "Reassessment triggers tied to integrity operating windows, monitoring results and management of change"
+ ],
+ "industries": [
+  "Crude oil refining",
+  "Gas processing and LPG",
+  "Upstream gathering and crude export",
+  "Crude and product storage",
+  "LNG import",
+  "Petrochemicals"
+ ],
+ "faqs": [
+  {
+   "q": "Does Kuwaiti regulation require RBI?",
+   "a": "We have not found a Kuwaiti regulation that requires RBI or fixes in-service inspection intervals for refinery or upstream equipment. The requirements come from the operating companies' own engineering and inspection standards, with the state's fire, environmental and safety conditions applying alongside. The study is built to whichever company standard governs the asset."
+  },
+  {
+   "q": "Can an RBI study be done for a refinery with little inspection history?",
+   "a": "Yes. For a recently commissioned refinery, probability is based on predicted corrosion rates from the design basis, materials and process chemistry, and the plan schedules early inspections that test those predictions. As readings accumulate, the model replaces predictions with measured rates."
+  },
+  {
+   "q": "How do you deal with inconsistent historical thickness data?",
+   "a": "We reconcile it before it is used: matching readings to CML locations, checking for changes of procedure or instrument, screening out readings that are physically implausible and separating long-term from short-term rates. Inspections whose basis cannot be shown receive less credit, and the gap log says what would restore it."
+  },
+  {
+   "q": "Can RBI cover upstream gathering facilities?",
+   "a": "Yes. The damage mechanisms differ, with sand erosion, CO2 corrosion, produced-water attack and microbiologically influenced corrosion more prominent than in refining, and monitoring data such as erosion probes, corrosion coupons and inhibitor availability carries more weight. The resulting plan combines inspection with the monitoring that keeps the risk assumptions valid."
+  },
+  {
+   "q": "Our organisation is merging two RBI programmes. Can you help?",
+   "a": "Yes. A harmonisation study maps each existing register to one methodology, reconciles consequence assumptions, risk matrices and targets, and produces a single register and procedure set that the combined inspection organisation can maintain. Differences that need a management decision are listed rather than resolved silently."
+  },
+  {
+   "q": "Will anyone from Atlantis come to the site?",
+   "a": "No. Kuwaiti studies are delivered remotely through a data room and video workshops. Your inspectors or inspection contractor do the walkdowns and close data gaps, following a list that explains what each check is for and how it changes the plan."
+  },
+  {
+   "q": "When are workshops held?",
+   "a": "Sunday to Thursday, in the plant's hours on Arabia Standard Time. Hyderabad's day spans the Kuwaiti day, so workshops can be held when operations staff are free and review work continues outside them; during Ramadan the schedule follows the plant's reduced hours."
+  },
+  {
+   "q": "Who approves the plan's intervals?",
+   "a": "The operating company's inspection authority. Atlantis proposes intervals and tasks with the reasoning for each, but does not approve them or take the inspector-of-record role, and fitness-for-service decisions remain with your own engineers."
+  }
+ ],
+ "related": [
+  [
+   "/inspection/risk-based-inspection/saudi-arabia",
+   "RBI in Saudi Arabia"
+  ],
+  [
+   "/inspection/risk-based-inspection/united-arab-emirates",
+   "RBI in the United Arab Emirates"
+  ],
+  [
+   "/inspection/risk-based-inspection/qatar",
+   "RBI in Qatar"
+  ],
+  [
+   "/inspection/risk-based-inspection/remote-rbi",
+   "How a remote RBI study works"
+  ],
+  [
+   "/inspection/risk-based-inspection/rbi-implementation",
+   "RBI programme implementation"
+  ],
+  [
+   "/inspection/risk-based-inspection/storage-tank-rbi",
+   "RBI for storage tanks"
+  ],
+  [
+   "/standards/api-580",
+   "API 580 explained"
+  ],
+  [
+   "/standards/api-571",
+   "API 571 damage mechanisms"
+  ],
+  [
+   "/tools/api-inspection-interval-calculator",
+   "API inspection interval calculator"
+  ],
+  [
+   "/inspection/turnarounds-shutdowns",
+   "Turnaround and shutdown inspection"
+  ],
+  [
+   "/contact",
+   "Contact Atlantis"
+  ]
+ ],
+ "sources": [
+  {
+   "fact": "KNPC: Mina Al-Ahmadi 346,000 BPD, Mina Abdullah 454,000 BPD; full operation of Al-Zour Refinery 2024; gas plant at Mina Al-Ahmadi inaugurated 1978 with 5 trains; LPG filling plants at Shuaiba and Umm Al-Aish; local fuel depots; LNG import facility listed",
+   "url": "https://www.knpc.com/en/about-us/who-we-are"
+  },
+  {
+   "fact": "KNPC advanced its merger with KIPIC in 2025; merger integrates the Al-Zour Refinery (615,000 b/d); Al-Zour inaugurated 29 May 2024; Shuaiba and Umm Al-Aish LPG plants transferred to KNPC 1 August 2025",
+   "url": "https://kuwaittimes.com/article/37715/kuwait/knpc-advances-kipic-merger-expands-operations-in-2025/"
+  },
+  {
+   "fact": "KOC export facilities at Mina Al Ahmadi load crude onto tankers including VLCCs at offshore loading points; Al-Zour LNG import terminal; Kuwait Oil Tanker Company operates the national tanker fleet; hottest summers of any port region; shallow, warm, saline, silty northern Gulf water (already on the site)",
+   "url": "https://atlantisndt.com/maritime/kuwait"
+  }
+ ]
+}

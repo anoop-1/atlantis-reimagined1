@@ -1,0 +1,307 @@
+{
+ "title": "Risk-Based Inspection in the UAE: ADNOC, Fujairah and API 580",
+ "description": "Remote RBI for UAE refineries, gas plants and terminals: ADNOC's integrity framework, Fujairah and Jebel Ali storage, Gulf damage mechanisms and scheduling.",
+ "h1": "Risk-based inspection for UAE gas plants, refineries and storage terminals",
+ "eyebrow": "Risk-based inspection in the UAE",
+ "intro": "The UAE combines a large integrated national oil group in Abu Dhabi with a commercially run storage and refining cluster on the far side of the Strait of Hormuz. An RBI study has to fit whichever framework owns the asset: ADNOC's group integrity system for its companies, ENOC's procedures at Jebel Ali, or a terminal operator's own management system in Fujairah. This page covers those frameworks, where the country's refining, gas and tank capacity is concentrated, the damage mechanisms the two coastlines produce, and how Atlantis runs an RBI study remotely for a UAE site on Gulf Standard Time.",
+ "highlights": [
+  {
+   "h": "Know whose system the asset sits in",
+   "p": "An ADNOC gas train, an ENOC refinery unit and a Fujairah terminal tank can all be inspected to API codes, yet each answers to a different integrity management system. The study begins by establishing which system governs each asset and who approves its plan."
+  },
+  {
+   "h": "Two coasts, two exposures",
+   "p": "Abu Dhabi and Dubai sit on a hot, humid, salt-laden Gulf shore with saline coastal flats behind it; Fujairah faces the Gulf of Oman beneath the Hajar mountains. Both are hard on coatings, insulation and tank floors, and the study treats each site's exposure on its own evidence."
+  },
+  {
+   "h": "Workshops in a Monday-to-Friday week",
+   "p": "Most UAE organisations work Monday to Friday on Gulf Standard Time, four hours ahead of UTC. Hyderabad is ninety minutes ahead, so workshops and data reviews sit comfortably inside the UAE working day, and the study itself needs no travel."
+  }
+ ],
+ "sections": [
+  {
+   "id": "uae-framework",
+   "h": "How inspection is governed across the emirates",
+   "p": [
+    "The UAE is a federation, and much of the regulation that reaches an industrial plant, from civil defence and fire safety to environmental permits and occupational safety, is administered at emirate level or by the zone authority in which the plant stands. We have not found a federal rule that sets in-service inspection intervals for refinery or gas plant pressure equipment, or for storage tanks, so in practice the inspection and RBI requirements come from the owner's integrity management system and the codes it adopts, with the emirate's civil defence, environmental and safety conditions applying alongside.",
+    "That puts the weight on knowing which system an asset belongs to. ADNOC group companies in Abu Dhabi work within the group's own framework. ENOC runs the Jebel Ali refinery in Dubai under its company procedures. Independent terminal and refinery operators in Fujairah and Jebel Ali run their own management systems, commonly built on API 653 for tanks and on API 510 and API 570 for vessels and piping, with risk-based intervals written in as an option the system allows rather than an obligation imposed from outside.",
+    "The table sets out the frameworks a UAE study most often has to sit inside, and what to settle before analysis starts."
+   ],
+   "table": {
+    "head": [
+     "Asset owner",
+     "Framework the RBI study sits in",
+     "What to settle before the study starts"
+    ],
+    "rows": [
+     [
+      "ADNOC group companies, Abu Dhabi",
+      "ADNOC's HSE control framework of manuals and corporate practices, and its asset integrity and process safety management manual",
+      "Which corporate practice governs RBI for the asset class, the risk matrix and targets to use, and how an outside study passes the group's assurance review"
+     ],
+     [
+      "ENOC, Dubai",
+      "ENOC's company procedures for the refinery and its storage",
+      "The methodology, risk matrix and approval route the company's procedures name"
+     ],
+     [
+      "Independent terminals and refiners, Fujairah and Jebel Ali",
+      "The operator's management system, commonly API 653 for tanks and API 510 and API 570 for vessels and piping",
+      "Whether RBI-based intervals are already written into the system, and who acts as the inspection authority"
+     ],
+     [
+      "Projects under construction",
+      "The developer's specifications and the future operator's standards",
+      "Who will own the RBI at handover, and which baseline records the project must deliver for it"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "adnoc-framework",
+   "h": "ADNOC's integrity framework and what it means for an outside study",
+   "p": [
+    "ADNOC describes an HSE control framework anchored in its HSE policy, with manuals and corporate practices that translate requirements into practical controls, and an asset integrity and process safety management manual that takes a risk-based approach and is certified to ISO 55001. Its 2025 sustainability reporting lists risk-based inspection, predictive maintenance and monitoring systems among the tools it uses across the asset lifecycle, refers to periodic assurance reviews and independent third-party evaluations, and names API, CCPS, the Energy Institute and IOGP among the bodies whose practice it draws on.",
+    "For an outside RBI team this has two consequences. The study must use the group company's risk matrix, targets and terminology rather than a generic set, so its results drop into the company's register without translation. And every decision must be traceable, because the work may later be examined by an assurance reviewer or an independent evaluator who was not in the workshops. Each damage mechanism, corrosion rate and effectiveness rating is therefore logged with its source and the person who confirmed it, and the report is written so a reviewer can rebuild any interval from the data room alone.",
+    "Where a group company runs a commercial RBI package, the study works to its procedure and delivers registers in a form that package can import. Atlantis does not supply RBI software and does not hold any client's RBI model in an Atlantis system."
+   ]
+  },
+  {
+   "id": "uae-capacity",
+   "h": "Where the UAE's refining, gas and storage capacity is concentrated",
+   "p": [
+    "Abu Dhabi's downstream weight sits at Ruwais on the western coast, where ADNOC's refinery, with a nameplate capacity of 817,000 barrels per day, is by far the largest in the country. Ruwais also has gas processing, a floating regasification unit and the Ruwais LNG liquefaction project, which ADNOC has under construction. Das Island, offshore, has exported LNG since 1977, and several offshore concessions, including Hail and Ghasha, produce highly sour gas. The older Umm al-Nar refinery near the capital closed permanently in 2021.",
+    "Dubai's refining is concentrated at Jebel Ali, where ENOC's refinery has a capacity of 210,000 barrels per day, among product storage terminals that serve the port and the regional trade. Fujairah, on the Gulf of Oman outside the Strait of Hormuz, holds one of the region's largest concentrations of oil storage and is a major bunkering port: the Fujairah Oil Industry Zone contains a dense cluster of independent crude and product terminals, refineries run by VTTI and Ecomar, and the end of the Abu Dhabi Crude Oil Pipeline, which carries Murban crude across the country so it can be loaded beyond the strait. A second ADNOC export pipeline to the east coast is under construction.",
+    "The table shows how the risk emphasis shifts between these areas. Site-level detail belongs in each facility's own study."
+   ],
+   "table": {
+    "head": [
+     "Emirate and area",
+     "Asset mix",
+     "Risk drivers an RBI study looks at first"
+    ],
+    "rows": [
+     [
+      "Abu Dhabi: Ruwais and the western coast",
+      "Large refinery, gas processing, LNG project, export terminals",
+      "Sour service and amine units, sulfidation and high-temperature hydrogen service in hydroprocessing, CUI on a humid coast, seawater cooling"
+     ],
+     [
+      "Abu Dhabi: offshore and island facilities",
+      "Oil and gas production, LNG at Das Island",
+      "Marine atmosphere on topsides, highly sour gas on some concessions, produced water and seawater systems"
+     ],
+     [
+      "Dubai: Jebel Ali",
+      "Refinery and product terminals",
+      "Product tank floors and roofs, coastal atmospheric corrosion, frequent grade changes in terminal service"
+     ],
+     [
+      "Fujairah",
+      "Independent crude and product terminals, refineries, bunker fuel storage",
+      "Heated fuel oil tanks, floor and annular plate corrosion, floating roof and seal condition, high tank turnover"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "uae-damage-mechanisms",
+   "h": "What the two coastlines do to steel",
+   "p": [
+    "On the Gulf coast of Abu Dhabi and Dubai, summer heat combines with humid nights and salt-laden air. Moisture condenses on cooled surfaces before dawn, salt and dust hold it there, and coatings break down quickly wherever UV and thermal cycling have already cracked them. Insulated carbon steel spends long periods in the temperature band where corrosion under insulation is most active, and austenitic stainless steel under wet, chloride-contaminated insulation is prone to external stress corrosion cracking. Much of this coast is low-lying sabkha with saline groundwater close to the surface, which makes soil-side corrosion of tank bottoms and grade-level piping a first-order concern.",
+    "Fujairah's exposure differs in detail. The terminals face the open Gulf of Oman with the mountains behind them, and the main threats come from the products and the way tanks are used: heated heavy fuel oil and residues that drive corrosion under insulated shells and around heating coils, water and sediment settling on floors, and rapid turnover that cycles floating roofs and seals hard. In bunkering service a tank may hold several grades in a year, so the floor corrosion rate has to be based on the service history, not only the current product.",
+    "Process mechanisms follow the feed. Sour gas brings wet H2S cracking, amine corrosion and amine cracking, and sulfur recovery units bring their own high-temperature mechanisms. Refinery hydroprocessing adds high-temperature hydrogen attack screening and sulfidation, and seawater-cooled exchangers see chloride pitting, crevice attack and fouling. Integrity operating windows written to API RP 584 are what keep these assumptions true between inspections, so each mechanism in the register is tied to the window that controls it."
+   ],
+   "links": [
+    [
+     "/api-inspection/chloride-stress-corrosion-cracking",
+     "Chloride stress corrosion cracking"
+    ],
+    [
+     "/api-inspection/api-653-tank-floor-pitting-remaining-thickness",
+     "Tank floor pitting and remaining thickness"
+    ],
+    [
+     "/standards/api-584",
+     "API 584 integrity operating windows"
+    ]
+   ]
+  },
+  {
+   "id": "uae-terminals",
+   "h": "RBI for independent storage terminals",
+   "p": [
+    "Terminal operators outside the national oil companies often stand to gain a great deal from RBI and have less internal machinery for it than a national oil company does. Their integrity programme is usually an API 653 programme with internal intervals set from measured floor corrosion, supported by external inspections and shell surveys. API 653 also allows an alternative internal interval set by an RBI assessment carried out to API RP 580, and that route lets a terminal plan out-of-service inspections around the condition and consequence of each tank instead of the calendar alone.",
+    "What a terminal needs from the study is practical. First, a ranking of every tank by the probability and consequence of a floor or shell failure, with the consequence reflecting the product, the secondary containment, the drainage and the proximity of the sea. Second, a floor inspection plan that names the scanning technique and coverage needed for the next inspection to be credited properly. Third, a short list of the records that would most improve the ranking, such as earlier floor scans, cathodic protection surveys, settlement surveys and the product history. The results also feed commercial planning, because a tank out of service is capacity a customer cannot use."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/storage-tank-rbi",
+     "RBI for storage tanks"
+    ],
+    [
+     "/consulting/api-653-tank-inspector-services",
+     "API 653 tank inspector support"
+    ]
+   ]
+  },
+  {
+   "id": "uae-scopes",
+   "h": "Typical UAE requests",
+   "p": [
+    "UAE requests come from very different owners, and the scope changes with them. The ones we see most often are:"
+   ],
+   "list": [
+    "A group company preparing an RBI reassessment for a unit ahead of its turnaround, using the group's risk matrix and corporate practice",
+    "Baseline RBI for new trains and units, built from design data and pre-service inspection so the first in-service plan is risk-based from the start",
+    "Independent review of an RBI study prepared by another contractor, as an input to an assurance review",
+    "A Fujairah or Jebel Ali terminal moving from fixed calendar intervals to RBI-based out-of-service intervals under API 653",
+    "Sour service screening after a change in gas source or the tie-in of a more sour field",
+    "A CUI programme for a coastal site in which insulation condition, operating temperature and coating age decide which lines are stripped first",
+    "Bringing legacy inspection records and an older RBI study into the owner's current register so it can be maintained in-house"
+   ]
+  },
+  {
+   "id": "uae-remote-delivery",
+   "h": "Running the study on Gulf Standard Time",
+   "p": [
+    "The UAE keeps Gulf Standard Time, four hours ahead of UTC, all year. Since January 2022 the federal government's weekend has been Saturday and Sunday, and much of the private sector works the same Monday-to-Friday week, though some industrial operators keep their own rosters. Hyderabad is an hour and a half ahead, so the whole UAE working day overlaps the Indian one, and Houston, nine or ten hours behind depending on the season, adds review time after the UAE day has closed.",
+    "The study opens with a data request matched to the owner's records: P&IDs, PFDs, heat and material balances, equipment datasheets and manufacturer's data reports, inspection and thickness history, corrosion monitoring results, process chemistry and integrity operating windows, plus tank records such as floor scans and settlement surveys for terminals. Records go into a data room, which can be one the owner hosts and controls, and a data-gap log comes back before workshops are booked.",
+    "Workshops with operations, process, corrosion and inspection staff then confirm corrosion loops and damage mechanisms against API RP 571. Probability and consequence follow the level agreed for the scope, from qualitative screening to quantitative analysis to API RP 581 or the owner's RBI standard, and every item leaves the study with a method, coverage, effectiveness and due date. Where the thickness history allows, CML and TML locations are rationalised so readings concentrate where wall loss is actually happening."
+   ]
+  },
+  {
+   "id": "uae-verification-approval",
+   "h": "Site verification and approval",
+   "p": [
+    "Walkdowns and data checks at UAE sites are carried out by the owner's inspection staff or the inspection contractor already working there; the study does not depend on anyone from Atlantis travelling to the plant. For every gap that affects a risk ranking, the report names the reading or examination needed and the coverage that would let it be credited, so the plant can schedule it under its own permit-to-work system. During the summer midday break on outdoor work, those campaigns fit best into early-morning and late-afternoon windows.",
+    "The plan is a recommendation, and approval belongs to the owner's inspection authority within its integrity management system. Atlantis is not the inspector of record for any UAE asset and does not sign off intervals. If inspection finds damage that needs a judgement on continued operation, that fitness-for-service assessment remains with the owner's engineers rather than Atlantis, and the RBI model is updated with the outcome."
+   ]
+  }
+ ],
+ "codes": [
+  "API RP 580 (elements of a risk-based inspection programme)",
+  "API RP 581 (RBI methodology)",
+  "ASME PCC-3 (inspection planning using risk-based methods)",
+  "API RP 571 (damage mechanisms)",
+  "API 510, API 570 and API 653",
+  "API RP 583 (corrosion under insulation)",
+  "API RP 584 (integrity operating windows)",
+  "ISO 55001 (asset management systems)"
+ ],
+ "deliverables": [
+  "RBI register in the owner's risk matrix, with damage mechanisms, probability, consequence and risk per item",
+  "Inspection plan per item: technique, coverage, credited effectiveness and due date",
+  "Tank ranking and floor inspection plan for terminal scopes",
+  "Corrosion loop drawings and damage mechanism basis to API RP 571",
+  "Decision log recording the source and the confirming person for every key input, ready for assurance review",
+  "Data-gap log and walkdown list for the owner's inspectors",
+  "Reassessment triggers tied to integrity operating windows, feed changes and management of change"
+ ],
+ "industries": [
+  "Crude oil refining",
+  "Gas processing and LNG",
+  "Independent crude and product terminals",
+  "Bunker fuel storage",
+  "Offshore oil and gas production",
+  "Petrochemicals"
+ ],
+ "faqs": [
+  {
+   "q": "Does UAE law require risk-based inspection?",
+   "a": "We have not found a federal rule that requires RBI for refinery, gas plant or terminal equipment. The requirement comes from the owner's integrity management system: ADNOC's group framework for its companies, ENOC's procedures for its refinery and each operator's own system for independent terminals, with emirate-level civil defence, environmental and safety requirements applying alongside."
+  },
+  {
+   "q": "Can the study follow an ADNOC group company's procedures?",
+   "a": "Yes. We work to the corporate practice and risk matrix the company names, use its terminology and deliver registers that drop into its own system. Because group assurance reviews and independent evaluations may examine the work later, every input and decision is logged with its source and the person who confirmed it."
+  },
+  {
+   "q": "We operate a terminal in Fujairah. Is RBI worthwhile for our tanks?",
+   "a": "For many terminals it is, because API 653 lets an RBI assessment made to API RP 580 set the internal inspection interval instead of the corrosion-rate calculation alone. The ranking then sends out-of-service inspections to the tanks whose floor condition and consequence justify them, which helps capacity planning as well as integrity. The interval still has to be accepted by your inspection authority."
+  },
+  {
+   "q": "Can highly sour gas service be covered?",
+   "a": "Yes. Sour service is assessed loop by loop: whether materials and welds were specified and fabricated for wet H2S, what the hardness and heat-treatment records show, which cracking mechanisms are credible and which inspection techniques can find them. Where records are missing, the gap log says what evidence would remove the conservative assumption."
+  },
+  {
+   "q": "Do you send inspectors to UAE sites?",
+   "a": "No. The study is remote: documents, inspection history and video workshops. Field verification, and any readings needed to close data gaps, are done by your own inspectors or your inspection contractor, working to a list that explains what each check is for and how it changes the plan."
+  },
+  {
+   "q": "How do workshops fit the UAE working week?",
+   "a": "They run Monday to Friday on Gulf Standard Time, or to the plant's own roster where it differs. Hyderabad's working day covers the UAE day with ninety minutes to spare, so sessions can be held in the morning and actions closed the same afternoon."
+  },
+  {
+   "q": "Can you start from our existing RBI software exports and records?",
+   "a": "Yes. We start from your register or software exports, your inspection data system and past studies, and deliver results in a format your package can import, so the model stays in the system your team already maintains."
+  },
+  {
+   "q": "Who approves the inspection intervals?",
+   "a": "Your inspection authority, within your integrity management system. Atlantis prepares the assessment and proposes intervals with their basis, but does not approve them or act as inspector of record, and fitness-for-service decisions remain with your engineers."
+  }
+ ],
+ "related": [
+  [
+   "/inspection/risk-based-inspection/saudi-arabia",
+   "RBI in Saudi Arabia"
+  ],
+  [
+   "/inspection/risk-based-inspection/qatar",
+   "RBI in Qatar"
+  ],
+  [
+   "/inspection/risk-based-inspection/kuwait",
+   "RBI in Kuwait"
+  ],
+  [
+   "/inspection/risk-based-inspection/remote-rbi",
+   "How a remote RBI study works"
+  ],
+  [
+   "/inspection/risk-based-inspection/rbi-implementation",
+   "RBI programme implementation"
+  ],
+  [
+   "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+   "Quantitative RBI to API 581"
+  ],
+  [
+   "/standards/api-580",
+   "API 580 explained"
+  ],
+  [
+   "/standards/api-653",
+   "API 653 explained"
+  ],
+  [
+   "/standards/api-571",
+   "API 571 damage mechanisms"
+  ],
+  [
+   "/inspection/asset-integrity-services",
+   "Asset integrity services"
+  ],
+  [
+   "/contact",
+   "Contact Atlantis"
+  ]
+ ],
+ "sources": [
+  {
+   "fact": "ADNOC HSE control framework anchored in HSE policy with manuals and corporate practices; asset integrity and process safety management manual takes a risk-based approach and is ISO 55001 certified; risk-based inspection, predictive maintenance and monitoring used across the asset lifecycle; periodic assurance reviews and independent third-party evaluations; applies practice from IOGP, API, CCPS, Energy Institute",
+   "url": "https://reports.adnoc.ae/e/sustainability-report-2025/9hZwCMdM21"
+  },
+  {
+   "fact": "UAE refineries: Ruwais (ADNOC, 817 kb/d), Jebel Ali (ENOC, 210 kb/d), VTTI Fujairah FZC-1 and FZC-2, Ecomar Fujairah; Umm al-Nar (74 kb/d) permanently shut 2021; Abu Dhabi Crude Oil Pipeline carries Murban to Fujairah outside Hormuz; second ADNOC pipeline under construction; Ruwais LNG under construction by ADNOC LNG; Ruwais FSRU; Das Island LNG since 1977; Hail and Ghasha concessions produce highly sour gas",
+   "url": "https://www.eia.gov/international/content/analysis/countries_long/united_arab_emirates"
+  },
+  {
+   "fact": "Port of Fujairah and Fujairah Oil Industry Zone hold one of the region's largest concentrations of oil storage; crude pipeline from Abu Dhabi ends there; bunkering hub (already on the site)",
+   "url": "https://atlantisndt.com/maritime/fujairah"
+  },
+  {
+   "fact": "Ruwais industrial complex and crude loading terminals; Das Island LNG exports (already on the site)",
+   "url": "https://atlantisndt.com/maritime/abu-dhabi"
+  }
+ ]
+}

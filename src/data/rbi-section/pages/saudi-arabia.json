@@ -1,0 +1,309 @@
+{
+ "title": "Risk-Based Inspection in Saudi Arabia: SAEP-343 and API 580",
+ "description": "How RBI fits Saudi Aramco's SAEP-343 and SAEP-20, HCIS directives and the Kingdom's plants, and how Atlantis runs remote RBI studies on Arabia Standard Time.",
+ "h1": "Risk-based inspection for Saudi refineries, gas plants and tank farms",
+ "eyebrow": "Risk-based inspection in Saudi Arabia",
+ "intro": "Saudi Arabia's refineries, gas plants and petrochemical complexes run on detailed, document-driven inspection systems, and most of what an RBI study has to satisfy is written in the operator's engineering standards rather than in a national statute. This page sets out the layers that matter, from the High Commission for Industrial Security to Saudi Aramco's SAEP-343 procedure and the SAEP-20 equipment inspection schedule. It covers where the Kingdom's refining, gas and storage capacity sits, which damage mechanisms the climate and crude slate push up the register, and how Atlantis delivers an RBI study remotely for a Saudi facility.",
+ "highlights": [
+  {
+   "h": "Operator standards carry the detail",
+   "p": "For most Saudi plants the inspection interval, the RBI method and the approval route are set by the operator's engineering procedures. A study that ignores which procedure governs the asset, whether Saudi Aramco's, an affiliate's or a petrochemical producer's own, produces a plan nobody can adopt."
+  },
+  {
+   "h": "Built around the T&I calendar",
+   "p": "Saudi inspection planning revolves around test and inspection (T&I) shutdowns. An RBI study earns its keep when it feeds the next T&I scope and any extension request in the form the operator's schedule procedure asks for, with the evidence attached item by item."
+  },
+  {
+   "h": "Remote, on Arabia Standard Time",
+   "p": "Workshops run inside the plant's Sunday-to-Thursday week. Atlantis works from Houston and Hyderabad, and Hyderabad is two and a half hours ahead of Riyadh, so a full Saudi working day is covered without anyone travelling to site."
+  }
+ ],
+ "sections": [
+  {
+   "id": "saudi-framework",
+   "h": "Who sets the inspection rules in Saudi Arabia",
+   "p": [
+    "We have not found a published national rule in Saudi Arabia that fixes in-service inspection intervals for refinery vessels, piping or storage tanks in the way a US state boiler law or a Canadian provincial act does. Three other layers shape the work instead. The first is national: the High Commission for Industrial Security (HCIS), whose board is chaired by the Minister of Interior, is the regulator for industrial security and safety across strategic sectors that include petroleum, gas and petrochemicals. It issues the Security Directives (SEC) and the Safety and Fire Protection Directives (SAF), reviews projects against them and checks compliance through inspections, audits and drills.",
+    "The second layer is the industrial city. Jubail and Yanbu are administered by the Royal Commission for Jubail and Yanbu, whose environmental and permitting conditions apply to the plants inside them, and other industrial cities have administrators of their own. The third layer, and the one that settles most RBI questions in practice, is the operator's engineering standards system. Saudi Aramco's engineering standards (SAES) and engineering procedures (SAEP) set inspection requirements for its own plants and reach contractors through purchase orders and service contracts. Affiliates, joint ventures and petrochemical producers may run their own procedures or adopt parts of Aramco's.",
+    "The table summarises how each layer touches an RBI programme. Where a study cannot tell which layer governs an item, the question goes to the owner before any interval is proposed."
+   ],
+   "table": {
+    "head": [
+     "Layer",
+     "Who",
+     "What it means for an RBI study"
+    ],
+    "rows": [
+     [
+      "National industrial safety",
+      "High Commission for Industrial Security (HCIS)",
+      "Safety and fire protection directives apply to the facility, and the inspection plan has to stay consistent with them, for example where tank fire protection or relief systems are inspected or modified"
+     ],
+     [
+      "Industrial city",
+      "Royal Commission for Jubail and Yanbu, and the administrators of other industrial cities",
+      "Environmental and permitting conditions that make releases to soil, groundwater and the sea a real part of the consequence model"
+     ],
+     [
+      "Operator engineering standards",
+      "Saudi Aramco SAES and SAEP documents, or the affiliate's or producer's own procedures",
+      "Set the RBI method, the reassessment frequency, how T&I intervals may be extended and who approves a deviation"
+     ],
+     [
+      "International codes",
+      "API 510, API 570, API 653, API RP 571, API RP 580, API RP 581 and ASME PCC-3",
+      "Referenced by the operator's procedures for inspection frequency, damage mechanisms and the risk methodology itself"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "saep-343",
+   "h": "Saudi Aramco's SAEP-343 and the SAEP-20 inspection schedule",
+   "p": [
+    "Saudi Aramco's engineering procedure SAEP-343, Risk-Based Inspection (RBI) for Saudi Aramco Facilities, sets minimum requirements for RBI assessments on stationary equipment in existing and planned facilities. The issue we reviewed, dated July 2015, bases the procedure on API RP 580 and names API RP 581 as the approved methodology, with other methods allowed for assets outside that method's scope and only with the approval of the Inspection Department. Its coverage is broad: in-plant static equipment and piping, storage tanks, pressure-relieving devices, off-plot piping and offshore facilities. Damage mechanisms are assigned with reference to API RP 571 and the company's corrosion management programme manual, and above-ground atmospheric tanks go through an environmental sensitivity screening.",
+    "Two features shape how a study for an Aramco facility is scoped. The procedure ties RBI to the equipment inspection schedule in SAEP-20: any extension of a T&I frequency follows SAEP-20, and units are prioritised for assessment by their next T&I date and their integrity concerns. It also expects the assessment to stay current. In the 2015 issue an RBI study is updated after process or hardware changes, after changes in damage mechanisms, corrosion rates or mitigation, immediately after a T&I or operating cycle, and in any case at intervals of no more than three years. A decision tree determines whether a unit needs a quantitative RBI or a comprehensive on-stream inspection review instead.",
+    "Revisions since 2015 may have changed details, so the first step of any Aramco-related study is to confirm the current issue with the proponent's inspection unit. The deliverables then mirror the procedure's structure, so the register, the risk targets, the evergreening log and any extension request look the way the reviewer expects to see them."
+   ]
+  },
+  {
+   "id": "affiliates-and-others",
+   "h": "Affiliates, petrochemical producers and independent terminals",
+   "p": [
+    "Not every Saudi plant works to Saudi Aramco's procedures. The Kingdom's refining system includes joint ventures and affiliates, such as SATORP in Jubail, run with TotalEnergies, and YASREF in Yanbu, run with Sinopec, which may hold inspection procedures of their own. Petrochemical producers in Jubail and Yanbu, SABIC among them, keep corporate engineering standards, and bulk liquid terminals and product depots may follow yet another framework, often an API 653 programme with an RBI basis written into the company's integrity management system.",
+    "For an outside RBI team the working rule is to ask, before any data is requested, which procedure governs each asset and who in the owner's organisation can approve a departure from it. Where a site mixes frameworks, for example a joint venture refinery that adopted some of a parent company's standards and wrote others itself, the study records which document each decision rests on. That is the difference between a register an auditor can follow and one that has to be rebuilt at the next review."
+   ]
+  },
+  {
+   "id": "saudi-capacity",
+   "h": "Where the Kingdom's refining, gas and storage capacity sits",
+   "p": [
+    "Saudi assets fall into three broad groups, each with its own risk picture. The Eastern Province on the Gulf coast holds the Ras Tanura refinery and crude export terminal, the Ju'aymah terminal and the Jubail industrial city with the SASREF and SATORP refineries and a large petrochemical base. The big gas plants are here too: Khursaniyah, Fadhili, Wasit and Berri near Jubail, and Shedgum, Hawiyah and Haradh around Al Hofuf, with Shaybah far to the south in the Empty Quarter and the Jafurah unconventional gas development adding a further processing base.",
+    "On the Red Sea coast, Yanbu is the main crude export terminal at the western end of the East-West pipeline and the site of three refineries, the Yanbu refinery, YASREF and SAMREF, alongside petrochemical plants. Rabigh, further south, hosts the Petro Rabigh refining and petrochemical complex, and the Jazan refinery serves the south-west. Riyadh's refinery sits inland, several hundred kilometres from either coast. The table sets out what tends to drive risk in each group; the detail for an individual site belongs in the facility study itself."
+   ],
+   "table": {
+    "head": [
+     "Area",
+     "Typical assets",
+     "What tends to drive the risk ranking"
+    ],
+    "rows": [
+     [
+      "Gulf coast: Ras Tanura, Ju'aymah, Jubail",
+      "Refineries, crude and NGL terminals, petrochemical plants, large tank farms",
+      "Humid, salt-laden air and night condensation, CUI, sour crude service, seawater cooling, tank floors on saline coastal ground"
+     ],
+     [
+      "Gas plants: the Jubail group and the plants around Al Hofuf",
+      "Gas treating and processing trains, sulfur recovery, NGL fractionation",
+      "Wet H2S cracking and amine service, dust and sand on external surfaces, wide day-night temperature swings"
+     ],
+     [
+      "Red Sea coast: Yanbu, Rabigh, Jazan",
+      "Export terminal, refineries, petrochemical complexes",
+      "Marine atmosphere, seawater systems, crude and product storage at the end of the East-West pipeline"
+     ],
+     [
+      "Inland: Riyadh",
+      "Refinery and product storage",
+      "Dry heat and dust rather than marine corrosion, so process mechanisms dominate the register"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "saudi-damage-mechanisms",
+   "h": "Damage mechanisms the Saudi climate and crude slate push up the register",
+   "p": [
+    "Most Saudi crude is sour, and much of the gas the Kingdom processes carries hydrogen sulfide. Wet H2S damage, meaning hydrogen blistering, hydrogen-induced cracking, stress-oriented HIC and sulfide stress cracking, therefore appears in far more corrosion loops than it would in a refinery running sweet crude, together with amine corrosion and amine stress corrosion cracking in gas treating and sulfidation in hot crude and vacuum service. The study has to show, loop by loop, whether the steel was specified for sour service, whether post-weld heat treatment and hardness control are documented, and which inspection technique can find cracking rather than only wall loss.",
+    "The coast adds external mechanisms. Along the Gulf, high humidity and night-time condensation on salt-laden surfaces drive atmospheric corrosion and keep insulation wet, so corrosion under insulation on carbon steel and external chloride stress corrosion cracking of austenitic stainless steel are recurring findings on insulated lines and vessels. Fire water testing and deluge systems wet insulation further. Inland and at the gas plants, wind-blown sand abrades coatings and packs crevices, and the swing between day and night temperatures works sealants and jacketing loose.",
+    "Two more conditions are particular to the setting. Gulf seawater is warm and highly saline, so seawater-cooled exchangers, intake piping and fire mains suffer pitting, crevice corrosion, microbiologically influenced corrosion and erosion at tube inlets. And many coastal tank farms stand on sabkha, the saline, high-water-table ground typical of the Gulf shore, which makes soil-side corrosion of tank floors a primary consideration and brings the condition of cathodic protection and pad drainage into the probability assessment."
+   ],
+   "links": [
+    [
+     "/api-inspection/wfmt-acfm-crack-detection-sour-service",
+     "Crack detection in sour service"
+    ],
+    [
+     "/api-inspection/amine-caustic-cracking",
+     "Amine and caustic cracking"
+    ],
+    [
+     "/api-inspection/cui-in-api-570-and-api-510-inspection-plans",
+     "CUI in inspection plans"
+    ]
+   ]
+  },
+  {
+   "id": "saudi-scopes",
+   "h": "What Saudi owners usually ask an outside RBI team for",
+   "p": [
+    "Requests from Saudi plants tend to follow the T&I calendar and the evergreening cycle. The most common are:"
+   ],
+   "list": [
+    "Preparing a unit's RBI ahead of its next T&I, so the work list, the on-stream inspection programme and any extension request rest on a current assessment",
+    "Clearing an evergreening backlog where units have passed their reassessment date or where management of change items were never fed back into the model",
+    "Building the first RBI for new plant from design data, datasheets and baseline thickness readings, before the first T&I establishes real corrosion rates",
+    "Extending an existing programme to off-plot piping, pressure-relieving devices or tank farms that were left out of the original scope",
+    "Re-examining loops after a change in feed, for example a heavier or more sour crude, more condensate or a new gas source",
+    "Independent review of an RBI study prepared by another contractor, checking that damage mechanisms, corrosion rates and inspection effectiveness are justified",
+    "Ranking crude and product tanks so out-of-service inspections go first to those whose floor condition and consequence justify it"
+   ]
+  },
+  {
+   "id": "saudi-remote-delivery",
+   "h": "How the study runs remotely on Arabia Standard Time",
+   "p": [
+    "Saudi Arabia keeps Arabia Standard Time, three hours ahead of UTC, with no daylight saving, and most plants work Sunday to Thursday. Hyderabad is two and a half hours ahead of Riyadh, so a Saudi working day falls inside the Indian one, while Houston, eight or nine hours behind depending on the season, picks up review work after the Saudi day ends. Video workshops are booked in the plant's own hours, and during Ramadan, when working hours shorten, sessions are kept brief and spread over more days rather than squeezed.",
+    "The data request follows the operator's own record structure where it can: equipment files and nameplate data, P&IDs and PFDs, heat and material balances, the T&I and on-stream inspection history with readings at each CML, corrosion monitoring data, process chemistry and the integrity operating windows. Many Saudi operators restrict where plant data may be stored, so the data room can be one the owner hosts and controls, with accounts issued to the study team. A gap log goes back before the first workshop so the plant knows which missing records will force conservative assumptions.",
+    "Corrosion loops and damage mechanisms are drafted to API RP 571, and to the owner's corrosion manual where one applies, then challenged in workshops with process, operations, corrosion and inspection staff. Probability and consequence are calculated to the level the governing procedure sets, from qualitative screening up to a quantitative assessment to API RP 581, and each item leaves the study with a plan: method, coverage, expected effectiveness and due date, with CML optimisation where the thickness history supports it."
+   ]
+  },
+  {
+   "id": "saudi-field-verification",
+   "h": "Field verification stays with the plant's inspectors",
+   "p": [
+    "Nothing in the study requires an Atlantis visit to the facility, so no site entry permits or security passes are needed for it. Walkdowns, nameplate checks and confirmation that the drawings match the hardware are carried out by the owner's inspectors or the inspection contractor already working on site. Where a data gap changes the risk ranking, the report specifies the measurement, the technique and the coverage needed, for example a grid of thickness readings at a mixing point or a crack-detection examination on a sour-service weld, so it can be collected under the plant's own procedures and fed back into the model.",
+    "Summer conditions matter here as well. Outdoor work at midday is restricted during the hottest months, so field verification goes more smoothly when the walkdown list is grouped by area and ordered by how much each answer would change the plan."
+   ]
+  },
+  {
+   "id": "saudi-approval",
+   "h": "Who approves the intervals",
+   "p": [
+    "The RBI report recommends intervals and tasks and shows how each follows from the data. Approval belongs to the owner: for Saudi Aramco facilities, the proponent's inspection organisation, with deviations and alternative methods routed to the Inspection Department as the procedure requires; elsewhere, the inspection authority the company's own system names. Atlantis does not act as inspector of record and does not approve intervals for any Saudi facility.",
+    "When inspection under the plan finds damage that calls for an assessment of continued operation, the fitness-for-service evaluation stays with the owner's engineers, and Atlantis does not carry out API 579-1 assessments. The outcome is then entered into the RBI model so the next due date reflects it."
+   ]
+  }
+ ],
+ "codes": [
+  "API RP 580 (elements of a risk-based inspection programme)",
+  "API RP 581 (RBI methodology)",
+  "ASME PCC-3 (inspection planning using risk-based methods)",
+  "API RP 571 (damage mechanisms)",
+  "API 510, API 570 and API 653",
+  "API RP 583 (corrosion under insulation)",
+  "API RP 584 (integrity operating windows)",
+  "Saudi Aramco SAEP-343 (risk-based inspection) and SAEP-20 (equipment inspection schedule)",
+  "HCIS Safety and Fire Protection Directives (SAF)"
+ ],
+ "deliverables": [
+  "RBI register per item with damage mechanisms, probability, consequence and risk",
+  "Inspection plan per item with technique, coverage, effectiveness and due date",
+  "T&I scope input and the evidence for any interval extension, arranged as the governing schedule procedure expects",
+  "Corrosion loop drawings and damage mechanism basis to API RP 571 and the owner's corrosion manual",
+  "Evergreening log with reassessment triggers, MOC links and the next review date",
+  "Data-gap log and walkdown list for the plant's inspectors",
+  "Study report traceable to the governing procedure, document by document"
+ ],
+ "industries": [
+  "Crude oil refining",
+  "Gas processing and NGL fractionation",
+  "Petrochemicals",
+  "Crude and product export terminals",
+  "Product storage and distribution",
+  "Offshore production facilities"
+ ],
+ "faqs": [
+  {
+   "q": "Is RBI a legal requirement in Saudi Arabia?",
+   "a": "We have not found a national statute that requires RBI for refinery or gas plant equipment. The requirement normally comes from the operator: Saudi Aramco facilities follow SAEP-343 for RBI and SAEP-20 for the inspection schedule, and other companies set their own rules. HCIS safety and fire protection directives and industrial city conditions apply alongside, so the RBI plan has to be consistent with them as well."
+  },
+  {
+   "q": "Can the study be structured to SAEP-343?",
+   "a": "Yes. We build it the way the procedure expects: API RP 580 as the basis, damage mechanisms to API RP 571 and the corrosion manual, probability and consequence to the methodology the procedure approves, evergreening triggers and reassessment dates, and any T&I extension argued in the SAEP-20 format. The current revision is confirmed with your inspection unit before the data request goes out."
+  },
+  {
+   "q": "Can an RBI study support a T&I interval extension?",
+   "a": "It can supply the evidence. Under the Saudi Aramco system an extension follows SAEP-20, and the assessment shows, item by item, the damage mechanisms, corrosion rates, inspection history and risk that support or rule out a longer interval. The decision itself rests with your inspection organisation and the approvals the schedule procedure requires."
+  },
+  {
+   "q": "Does anyone from Atlantis need to come to the plant?",
+   "a": "No. Saudi studies are delivered remotely from your records and video workshops. Your own inspectors or your inspection contractor carry out walkdowns and data verification, and the report tells them which readings or examinations would change the plan, so field time is spent where it matters most."
+  },
+  {
+   "q": "Our plant data cannot leave our systems. Can the study still be done?",
+   "a": "Yes. The study team can work inside a data room or collaboration environment that you host and control, using accounts you issue and can revoke. Registers and reports are delivered into the same environment, and outputs can be formatted for import into the inspection data system or RBI package you already run."
+  },
+  {
+   "q": "Which damage mechanisms usually dominate in Saudi plants?",
+   "a": "Wet H2S cracking and amine damage in sour gas and crude service, sulfidation in hot units, corrosion under insulation and external chloride cracking on the humid Gulf coast, seawater-side corrosion in coolers, and soil-side floor corrosion on tanks built on saline coastal ground. The study confirms which of them apply to each loop rather than assuming them."
+  },
+  {
+   "q": "How are workshops scheduled around the Saudi week?",
+   "a": "They run Sunday to Thursday on Arabia Standard Time. Hyderabad's working day overlaps the whole Saudi day, so sessions can be held in the morning or early afternoon, and during Ramadan they are shortened and spread across more days. Document review continues between sessions, so actions raised in one workshop are ready for the next."
+  },
+  {
+   "q": "Who signs off the inspection plan?",
+   "a": "Your inspection organisation. For Saudi Aramco facilities that means the proponent's inspection unit, with deviations handled through the Inspection Department; for other companies, the authority their own system names. Atlantis prepares the assessment and the plan, and the approval of intervals stays with you."
+  }
+ ],
+ "related": [
+  [
+   "/inspection/risk-based-inspection/united-arab-emirates",
+   "RBI in the United Arab Emirates"
+  ],
+  [
+   "/inspection/risk-based-inspection/kuwait",
+   "RBI in Kuwait"
+  ],
+  [
+   "/inspection/risk-based-inspection/qatar",
+   "RBI in Qatar"
+  ],
+  [
+   "/inspection/risk-based-inspection/remote-rbi",
+   "How a remote RBI study works"
+  ],
+  [
+   "/inspection/risk-based-inspection/rbi-revalidation-audit",
+   "RBI revalidation and evergreening"
+  ],
+  [
+   "/inspection/risk-based-inspection/damage-mechanism-review",
+   "Damage mechanism review and corrosion loops"
+  ],
+  [
+   "/standards/api-580",
+   "API 580 explained"
+  ],
+  [
+   "/standards/api-581",
+   "API 581 explained"
+  ],
+  [
+   "/standards/api-583",
+   "API 583 and corrosion under insulation"
+  ],
+  [
+   "/inspection/turnarounds-shutdowns",
+   "Turnaround and shutdown inspection"
+  ],
+  [
+   "/contact",
+   "Contact Atlantis"
+  ]
+ ],
+ "sources": [
+  {
+   "fact": "SAEP-343 'Risk-Based Inspection (RBI) for Saudi Aramco Facilities', issue 7 July 2015: minimum requirements for RBI on stationary equipment based on API RP 580; API RP 581 the approved methodology; alternatives need Inspection Department approval; scope in-plant static equipment and piping, tanks, PRDs, off-plot piping, offshore; API RP 571 plus corrosion management programme manual; environmental sensitivity screening for atmospheric tanks; decision tree quantitative RBI vs comprehensive OSI review; T&I extension per SAEP-20 (Equipment Inspection Schedule); evergreening after MOC/changes/T&I and no longer than 3 years",
+   "url": "https://pdfcoffee.com/saep-343-pdf-free.html"
+  },
+  {
+   "fact": "HCIS is the regulatory entity for industrial security and safety in Saudi Arabia; board chaired by the Minister of Interior; covers petroleum, gas, petrochemicals among thirteen strategic sectors; Security Directives (SEC) and Safety & Fire Protection Directives (SAF); inspections, audits and drills",
+   "url": "https://saudipedia.com/en/high-commission-for-industrial-security"
+  },
+  {
+   "fact": "Refineries: Ras Tanura, SATORP (Aramco with TotalEnergies), YASREF (with Sinopec), SAMREF, Rabigh, Jazan, SASREF, Yanbu, Riyadh; gas plants Hawiyah and Haradh south of Al Hofuf, Shedgum north of Al Hofuf, Khursaniyah, Fadhili, Wasit, Berri near Al Jubail, Shaybah in the Empty Quarter; Jafurah unconventional gas under development; Yanbu primary Red Sea crude export terminal at the end of the East-West pipeline; most Saudi crude is sour",
+   "url": "https://www.eia.gov/international/content/analysis/countries_long/Saudi_Arabia/"
+  },
+  {
+   "fact": "Jubail administered by the Royal Commission for Jubail and Yanbu; its plants include SABIC affiliates, the Sadara chemical complex and the SATORP refinery (already on the site)",
+   "url": "https://atlantisndt.com/maritime/jubail"
+  },
+  {
+   "fact": "Tankers load at Ras Tanura and Ju'aymah; warm, saline Gulf water and humid nights; outdoor work in the Saudi summer restricted in the middle of the day (already on the site)",
+   "url": "https://atlantisndt.com/maritime/dammam"
+  }
+ ]
+}
