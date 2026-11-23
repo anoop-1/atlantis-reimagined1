@@ -23,14 +23,14 @@
       "h": "One refining company, three refineries",
       "p": [
         "Kuwait National Petroleum Company's Clean Fuels Project rebuilt the Mina Al-Ahmadi and Mina Abdullah refineries into a single integrated complex. KNPC lists 76 new units installed across the two sites, 7 units upgraded, 7 shut down and 4,045 new pieces of equipment, with capacities of 346,000 and 454,000 barrels a day, a combined 800,000. The US government's commercial guide for Kuwait dates the project's completion to November 2021.",
-        "The country's third refinery, Al-Zour, reached full operation in 2023 with three crude distillation units and a capacity of 615,000 barrels a day, and a gas import facility at the same complex was completed in 2021. Both were operated by Kuwait Integrated Petroleum Industries Company. In 2026 KIPIC was merged into KNPC: Kuwait's Supreme Petroleum Council approved the merger on 29 April, the official gazette carried the notice in June, and KNPC takes over KIPIC's rights and obligations. All three refineries now report to one company, though their inspection histories were built under two.",
+        "The country's third refinery, Al-Zour, reached full operation in 2023 with three crude distillation units and a capacity of 615,000 barrels a day, and a gas import facility at the same complex received its first LNG cargo in 2021. Both were operated by Kuwait Integrated Petroleum Industries Company. In 2026 KIPIC was merged into KNPC: Kuwait's Supreme Petroleum Council approved the merger on 29 April, the official gazette carried the notice in June, KNPC takes over KIPIC's rights and obligations, and the oil minister marked the merger's completion at the start of July. All three refineries now report to one company, though their inspection histories were built under two.",
         "Facilities are named here to describe the area. Naming them does not mean Atlantis has reviewed their records, holds a place on any of their contractor lists or has worked for their owners."
       ]
     },
     {
       "h": "Kuwait Oil Company and the upstream record",
       "p": [
-        "Kuwait Oil Company is the upstream arm of Kuwait Petroleum Corporation, responsible for finding and producing the country's oil and gas, and its head office is in Ahmadi. The US commercial guide puts current production capacity at about 3.15 million barrels a day, against KPC targets of 4 million barrels a day of oil capacity by 2035 and 4 billion cubic feet a day of gas by 2030, with heavy oil among the growth projects.",
+        "Kuwait Oil Company is the upstream arm of Kuwait Petroleum Corporation, responsible for finding and producing the country's oil and gas, and its head office is in Ahmadi. The US commercial guide puts Kuwait's current production capacity at about 3.15 million barrels a day, against KPC targets of 4 million barrels a day of oil capacity by 2035 and 4 billion cubic feet a day of gas by 2030, with heavy oil among the growth projects.",
         "Upstream assets produce a different mix of inspection records from refineries. Gathering centres send pressure vessel and piping reports, corrosion surveys and weld records on modifications. Crude storage produces API 653 tank inspections, floor scans and shell thickness surveys. Flowlines and pipelines produce girth weld records, often with radiographs or automated ultrasonic data, along with dig and repair reports. Growth projects add new-build fabrication packages from shops inside and outside Kuwait, each written to KOC's specifications."
       ]
     },
@@ -103,7 +103,7 @@
       "h": "Specifications, contractor prequalification and radiation licensing",
       "p": [
         "Work for Kuwait's state oil companies is written to the operator's own engineering specifications, which call up the international codes: ASME Section V for technique, ASME Section VIII and B31.3 for new construction, API 510, 570 and 653 for in-service equipment and API 1104 for pipeline welding. Where the specification is stricter than the code, it controls. We read the report against the specification your contract names and quote its clause in the opinion; where a specification number is not stated in the record, we describe the requirement rather than guess at a reference.",
-        "Contractors working for the state companies are prequalified, and Kuwait Petroleum Corporation moved registration and prequalification onto its K-Tendering Portal in April 2024. Atlantis does not claim to be on any Kuwaiti operator's approved contractor or vendor list. A review is commissioned by whoever needs the opinion: the operator, a prequalified contractor, a fabricator or an adviser.",
+        "Contractors working for the state companies are prequalified, and in 2024 Kuwait Petroleum Corporation introduced its K-Tendering platform to handle registration, qualification and tender submissions. Atlantis does not claim to be on any Kuwaiti operator's approved contractor or vendor list. A review is commissioned by whoever needs the opinion: the operator, a prequalified contractor, a fabricator or an adviser.",
         "Radiation work is licensed by the Ministry of Health. It issues licences for dealing with ionising radiation sources and personal licences for people who work in the field, and in 2024 the minister approved decisions on licensing procedures and on the security of radioactive sources. Radiographs from Kuwaiti sites should come from a licensed radiography contractor. Atlantis does not perform radiography in Kuwait; film, CR and DR images are reviewed as documents."
       ]
     },
@@ -191,7 +191,9 @@
     "https://www.arabtimesonline.com/news/knpc-absorbs-kipic-expands-energy-portfolio/",
     "https://kuwaittimes.com/article/45801/business/kipic-knpc-merger-marks-strategic-milestone-for-kuwaits-oil-industry/",
     "https://www.kpc.com.kw/KCompanies",
-    "https://structurae.net/en/products-services/new-office-building-in-kuwait-for-one-of-the-worlds-largest-oil-producers",
+    "https://timeskuwait.com/?p=4587",
+    "https://kuwaittimes.com/article/45801/business/kipic-knpc-merger-marks-strategic-milestone-for-kuwaits-oil-industry/",
+    "https://www.worldoil.com/news/2021/7/13/kuwait-opens-first-lng-import-facility-in-push-for-greener-electricity",
     "https://e.gov.kw/sites/kgoenglish/Pages/Services/MOH/PersonalLicensesIonizingRadiation.aspx",
     "https://www.lexis.ae/2024/01/31/kw-radiation-protection-decisions-approved/"
   ]

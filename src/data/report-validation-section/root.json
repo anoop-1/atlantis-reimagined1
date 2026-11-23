@@ -14,7 +14,7 @@
       "p": [
         "NDT report validation is an independent technical review of an inspection report that already exists. The examination has been done and the crew has left site. What remains is a document, and often a set of digital inspection files, that somebody now has to rely on. Validation answers a narrow question with care: does the record show that the examination was carried out to the procedure, by qualified people, with calibrated equipment, using a technique capable of finding the flaw that matters, and that the accept or reject decision follows from the evidence?",
         "It is different from an inspection, and different from a quality audit of a contractor. An inspection produces new evidence. An audit looks at a company's system over a period. A validation looks at one report, or one batch of reports, and tests that specific record against the specific requirements that governed the work on the day it was done. The output is a written opinion your engineers, your insurer or your counsel can use.",
-        "Most of the reports we see are sound, and saying so is a useful result: it lets a buyer accept a deliverable with confidence or lets a contractor answer a rejection with evidence rather than argument. Where a report is weak, the review separates paperwork that can be corrected from decisions the data cannot support, because the two lead to very different next steps."
+        "A finding that a report is sound is a useful result in its own right: it lets a buyer accept a deliverable with confidence or lets a contractor answer a rejection with evidence rather than argument. Where a report is weak, the review separates paperwork that can be corrected from decisions the data cannot support, because the two lead to very different next steps."
       ]
     },
     {
@@ -53,7 +53,7 @@
     {
       "h": "Report validation by industry",
       "p": [
-        "The codes, the damage mechanisms and the people who read the report change from one industry to the next, so the review is set up for the sector the report comes from. Each industry page explains what owners in that sector most often ask us to check and which documents matter."
+        "The codes, the damage mechanisms and the people who read the report change from one industry to the next, so the review is set up for the sector the report comes from. Each industry page explains what owners in that sector typically need checked and which documents matter."
       ],
       "linksFrom": "industry"
     },

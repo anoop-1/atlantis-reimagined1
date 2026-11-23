@@ -15,7 +15,7 @@
       "p": [
         "Jubail Industrial City was planned from the start for energy-intensive industry. It is run by the Royal Commission for Jubail and Yanbu, set up in 1975 to plan, develop and manage the Kingdom's petrochemical and energy-intensive industrial cities, and it covers roughly a thousand square kilometres of Arabian Gulf coastline about 100 km north of Dammam. The Commission plans the land, builds the infrastructure and watches environmental performance across the city. The plants themselves are run by their owners, and it is the owners' inspection programmes that produce the reports people ask us to read.",
         "Refining here is led by two Aramco sites. SATORP, the joint venture in which Aramco holds 62.5 percent alongside TotalEnergies, has operated since 2014 and now processes about 460,000 barrels of crude a day. SASREF, which Aramco has owned outright since buying Shell's half of the venture in 2019, started its first unit in 1984. Chemicals spread even wider: Sadara Chemical Company, Aramco's joint venture with Dow in Jubail Industrial City II, brought its mixed-feed steam cracker on line in 2016 and runs 26 integrated manufacturing units, and SABIC, in which Aramco has held 70 percent since June 2020, operates several manufacturing affiliates in the city, Petrokemya among them.",
-        "Power and water come largely from the Jubail Water and Power Company plant, commissioned in 2010, which produces 2,745 MW of electricity and 800,000 cubic metres of desalinated water a day and is operated by Marafiq, the utility company for Jubail and Yanbu. Around these anchors work the fabrication, maintenance and support shops that build piping spools, vessels and steelwork for the plants and repair them between runs. Naming a site here describes the area; it does not mean Atlantis has reviewed its records or holds approved-vendor status with its owner."
+        "Power and water come largely from the Jubail Water and Power Company plant, commissioned in 2010, which can produce 2,745 MW of electricity and 800,000 cubic metres of desalinated water a day; it is a joint venture that Marafiq, the utility company for Jubail and Yanbu, runs together with its partners. Around these anchors work the fabrication, maintenance and support shops that build piping spools, vessels and steelwork for the plants and repair them between runs. Naming a site here describes the area; it does not mean Atlantis has reviewed its records or holds approved-vendor status with its owner."
       ]
     },
     {
@@ -28,9 +28,9 @@
         "rows": [
           ["Export refining", "SATORP and SASREF", "T&I packages for columns, drums and reactors, CML thickness surveys, PAUT on repair welds, exchanger tube files, inspection reports for crude and product storage tanks"],
           ["Integrated petrochemicals", "Sadara and SABIC affiliates such as Petrokemya", "Furnace and cracker records, corrosion maps on vessels and piping, PT on stainless welds, MT on carbon steel attachments, reports on supports and equipment foundations"],
-          ["New construction", "The Amiral complex being integrated with SATORP, the Riyas NGL fractionation facilities for Jafurah gas, the new MTBE plant at Petrokemya", "Mechanical completion dossiers, radiographs and DR images of piping welds, PAUT and TOFD on thick-wall vessels, PWHT charts, hardness and PMI records, weld maps"],
-          ["Utilities", "The JWAP power and desalination plant operated by Marafiq", "Boiler and HRSG tube thickness data, header and steam piping weld reports, desalination vessel and piping surveys, condenser and exchanger tube data"],
-          ["Industrial port storage", "The Amiral storage facility for butadiene and MTBE at King Fahad Industrial Port", "Tank construction and in-service records, floor and shell thickness data, weld examinations on nozzles and repairs"],
+          ["New construction", "The Amiral complex being built beside SATORP, the Riyas NGL fractionation facilities for Jafurah gas, and newly started units such as the MTBE plant Petrokemya brought on stream in 2025", "Mechanical completion dossiers, radiographs and DR images of piping welds, PAUT and TOFD on thick-wall vessels, PWHT charts, hardness and PMI records, weld maps"],
+          ["Utilities", "The JWAP power and desalination plant, a Marafiq joint venture", "Boiler and HRSG tube thickness data, header and steam piping weld reports, desalination vessel and piping surveys, condenser and exchanger tube data"],
+          ["Product storage", "The Sabtank Amiral tank farm being built to store and ship products of the Amiral complex, MTBE among them", "Tank construction and in-service records, floor and shell thickness data, weld examinations on nozzles and repairs"],
           ["Fabrication and support shops", "Vessel, spool, exchanger and steelwork shops across the industrial city", "Vendor data books, radiographs or DR images, UT used in place of radiography, MT and PT on attachments, hydrotest records"]
         ]
       }
@@ -39,7 +39,7 @@
       "h": "Who commissions an independent review in Jubail, and why",
       "p": [
         "Jubail's ownership structure shapes who asks. Joint ventures have partners who read the same inspection history from different head offices. Large projects have EPC contractors who must hand records to an owner that did not watch the work being done. The shops in the industrial city sell to operators whose vendor inspectors read every data book closely. An independent reader earns a place whenever two parties have to agree on what a record proves.",
-        "Ownership and scope also move over time. At SASREF, for example, Aramco and Rongsheng Petrochemical signed framework agreements in 2024 on a possible expansion of the refinery's refining and petrochemical capability. Wherever a stake, a scope or a partner is under discussion, the inspection history is one of the documents each side reads before committing, and an opinion on whether that history is complete and defensible is something both sides can use."
+        "Ownership and scope also move over time. At SASREF, for example, Aramco and Rongsheng Petrochemical signed framework agreements in 2024 on a possible expansion of the refinery's refining and petrochemical capability, and in September 2026 Dow, which holds 35 percent of Sadara, was reported to be weighing an exit from that venture, with no decision announced. Wherever a stake, a scope or a partner is under discussion, the inspection history is one of the documents each side reads before committing, and an opinion on whether that history is complete and defensible is something both sides can use."
       ],
       "list": [
         "Owner inspection engineers closing a turnaround and inspection package from several contractors before a unit restarts",
@@ -61,9 +61,9 @@
     {
       "h": "Four review situations that come up in Jubail",
       "p": [
-        "T&I close-out at an export refinery. A refinery turnaround ends with reports from several contractors, each using its own template, all landing in the last days before start-up. The useful review is a targeted one: repairs, borderline findings, equipment whose technique changed since the last outage and packages from contractors new to the site. Most findings turn out to be documentation gaps, such as readings filed against CML numbers that no longer exist in the owner's database or a PAUT file saved without its setup, and the opinion separates those from findings that weaken an accept decision.",
+        "T&I close-out at an export refinery. A refinery turnaround ends with reports from several contractors, each using its own template, all landing in the last days before start-up. The useful review is a targeted one: repairs, borderline findings, equipment whose technique changed since the last outage and packages from contractors new to the site. Findings in such packages are often documentation gaps, such as readings filed against CML numbers that no longer exist in the owner's database or a PAUT file saved without its setup, and the opinion separates those from findings that weaken an accept decision.",
         "Handover of a new unit. On a project such as the Amiral complex or the Riyas fractionation facilities, the owner's handover team reads thousands of weld records produced by subcontractors it did not supervise directly. A sample review before submission tells the contractor where the dossier is weak: weld maps that disagree with the NDT log, DR images whose quality indicators cannot be seen, PWHT charts with no traceable thermocouple record, or PAUT coverage that leaves part of a thick nozzle weld unexamined.",
-        "A held data book. When an operator's vendor inspector holds a shipment from a Jubail shop over the NDT pages, the fabricator needs to know quickly which comments are genuine nonconformances and which can be closed by supplying or correcting a document. The review gives that split in writing, and many shops pass the opinion to the buyer as the basis for releasing the hold.",
+        "A held data book. When an operator's vendor inspector holds a shipment from a Jubail shop over the NDT pages, the fabricator needs to know quickly which comments are genuine nonconformances and which can be closed by supplying or correcting a document. The review gives that split in writing, and a shop can pass the opinion to the buyer as the basis for asking that the hold be released.",
         "Power and water plant outage records. Boiler, HRSG and desalination equipment generates thickness surveys on tubes, weld reports on headers and steam lines, and tube inspection data from condensers and exchangers. The review checks that tube readings were taken where the inspection plan says, that repeat surveys used the same locations, and that any eddy current or IRIS tube data was evaluated by someone qualified for that technique."
       ]
     },
@@ -122,6 +122,10 @@
     ["/report-validation/tank-inspection-report-review", "Storage tank inspection report review"]
   ],
   "sources": [
+    "https://www.hydrocarbonprocessing.com/news/2026/09/dow-weighs-exit-from-20-b-partnership-with-aramco/",
+    "https://www.sabic.com/en/reports/integrated-report-2025/strategic-approach/strategic-projects",
+    "https://www.zawya.com/en/projects/construction/sinopec-lands-major-tank-farm-project-in-saudi-arabia-hofcvd7o",
+    "https://saudipedia.com/en/nuclear-and-radiological-regulatory-commission",
     "https://en.wikipedia.org/wiki/Royal_Commission_for_Jubail_and_Yanbu",
     "https://saudipedia.com/en/the-royal-commission-for-jubail-and-yanbu",
     "https://totalenergies.com/energy-expertise/projects/refining-petrochemical-platform/satorp",

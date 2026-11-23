@@ -11,7 +11,7 @@
     },
     {
       "h": "Construction and operations",
-      "p": "Records from the Ruwais LNG and Borouge expansions arrive as fabrication packages and field weld data, while the operating refineries and gas plants send turnaround and integrity records. The checks are the same seven; the emphasis changes."
+      "p": "Records from the Ruwais LNG and Borouge expansions arrive as fabrication packages and field weld data, while the operating refinery and gas plants send turnaround and integrity records. The checks are the same seven; the emphasis changes."
     },
     {
       "h": "Nuclear framed correctly",
@@ -22,8 +22,8 @@
     {
       "h": "Why Ruwais and Abu Dhabi produce records that need a second reader",
       "p": [
-        "ADNOC Refining runs the Ruwais refinery and the Abu Dhabi refinery, which together process more than 922,000 barrels a day of crude and condensate. Eni and OMV took minority stakes in the company in 2019, so its inspection records are read by partners as well as by the operator. Next door, Borouge operates the polyolefins production site at Ruwais, and its Borouge 4 expansion, owned 70 per cent by ADNOC and 30 per cent by OMV, adds a 1.5 million tonne ethane cracker and 1.4 million tonnes of polyethylene capacity. ADNOC and OMV have also been combining Borouge, Borealis and Nova Chemicals into Borouge Group International, with ADNOC's interest held through its XRG subsidiary.",
-        "Gas is the third pillar. ADNOC Gas describes the Al Ruwais Industrial Complex as home to the UAE's only natural gas liquids fractionation plant, fed from an onshore system whose core, the Habshan complex, has five plants and fourteen processing trains. Further along the industrial city, the Ruwais LNG project is being built as two liquefaction trains of 4.8 million tonnes a year each. ADNOC holds 60 per cent, with ADNOC Gas planning to take over that stake, and BP, Mitsui, Shell and TotalEnergies each hold 10 per cent; start-up was announced for the second half of 2028.",
+        "ADNOC Refining runs the Ruwais refinery, which the company says refines more than 922,000 barrels per stream day. Eni and OMV took minority stakes in ADNOC Refining in 2019, so its inspection records are read by partners as well as by the operator. Next door, Borouge operates the polyolefins production site at Ruwais, and its Borouge 4 expansion, owned 70 per cent by ADNOC and 30 per cent by OMV, adds a 1.5 million tonne ethane cracker and 1.4 million tonnes of polyethylene capacity. At the end of March 2026, ADNOC's XRG subsidiary and OMV completed the combination of Borouge and Borealis, together with the acquisition of Nova Chemicals, into Borouge Group International, an equal partnership between the two; Borouge 4 remains with ADNOC and OMV for now.",
+        "Gas is the third pillar. ADNOC Gas describes the Al Ruwais Industrial Complex as home to the UAE's only natural gas liquids fractionation plant, fed from an onshore system whose core, the Habshan complex, has five plants and fourteen processing trains. Further along the industrial city, the Ruwais LNG project is being built as two liquefaction trains of 4.8 million tonnes a year each. ADNOC holds 60 per cent and BP, Mitsui, Shell and TotalEnergies 10 per cent each. The first train is expected on stream in the second half of 2028 and the second in early 2029, and ADNOC Gas expects to take over ADNOC's stake at about the time the first train starts.",
         "With this much plant, and this many owners, reviews are usually requested by someone at one remove from the examination. An operator's inspection engineer wants a second reader before accepting a contractor's close-out. An EPC contractor needs to know whether a fabricator's package will survive the owner's receiving inspection. An inspection company wants a technical answer to a rejection it thinks is wrong. A partner, a lender or an insurer wants to know what a set of records can prove. The sites named on this page illustrate the area; naming them does not mean we have reviewed their records or worked for their owners."
       ]
     },
@@ -41,7 +41,7 @@
         "rows": [
           [
             "Refining",
-            "ADNOC Refining's Ruwais and Abu Dhabi refineries",
+            "ADNOC Refining's Ruwais refinery",
             "Turnaround packages, API 510 and API 570 reports, CML thickness data, corrosion maps on columns and drums, PAUT on repair welds, CR on small-bore connections"
           ],
           [
@@ -98,7 +98,7 @@
     {
       "h": "Turnaround and integrity records from operating plant",
       "p": [
-        "The operating refineries, the polyolefins site and the gas plants run planned shutdowns on long cycles, and each one ends with a stack of inspection reports from several contractors that the owner's inspectors must close before the unit restarts. Reviews here are normally a targeted sample agreed with the owner: repairs, items with rejectable or borderline findings, equipment whose inspection technique has changed since the last outage, and work by contractors new to the site.",
+        "The Ruwais refinery, the polyolefins site and the gas plants run planned shutdowns on long cycles, and each one ends with a stack of inspection reports from several contractors that the owner's inspectors must close before the unit restarts. Reviews here are normally a targeted sample agreed with the owner: repairs, items with rejectable or borderline findings, equipment whose inspection technique has changed since the last outage, and work by contractors new to the site.",
         "Thickness and corrosion data deserve particular care, because integrity decisions are made from trends rather than single readings. A corrosion map that was acquired with a different grid, a different probe or a different reference point from the last outage can produce an apparent wall loss, or hide a real one. The reviewer checks that readings sit against the right condition monitoring locations, that the calibration and the probe match the record, and that any reprocessing of the map is documented.",
         "Exchanger bundles in the fractionation and cracker trains often come back with eddy current or other electromagnetic tube data. Those raw files are reopened by a reviewer whom the proposal names, holding the eddy current certification your contract requires, rather than being taken from the summary sheet. Remaining-life and fitness-for-service calculations stay with your engineer; the opinion tells that engineer which inspection data can be relied on."
       ]
@@ -180,6 +180,9 @@
     ["/consulting/ndt-consulting-level-iii", "Outsourced ASNT Level III consulting"]
   ],
   "sources": [
+    "https://adnoc.ae/adnoc-refining/about-us/locations",
+    "https://www.hydrocarbonengineering.com/petrochemicals/01042026/omv-and-xrg-complete-transactions-to-create-borouge-international",
+    "https://energyconnects.com/news/gas-lng/2024/november/adnoc-gas-to-acquire-60-stake-in-ruwais-lng-from-adnoc-at-cost-in-h2-2028",
     "https://adnoc.ae/news-and-media/press-releases/2019/adnoc-closes-landmark-strategic-partnership-agreements-with-eni-and-omv-in-refining-and-trading",
     "https://adnoc.ae/en/news-and-media/press-releases/2026/adnoc-and-omv-advance-formation-of-borouge-group-international-ag",
     "https://www.hydrocarbonengineering.com/petrochemicals/04112026/borouge-international-increases-2030-global-growth-plans-to-138-million-t/",

@@ -3,15 +3,15 @@
   "description": "Independent review of raw digital inspection data across methods: encoded PAUT and TOFD, C-scans, CR and DR images, eddy current and UT logger files.",
   "h1": "Raw digital inspection data, reviewed from the acquisition file to the issued report",
   "eyebrow": "Digital inspection data review",
-  "intro": "Most inspection work now leaves a data set behind: encoded phased array and TOFD files, corrosion maps, CR and DR images, eddy current tube data, thickness gauge logs and readings typed into a tablet on the scaffold. That data can outlive the report and settle questions the report cannot. Our digital inspection data review is an independent check of the files themselves. We confirm that each file is what the report says it is, that the set-up and calibration belong to the instrument that produced it, that the data covers the scan plan, and that the numbers in the report come out of the data when it is reopened. The review is carried out remotely on copies you send.",
+  "intro": "Most inspection work now leaves a data set behind: encoded phased array and TOFD files, corrosion maps, CR and DR images, eddy current tube data, thickness gauge logs and readings typed into a tablet. Our digital inspection data review is an independent check of the files themselves: that each one is what the report says it is, that its set-up and calibration belong to the instrument that produced it, that it covers the scan plan, and that the report's numbers come out of it when it is reopened. The review is carried out remotely on copies you send.",
   "highlights": [
     {
       "h": "Across methods, one discipline",
-      "p": "Ultrasonic, radiographic and eddy current files look nothing alike, yet they fail in the same handful of ways: wrong identity, borrowed calibration, missing coverage, undisclosed processing. One set of lineage checks applies to all of them."
+      "p": "Ultrasonic, radiographic and eddy current files look nothing alike, yet they fail in the same few ways: wrong identity, borrowed calibration, missing coverage, undisclosed processing."
     },
     {
       "h": "Every number traced to a file",
-      "p": "A minimum thickness, an indication length or a tube call should lead back to a named file, a set-up, an analyst and a date. Where that trail breaks, the opinion says exactly where it breaks and what follows from it."
+      "p": "A minimum thickness, an indication length or a tube call should lead back to a named file, set-up, analyst and date. Where that trail breaks, the opinion says where and what follows."
     },
     {
       "h": "Reopened, not just read",
@@ -22,9 +22,9 @@
     {
       "h": "What counts as digital inspection data, and where this page starts",
       "p": [
-        "Digital inspection data is anything an instrument or a device recorded during an examination and stored for later use. For encoded ultrasonics that means the waveform at every position. For radiography it means the image file and the detector or plate record behind it. For eddy current tube work it means every channel for every tube pulled. For thickness surveys it can be a gauge's internal log, a grid exported to a spreadsheet, or readings entered by hand into an app. All of it sits underneath the report and, unlike the report, most of it can be examined again by someone who was never on site.",
-        "Our method pages already cover what is particular to each technique, from detector qualification in DR to channel mixes in eddy current. This page is about what those data sets have in common, and it is the place to start when an NDT data review or an NDT report validation spans several methods, contractors or years. How is each file identified? How is it tied to its set-up and calibration? What happened to it between acquisition and the issued report? Is anything missing? Is it being kept in a form someone can still open when the next inspection, audit or dispute comes round? Those answers decide whether a data set is evidence or merely an attachment.",
-        "The inspection data review we carry out is typically asked for in a few recurring situations: an owner accepting a turnaround package from several contractors, a contractor whose client has rejected a data set, a buyer reviewing the inspection history of an asset before purchase, and an engineering team that needs to know which readings it can trust before setting intervals."
+        "Digital inspection data is anything an instrument or device recorded during an examination and stored for later use: the waveform at every encoder position in encoded ultrasonics, the image file and the detector or plate record in radiography, every channel for every tube in eddy current work, and a gauge log, a grid export or a hand-entered app record in a thickness survey. All of it sits underneath the report and, unlike the report, can be examined again by someone who was never on site.",
+        "Method pages cover each technique's specifics; this page covers what the data sets share, and it is the place to start when an NDT data review or report validation spans several methods, contractors or years: how each file is identified, how it is tied to its set-up and calibration, what happened to it before the issued report, what is missing, and whether it can still be opened when the next audit or dispute arrives.",
+        "The data sets the review covers include:"
       ],
       "list": [
         "Encoded phased array, TOFD and automated UT weld files, with their set-up and analysis files",
@@ -38,15 +38,15 @@
     {
       "h": "Data lineage: five links from acquisition to the report",
       "p": [
-        "We describe lineage as five links. Acquisition is the raw file the instrument wrote. Set-up is the configuration it was written with: probe, wedge, focal laws, frequencies, exposure, gain. Calibration is the evidence that the set-up was proven on a reference at the start and confirmed at intervals while the work went on. Analysis is what an analyst did to the raw file to reach a call: gates, cursors, filters, sizing. Reporting is how those calls became text, tables and pictures in the issued document and in the owner's database.",
-        "A review checks each link and the joins between them. A sound acquisition is undermined when its set-up file belongs to a different job. A careful analysis is worth little when the report quotes a different file. The table shows, for each common data type, what the native record is, what proves its set-up and calibration, and the gap we meet most often."
+        "We describe lineage as five links. Acquisition is the raw file the instrument wrote. Set-up is the configuration it was written with: probe, wedge, focal laws, frequencies, exposure, gain. Calibration proves that set-up on a reference at the start and at intervals while the work goes on. Analysis is what an analyst did to the raw file to reach a call: gates, cursors, filters, sizing. Reporting is how those calls became the issued document and the entries in the owner's database.",
+        "A review checks each link and the joins between them. The table shows, for each data type, the native record, the evidence for its set-up and calibration, and the gap that turns up most often."
       ],
       "table": {
         "head": [
           "Data type",
           "Native record",
           "Set-up and calibration evidence",
-          "Gap we meet most often"
+          "Most common gap"
         ],
         "rows": [
           [
@@ -97,20 +97,19 @@
     {
       "h": "File identity, integrity and format",
       "p": [
-        "The first question about any digital file is whether it is the file the report describes. We compare file names, internal headers and report references: the weld, tube, component or CML identifier; the date and time recorded by the instrument; the instrument and probe serial numbers; and the operator field. Mismatches are common and usually innocent, such as a template file name reused or a weld renumbered after scanning, but each one has to be resolved in writing before the data can support the report.",
-        "Instrument clocks deserve attention. A flaw detector that was never set to local time, or that did not change for daylight saving, can make a calibration check appear to follow the scan it was meant to precede. Before drawing conclusions from timestamps we establish the clock offset from a known event, such as the calibration recorded on the same instrument at the start of the shift.",
-        "Integrity is the second question. We work on copies and leave originals with you. On receipt we record a hash value for each file, using a standard algorithm such as SHA-256 from NIST's Secure Hash Standard, so that anyone can later confirm that the files we reviewed are identical to the ones you hold. If the contractor supplied hash values with the delivery, we check them. Duplicate files with different contents, files modified after the report date and images saved with lossy compression are each recorded as findings, together with what they mean for the record.",
-        "Keeping files is not the same as keeping them readable. Vendor formats change, and the software that opened a file ten years ago may not run on a current computer. ASTM's DICONDE practices give a vendor-neutral structure for NDT data: E2339 is the general practice, and method practices include E2663 for ultrasonic, E2699 for digital X-ray, E2738 for computed radiography, E2934 for eddy current and E2767 for computed tomography. Where data is archived in a native format, we check that the archive also names the software and version needed to open it, and we recommend an export the owner can read without depending on the contractor."
+        "The first question about any digital file is whether it is the file the report describes. We compare file names, internal headers and report references: the weld, tube, component or CML identifier, the date and time the instrument recorded, the instrument and probe serial numbers, and the operator field. Mismatches are common and usually innocent, such as a reused template name or a weld renumbered after scanning, but each one has to be resolved in writing.",
+        "Instrument clocks need care: a flaw detector never set to local time can make a calibration check appear to follow the scan it preceded, so we fix the clock offset from a known event, such as the opening calibration of the shift, before reading anything into timestamps.",
+        "Integrity comes next. We work on copies, leaving originals with you. On receipt we record a hash value for each file, using a standard algorithm such as SHA-256 from NIST's Secure Hash Standard, so that anyone can later confirm the reviewed files match yours, and we check any hash values the contractor supplied. Duplicate files with different contents, files modified after the report date and images saved with lossy compression are each recorded as findings.",
+        "Files also have to stay readable as vendor formats and software change. ASTM's DICONDE practices give a vendor-neutral structure for NDT data: E2339 is the general practice, with method practices E2663 for ultrasonic, E2699 for digital radiography, E2738 for computed radiography, E2934 for eddy current and E2767 for computed tomography. Where data is archived in a native format, we check that the archive names the software and version needed to open it."
       ]
     },
     {
       "h": "Set-up and calibration files against the instrument that used them",
       "p": [
-        "Set-up and calibration files travel easily between instruments, which is convenient in the field and awkward in a review. We read the instrument and probe identifiers stored inside the acquisition file and compare them with the set-up file, the calibration record and the equipment list in the report. A calibration performed on one unit and loaded into another does not prove the second unit's response, and a probe swapped mid-shift without a fresh calibration leaves every later scan without a proven reference.",
-        "Calibration intervals are tested from the data rather than taken from the report. Where a code sets a frequency, the file timestamps show whether it was met. Federal rules for LNG facilities are a clear example: under 49 CFR 193.2321, ultrasonic equipment used on storage tank welds has to be calibrated at a frequency no longer than eight hours, and suspect welds examined before the equipment was found out of calibration must be re-examined. A review of LNG tank data lines up each calibration file against the scan files that followed it and identifies any weld that fell outside a proven window."
+        "Set-up and calibration files travel easily between instruments. We compare the instrument and probe identifiers stored inside each acquisition file with the set-up file, the calibration record and the equipment list in the report. A calibration made on one unit and loaded into another proves nothing about the second unit, and a probe swapped mid-shift without a fresh calibration leaves every later scan without a proven reference.",
+        "Calibration intervals are tested from file timestamps rather than taken from the report. Federal rules for LNG facilities show why: under 49 CFR 193.2321, ultrasonic equipment used on storage tank welds must be calibrated at a frequency no longer than eight hours, and suspect weld inspections made before the equipment was found out of calibration must be re-examined. The review lines up each calibration file with the scans that followed it and flags any weld outside a proven window."
       ],
       "list": [
-        "Instrument, probe and wedge serial numbers in the file match the report and the equipment certificates",
         "Calibration was carried out on the same instrument and probe combination used for production scans",
         "The reference block or calibration standard is identified and suits the material and thickness",
         "Confirmation checks fall inside the interval the procedure or code sets, judged from file timestamps",
@@ -120,24 +119,24 @@
     {
       "h": "Scan plans compared with the data actually acquired",
       "p": [
-        "A scan plan, technique sheet or tube list states what was meant to be examined. The data shows what was. We compare the two directly: groups and focal laws set up against those that recorded, encoder length against weld length, index offsets on each side of the weld against the plan, tubes listed against tubes with data, CML grid points planned against readings logged. A report can describe full coverage in good faith while the data set is quietly missing a group that failed to fire or a row of tubes skipped when the probe pusher jammed.",
-        "Coverage is judged from the files, not the summary. Encoder traces show restarts, reversals and gaps. Eddy current data shows tubes tested at reduced speed or with a channel dropped. Radiography records show whether every exposure listed was imaged and kept. Thickness logs show whether readings were actually taken at each planned location or copied across from the last survey. Where the plan itself was inadequate for the geometry or the damage mechanism, the opinion says so separately from whether the plan was followed, because those are different findings with different owners."
+        "A scan plan, technique sheet or tube list states what was meant to be examined; the data shows what was. We compare the two directly: focal law groups planned against groups recorded, encoder length against weld length, index offsets against the plan, tubes listed against tubes with data, CML grid points against readings logged. A report can describe full coverage in good faith while a group failed to fire or a row of tubes was skipped.",
+        "Coverage is judged from the files. Encoder traces show restarts, reversals and gaps; eddy current data shows tubes pulled too fast or a channel dropped; radiography records show whether every listed exposure was imaged and kept; thickness logs show whether readings were taken at each planned location or copied from the last survey. Where the plan itself was inadequate for the geometry or the damage mechanism, the opinion reports that separately from whether the plan was followed."
       ]
     },
     {
       "h": "Analysis settings, processing and audit trails",
       "p": [
-        "Between the raw file and the report sits analysis, and most of it can be undone only if the software kept a record. Gate positions, reference and measurement cursors, colour palettes, filters, averaging, image enhancement and sizing methods all change what a file appears to show. Some analysis packages save these settings in a separate analysis file and leave the acquisition untouched. Others write them back into the same file, so that the state the analyst saw at the time is the only state that remains. We ask which applies and request both the acquisition and the analysis files where they exist.",
-        "Audit trails vary just as much. A well-configured system records who opened a file, what was changed and when. A shared login on a field laptop records none of that and turns every analysis into an unsigned one. We note the software name and version stored in each file purely as context, because a file saved in a later release may display differently in an earlier viewer, and we check that the analyst named in the report is the person whose account, initials or signature appears in the analysis record. Where no audit trail exists, the opinion records that the analysis can be repeated but not attributed to anyone."
+        "Analysis sits between the raw file and the report, and it can be undone only if the software kept a record. Gates, cursors, palettes, filters, averaging, enhancement and sizing all change what a file appears to show. Some packages store these settings in a separate analysis file; others write them into the acquisition, leaving only the state the analyst last saw. We request both files where both exist.",
+        "Audit trails vary as much. A well-configured system records who opened a file, what changed and when; a shared field-laptop login records nothing and turns every analysis into an unsigned one. We check that the analyst named in the report is the person whose account or signature appears in the analysis record, and note the software version in each file, since a later release can display differently in an earlier viewer. Without an audit trail, the analysis can be repeated but not attributed."
       ]
     },
     {
       "h": "Re-analysis of raw data: scope, sampling and disagreements",
       "p": [
-        "Reopening raw data is the strongest thing a reviewer can do, and its scope is agreed before any file is opened. A typical scope re-evaluates every call the report made that decides acceptance, every indication or reading near an acceptance limit, a sample of regions the report recorded as clean, and any area where coverage or calibration is in doubt. Reading every file from scratch is rarely sensible: it multiplies the effort and invites arguments over judgement calls that were reasonable when they were made.",
-        "When our reading differs from the report, the opinion shows both. It names the file, the position or tube, the setting used to see the indication, the measurement each party obtained and the rule that decides between them. Differences of judgement are kept apart from differences of fact, such as an indication that is plainly present in the data and absent from the report. The review does not reissue the contractor's report or replace it with ours; it tells you which calls the data supports and which it does not.",
+        "Reopening raw data is the strongest thing a reviewer can do, and its scope is agreed before any file is opened: every call that decides acceptance, every indication or reading near a limit, a sample of regions reported clean, and any area where coverage or calibration is in doubt. Reading every file from scratch rarely makes sense and invites argument over judgement calls that were reasonable at the time.",
+        "Where our reading differs from the report, the opinion shows both: the file, the position or tube, the setting used to see the indication, each party's measurement and the rule that decides between them. Differences of judgement are kept apart from differences of fact, such as an indication plainly present in the data and absent from the report. The review does not reissue the contractor's report; it states which calls the data supports and which it does not.",
         "Where a tube inspection programme calls for primary and secondary analysis with a resolution step, we also check that the two analyses were genuinely separate and that resolution followed the written analysis guidelines rather than the more convenient call.",
-        "Every opinion closes with one of three verdicts, and each finding behind it cites the procedure step or code clause it rests on and the file where the reviewer found it."
+        "Every opinion closes with one of three verdicts, each finding citing the procedure step or code clause it rests on and the file where the reviewer found it."
       ],
       "list": [
         "Sound: the data supports the report as issued",
@@ -148,7 +147,7 @@
     {
       "h": "Missing files and data gaps: what an opinion can still say",
       "p": [
-        "Data sets arrive incomplete more often than not. Sometimes the raw files were never a contract deliverable; sometimes they were overwritten during re-analysis, lost with a field laptop or deleted to free memory on the instrument. A gap does not end the review, but it changes what the review can establish, and the opinion states that change plainly rather than burying it in a caveat.",
+        "Data sets often arrive incomplete. Raw files may never have been a contract deliverable, or they were overwritten during re-analysis, lost with a field laptop or deleted to free instrument memory. A gap does not end the review, but it changes what the review can establish, and the opinion states that change plainly.",
         "We also say whether a gap can still be closed. The contractor may hold the files on a server, your contract may entitle you to them, or the component may still be accessible for a limited re-examination by a contractor you appoint."
       ],
       "table": {
@@ -189,8 +188,8 @@
     {
       "h": "Retention and archiving rules that apply to digital data",
       "p": [
-        "Whether raw data has to be kept, and for how long, depends on the regulation, the code, the owner's programme and the contract. Several US rules go further than many people expect, and some deal with electronic records directly. Where a requirement applies, the review checks that the digital record meets it in practice: that the files exist, can be opened and have not been changed since the examination.",
-        "The table lists the US rules we meet most often in practice. Construction codes and owner programmes add their own, and where they are stricter they govern."
+        "Whether raw data must be kept, and for how long, depends on the regulation, the code, the owner's programme and the contract. Where a requirement applies, the review checks that the files exist, still open and are unchanged since the examination.",
+        "The US rules met most often are listed below; construction codes, owner programmes and contracts govern where they are stricter."
       ],
       "table": {
         "head": [
@@ -210,8 +209,8 @@
             "That the digital weld log ties each weld number to its NDT file and its final disposition"
           ],
           [
-            "OSHA 29 CFR 1910.119, process safety management",
-            "Each inspection and test on process equipment documented; OSHA has said such records may be kept on computer if readily retrievable, for the life of the process",
+            "OSHA 29 CFR 1910.119(j)(4)(iv), process safety management",
+            "Each inspection and test on process equipment documented; a 1996 OSHA interpretation allows these records on computer if readily retrievable and requires them to be kept for the life of the process",
             "That electronic inspection records can actually be retrieved and carry the elements the rule names"
           ],
           [
@@ -225,16 +224,16 @@
     {
       "h": "What to send, how to send it, and who reviews it",
       "p": [
-        "Send the native files as the instrument or analysis software saved them, not exports or screenshots, together with the set-up and calibration files, the scan plan or technique sheet, the procedure and its revision, certificates for the personnel named, the issued report and anything exported from it to your inspection database. Tell us which software and version the files came from; we use that only to open the files correctly, not to judge the product.",
-        "Data sets are often large, and some are commercially sensitive. The transfer route is agreed at scoping: an access-controlled share from your side or ours, a file list with hash values, and a confidentiality agreement where you need one. Files are not sent as ordinary email attachments, are worked on as copies, and are returned or deleted at the end of the review as you instruct. Nothing is converted or re-saved without the step being recorded.",
-        "The review is independent of the contractor who produced the data, and Atlantis does not review data from examinations it carried out. Ultrasonic, radiographic and surface-method data is reviewed under the lead of an ASNT NDT Level III whose certified methods are UT, RT, MT, PT and VT. Eddy current and other techniques are handled differently: the proposal names a reviewer holding the certification your contract calls for. Around them, the review team's members come from nuclear, maritime, oil and gas and petrochemical work. In the United States Atlantis does not perform industrial radiography; the CR and DR images reviewed there come from your own licensed contractor. For nuclear licensees, Atlantis is not on any Appendix B or NQA-1 approved supplier list, so the opinion is an independent technical view that your quality organisation decides how to use."
+        "Send the native files as the instrument or analysis software saved them, not exports or screenshots, with the set-up and calibration files, the scan plan or technique sheet, the procedure and its revision, the personnel certificates, the issued report and anything exported from it to your inspection database. Name the software and version so the files open correctly.",
+        "The transfer route is agreed at scoping: an access-controlled share, a file list with hash values and a confidentiality agreement if you need one. Files never travel as ordinary email attachments, are worked on as copies, and are returned or deleted at the end as you instruct; any conversion or re-save is recorded.",
+        "The review is independent of the contractor who produced the data, and Atlantis does not review data from its own examinations. Ultrasonic, radiographic and surface-method data is reviewed under an ASNT NDT Level III certified in UT, RT, MT, PT and VT. For eddy current and other techniques, the proposal names a reviewer with the certification your contract calls for. Team members come from nuclear, maritime, oil and gas and petrochemical work. Atlantis performs no industrial radiography in the United States, so CR and DR images reviewed there come from your licensed contractor. Atlantis is not on any licensee's Appendix B or NQA-1 approved supplier list, so for nuclear work the opinion is an independent view your quality organisation decides how to use."
       ]
     }
   ],
   "faqs": [
     {
       "q": "How is a digital inspection data review different from a report review?",
-      "a": "A report review checks the document against the procedure, the code and the supporting records. A data review goes underneath it: the files are opened, tied to their set-up and calibration, and the calls that matter are measured again. Most engagements combine the two, and the written opinion says which findings came from the data and which from the documents."
+      "a": "A report review checks the document against the procedure, the code and the supporting records. A data review goes underneath it: the files are opened, tied to their set-up and calibration, and the decisive calls are measured again. The opinion says which findings came from the data and which from the documents."
     },
     {
       "q": "Do you need the contractor's software to open our files?",
@@ -245,16 +244,8 @@
       "a": "Often, though not always. Internal timestamps, header fields, file system dates, separate analysis files and audit logs each give evidence, and inconsistencies between them are what we look for. Where the evidence cannot settle the point, the opinion says so rather than guessing."
     },
     {
-      "q": "How much of the data do you re-analyse?",
-      "a": "An agreed sample, fixed before the work starts: the calls that decide acceptance, readings and indications near a limit, a share of the areas reported clean, and any region where coverage or calibration is in doubt. The sample can be widened if the first pass turns up problems."
-    },
-    {
       "q": "What if only exports, screenshots or a CSV file were kept?",
       "a": "We review what exists and state what it cannot show. A CSV of thickness values can still be checked for gaps, duplicates and assignment to CMLs; a screenshot can show an indication but not the settings that produced it. The opinion separates documentation findings from the questions the missing raw data leaves open."
-    },
-    {
-      "q": "How should we send a large data set?",
-      "a": "Through an access-controlled share agreed at scoping, with a file list and, ideally, hash values so both sides can confirm what was delivered. We record a hash for each file on receipt, work only on copies and follow your instructions on returning or deleting the files at the end."
     },
     {
       "q": "Will the review tell us how long to keep our raw data?",

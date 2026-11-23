@@ -23,14 +23,14 @@
       "h": "Where Dubai's inspection records come from",
       "p": [
         "The Dubai Electricity and Water Authority's Jebel Ali Power Generation and Water Production Complex is the obvious starting point. DEWA gives its capacity as 9,547 MW of power and 490 million imperial gallons a day of desalinated water, the water coming mostly from 43 multi-stage flash units in stations D, E, G, K, L and M plus reverse osmosis plants. Guinness World Records has recognised the site as the largest single-site natural gas power generation facility and, separately, the largest single-site desalination facility. Along the coast, DEWA's Hassyan complex was built as a dual-fuel station able to burn gas or coal and has since been converted to run on natural gas only, with a total of 2,400 MW.",
-        "Emirates Global Aluminium's Jebel Ali smelter, the first built in the UAE, has seven potlines and about a million tonnes a year of capacity, and it runs its own 2,974 MW of generating capacity and a desalination plant. ENOC Processing Company operates the condensate refinery at Jebel Ali, where an expansion project added a new condensate processing train to lift capacity from 140,000 towards 210,000 barrels a stream day. Around these sit the fabrication shops of Jebel Ali Free Zone and the wider city, building vessels, spools, skids and structural steel for clients across the region, and the steel-framed towers, warehouses and industrial buildings of Dubai itself.",
+        "Emirates Global Aluminium's Jebel Ali smelter, the first built in the UAE, has seven potlines and about a million tonnes a year of capacity, and it runs its own 2,974 MW of generating capacity and a desalination plant. ENOC Processing Company operates the condensate refinery at Jebel Ali, where an expansion project built a new 70,000 barrel-a-stream-day condensate train, designed to take capacity from 140,000 to 210,000 barrels a stream day; the contractor reported final testing complete in 2020. Around these sit the fabrication shops of Jebel Ali Free Zone and the wider city, building vessels, spools, skids and structural steel for clients across the region, and the steel-framed towers, warehouses and industrial buildings of Dubai itself.",
         "The plants are named to make the area recognisable. Naming them does not suggest Atlantis has reviewed their records or works for their owners."
       ]
     },
     {
       "h": "Review situations that come out of Dubai",
       "p": [
-        "Most requests from the emirate fall into a handful of patterns. The table shows each one, the documents that usually arrive with it and the checks the reviewer leans on hardest."
+        "Requests from the emirate can be grouped into a handful of patterns. The table shows each one, the documents that usually arrive with it and the checks the reviewer leans on hardest."
       ],
       "table": {
         "head": [
@@ -91,7 +91,7 @@
       "h": "Fabrication for export: data books leaving the free zone",
       "p": [
         "Many of the vessels, exchangers, spools and skids built in and around Jebel Ali Free Zone are bound for projects elsewhere in the Gulf or further afield. That means the data book's real reader is the destination operator's receiving inspector, working to that operator's own engineering specification, not only the code the shop is used to. A data book that satisfies ASME Section VIII can still fail receipt because the project specification asked for a greater examination extent, a different acceptance table or a particular personnel certification scheme.",
-        "We read the data book the way that receiving inspector will. The weld map is checked joint by joint against the NDT reports. Film or DR images are checked for image quality and coverage. Ultrasonic examination used in place of radiography is checked for code and purchase order approval and a qualified procedure. PMI, hardness and post-weld heat treatment records are matched to the joints they claim to cover. Shops often send the opinion to their client with the corrected book, which turns a holding point into a list of specific answers."
+        "We read the data book the way that receiving inspector will. The weld map is checked joint by joint against the NDT reports. Film or DR images are checked for image quality and coverage. Ultrasonic examination used in place of radiography is checked for code and purchase order approval and a qualified procedure. PMI, hardness and post-weld heat treatment records are matched to the joints they claim to cover. A shop can send the opinion to its client with the corrected book, which turns a holding point into a list of specific answers."
       ],
       "list": [
         "Weld maps that agree with drawings and NDT reports, joint by joint",
@@ -125,7 +125,7 @@
     {
       "h": "Working with us from Dubai",
       "p": [
-        "Atlantis has no Dubai office and no team, agent or partner anywhere in the UAE. The review is run from Houston and Hyderabad, and Hyderabad's clock sits an hour and a half ahead of Dubai's, so questions raised during your working day are usually answered within it. Because the work is a review of documents and data, nobody needs to visit your plant, shop or building.",
+        "Atlantis has no Dubai office and no team, agent or partner anywhere in the UAE. The review is run from Houston and Hyderabad, and Hyderabad's clock sits an hour and a half ahead of Dubai's, so most of your working day overlaps ours. Because the work is a review of documents and data, nobody needs to visit your plant, shop or building.",
         "You tell us what the record covers, which code and specification applied, and what decision depends on it, and we reply within one business day with the scope and a quote. Files come across by secure transfer, or your own platform if your rules require it. The reviewer works through the seven checks, sends back any question the documents cannot answer, and issues a written opinion with one of three verdicts: sound, deficient in documentation only, or deficient in disposition. Every finding is tied to the clause, table or procedure step it rests on, with what would close it."
       ]
     },
@@ -178,6 +178,7 @@
     ["/consulting/ndt-consulting-level-iii", "Outsourced ASNT Level III consulting"]
   ],
   "sources": [
+    "https://ogj.com/refining-processing/refining/construction/article/14174488/enoc-nears-commissioning-of-jebel-ali-refinery-expansion-project",
     "https://mediaoffice.ae/en/news/2022/October/16-10/DEWAs-Jebel-Ali-Power-Plant",
     "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2021/03/largest-single-site-natural-gas-power-facility-in-the-world",
     "https://www.zawya.com/en/projects/projects-dubais-dewa-adds-1-200-megawatts-from-hassyan-complex-to-installed-capacity-u6qyy5rf",
