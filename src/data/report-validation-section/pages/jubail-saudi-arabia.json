@@ -1,0 +1,144 @@
+{
+  "title": "NDT Report Validation in Jubail, Saudi Arabia | Data Review",
+  "description": "Independent review of NDT reports and digital inspection data from Jubail refineries, petrochemical plants, utilities and shops, carried out remotely.",
+  "h1": "Independent review of NDT reports from Jubail's refineries, petrochemical plants and utilities",
+  "eyebrow": "Report validation · Jubail, Saudi Arabia",
+  "intro": "Jubail is where Saudi Arabia's refining and petrochemical scale is most concentrated. Export refineries, integrated chemical complexes, a large power and desalination plant and the shops that build and repair their equipment all sit inside one planned industrial city on the Gulf coast. Every turnaround, project handover and vendor delivery there ends in NDT reports and digital inspection data that an owner, a contractor or a partner has to rely on. We review those records independently against the procedure, the code and the operator's own standards, and set out in writing what the evidence supports. Atlantis has no Jubail office; the review is done remotely on the files you send.",
+  "highlights": [
+    { "h": "Read against the operator's standards", "p": "A Jubail report usually answers to an international code and to the owner's engineering standards at the same time. The review names both, tests the record against each, and says which requirement every finding rests on." },
+    { "h": "Projects and running plants alike", "p": "New units under construction and plants on a turnaround cycle leave very different paperwork. The scope follows the decision in front of you: a handover dossier, a T&I close-out, a held data book or a disputed report." },
+    { "h": "Raw digital files reopened", "p": "PAUT and TOFD files, DR and CR images, eddy current tube data and corrosion maps from Jubail work are opened in review software and compared with what the report says was found and accepted." }
+  ],
+  "sections": [
+    {
+      "h": "An industrial city built around hydrocarbons",
+      "p": [
+        "Jubail Industrial City was planned from the start for energy-intensive industry. It is run by the Royal Commission for Jubail and Yanbu, set up in 1975 to plan, develop and manage the Kingdom's petrochemical and energy-intensive industrial cities, and it covers roughly a thousand square kilometres of Arabian Gulf coastline about 100 km north of Dammam. The Commission plans the land, builds the infrastructure and watches environmental performance across the city. The plants themselves are run by their owners, and it is the owners' inspection programmes that produce the reports people ask us to read.",
+        "Refining here is led by two Aramco sites. SATORP, the joint venture in which Aramco holds 62.5 percent alongside TotalEnergies, has operated since 2014 and now processes about 460,000 barrels of crude a day. SASREF, which Aramco has owned outright since buying Shell's half of the venture in 2019, started its first unit in 1984. Chemicals spread even wider: Sadara Chemical Company, Aramco's joint venture with Dow in Jubail Industrial City II, brought its mixed-feed steam cracker on line in 2016 and runs 26 integrated manufacturing units, and SABIC, in which Aramco has held 70 percent since June 2020, operates several manufacturing affiliates in the city, Petrokemya among them.",
+        "Power and water come largely from the Jubail Water and Power Company plant, commissioned in 2010, which produces 2,745 MW of electricity and 800,000 cubic metres of desalinated water a day and is operated by Marafiq, the utility company for Jubail and Yanbu. Around these anchors work the fabrication, maintenance and support shops that build piping spools, vessels and steelwork for the plants and repair them between runs. Naming a site here describes the area; it does not mean Atlantis has reviewed its records or holds approved-vendor status with its owner."
+      ]
+    },
+    {
+      "h": "What Jubail sends for review",
+      "p": [
+        "Records reaching an independent reviewer from Jubail fall into recognisable groups. The table pairs each group with examples and with the reports that usually arrive. The owners are named so the clusters are recognisable, not as a client list."
+      ],
+      "table": {
+        "head": ["Cluster", "Examples in Jubail", "Reports and digital data that typically arrive"],
+        "rows": [
+          ["Export refining", "SATORP and SASREF", "T&I packages for columns, drums and reactors, CML thickness surveys, PAUT on repair welds, exchanger tube files, inspection reports for crude and product storage tanks"],
+          ["Integrated petrochemicals", "Sadara and SABIC affiliates such as Petrokemya", "Furnace and cracker records, corrosion maps on vessels and piping, PT on stainless welds, MT on carbon steel attachments, reports on supports and equipment foundations"],
+          ["New construction", "The Amiral complex being integrated with SATORP, the Riyas NGL fractionation facilities for Jafurah gas, the new MTBE plant at Petrokemya", "Mechanical completion dossiers, radiographs and DR images of piping welds, PAUT and TOFD on thick-wall vessels, PWHT charts, hardness and PMI records, weld maps"],
+          ["Utilities", "The JWAP power and desalination plant operated by Marafiq", "Boiler and HRSG tube thickness data, header and steam piping weld reports, desalination vessel and piping surveys, condenser and exchanger tube data"],
+          ["Industrial port storage", "The Amiral storage facility for butadiene and MTBE at King Fahad Industrial Port", "Tank construction and in-service records, floor and shell thickness data, weld examinations on nozzles and repairs"],
+          ["Fabrication and support shops", "Vessel, spool, exchanger and steelwork shops across the industrial city", "Vendor data books, radiographs or DR images, UT used in place of radiography, MT and PT on attachments, hydrotest records"]
+        ]
+      }
+    },
+    {
+      "h": "Who commissions an independent review in Jubail, and why",
+      "p": [
+        "Jubail's ownership structure shapes who asks. Joint ventures have partners who read the same inspection history from different head offices. Large projects have EPC contractors who must hand records to an owner that did not watch the work being done. The shops in the industrial city sell to operators whose vendor inspectors read every data book closely. An independent reader earns a place whenever two parties have to agree on what a record proves.",
+        "Ownership and scope also move over time. At SASREF, for example, Aramco and Rongsheng Petrochemical signed framework agreements in 2024 on a possible expansion of the refinery's refining and petrochemical capability. Wherever a stake, a scope or a partner is under discussion, the inspection history is one of the documents each side reads before committing, and an opinion on whether that history is complete and defensible is something both sides can use."
+      ],
+      "list": [
+        "Owner inspection engineers closing a turnaround and inspection package from several contractors before a unit restarts",
+        "EPC contractors and subcontractors assembling mechanical completion dossiers for new units who want a check before the owner's handover review",
+        "Fabricators whose data book has been held by an operator's vendor inspector and who want an outside reading before they reply",
+        "NDT contractors whose report has been rejected and who need to know whether the rejection holds against the procedure and the code",
+        "Joint venture partners, lenders and insurers wanting a second opinion on inspection history they did not commission",
+        "Owners moving thickness and tube data into a new digital reporting system who want a sample of migrated records tested"
+      ]
+    },
+    {
+      "h": "Codes, operator standards and national authorities behind a Jubail record",
+      "p": [
+        "A Jubail inspection report rarely answers to a single document. The technical basis is usually an international code: ASME Section V for the examination methods, Section VIII or B31.3 for vessels and piping under construction, API 510, 570 and 653 for equipment in service, ASME Section I where a boiler was built to it, and AWS D1.1 for structural steel. On top of the code sit the owner's engineering standards. At Aramco and its joint ventures these are the Saudi Aramco Engineering Standards (SAES), the Saudi Aramco Engineering Procedures (SAEP) and the materials specifications of the SAMSS series, together with the company's inspection forms; SABIC affiliates and other owners write their own specifications into each contract. A report can satisfy the code and still fall short of what the operator added, so the review checks both and says which one a finding comes from.",
+        "Personnel qualification follows the contract. Many Eastern Province operators call for ASNT-based certification under the employer's written practice, and Aramco's own approval handbook for local manufacturers, for example, asks for NDT inspectors certified to ASNT Level II. The review looks at the certificates, vision records and written practice that applied on the day of the examination, not on the day the report was printed.",
+        "National authorities sit around the plant rather than inside the report. The Royal Commission for Jubail and Yanbu administers the industrial city. The High Commission for Industrial Security, whose board is chaired by the Minister of Interior, issues security directives and safety and fire protection directives for facilities in sectors that include petroleum, petrochemicals, electricity and water. Industrial radiography is licensed by the Nuclear and Radiological Regulatory Commission, established in 2018, so the radiographs and DR images in a Jubail weld record come from crews working under an NRRC licence. This service reviews those images as documents; taking radiographs is not part of it."
+      ]
+    },
+    {
+      "h": "Four review situations that come up in Jubail",
+      "p": [
+        "T&I close-out at an export refinery. A refinery turnaround ends with reports from several contractors, each using its own template, all landing in the last days before start-up. The useful review is a targeted one: repairs, borderline findings, equipment whose technique changed since the last outage and packages from contractors new to the site. Most findings turn out to be documentation gaps, such as readings filed against CML numbers that no longer exist in the owner's database or a PAUT file saved without its setup, and the opinion separates those from findings that weaken an accept decision.",
+        "Handover of a new unit. On a project such as the Amiral complex or the Riyas fractionation facilities, the owner's handover team reads thousands of weld records produced by subcontractors it did not supervise directly. A sample review before submission tells the contractor where the dossier is weak: weld maps that disagree with the NDT log, DR images whose quality indicators cannot be seen, PWHT charts with no traceable thermocouple record, or PAUT coverage that leaves part of a thick nozzle weld unexamined.",
+        "A held data book. When an operator's vendor inspector holds a shipment from a Jubail shop over the NDT pages, the fabricator needs to know quickly which comments are genuine nonconformances and which can be closed by supplying or correcting a document. The review gives that split in writing, and many shops pass the opinion to the buyer as the basis for releasing the hold.",
+        "Power and water plant outage records. Boiler, HRSG and desalination equipment generates thickness surveys on tubes, weld reports on headers and steam lines, and tube inspection data from condensers and exchangers. The review checks that tube readings were taken where the inspection plan says, that repeat surveys used the same locations, and that any eddy current or IRIS tube data was evaluated by someone qualified for that technique."
+      ]
+    },
+    {
+      "h": "Petrochemical service and what the reviewer looks for",
+      "p": [
+        "The reports that carry the most weight in a petrochemical plant are those where the technique has to match a particular damage mechanism. Spot thickness readings describe general wall loss well but can miss localised corrosion under insulation, which the humid, salt-laden air of a Gulf coast site encourages on insulated carbon steel. A corrosion map, or a screening method followed by prove-up measurements, is a different kind of evidence, and the report should say which was used and why.",
+        "Austenitic stainless piping and vessels, common in chemical service, put chloride stress corrosion cracking into the inspection plan and make penetrant testing a routine part of the weld record. The reviewer checks that penetrant materials were controlled for sulfur and halogen content where the procedure requires it, that dwell time and surface temperature were recorded, and that indications were judged against the right acceptance criteria. Furnace coils, hydroprocessing reactors and amine or caustic systems each carry their own techniques and acceptance logic, and a report that applies a generic approach to a specific mechanism is one of the commonest technique-adequacy findings.",
+        "None of this turns the review into an engineering assessment. Whether a measured wall can stay in service, and for how long, stays with the owner's engineer. What the opinion settles is whether the measurement itself can be trusted, and whether the method chosen was capable of finding the damage the inspection plan was looking for."
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting from Jubail",
+      "p": [
+        "Jubail's newer plants were built in the era of digital inspection, and even the older units now keep their history in inspection data management systems rather than in filing cabinets. Contractors deliver encoded PAUT and TOFD files, DR images and digitised radiographs, eddy current tube files and corrosion mapping C-scans. Thickness readings flow from data loggers into the owner's database, and reports leave digital reporting platforms with electronic signatures already applied.",
+        "Joint ventures add a complication. Partners, contractors and vendors may each use different software and templates, and one result can pass through several systems between the instrument and the owner's archive. The review follows that lineage for a sample of results: the raw file that produced a reading, the setup and calibration files behind a scan, whether an image was reprocessed after it was interpreted, whether an imported value landed on the right CML, and whether the signature on the issued report belongs to someone qualified on that date. If an archived file will no longer open in any available software, the opinion says what that means for the record's value as evidence."
+      ]
+    },
+    {
+      "h": "How the remote review works for Jubail records",
+      "p": [
+        "Atlantis has no Jubail office and no staff anywhere in the Kingdom. The review is carried out remotely, from Houston and Hyderabad, on the records you transfer, and nobody needs a site pass or a gate permit. Hyderabad runs two and a half hours ahead of Saudi time, which keeps most of the working day in common with Jubail."
+      ],
+      "list": [
+        "Describe the asset, the method, the code and operator standard, and the decision the review supports, through the form or by writing to info@atlantisndt.com",
+        "We reply within one business day with the proposed scope, the reviewer and a quote",
+        "Reports, procedures, certificates, calibration records and raw digital files arrive by a secure transfer route you approve, including your company's own platform if it requires one",
+        "Anything the record cannot answer comes back as a written question, to you or, with your agreement, to the contractor or shop that issued the report",
+        "The written opinion classes the record as sound, deficient in documentation only or deficient in disposition, and ties each finding to the code, standard or procedure step it rests on"
+      ]
+    },
+    {
+      "h": "Reviewers, methods and where the opinion stops",
+      "p": [
+        "Records in ultrasonic, radiographic, magnetic particle, penetrant and visual testing are reviewed under an ASNT NDT Level III whose certification spans each of those five methods. Eddy current tube data from exchangers and condensers, and any method outside that list, goes to a reviewer the proposal names in advance, holding the certification your contract calls for. Behind them sits a review team whose members come from nuclear, maritime, oil and gas and petrochemical work.",
+        "The opinion is about the record. It does not make Atlantis an approved inspection agency for Aramco, SABIC or any other operator, and it does not take the place of the operator's own inspector, who keeps the acceptance decision. Fitness-for-service and remaining-life calculations stay with the owner's engineer, NDT personnel are not certified through the review, and no record is reviewed where Atlantis performed the examination. Every review tests the same seven things: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Does anyone from Atlantis need to visit our Jubail plant?", "a": "No. The review is a remote document and data review, done from Houston and Hyderabad on the records you send, and Atlantis keeps no premises in Jubail or anywhere else in the Gulf. If the record cannot support a decision, the opinion describes the examination that would settle the question." },
+    { "q": "Can you review a T&I package before the unit comes back on stream?", "a": "Yes. A risk-ranked sample usually serves better than a full read: repairs, borderline findings, changed techniques and contractors new to the site. The opinion separates paperwork that can be corrected quickly from findings that call the disposition into question." },
+    { "q": "Will you check a report against Saudi Aramco standards as well as ASME and API?", "a": "Yes, where the contract names them and you send the applicable documents. The review identifies which code requirement and which operator requirement governs each item, and states which one a finding is based on." },
+    { "q": "Does the review depend on Atlantis being on an operator's approved list?", "a": "No. It is an independent technical opinion on a record that already exists, not an inspection, so it neither depends on approved-agency status nor confers it. The operator's own inspector decides how to use the opinion." },
+    { "q": "Do you review radiographs and DR images from licensed radiography contractors?", "a": "Yes. Film radiographs, CR and DR images are checked for image quality, identification, coverage and interpretation as part of the weld record. The radiography itself is carried out by crews licensed by the Nuclear and Radiological Regulatory Commission; this service does not take radiographs." },
+    { "q": "Can a contractor on a new Jubail project use the review before handover?", "a": "Yes, and that is often the best moment. A sample of the mechanical completion dossier is checked against the code, the owner's standards and the weld map, so gaps are closed before the owner's handover team sees them." },
+    { "q": "Who reviews eddy current data from exchanger and condenser tubes?", "a": "The proposal names a reviewer holding the eddy current certification your contract requires, before any data are sent. That reviewer opens the raw tube files rather than relying on the tube sheet summary." },
+    { "q": "How do we send Jubail reports for review?", "a": "Use the form on this page or write to info@atlantisndt.com with the report type, method, code or operator standard and what the review must support. We reply within one business day with the scope and a quote, and the files then come across by secure transfer." }
+  ],
+  "related": [
+    ["/inspection/third-party-inspection-jubail", "Third-party inspection in Jubail"],
+    ["/consulting/ndt-consulting-jubail", "NDT consulting in Jubail"],
+    ["/ndt-training-jubail", "NDT training in Jubail"],
+    ["/ultrasonic-testing-jubail", "Ultrasonic testing in Jubail"],
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"],
+    ["/report-validation/tank-inspection-report-review", "Storage tank inspection report review"]
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Royal_Commission_for_Jubail_and_Yanbu",
+    "https://saudipedia.com/en/the-royal-commission-for-jubail-and-yanbu",
+    "https://totalenergies.com/energy-expertise/projects/refining-petrochemical-platform/satorp",
+    "https://totalenergies.com/projects/petroleum-biosourced-products/amiral-petrochemical-complex-integrated-satorp-refinery",
+    "https://inspenet.com/en/news/totalenergies-and-saudi-aramcos-amiral-petrochemical-complex-moves-forward/",
+    "https://sasref.com.sa/about.html",
+    "https://www.aramco.com/en/news-media/news/2019/aramco-acquires-shell-share-sasref-refining-joint-venture",
+    "https://aramco.com/en/news-media/news/2024/aramco-and-rongsheng-petrochemical-sign-a-framework-agreement-to-advance-sasref-expansion",
+    "https://www.zawya.com/en/projects/oil-and-gas/aramco-rongsheng-move-ahead-with-saudi-liquids-to-chemicals-project-expansion-gwzssg48",
+    "https://www.aramco.com/en/what-we-do/mega-projects/sadara-petrochemicals-facility",
+    "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/081124-aramco-dow-jv-sadara-chemical-q2-revenue-climbs-34-on-year",
+    "https://www.aramco.com/en/news-media/news/2020/saudi-aramco-completes-acquisition-of-70-percent-stake-in-sabic",
+    "https://www.sabic.com/en/reports/integrated-report-2024/business-performance/chemicals",
+    "https://marafiq.com.sa/en/about-us/companies-jvs-projects/jubail-water-and-power-company-jwap/",
+    "https://www.aramco.com/en/news-media/news/2024/aramcos-strategic-gas-expansion-progresses-with-25bn-contract-awards",
+    "https://www.aramco.com/-/media/downloads/working-with-us/ertqa.pdf",
+    "https://saudipedia.com/en/high-commission-for-industrial-security",
+    "https://hse.kaust.edu.sa/safety/laboratory-safety/radiation-safety/regulatory-compliance-and-university-policies"
+  ]
+}
