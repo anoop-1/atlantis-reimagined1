@@ -1,0 +1,1475 @@
+{
+ "note": "Daily report validation additions (owner 2026-11-23: 5 pages a day until every US industrial city — North Carolina excluded — and the Middle East cities are covered). Each run takes the first 5 rows not yet in src/data/report-validation-section/list.json. Method rows add method pages; new method keys must also be added to METHODS_FOR in model.mjs if cities should link them.",
+ "queue": [
+  {
+   "slug": "lafayette-la",
+   "kind": "city",
+   "navLabel": "Report validation in Lafayette, LA",
+   "place": "Lafayette",
+   "region": "Louisiana",
+   "country": "United States",
+   "label": "LA",
+   "industries": [
+    "oil-gas",
+    "fabrication",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "galveston-texas-city-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Galveston–Texas City, TX",
+   "place": "Galveston–Texas City",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "refinery",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "riyadh-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Riyadh, Saudi Arabia",
+   "place": "Riyadh",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "power",
+    "fabrication",
+    "structural"
+   ]
+  },
+  {
+   "slug": "pascagoula-ms",
+   "kind": "city",
+   "navLabel": "Report validation in Pascagoula, MS",
+   "place": "Pascagoula",
+   "region": "Mississippi",
+   "country": "United States",
+   "label": "MS",
+   "industries": [
+    "refinery",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "fujairah-uae",
+   "kind": "city",
+   "navLabel": "Report validation in Fujairah, UAE",
+   "place": "Fujairah",
+   "region": "United Arab Emirates",
+   "country": "United Arab Emirates",
+   "label": "UAE",
+   "industries": [
+    "refinery",
+    "oil-gas",
+    "power"
+   ]
+  },
+  {
+   "slug": "freeport-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Freeport, TX",
+   "place": "Freeport",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "petrochem",
+    "lng"
+   ]
+  },
+  {
+   "slug": "jeddah-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Jeddah, Saudi Arabia",
+   "place": "Jeddah",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "power",
+    "refinery",
+    "structural"
+   ]
+  },
+  {
+   "slug": "san-antonio-tx",
+   "kind": "city",
+   "navLabel": "Report validation in San Antonio, TX",
+   "place": "San Antonio",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "oil-gas",
+    "pipeline",
+    "power"
+   ]
+  },
+  {
+   "slug": "mesaieed-qatar",
+   "kind": "city",
+   "navLabel": "Report validation in Mesaieed, Qatar",
+   "place": "Mesaieed",
+   "region": "Qatar",
+   "country": "Qatar",
+   "label": "Qatar",
+   "industries": [
+    "petrochem",
+    "refinery",
+    "oil-gas"
+   ]
+  },
+  {
+   "slug": "oklahoma-city-ok",
+   "kind": "city",
+   "navLabel": "Report validation in Oklahoma City, OK",
+   "place": "Oklahoma City",
+   "region": "Oklahoma",
+   "country": "United States",
+   "label": "OK",
+   "industries": [
+    "oil-gas",
+    "pipeline",
+    "power"
+   ]
+  },
+  {
+   "slug": "muscat-oman",
+   "kind": "city",
+   "navLabel": "Report validation in Muscat, Oman",
+   "place": "Muscat",
+   "region": "Oman",
+   "country": "Oman",
+   "label": "Oman",
+   "industries": [
+    "refinery",
+    "oil-gas",
+    "power"
+   ]
+  },
+  {
+   "slug": "shreveport-la",
+   "kind": "city",
+   "navLabel": "Report validation in Shreveport, LA",
+   "place": "Shreveport",
+   "region": "Louisiana",
+   "country": "United States",
+   "label": "LA",
+   "industries": [
+    "refinery",
+    "oil-gas",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "sohar-oman",
+   "kind": "city",
+   "navLabel": "Report validation in Sohar, Oman",
+   "place": "Sohar",
+   "region": "Oman",
+   "country": "Oman",
+   "label": "Oman",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "houma-la",
+   "kind": "city",
+   "navLabel": "Report validation in Houma, LA",
+   "place": "Houma",
+   "region": "Louisiana",
+   "country": "United States",
+   "label": "LA",
+   "industries": [
+    "oil-gas",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "sitra-bahrain",
+   "kind": "city",
+   "navLabel": "Report validation in Sitra, Bahrain",
+   "place": "Sitra",
+   "region": "Bahrain",
+   "country": "Bahrain",
+   "label": "Bahrain",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "power"
+   ]
+  },
+  {
+   "slug": "cleveland-oh",
+   "kind": "city",
+   "navLabel": "Report validation in Cleveland, OH",
+   "place": "Cleveland",
+   "region": "Ohio",
+   "country": "United States",
+   "label": "OH",
+   "industries": [
+    "structural",
+    "power",
+    "fabrication",
+    "nuclear"
+   ]
+  },
+  {
+   "slug": "rabigh-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Rabigh, Saudi Arabia",
+   "place": "Rabigh",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "power"
+   ]
+  },
+  {
+   "slug": "cincinnati-oh",
+   "kind": "city",
+   "navLabel": "Report validation in Cincinnati, OH",
+   "place": "Cincinnati",
+   "region": "Ohio",
+   "country": "United States",
+   "label": "OH",
+   "industries": [
+    "fabrication",
+    "power",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "jazan-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Jazan, Saudi Arabia",
+   "place": "Jazan",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "refinery",
+    "power"
+   ]
+  },
+  {
+   "slug": "lima-oh",
+   "kind": "city",
+   "navLabel": "Report validation in Lima, OH",
+   "place": "Lima",
+   "region": "Ohio",
+   "country": "United States",
+   "label": "OH",
+   "industries": [
+    "refinery",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "duqm-oman",
+   "kind": "city",
+   "navLabel": "Report validation in Duqm, Oman",
+   "place": "Duqm",
+   "region": "Oman",
+   "country": "Oman",
+   "label": "Oman",
+   "industries": [
+    "refinery",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "charleston-wv",
+   "kind": "city",
+   "navLabel": "Report validation in Charleston, WV",
+   "place": "Charleston",
+   "region": "West Virginia",
+   "country": "United States",
+   "label": "WV",
+   "industries": [
+    "petrochem",
+    "power",
+    "oil-gas"
+   ]
+  },
+  {
+   "slug": "sharjah-uae",
+   "kind": "city",
+   "navLabel": "Report validation in Sharjah, UAE",
+   "place": "Sharjah",
+   "region": "United Arab Emirates",
+   "country": "United Arab Emirates",
+   "label": "UAE",
+   "industries": [
+    "oil-gas",
+    "fabrication",
+    "power"
+   ]
+  },
+  {
+   "slug": "ashland-ky",
+   "kind": "city",
+   "navLabel": "Report validation in Ashland, KY",
+   "place": "Ashland",
+   "region": "Kentucky",
+   "country": "United States",
+   "label": "KY",
+   "industries": [
+    "refinery",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "basra-iraq",
+   "kind": "city",
+   "navLabel": "Report validation in Basra, Iraq",
+   "place": "Basra",
+   "region": "Iraq",
+   "country": "Iraq",
+   "label": "Iraq",
+   "industries": [
+    "oil-gas",
+    "refinery"
+   ]
+  },
+  {
+   "slug": "louisville-ky",
+   "kind": "city",
+   "navLabel": "Report validation in Louisville, KY",
+   "place": "Louisville",
+   "region": "Kentucky",
+   "country": "United States",
+   "label": "KY",
+   "industries": [
+    "petrochem",
+    "power",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "paducah-ky",
+   "kind": "city",
+   "navLabel": "Report validation in Paducah, KY",
+   "place": "Paducah",
+   "region": "Kentucky",
+   "country": "United States",
+   "label": "KY",
+   "industries": [
+    "nuclear",
+    "power"
+   ]
+  },
+  {
+   "slug": "memphis-tn",
+   "kind": "city",
+   "navLabel": "Report validation in Memphis, TN",
+   "place": "Memphis",
+   "region": "Tennessee",
+   "country": "United States",
+   "label": "TN",
+   "industries": [
+    "refinery",
+    "power",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "nashville-tn",
+   "kind": "city",
+   "navLabel": "Report validation in Nashville, TN",
+   "place": "Nashville",
+   "region": "Tennessee",
+   "country": "United States",
+   "label": "TN",
+   "industries": [
+    "power",
+    "structural",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "huntsville-al",
+   "kind": "city",
+   "navLabel": "Report validation in Huntsville, AL",
+   "place": "Huntsville",
+   "region": "Alabama",
+   "country": "United States",
+   "label": "AL",
+   "industries": [
+    "nuclear",
+    "fabrication",
+    "structural"
+   ]
+  },
+  {
+   "slug": "iris-tube-inspection-data-review",
+   "kind": "method",
+   "key": "iris",
+   "navLabel": "IRIS tube inspection data review"
+  },
+  {
+   "slug": "mfl-tank-floor-data-review",
+   "kind": "method",
+   "key": "mfl",
+   "navLabel": "MFL tank floor data review"
+  },
+  {
+   "slug": "automated-ut-girth-weld-data-review",
+   "kind": "method",
+   "key": "aut",
+   "navLabel": "Automated UT girth weld data review"
+  },
+  {
+   "slug": "guided-wave-data-review",
+   "kind": "method",
+   "key": "gw",
+   "navLabel": "Guided wave data review"
+  },
+  {
+   "slug": "pmi-report-review",
+   "kind": "method",
+   "key": "pmi",
+   "navLabel": "PMI report review"
+  },
+  {
+   "slug": "jackson-ms",
+   "kind": "city",
+   "navLabel": "Report validation in Jackson, MS",
+   "place": "Jackson",
+   "region": "Mississippi",
+   "country": "United States",
+   "label": "MS",
+   "industries": [
+    "nuclear",
+    "power",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "tampa-fl",
+   "kind": "city",
+   "navLabel": "Report validation in Tampa, FL",
+   "place": "Tampa",
+   "region": "Florida",
+   "country": "United States",
+   "label": "FL",
+   "industries": [
+    "power",
+    "fabrication",
+    "structural"
+   ]
+  },
+  {
+   "slug": "jacksonville-fl",
+   "kind": "city",
+   "navLabel": "Report validation in Jacksonville, FL",
+   "place": "Jacksonville",
+   "region": "Florida",
+   "country": "United States",
+   "label": "FL",
+   "industries": [
+    "power",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "miami-fl",
+   "kind": "city",
+   "navLabel": "Report validation in Miami, FL",
+   "place": "Miami",
+   "region": "Florida",
+   "country": "United States",
+   "label": "FL",
+   "industries": [
+    "nuclear",
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "pensacola-fl",
+   "kind": "city",
+   "navLabel": "Report validation in Pensacola, FL",
+   "place": "Pensacola",
+   "region": "Florida",
+   "country": "United States",
+   "label": "FL",
+   "industries": [
+    "petrochem",
+    "power",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "savannah-ga",
+   "kind": "city",
+   "navLabel": "Report validation in Savannah, GA",
+   "place": "Savannah",
+   "region": "Georgia",
+   "country": "United States",
+   "label": "GA",
+   "industries": [
+    "fabrication",
+    "petrochem",
+    "power"
+   ]
+  },
+  {
+   "slug": "atlanta-ga",
+   "kind": "city",
+   "navLabel": "Report validation in Atlanta, GA",
+   "place": "Atlanta",
+   "region": "Georgia",
+   "country": "United States",
+   "label": "GA",
+   "industries": [
+    "power",
+    "structural",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "aiken-sc",
+   "kind": "city",
+   "navLabel": "Report validation in Aiken, SC",
+   "place": "Aiken",
+   "region": "South Carolina",
+   "country": "United States",
+   "label": "SC",
+   "industries": [
+    "nuclear",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "columbia-sc",
+   "kind": "city",
+   "navLabel": "Report validation in Columbia, SC",
+   "place": "Columbia",
+   "region": "South Carolina",
+   "country": "United States",
+   "label": "SC",
+   "industries": [
+    "nuclear",
+    "power"
+   ]
+  },
+  {
+   "slug": "charleston-sc",
+   "kind": "city",
+   "navLabel": "Report validation in Charleston, SC",
+   "place": "Charleston",
+   "region": "South Carolina",
+   "country": "United States",
+   "label": "SC",
+   "industries": [
+    "fabrication",
+    "structural",
+    "power"
+   ]
+  },
+  {
+   "slug": "greenville-sc",
+   "kind": "city",
+   "navLabel": "Report validation in Greenville, SC",
+   "place": "Greenville",
+   "region": "South Carolina",
+   "country": "United States",
+   "label": "SC",
+   "industries": [
+    "power",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "lynchburg-va",
+   "kind": "city",
+   "navLabel": "Report validation in Lynchburg, VA",
+   "place": "Lynchburg",
+   "region": "Virginia",
+   "country": "United States",
+   "label": "VA",
+   "industries": [
+    "nuclear",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "richmond-va",
+   "kind": "city",
+   "navLabel": "Report validation in Richmond, VA",
+   "place": "Richmond",
+   "region": "Virginia",
+   "country": "United States",
+   "label": "VA",
+   "industries": [
+    "nuclear",
+    "power",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "baltimore-md",
+   "kind": "city",
+   "navLabel": "Report validation in Baltimore, MD",
+   "place": "Baltimore",
+   "region": "Maryland",
+   "country": "United States",
+   "label": "MD",
+   "industries": [
+    "nuclear",
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "delaware-city-de",
+   "kind": "city",
+   "navLabel": "Report validation in Delaware City, DE",
+   "place": "Delaware City",
+   "region": "Delaware",
+   "country": "United States",
+   "label": "DE",
+   "industries": [
+    "refinery",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "paulsboro-nj",
+   "kind": "city",
+   "navLabel": "Report validation in Paulsboro, NJ",
+   "place": "Paulsboro",
+   "region": "New Jersey",
+   "country": "United States",
+   "label": "NJ",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "salem-county-nj",
+   "kind": "city",
+   "navLabel": "Report validation in Salem County, NJ",
+   "place": "Salem County",
+   "region": "New Jersey",
+   "country": "United States",
+   "label": "NJ",
+   "industries": [
+    "nuclear",
+    "power"
+   ]
+  },
+  {
+   "slug": "newark-nj",
+   "kind": "city",
+   "navLabel": "Report validation in Newark, NJ",
+   "place": "Newark",
+   "region": "New Jersey",
+   "country": "United States",
+   "label": "NJ",
+   "industries": [
+    "structural",
+    "pipeline",
+    "power"
+   ]
+  },
+  {
+   "slug": "new-york-city-ny",
+   "kind": "city",
+   "navLabel": "Report validation in New York City, NY",
+   "place": "New York City",
+   "region": "New York",
+   "country": "United States",
+   "label": "NY",
+   "industries": [
+    "structural",
+    "power",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "buffalo-ny",
+   "kind": "city",
+   "navLabel": "Report validation in Buffalo, NY",
+   "place": "Buffalo",
+   "region": "New York",
+   "country": "United States",
+   "label": "NY",
+   "industries": [
+    "structural",
+    "power",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "rochester-ny",
+   "kind": "city",
+   "navLabel": "Report validation in Rochester, NY",
+   "place": "Rochester",
+   "region": "New York",
+   "country": "United States",
+   "label": "NY",
+   "industries": [
+    "nuclear",
+    "power",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "syracuse-oswego-ny",
+   "kind": "city",
+   "navLabel": "Report validation in Syracuse–Oswego, NY",
+   "place": "Syracuse–Oswego",
+   "region": "New York",
+   "country": "United States",
+   "label": "NY",
+   "industries": [
+    "nuclear",
+    "power"
+   ]
+  },
+  {
+   "slug": "albany-ny",
+   "kind": "city",
+   "navLabel": "Report validation in Albany, NY",
+   "place": "Albany",
+   "region": "New York",
+   "country": "United States",
+   "label": "NY",
+   "industries": [
+    "power",
+    "fabrication",
+    "structural"
+   ]
+  },
+  {
+   "slug": "new-london-ct",
+   "kind": "city",
+   "navLabel": "Report validation in New London, CT",
+   "place": "New London",
+   "region": "Connecticut",
+   "country": "United States",
+   "label": "CT",
+   "industries": [
+    "nuclear",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "boston-ma",
+   "kind": "city",
+   "navLabel": "Report validation in Boston, MA",
+   "place": "Boston",
+   "region": "Massachusetts",
+   "country": "United States",
+   "label": "MA",
+   "industries": [
+    "power",
+    "structural",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "portsmouth-nh",
+   "kind": "city",
+   "navLabel": "Report validation in Portsmouth, NH",
+   "place": "Portsmouth",
+   "region": "New Hampshire",
+   "country": "United States",
+   "label": "NH",
+   "industries": [
+    "nuclear",
+    "power"
+   ]
+  },
+  {
+   "slug": "harrisburg-pa",
+   "kind": "city",
+   "navLabel": "Report validation in Harrisburg, PA",
+   "place": "Harrisburg",
+   "region": "Pennsylvania",
+   "country": "United States",
+   "label": "PA",
+   "industries": [
+    "nuclear",
+    "power",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "allentown-pa",
+   "kind": "city",
+   "navLabel": "Report validation in Allentown, PA",
+   "place": "Allentown",
+   "region": "Pennsylvania",
+   "country": "United States",
+   "label": "PA",
+   "industries": [
+    "power",
+    "fabrication",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "erie-pa",
+   "kind": "city",
+   "navLabel": "Report validation in Erie, PA",
+   "place": "Erie",
+   "region": "Pennsylvania",
+   "country": "United States",
+   "label": "PA",
+   "industries": [
+    "fabrication",
+    "power"
+   ]
+  },
+  {
+   "slug": "columbus-oh",
+   "kind": "city",
+   "navLabel": "Report validation in Columbus, OH",
+   "place": "Columbus",
+   "region": "Ohio",
+   "country": "United States",
+   "label": "OH",
+   "industries": [
+    "power",
+    "pipeline",
+    "structural"
+   ]
+  },
+  {
+   "slug": "indianapolis-in",
+   "kind": "city",
+   "navLabel": "Report validation in Indianapolis, IN",
+   "place": "Indianapolis",
+   "region": "Indiana",
+   "country": "United States",
+   "label": "IN",
+   "industries": [
+    "fabrication",
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "evansville-in",
+   "kind": "city",
+   "navLabel": "Report validation in Evansville, IN",
+   "place": "Evansville",
+   "region": "Indiana",
+   "country": "United States",
+   "label": "IN",
+   "industries": [
+    "power",
+    "petrochem",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "fort-wayne-in",
+   "kind": "city",
+   "navLabel": "Report validation in Fort Wayne, IN",
+   "place": "Fort Wayne",
+   "region": "Indiana",
+   "country": "United States",
+   "label": "IN",
+   "industries": [
+    "fabrication",
+    "power"
+   ]
+  },
+  {
+   "slug": "joliet-il",
+   "kind": "city",
+   "navLabel": "Report validation in Joliet, IL",
+   "place": "Joliet",
+   "region": "Illinois",
+   "country": "United States",
+   "label": "IL",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "power"
+   ]
+  },
+  {
+   "slug": "peoria-il",
+   "kind": "city",
+   "navLabel": "Report validation in Peoria, IL",
+   "place": "Peoria",
+   "region": "Illinois",
+   "country": "United States",
+   "label": "IL",
+   "industries": [
+    "fabrication",
+    "power"
+   ]
+  },
+  {
+   "slug": "rockford-il",
+   "kind": "city",
+   "navLabel": "Report validation in Rockford, IL",
+   "place": "Rockford",
+   "region": "Illinois",
+   "country": "United States",
+   "label": "IL",
+   "industries": [
+    "fabrication",
+    "power"
+   ]
+  },
+  {
+   "slug": "grand-rapids-mi",
+   "kind": "city",
+   "navLabel": "Report validation in Grand Rapids, MI",
+   "place": "Grand Rapids",
+   "region": "Michigan",
+   "country": "United States",
+   "label": "MI",
+   "industries": [
+    "fabrication",
+    "power"
+   ]
+  },
+  {
+   "slug": "midland-mi",
+   "kind": "city",
+   "navLabel": "Report validation in Midland, MI",
+   "place": "Midland",
+   "region": "Michigan",
+   "country": "United States",
+   "label": "MI",
+   "industries": [
+    "petrochem",
+    "power"
+   ]
+  },
+  {
+   "slug": "milwaukee-wi",
+   "kind": "city",
+   "navLabel": "Report validation in Milwaukee, WI",
+   "place": "Milwaukee",
+   "region": "Wisconsin",
+   "country": "United States",
+   "label": "WI",
+   "industries": [
+    "fabrication",
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "green-bay-wi",
+   "kind": "city",
+   "navLabel": "Report validation in Green Bay, WI",
+   "place": "Green Bay",
+   "region": "Wisconsin",
+   "country": "United States",
+   "label": "WI",
+   "industries": [
+    "nuclear",
+    "power",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "duluth-mn",
+   "kind": "city",
+   "navLabel": "Report validation in Duluth, MN",
+   "place": "Duluth",
+   "region": "Minnesota",
+   "country": "United States",
+   "label": "MN",
+   "industries": [
+    "refinery",
+    "pipeline",
+    "structural"
+   ]
+  },
+  {
+   "slug": "cedar-rapids-ia",
+   "kind": "city",
+   "navLabel": "Report validation in Cedar Rapids, IA",
+   "place": "Cedar Rapids",
+   "region": "Iowa",
+   "country": "United States",
+   "label": "IA",
+   "industries": [
+    "power",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "des-moines-ia",
+   "kind": "city",
+   "navLabel": "Report validation in Des Moines, IA",
+   "place": "Des Moines",
+   "region": "Iowa",
+   "country": "United States",
+   "label": "IA",
+   "industries": [
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "kansas-city-mo",
+   "kind": "city",
+   "navLabel": "Report validation in Kansas City, MO",
+   "place": "Kansas City",
+   "region": "Missouri",
+   "country": "United States",
+   "label": "MO",
+   "industries": [
+    "power",
+    "pipeline",
+    "structural"
+   ]
+  },
+  {
+   "slug": "wichita-ks",
+   "kind": "city",
+   "navLabel": "Report validation in Wichita, KS",
+   "place": "Wichita",
+   "region": "Kansas",
+   "country": "United States",
+   "label": "KS",
+   "industries": [
+    "fabrication",
+    "refinery"
+   ]
+  },
+  {
+   "slug": "el-dorado-ks",
+   "kind": "city",
+   "navLabel": "Report validation in El Dorado, KS",
+   "place": "El Dorado",
+   "region": "Kansas",
+   "country": "United States",
+   "label": "KS",
+   "industries": [
+    "refinery",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "mcpherson-ks",
+   "kind": "city",
+   "navLabel": "Report validation in McPherson, KS",
+   "place": "McPherson",
+   "region": "Kansas",
+   "country": "United States",
+   "label": "KS",
+   "industries": [
+    "refinery",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "omaha-ne",
+   "kind": "city",
+   "navLabel": "Report validation in Omaha, NE",
+   "place": "Omaha",
+   "region": "Nebraska",
+   "country": "United States",
+   "label": "NE",
+   "industries": [
+    "nuclear",
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "ponca-city-ok",
+   "kind": "city",
+   "navLabel": "Report validation in Ponca City, OK",
+   "place": "Ponca City",
+   "region": "Oklahoma",
+   "country": "United States",
+   "label": "OK",
+   "industries": [
+    "refinery",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "little-rock-ar",
+   "kind": "city",
+   "navLabel": "Report validation in Little Rock, AR",
+   "place": "Little Rock",
+   "region": "Arkansas",
+   "country": "United States",
+   "label": "AR",
+   "industries": [
+    "nuclear",
+    "power"
+   ]
+  },
+  {
+   "slug": "el-dorado-ar",
+   "kind": "city",
+   "navLabel": "Report validation in El Dorado, AR",
+   "place": "El Dorado",
+   "region": "Arkansas",
+   "country": "United States",
+   "label": "AR",
+   "industries": [
+    "refinery",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "el-paso-tx",
+   "kind": "city",
+   "navLabel": "Report validation in El Paso, TX",
+   "place": "El Paso",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "refinery",
+    "power",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "amarillo-borger-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Amarillo–Borger, TX",
+   "place": "Amarillo–Borger",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "oil-gas"
+   ]
+  },
+  {
+   "slug": "longview-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Longview, TX",
+   "place": "Longview",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "petrochem",
+    "oil-gas",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "victoria-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Victoria, TX",
+   "place": "Victoria",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "petrochem",
+    "power"
+   ]
+  },
+  {
+   "slug": "albuquerque-nm",
+   "kind": "city",
+   "navLabel": "Report validation in Albuquerque, NM",
+   "place": "Albuquerque",
+   "region": "New Mexico",
+   "country": "United States",
+   "label": "NM",
+   "industries": [
+    "nuclear",
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "carlsbad-nm",
+   "kind": "city",
+   "navLabel": "Report validation in Carlsbad, NM",
+   "place": "Carlsbad",
+   "region": "New Mexico",
+   "country": "United States",
+   "label": "NM",
+   "industries": [
+    "oil-gas",
+    "nuclear",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "farmington-nm",
+   "kind": "city",
+   "navLabel": "Report validation in Farmington, NM",
+   "place": "Farmington",
+   "region": "New Mexico",
+   "country": "United States",
+   "label": "NM",
+   "industries": [
+    "oil-gas",
+    "pipeline",
+    "power"
+   ]
+  },
+  {
+   "slug": "casper-wy",
+   "kind": "city",
+   "navLabel": "Report validation in Casper, WY",
+   "place": "Casper",
+   "region": "Wyoming",
+   "country": "United States",
+   "label": "WY",
+   "industries": [
+    "oil-gas",
+    "refinery",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "cheyenne-wy",
+   "kind": "city",
+   "navLabel": "Report validation in Cheyenne, WY",
+   "place": "Cheyenne",
+   "region": "Wyoming",
+   "country": "United States",
+   "label": "WY",
+   "industries": [
+    "refinery",
+    "power"
+   ]
+  },
+  {
+   "slug": "billings-mt",
+   "kind": "city",
+   "navLabel": "Report validation in Billings, MT",
+   "place": "Billings",
+   "region": "Montana",
+   "country": "United States",
+   "label": "MT",
+   "industries": [
+    "refinery",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "williston-nd",
+   "kind": "city",
+   "navLabel": "Report validation in Williston, ND",
+   "place": "Williston",
+   "region": "North Dakota",
+   "country": "United States",
+   "label": "ND",
+   "industries": [
+    "oil-gas",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "bismarck-nd",
+   "kind": "city",
+   "navLabel": "Report validation in Bismarck, ND",
+   "place": "Bismarck",
+   "region": "North Dakota",
+   "country": "United States",
+   "label": "ND",
+   "industries": [
+    "power",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "idaho-falls-id",
+   "kind": "city",
+   "navLabel": "Report validation in Idaho Falls, ID",
+   "place": "Idaho Falls",
+   "region": "Idaho",
+   "country": "United States",
+   "label": "ID",
+   "industries": [
+    "nuclear",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "las-vegas-nv",
+   "kind": "city",
+   "navLabel": "Report validation in Las Vegas, NV",
+   "place": "Las Vegas",
+   "region": "Nevada",
+   "country": "United States",
+   "label": "NV",
+   "industries": [
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "tucson-az",
+   "kind": "city",
+   "navLabel": "Report validation in Tucson, AZ",
+   "place": "Tucson",
+   "region": "Arizona",
+   "country": "United States",
+   "label": "AZ",
+   "industries": [
+    "power",
+    "structural",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "bakersfield-ca",
+   "kind": "city",
+   "navLabel": "Report validation in Bakersfield, CA",
+   "place": "Bakersfield",
+   "region": "California",
+   "country": "United States",
+   "label": "CA",
+   "industries": [
+    "oil-gas",
+    "refinery",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "san-diego-ca",
+   "kind": "city",
+   "navLabel": "Report validation in San Diego, CA",
+   "place": "San Diego",
+   "region": "California",
+   "country": "United States",
+   "label": "CA",
+   "industries": [
+    "power",
+    "structural",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "sacramento-ca",
+   "kind": "city",
+   "navLabel": "Report validation in Sacramento, CA",
+   "place": "Sacramento",
+   "region": "California",
+   "country": "United States",
+   "label": "CA",
+   "industries": [
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "anacortes-wa",
+   "kind": "city",
+   "navLabel": "Report validation in Anacortes, WA",
+   "place": "Anacortes",
+   "region": "Washington",
+   "country": "United States",
+   "label": "WA",
+   "industries": [
+    "refinery",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "seattle-wa",
+   "kind": "city",
+   "navLabel": "Report validation in Seattle, WA",
+   "place": "Seattle",
+   "region": "Washington",
+   "country": "United States",
+   "label": "WA",
+   "industries": [
+    "structural",
+    "fabrication",
+    "power"
+   ]
+  },
+  {
+   "slug": "tacoma-wa",
+   "kind": "city",
+   "navLabel": "Report validation in Tacoma, WA",
+   "place": "Tacoma",
+   "region": "Washington",
+   "country": "United States",
+   "label": "WA",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "structural"
+   ]
+  },
+  {
+   "slug": "spokane-wa",
+   "kind": "city",
+   "navLabel": "Report validation in Spokane, WA",
+   "place": "Spokane",
+   "region": "Washington",
+   "country": "United States",
+   "label": "WA",
+   "industries": [
+    "power",
+    "structural"
+   ]
+  },
+  {
+   "slug": "portland-or",
+   "kind": "city",
+   "navLabel": "Report validation in Portland, OR",
+   "place": "Portland",
+   "region": "Oregon",
+   "country": "United States",
+   "label": "OR",
+   "industries": [
+    "power",
+    "structural",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "kenai-ak",
+   "kind": "city",
+   "navLabel": "Report validation in Kenai, AK",
+   "place": "Kenai",
+   "region": "Alaska",
+   "country": "United States",
+   "label": "AK",
+   "industries": [
+    "oil-gas",
+    "refinery",
+    "lng"
+   ]
+  },
+  {
+   "slug": "honolulu-hi",
+   "kind": "city",
+   "navLabel": "Report validation in Honolulu, HI",
+   "place": "Honolulu",
+   "region": "Hawaii",
+   "country": "United States",
+   "label": "HI",
+   "industries": [
+    "refinery",
+    "power"
+   ]
+  }
+ ]
+}

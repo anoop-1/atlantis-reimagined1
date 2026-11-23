@@ -12,7 +12,7 @@ import { submitLead, mailtoAction } from "@/lib/lead-submit";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 interface Props {
-  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy" | "practical-ndt" | "maritime" | "inspection" | "rbi";
+  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy" | "practical-ndt" | "maritime" | "inspection" | "rbi" | "validation";
 }
 
 const COPY = {
@@ -194,6 +194,24 @@ const COPY = {
       "ISO 9001 and ISO 14001 certified company",
     ],
   },
+  // 2026-11-23 (owner: NDT report validation across US and Middle East cities, /report-validation/*). Independent review
+  // of reports and digital inspection data the client sends; no pricing on these pages (buyers ask for scope and a quote).
+  validation: {
+    badge: "Independent report validation — quote on request",
+    title: "Send a Report for Independent Review",
+    sub: "Tell us what the report covers, the method, the code or procedure it was written to and what decision depends on it. Reviews are carried out remotely on the reports and digital inspection data you send. We reply within one business day with the scope and a quote.",
+    subject: "NDT report validation enquiry",
+    usecasePlaceholder: "Report type and method (PAUT, TOFD, CR/DR radiographs, eddy current tube data, UT thickness, MT/PT/VT), code or procedure, number of reports or welds, why you need the review (acceptance, rejection, dispute, acquisition)…",
+    submitLabel: "Request a Review",
+    trustSignals: [
+      "Independent and impartial: we do not review work we performed",
+      "Reviews in UT, RT, MT, PT and VT led by an ASNT NDT Level III in those methods",
+      "Review team with nuclear, maritime, oil and gas and petrochemical backgrounds",
+      "Raw digital inspection data opened, not only the PDF report",
+      "Every finding tied to the clause, table or procedure step it rests on",
+      "ISO 9001 and ISO 14001 certified company",
+    ],
+  },
   // 2026-11-14 (owner: more inspection leads, MT/PT/UT in the US): inspection pages had no form, only
   // /contact links (GA4, US, 28 days: 32 inspection landings → 2 key events). Shown mid-article on
   // method-city pages, state hubs and editorial inspection pages (src/data/lead-variant-2026-11.mjs).
@@ -228,6 +246,7 @@ const BUSINESS_LINE: Record<Props["variant"], string> = {
   maritime: "inspection",
   inspection: "inspection",
   rbi: "inspection",
+  validation: "consulting",
 };
 
 // 2026-10-09 sprint: lead_type per line, so the central business-event mapping
@@ -245,6 +264,7 @@ const LEAD_TYPE: Record<Props["variant"], string> = {
   maritime: "rfq", // businessEventFor → inspection_rfq_submit
   inspection: "rfq", // businessEventFor → inspection_rfq_submit
   rbi: "rfq", // 2026-11-23: RBI enquiries count as inspection RFQs
+  validation: "level3_consultation", // 2026-11-23: report validation → level3_consulting_enquiry
 };
 const STAGES = ["Ready to start, within this quarter", "Comparing options", "Just researching"];
 /** Only training enquiries continue to the Microsoft Form (it asks methods, levels, headcount). */

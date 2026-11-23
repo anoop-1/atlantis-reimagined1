@@ -97,6 +97,7 @@ import { erpSolutionRoutes, applyErpSolutionRoute, assertErpSolutionsBuilt, erpS
 import { MODULE_PAGES_PROTECTED } from '../src/data/erp-module-dashboards-2026-11.mjs'; // 2026-10-31 owner: /privacy-policy, URL only (never in navigation or footer)
 import { maritimeSectionRoutes, assertMaritimeSectionClean } from './maritime-section-2026-11.mjs'; // 2026-11-07 owner: maritime inspection (ship UTM) pages for Europe, Middle East, China, Singapore
 import { rbiSectionRoutes, assertRbiSectionClean } from './rbi-section-2026-11.mjs'; // 2026-11-23 owner: RBI as a remote service (topics, countries, tank/refining hubs)
+import { rvSectionRoutes, assertRvSectionClean } from './report-validation-section-2026-11.mjs'; // 2026-11-23 owner: NDT report validation hub + industry, method, digital and city pages (US except North Carolina, Middle East)
 import { inspectionSectionRoutes, assertInspectionSectionClean, applyInspectionRegionalRoute } from './inspection-section-2026-10.mjs'; // 2026-10-18/19 inspection section + regional up-links
 import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingRoute, applyConsultingIndexable, consultingSectionStats } from './consulting-section-2026-10.mjs'; // 2026-10-19 Level III consulting topic pages, services cards, topic up-links // 2026-10-18 inspection section (src/data/inspection-section)
 import { applyNaKeywordDepth, assertNaKeywordDepthClean, naKeywordStats } from './na-keyword-depth-2026-10.mjs'; // 2026-10-26 §64: competitor-keyword sections + H1 synonyms on owner pages
@@ -10099,6 +10100,7 @@ routes.push(ascanToolRoute()); // 2026-10-12: /tools/ultrasonic-a-scan-simulator
 routes.push(...inspectionSectionRoutes()); // 2026-10-18: /inspection section (scripts/inspection-section-2026-10.mjs)
 routes.push(...maritimeSectionRoutes()); // 2026-11-07: maritime section, at /maritime since 2026-11-10 (scripts/maritime-section-2026-11.mjs)
 routes.push(...rbiSectionRoutes()); // 2026-11-23: RBI section under /inspection/risk-based-inspection/* (scripts/rbi-section-2026-11.mjs)
+routes.push(...rvSectionRoutes()); // 2026-11-23: report validation section /report-validation + /report-validation/{slug} (scripts/report-validation-section-2026-11.mjs); the old hub depth record was removed
 routes.push(...consultingSectionRoutes()); // 2026-10-19: Level III consulting topic pages (scripts/consulting-section-2026-10.mjs)
 routes.push(practiceTestHubRoute()); // 2026-10-16: /ndt-practice-tests (scripts/practice-tests-2026-10.mjs)
 routes.push(...trainingConversionRoutes()); // 2026-10-18: /ndt-training-faq + /snt-tc-1a-eligibility (scripts/training-conversion-2026-10.mjs)
@@ -14228,6 +14230,7 @@ assertCareersLinks(BUILT_PATHS); // 2026-11-20: careers pages: no pay figures or
 assertConsultingSectionClean(BUILT_PATHS); // 2026-10-19: consulting topic pages, menu and up-link targets built; no prices or accreditation claims
 assertMaritimeSectionClean(BUILT_PATHS); // 2026-11-07: maritime records complete, >=2,000 words per port, links built, no prices/approval/presence claims
 assertRbiSectionClean(BUILT_PATHS); // 2026-11-23: RBI pages >=2,000 words, remote, no FFS offer, no credential/software claims, no sanctioned countries
+assertRvSectionClean(BUILT_PATHS); // 2026-11-23: report validation pages >=2,000 own words, remote, independent, no pricing, no NC, no RT offer in the US, no founder/credential/class/nuclear QA claims
 assertUsConventionalClean(BUILT_PATHS); // 2026-11-14: every US MT/PT/UT city record valid (2,000+ words, no RT offer, no advanced methods), every page and link built
 assertUsIndustryClean(BUILT_PATHS); // 2026-11-17: every US MT/PT/UT industry and job record valid, every page and link built
 assertAuditCwiClean(BUILT_PATHS); // 2026-11-18: every audit-support and CWI record valid (2,000+ words, NAS 410 only on its documentation pages, 6-day CWI offer), every page and link built

@@ -1,0 +1,663 @@
+{
+ "note": "Report validation section plan (owner 2026-11-23: independent review of NDT reports and inspection data across US cities, North Carolina excluded; owner later the same day: add method pages (digital radiography, computed radiography, PAUT, eddy current tube inspection etc.) and Middle East cities; industries nuclear, oil and gas, petrochemical etc.; maritime mentioned only while maritime SEO is paused). A row without pages/{slug}.json is not published.",
+ "pages": [
+  {
+   "slug": "nuclear-ndt-report-review",
+   "kind": "industry",
+   "key": "nuclear",
+   "navLabel": "Nuclear NDT report review"
+  },
+  {
+   "slug": "oil-and-gas-ndt-report-review",
+   "kind": "industry",
+   "key": "oil-gas",
+   "navLabel": "Oil and gas NDT report review"
+  },
+  {
+   "slug": "refinery-inspection-report-review",
+   "kind": "industry",
+   "key": "refinery",
+   "navLabel": "Refinery inspection report review"
+  },
+  {
+   "slug": "petrochemical-ndt-report-review",
+   "kind": "industry",
+   "key": "petrochem",
+   "navLabel": "Petrochemical and chemical plant report review"
+  },
+  {
+   "slug": "power-plant-ndt-report-review",
+   "kind": "industry",
+   "key": "power",
+   "navLabel": "Power plant NDT report review"
+  },
+  {
+   "slug": "pipeline-integrity-report-review",
+   "kind": "industry",
+   "key": "pipeline",
+   "navLabel": "Pipeline integrity report review"
+  },
+  {
+   "slug": "lng-ndt-report-review",
+   "kind": "industry",
+   "key": "lng",
+   "navLabel": "LNG and gas processing report review"
+  },
+  {
+   "slug": "structural-steel-ndt-report-review",
+   "kind": "industry",
+   "key": "structural",
+   "navLabel": "Structural steel and bridge NDT report review"
+  },
+  {
+   "slug": "fabrication-ndt-report-review",
+   "kind": "industry",
+   "key": "fabrication",
+   "navLabel": "Fabrication and vendor NDT report review"
+  },
+  {
+   "slug": "digital-inspection-data-review",
+   "kind": "topic",
+   "navLabel": "Digital inspection data review"
+  },
+  {
+   "slug": "digital-ndt-report-review",
+   "kind": "topic",
+   "navLabel": "Digital NDT reporting review"
+  },
+  {
+   "slug": "digital-radiography-report-review",
+   "kind": "method",
+   "key": "dr",
+   "navLabel": "Digital radiography (DR) report review"
+  },
+  {
+   "slug": "computed-radiography-report-review",
+   "kind": "method",
+   "key": "cr",
+   "navLabel": "Computed radiography (CR) report review"
+  },
+  {
+   "slug": "eddy-current-tube-inspection-data-review",
+   "kind": "method",
+   "key": "ect",
+   "navLabel": "Eddy current tube inspection data review"
+  },
+  {
+   "slug": "tofd-data-review",
+   "kind": "method",
+   "key": "tofd",
+   "navLabel": "TOFD data review"
+  },
+  {
+   "slug": "ultrasonic-weld-inspection-report-review",
+   "kind": "method",
+   "key": "utweld",
+   "navLabel": "Ultrasonic weld inspection report review"
+  },
+  {
+   "slug": "corrosion-mapping-data-review",
+   "kind": "method",
+   "key": "cmap",
+   "navLabel": "Corrosion mapping data review"
+  },
+  {
+   "slug": "magnetic-particle-and-penetrant-report-review",
+   "kind": "method",
+   "key": "mtpt",
+   "navLabel": "MT and PT report review"
+  },
+  {
+   "slug": "visual-weld-inspection-report-review",
+   "kind": "method",
+   "key": "vt",
+   "navLabel": "Visual weld inspection report review"
+  },
+  {
+   "slug": "houston-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Houston, TX",
+   "place": "Houston",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "lng",
+    "pipeline",
+    "fabrication",
+    "oil-gas"
+   ],
+   "country": "United States",
+   "region": "Texas",
+   "label": "TX"
+  },
+  {
+   "slug": "corpus-christi-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Corpus Christi, TX",
+   "place": "Corpus Christi",
+   "industries": [
+    "refinery",
+    "lng",
+    "petrochem",
+    "pipeline"
+   ],
+   "country": "United States",
+   "region": "Texas",
+   "label": "TX"
+  },
+  {
+   "slug": "beaumont-port-arthur-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Beaumont–Port Arthur, TX",
+   "place": "Beaumont–Port Arthur",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "lng"
+   ],
+   "country": "United States",
+   "region": "Texas",
+   "label": "TX"
+  },
+  {
+   "slug": "midland-odessa-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Midland–Odessa, TX",
+   "place": "Midland–Odessa",
+   "industries": [
+    "oil-gas",
+    "pipeline"
+   ],
+   "country": "United States",
+   "region": "Texas",
+   "label": "TX"
+  },
+  {
+   "slug": "dallas-fort-worth-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Dallas–Fort Worth, TX",
+   "place": "Dallas–Fort Worth",
+   "industries": [
+    "pipeline",
+    "power",
+    "structural",
+    "oil-gas"
+   ],
+   "country": "United States",
+   "region": "Texas",
+   "label": "TX"
+  },
+  {
+   "slug": "baton-rouge-la",
+   "kind": "city",
+   "navLabel": "Report validation in Baton Rouge, LA",
+   "place": "Baton Rouge",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "power"
+   ],
+   "country": "United States",
+   "region": "Louisiana",
+   "label": "LA"
+  },
+  {
+   "slug": "lake-charles-la",
+   "kind": "city",
+   "navLabel": "Report validation in Lake Charles, LA",
+   "place": "Lake Charles",
+   "industries": [
+    "lng",
+    "petrochem",
+    "refinery"
+   ],
+   "country": "United States",
+   "region": "Louisiana",
+   "label": "LA"
+  },
+  {
+   "slug": "new-orleans-la",
+   "kind": "city",
+   "navLabel": "Report validation in New Orleans, LA",
+   "place": "New Orleans",
+   "industries": [
+    "oil-gas",
+    "refinery",
+    "petrochem",
+    "fabrication"
+   ],
+   "country": "United States",
+   "region": "Louisiana",
+   "label": "LA"
+  },
+  {
+   "slug": "mobile-al",
+   "kind": "city",
+   "navLabel": "Report validation in Mobile, AL",
+   "place": "Mobile",
+   "industries": [
+    "petrochem",
+    "fabrication",
+    "power"
+   ],
+   "country": "United States",
+   "region": "Alabama",
+   "label": "AL"
+  },
+  {
+   "slug": "birmingham-al",
+   "kind": "city",
+   "navLabel": "Report validation in Birmingham, AL",
+   "place": "Birmingham",
+   "industries": [
+    "power",
+    "nuclear",
+    "structural",
+    "fabrication"
+   ],
+   "country": "United States",
+   "region": "Alabama",
+   "label": "AL"
+  },
+  {
+   "slug": "tulsa-ok",
+   "kind": "city",
+   "navLabel": "Report validation in Tulsa, OK",
+   "place": "Tulsa",
+   "industries": [
+    "refinery",
+    "pipeline",
+    "fabrication",
+    "oil-gas"
+   ],
+   "country": "United States",
+   "region": "Oklahoma",
+   "label": "OK"
+  },
+  {
+   "slug": "denver-co",
+   "kind": "city",
+   "navLabel": "Report validation in Denver, CO",
+   "place": "Denver",
+   "industries": [
+    "oil-gas",
+    "pipeline",
+    "power"
+   ],
+   "country": "United States",
+   "region": "Colorado",
+   "label": "CO"
+  },
+  {
+   "slug": "salt-lake-city-ut",
+   "kind": "city",
+   "navLabel": "Report validation in Salt Lake City, UT",
+   "place": "Salt Lake City",
+   "industries": [
+    "refinery",
+    "pipeline",
+    "structural"
+   ],
+   "country": "United States",
+   "region": "Utah",
+   "label": "UT"
+  },
+  {
+   "slug": "phoenix-az",
+   "kind": "city",
+   "navLabel": "Report validation in Phoenix, AZ",
+   "place": "Phoenix",
+   "industries": [
+    "nuclear",
+    "power",
+    "structural"
+   ],
+   "country": "United States",
+   "region": "Arizona",
+   "label": "AZ"
+  },
+  {
+   "slug": "anchorage-ak",
+   "kind": "city",
+   "navLabel": "Report validation in Anchorage, AK",
+   "place": "Anchorage",
+   "industries": [
+    "oil-gas",
+    "pipeline"
+   ],
+   "country": "United States",
+   "region": "Alaska",
+   "label": "AK"
+  },
+  {
+   "slug": "pittsburgh-pa",
+   "kind": "city",
+   "navLabel": "Report validation in Pittsburgh, PA",
+   "place": "Pittsburgh",
+   "industries": [
+    "nuclear",
+    "oil-gas",
+    "structural",
+    "power"
+   ],
+   "country": "United States",
+   "region": "Pennsylvania",
+   "label": "PA"
+  },
+  {
+   "slug": "philadelphia-pa",
+   "kind": "city",
+   "navLabel": "Report validation in Philadelphia, PA",
+   "place": "Philadelphia",
+   "industries": [
+    "refinery",
+    "nuclear",
+    "petrochem"
+   ],
+   "country": "United States",
+   "region": "Pennsylvania",
+   "label": "PA"
+  },
+  {
+   "slug": "linden-nj",
+   "kind": "city",
+   "navLabel": "Report validation in Linden, NJ",
+   "place": "Linden",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "pipeline"
+   ],
+   "country": "United States",
+   "region": "New Jersey",
+   "label": "NJ"
+  },
+  {
+   "slug": "chicago-il",
+   "kind": "city",
+   "navLabel": "Report validation in Chicago, IL",
+   "place": "Chicago",
+   "industries": [
+    "refinery",
+    "nuclear",
+    "power",
+    "structural"
+   ],
+   "country": "United States",
+   "region": "Illinois",
+   "label": "IL"
+  },
+  {
+   "slug": "whiting-gary-in",
+   "kind": "city",
+   "navLabel": "Report validation in Whiting–Gary, IN",
+   "place": "Whiting–Gary",
+   "industries": [
+    "refinery",
+    "structural",
+    "fabrication"
+   ],
+   "country": "United States",
+   "region": "Indiana",
+   "label": "IN"
+  },
+  {
+   "slug": "detroit-mi",
+   "kind": "city",
+   "navLabel": "Report validation in Detroit, MI",
+   "place": "Detroit",
+   "industries": [
+    "refinery",
+    "power",
+    "nuclear",
+    "fabrication"
+   ],
+   "country": "United States",
+   "region": "Michigan",
+   "label": "MI"
+  },
+  {
+   "slug": "toledo-oh",
+   "kind": "city",
+   "navLabel": "Report validation in Toledo, OH",
+   "place": "Toledo",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "nuclear",
+    "power"
+   ],
+   "country": "United States",
+   "region": "Ohio",
+   "label": "OH"
+  },
+  {
+   "slug": "minneapolis-st-paul-mn",
+   "kind": "city",
+   "navLabel": "Report validation in Minneapolis–St. Paul, MN",
+   "place": "Minneapolis–St. Paul",
+   "industries": [
+    "refinery",
+    "nuclear",
+    "pipeline"
+   ],
+   "country": "United States",
+   "region": "Minnesota",
+   "label": "MN"
+  },
+  {
+   "slug": "st-louis-mo",
+   "kind": "city",
+   "navLabel": "Report validation in St. Louis, MO",
+   "place": "St. Louis",
+   "industries": [
+    "nuclear",
+    "power",
+    "refinery",
+    "pipeline"
+   ],
+   "country": "United States",
+   "region": "Missouri",
+   "label": "MO"
+  },
+  {
+   "slug": "knoxville-oak-ridge-tn",
+   "kind": "city",
+   "navLabel": "Report validation in Knoxville–Oak Ridge, TN",
+   "place": "Knoxville–Oak Ridge",
+   "industries": [
+    "nuclear",
+    "power",
+    "fabrication"
+   ],
+   "country": "United States",
+   "region": "Tennessee",
+   "label": "TN"
+  },
+  {
+   "slug": "chattanooga-tn",
+   "kind": "city",
+   "navLabel": "Report validation in Chattanooga, TN",
+   "place": "Chattanooga",
+   "industries": [
+    "nuclear",
+    "power",
+    "fabrication"
+   ],
+   "country": "United States",
+   "region": "Tennessee",
+   "label": "TN"
+  },
+  {
+   "slug": "augusta-ga",
+   "kind": "city",
+   "navLabel": "Report validation in Augusta, GA",
+   "place": "Augusta",
+   "industries": [
+    "nuclear",
+    "power",
+    "fabrication"
+   ],
+   "country": "United States",
+   "region": "Georgia",
+   "label": "GA"
+  },
+  {
+   "slug": "los-angeles-ca",
+   "kind": "city",
+   "navLabel": "Report validation in Los Angeles, CA",
+   "place": "Los Angeles",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "pipeline",
+    "structural"
+   ],
+   "country": "United States",
+   "region": "California",
+   "label": "CA"
+  },
+  {
+   "slug": "bay-area-ca",
+   "kind": "city",
+   "navLabel": "Report validation in San Francisco Bay Area, CA",
+   "place": "San Francisco Bay Area",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "power",
+    "structural"
+   ],
+   "country": "United States",
+   "region": "California",
+   "label": "CA"
+  },
+  {
+   "slug": "richland-wa",
+   "kind": "city",
+   "navLabel": "Report validation in Richland, WA",
+   "place": "Richland",
+   "industries": [
+    "nuclear",
+    "power",
+    "structural"
+   ],
+   "country": "United States",
+   "region": "Washington",
+   "label": "WA"
+  },
+  {
+   "slug": "jubail-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Jubail, Saudi Arabia",
+   "place": "Jubail",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "petrochem",
+    "refinery",
+    "power",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "dammam-khobar-dhahran-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Dammam, Al Khobar and Dhahran, Saudi Arabia",
+   "place": "Dammam, Al Khobar and Dhahran",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "oil-gas",
+    "pipeline",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "ras-tanura-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Ras Tanura, Saudi Arabia",
+   "place": "Ras Tanura",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "refinery",
+    "oil-gas"
+   ]
+  },
+  {
+   "slug": "yanbu-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Yanbu, Saudi Arabia",
+   "place": "Yanbu",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "power"
+   ]
+  },
+  {
+   "slug": "abu-dhabi-ruwais-uae",
+   "kind": "city",
+   "navLabel": "Report validation in Abu Dhabi and Ruwais, UAE",
+   "place": "Abu Dhabi and Ruwais",
+   "region": "United Arab Emirates",
+   "country": "United Arab Emirates",
+   "label": "UAE",
+   "industries": [
+    "oil-gas",
+    "refinery",
+    "petrochem",
+    "nuclear"
+   ]
+  },
+  {
+   "slug": "dubai-jebel-ali-uae",
+   "kind": "city",
+   "navLabel": "Report validation in Dubai and Jebel Ali, UAE",
+   "place": "Dubai and Jebel Ali",
+   "region": "United Arab Emirates",
+   "country": "United Arab Emirates",
+   "label": "UAE",
+   "industries": [
+    "power",
+    "fabrication",
+    "structural",
+    "refinery"
+   ]
+  },
+  {
+   "slug": "doha-ras-laffan-qatar",
+   "kind": "city",
+   "navLabel": "Report validation in Doha and Ras Laffan, Qatar",
+   "place": "Doha and Ras Laffan",
+   "region": "Qatar",
+   "country": "Qatar",
+   "label": "Qatar",
+   "industries": [
+    "lng",
+    "petrochem",
+    "oil-gas"
+   ]
+  },
+  {
+   "slug": "ahmadi-kuwait",
+   "kind": "city",
+   "navLabel": "Report validation in Al Ahmadi, Kuwait",
+   "place": "Al Ahmadi",
+   "region": "Kuwait",
+   "country": "Kuwait",
+   "label": "Kuwait",
+   "industries": [
+    "refinery",
+    "oil-gas"
+   ]
+  }
+ ]
+}
