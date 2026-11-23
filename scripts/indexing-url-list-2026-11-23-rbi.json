@@ -1,0 +1,338 @@
+{
+ "generated": "2026-11-23",
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/storage-tank-rbi"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/piping-rbi"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/pressure-vessel-rbi"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/remote-rbi"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/rbi-implementation"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/quantitative-rbi-api-581"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/damage-mechanism-review"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/rbi-revalidation-audit"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/united-states"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/canada"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/saudi-arabia"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/united-arab-emirates"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/qatar"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/kuwait"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/singapore"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/india"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/china"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/malaysia"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/australia"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/new-zealand"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/indonesia"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/vietnam"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/houston"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/beaumont-port-arthur"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/lake-charles"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/cushing"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/new-york-harbor"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/philadelphia"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/edmonton"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/hardisty"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/sarnia"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/saint-john"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/jurong-island"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/pengerang"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/singapore-tank-terminals"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/geelong"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/brisbane-lytton"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/kwinana"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/gladstone"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/karratha"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/darwin"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/marsden-point"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/taranaki"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/bintulu"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/kertih"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/melaka"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/port-dickson"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/cilacap"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/balikpapan"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/dumai"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/bontang"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/cilegon"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/dung-quat"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/nghi-son"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/vung-tau"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-1104-vs-aws-d1-1"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-650-weld-acceptance-criteria"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-653-shell-minimum-thickness"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/asme-b31-1-acceptance-criteria"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/asme-b31-3-acceptance-criteria"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/asme-b31-3-minimum-distance-between-welds"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/asme-pt-mt-acceptance-criteria"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/asme-section-i-acceptance-criteria"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/asme-section-viii-acceptance-criteria"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/aws-d1-5-bridge-weld-acceptance-criteria"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/casting-ndt-acceptance-criteria"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/ndt-acceptance-criteria-by-code"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/rt-acceptance-criteria-by-code"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/ut-acceptance-criteria-by-code"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/risk-based-inspection-rbi-explained-api-580-vs-api-581"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-581"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-580"
+  },
+  {
+   "url": "https://atlantisndt.com/glossary/api-581"
+  },
+  {
+   "url": "https://atlantisndt.com/glossary/api-580"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/risk-based-inspection-rbi-implementation-guide"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/api-580-581-rbi-consulting-what-a-risk-based-inspection-program-setup-costs-in-time"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-653"
+  },
+  {
+   "url": "https://atlantisndt.com/api-inspection/time-based-vs-risk-based-intervals"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-571"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/api-571-damage-mechanisms-complete-industry-guide"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/damage-mechanisms-in-refineries-a-field-guide-to-api-571"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/api-581-rbi-quantitative-method-explained-2026"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/api-581-rbi-qualitative-method-explained-2026"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/api-581-rbi-implementation-roadmap-refinery-2026"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/consulting-for-api-570-piping-inspection-programs-rbi-integration-done-right"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-570"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-510"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/aws-d1-1-ut-acceptance-criteria-explained"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/api-1104-weld-acceptance-criteria-pipeline"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/radiographic-testing-complete-guide"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/casting-internal-porosity-detection"
+  },
+  {
+   "url": "https://atlantisndt.com/glossary/api-650"
+  },
+  {
+   "url": "https://atlantisndt.com/api-inspection/api-650-vs-api-653"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/asme-b31-1-power-piping-code-explained"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/asme-b31-1"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/asme-b31-3"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/aws-d1-5"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/weld-inspection-acceptance-criteria-aws-vs-asme"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/asme-section-viii-division-1-pressure-vessel-ndt"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/asme-section-viii-div-1"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/asme-b31-3-process-piping-requirements"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/ultrasonic-testing-ultimate-guide"
+  },
+  {
+   "url": "https://atlantisndt.com/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide"
+  },
+  {
+   "url": "https://atlantisndt.com/standards/api-575"
+  },
+  {
+   "url": "https://atlantisndt.com/inspection"
+  },
+  {
+   "url": "https://atlantisndt.com/digital-twin-jurong-island"
+  }
+ ]
+}
