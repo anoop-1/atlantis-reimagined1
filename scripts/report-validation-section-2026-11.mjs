@@ -65,6 +65,7 @@ export function rvFallbackForm() {
         <p><label for="rv-company">Company</label><br><input id="rv-company" name="company" type="text"></p>
         <p><button type="submit">Request a Review</button></p>
       </form>
+      <p>You can also write to info@atlantisndt.com or use the <a href="/contact">contact page</a>.</p>
     </section>`;
 }
 
