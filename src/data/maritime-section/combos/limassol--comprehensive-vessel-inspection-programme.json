@@ -1,0 +1,140 @@
+{
+  "port": "limassol",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Limassol | Owner's CAS/CAP for Cyprus-Managed Fleets",
+  "description": "CVIP for Limassol ship managers: an owner's CAS/CAP-style programme that starts at takeover and follows each managed ship to every port and docking.",
+  "h1": "Comprehensive Vessel Inspection Programme for Limassol Ship Managers: an Owner's Condition Assessment That Starts at Takeover and Follows the Ship Worldwide",
+  "intro": "Limassol is where a great many ships are managed and comparatively few are repaired. Technical managers here answer to owners who may be funds, banks or family groups elsewhere, and they need a measured view of each ship that survives changes of manager, charter and yard. CVIP, our Comprehensive Vessel Inspection Programme, is the owner's CAS or owner's CAP that Limassol desks ask for: a whole-ship condition assessment on the pattern of the official schemes, run to the owner's own requirement through a baseline and repeat visits. Our technicians travel from India to each visit, whether off Limassol or at another port the ship uses.",
+  "highlights": [
+    {
+      "h": "Takeover day becomes visit one",
+      "p": "When a ship moves into third-party management in Limassol, the incoming manager needs to know exactly what it is taking on. The programme baseline can be the takeover inspection itself, so the inherited condition is recorded at numbered points from the day the management agreement starts."
+    },
+    {
+      "h": "The superintendent can board too",
+      "p": "A crew-change or stores stop at the Limassol anchorage is a short drive from the management companies, so the superintendent who will sign the steel list can go out on the launch, look at the worst tank in person and agree priorities with the team on board."
+    },
+    {
+      "h": "One record for ships that seldom call",
+      "p": "Most Limassol-managed ships trade far from Cyprus. Visits are made wherever each ship stops for long enough, at a cargo port, an anchorage or the docking yard, and every reading is filed against the same point numbers, so the record held in Limassol stays continuous."
+    }
+  ],
+  "sections": [
+    {
+      "id": "takeover-baseline",
+      "h": "Starting an owner's condition assessment when a ship joins a Limassol-managed fleet",
+      "p": [
+        "Changes of management are routine in Limassol, and each one raises the same question: what condition is the ship really in, and which defects predate the new manager? A takeover inspection answers that question once. Used as the baseline of a programme, it does more, because every position measured on takeover day is marked, numbered and photographed, and later visits read exactly the same steel. The incoming technical department then holds a reference that separates inherited wastage from anything that develops under its own care.",
+        "The baseline is planned from the papers that change hands with the ship: as-built drawings, the latest thickness report and class status, the planned maintenance history and whatever thermal or vibration readings the previous manager kept. Handovers often arrive with gaps, and the baseline is a sensible moment to close them. Where a ship is taken over while trading, the baseline can be split between a Limassol stop, for deck, machinery and ballast tanks the crew has prepared, and the next longer stay, for holds or cargo tanks."
+      ]
+    },
+    {
+      "id": "limassol-stops",
+      "h": "What a programme visit can cover on a Limassol crew-change, stores or bunker stop",
+      "p": [
+        "Ships put in off Limassol for crew, stores, bunkers and orders on passage between the Suez Canal and ports in the Levant, the Black Sea or northern Europe, and they rarely stay long. A programme visit at that point carries a priority list taken from the plan rather than a full survey extent. Machinery readings fit these stops well: vibration on pumps, purifiers, compressors and generators, and thermal imaging of switchboards and motor control centres, all taken while the plant is running for the ship's own purposes.",
+        "Tank work depends on preparation. A ballast tank or void that the crew has emptied, ventilated and certified before the ship anchors can be gauged, rated for coatings and checked for cracks at its known details within the stay; one opened after arrival usually cannot. Alongside, container ships at the Eurogate terminal offer their scrubber lines and engine-room tanks during cargo work, and offshore support and project ships at the multipurpose berths tend to allow longer access to decks and tanks.",
+        "Tankers loading or discharging at the Vasilikos energy port, east along the coast, can be visited under that terminal's permit system, usually for deck plating, pipework and segregated ballast. Where a Limassol-managed fleet has ships at both places in the same week, one mobilisation can serve both visits."
+      ]
+    },
+    {
+      "id": "who-reads-the-record",
+      "h": "Who reads a Limassol programme record, and what each of them looks for",
+      "p": [
+        "In third-party management the people who rely on condition evidence seldom sit in the same room. The owner may be abroad, the superintendent in Limassol, the charterer and the lender somewhere else again. Each programme report is arranged so that every reader can reach the answer to their own question without working through the whole file."
+      ],
+      "table": {
+        "head": ["Reader", "Question they bring", "Part of the record that answers it"],
+        "rows": [
+          ["Owner or fund behind the manager", "Is the asset holding its condition, and is it being maintained as agreed?", "Condition by area and the change since the takeover baseline, with defects ranked for action"],
+          ["Technical superintendent", "What goes on the next docking list, and at which yard?", "Corrosion rates by tank and member, piping wall loss and an outline of the renewal those rates imply"],
+          ["Chartering desk", "Can the ship answer a charterer's questions on structure, coatings and closing appliances?", "Coating ratings, hatch cover and deck condition, and the repairs completed since the last visit"],
+          ["Lender or financier", "Does the ship's condition support the loan or the refinancing?", "A yearly summary, set out in the lender's own format where one is supplied"],
+          ["Buyer, if the ship is sold", "What will the hull and machinery need over the coming survey cycle?", "Multi-visit trend data, released with the owner's consent"]
+        ]
+      }
+    },
+    {
+      "id": "owners-cas-cap",
+      "h": "Owner's CAS and owner's CAP for a manager acting on an owner's behalf",
+      "p": [
+        "Limassol managers use owner's CAS and owner's CAP as shorthand when an owner wants evidence of condition beyond what the class file shows. What they are after is the method of the official condition assessments on their own schedule: a plan drawn on the ship's drawings, close-up examination, gauging at fixed positions, graded coatings, assessed machinery and one report on the whole ship. CVIP delivers that method. The owner, or the manager on the owner's instruction, commissions it, agrees its scope and keeps its results.",
+        "What it lacks is the standing of the documents those names come from. The IMO Condition Assessment Scheme ends in a Statement of Compliance from the flag, and a class Condition Assessment Programme ends in a rating from the society; CVIP produces neither and cannot replace them. When an oil major's vetting team asks for a class CAP on an older tanker managed from Limassol, the manager books it with the ship's society, and the programme readings show beforehand which tanks or transverse sections would pull the rating down.",
+        "The readings themselves carry the same limit. A society credits gauging to a class survey under IACS UR Z17 when the measuring firm holds that society's approval, and Atlantis is still going through that approval process with DNV, Lloyd's Register and ABS. Programme readings therefore serve the owner's and manager's decisions on steel, dockings, charters and sales, and are never put to a surveyor as class gauging."
+      ]
+    },
+    {
+      "id": "visits-abroad",
+      "h": "Keeping one record when Limassol-managed ships dock in Greece, Turkey or China",
+      "p": [
+        "Heavy steel work on ships managed from Limassol happens at yards abroad, because the island has no large repair yard of its own. The programme follows the ship there. A superintendent in Limassol can plan a pre-docking round on a ship anchored off the port, review the readings at the desk, send a renewal outline to yards in Greece, Turkey, the Middle East or China, and have the team join the ship in dock to add the dry hull. The numbering stays identical from Cyprus to the yard and back.",
+        "Fleet programmes suit the way Limassol managers work, with sister ships under several flags, Cyprus among them, and one technical department answerable for all of them. The plan is drawn once for each design, so a crack at a hatch corner found on one ship directs attention to the same corner on its sisters at their next visits. A typical spread of visits over a survey cycle looks like this:"
+      ],
+      "list": [
+        "Takeover or start-up baseline at a Limassol stop or at the handover port",
+        "Yearly visit at whichever stop the ship makes near Cyprus, or at any port with a usable stay",
+        "Pre-docking round some months before the yard, giving the superintendent a steel outline that competing yards can tender against",
+        "Docking visit for the dry hull, sea chests, rudder area and the tanks reached from staging",
+        "Re-measurement of renewed plate and pipe before the ship sails, so later visits compare against new steel"
+      ]
+    },
+    {
+      "id": "planning",
+      "h": "Arranging a programme visit off Limassol: agent, launch, permits and visas",
+      "p": [
+        "The team flies into Larnaca or Paphos and drives to the port. The ship's agent arranges ISPS passes for the terminals and the launch for the anchorage, and the master's permit system decides which spaces open during bunkering or a crew change. Technicians need a visa to enter Cyprus, so the application is lodged as soon as the visit window is agreed; for a fleet programme the window is set wide enough to cover several ships expected off Limassol over the following weeks.",
+        "Before each visit the superintendent confirms the spaces due under the plan, asks the crew to prepare them, and arranges for an engineer to run machinery at the agreed load. Scrubber-fitted ships have run their systems around the island since the Mediterranean SOx ECA took effect in May 2025, so wash-water and overboard lines usually appear on the list at each visit. Programme enquiries can be sent to info@atlantisndt.com or through the form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Bulk carriers in third-party management",
+    "Crude, product and chemical tankers",
+    "Container ships at the Eurogate terminal",
+    "Gas carriers",
+    "Offshore support vessels between gas-field charters",
+    "Sister-ship series under one Limassol technical department"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition definitions",
+    "IACS UR Z10.2 and Z10.4 – Hull surveys of bulk carriers and of double-hull oil tankers",
+    "2011 ESP Code, made mandatory by SOLAS chapter XI-1 regulation 2",
+    "MARPOL Annex VI regulation 14 – sulphur limits in the Mediterranean ECA",
+    "ISO 20816-1 – Measurement and evaluation of machine vibration, general guidelines",
+    "ASTM E797 – Measuring thickness by manual ultrasonic pulse-echo contact method"
+  ],
+  "deliverables": [
+    "Takeover baseline report fixing the inherited condition at numbered points",
+    "Visit reports in one layout, readable by owner, superintendent and lender alike",
+    "Corrosion-rate tables and a renewal outline for the next docking abroad",
+    "Vibration and thermography trends against alarm levels agreed with the chief engineer",
+    "Fleet comparison across sisters under the same Limassol technical department",
+    "Data files the owner keeps and can pass to a new manager or a buyer"
+  ],
+  "faqs": [
+    {
+      "q": "Is a Limassol CVIP the same thing as CAS or CAP?",
+      "a": "It borrows their method but not their authority. The programme examines, gauges, grades and reports on the whole ship the way the official condition assessments do, which is why Limassol managers call it an owner's CAS or CAP. It is commissioned and kept by the owner or manager. A flag Statement of Compliance or a society's CAP rating can come from flag or class alone, so if a charterer names one, book it with them."
+    },
+    {
+      "q": "Can the takeover inspection count as the programme baseline?",
+      "a": "Yes, and that is often the most useful place to begin. The takeover visit is planned to the programme's standard from the start: points numbered on the drawings, marked on the steel and photographed, coatings rated from fixed viewpoints and machinery read at recorded load. Every later visit then measures against the condition the manager inherited, which helps when a defect's origin is questioned."
+    },
+    {
+      "q": "Our ships seldom call at Cyprus. Why run the programme from Limassol?",
+      "a": "Because the decisions are made in Limassol even when the steel is elsewhere. The plan, the point numbering and the report format are agreed with the technical department here, and the visits happen wherever the ships stop for long enough, subject to visas for that country. A Limassol stop is useful when it comes, mainly because the superintendent can attend, but the programme does not depend on it."
+    },
+    {
+      "q": "What fits into a brief crew-change stop off Limassol?",
+      "a": "Usually the machinery module, read while the ship's plant runs, plus deck plating, hatch covers or coamings and one or two ballast tanks the crew has made ready before anchoring. The visit follows a priority order agreed in advance, so the most important readings are taken early. Anything left over moves to the next stop or to the docking, still under the same point numbers."
+    },
+    {
+      "q": "Can offshore support vessels between charters join a Limassol programme?",
+      "a": "They can, and port stays between gas-field contracts suit them. Cargo deck plating, mud, brine and fuel tanks once cleaned, ballast tanks and sea-water lines are measured at fixed positions, and thrusters, winch drives and generators are read for vibration and thermal condition. Each charterer's inspector then sees a measured trend rather than a single snapshot taken just before the new contract."
+    },
+    {
+      "q": "What happens to the record if the owner changes manager again?",
+      "a": "The record belongs to the owner, not to the manager or to Atlantis. Data files, drawings with point numbers and every visit report can be handed to the incoming manager, who can carry on the programme from the next visit with no new baseline. If the ship is sold instead, the owner decides what the buyer sees."
+    }
+  ]
+}

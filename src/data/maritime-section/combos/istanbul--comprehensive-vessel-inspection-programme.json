@@ -8,7 +8,7 @@
   "highlights": [
     {
       "h": "Anchorage waits used as visit windows",
-      "p": "A ship lying at Ahırkapı or at the Black Sea entrance waiting for transit can be boarded by launch. Programme visits there carry a ranked list of modules, so whatever time the ship has before she is ordered to proceed goes on the readings that matter most."
+      "p": "A ship anchored at Ahırkapı, or off the Strait's northern mouth until her transit slot comes, can be boarded by launch. Programme visits there carry a ranked list of modules, so whatever time the ship has before she is ordered to proceed goes on the readings that matter most."
     },
     {
       "h": "Short voyages, fast-changing ships",
@@ -41,7 +41,7 @@
       "h": "Why Black Sea traders managed from Istanbul suit a programme",
       "p": [
         "Many Turkish owners built their fleets from second-hand Handysize and Supramax bulk carriers and general cargo ships, and trade them through their third and fourth renewal surveys. On short Black Sea and Mediterranean voyages those ships load and discharge far more often than a long-haul bulk carrier, carry fertiliser, coal, grain and scrap in turn, and work their own cranes at berths with little shore gear. Each of those habits accelerates a particular form of wear, and none of it can be read from the year of build alone.",
-        "Port state control adds pressure. Turkey belongs to both the Black Sea MoU and the Mediterranean MoU, and older ships on these trades are boarded often, with wasted air pipe heads, holed ventilators and corroded coamings among the structural deficiencies inspectors record. A programme that measures those items on every visit lets the technical department replace them on a schedule rather than after an inspector's report, and shows a charterer that structure is managed by measurement.",
+        "Port state control adds pressure. Turkey is a member of the Black Sea and Mediterranean port state control MoUs alike, and older ships on these trades are boarded often, with wasted air pipe heads, holed ventilators and corroded coamings among the structural deficiencies inspectors record. A programme that measures those items on every visit lets the technical department replace them on a schedule rather than after an inspector's report, and shows a charterer that structure is managed by measurement.",
         "Lenders and buyers ask the same question in different words: how is this ship holding up? A measured history, built visit by visit at the anchorages, at Ambarlı and in dock, answers it more convincingly than a single survey taken the week before a sale or a loan review."
       ]
     },
@@ -51,7 +51,7 @@
       "p": [
         "Turkish managers asking for an owner's CAS or owner's CAP on a general cargo ship or a Supramax usually want a whole-ship assessment of the depth those schemes are known for, timed to their own decisions. CVIP provides that depth: a plan drawn from the drawings and survey history, close-up examination of holds and tanks, thickness at defined positions, coatings rated GOOD, FAIR or POOR, cranes, hatch covers and machinery assessed, and graded findings gathered into one report.",
         "It provides no certificate. The IMO Condition Assessment Scheme belongs to the flag Administration and applies to a small group of older tankers; the Condition Assessment Programme rating is issued by a classification society after its own survey, and CVIP produces neither. A charterer who requires a class CAP rating should receive one from the ship's society. A programme visit some months earlier tells the owner where the ship is likely to stand, and which repairs belong on the next Tuzla work list.",
-        "Thickness readings sit in the same place. A society credits gauging to a class survey solely when the firm holds that society's approval under IACS UR Z17. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS and holds no certificate yet, so readings taken for an Istanbul programme are the owner's evidence for planning rather than class gauging."
+        "Thickness readings sit in the same place. A society credits gauging to a class survey solely when the firm holds that society's approval under IACS UR Z17. Atlantis is partway through obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, with no certificate issued so far, so readings taken for an Istanbul programme are the owner's evidence for planning rather than class gauging."
       ]
     },
     {
@@ -75,7 +75,7 @@
       "h": "Cranes, tween decks and hatch covers: modules Istanbul fleets add",
       "p": [
         "Geared ships earn with their cranes, so programmes for Istanbul-owned bulk carriers and general cargo ships usually add a lifting-gear module. Each crane is run through hoisting, luffing and slewing while the team notes brakes, leaks and noise; pedestal and jib welds within reach are examined by magnetic particle testing at numbered points; and the hydraulic power units are read for vibration, so a failing pump shows up as a rising trend rather than a stopped crane at a Black Sea berth. Load testing and certification of lifting appliances stay with the competent person or the crane maker.",
-        "On multipurpose and general cargo ships the tween deck panels, their seatings and their securing join the plan, because distortion from heavy and project cargoes builds slowly and is easy to miss on a single visit. Hatch covers are worked at every visit, with seals, compression bars, cleats and drain channels recorded the same way each time. Crack detection results across all of these are the owner's NDT records and do not close any condition of class."
+        "On multipurpose and general cargo ships the tween deck panels, their seatings and their securing join the plan, because distortion from heavy and project cargoes builds slowly and is easy to miss on a single visit. Hatch covers are worked at every visit, with seals, compression bars, cleats and drain channels recorded the same way each time. Any crack found on these items is recorded for the owner; it is not a class finding and cannot close a condition of class."
       ]
     },
     {
@@ -89,8 +89,8 @@
   ],
   "vessels": [
     "Geared Handysize and Supramax bulk carriers",
-    "General cargo and multipurpose ships on Black Sea trades",
     "Small chemical and product tankers",
+    "General cargo and multipurpose ships on Black Sea trades",
     "Container ships calling at the Ambarlı terminals",
     "Ro-ro ships",
     "Sister ships within one Istanbul-managed fleet"
@@ -113,7 +113,7 @@
   "faqs": [
     {
       "q": "Is the Istanbul programme the same as CAS or CAP?",
-      "a": "It borrows their method, not their authority. CVIP follows the close-up survey, gauging, coating ratings and graded report that CAS and CAP are known for, which is why managers call it an owner's CAS or owner's CAP. The owner commissions and keeps it; no flag Statement of Compliance and no society rating result from it. If a charterer requires the class CAP, the owner books it with the ship's classification society."
+      "a": "The resemblance is in the working method; the authority is missing. CVIP uses the close-up survey, gauging, coating ratings and graded report associated with CAS and CAP, so Istanbul managers have taken to calling it an owner's CAS or owner's CAP. The owner orders and keeps it, and no flag Statement of Compliance or society rating comes out of it. Where a charterer wants the class CAP, the ship's classification society carries it out."
     },
     {
       "q": "What if the ship is ordered to proceed through the Bosphorus in the middle of a visit?",

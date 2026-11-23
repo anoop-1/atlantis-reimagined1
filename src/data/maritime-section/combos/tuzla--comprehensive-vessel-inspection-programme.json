@@ -4,11 +4,11 @@
   "title": "CVIP Tuzla | Owner's CAS/CAP Programme Anchored on Dockings",
   "description": "CVIP at the Tuzla shipyards: an owner's CAS/CAP-style programme built round dockings, with pre-docking rounds, in-dock gauging and a reset after steel renewal.",
   "h1": "Comprehensive Vessel Inspection Programme at Tuzla: an owner's condition assessment that uses each shipyard docking as its anchor point",
-  "intro": "For many ships trading around the Marmara, the Black Sea and the eastern Mediterranean, the Tuzla shipyard zone is where they are opened up: tanks cleaned, holds blasted, steel cropped and renewed. CVIP, our Comprehensive Vessel Inspection Programme, treats that docking as the anchor of a longer record. It is what owners call an owner's CAS or owner's CAP, a whole-ship condition assessment on the pattern of those schemes, commissioned for the owner's requirement and not for class. Rounds before, during and after each Tuzla docking connect to visits in service, and the team comes from India for every one of them.",
+  "intro": "For many ships trading around the Marmara, the Black Sea and the eastern Mediterranean, the Tuzla shipyard zone is where they are opened up: tanks cleaned, holds blasted, steel cropped and renewed. CVIP, our Comprehensive Vessel Inspection Programme, treats that docking as the anchor of a longer record. Owners tend to ask for it as an owner's CAS or owner's CAP: the full-ship look those two schemes are known for, ordered by the owner for the owner's own reasons, with class playing no part in it. Rounds before, during and after each Tuzla docking connect to visits in service, and the team comes from India for every one of them.",
   "highlights": [
     {
       "h": "Pre-docking round sets the steel list",
-      "p": "A programme visit at the anchorage off the yard zone, or at the last cargo port, compares the ship with her own baseline and gives the yard a renewal outline before she is lifted, so plate is ordered against measured corrosion rates rather than estimates."
+      "p": "A programme visit at anchor near the yards, or during the ship's final cargo call beforehand, compares the ship with her own baseline and gives the yard a renewal outline before she is lifted, so plate is ordered against measured corrosion rates rather than estimates."
     },
     {
       "h": "Inserts re-measured before undocking",
@@ -58,8 +58,8 @@
       "id": "owners-cas-cap-tuzla",
       "h": "Owner's CAS, owner's CAP and the class survey taking place in the same dock",
       "p": [
-        "During a Tuzla renewal survey the dock can hold three kinds of inspection at once: the class survey with the gauging credited to it, a CAP survey if the owner has booked one with the society, and the owner's own programme. Keeping them apart avoids confusion about whose readings count for what. Class thickness measurement must come from a firm the society has approved under IACS UR Z17, with its surveyor attending as the rules require. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS and holds no certificate yet, so CVIP readings taken in a Tuzla dock serve the owner's decisions and are not credited to the class survey.",
-        "Within that line, the programme does what owners mean by an owner's CAS or owner's CAP: the same structure of plan, close-up examination, thickness at defined positions, rated coatings, assessed machinery and graded findings that the official schemes use, applied for the owner's own purpose. It does not issue a CAP rating, which comes from the ship's classification society, and it has nothing to do with the Statement of Compliance a flag issues under the IMO Condition Assessment Scheme for certain older tankers.",
+        "During a Tuzla renewal survey the dock can hold three kinds of inspection at once: the class survey with the gauging credited to it, a CAP survey if the owner has booked one with the society, and the owner's own programme. Keeping them apart avoids confusion about whose readings count for what. The society takes its credited thickness readings from a firm holding its IACS UR Z17 approval, with its own surveyor present as its rules demand. Atlantis's UR Z17 approval from DNV, Lloyd's Register and ABS is still in process, with no certificate in hand, so CVIP readings taken in a Tuzla dock serve the owner's decisions and are not credited to the class survey.",
+        "Within that line, the programme does what owners mean by an owner's CAS or owner's CAP: it applies the skeleton the official schemes share, from a written plan through close-up examination, gauging at set positions, coating grades and machinery condition to findings ranked by severity, for the owner's own purpose. It does not issue a CAP rating, which comes from the ship's classification society, and it has nothing to do with the Statement of Compliance a flag issues under the IMO Condition Assessment Scheme for certain older tankers.",
         "In practice the two kinds of work help each other. Where a charterer wants the class CAP rating, the programme's pre-docking round tells the owner which renewals will most improve the result before the society's surveyors begin, and the superintendent can share the programme's renewal outline with the yard and the surveyor when the docking scope is agreed. The outline informs that conversation; it never replaces the credited readings."
       ]
     },
@@ -84,16 +84,16 @@
       "p": [
         "Once the ship sails, the programme's service visits take place wherever she stops long enough: the anchorages off the yard zone or at the Strait, a cargo port, or the Altınova yards across the water if she returns for afloat repairs. Machinery modules, deck fittings, hatch covers and prepared ballast tanks fill those visits, and the numbered points marked in dock make them directly comparable with the dock readings.",
         "Tuzla yards also carry out scrubber, ballast water treatment and conversion work, which opens shell, tanks and pipework that are seldom accessible. When a retrofit falls inside a programme cycle, the existing structure is measured before new foundations or shell penetrations go in, and the new installation's piping joins the plan with its own baseline. Scrubber wash-water and overboard lines fitted at Tuzla are then trended from their earliest months in service.",
-        "Planning ties it together. Each technician needs a Turkish visa, so visits are fixed early against the docking date, with allowance for the slot moving, as repair-yard slots often do. Winter lodos gales can delay launches to the anchorages, and anchorage visits keep a reserve day where they can. The team flies into Sabiha Gökçen, the nearest airport to the yards. Programme enquiries go to info@atlantisndt.com or through the form on this page."
+        "Planning ties it together. Each technician needs a Turkish visa, so visits are fixed early against the docking date, with allowance for the slot moving, as repair-yard slots often do. Winter lodos gales can delay launches to the anchorages, and anchorage visits keep a reserve day where they can. The team flies into Sabiha Gökçen, the nearest airport to the yards. To start planning, send the docking date, the yard and the survey status to info@atlantisndt.com, or use the enquiry form."
       ]
     }
   ],
   "vessels": [
     "Handysize and Supramax bulk carriers docking for renewal surveys",
-    "Chemical and product tankers",
-    "General cargo ships",
-    "Ro-ro and ro-pax ships",
     "LPG carriers",
+    "Chemical and product tankers",
+    "Ro-ro and ro-pax ships",
+    "General cargo ships",
     "Tugs, ferries and coastal tankers on periodic dockings",
     "Offshore support vessels"
   ],
@@ -115,7 +115,7 @@
   "faqs": [
     {
       "q": "Is a CVIP programme at Tuzla the same as CAS or CAP?",
-      "a": "No. It mirrors their method, which is why owners call it an owner's CAS or owner's CAP, but it is commissioned by the owner and reported to the owner. It gives no CAP rating, which a classification society issues, and no CAS Statement of Compliance, which a flag issues. Where either is required, the owner arranges it through the society, and the programme indicates the likely result in advance."
+      "a": "No. Its method mirrors theirs closely enough for owners to borrow the names, yet the owner is both the client and the sole recipient of the reports. It gives no CAP rating, which a classification society issues, and no CAS Statement of Compliance, which a flag issues. Where either is required, the owner arranges it through the society, and the programme indicates the likely result in advance."
     },
     {
       "q": "Can the in-dock programme visit replace the class thickness measurement at Tuzla?",
@@ -135,7 +135,7 @@
     },
     {
       "q": "Does the programme include magnetic particle testing of stern frames and rudders?",
-      "a": "When the ship is dry, yes. Stern frame and rudder horn welds, rudder plating and sea chest surrounds are examined and gauged during the in-dock visit, subject to access and the yard's hot-work programme. Locations are numbered so the next docking re-examines the same welds. Results are the owner's NDT records and do not close any condition of class."
+      "a": "When the ship is dry, yes. Stern frame and rudder horn welds, rudder plating and sea chest surrounds are examined and gauged during the in-dock visit, as far as staging and the yard's hot-work schedule allow. Locations are numbered so the next docking re-examines the same welds. Results are the owner's NDT records and do not close any condition of class."
     }
   ]
 }
