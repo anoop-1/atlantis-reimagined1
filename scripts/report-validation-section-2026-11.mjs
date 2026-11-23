@@ -183,7 +183,7 @@ if (process.argv[1] && process.argv[1].endsWith('report-validation-section-2026-
   const fs = await import('node:fs');
   const dist = join(HERE, '..', 'dist');
   const known = new Set();
-  const walk = (d, p, depth) => { if (!fs.existsSync(d)) return; for (const e of fs.readdirSync(d, { withFileTypes: true })) { if (!e.isDirectory() || e.name === 'assets') continue; const q = `${p}/${e.name}`; if (fs.existsSync(join(d, e.name, 'index.html'))) known.add(q); if (depth < 3) walk(join(d, e.name), q, depth + 1); } };
+  const walk = (d, p, depth) => { if (!fs.existsSync(d)) return; for (const e of fs.readdirSync(d, { withFileTypes: true })) { if (!e.isDirectory() || e.name === 'assets') continue; const q = `${p}/${e.name}`; if (fs.existsSync(join(d, e.name, 'index.html'))) known.add(q); if (depth < 5) walk(join(d, e.name), q, depth + 1); } };
   walk(dist, '', 1);
   const slugs = process.argv.slice(process.argv.indexOf('--check') + 1);
   const shared = rvSharedSentences();
