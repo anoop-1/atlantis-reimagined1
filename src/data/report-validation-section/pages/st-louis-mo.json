@@ -39,14 +39,14 @@
           ["Industrial radiography licensing", "Missouri is not an NRC Agreement State, so NRC Region III licenses radioactive materials users", "Illinois is an Agreement State; IEMA's Office of Homeland Security administers the radioactive materials program"],
           ["Pipelines", "The Public Service Commission runs the state gas pipeline safety program under PHMSA oversight; liquid and interstate lines answer to PHMSA", "Hazardous liquid and interstate lines answer to PHMSA, whose Central Region covers both states from Kansas City"],
           ["Process safety", "OSHA's process safety management standard, 29 CFR 1910.119, applies to covered processes", "The same federal standard applies to covered processes, including refinery units"],
-          ["Nuclear oversight", "Callaway's reactor oversight sits with NRC Region IV", "No operating power reactor in the immediate St. Louis area on this side of the river"]
+          ["Nuclear oversight", "Callaway's reactor oversight sits with NRC Region IV", "Reactors in Illinois fall under NRC Region III, which also handles the agency's materials duties in the state"]
         ]
       }
     },
     {
       "h": "Wood River: one owner now, records from the partnership years",
       "p": [
-        "For more than a decade Wood River belonged to a 50/50 partnership. Since October 2025 it has had a single owner, and its inspection history now serves that owner's program alone. Consolidations of this kind do not change the steel, but they do change who relies on the records, and they often bring new templates, a new inspection data management system and new expectations about what a complete report looks like.",
+        "Until October 2025 Wood River belonged to a 50/50 partnership. Since October 2025 it has had a single owner, and its inspection history now serves that owner's program alone. Consolidations of this kind do not change the steel, but they do change who relies on the records, and they often bring new templates, a new inspection data management system and new expectations about what a complete report looks like.",
         "A refinery of this size produces records in volume at every turnaround: API 510 vessel reports, API 570 piping reports and thickness data, exchanger tube files, phased array and TOFD examinations on repair and new welds, CR images of small-bore connections, and API 653 reports on tankage. Reviews here tend to fall into two kinds. Turnaround close-out reviews are targeted at risk: rejectable or borderline findings, repairs and work from contractors new to the site. Legacy-record reviews test a sample of older reports against the procedures and codes in force when they were written, so the owner knows which parts of the history can carry its inspection planning and which need new examination.",
         "Typical findings are about traceability more than technique: readings filed against renumbered locations, scans archived without setup files, calibration certificates that do not cover the dates of work. The opinion classes each finding as a documentation gap or as a doubt about the disposition, which is the distinction an inspector deciding on restart actually needs."
       ]
