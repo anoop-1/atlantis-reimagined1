@@ -1,0 +1,162 @@
+{
+ "port": "genoa",
+ "service": "comprehensive-vessel-inspection-programme",
+ "title": "CVIP Genoa | Owner's CAS/CAP for Ro-Pax, Cruise and Tankers",
+ "description": "CVIP in Genoa: an owner's CAS/CAP-style programme for ro-pax ferries, cruise ships and Multedo tankers, tying berth visits to winter dockings at Ente Bacini.",
+ "h1": "Comprehensive Vessel Inspection Programme in Genoa: an Owner's Condition Assessment Linking Berth Visits, Repair Quays and Winter Dockings for Ferries, Cruise Ships and Tankers",
+ "intro": "Genoa is where many Tyrrhenian ferries, homeported cruise ships and Multedo tankers keep returning, and where their owners, managers and class society often sit in the same city. CVIP, our Comprehensive Vessel Inspection Programme, gives those decision-makers a measured history of each ship rather than a single snapshot. Technical departments here tend to ask for it as an owner's CAS or owner's CAP, meaning the official schemes' survey-gauge-grade-report method applied to the owner's own brief. A baseline and repeat visits, fitted to sailings, discharges and the winter docking season, build one trend record, and our team comes from India for each visit.",
+ "highlights": [
+  {
+   "h": "One harbour, three kinds of access",
+   "p": "Passenger terminals, the repair quays and the Ente Bacini docks at Molo Giano lie within one harbour. A programme visit can follow a ferry from her berth into the repair district, so each module is taken where the ship gives the most complete access to it."
+  },
+  {
+   "h": "Evidence for keep, sell or convert",
+   "p": "Many Genoa ferries are older tonnage weighing refits, conversions or sale under EU emissions rules. A trend record of steel, piping and machinery tells the owner what the next survey cycle will demand before that decision is taken."
+  },
+  {
+   "h": "Multedo discharges, measured repeatedly",
+   "p": "Tankers returning to the Multedo oil port give a recurring window for deck, piping, pump-room and ballast tank readings. Gathered over several discharges, they show the owner where the hull stands well before a class CAP or a vetting inspection."
+  }
+ ],
+ "sections": [
+  {
+   "id": "where-genoa-cvip",
+   "h": "What Genoa's repair district, berths and oil port each add to a programme",
+   "p": [
+    "Genoa compresses within one harbour what other ports spread over several. The repair district in the eastern part of the port holds the drydocks operated by Ente Bacini in the Molo Giano area and repair and conversion yards with their own quays. The passenger terminals, where ferries lie between overnight sailings and cruise ships turn around, are close by. The Multedo oil port lies to the west, Voltri-Prà's container terminal beyond it, and an outer anchorage serves ships waiting for a berth or a sale inspection.",
+    "A programme draws on each for what it does well. The docks give the dry hull and the tanks reached from staging. The repair quays give opened tanks and structure while a ship is afloat for work. The passenger terminals give repeated short access to car decks, ramps, piping and machinery under service load. Multedo gives deck, pump-room and ballast access on tankers during discharge. The anchorage suits deck and machinery modules on a ship that is waiting. Because the distances are short, one mobilisation can cover a docked ship and an afloat one on the same day."
+   ]
+  },
+  {
+   "id": "ferry-modules-genoa",
+   "h": "How a ferry programme's modules move between berth, repair quay and dock",
+   "p": [
+    "For a ro-pax on the Sardinia, Corsica or Sicily routes, the programme plan decides in advance where each module is taken. The pattern below is the common one; the yard booking and the island timetable set the dates."
+   ],
+   "table": {
+    "head": [
+     "Programme module",
+     "At the passenger berth between sailings",
+     "At a repair quay",
+     "In an Ente Bacini dock"
+    ],
+    "rows": [
+     [
+      "Car decks, ramps and doors",
+      "Plating by zone; hinge and sill crack checks on prepared details",
+      "Areas opened for repair, measured before renewal",
+      "Re-measurement of renewed plating"
+     ],
+     [
+      "Ballast tanks and voids",
+      "Tanks the crew can release safely",
+      "Full round with tanks opened and ventilated",
+      "Double-bottom tanks reached from staging"
+     ],
+     [
+      "Hull shell and sea chests",
+      "Not reachable",
+      "Side shell above the waterline",
+      "Bottom and side shell, sea chests, stern area"
+     ],
+     [
+      "Scrubber and sea-water piping",
+      "Repeat wall-thickness readings each visit",
+      "Spools removed for repair recorded",
+      "Shell penetrations at the overboard outlet"
+     ],
+     [
+      "Machinery condition",
+      "Vibration and thermography under service load",
+      "Readings on test runs after repairs",
+      "Not usually taken"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "keep-sell-convert-genoa",
+   "h": "Keep, sell, convert or re-engine: the decision a Genoa ferry programme informs",
+   "p": [
+    "Owners of older ro-pax tonnage in the Tyrrhenian trades face a recurring decision. With the EU ETS covering shipping from 2024 and FuelEU Maritime in force from 2025, every further survey cycle for an older ferry has to be justified against refit, conversion, re-engining or sale. That judgement turns on what the steel, the piping and the machinery will demand over the next cycle, and a single survey before the winter docking can describe just one moment.",
+    "A programme describes a direction. Wastage rates on car-deck plating, coating breakdown in ballast tanks and voids, wall loss on scrubber lines and vibration trends on main and auxiliary machinery together show whether the ship is ageing steadily or accelerating. That evidence goes into the owner's board paper, into the yard's renewal estimate and, if the ship is offered for sale, into the data room a buyer's surveyor will test. With owners, brokers and the RINA headquarters all in Genoa, the people who act on that evidence are often close to the ship itself."
+   ]
+  },
+  {
+   "id": "owners-cap-multedo",
+   "h": "Owner's CAP for a tanker at Multedo, and when the class CAP must follow",
+   "p": [
+    "Tanker managers at Multedo often ask for an owner's CAP or an owner's CAS on a ship approaching the age at which charterers' vetting tightens. What they want is the method of a class Condition Assessment Programme and, for older tankers, the familiar shape of the IMO Condition Assessment Scheme: survey to a plan, extensive gauging, coatings graded, findings ranked. CVIP supplies that method over a series of visits. Discharge calls give deck plating, deck piping, the pump room and segregated ballast tanks; a lay-by or yard stay gives cleaned, gas-free cargo tanks; the machinery that discharges cargo is read while it works.",
+    "The programme does not award anything reserved to class and flag. No CAP rating and no CAS Statement of Compliance come out of it, and if an oil major's vetting policy insists on a class CAP grade, that assessment is booked by the owner with the ship's society. The programme's role is to show, months earlier, which tanks and members would weigh on the grade and what renewal would change it. For gauging to be credited at a class survey, the firm must hold UR Z17 approval from that society. Atlantis is still in the process of obtaining that approval, which involves audits by Lloyd's Register, DNV and ABS; meanwhile readings taken at Multedo or in the yards serve the owner's decisions and carry no class credit."
+   ]
+  },
+  {
+   "id": "cruise-genoa",
+   "h": "Cruise ships homeported at Genoa: trending piping and machinery between technical stops",
+   "p": [
+    "A cruise ship that turns around at Genoa week after week, and uses the repair berths for technical stops, suits a programme built on repetition. Turnaround days give machinery readings under hotel and propulsion load, scrubber wash-water and overboard lines that can be gauged at the same points each time, and voids and tanks the technical department prepares in rotation. Technical stops at the repair quays add the tank rounds and structure that need longer access.",
+    "For cruise lines, the value lies less in the steel than in systems that run continuously. Wall loss on scrubber lines inside the Mediterranean ECA, a heat rise at a switchboard connection, a vibration change on an air-conditioning compressor or a sea-water pump: each is easier to plan for when it appears as a trend rather than as a failure at sea."
+   ]
+  },
+  {
+   "id": "planning-genoa",
+   "h": "Planning Genoa visits around the winter docking season and Schengen visas",
+   "p": [
+    "Ferry dockings in Genoa cluster in the winter months, when the island timetables thin out, and yard slots are booked well ahead. A programme uses that predictability: the main round goes into the docking, a pre-docking visit at the ship's normal berth a few weeks earlier sets the renewal list, and lighter visits through the season keep the piping and machinery trend going. For tankers and cruise ships, visits follow the discharge or turnaround calendar instead.",
+    "Our technicians travel from India on Schengen visas lodged against the planned visit dates, arriving through Genoa's airport beside the port or via Milan Malpensa or Rome Fiumicino. The ship's agent arranges ISPS passes for the terminals and the repair district, and a launch for anchorage visits; the yard coordinates access during a docking. The baseline is planned from the general arrangement and structural plans with original scantlings, the ship's past gauging reports, her survey status, the machinery list in the maintenance system, any thermography or vibration history, the docking dates and the sailing or discharge pattern. Write to info@atlantisndt.com to set up a Genoa programme, or use the enquiry form further down this page."
+   ]
+  }
+ ],
+ "vessels": [
+  "Ro-pax ferries on the Sardinia, Corsica and Sicily routes",
+  "Ferries on North African services",
+  "Cruise ships homeported at Genoa",
+  "Crude and product tankers discharging at Multedo",
+  "Ro-ro cargo ships in the Sampierdarena basins",
+  "Container ships calling at Voltri-Prà",
+  "Ships in conversion at the repair yards"
+ ],
+ "codes": [
+  "IACS UR Z7 – Hull classification surveys",
+  "IACS UR Z10.1 and UR Z10.4 – Hull surveys of oil tankers and of double-hull oil tankers",
+  "2011 ESP Code, applied by SOLAS XI-1/2 to oil tankers and bulk carriers",
+  "Directive (EU) 2017/2110 – Inspections of ro-pax ships and high-speed passenger craft in regular service",
+  "ISO 20816-1 – Measuring and evaluating machine vibration",
+  "ISO 18434-1 – Thermography for machine condition monitoring"
+ ],
+ "deliverables": [
+  "Programme plan placing each module at the berth, a repair quay, Multedo or the dock",
+  "Baseline report of hull, car decks, tanks, piping and machinery as found",
+  "Pre-docking renewal list for the Genoa yard, keyed to the programme's point numbers",
+  "Visit reports in one format showing change since the baseline and the previous visit",
+  "Pre-CAP indication for tankers: the tanks and members most likely to weigh on a class rating",
+  "Trend data files the owner keeps for sale, refinancing or a future manager"
+ ],
+ "faqs": [
+  {
+   "q": "Is CVIP in Genoa the same as a class CAP or the IMO CAS?",
+   "a": "It mirrors them in method and differs in standing. Owners speak of an owner's CAS or owner's CAP because it surveys, gauges, grades and reports on the whole ship in a similar way. It is, however, commissioned for the owner's purposes and reported to the owner, so it brings no CAP rating from a society and no Statement of Compliance from a flag. Those still have to be arranged with class or flag when required."
+  },
+  {
+   "q": "Which programme modules can be taken while a Genoa ferry stays in service?",
+   "a": "Car-deck plating by zone, crack checks at ramp hinges and door sills prepared in advance, scrubber and sea-water piping, ballast tanks the chief engineer can release, and vibration and thermal readings on machinery under service load. Those modules are repeated across the season at the ship's normal berth, while anything needing staging, gas-freeing or a dry hull waits for the winter docking."
+  },
+  {
+   "q": "How does a winter docking at Ente Bacini fit into the programme?",
+   "a": "It is the programme's annual checkpoint for a ferry. The pre-docking visit gives the yard a renewal list on the ship's drawings before the contract is fixed. In dock, the team adds the bottom and side shell, sea chests and staged tanks. Before undocking, renewed plates and spools are measured as new reference points, so later berth visits trend from the repaired condition."
+  },
+  {
+   "q": "Can tankers that discharge at Multedo join a programme?",
+   "a": "Yes. A discharge call opens up the main deck and its pipework, the pump room and the segregated ballast tanks, and lets cargo pump drives be read under load, all within the terminal's permit rules. Cargo tank internals are gauged when a gas-free window comes, at a lay-by or in a yard. Over several calls, the record gives the owner an early view of where the ship would stand in a class CAP."
+  },
+  {
+   "q": "Can a programme record support a sale of a Genoa ferry?",
+   "a": "It generally helps both sides. Instead of one recent report, the buyer's surveyor receives a consistent history of steel, piping and machinery readings to check, so the inspection can concentrate on confirming trends. The buyer still sets its own scope and requests class records from the society with the seller's agreement; the programme record is evidence for that work, not a replacement for it."
+  },
+  {
+   "q": "Does the programme cover cruise ships during technical stops at the repair berths?",
+   "a": "Yes. Turnaround days carry the repeat piping and machinery readings, and technical stops at the repair quays add tank rounds, voids and structure that need longer access. Planning both together means each technical stop is used for the modules that genuinely need it, while the trend between stops continues on ordinary calls."
+  }
+ ]
+}

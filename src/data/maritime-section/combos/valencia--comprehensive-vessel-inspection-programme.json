@@ -1,0 +1,158 @@
+{
+ "port": "valencia",
+ "service": "comprehensive-vessel-inspection-programme",
+ "title": "CVIP Valencia | Owner's CAS/CAP for Ferries, PCTCs and Feeders",
+ "description": "CVIP at Valenciaport: an owner's CAS/CAP-style whole-ship programme for Balearic ferries, car carriers and feeders, timed to winter overhauls and lay-overs.",
+ "h1": "Comprehensive Vessel Inspection Programme at Valenciaport: an Owner's Condition Assessment Timed to Balearic Ferry Seasons, Car Carrier Waits and Charter Changes",
+ "intro": "Valenciaport mixes ships that are gone within a day with ships that come back on a timetable: Balearic ro-pax ferries lying at their berths between evening sailings, car carriers waiting at anchor before loading Spanish-built vehicles, container feeders on short-sea loops and LNG carriers discharging at Sagunto. CVIP, our Comprehensive Vessel Inspection Programme, is built for that second group. Many owners request it as an owner's CAS or owner's CAP, and it does take the whole-ship assessment pattern of those schemes, scoped instead to the owner's needs. A baseline and repeat visits build one trend record, with the team flying out from India each time.",
+ "highlights": [
+  {
+   "h": "The ferry calendar sets the visits",
+   "p": "Balearic ferries run flat out in summer and take their overhauls in the quieter months. A programme puts the tank and structure rounds into that winter window and the lighter piping and machinery checks into lay-overs during the season, so nothing competes with the summer timetable."
+  },
+  {
+   "h": "On-hire readings become the baseline",
+   "p": "When a feeder or car carrier starts a charter in Valencia, the on-hire gauging can be laid out as the programme baseline. Later visits repeat the same points, and the owner ends the charter with a measured history instead of two unrelated snapshots."
+  },
+  {
+   "h": "Retrofits opened, measured, re-baselined",
+   "p": "Energy-efficiency and fuel retrofits on this coast open up structure that is seldom reachable. A programme measures that steel before the yard cuts it, records the new arrangement afterwards and keeps the point numbering consistent across the change."
+  }
+ ],
+ "sections": [
+  {
+   "id": "where-valencia-cvip",
+   "h": "Where a Valencia programme visit fits: terminals, inner harbour, anchorage and Sagunto",
+   "p": [
+    "Valencia's berths differ less in what they can open up than in how long a ship stays at them. The programme plan exploits that difference, putting quick, repeatable modules into short calls and the rounds that need prepared spaces into longer stays."
+   ],
+   "list": [
+    "APM Terminals Valencia, MSC Terminal Valencia and CSP Iberian Valencia Terminal: scrubber lines, engine-room tanks and machinery readings while cargo work continues",
+    "Ferry and ro-ro berths in the inner harbour: car decks, ramps, ballast tanks and fire main across lay-overs, and fuller rounds during the winter overhaul",
+    "Vehicle terminal berths: ramps, hoistable decks and ballast tanks on car carriers while loading goes on",
+    "Valencia anchorage: machinery, deck and prepared ballast tanks on ships waiting for a berth, reached by launch",
+    "Sagunto LNG terminal and bulk quays: hull, ballast, deck and piping on gas and bulk carriers within terminal permits",
+    "Afloat repair work in the port area: tanks and structure opened by ship-repair firms, measured before and after the job"
+   ]
+  },
+  {
+   "id": "ferry-year-valencia",
+   "h": "A year of programme visits for a Balearic ro-pax ferry",
+   "p": [
+    "Ferries on the Palma and Ibiza services show most clearly how a Valencia programme follows the ship's own year. The pattern below is typical; the exact months follow the operator's timetable and the yard booking, and the plan is revised whenever either moves."
+   ],
+   "table": {
+    "head": [
+     "Period",
+     "Ship's situation",
+     "Programme visit"
+    ],
+    "rows": [
+     [
+      "Winter overhaul",
+      "Out of service, tanks opened, staging in place",
+      "Baseline or annual round: ballast and fuel tank boundaries, voids, car-deck plating by zone, ramps and doors, dry shell if docked"
+     ],
+     [
+      "Spring return to service",
+      "Daytime lay-overs at the inner harbour berth",
+      "Re-measurement of areas repaired in the overhaul; machinery vibration and switchboard thermography under service load"
+     ],
+     [
+      "Summer peak",
+      "Maximum sailings, minimal berth time",
+      "Short checks of scrubber wash-water and overboard lines and of any finding flagged for watching; no tank entry"
+     ],
+     [
+      "Autumn",
+      "Timetable easing, longer lay-overs",
+      "Pre-overhaul round: piping, ramp and hinge crack checks, ballast tanks the crew can prepare, renewal list for the yard"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "charter-baseline-valencia",
+   "h": "Car carriers and container feeders: a programme that starts at the charter",
+   "p": [
+    "Charter changes are frequent in Valencia, where feeders join short-sea loops and car carriers come on for the vehicle export trade. The on-hire survey at the start of a charter and the off-hire survey at its end are usually treated as separate jobs, sometimes by different firms with different measurement points. Laid out as a CVIP baseline, the on-hire gauging becomes the reference for every later reading, and repeat visits during the charter, timed to the ship's Valencia calls, show how hull and machinery are changing while the charterer has her.",
+    "For a car carrier, the programme watches ramps, hoistable deck supports and the plating around lashing points, where heavier vehicles and repeated loading do their work, alongside ballast tanks and the machinery that drives ventilation fans and ramp hydraulics. For a container feeder, the emphasis shifts to scrubber piping, hatch cover condition and the structure beneath the weather deck. At off-hire, owner and charterer can both read the record rather than argue over two snapshots taken months apart."
+   ]
+  },
+  {
+   "id": "owners-cas-cap-valencia",
+   "h": "Owner's CAS and owner's CAP on ferries and box ships: the whole-ship view the official schemes leave out",
+   "p": [
+    "The IMO's Condition Assessment Scheme targets a narrow group of older oil tankers, while the CAP services of classification societies are bought mainly for tankers and bulk carriers under vetting pressure. A Balearic ferry operator or a feeder owner in Valencia rarely meets either. Yet the same people still want the graded whole-ship picture those schemes produce, which is why they ask us for an owner's CAS or owner's CAP. CVIP delivers it: close-up examination to a plan, gauging at numbered locations, coatings described in the GOOD, FAIR and POOR terms of hull surveys, crack detection at fatigue details, machinery read by vibration analysis and thermography, and one report placing the findings in order of urgency.",
+    "It remains an assessment for the owner. Neither a flag Statement of Compliance nor a class rating results from it, and where a charterer's policy names an official scheme, that has to be arranged with the ship's society. The readings belong to the owner as well. Whether gauging counts at a class survey depends on the measuring firm's UR Z17 standing with the ship's society. Ours is pending: Atlantis is in the process of obtaining that approval and the DNV, Lloyd's Register and ABS audits are under way, so Valencia programme gauging supports decisions on steel, overhauls, charters and sale without counting towards any class survey. Ferries on regular services stay subject to their flag, class and port state inspections as before; the programme sits alongside them."
+   ]
+  },
+  {
+   "id": "sagunto-gas-carriers",
+   "h": "Gas carriers at Sagunto within a fleet programme",
+   "p": [
+    "Owners who run LNG carriers alongside other tonnage sometimes want the same programme across the whole fleet, and Sagunto gives a regular point of contact on the Spanish coast. On these ships the programme covers what can be measured outside the cargo containment: shell and deck structure, ballast tanks, deck and engine-room piping, closing appliances, and vibration and thermal readings on machinery and switchboards working during discharge. Cargo containment systems are not inspected.",
+    "Terminal safety rules decide who boards and with what equipment, so each visit is agreed in advance through the ship's agent and the scope is fixed with the ship manager before travel. The readings join the same report format and trend record as the rest of the fleet, which lets the technical department compare an LNG carrier's ballast tank coatings with those of its other ships on a common footing."
+   ]
+  },
+  {
+   "id": "planning-valencia",
+   "h": "Planning Valencia visits: what to send, who arranges access and how the team travels",
+   "p": [
+    "Programme visits in Valencia are planned from the operator's own schedule: the ferry timetable and overhaul booking, the car carrier's loading calls or the feeder's rotation. We lay the visits against those dates and the class survey cycle, then lodge each technician's Schengen visa application in India for the planned visit. The usual routes are into Valencia Airport through a European or Gulf hub, or into Madrid and on by high-speed train. The ship's agent requests ISPS passes for the container, ferry or Sagunto terminals and books a launch for anchorage visits.",
+    "Before the baseline we ask the operator for the hull drawings with as-built plate thicknesses, the latest gauging report, current survey status with any outstanding conditions, the maintenance system's machinery list, earlier thermal or vibration surveys, and the Valencia calls expected over the coming year. For a Valencia programme, email info@atlantisndt.com with the ship and her schedule, or fill in the enquiry form lower down."
+   ]
+  }
+ ],
+ "vessels": [
+  "Balearic ro-pax ferries",
+  "Car carriers loading Spanish-built vehicles",
+  "Short-sea container feeders",
+  "Mainline container ships on repeat Valencia calls",
+  "LNG carriers discharging at Sagunto",
+  "Ro-ro cargo ships on Mediterranean services",
+  "Cruise ships with regular Valencia calls"
+ ],
+ "codes": [
+  "IACS UR Z7 – Hull classification surveys",
+  "Directive (EU) 2017/2110 – EU inspection system for ro-pax ferries on regular services",
+  "MARPOL Annex VI regulation 14 – Sulphur content of fuel within emission control areas",
+  "ISO 20816-1 – Vibration severity of machines: general measurement guidance",
+  "ISO 18434-1 – Thermography in condition monitoring and diagnostics of machines",
+  "ASTM E797 – Ultrasonic pulse-echo contact method for measuring thickness"
+ ],
+ "deliverables": [
+  "Programme plan tied to the ferry timetable, overhaul booking, charter dates and class surveys",
+  "Baseline report, which can double as the on-hire condition record",
+  "Visit reports in one format, with changes since the baseline and since the previous visit",
+  "Pre-overhaul renewal list of plates and pipe spools for the yard",
+  "Off-hire comparison against the baseline at the end of a charter",
+  "Thickness, coating, vibration and thermal data files held by the owner"
+ ],
+ "faqs": [
+  {
+   "q": "Is CVIP the same as a CAS or CAP survey for a ship calling at Valencia?",
+   "a": "Not in standing. Its method tracks the IMO's condition assessment for older tankers and the CAP that classification societies run, hence the names owner's CAS and owner's CAP, yet the owner orders it and receives it. No flag reviews it and no society rates the ship from it. If a charterer specifically requires the official CAP, the owner arranges it with class and can use programme readings to anticipate the outcome."
+  },
+  {
+   "q": "Can a programme visit be done on a Balearic ferry without taking her out of service?",
+   "a": "Most visits during the season are done exactly that way. Piping, machinery readings, ramp and hinge checks and spaces the crew can release are taken across daytime lay-overs at the ferry's berth. Tank entry that needs gas-freeing, and anything requiring staging, waits for the winter overhaul, when the programme's main round is planned and the yard's access can be shared."
+  },
+  {
+   "q": "Can our on-hire survey in Valencia be used as the programme baseline?",
+   "a": "Yes, provided it is planned that way from the outset. The on-hire gauging is laid out with numbered points on the drawings and marked on the steel, coatings are rated from recorded positions and machinery is read with its load noted. Later visits then repeat it exactly, and the off-hire round compares directly with it, point by point."
+  },
+  {
+   "q": "How do short container ship calls fit a programme?",
+   "a": "By limiting each call to the modules that suit it. During cargo work, the team gauges scrubber lines, engine-room tanks and deck structure and reads machinery under load. Ballast tank and hold rounds are kept for longer stays or the docking. Over several calls the record builds into a whole-ship picture without the ship ever being held for the programme."
+  },
+  {
+   "q": "Are LNG carriers at Sagunto inspected inside the cargo tanks?",
+   "a": "No. Cargo containment systems are outside the programme. On gas carriers we measure hull structure, ballast tanks, deck, piping and closing appliances, and take vibration and thermal readings on machinery and electrical equipment, all under the ship's permit-to-work system and the terminal's rules on boarding and equipment. Those readings sit in the same trend record as the owner's other ships."
+  },
+  {
+   "q": "What happens to the programme when a ship docks away from Valencia?",
+   "a": "The docking stays part of it wherever it takes place. A pre-docking visit on a Valencia call gives the yard a renewal list keyed to the programme's point numbers, the team can follow the ship to the yard for the dry hull, and renewed steel is measured again so the trend carries on when she resumes her Valencia calls."
+  }
+ ]
+}

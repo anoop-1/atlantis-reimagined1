@@ -1,0 +1,139 @@
+{
+ "port": "barcelona",
+ "service": "comprehensive-vessel-inspection-programme",
+ "title": "CVIP Barcelona | Owner's CAS/CAP for Ferries, Cruise and Yachts",
+ "description": "CVIP in Barcelona: an owner's CAS/CAP-style condition programme for ferries, cruise ships and steel superyachts, with retrofits and refits kept in one record.",
+ "h1": "Comprehensive Vessel Inspection Programme in Barcelona: an Owner's Condition Assessment That Carries Ferries, Cruise Ships and Refitting Yachts Through Retrofits and Yard Periods",
+ "intro": "Barcelona's ships keep published schedules and change often. Ferries to the Balearics, Italy and North Africa are among the ships the port wants on shore power, cruise ships switch fuels or add scrubbers, and steel-hulled superyachts return to refit yards in the old harbour. CVIP, our Comprehensive Vessel Inspection Programme, keeps one condition record running through all of that. In owners' shorthand it is an owner's CAS or owner's CAP, after the schemes whose whole-ship pattern it copies, but it answers to the owner rather than to class. Technicians fly from India for the baseline and for every repeat visit.",
+ "highlights": [
+  {
+   "h": "Retrofits fixed into the record",
+   "p": "Shore power, scrubbers and fuel conversions all cut into structure. A programme measures the affected plating before the yard draws its openings, then measures the new arrangement afterwards, so the trend never confuses altered steel with corroded steel."
+  },
+  {
+   "h": "Mixed fleets on one report format",
+   "p": "Operators with ferries, cruise ships and car carriers calling at Barcelona can run every ship on the same report structure and grading, so a fleet manager compares a ro-pax ferry's ballast tanks with a cruise ship's in identical terms."
+  },
+  {
+   "h": "Yachts measured refit to refit",
+   "p": "Steel-hulled superyachts refitting at MB92 and the other yards in the old harbour open tanks and structure for weeks at a time. Repeating the same points at each refit gives the owner a history that a buyer, a charter manager or a lender can read."
+  }
+ ],
+ "sections": [
+  {
+   "id": "where-barcelona-cvip",
+   "h": "Which Barcelona berths carry which part of an owner's condition assessment",
+   "p": [
+    "Barcelona offers predictability more than long stays, and a programme makes use of it by placing each module where the ship's routine already gives access. A cruise ship's machinery is read under hotel load on a turnaround day; a ferry's car decks are taken on a lay-over; a yacht's tanks wait for the refit. The berths fall into a few groups, each with its own contribution.",
+    "Where one call cannot cover a module, the plan spreads it over several in a fixed order, so that each space is measured at comparable intervals rather than whenever it happens to be free."
+   ],
+   "list": [
+    "Adossat Quay and the other cruise terminals: machinery spaces, voids, prepared tanks and sea-water and scrubber piping on turnaround days",
+    "Ferry berths for the Balearic, Italian and North African services: car decks, ramps, doors, ballast tanks and fire main across lay-overs",
+    "Hutchison Ports' container terminal and APM Terminals Barcelona: engine-room tanks, scrubber lines and deck structure on container ships and feeders",
+    "Car carrier berths at the vehicle terminals: ramp structure, hoistable deck supports and ballast tanks while cars are loaded",
+    "The energy quays and the Enagás regasification terminal: shell, ballast tanks and deck piping on tankers and gas carriers, as the terminal permits",
+    "Superyacht refit yards in the old harbour, MB92 among them: full rounds of steel hull, decks and tanks during refit periods"
+   ]
+  },
+  {
+   "id": "retrofits-barcelona",
+   "h": "Shore power, scrubbers and fuel conversions as programme events",
+   "p": [
+    "Barcelona's push to cut ship emissions near the city has made retrofits routine for the ferries and cruise ships that call most often. Each one changes the ship. A shore-power connection adds cable entries and switchboard foundations; a scrubber adds a casing, wash-water lines and a new shell penetration; a fuel conversion may add tank spaces and supports. For a one-off survey, these are complications. For a programme, they are events to be planned.",
+    "Before the yard starts, a programme visit measures the plating, frames and existing piping in the area to be cut, so designers and class work from known thicknesses and any wastage surfaces before the cutting plan is committed. After the work, the new structure, the new piping and the machinery it serves are measured and photographed as fresh reference points, and old points that no longer exist are closed in the record. Later visits then trend the new arrangement from its true starting condition. For scrubber piping that starting point is especially useful, because wash-water lines can lose wall thickness quickly once the system runs continuously inside the Mediterranean ECA."
+   ]
+  },
+  {
+   "id": "owners-cas-cap-barcelona",
+   "h": "Owner's CAS and owner's CAP for passenger ships calling at Barcelona",
+   "p": [
+    "Neither official condition assessment was designed with ferries or cruise ships in mind: the IMO scheme deals with a dwindling group of elderly oil tankers, and owners commission class CAPs chiefly for tankers and bulk carriers that charterers' vetting departments scrutinise. Passenger ship operators still want a graded, measured view of each ship, for fleet planning, for refit budgets and for the day a ship is sold or re-chartered. When they ask for an owner's CAS or owner's CAP, CVIP is what they receive: survey to a written plan, thickness at numbered points, coating condition graded, crack detection at known fatigue details, machinery assessed by vibration analysis and thermography, and one report setting out the findings by priority.",
+    "The authority stays where it was. The programme yields no Statement of Compliance and no class rating, and it does not take the place of flag, class or port state inspections, including the EU regime for ro-pax ferries in regular service. Credit for gauging at a class survey needs a measuring firm with the society's UR Z17 approval. Atlantis is in the process of obtaining it, with ABS, DNV and Lloyd's Register each auditing the company, so programme readings in Barcelona inform the owner's decisions and are kept apart from class surveys. Crack detection results are likewise the owner's NDT records, not class approvals."
+   ]
+  },
+  {
+   "id": "fleet-barcelona",
+   "h": "One programme across a ferry and cruise fleet",
+   "p": [
+    "Several operators run more than one ship type through Barcelona: ro-pax on the island routes, cruise ships homeported for the season, car carriers on a vehicle rotation. A fleet programme applies one set of conventions to all of them. Point numbering follows each ship's structure and equipment register, coating grades use the same terms, machinery readings record the same load information, and every visit report has the same layout. The result is a fleet view that a technical director can read across ships of different types.",
+    "Sister ships benefit most. Two ferries of one design on alternating sailings share structural details, so a crack at a ramp hinge or a vibration rise on a stabiliser hydraulic pump found on one ship tells the team where to look on the other at its next lay-over. Comparisons between sisters also show where a different refit history, a coating repair or a change of route has made one ship age faster than the other."
+   ]
+  },
+  {
+   "id": "superyachts-barcelona",
+   "h": "Superyachts at MB92 and the old harbour yards: a refit-to-refit record",
+   "p": [
+    "Steel-hulled superyachts spend long periods in the refit yards of Barcelona's old harbour, with tanks opened, interiors stripped back and structure exposed. A one-off thickness survey during a class renewal is common. A programme goes further: the same points on hull plating, decks, tank boundaries and machinery foundations are measured at each refit, machinery is read for vibration and thermal condition when it runs on the yard's commissioning days, and the record stays with the yacht.",
+    "For an owner, that history serves several purposes. It shows the refit project manager where coatings and steel are holding and where they are not. It gives a charter manager evidence that the yacht is maintained by measurement. And when the yacht is sold, a buyer's surveyor can test the history rather than start from nothing. The programme supplies the owner's evidence; class and flag surveys of the yacht continue as their rules require."
+   ]
+  },
+  {
+   "id": "decision-checklist-barcelona",
+   "h": "Is a programme right for your Barcelona ship? A decision checklist",
+   "p": [
+    "Owners weighing a one-off survey against a programme can use the questions below. If several apply, the repeat visits are likely to justify themselves through decisions made earlier and with better information."
+   ],
+   "list": [
+    "Does the ship call at Barcelona on a published schedule, so visits can be planned months ahead?",
+    "Is a retrofit, refit or conversion planned within the current survey cycle?",
+    "Is a renewal survey or docking approaching that will need a steel and pipe renewal list?",
+    "Are there sister ships whose condition the technical department wants compared?",
+    "Is a sale, re-charter or refinancing likely while the programme would be running?",
+    "Has a recurring problem, such as piping leaks, ramp cracks or machinery faults, never been measured as a trend?",
+    "Will the owner keep the ship long enough for corrosion rates and machinery trends to become decisive?"
+   ]
+  }
+ ],
+ "vessels": [
+  "Ro-pax ferries on the Balearic, Italian and North African routes",
+  "Cruise ships homeported or calling regularly at Barcelona",
+  "Car carriers on vehicle export rotations",
+  "Container feeders at the Hutchison and APM terminals",
+  "LNG carriers at the Enagás terminal",
+  "Steel-hulled superyachts refitting in the old harbour",
+  "Sister ferries on alternating sailings"
+ ],
+ "codes": [
+  "IACS UR Z7 – Hull classification surveys and coating condition terms",
+  "Directive (EU) 2017/2110 – Inspection system for ro-ro passenger ships and high-speed craft in regular service",
+  "MARPOL Annex VI regulation 14 – Mediterranean SOx emission control area limits",
+  "ISO 20816-1 – Machine vibration: general measurement and evaluation guidelines",
+  "ISO 18434-1 – Machine condition monitoring by thermography",
+  "ASTM E709 – Guide for magnetic particle testing"
+ ],
+ "deliverables": [
+  "Programme plan placing each module on turnaround days, lay-overs, refits and retrofits",
+  "Baseline condition report covering structure, tanks, pipework, hatches and doors, and machinery",
+  "Pre-retrofit thickness record of the structure and piping to be cut",
+  "Post-retrofit re-baseline of new structure, penetrations and piping",
+  "Visit reports in one layout across the fleet, with a sister-ship comparison where sisters are enrolled",
+  "Owner-held trend data for thickness, coatings, vibration and thermal readings"
+ ],
+ "faqs": [
+  {
+   "q": "Is CVIP in Barcelona the same as CAS or CAP?",
+   "a": "It shares their method but not their standing. It examines, gauges, grades and reports on the whole ship in the manner of the flag-verified CAS and a society's CAP, which is where the names owner's CAS and owner's CAP come from. Because it is commissioned for the owner, it ends in the owner's report, not in a flag Statement of Compliance or a class rating; any official scheme a charterer requires is booked with class."
+  },
+  {
+   "q": "Can programme visits fit cruise turnaround days without disturbing embarkation?",
+   "a": "Yes. The team works in machinery spaces, voids, tanks the crew has prepared and piping runs reachable without entering hotel areas, while passengers and stores move on other decks. Machinery readings are taken with the hotel load on, which is the condition the trend needs. Spaces that need longer access are kept for later calls or the next technical stop."
+  },
+  {
+   "q": "How does a shore-power or scrubber retrofit affect an existing programme?",
+   "a": "It becomes a planned visit on each side of the yard work. Before cutting, the area is measured so designs rest on real thicknesses rather than assumed ones. Afterwards, the new structure, penetrations and piping are recorded as fresh reference points and obsolete points are closed. The trend then continues without mixing altered steel with corrosion."
+  },
+  {
+   "q": "Do you run programmes for superyachts refitting in Barcelona?",
+   "a": "For steel-hulled yachts, yes. Hull plating, decks, tank boundaries and machinery foundations are measured at the same points each refit, and machinery is read when it runs during commissioning. The refit yard's programme decides when areas are open, so visits are planned with the yacht's project manager. Class and flag surveys continue separately, on their own schedule."
+  },
+  {
+   "q": "How is a Barcelona programme visit arranged from India?",
+   "a": "Each technician travels on a Schengen visa applied for against the planned visit date, then flies into Barcelona–El Prat through a Gulf or European hub. The ship's agent requests ISPS passes for the cruise, ferry or container terminal, and the refit yard arranges access for yacht work. Because Barcelona schedules are published early, visas and flights follow the programme calendar comfortably."
+  },
+  {
+   "q": "What does the owner need to send for the baseline?",
+   "a": "The ship's structural plans with their original plate thicknesses, the most recent gauging report, class survey status and docking dates, the planned maintenance machinery register, any vibration, thermography or noise surveys already held, details of retrofits completed or planned, and the Barcelona call schedule. Email them to info@atlantisndt.com, or tell us through the enquiry form which of them you have."
+  }
+ ]
+}

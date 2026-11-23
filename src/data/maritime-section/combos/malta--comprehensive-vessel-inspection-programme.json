@@ -1,0 +1,132 @@
+{
+  "port": "malta",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Malta | Owner's CAS/CAP for Bunkering Calls and Docking",
+  "description": "CVIP in Malta: an owner's CAS/CAP-style programme staged across bunkering stops at Hurd's Bank, Freeport calls and Grand Harbour dockings, with one record.",
+  "h1": "Comprehensive Vessel Inspection Programme in Malta: an owner's condition assessment staged across bunkering stops, Freeport calls and Grand Harbour dockings",
+  "intro": "Ships stop at Malta for fuel, orders, crew changes, transhipment and repair, and many of the managers who run them work on the island because of its flag. CVIP, our Comprehensive Vessel Inspection Programme, uses those stops to build a measured condition record. Owners often know it as an owner's CAS or owner's CAP: a whole-ship assessment on the same pattern as the official schemes, carried out for the owner's requirement rather than for class. A baseline visit and later visits, at the offshore anchorages, at Marsaxlokk or in a Grand Harbour dock, feed one trend record. The team flies in from India each time.",
+  "highlights": [
+    {
+      "h": "A bunkering stop becomes a programme visit",
+      "p": "Ships taking fuel at Hurd's Bank or the other designated areas lie at anchor with no cargo work under way. A visit by launch in that time covers machinery under load, deck fittings and prepared tanks, without adding a port call to the voyage."
+    },
+    {
+      "h": "Managers and dock on one island",
+      "p": "With many Malta-flag managers working from the island and Palumbo Malta Shipyard in Grand Harbour, the superintendent can attend the docking visit, settle priorities with the team in person and see the findings before the ship leaves the yard."
+    },
+    {
+      "h": "Exposed anchorages, flexible module lists",
+      "p": "The offshore areas are open to the weather, and a sea state that suits bunkering can still rule out a safe transfer with equipment. Programme visits there carry modules that can move to the next stop, while tank and dock work is kept for sheltered settings."
+    }
+  ],
+  "sections": [
+    {
+      "id": "bunker-stop-malta",
+      "h": "Can a ship be assessed during a bunkering stop off Malta?",
+      "p": [
+        "Partly, and usefully. A ship at Hurd's Bank or another of the designated anchorage and bunkering areas is idle apart from the bunker transfer, and her machinery is often running on port load. The team boards by a launch the agent books, agrees with the master which spaces are released and how the visit fits around the bunkering operation, and works through a list fixed in the programme plan.",
+        "What fits is set by time, weather and the bunkering itself. Engine-room machinery and switchboards, deck plating and fittings, hatch covers on dry cargo ships, scrubber lines and ballast tanks the crew has ventilated are typical. Work near the bunker manifold waits until the transfer is complete, and spaces that need lengthy preparation are left for the Freeport, a terminal or the shipyard. A visit cut short by the weather loses nothing from the record; the remaining items move to the next stop on the plan, and the visit report says so."
+      ]
+    },
+    {
+      "id": "managers-malta-cvip",
+      "h": "Malta-flag managers with ships trading worldwide",
+      "p": [
+        "Transport Malta's Merchant Shipping Directorate administers Europe's largest ship register, and many ship-management and owning companies are established on the island because of the flag. Their ships trade everywhere, so a programme set up in Malta does not have to take all its visits there. The plan is agreed with the technical department on the island, and visits are made wherever each ship stops long enough, with Malta stops used whenever the voyage brings the ship past.",
+        "The flag does not change the measurement work itself. Statutory surveys of Malta-flag ships are carried out by classification societies acting as recognised organisations, and each society sets the thickness measurement its surveys require. The programme sits beside that framework, giving the manager a record that is the owner's own and is kept in one format whichever society classes the ship. For a manager whose fleet is spread across several societies, that consistency is often the reason for starting a programme."
+      ]
+    },
+    {
+      "id": "grand-harbour-malta-cvip",
+      "h": "The Grand Harbour docking as the programme's checkpoint",
+      "p": [
+        "Palumbo Malta Shipyard's graving docks in the historic dock area at Cospicua take ships from ferries and offshore vessels up to large cruise ships and tankers. For a ship in a Malta programme, a docking there is the visit that sees everything: the dry bottom, sea chests and rudder, cargo and ballast tanks once gas-freed, and staging in the larger spaces. A pre-docking round on an earlier stop gives the yard its renewal outline; after repairs, renewed areas are measured again so the trend continues from the new steel.",
+        "Cruise ships bring their own emphasis. Refurbishment periods at the yard combine hull items with exhaust gas cleaning and exhaust system work, and the programme uses them to gauge scrubber discharge lines and shell outlets with the hull dry, to survey hot surfaces and their insulation with a thermal camera, and to read machinery that seldom stops in service. Each of those becomes a fixed point in the cruise ship's record, measured again on turnaround days at the Valletta Cruise Port."
+      ]
+    },
+    {
+      "id": "ships-malta-cvip",
+      "h": "Which ships suit a programme staged through Malta",
+      "p": [
+        "The ships that benefit most are those that stop at Malta often, or whose managers are on the island. The table shows how a programme is usually staged for each, with the details fixed in the plan once the ship's trading pattern and survey dates are known."
+      ],
+      "table": {
+        "head": ["Ship type", "Malta stop it usually makes", "How programme visits are staged"],
+        "rows": [
+          ["Tankers and bulk carriers in a Malta-managed fleet", "Bunkering at the offshore areas; Grand Harbour docking", "Service visits by launch while bunkering; tank and bottom work at the docking"],
+          ["Large container ships on transhipment services", "Malta Freeport, Birżebbuġa", "Ballast tanks, hatch covers and scrubber lines across successive Freeport calls"],
+          ["Cruise ships", "Valletta Cruise Port turnarounds; refurbishment at the shipyard", "Machinery and scrubber piping on turnaround days; hull and outlets in dock"],
+          ["Tankers and bulk carriers at the Marsaxlokk terminals", "Oil and bulk terminal calls", "Deck, deck lines and accessible ballast tanks inside the cargo window"],
+          ["Offshore support vessels", "Shipyard dockings and repair periods", "Hull, tanks and machinery in yard periods; deck and machinery between them"]
+        ]
+      }
+    },
+    {
+      "id": "owners-cas-cap-malta",
+      "h": "Owner's CAS, owner's CAP and what the Malta flag still requires",
+      "p": [
+        "Malta-based managers use the names owner's CAS and owner's CAP for a reason: they want the depth those schemes are known for, applied when their own decisions need it. CVIP supplies it with a survey plan drawn from drawings and history, close-up examination, thickness at defined positions, coating ratings in GOOD, FAIR and POOR terms, machinery assessed under load, and graded findings collected in one condition report on the whole ship.",
+        "What belongs to the official bodies stays with them. Where the IMO Condition Assessment Scheme applies to an older tanker, the Statement of Compliance comes from the flag Administration after review of the recognised organisation's report; a CAP rating comes from the classification society that carried out the CAP survey. CVIP produces neither. A charterer who names the class CAP should receive it from the society, with the programme's readings telling the owner beforehand where the ship probably stands.",
+        "Readings taken in a Malta programme are likewise the owner's evidence rather than class gauging. A society credits thickness measurement to a survey solely from firms it has approved under IACS UR Z17. Atlantis is in the process of obtaining that approval from DNV, Lloyd's Register and ABS, and until a certificate is issued, CVIP results inform the owner's steel, docking, chartering and sale decisions and are not offered for credit to any class survey."
+      ]
+    },
+    {
+      "id": "plan-malta-cvip",
+      "h": "Planning: Luqa flights, Schengen visas and late notice of bunkering calls",
+      "p": [
+        "Malta International Airport at Luqa lies close to both Grand Harbour and Marsaxlokk, and Malta is in the Schengen area, so the team from India needs Schengen visas issued before travel. Dockings at the shipyard are booked well ahead and suit visa timing. Bunkering stops are confirmed later, so the programme plan identifies likely Malta stops from the voyage pattern and keeps visas valid across them; the same visa period can also cover a fleet ship calling in Sicily or southern Italy.",
+        "For the baseline we ask for structural drawings with original scantlings, the latest thickness measurement report, class status and outstanding items, the planned maintenance equipment list and any earlier vibration, thermal or noise reports. The agent or the yard arranges ISPS passes and books launches, subject to weather. Send the ship details and expected Malta stops to info@atlantisndt.com, or use the enquiry form below."
+      ]
+    }
+  ],
+  "vessels": [
+    "Crude and product tankers in Malta-managed fleets",
+    "Bulk carriers calling for bunkers or docking",
+    "Large container ships on Malta Freeport transhipment services",
+    "Cruise ships turning around in Valletta or refurbishing at the shipyard",
+    "Offshore support vessels",
+    "Ro-pax ferries",
+    "Sister ships under one Malta-based technical department"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition ratings",
+    "IACS UR Z10 series – Hull surveys of tankers and bulk carriers under the enhanced survey programme",
+    "2011 ESP Code (resolution A.1049(27)), applied through SOLAS chapter XI-1 regulation 2",
+    "SOLAS chapter II-2 regulation 4.2.2.6 – Insulation of high-temperature surfaces",
+    "MARPOL Annex VI regulation 14 and the 2021 EGCS Guidelines (MEPC.340(77))",
+    "ISO 20816-1 – Machine vibration measurement and evaluation"
+  ],
+  "deliverables": [
+    "Programme plan naming the Malta stops, Freeport calls and dockings that carry each module",
+    "Baseline condition report on hull, tanks, piping, closing appliances and machinery",
+    "Visit reports in one format, recording deferred items when weather cuts an anchorage visit short",
+    "Docking checkpoint report with renewal outline and post-repair re-measurement",
+    "Owner-held trend data for thickness, coatings, vibration, thermal and crack findings"
+  ],
+  "faqs": [
+    {
+      "q": "Is a CVIP programme in Malta the same as CAS or CAP?",
+      "a": "In method it resembles them closely, which is where the names owner's CAS and owner's CAP come from. In standing it is different: the owner commissions it and keeps the results, and it carries neither a flag Statement of Compliance nor a classification society rating. If a charterer requires the class CAP, book it with the ship's society; the programme shows the probable result before the survey."
+    },
+    {
+      "q": "What can be done while a ship bunkers at Hurd's Bank?",
+      "a": "Usually machinery and switchboards under port load, deck plating and fittings, hatch covers, scrubber lines and ballast tanks the crew has ventilated and released, provided the weather allows a safe transfer with equipment. Work close to the bunker manifold waits until the transfer is over. Anything that does not fit moves to the next stop in the plan, which may be the Freeport, a terminal or a docking."
+    },
+    {
+      "q": "Does the flag of a Malta-registered ship change the programme?",
+      "a": "No. The programme's method and report format are the same whatever the flag or class. What the Malta flag often brings is a technical department on the island, so the manager can attend a Grand Harbour docking visit and settle priorities with the team directly. Statutory surveys and class gauging remain with the recognised organisation acting for the flag."
+    },
+    {
+      "q": "Can a programme cover a cruise ship that turns around in Valletta?",
+      "a": "Yes. Turnaround days at the Valletta Cruise Port suit machinery readings, thermal surveys of switchboards and hot surfaces, and wall-thickness readings on exhaust gas cleaning pipework at fixed points. Hull, sea chests and scrubber shell outlets are recorded when the ship docks for refurbishment at Palumbo Malta Shipyard, so the turnaround visits and the docking build one record."
+    },
+    {
+      "q": "Can programme visits in Malta be combined with ships in Sicily or southern Italy?",
+      "a": "Often. A Schengen visa covers Malta and Italy, and Sicily is a short flight or ferry crossing away. If a Malta-managed fleet has a ship docking in Grand Harbour and another calling at Palermo or Naples, the visits can be sequenced on one mobilisation, with each ship keeping its own report and trend record."
+    },
+    {
+      "q": "What does a lender or buyer gain from a Malta programme?",
+      "a": "A record that shows direction, not a single date. After several visits the owner can present corrosion rates at numbered points, coating ratings over time, crack findings with their repairs, and machinery trends. Lenders reviewing a fleet and buyers inspecting a ship can work from that history, and because the data files belong to the owner, they can pass to a new owner with the ship."
+    }
+  ]
+}

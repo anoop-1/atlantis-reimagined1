@@ -1,0 +1,130 @@
+{
+  "port": "marseille",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Marseille-Fos | Owner's CAS/CAP for Tankers, LNG & Ferries",
+  "description": "CVIP at Marseille-Fos: an owner's CAS/CAP-style programme for tankers, LNG carriers, ferries and cruise ships, anchored on Forme 10 dockings and Fos waits.",
+  "h1": "Comprehensive Vessel Inspection Programme at Marseille-Fos: Owner's Condition Assessment for Mediterranean Tankers, LNG Carriers, Ferries and Cruise Ships",
+  "intro": "In the Mediterranean trades, a whole-ship assessment commissioned by the owner is usually called an owner's CAS or owner's CAP; Atlantis delivers it as CVIP, the Comprehensive Vessel Inspection Programme, with close-up survey to an agreed plan, thickness at fixed locations, graded coatings, piping and machinery, and one report issued to the owner rather than by class. Marseille-Fos joins two settings: the city basins, where ferries and cruise ships dock at Forme 10 and repair between sailings, and Fos and Lavéra, where tankers, LNG carriers and bulk carriers wait at anchor for berths. For every visit, technicians travel from India to Marseille or Fos.",
+  "highlights": [
+    {
+      "h": "Forme 10 as the programme's reset",
+      "p": "A docking at the Chantier Naval de Marseille's Forme 10 opens the tanks, puts up staging and leaves the hull dry. CVIP places a pre-docking round on one of the ship's last sailings beforehand, works alongside the yard while she is in dock, and measures renewed steel again before she floats out."
+    },
+    {
+      "h": "Ferries that never leave the ECA",
+      "p": "Ships on the Corsica, Sardinia and North Africa routes trade entirely inside the Mediterranean SOx emission control area, applied since 1 May 2025. On scrubber-fitted ferries the wash-water system now meets the ECA standard on each and every passage, so its piping is read at fixed positions during short repair periods."
+    },
+    {
+      "h": "Anchorage waits with a mistral allowance",
+      "p": "Laden tankers and LNG carriers waiting at the Fos anchorage have empty ballast tanks and time on their hands. Programme visits use those waits with a weather margin built in, because the mistral funnelling down the Rhône valley can halt launch transfers for days at a stretch."
+    }
+  ],
+  "sections": [
+    {
+      "id": "city-or-fos-cvip",
+      "h": "City basins or Fos: where does each part of a Marseille programme happen?",
+      "p": [
+        "Marseille-Fos is two harbours some distance apart, and a programme plan treats them as two different settings. In the eastern city basins, the Chantier Naval de Marseille's repair docks, Forme 10 among them, take cruise ships, ferries and large merchant ships for scheduled dockings, while the ferry and cruise berths see short repair periods between voyages. Docking visits allow the deepest work in the port. At the berths a visit keeps to the engine room, the few tanks the chief engineer is able to free up and the open decks, because passenger operations come before everything else.",
+        "On the western side, the Fos and Lavéra oil berths, the LNG terminals at Fos including Fos Cavaou, the container terminals and the dry-bulk quays serving the steelworks are industrial berths with terminal rules. Entering a ballast tank while cargo is moving requires both the terminal's consent and a ship's permit, so for tankers and LNG carriers the anchorage is usually the programme's working place. Marseille Provence Airport at Marignane sits between the two sides, which lets one mobilisation serve a docking in the city and an anchored tanker at Fos."
+      ],
+      "list": [
+        "Forme 10 and the other repair docks: dry hull, opened tanks and fresh readings after steelwork",
+        "Ferry and cruise berths: machinery, released tanks, vehicle decks and scrubber piping between sailings",
+        "Fos anchorage: empty ballast tanks and deck structure on laden tankers and LNG carriers, by launch",
+        "Lavéra and Fos oil berths and the Fos LNG terminals: deck, piping and machinery within terminal rules",
+        "Fos container and dry-bulk terminals: coamings, hopper and topside tanks, and holds after discharge"
+      ]
+    },
+    {
+      "id": "ferries-cruise-marseille",
+      "h": "Why do Mediterranean ferries and cruise ships using Marseille run a programme?",
+      "p": [
+        "The ferries and ro-pax ships on the Corsica, Sardinia, Algeria and Tunisia routes spend their working lives inside the Mediterranean, crossing often and staying briefly. Since the whole basin became a SOx Emission Control Area on 1 May 2025, those fitted with scrubbers must meet the stricter ECA-equivalent emission ratio on every passage, so wash-water supply and discharge lines, overboard valves and the shell penetration downstream carry heavier duty than they did under the 0.50% cap. A ship without scrubbers simply burns compliant fuel, so this module belongs to the scrubber fleet.",
+        "Vehicle decks, ramps and hinges take repeated loading cycles on the same crossings, and ballast tanks on ships that seldom stop are hard to open often. A programme deals with both by giving each short repair period a defined module and leaving the heavy tank work to the docking. Cruise ships calling at or turning around in Marseille join in the same way, with piping, tanks and machinery split across port days and a Forme 10 docking used to close the cycle. The ferry operators running these routes work from the port itself, so the people setting a fleet programme are often a short drive from the ships it covers."
+      ]
+    },
+    {
+      "id": "tankers-lng-fos",
+      "h": "Tankers and LNG carriers at Lavéra and Fos: anchorage visits as programme milestones",
+      "p": [
+        "The energy side of the port brings the ships the official condition schemes were written around. Crude, product and chemical tankers supplying the Étang de Berre refining and petrochemical complex are ESP ships, with IACS UR Z10.4 governing double-hull oil tankers and Z10.3 chemical tankers, and vetting departments commonly want a class CAP once a tanker is past fifteen or so. LNG carriers at the Fos terminals trade for long periods, and the ballast structure, cofferdams and trunk deck around their cargo containment need watching through that service.",
+        "For these ships a programme visit at the Fos anchorage is usually more productive than one at the berth. A laden arrival's segregated ballast tanks are empty, the deck is clear of cargo operations, and a launch-served team can work through the numbered points in a run of tanks while the ship waits. Cargo tanks are left for the docking yard after gas-freeing, and pumps and generators are measured during discharge with their load noted. The mistral is the planning constraint: each anchorage plan carries spare days, keeps internal tank work for the gustiest hours once the team is aboard, and settles with the agent beforehand how the team leaves the ship should the wind strengthen."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-marseille",
+      "h": "Owner's CAS and owner's CAP for ships trading in the Mediterranean",
+      "p": [
+        "Marseille superintendents managing tankers use owner's CAS and owner's CAP to mean a scheme-depth assessment on their own terms, and ferry and cruise managers use the same words for the same reason, even though no official scheme was written for their ships. The IMO Condition Assessment Scheme applies to certain older oil tankers and concludes in a Statement of Compliance from the flag; a class Condition Assessment Programme ends with the society's rating. What owners borrow from both is the method: a planned close-up survey, located gauging, graded condition and a whole-ship report.",
+        "CVIP delivers that method for the owner's requirement and nothing beyond it. The owner, manager, charterer or financier commissions it, sets its scope with us and keeps its record; it awards no rating and issues no statement. A charterer who specifies a class CAP for a Lavéra tanker is answered by the ship's society, with the programme record giving the owner an early view of the likely grade. For thickness measurement, Atlantis is partway through the UR Z17 approval process with Lloyd's Register, DNV and ABS; until one of them issues a certificate, programme readings at Marseille-Fos inform the owner's decisions and receive no class survey credit."
+      ]
+    },
+    {
+      "id": "forme-10-reset-marseille",
+      "h": "Using a Forme 10 docking to reset the Marseille trend record",
+      "p": [
+        "Between dockings, the trend record grows from short visits: piping wall thickness at numbered positions, coating ratings from fixed photograph points in whichever tanks could be opened, machinery vibration and thermal images at noted loads, and magnetic particle results at ramp hinges and brackets kept as the owner's NDT records. Some months before a docking, those trends become a steel and pipe list located on the drawings, so the yard and the superintendent can agree the specification and fabricate spools before the ship arrives.",
+        "In Forme 10 the programme does its heaviest work. Tanks are read as soon as they are opened and ventilated, side shell and internal structure are reached from the yard's staging where the yard permits it, and bottom plating and sea chests are examined dry. Once steel renewal is complete, the renewed plates and spools are measured again at the same numbered points, so corrosion rates restart from known new thicknesses and the next cycle's comparisons begin on firm ground."
+      ]
+    },
+    {
+      "id": "planning-marseille",
+      "h": "Planning Marseille-Fos visits: the dock slot, the berth line-up and the mistral",
+      "p": [
+        "For a programme built around a docking, send the yard slot, the draft docking specification, drawings, the last thickness report and the class survey status; for anchorage visits, the ETA, berth line-up and trading pattern. We place each module against a docking, a repair period or an anchorage wait and agree the priorities with the superintendent. The ship's agent books launches out to the Fos anchorage and obtains the technicians' gate passes for the Fos terminals and the city repair yard.",
+        "France is a Schengen country, so the technicians hold Schengen visas from India before departure, applied for as soon as a Forme 10 slot or a visit window is confirmed, and flights for anchored tankers stay flexible around the berth line-up and the weather. Port state control follows the Paris MoU, and every call here falls under the EU ETS and FuelEU Maritime, adding to the reasons owners want older Mediterranean tonnage documented. To begin, send the ship details to info@atlantisndt.com or complete the enquiry form."
+      ]
+    }
+  ],
+  "vessels": [
+    "Ro-pax ferries on the Corsica, Sardinia, Algeria and Tunisia routes",
+    "Cruise ships calling at and turning around in Marseille",
+    "Crude and product tankers at Lavéra and Fos",
+    "Chemical tankers serving the Étang de Berre plants",
+    "LNG carriers at the Fos terminals",
+    "Bulk carriers discharging ore and coal for the Fos steelworks",
+    "Container ships at the Fos terminals"
+  ],
+  "codes": [
+    "IACS UR Z10.4 – Hull survey requirements for double-hull oil tankers",
+    "IACS UR Z10.3 – Hull survey requirements for chemical tankers",
+    "IACS UR Z7.2 – Hull survey requirements for liquefied gas carriers",
+    "MARPOL Annex VI regulation 14, with the Mediterranean Sea SOx ECA in effect since 1 May 2025",
+    "ISO 18434-1 – Thermography in machine condition monitoring and diagnostics",
+    "ISO 20816-1 – Vibration of machines: general measurement and evaluation guidance"
+  ],
+  "deliverables": [
+    "Programme plan placing modules on Forme 10 dockings, repair periods between sailings and Fos anchorage waits",
+    "Visit reports in a fixed layout, showing change since the baseline and findings by priority",
+    "Scrubber wash-water and overboard piping trend for ferries and cruise ships trading in the ECA",
+    "Ballast tank thickness and coating record for tankers and LNG carriers, read at anchor",
+    "Pre-docking steel and spool list on the drawings, and post-docking re-measurement of renewed areas",
+    "Trend data files kept by the owner for charterers, vetting and lenders"
+  ],
+  "faqs": [
+    {
+      "q": "Is CVIP at Marseille-Fos the same as CAS or CAP?",
+      "a": "It follows their method but not their authority. Owners call CVIP an owner's CAS or owner's CAP because it is a planned close-up survey with gauging at defined points, graded condition and a whole-ship report. It is commissioned and kept by the owner, and no flag statement or society rating attaches to it, while a charterer requiring a class CAP for a tanker obtains it through the ship's society."
+    },
+    {
+      "q": "Can a ferry on the Corsica routes be followed without taking her out of service?",
+      "a": "Yes. Each short repair period between crossings carries a defined module, such as scrubber piping, a vehicle deck and its ramp hinges, or machinery that runs in port, prepared with the chief engineer in advance. Tanks that cannot be opened in service are left for the Forme 10 or other docking, where they join the same numbered record."
+    },
+    {
+      "q": "What does a programme gain from a Forme 10 docking?",
+      "a": "The dry hull, opened tanks and the yard's staging, all in one place. A pre-docking round on a late sailing gives the yard a measured steel list, tanks are read as soon as they are ventilated, and renewed plates and spools are re-measured before the ship leaves the dock, which resets the corrosion rates for the next cycle."
+    },
+    {
+      "q": "How does the mistral affect programme visits at the Fos anchorage?",
+      "a": "It can stop launch transfers and make exposed deck work unsafe, sometimes for days. Every anchorage visit therefore has spare days in its plan, internal tank and machinery work is held back for the windiest hours once the team is aboard, and the agent agrees beforehand how the technicians come ashore if conditions worsen. Docking visits in the city basins are far less affected."
+    },
+    {
+      "q": "Can LNG carriers at Fos be part of the programme?",
+      "a": "Yes, for everything outside the cargo containment. The programme follows the structure around it, from ballast tanks and double-hull spaces to cofferdams and the trunk deck, along with sea-water piping and machinery condition, under the ship's gas-detection procedures and the terminal's gas-safety rules. Much of it is done while the carrier waits at anchor, with each reading tied to her tank and frame plans."
+    },
+    {
+      "q": "Does the Mediterranean ECA change what a scrubber-fitted cruise ship should include?",
+      "a": "It makes piping a stronger candidate. With the ECA in force since 1 May 2025, a scrubber-fitted cruise ship trading in the basin works its system to the ECA standard throughout, so wash-water, discharge and overboard lines and the shell connection are read at fixed positions on repeat port days, and the sections losing wall fastest are listed for spools at the next docking."
+    }
+  ]
+}

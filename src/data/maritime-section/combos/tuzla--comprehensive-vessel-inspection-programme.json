@@ -1,0 +1,141 @@
+{
+  "port": "tuzla",
+  "service": "comprehensive-vessel-inspection-programme",
+  "title": "CVIP Tuzla | Owner's CAS/CAP Programme Anchored on Dockings",
+  "description": "CVIP at the Tuzla shipyards: an owner's CAS/CAP-style programme built round dockings, with pre-docking rounds, in-dock gauging and a reset after steel renewal.",
+  "h1": "Comprehensive Vessel Inspection Programme at Tuzla: an owner's condition assessment that uses each shipyard docking as its anchor point",
+  "intro": "For many ships trading around the Marmara, the Black Sea and the eastern Mediterranean, the Tuzla shipyard zone is where they are opened up: tanks cleaned, holds blasted, steel cropped and renewed. CVIP, our Comprehensive Vessel Inspection Programme, treats that docking as the anchor of a longer record. It is what owners call an owner's CAS or owner's CAP, a whole-ship condition assessment on the pattern of those schemes, commissioned for the owner's requirement and not for class. Rounds before, during and after each Tuzla docking connect to visits in service, and the team comes from India for every one of them.",
+  "highlights": [
+    {
+      "h": "Pre-docking round sets the steel list",
+      "p": "A programme visit at the anchorage off the yard zone, or at the last cargo port, compares the ship with her own baseline and gives the yard a renewal outline before she is lifted, so plate is ordered against measured corrosion rates rather than estimates."
+    },
+    {
+      "h": "Inserts re-measured before undocking",
+      "p": "Once renewed plates are welded in, the programme measures the new steel and the adjoining plating that was close to its margin. Those readings replace the old ones in the trend record, so corrosion rates restart from the steel the ship actually leaves the yard with."
+    },
+    {
+      "h": "Between dockings, the same points",
+      "p": "After undocking, visits move to the ship's trading calls and anchorages. Because the numbered points were fixed and marked in dock, later visits in service measure exactly the same locations, and the next Tuzla docking opens with a known rate of change for every area."
+    }
+  ],
+  "sections": [
+    {
+      "id": "docking-anchor-tuzla",
+      "h": "Why a Tuzla docking is the anchor of an owner's condition assessment programme",
+      "p": [
+        "A ship in a Tuzla floating dock is more open than at any other point in her cycle. With the bottom dry, sea chests and the rudder within reach, tanks gas-freed and lit and the holds grit-blasted, the surveyor's staging lets a team see structure that no anchorage visit can. Everything a whole-ship condition assessment wants to look at is available together, but just for the days the yard has set aside before steelwork and painting close it up again.",
+        "That is why a programme here is organised around the docking rather than the other way round. The visits before it decide what the yard will do; the work in dock confirms and completes the picture; the readings taken after renewal fix the starting point for the next cycle. Visits made in service between dockings carry the trend forward, so that each docking opens with a measured history instead of a guess."
+      ]
+    },
+    {
+      "id": "calendar-tuzla-cvip",
+      "h": "A docking-cycle calendar for a ship that docks at Tuzla",
+      "p": [
+        "The table shows the usual sequence for a ship whose intermediate and renewal surveys are both taken in Tuzla docks. Intervals are fixed for each ship in the programme plan from its survey dates and trading pattern, and move with the yard slot when it moves."
+      ],
+      "table": {
+        "head": ["Programme visit", "When", "Where", "What it fixes"],
+        "rows": [
+          ["Baseline", "On the ship's entry into the programme, ideally at a docking", "Tuzla dock or repair quay", "Every numbered point, coating viewpoint and machinery reading on the whole ship"],
+          ["Service visits", "Between dockings, at intervals the trends call for", "Trading ports, the Strait or the Tuzla anchorages", "Corrosion rates, machinery trends, crack points re-examined"],
+          ["Pre-docking round", "Some months before the next docking", "Anchorage off the yard zone or the last cargo port", "Renewal outline for holds, tanks and deck, located on drawings"],
+          ["In-dock visit", "Opening days of the docking", "Floating dock or graving dock", "Bottom, sea chests, rudder and opened spaces added; renewal list confirmed"],
+          ["Post-renewal reset", "After inserts are welded, before undocking", "In dock or at the repair quay", "New readings on renewed and adjoining plating; trend restarts"]
+        ]
+      }
+    },
+    {
+      "id": "rebaseline-tuzla-cvip",
+      "h": "Re-gauging after crop and renew: resetting the trend before the ship sails",
+      "p": [
+        "Steel renewal changes the record. A side shell insert, new longitudinals in a topside tank or a renewed coaming top plate replace steel whose readings formed part of the trend. If the programme carried on comparing new plates with old readings, it would show corrosion running backwards, and the next pre-docking round would underestimate what lies ahead.",
+        "So before undocking, each renewed area is measured again: the new plate itself, at the same numbered points, and the adjoining plating that was close to its allowable diminution and was left in place. The report marks which points now sit on new steel and from what date, and their corrosion rate is recalculated from that date. Plating that was near its margin but not renewed is flagged for close watching on the next service visit.",
+        "The same applies to coatings. A tank recoated in dock has its rating reset with fresh photographs from the recorded viewpoints, so later breakdown can be dated and measured. Crack-detection points at repaired welds are re-examined once the repair is complete, and their history continues under the same numbers."
+      ]
+    },
+    {
+      "id": "owners-cas-cap-tuzla",
+      "h": "Owner's CAS, owner's CAP and the class survey taking place in the same dock",
+      "p": [
+        "During a Tuzla renewal survey the dock can hold three kinds of inspection at once: the class survey with the gauging credited to it, a CAP survey if the owner has booked one with the society, and the owner's own programme. Keeping them apart avoids confusion about whose readings count for what. Class thickness measurement must come from a firm the society has approved under IACS UR Z17, with its surveyor attending as the rules require. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS and holds no certificate yet, so CVIP readings taken in a Tuzla dock serve the owner's decisions and are not credited to the class survey.",
+        "Within that line, the programme does what owners mean by an owner's CAS or owner's CAP: the same structure of plan, close-up examination, thickness at defined positions, rated coatings, assessed machinery and graded findings that the official schemes use, applied for the owner's own purpose. It does not issue a CAP rating, which comes from the ship's classification society, and it has nothing to do with the Statement of Compliance a flag issues under the IMO Condition Assessment Scheme for certain older tankers.",
+        "In practice the two kinds of work help each other. Where a charterer wants the class CAP rating, the programme's pre-docking round tells the owner which renewals will most improve the result before the society's surveyors begin, and the superintendent can share the programme's renewal outline with the yard and the surveyor when the docking scope is agreed. The outline informs that conversation; it never replaces the credited readings."
+      ]
+    },
+    {
+      "id": "yard-interface-tuzla",
+      "h": "What the yard, the superintendent and the programme exchange during a Tuzla docking",
+      "p": [
+        "A Tuzla docking runs to the yard's sequence, and a programme visit has to fit into it. These are the exchanges that make it work, agreed with the superintendent before the ship is lifted."
+      ],
+      "list": [
+        "From the superintendent: the yard's work list, the docking schedule, the survey status and the programme's latest pre-docking outline",
+        "From the yard: the order in which spaces will be cleaned, gas-freed and released, and the dates for blasting, staging and hot work",
+        "From the programme team: readings handed over area by area, with locations on the drawings and, where agreed, marked on the steel",
+        "From the yard's steel department: the confirmed renewal areas, so re-measurement can be planned before undocking",
+        "From the class surveyor, through the superintendent: any extra areas the survey has opened that the programme should record",
+        "Back to the owner: the dock visit report and the reset trend record, ready before the ship leaves the yard"
+      ]
+    },
+    {
+      "id": "between-dockings-tuzla",
+      "h": "Carrying the record between dockings, and when retrofits come in",
+      "p": [
+        "Once the ship sails, the programme's service visits take place wherever she stops long enough: the anchorages off the yard zone or at the Strait, a cargo port, or the Altınova yards across the water if she returns for afloat repairs. Machinery modules, deck fittings, hatch covers and prepared ballast tanks fill those visits, and the numbered points marked in dock make them directly comparable with the dock readings.",
+        "Tuzla yards also carry out scrubber, ballast water treatment and conversion work, which opens shell, tanks and pipework that are seldom accessible. When a retrofit falls inside a programme cycle, the existing structure is measured before new foundations or shell penetrations go in, and the new installation's piping joins the plan with its own baseline. Scrubber wash-water and overboard lines fitted at Tuzla are then trended from their earliest months in service.",
+        "Planning ties it together. Each technician needs a Turkish visa, so visits are fixed early against the docking date, with allowance for the slot moving, as repair-yard slots often do. Winter lodos gales can delay launches to the anchorages, and anchorage visits keep a reserve day where they can. The team flies into Sabiha Gökçen, the nearest airport to the yards. Programme enquiries go to info@atlantisndt.com or through the form on this page."
+      ]
+    }
+  ],
+  "vessels": [
+    "Handysize and Supramax bulk carriers docking for renewal surveys",
+    "Chemical and product tankers",
+    "General cargo ships",
+    "Ro-ro and ro-pax ships",
+    "LPG carriers",
+    "Tugs, ferries and coastal tankers on periodic dockings",
+    "Offshore support vessels"
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys and coating condition",
+    "IACS UR Z10.1 to Z10.5 – Hull surveys of oil tankers, bulk carriers and chemical tankers",
+    "IACS Recommendation 47 – Shipbuilding and Repair Quality Standard",
+    "ASTM E797 – Ultrasonic pulse-echo contact thickness measurement",
+    "ASTM E709 – Guide for magnetic particle testing",
+    "ISO 20816-1 – Machine vibration measurement and evaluation"
+  ],
+  "deliverables": [
+    "Docking-cycle programme plan tied to the Tuzla dock dates and class survey windows",
+    "Pre-docking renewal outline on the ship's drawings, compared with the baseline",
+    "In-dock visit report with bottom, sea chest, rudder and opened-space findings",
+    "Post-renewal reset marking which points now sit on new steel and from what date",
+    "Service visit reports in the same format, with owner-held trend data for the whole cycle"
+  ],
+  "faqs": [
+    {
+      "q": "Is a CVIP programme at Tuzla the same as CAS or CAP?",
+      "a": "No. It mirrors their method, which is why owners call it an owner's CAS or owner's CAP, but it is commissioned by the owner and reported to the owner. It gives no CAP rating, which a classification society issues, and no CAS Statement of Compliance, which a flag issues. Where either is required, the owner arranges it through the society, and the programme indicates the likely result in advance."
+    },
+    {
+      "q": "Can the in-dock programme visit replace the class thickness measurement at Tuzla?",
+      "a": "No. Gauging credited to a renewal or intermediate survey has to be taken by a firm the ship's society has approved under IACS UR Z17, with its surveyor attending. The programme visit runs alongside it for the owner's purposes: confirming the renewal outline, adding areas the owner wants recorded, and re-measuring renewed steel so the owner's trend record continues from the new plate."
+    },
+    {
+      "q": "When should the pre-docking round be done before a Tuzla docking?",
+      "a": "Early enough for its readings to shape the yard's plate order and labour plan, usually some months before the docking, at the anchorage off the yard zone or at the ship's last cargo port. Done later, it still helps by fixing which areas the team measures at the start of the dock period, so the steel list can be confirmed while the rest of the ship is recorded."
+    },
+    {
+      "q": "What happens to corrosion rates after plates are renewed?",
+      "a": "They restart. Before undocking, renewed plates are measured at the same numbered points and the report records the date they became new steel. Rates for those points are calculated from that date onward, while adjoining plating left near its margin keeps its history and is flagged for the next service visit. Without that reset the trend would mislead the next pre-docking round."
+    },
+    {
+      "q": "Can several ships docking at Tuzla share one programme?",
+      "a": "Yes. The yard zone is compact, and owners often dock more than one ship there or at Altınova within a few weeks. A fleet programme uses one measurement plan per design with identical numbering, and one visa period can cover dock visits on two or three ships if the dates line up, with each yard receiving its readings when its schedule needs them."
+    },
+    {
+      "q": "Does the programme include magnetic particle testing of stern frames and rudders?",
+      "a": "When the ship is dry, yes. Stern frame and rudder horn welds, rudder plating and sea chest surrounds are examined and gauged during the in-dock visit, subject to access and the yard's hot-work programme. Locations are numbered so the next docking re-examines the same welds. Results are the owner's NDT records and do not close any condition of class."
+    }
+  ]
+}

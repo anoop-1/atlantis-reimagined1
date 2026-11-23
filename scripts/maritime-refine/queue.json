@@ -1,0 +1,249 @@
+{
+ "_note": "Daily maritime work order (owner 2026-11-23: '~50 pages now, more daily'; topic guides earn ~4-5x port pages). Guides are done when pages/{slug}.json exists and the slug is in SERVICE_DEFS; port pages are done when combos/{port}--{service}.json exists. Do not reorder unattended; suggest changes in the report.",
+ "guides": [
+  {
+   "slug": "dry-docking-survey",
+   "label": "Dry-Docking and Bottom Survey Guide",
+   "card": "What class examines when a ship is in dry dock or surveyed in water: shell, rudder, propeller, sea chests and stern area, and how owners prepare the docking.",
+   "icon": "CalendarClock",
+   "notes": "UR Z3 bottom examinations (two per five years, max interval, ESP over 15 in dry dock), in-water survey in lieu where class allows (no diver/ROV words), docking specification, pre-docking gauging, rudder/propeller/stern tube clearances in general terms, sea chests and overboard valves, shell plating at the waterline and flat bottom."
+  },
+  {
+   "slug": "annual-survey",
+   "label": "Annual Hull Survey Guide",
+   "card": "What the annual hull survey covers by ship type, from hatch covers and closing appliances to the ballast tanks that need yearly examination.",
+   "icon": "ClipboardList",
+   "notes": "UR Z7 / Z7.1 / Z10.x annual items, window of three months either side of the anniversary date, hatch cover operation checks, ballast tank annual examination triggers, bulk carrier hold annual survey from 10 years, what owners prepare."
+  },
+  {
+   "slug": "ballast-tank-inspection",
+   "label": "Ballast Tank Inspection Guide",
+   "card": "How ballast tanks are examined, rated GOOD, FAIR or POOR, and gauged, and what coating breakdown means for the next survey.",
+   "icon": "ShieldCheck",
+   "notes": "Coating condition definitions (UR Z7), PSPC (MSC.215(82)) and the coating technical file, IACS Rec. 87, corrosion patterns by tank type, annual examination triggers, access and gas-freeing, how owners keep a coating record."
+  },
+  {
+   "slug": "substantial-corrosion",
+   "label": "Substantial and Excessive Corrosion Explained",
+   "card": "What substantial and excessive corrosion mean in the IACS rules, how the margins are set, and what each finding triggers at the next survey.",
+   "icon": "Ruler",
+   "notes": "Definitions (75% of allowable margin; CSR within 0.5 mm of renewal thickness), excessive corrosion beyond allowable margin, follow-up gauging at later surveys, pitting and grooving assessment, renewal or other repair accepted by the society."
+  },
+  {
+   "slug": "thickness-measurement-report-guide",
+   "label": "How to Read a Ship Thickness Measurement Report",
+   "card": "How a ship thickness measurement report is laid out: the formats, sketches, original and measured thickness, diminution and the flags owners should act on.",
+   "icon": "FileCheck",
+   "notes": "IACS TM reporting formats in general terms (verify names before citing), original vs gauged thickness, percentage diminution, allowable margins from class, substantial corrosion flags, sketches and frame numbering, how the class surveyor uses the report; Atlantis's report for owner's purposes, not class credit."
+  },
+  {
+   "slug": "offshore-support-vessel-inspection",
+   "label": "Offshore Support Vessel Inspection Guide",
+   "card": "How platform supply vessels, anchor handlers and other offshore support vessels are inspected: deck, tanks, towing gear foundations and hull.",
+   "icon": "Ship",
+   "notes": "Class rules for offshore service vessels in general terms, deck cargo wear, mud and brine tanks, towing and anchor handling winch foundations, crane pedestals (MPI), stern roller area, hull survey under UR Z7; no DP trials, no ROV/diving."
+  },
+  {
+   "slug": "passenger-ship-and-ferry-inspection",
+   "label": "Passenger Ship and Ferry Inspection Guide",
+   "card": "How cruise ships, ro-pax and passenger ferries are inspected between class surveys, and what owners check during turnarounds and lay-ups.",
+   "icon": "Ship",
+   "notes": "Hull survey regime (UR Z7), flag passenger ship surveys in general terms, piping and scrubber lines, thermography of electrical systems, noise (link noise survey), access constraints in service; ro-pax doors link the ro-ro guide."
+  },
+  {
+   "slug": "tug-and-workboat-inspection",
+   "label": "Tug and Workboat Inspection Guide",
+   "card": "How harbour tugs, towage vessels and workboats are inspected: hull, fendering areas, towing gear foundations and machinery condition.",
+   "icon": "Anchor",
+   "notes": "Hull wear at fendering and bow, towing hook and winch foundations (MPI), propulsion units in general terms, small-ship class rules, condition monitoring (vibration on propulsion, thermography)."
+  },
+  {
+   "slug": "reefer-ship-inspection",
+   "label": "Reefer Ship Inspection Guide",
+   "card": "How refrigerated cargo ships are inspected: insulated holds, cooling plant, hatch covers and the structure behind the insulation.",
+   "icon": "Gauge",
+   "notes": "Refrigerated cargo ships are excluded from UR Z7.1 (surveyed under UR Z7), insulated hold inspection, thermography of insulation and refrigeration plant, hatch cover tightness, corrosion under insulation in general terms."
+  },
+  {
+   "slug": "steel-renewal-planning",
+   "label": "Steel Renewal Planning Before a Docking",
+   "card": "How owners plan steel renewal before a special survey docking: pre-docking gauging, steel weight estimates in tonnes, and fitting the work to the yard slot.",
+   "icon": "Workflow",
+   "notes": "Pre-docking gauging, extrapolating corrosion to the survey date, allowable margins, inserts and re-gauging, yard specification, class attendance; no money words."
+  }
+ ],
+ "portServices": [
+  {
+   "port": "gothenburg",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "copenhagen",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "aarhus",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "oslo",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "stavanger",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "rijeka",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "koper",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "constanta",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "varna",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "izmit",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "mersin",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "lisbon",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "bilbao",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "las-palmas",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "venice",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "naples",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "livorno",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "la-spezia",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "taranto",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "terneuzen",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "moerdijk",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "eemshaven",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "kiel",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "rostock",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "aberdeen",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "london",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "liverpool",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "teesport",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "belfast",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "dublin",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "saint-nazaire",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "thessaloniki",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "elefsina",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "perama",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "singapore",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "dubai",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "fujairah",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "hong-kong",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "shanghai",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "shenzhen",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "sydney",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "auckland",
+   "service": "comprehensive-vessel-inspection-programme"
+  },
+  {
+   "port": "fremantle",
+   "service": "comprehensive-vessel-inspection-programme"
+  }
+ ]
+}
