@@ -40,8 +40,8 @@
       "table": {
         "head": ["Ship type and rule", "Close-up survey at No. 2", "Thickness measurement at No. 2"],
         "rows": [
-          ["Single side skin bulk carrier (UR Z10.2, ESP Code)", "All shell frames in the forward hold and 25% in each other hold, with end attachments and adjacent shell; one transverse web in every ballast tank; forward and aft bulkheads of one ballast tank; all hold transverse bulkheads and stools; all hatch covers and coamings; deck and under-deck structure between hatches", "Suspect areas; two transverse sections of deck plating outside the hatch line; readings to assess the corrosion pattern of members under close-up survey; wind-and-water strakes in way of the sections and selected strakes outside the cargo length"],
-          ["Double-hull oil tanker (UR Z10.4, ESP Code)", "All web frame rings in one ballast tank, with deck transverses and transverse bulkhead structure examined in more cargo tanks than at No. 1", "Suspect areas; each deck plate in the cargo area; one transverse section; selected wind-and-water strakes outside the cargo area"],
+          ["Single side skin bulk carrier (UR Z10.2, ESP Code)", "All shell frames in the forward hold and 25% in each other hold (50% on ships of 100,000 dwt and above), with end attachments and adjacent shell; one transverse web in every ballast tank; forward and aft bulkheads of one ballast tank; all hold transverse bulkheads and stools; all hatch covers and coamings; deck and under-deck structure between hatches", "Suspect areas; two transverse sections of deck plating outside the hatch line; readings to assess the corrosion pattern of members under close-up survey; wind-and-water strakes in way of the sections and selected strakes outside the cargo length"],
+          ["Double-hull oil tanker (UR Z10.4, ESP Code)", "All web frames in one ballast tank (the double bottom, hopper and side tank on one side, as the rules define it); the knuckle area and upper part of one web frame in each remaining ballast tank; one transverse bulkhead in each ballast tank; deck transverses and lower transverse bulkheads in more cargo tanks than at No. 1", "Suspect areas; each deck plate in the cargo area; one transverse section; selected wind-and-water strakes outside the cargo area"],
           ["General dry cargo ship (UR Z7.1)", "Selected shell frames in all holds and tween decks; one transverse bulkhead in each hold; bulkheads of one side ballast tank; one web in two representative ballast tanks of each type; hatch covers and coamings; selected deck, under-deck and inner bottom areas", "Suspect areas; one transverse section of deck plating within the midship half-length; readings to record the corrosion pattern of close-up members"],
           ["Container ships and other ships under UR Z7", "No close-up table; closer examination follows suspect areas and the surveyor's findings", "Suspect areas, plus deck plating gauged at one transverse section in way of a cargo space in the midship half-length"]
         ]
@@ -58,8 +58,8 @@
         "head": ["Coating at survey No. 2", "What class does next", "Owner's options at the ten-year docking"],
         "rows": [
           ["GOOD", "No coating-related annual examination; the normal cycle continues", "Touch up mechanical damage and keep the Coating Technical File current"],
-          ["FAIR", "On most ships FAIR alone adds no annual examination; on double-hull tankers, unrepaired hard coating below GOOD that the surveyor does not accept puts the tank on annual examination", "Spot repair of edges, welds and damaged areas, with stripe coating, to bring the tank back towards GOOD"],
-          ["POOR", "Examined internally at every annual survey unless the coating is renewed, with gauging where the surveyor considers it necessary", "Blast and recoat in the yard, taking docking time and access, or accept annual examination and plan recoating for a later docking"],
+          ["FAIR", "On most ships FAIR alone adds no annual examination; on double-hull oil tankers and chemical tankers, unrepaired hard coating below GOOD that the surveyor does not accept puts the tank on annual examination", "Spot repair of edges, welds and damaged areas, with stripe coating, to bring the tank back towards GOOD"],
+          ["POOR", "Examined internally at every annual survey unless the coating is renewed (at the society's discretion for double-bottom tanks of bulk carriers and dry cargo ships), with gauging where the surveyor considers it necessary", "Blast and recoat in the yard, taking docking time and access, or accept annual examination and plan recoating for a later docking"],
           ["Soft, semi-hard or no hard coating", "Annual internal examination for as long as the condition persists", "Replace soft coating with a hard system when the tank can be properly prepared"]
         ]
       }
@@ -96,7 +96,7 @@
       "h": "The intermediate survey before survey No. 2, and the one after it",
       "p": [
         "The intermediate survey between the first and second renewal surveys is the rehearsal for No. 2. Under UR Z7 it covers representative ballast tanks, widened to further tanks of that type if their coating is POOR, soft or missing. ESP bulk carriers add an overall survey of the holds, closely surveying no fewer than a quarter of the frames in the forward hold and one other. Whatever it finds becomes a suspect area for the renewal survey, so its report is the owner's clearest pointer to where No. 2 will concentrate.",
-        "The intermediate survey after No. 2 is a different matter on ESP ships. From ten years of age its scope is that of the renewal survey before it, with pressure testing of all tanks left to the surveyor's judgement, and the work can be spread from the second annual survey to the third. Owners of oil tankers and bulk carriers should treat the ten-year renewal as the first of two heavy surveys, and plan coating and steel work so the intermediate survey does not reopen the same problems."
+        "The intermediate survey after No. 2 is a different matter on ESP ships. From ten years of age its scope is that of the renewal survey before it, including the dry-dock survey unless class accepts an in-water survey in its place, with pressure testing of all tanks left to the surveyor's judgement, and the work can be spread from the second annual survey to the third. Owners of oil tankers and bulk carriers should treat the ten-year renewal as the first of two heavy surveys, and plan coating and steel work so the intermediate survey does not reopen the same problems."
       ],
       "links": [["/maritime/intermediate-survey", "Intermediate survey guide"]]
     },
@@ -127,7 +127,7 @@
     }
   ],
   "codes": [
-    "IACS UR Z7 – Hull surveys",
+    "IACS UR Z7 – Hull classification surveys",
     "IACS UR Z7.1 – Hull surveys for general dry cargo ships",
     "IACS UR Z7.2 – Hull surveys for liquefied gas carriers",
     "IACS UR Z10.2 – Hull surveys of bulk carriers",

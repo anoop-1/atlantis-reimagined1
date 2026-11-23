@@ -57,12 +57,12 @@
           [
             "Single-side skin bulk carrier (UR Z10.2)",
             "All shell frames in all cargo holds, with end attachments and adjacent shell plating, plus the ballast tank, bulkhead, hatch cover and deck items of the 15-year survey",
-            "Transverse sections and each deck plate outside the hatch openings, bottom plating, wind-and-water strakes, members under close-up survey"
+            "Three transverse sections, each deck plate outside the hatch openings, each bottom plate, all wind-and-water strakes full length, members under close-up survey"
           ],
           [
             "Double-hull oil tanker (UR Z10.4)",
-            "All web frames in all ballast tanks, with cargo tank web frames and transverse bulkheads in a wider selection of tanks",
-            "Transverse sections, deck and bottom plating across the cargo area, wind-and-water strakes, tank internals under close-up survey"
+            "As at No. 3: all web frames in all ballast tanks, all web frames in one cargo tank and one in each other cargo tank, and all transverse bulkheads in cargo and ballast tanks, plus further transverse areas the society deems necessary",
+            "Three transverse sections, each deck and bottom plate in the cargo area, all wind-and-water strakes full length, members under close-up survey"
           ],
           [
             "Single-side skin general dry cargo ship (UR Z7.1)",
@@ -72,7 +72,7 @@
           [
             "Other cargo ships (UR Z7)",
             "Tanks and spaces examined internally, with close-up extent set by the society's rules and the attending surveyor",
-            "All exposed main deck plating and keel plates full length, wind-and-water strakes full length, lowest strakes of cargo space transverse bulkheads, sea chests and shell plating at overboard discharges"
+            "At least three transverse sections amidships, all exposed main deck plating and keel plates full length, wind-and-water strakes full length, lowest strakes of cargo space transverse bulkheads, sea chests and shell plating at overboard discharges"
           ]
         ]
       }
@@ -89,7 +89,7 @@
       "id": "intermediate-at-older-ages",
       "h": "Intermediate surveys of older ships: the renewal scope again",
       "p": [
-        "For tankers and bulk carriers under the ESP Code, the intermediate survey from ten years onwards is to the same extent as the previous renewal survey, with tank pressure testing (and, on oil tankers, the longitudinal strength evaluation) left out unless class considers them necessary. Over fifteen it also includes the dry-dock survey. A 22-year-old ESP tanker therefore repeats much of its 20-year survey two or three years later. For single-side skin general dry cargo ships, UR Z7.1 applies the same rule from the age of fifteen.",
+        "For tankers and bulk carriers under the ESP Code, the intermediate survey from ten years onwards is to the same extent as the previous renewal survey, with tank pressure testing (and, on oil tankers, the longitudinal strength evaluation) left out unless class considers them necessary. Over fifteen it also includes the dry-dock survey. A 22-year-old ESP tanker therefore repeats much of its 20-year survey two or three years later. For single-side skin general dry cargo ships, UR Z7.1 applies the same extent rule from the age of fifteen, although there an in-water survey may be considered in place of the docking.",
         "For planning, an older ship's five-year cycle holds two heavy surveys, not one. Coating repairs, steel renewal and access arrangements made at the renewal survey should be judged by whether they will still be acceptable at the intermediate survey that follows. Repairs left under a condition of class at twenty years have a habit of returning, larger, at the intermediate."
       ],
       "links": [
@@ -225,7 +225,7 @@
     },
     {
       "q": "Does a 20-year-old ship have to dry dock for its intermediate survey?",
-      "a": "For tankers and bulk carriers under the enhanced survey programme, generally yes. Past fifteen years the ESP Code builds a drydock survey into the intermediate survey, and UR Z3 keeps every bottom examination of an older ESP ship in dry dock. Other ship types may be allowed an in-water survey in lieu of a bottom examination, where class allows it. Agree the docking arrangement with the society months ahead."
+      "a": "For tankers and bulk carriers under the enhanced survey programme, yes. Past fifteen years the ESP Code builds a drydock survey into the intermediate survey, and UR Z3 keeps every bottom examination of an older ESP ship in dry dock. Other ship types may be allowed an in-water survey in lieu of a bottom examination, where class allows it. Agree the docking arrangement with the society months ahead."
     },
     {
       "q": "Is there a maximum age for tankers and bulk carriers?",

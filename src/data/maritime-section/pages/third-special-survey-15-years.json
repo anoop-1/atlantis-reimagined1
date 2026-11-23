@@ -55,12 +55,12 @@
         "rows": [
           [
             "Single-side skin bulk carrier (UR Z10.2)",
-            "All shell frames, with end attachments and adjacent shell plating, in the forward cargo hold and one other selected hold, and half of the frames in each remaining hold; transverse webs and bulkheads in the water ballast tanks",
+            "All shell frames, with end attachments and adjacent shell plating, in the forward cargo hold and one other selected hold, and half of the frames in each remaining hold; all transverse webs in each water ballast tank and all ballast tank transverse bulkheads; all hold bulkheads, hatch covers and coamings and deck structure between hatches, as at No. 2",
             "Wasted or cracked frames and brackets, weld grooving, grab damage"
           ],
           [
             "Double-hull oil tanker (UR Z10.4)",
-            "Web frames in selected ballast tanks and, in each remaining ballast tank, the knuckle area and upper part of one web frame; deck transverses or web frames and transverse bulkheads in selected cargo tanks",
+            "All web frames in all ballast tanks; all web frames, with the deck transverse and any cross ties, in one cargo tank and one web frame in each remaining cargo tank; all transverse bulkheads in all cargo and ballast tanks",
             "Upper wing tank and double-bottom wastage, knuckle cracks, under-deck corrosion"
           ],
           [
@@ -77,7 +77,7 @@
       "p": [
         "Gauging follows the same escalation. UR Z7.1 asks at No. 3 for two transverse sections within the amidships half-length in way of two different cargo spaces (fewer on ships under 100 m), each deck plate outside the line of hatch openings along the cargo length, all wind-and-water strakes in the cargo length and selected ones beyond it, and readings on every member under close-up survey. The ESP annexes for tankers and bulk carriers go further into the internal structure of the tanks and holds surveyed close up, and UR Z7 applies a comparable step to other ship types.",
         "A transverse section, or belt, gauges every longitudinal member round the hull at one frame position. For oil tankers 130 m long or more, the ESP Code has class evaluate hull girder longitudinal strength with the thicknesses from the renewal survey held after the ship reaches ten years of age, which for most tankers is this one, so missing or doubtful belt readings hold up the survey.",
-        "Readings beyond the allowable margin mean renewal. Readings in the substantial corrosion band, more than three-quarters of the allowable margin gone, trigger the additional measurements tabulated in the unified requirements and stay on record until the steel is renewed. On Common Structural Rules ships the band is a measured thickness between the renewal thickness and half a millimetre above it."
+        "Readings beyond the allowable margin mean renewal, or another repair the society accepts. Readings in the substantial corrosion band, more than three-quarters of the allowable margin gone, trigger the additional measurements tabulated in the unified requirements and are measured again at later surveys. On Common Structural Rules ships the band is a measured thickness between the renewal thickness and half a millimetre above it."
       ]
     },
     {
@@ -85,7 +85,7 @@
       "h": "Why the 15-year survey is the one most likely to bring steel renewal",
       "p": [
         "Three trends meet at about fifteen years. The IMO performance standard for protective coatings in dedicated seawater ballast tanks, required on newer ships through SOLAS regulation II-1/3-2, targets a useful life of fifteen years, and older ships often carry less durable systems. Scantling corrosion margins are consumed at a pace set largely by how long the coating held. And the survey now measures structure never measured before, so years of wastage appear on paper at once.",
-        "Coating condition is graded at each survey as GOOD (minor spot rusting), FAIR (local breakdown at stiffener edges and weld connections) or POOR (general breakdown over 20 per cent or more of the area, or hard scale). Many ballast tanks slip from FAIR to POOR between the 10-year and 15-year surveys. A tank found POOR and left unrepaired, or protected by a soft or semi-hard coating, is then examined at every annual survey, so the coating decision taken at this docking shapes the next five years of surveys as well as the steel.",
+        "Coating condition is graded at each survey as GOOD (minor spot rusting), FAIR (local breakdown at stiffener edges and weld connections) or POOR (general breakdown over 20 per cent or more of the area, or hard scale over 10 per cent or more). Many ballast tanks slip from FAIR to POOR between the 10-year and 15-year surveys. A tank found POOR and left unrepaired, or protected by a soft or semi-hard coating, is then examined at every annual survey, so the coating decision taken at this docking shapes the next five years of surveys as well as the steel.",
         "Pitting gathers where water and sediment lie: ballast tank bottoms, the upper faces of stringers and longitudinals and, on crude carriers, cargo tank bottoms. Grooving runs along weld toes at frame and longitudinal connections. A spot reading between pits overstates the remaining steel, so pit depth and intensity are recorded separately and judged against their own limits."
       ]
     },
@@ -94,7 +94,7 @@
       "h": "Where steel is usually found at 15 years, by ship type",
       "p": [
         "Details vary with design and trade, but these locations recur often enough at this age to start pre-survey gauging there.",
-        "On single-side skin bulk carriers not built to the later side-structure standards, hold side frames and brackets have renewal criteria of their own. IMO resolution MSC.168(79), applied by IACS through UR S31, requires them to be assessed by the time the ship is ten years old and at every intermediate and renewal survey after that. At No. 3 they are measured again; readings close to the criteria widen the gauging, and a hold where any frame needs renewal or other measures has every frame gauged."
+        "On single-side skin bulk carriers not built to the later side-structure standards, hold side frames and brackets have renewal criteria of their own, set by IACS UR S31 and adopted by IMO in resolution MSC.168(79), which require them to be assessed by the time the ship is ten years old and at every intermediate and renewal survey after that. At No. 3 they are measured again; readings close to the criteria widen the gauging, and a hold where any frame needs renewal or other measures has every frame gauged."
       ],
       "table": {
         "head": [
@@ -216,8 +216,8 @@
     "2011 ESP Code (IMO resolution A.1049(27)), mandatory through SOLAS regulation XI-1/2",
     "IACS UR Z3 – Periodical survey of the outside of the ship's bottom and related items",
     "IMO resolution MSC.168(79) and IACS UR S31 – Side shell frame renewal criteria for single-side skin bulk carriers",
-    "SOLAS regulation II-1/3-2 – Performance standard for protective coatings in ballast tanks (PSPC)",
-    "IACS Recommendation 87 – Coating maintenance and repairs for ballast tanks and combined cargo/ballast tanks on oil tankers"
+    "SOLAS regulation II-1/3-2 and IMO resolution MSC.215(82) – Performance standard for protective coatings (PSPC) of dedicated seawater ballast tanks",
+    "IACS Recommendation 87 – Guidelines for coating maintenance and repairs for ballast tanks and combined cargo/ballast tanks on oil tankers"
   ],
   "deliverables": [
     "Class status report with due dates, conditions of class and memoranda",

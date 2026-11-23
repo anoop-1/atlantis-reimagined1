@@ -27,7 +27,7 @@
       "h": "When the intermediate survey falls in the five-year class cycle",
       "p": [
         "A ship's class runs on a five-year cycle of hull surveys. Annual surveys are held within a window around each anniversary date of the class certificate, the renewal survey closes the cycle, and the intermediate survey replaces either the second or the third annual survey, so it sits roughly two to three years after the last renewal. The annual survey items due that year are dealt with at the same time. Its content depends on ship type and age, and on many ships it is far from a lighter version of the renewal survey, as the sections below show.",
-        "Two other timing rules interact with it. UR Z3 calls for a minimum of two bottom examinations per five-year cycle, one held with the renewal survey, and caps the gap between any two at 36 months, so the mid-cycle docking normally lands in the intermediate survey period. And under the ESP requirements, the same examination or measurement of a space cannot be credited to both the intermediate and the renewal survey, so an intermediate survey held late in its window cannot double as early renewal survey work."
+        "Two other timing rules interact with it. UR Z3 calls for a minimum of two bottom examinations per five-year cycle, one held with the renewal survey, and caps the gap between any two at 36 months, so the mid-cycle docking normally lands in the intermediate survey period. And under the unified requirements, the same examination or measurement of a space cannot be credited to both the intermediate and the renewal survey, so an intermediate survey held late in its window cannot double as early renewal survey work."
       ]
     },
     {
@@ -51,8 +51,8 @@
           ],
           [
             "Over 10, up to 15 years",
-            "Same extent as the previous renewal survey, without internal examination of fuel tanks or pressure testing of tanks unless considered necessary; can open at the second annual survey and close by the third",
-            "Same extent as the previous renewal survey, without tank pressure testing or the hull girder longitudinal strength evaluation unless considered necessary; can open at the second annual survey and close by the third"
+            "Same extent as the previous renewal survey, without internal examination of fuel tanks or pressure testing of tanks unless considered necessary; can open at the second annual survey and close by the third; an in-water survey may be considered in lieu of the dry-dock survey",
+            "Same extent as the previous renewal survey, without tank pressure testing or the hull girder longitudinal strength evaluation unless considered necessary; can open at the second annual survey and close by the third; an in-water survey may be considered in lieu of the dry-dock survey"
           ],
           [
             "Over 15 years",
@@ -126,7 +126,7 @@
         "Because they accumulate, two ships of the same type and age can face very different intermediate surveys. A tanker that left its 10-year docking with recoated ballast tanks and renewed steel may find its 12-year intermediate routine; a sister that left with POOR coating and carried-forward substantial corrosion will have had annual tank entries since, and faces a long list of repeat readings."
       ],
       "list": [
-        "Ballast tank coating: where a hard coating is POOR and not repaired, or a soft or semi-hard coating is used, the tank is examined at every later annual survey, with gauging as the surveyor considers necessary; on double-hull tankers the trigger also covers tanks never hard-coated from construction and hard coating in less than GOOD condition left unrepaired",
+        "Ballast tank coating: where a hard coating is POOR and not repaired, or a soft or semi-hard coating is used, the tank is examined at every later annual survey, with gauging as the surveyor considers necessary, and the same applies to a tank never hard-coated from construction (for double-bottom tanks of bulk carriers and dry cargo ships, at the society's discretion); on double-hull oil tankers and chemical tankers the trigger also covers substantial corrosion in the tank and hard coating in less than GOOD condition left unrepaired",
         "Substantial corrosion: wastage beyond three-quarters of the allowable margin, or within half a millimetre of the renewal thickness on Common Structural Rules ships, brings additional measurements in the affected area and is measured again at later surveys until the steel is renewed",
         "Suspect and critical structural areas: locations prone to rapid wastage, or known from the ship or her sisters to crack or buckle, are examined and gauged where needed",
         "Conditions of class and earlier repairs: items due by the intermediate survey are cleared, and repaired areas are looked at again",
@@ -137,7 +137,7 @@
       "id": "docking-timing",
       "h": "Docking, bottom examination and the intermediate survey",
       "p": [
-        "Whether the intermediate survey involves a drydock depends on age and ship type. Up to fifteen years the mid-cycle bottom examination is a requirement of its own, often but not always taken with the intermediate survey, and many ships may use an in-water survey in lieu of a bottom examination, where class allows it. Beyond fifteen, the ESP Code writes a drydock survey into the intermediate survey of tankers and bulk carriers, and UR Z3 says ESP ships of that age have their bottom examined in dock.",
+        "Whether the intermediate survey involves a drydock depends on age and ship type. Up to fifteen years the mid-cycle bottom examination is a requirement of its own, often but not always taken with the intermediate survey, and many ships may use an in-water survey in lieu of a bottom examination, where class allows it. For ESP ships between ten and fifteen, the renewal survey extent that the intermediate survey repeats includes the dry-dock survey, though class may consider an in-water survey in its place. Beyond fifteen, the ESP Code writes a drydock survey into the intermediate survey of tankers and bulk carriers, and UR Z3 says ESP ships of that age have their bottom examined in dock.",
         "For an older ESP ship the intermediate survey is therefore a docking survey in every sense, with the yard planning that goes with it. Dock days, staging for close-up survey in the holds or tanks, tank cleaning and gas-freeing, and the thickness measurement team all need the care that a renewal survey would receive."
       ]
     },
@@ -229,11 +229,11 @@
     },
     {
       "q": "Does the intermediate survey need a drydock?",
-      "a": "It depends on age and type. An ESP tanker or bulk carrier over fifteen docks for it, because the ESP Code includes a drydock survey at that age and UR Z3 keeps its bottom examinations in dock. Other ships may combine the mid-cycle bottom examination with it, or be allowed an in-water survey in lieu of a bottom examination where class allows it. Confirm the arrangement with the society well before the survey window opens."
+      "a": "It depends on age and type. An ESP tanker or bulk carrier over fifteen docks for it, because the ESP Code includes a drydock survey at that age and UR Z3 keeps its bottom examinations in dock. Between ten and fifteen it carries the renewal survey's dry-dock survey, though class may consider an in-water survey instead. Younger and non-ESP ships may combine the mid-cycle bottom examination with it, or use an in-water survey in lieu of a bottom examination where class allows it. Confirm the arrangement with the society well before the survey window opens."
     },
     {
       "q": "What happens if ballast tank coating is found POOR at the intermediate survey?",
-      "a": "If the hard coating is POOR and is not repaired, the tank is examined at every later annual survey, with thickness measurement where the surveyor considers it necessary. Soft or semi-hard coatings attract the same treatment. On double-hull tankers the trigger is wider and includes hard coating in less than GOOD condition left unrepaired. Repairing the coating to the surveyor's satisfaction is how a tank comes off annual examination."
+      "a": "If the hard coating is POOR and is not repaired, the tank is examined at every later annual survey, with thickness measurement where the surveyor considers it necessary. Soft or semi-hard coatings attract the same treatment. On double-hull oil tankers and chemical tankers the trigger is wider and includes substantial corrosion and hard coating in less than GOOD condition left unrepaired. Repairing the coating to the surveyor's satisfaction is how a tank comes off annual examination."
     },
     {
       "q": "Can intermediate survey gauging be done without a drydock?",

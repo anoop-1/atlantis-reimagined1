@@ -34,8 +34,8 @@
       "id": "hull-survey-cycle",
       "h": "The five-year hull survey cycle: annual, intermediate, bottom and renewal surveys",
       "p": [
-        "Class keeps the hull on a rolling five-year cycle. The timing rules below come from UR Z7 (hull surveys) and UR Z3 (examination of the outside of the ship's bottom); each society's rules add detail.",
-        "Two planning consequences follow. The renewal docking is normally one of the cycle's two bottom examinations, so its date fixes when the next docking falls due. And because the intermediate survey of an older ESP ship repeats most of the renewal scope, a tanker or bulk carrier past ten years faces two heavy surveys in each cycle rather than one."
+        "Class keeps the hull on a rolling five-year cycle. The timing rules below come from UR Z7 (hull classification surveys) and UR Z3 (periodical survey of the outside of the ship's bottom); each society's rules add detail.",
+        "Two planning consequences follow. One of the cycle's two bottom examinations has to be held with the renewal survey, so its date fixes when the next one falls due. And because the intermediate survey of an older ESP ship repeats most of the renewal scope, a tanker or bulk carrier past ten years faces two heavy surveys in each cycle rather than one."
       ],
       "table": {
         "head": ["Survey", "When it falls", "Points owners tend to miss"],
@@ -58,7 +58,7 @@
         "rows": [
           ["Container ships, ro-ro ships and other types without a supplement", "UR Z7", "One table of minimum gauging; no close-up table, so close-up examination follows the surveyor's findings"],
           ["General dry cargo ships of 500 gross tonnage and above with single side skin holds", "UR Z7.1", "Tabulated close-up survey of hold frames, bulkheads, ballast tank webs and hatch covers; the intermediate survey takes renewal scope from fifteen years"],
-          ["Liquefied gas carriers", "UR Z7.2", "Emphasis on ballast tanks and the double-hull and void spaces around the cargo containment"],
+          ["Liquefied gas carriers", "UR Z7.2", "Emphasis on ballast tanks and the double-hull and void spaces around the cargo containment; the cargo installations have their own survey requirements in UR Z16"],
           ["Oil tankers", "UR Z10.1 and Z10.4 with the ESP Code", "Written survey programme, gauging by a firm approved by the ship's society, hull girder strength check after ten years on ships of 130 m and upwards"],
           ["Bulk carriers", "UR Z10.2 and Z10.5 with the ESP Code", "Hold frames, hatch covers, ballast tank webs and hold bulkheads under close-up survey from the first renewal survey"],
           ["Chemical tankers", "UR Z10.3", "The enhanced approach brought in through class; stainless or coated cargo tanks change how they are examined"]
@@ -102,7 +102,7 @@
       "id": "coating-condition",
       "h": "Coating condition: GOOD, FAIR, POOR and what each grade triggers",
       "p": [
-        "IACS grades coatings in three steps. GOOD means no more than minor spot rusting. FAIR means local breakdown at stiffener and weld edges, or light rusting on at least a fifth of the surface, short of POOR. POOR means general breakdown on at least a fifth of the surface, or hard scale on a tenth or more. A ballast tank left with unrenewed POOR hard coating, given soft or semi-hard coating, or never hard-coated at all, is examined at every annual survey afterwards; on double-hull tankers, so is a tank with substantial corrosion or unrepaired hard coating below GOOD.",
+        "IACS grades coatings in three steps. GOOD means no more than minor spot rusting. FAIR means local breakdown at stiffener and weld edges, or light rusting on at least a fifth of the surface, short of POOR. POOR means general breakdown on at least a fifth of the surface, or hard scale on a tenth or more. A ballast tank left with unrenewed POOR hard coating, given soft or semi-hard coating, or never hard-coated at all, is examined at every annual survey afterwards (for double-bottom tanks of bulk carriers and dry cargo ships the rules leave this to the society's discretion); on double-hull oil tankers and chemical tankers, so is a tank with substantial corrosion or unrepaired hard coating below GOOD.",
         "Newer ships built under SOLAS regulation II-1/3-2 and the IMO Performance Standard for Protective Coatings carry a Coating Technical File and a coating system with a target useful life of 15 years in GOOD condition, one reason the third renewal survey so often meets ballast coatings at the end of their life."
       ]
     },
@@ -147,11 +147,11 @@
     }
   ],
   "codes": [
-    "IACS UR Z7 – Hull surveys",
+    "IACS UR Z7 – Hull classification surveys",
     "IACS UR Z7.1 – Hull surveys for general dry cargo ships",
     "IACS UR Z7.2 – Hull surveys for liquefied gas carriers",
     "IACS UR Z10.1 to Z10.5 – Hull surveys of oil tankers, bulk carriers, chemical tankers, double hull oil tankers and double skin bulk carriers",
-    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom",
+    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom and related items",
     "2011 ESP Code – IMO resolution A.1049(27), mandatory under SOLAS chapter XI-1, regulation 2",
     "IMO Performance Standard for Protective Coatings (resolution MSC.215(82)) under SOLAS regulation II-1/3-2",
     "IACS UR Z17 – Procedural requirements for service suppliers"

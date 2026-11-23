@@ -26,8 +26,8 @@
       "id": "when-due",
       "h": "When is the first special survey due?",
       "p": [
-        "Renewal survey No. 1 has to be completed within five years of the ship's initial classification survey, which for a newbuilding normally means delivery. The survey window opens at the fourth annual survey and the work must be complete by the fifth anniversary date; items examined before the window opens are credited provided the survey is finished within 15 months of starting. One of the two bottom examinations required in each five-year period is normally taken at the same docking, so the date chosen also starts the clock for the next one, which must follow within 36 months.",
-        "By then the ship has had four annual surveys and an intermediate survey, so the society holds a record of her condition. On a young ship that record is usually thin, and few spaces will have been examined closely since the ship left the builder."
+        "Renewal survey No. 1 has to be completed within five years of the ship's initial classification survey, which for a newbuilding normally means delivery. The survey window opens at the fourth annual survey and the work must be complete by the fifth anniversary date; items examined before the window opens are credited provided the survey is finished within 15 months of starting. One of the two bottom examinations required in each five-year period has to be held with the renewal survey, so the date chosen also starts the clock for the next one, which must follow within 36 months.",
+        "By then the ship has had four annual surveys, one of them extended into the intermediate survey, so the society holds a record of her condition. On a young ship that record is usually thin, and few spaces will have been examined closely since the ship left the builder."
       ]
     },
     {
@@ -40,7 +40,7 @@
       "table": {
         "head": ["Requirement at survey No. 1", "ESP bulk carrier (UR Z10.2)", "Double-hull oil tanker (UR Z10.4)", "General dry cargo ship (UR Z7.1)"],
         "rows": [
-          ["Close-up survey", "25% of shell frames in the forward hold at representative positions and selected frames in the other holds; a transverse web, with its plating and longitudinals, in two representative ballast tanks of each kind, topside and hopper; two hold transverse bulkheads with their stools; all hatch covers and coamings", "A small sample: a complete web frame ring in a ballast tank, with representative deck transverse and transverse bulkhead structure in the cargo tanks", "Selected shell frames in one forward and one aft hold with their tween decks; one hold transverse bulkhead; all hatch covers and coamings"],
+          ["Close-up survey", "25% of shell frames in the forward hold at representative positions and selected frames in the other holds; a transverse web, with its plating and longitudinals, in two representative ballast tanks of each kind, topside and hopper; two hold transverse bulkheads with their stools; all hatch covers and coamings", "A small sample: one web frame in a ballast tank (floor, hopper web and side vertical web in way), one transverse bulkhead in a ballast tank, one deck transverse in a cargo tank, and the lower part of one transverse bulkhead in a centre and a wing cargo tank", "Selected shell frames in one forward and one aft hold with their tween decks; one hold transverse bulkhead; all hatch covers and coamings"],
           ["Thickness measurement", "Suspect areas, extended wherever close-up survey finds corrosion", "Suspect areas and one section of deck plating across the full beam within the cargo area", "Suspect areas, extended wherever close-up survey finds corrosion"],
           ["Tank testing", "All boundaries of ballast tanks, deep tanks and holds used for ballast in the cargo length; representative fuel oil tanks", "All ballast tank boundaries, plus cargo tank boundaries facing ballast tanks, voids, pipe tunnels, pump rooms or cofferdams", "All boundaries of ballast tanks and deep tanks used for ballast in the cargo length; representative fuel oil tanks"]
         ]
@@ -59,8 +59,8 @@
       "id": "coatings-at-five-years",
       "h": "Ballast tank coatings at five years",
       "p": [
-        "On ships of 500 gross tonnage and upwards contracted on or after 1 July 2008, or delivered from 1 July 2012, dedicated seawater ballast tanks, and the double-side skin spaces of bulk carriers of 150 m and upwards, were coated in accordance with the IMO Performance Standard for Protective Coatings, which SOLAS regulation II-1/3-2 turned into a requirement. Its target is a coating life of 15 years in GOOD condition, and the Coating Technical File on board records the specification, application and inspections and must be kept up to date for the life of the ship. A coating on track for that target is GOOD at five years.",
-        "Where it is not, the breakdown has a familiar pattern. Coating fails first where it was hardest to apply well: free edges, weld seams, cut-outs, scallops, drain holes and the backs of stiffener ends. Mechanical damage follows from staging, tools and sounding rods, and areas warmed by heated fuel tanks age faster. The IACS FAIR grade, local breakdown at stiffener and weld edges, describes exactly this, and a tank graded FAIR at five years is a warning for ten. On double-hull tankers, a hard coating below GOOD that is left unrepaired puts the tank on examination at every annual survey; on other ships the trigger is POOR coating not renewed, or soft or semi-hard coating. For repair method, IACS Recommendation 87 sets out guidance for ballast tanks on oil tankers."
+        "On ships of 500 gross tonnage and upwards contracted on or after 1 July 2008 (or, without a contract, with keels laid from 1 January 2009) or delivered from 1 July 2012, dedicated seawater ballast tanks, and the double-side skin spaces of bulk carriers of 150 m and upwards, were coated in accordance with the IMO Performance Standard for Protective Coatings, which SOLAS regulation II-1/3-2 turned into a requirement. Its target is a coating life of 15 years in GOOD condition, and the Coating Technical File on board records the specification, application and inspections and must be kept up to date for the life of the ship. A coating on track for that target is GOOD at five years.",
+        "Where it is not, the breakdown has a familiar pattern. Coating fails first where it was hardest to apply well: free edges, weld seams, cut-outs, scallops, drain holes and the backs of stiffener ends. Mechanical damage follows from staging, tools and sounding rods, and areas warmed by heated fuel tanks age faster. The IACS FAIR grade, local breakdown at stiffener and weld edges, describes exactly this, and a tank graded FAIR at five years is a warning for ten. On double-hull oil tankers and chemical tankers, a hard coating below GOOD that is left unrepaired puts the tank on examination at every annual survey; on other ships the trigger is POOR coating not renewed, or soft or semi-hard coating. For repair method, IACS Recommendation 87 sets out guidance for ballast tanks on oil tankers."
       ]
     },
     {
@@ -130,11 +130,11 @@
     }
   ],
   "codes": [
-    "IACS UR Z7 – Hull surveys",
+    "IACS UR Z7 – Hull classification surveys",
     "IACS UR Z7.1 – Hull surveys for general dry cargo ships",
     "IACS UR Z10.2 – Hull surveys of bulk carriers",
     "IACS UR Z10.4 – Hull surveys of double hull oil tankers",
-    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom",
+    "IACS UR Z3 – Periodical survey of the outside of the ship's bottom and related items",
     "2011 ESP Code – IMO resolution A.1049(27)",
     "IMO Performance Standard for Protective Coatings (MSC.215(82)) under SOLAS regulation II-1/3-2",
     "IACS Recommendation 87 – Guidelines for coating maintenance and repairs for ballast tanks and combined cargo/ballast tanks on oil tankers"
