@@ -200,5 +200,25 @@ export const US_TRAINING_PAGES = {
   "/ndt-training-dayton": "Dayton, OH", // 2026-11-11
   "/ndt-training-grand-rapids": "Grand Rapids, MI", // 2026-11-11
   "/ndt-training-peoria": "Peoria, IL", // 2026-11-11
+  "/ndt-training-everett": "Everett, WA", // 2026-11-23
+  "/ndt-training-bremerton": "Bremerton, WA", // 2026-11-23
+  "/ndt-training-pensacola": "Pensacola, FL", // 2026-11-23
+  "/ndt-training-melbourne-florida": "Melbourne, FL", // 2026-11-23
+  "/ndt-training-greensboro": "Greensboro, NC", // 2026-11-23
+  "/ndt-training-columbia-south-carolina": "Columbia, SC", // 2026-11-23
+  "/ndt-training-augusta": "Augusta, GA", // 2026-11-23
+  "/ndt-training-fort-wayne": "Fort Wayne, IN", // 2026-11-23
+  "/ndt-training-evansville": "Evansville, IN", // 2026-11-23
+  "/ndt-training-rochester-new-york": "Rochester, NY", // 2026-11-23
+  "/ndt-training-syracuse": "Syracuse, NY", // 2026-11-23
+  "/ndt-training-harrisburg": "Harrisburg, PA", // 2026-11-23
+  "/ndt-training-amarillo": "Amarillo, TX", // 2026-11-23
+  "/ndt-training-palmdale": "Palmdale, CA", // 2026-11-23
+  "/ndt-training-cedar-rapids": "Cedar Rapids, IA", // 2026-11-23
+  "/ndt-training-green-bay": "Green Bay, WI", // 2026-11-23
+  "/ndt-training-pueblo": "Pueblo, CO", // 2026-11-23
+  "/ndt-training-lima-ohio": "Lima, OH", // 2026-11-23
+  "/ndt-training-joliet": "Joliet, IL", // 2026-11-23
+  "/ndt-training-rockford": "Rockford, IL", // 2026-11-23
 };
 export const US_TRAINING_PATHS = Object.keys(US_TRAINING_PAGES);

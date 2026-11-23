@@ -20,7 +20,7 @@ const EXISTING_PROFILE = new Set([...PROFILES_TS.matchAll(/slug:\s*"([a-z0-9-]+)
 const BANNED = [
   [/\$\s?\d|\bUSD\b|\bCAD\b|\d+\s?k\s?\/\s?(?:yr|year)|\bper year\b.*\d/i, 'money figure'],
   [/\b(?:cohort|intake|next class|seats? (?:left|available)|enrol(?:l)? by|start(?:s|ing)? on (?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec))/i, 'course dates / cohorts'],
-  [/(?<![-\w])(?:20(?:2[6-9]|3\d))\b(?![^<]{0,40}(?:edition|revision|SNT-TC-1A|CP-189|ASME|AWS|API|ASTM|ISO|CSA|CAN\/CGSB))/i, 'a year that reads like a schedule (check context)'],
+  [/(?<![-\w])(?:20(?:2[6-9]|3\d))\b(?![^<]{0,40}(?:edition|revision|SNT-TC-1A|CP-189|ASME|AWS|API|ASTM|ISO|CSA|CAN\/CGSB|Agreement State))/i, 'a year that reads like a schedule (check context)'],
   [/\bour (?:[A-Z][a-z]+ )?(?:classroom|campus|training (?:center|centre)|facility|lab|office|instructors in)\b|\batlantis (?:ndt )?(?:classroom|campus|training (?:center|centre)) in\b/i, 'Atlantis classroom/office claim'],
   [/\blive(?:[- ]online)? (?:class|classes|session|sessions|classroom|cohort)|\binstructor-led\b|\blive-virtual\b/i, 'live class claim'],
   [/within 24 hours|24-hour|same[- ]day|\bguarantee|\b#1\b|best ndt school|pass rate|job placement|placement assistance|job guarantee/i, 'banned promise'],

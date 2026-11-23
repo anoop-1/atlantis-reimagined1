@@ -164,6 +164,26 @@
     "saskatoon": ["Saskatoon","SK","Canada","city"],
     "red-deer": ["Red Deer","AB","Canada","city"],
     "grande-prairie": ["Grande Prairie","AB","Canada","city"],
-    "kitimat": ["Kitimat","BC","Canada","city"]
+    "kitimat": ["Kitimat","BC","Canada","city"],
+    "everett": ["Everett","WA","USA","city"],
+    "bremerton": ["Bremerton","WA","USA","city"],
+    "pensacola": ["Pensacola","FL","USA","city"],
+    "melbourne-florida": ["Melbourne","FL","USA","city"],
+    "greensboro": ["Greensboro","NC","USA","city"],
+    "columbia-south-carolina": ["Columbia","SC","USA","city"],
+    "augusta": ["Augusta","GA","USA","city"],
+    "fort-wayne": ["Fort Wayne","IN","USA","city"],
+    "evansville": ["Evansville","IN","USA","city"],
+    "rochester-new-york": ["Rochester","NY","USA","city"],
+    "syracuse": ["Syracuse","NY","USA","city"],
+    "harrisburg": ["Harrisburg","PA","USA","city"],
+    "amarillo": ["Amarillo","TX","USA","city"],
+    "palmdale": ["Palmdale","CA","USA","city"],
+    "cedar-rapids": ["Cedar Rapids","IA","USA","city"],
+    "green-bay": ["Green Bay","WI","USA","city"],
+    "pueblo": ["Pueblo","CO","USA","city"],
+    "lima-ohio": ["Lima","OH","USA","city"],
+    "joliet": ["Joliet","IL","USA","city"],
+    "rockford": ["Rockford","IL","USA","city"]
   }
 }
