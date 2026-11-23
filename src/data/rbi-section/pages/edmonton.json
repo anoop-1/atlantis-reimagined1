@@ -1,0 +1,163 @@
+{
+  "title": "RBI in Edmonton: Heartland Refineries, Upgraders and NGL",
+  "description": "Remote risk-based inspection for Edmonton and Industrial Heartland refineries, upgraders, petrochemical and NGL plants, set up to fit an ABSA owner-user system.",
+  "h1": "Risk-based inspection for Edmonton and Alberta's Industrial Heartland",
+  "eyebrow": "Risk-based inspection in Edmonton",
+  "intro": "East and north-east of Edmonton, four refineries, an upgrader, crackers, a polypropylene complex, fertiliser production and NGL fractionators share a climate that swings from summer heat to deep winter cold. This page is for the integrity engineers and in-service inspectors who run inspection programmes at those plants. It covers the facilities, the damage mechanisms that Alberta winters and bitumen-derived feeds add to the usual refinery list, how an RBI study fits inside an ABSA-accepted owner-user system, and how Atlantis delivers the study remotely, with field verification carried out by your own inspectors.",
+  "highlights": [
+    { "h": "Winter is a damage driver", "p": "Freeze-thaw cycles break insulation seals, snow melt soaks lagging, and metal that is colder than its toughness limit in January carries a brittle fracture risk no thickness reading will reveal. The study treats seasonal temperature as an input to the risk, not as background." },
+    { "h": "Written for the integrity audit", "p": "Every interval in the plan traces back to a damage mechanism, an inspection effectiveness and a risk target, so the in-service inspector can adopt it and an ABSA auditor can follow the reasoning inside the owner-user's accepted integrity management system." },
+    { "h": "Feed changes as triggers", "p": "Bitumen blends, synthetic crude and diluent shift sulfur, acid and chloride loads. The plan names the crude properties and operating windows it assumed, so crossing them sends a unit back for reassessment before its next due date rather than after it." }
+  ],
+  "sections": [
+    {
+      "id": "heartland-facilities",
+      "h": "The plants between Refinery Row and Redwater",
+      "p": [
+        "Two refineries sit on Edmonton's eastern edge, along the stretch locally called Refinery Row: Imperial's Strathcona refinery, rated at about 197,000 barrels a day, and Suncor's Edmonton refinery. Further north-east, around Fort Saskatchewan and Redwater, the Industrial Heartland adds Shell's Scotford refinery and chemicals plants beside the Scotford upgrader, the Sturgeon refinery run by North West Redwater Partnership, a venture of Canadian Natural and North West Refining, Dow's Fort Saskatchewan ethylene and polyethylene site, Inter Pipeline's Heartland Petrochemical Complex, which turns propane into polypropylene, nitrogen fertiliser production at Redwater and a group of NGL fractionators with salt-cavern storage.",
+        "Pipelines tie the cluster together. Trans Mountain's line to the British Columbia coast begins at its Edmonton terminal, Enbridge's mainline runs east from the area, and tank terminals around the city hold crude, diluent and refined products in transit. That mix matters for RBI, because a single owner may hold refinery vessels, terminal tanks and pipeline station piping that answer to different rules and need different methods inside one programme."
+      ],
+      "table": {
+        "head": ["Asset group", "Examples in the area", "Where an RBI study concentrates"],
+        "rows": [
+          ["Crude refining", "Strathcona, Suncor Edmonton, Scotford and Sturgeon refineries", "Sulfidation and acid attack in crude, vacuum and coker circuits; hydroprocessing effluent; amine and sour water systems; CUI"],
+          ["Bitumen upgrading", "Scotford upgrader", "Hydroprocessing at high temperature and hydrogen partial pressure, HTHA screening, erosion in residue and slurry service"],
+          ["Olefins and polymers", "Dow Fort Saskatchewan; Heartland Petrochemical Complex", "Furnace tubes, caustic towers, cold-end toughness, hot dehydrogenation reactors and polymer reactor systems"],
+          ["Fertiliser", "Nitrogen production at Redwater", "Ammonia stress corrosion cracking in storage; hydrogen and nitriding damage in the synthesis loop"],
+          ["NGL and terminals", "Fractionators and cavern storage near Fort Saskatchewan; Edmonton tank terminals", "Auto-refrigeration on depressurisation, wet H2S and caustic treating, tank floors and shells"]
+        ]
+      }
+    },
+    {
+      "id": "edmonton-cui",
+      "h": "CUI when equipment freezes, thaws and cycles",
+      "p": [
+        "Corrosion under insulation is usually described as a problem of warm, wet climates, and Edmonton's dry air can tempt a team to rank it low. That reasoning breaks down on site. Ice forms under damaged jacketing and splits seams, spring melt runs into lagging through every unsealed penetration, steam tracing leaks inside the insulation it is meant to keep warm, and equipment that runs hot cools back through the corrosive temperature band every time it is shut down. API 571 places the carbon steel CUI range at roughly minus 12 to about 175 degrees Celsius, and many Heartland lines pass through that band on each start-up and outage.",
+        "A cold-climate CUI assessment therefore ranks equipment on how it actually behaves through the year, not on its design temperature. The study asks for historian data or operator records of operating temperature by season, intermittent and standby service, insulation and jacketing type, tracing and the dates insulation was last replaced. Cellular glass, mineral wool and calcium silicate hold water in different ways, and austenitic stainless lines under the same wet insulation carry chloride cracking risk rather than thinning. API RP 583 provides the framework for corrosion under insulation and fireproofing that the assessment follows.",
+        "The plan then says what each technique can be credited with. Screening methods such as pulsed eddy current or guided wave cover long insulated runs, but they do not measure the deepest pit, so the plan sends insulation removal and direct examination to the locations the screening and the risk ranking flag together."
+      ],
+      "list": [
+        "Lines and vessels that cycle through freezing, or that stand idle for weeks at a time",
+        "Steam- and electrically traced systems, with extra weight where tracer leaks have been recorded",
+        "Penetrations, supports, nozzles and insulation terminations where jacketing cannot be sealed",
+        "Equipment beside cooling towers, deluge systems or steam vents that wet insulation in every season",
+        "Fireproofing on vessel skirts and structural steel, which can hold water against the steel for years"
+      ]
+    },
+    {
+      "id": "edmonton-brittle-fracture",
+      "h": "Low metal temperature and brittle fracture",
+      "p": [
+        "A vessel with no measurable damage can still fail suddenly if it is pressurised while its metal is colder than the temperature at which the steel remains tough. In Alberta that is a practical concern rather than a textbook one: winter temperatures can fall below the minimum design metal temperature stamped on older carbon steel equipment built before current impact-testing rules, and propane, butane and other light hydrocarbons can chill steel well below ambient when they flash during a depressurisation. Thickness inspection does not find this risk, because nothing has thinned.",
+        "API RP 581 treats brittle fracture as a damage factor in its own right, comparing the lowest temperature the metal can reach, including start-up and upset conditions, with the temperature at which the material has been shown to be tough enough. The study collects material specifications, impact test records, thickness and post-weld heat treatment from the manufacturer's data reports and screens each item. Where an item screens as susceptible, the effective control is usually procedural: a minimum pressurisation temperature, a warm-up sequence or a depressurisation limit written as an integrity operating window to API 584, with inspection playing a smaller part.",
+        "If the screening leaves a question that only a detailed fracture toughness evaluation can answer, the report says so and hands it to the owner's engineer; Atlantis does not provide fitness-for-service assessments of that kind."
+      ]
+    },
+    {
+      "id": "edmonton-feeds",
+      "h": "Bitumen-derived feeds and long run lengths",
+      "p": [
+        "Heartland refineries and the upgrader process crude that begins in the oil sands: diluted bitumen, synthetic crude from upgrading and blends of both with conventional barrels. Sulfur drives high-temperature sulfidation in crude, vacuum and coker circuits. Where a blend carries organic acids, naphthenic acid corrosion can concentrate at velocity-sensitive points such as transfer lines, furnace outlets and pump casings. Nitrogen and chlorides end up in hydroprocessing effluent, where ammonium bisulfide and ammonium chloride attack air coolers and their headers. Hydroprocessing and upgrading at high hydrogen partial pressure add high-temperature hydrogen attack, which is screened against API RP 941 using actual operating temperature and hydrogen partial pressure.",
+        "Run lengths raise the stakes. Imperial has reported that the main crude unit at Strathcona reached a ten-year run before its 2026 turnaround. When units run that long between shutdowns, most of the inspection a plan relies on has to happen on-stream, and the operating windows that hold corrosion rates inside the model's assumptions matter as much as the inspection does. A plan for a Heartland unit therefore lists the crude properties and operating limits it was built on and treats a sustained excursion as a reason to reassess, not as an item to review at the next turnaround."
+      ]
+    },
+    {
+      "id": "heartland-petchem-ngl",
+      "h": "Crackers, polypropylene, fertiliser and NGL",
+      "p": [
+        "The petrochemical plants bring a different set of mechanisms. Ethylene furnace tubes carry creep and carburisation, caustic wash towers carry caustic stress corrosion cracking, and the cold end of a cracker runs at temperatures where material toughness, rather than corrosion, sets the risk. A propane dehydrogenation unit adds hot reactors and repeated regeneration cycles, which bring thermal fatigue, and polymer plants have reactor and extrusion systems that refinery templates do not describe. Fertiliser production adds ammonia stress corrosion cracking in carbon steel storage, which depends on oxygen contamination and water content, and hydrogen and nitriding damage in the synthesis loop.",
+        "NGL fractionation brings auto-refrigeration and cold service, wet hydrogen sulfide where sour feed is treated, and caustic treating. The salt caverns themselves sit outside a vessel and piping study, but the brine systems, wellhead piping and surface vessels around them do not. Each plant type keeps its own corrosion loops, so that an assumption made for a refinery unit is not carried into a chemical or cold-service unit by default."
+      ]
+    },
+    {
+      "id": "absa-owner-user",
+      "h": "Fitting the study into an ABSA-accepted system",
+      "p": [
+        "In Alberta an RBI study becomes part of a system ABSA already audits. The owner-user's pressure equipment integrity management system, written to AB-512 and, since October 2025, to the AB-512H requirements harmonised with Saskatchewan and Manitoba, has to describe how inspection intervals are set, approved and changed. AB-506 states the inspection and servicing requirements those intervals must respect, and ABSA has its own requirements for risk-based inspection programmes. A study that cannot be read against those documents becomes a weakness at audit, however sound its engineering.",
+        "The method, the register and the change triggers are therefore delivered in a form the owner-user can adopt as controlled procedures. The method statement names the RBI approach, the risk matrix and the targets set by the owner's management, and the rules for crediting past inspection. The register shows each item's mechanisms, risk and plan. The triggers state what reopens an assessment: an operating window excursion, a new inspection finding, a crude slate or process change, a repair or alteration, or the scheduled review date. With those in place, the in-service inspector has a basis for accepting each interval and an auditor has a trail to follow."
+      ]
+    },
+    {
+      "id": "heartland-windows",
+      "h": "Turnaround windows and winter work",
+      "p": [
+        "Major Heartland shutdowns tend to avoid the depth of winter. Imperial scheduled its 2026 Strathcona turnaround for the second quarter, and spring, summer and autumn are when most internal inspections, exchanger bundle pulls and tank entries are planned in the region. Work that cannot wait, such as on-stream thickness surveys and external visual inspection, continues through the cold months under hoarding and heat, using procedures written for low temperature.",
+        "An RBI plan should reflect that calendar. Due dates are aligned to the owner's turnaround cycle, and each task is tagged as on-stream, shutdown or seasonal. External CUI inspection that needs insulation stripped is steered towards warmer months where the risk allows it. The plan also notes where cold limits a method: penetrant and magnetic particle procedures carry minimum surface temperatures, ultrasonic thickness readings need temperature correction, and couplants and batteries behave differently at minus thirty. A task that cannot be done to the effectiveness the model credited should not be recorded as if it had been."
+      ]
+    },
+    {
+      "id": "edmonton-remote",
+      "h": "How the study runs from Houston and Hyderabad",
+      "p": [
+        "Everything starts with documents. A shared data room receives P&IDs and PFDs, heat and material balances, datasheets with manufacturer's data reports or registration records, inspection and thickness history, historian extracts for temperature and process chemistry, and the integrity operating windows in force. The first output is a data-gap log, so the plant can decide early which gaps it will fill and which the model will cover with conservative assumptions.",
+        "Corrosion loops and damage mechanisms are built with your process, operations, corrosion and inspection specialists in video workshops held in Mountain time. Houston is one hour ahead of Edmonton and Hyderabad roughly twelve hours ahead, so analysis and drafting can carry on while the plant is closed. Risk is calculated at the level the scope calls for, from qualitative screening through semi-quantitative ranking to a quantitative assessment to API RP 581, or under the owner's corporate RBI standard, and every item receives a plan stating method, coverage, expected effectiveness and due date.",
+        "Nobody from Atlantis needs to travel to Alberta for the study, and Atlantis does not send field crews to Canadian sites. Walkdowns, insulation condition checks and any extra thickness readings are carried out by the owner's inspectors or by the integrity assessment organisation the owner already uses, working from a verification list that says what to look at, where and to what coverage."
+      ]
+    },
+    {
+      "id": "edmonton-approval",
+      "h": "What the in-service inspector decides",
+      "p": [
+        "The plan is a recommendation with its basis written down. Accepting an interval belongs to the in-service pressure equipment inspector certified under AB-526, working inside the owner-user's accepted system, or to an ABSA safety codes officer where ABSA inspects directly. Atlantis does not act as inspector of record and does not certify inspections in Alberta. When inspection under the plan turns up something new, the result goes back into the register, the affected items are reassessed and their next due dates move with the evidence."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API RP 584 (integrity operating windows)",
+    "API RP 941 (steels for hydrogen service)",
+    "API 510 and API 570",
+    "ABSA AB-506, AB-512H and AB-526",
+    "CSA B51 (boiler, pressure vessel and pressure piping code)"
+  ],
+  "deliverables": [
+    "RBI register with corrosion loops, damage mechanisms, probability, consequence and risk for each item",
+    "Inspection plan per item with method, coverage, expected effectiveness, due date and season",
+    "Cold-climate CUI ranking and brittle fracture screening with recommended operating limits",
+    "Crude property and operating window assumptions recorded per corrosion loop",
+    "Data-gap log and verification list for the owner's inspectors",
+    "Method statement and change triggers ready to adopt into an ABSA-accepted integrity management system"
+  ],
+  "industries": [
+    "Crude refining",
+    "Bitumen upgrading",
+    "Olefins and polymers",
+    "Nitrogen fertiliser",
+    "NGL fractionation and storage",
+    "Crude and product terminals"
+  ],
+  "faqs": [
+    { "q": "Does ABSA have to accept our RBI programme before intervals change?", "a": "RBI-based intervals in Alberta sit inside the owner-user's ABSA-accepted integrity management system, so the programme has to meet ABSA's requirements and is covered by ABSA's audit of that system. In practice the method, the risk targets and the change rules are written as procedures before the first extended interval is relied on. Confirm the current expectation with ABSA, particularly where part of the analysis is carried out by an outside firm." },
+    { "q": "How does the study handle CUI on equipment that freezes and thaws?", "a": "It ranks CUI on operating history rather than design temperature: how often the equipment cycles through freezing or stands idle, what insulation and jacketing it has, whether it is traced and when the insulation was last replaced. Screening techniques are credited only for what they can detect, and the plan directs insulation removal to the locations where the evidence says corrosion is most likely." },
+    { "q": "Can an RBI study deal with brittle fracture risk in winter?", "a": "It can screen for it. Each item is checked using its material, impact test, thickness and post-weld heat treatment records against the lowest metal temperature it could see, including depressurisation of light hydrocarbons. Susceptible items usually need an operating limit, such as a minimum pressurisation temperature, more than they need extra inspection, and any detailed toughness evaluation goes to the owner's engineer." },
+    { "q": "We are changing our crude slate. Does the RBI model need redoing?", "a": "Not all of it, but the affected corrosion loops do. The study records the sulfur, acid and chloride assumptions behind each high-temperature and hydroprocessing loop, so a change in bitumen blend or synthetic crude share can be checked against them. Loops whose assumptions no longer hold are reassessed and given new due dates, while the rest of the register stands." },
+    { "q": "Can one study cover refinery, petrochemical and NGL assets?", "a": "Yes, provided each plant type keeps its own corrosion loops and damage mechanisms. Owners with refinery units, a cracker or a fractionator on one site often want a single register and risk matrix. That works well as long as chemical and cold-service mechanisms are assessed on their own terms rather than pushed through a refinery template." },
+    { "q": "Will anyone from Atlantis come to our Heartland site?", "a": "No. The study is delivered remotely from your documents, historian data and video workshops, and Atlantis does not send field crews to Canadian sites. Your inspectors, or the integrity assessment organisation you already work with, carry out the walkdowns and any readings the data-gap log calls for, and the results are loaded into the register." },
+    { "q": "How do workshops fit around our shifts and turnarounds?", "a": "Workshops are booked in Mountain time around the plant's own calendar and kept short enough that operations and inspection staff can attend without leaving a shift uncovered. During turnaround preparation the order of work follows the planning team's priorities, so the units coming down first are assessed first." },
+    { "q": "Who signs the inspection intervals?", "a": "The in-service pressure equipment inspector recognised under ABSA's requirements, or an ABSA safety codes officer where ABSA inspects. The study proposes intervals and tasks and shows the reasoning behind each one; it does not approve them, and it does not replace the owner-user's own accountability for the programme." }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/hardisty", "RBI for the Hardisty crude terminals"],
+    ["/inspection/risk-based-inspection/sarnia", "RBI in Sarnia's Chemical Valley"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit readiness"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/standards/api-584", "API 584 integrity operating windows"],
+    ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+    ["/consulting/api-510-pressure-vessel-inspector-services", "API 510 pressure vessel inspection support"],
+    ["/tools/api-inspection-interval-calculator", "API inspection interval calculator"]
+  ],
+  "sources": [
+    { "fact": "Imperial Strathcona refinery 197,000 b/d near Edmonton; full turnaround Q2 2026 focused on main crude unit, which reached its longest-ever run length of 10 years; Sarnia 124,000 b/d turnaround Q3/Q4 2026", "url": "https://ogj.com/refining-processing/refining/operations/news/55338848/imperial-plans-2026-turnarounds-at-two-canadian-refineries" },
+    { "fact": "Scotford refinery and chemicals plants 100% Shell-owned; Scotford upgrader and Quest CCS next to them near Edmonton, operated by Shell (2025 transaction)", "url": "https://boereport.com/2025/01/29/shell-increases-interest-in-scotford-upgrader-and-quest-ccs-facility-and-fully-exits-oil-sands/" },
+    { "fact": "Sturgeon refinery owned/operated by North West Redwater Partnership, a venture of Canadian Natural and North West Refining; bitumen to diesel", "url": "https://en.wikipedia.org/wiki/Sturgeon_Refinery" },
+    { "fact": "Suncor Edmonton and Imperial Strathcona on Edmonton's eastern edge; Scotford, Sturgeon, Dow Fort Saskatchewan, Heartland Petrochemical Complex, Redwater nitrogen fertiliser, NGL fractionation and storage around Fort Saskatchewan; Trans Mountain starts at its Edmonton terminal; Enbridge mainline runs east (already on the site)", "url": "https://atlantisndt.com/inspection-services-alberta" },
+    { "fact": "AB-512H harmonised pressure equipment integrity management requirements for Alberta, Saskatchewan and Manitoba", "url": "https://gov.mb.ca/asset_library/en/labour/docs/its/its-25-008-ab-512h-harmonized-requirements-for-piem.pdf" },
+    { "fact": "ABSA AB-506 Inspection and Servicing Requirements for Pressure Equipment; ABSA references API 510, 570 and RP 580 and adds its own requirements", "url": "https://inspectioneering.com/journal/2008-05-01/200/alberta-boiler-safety-associat" },
+    { "fact": "ABSA has published requirements for RBI programmes for pressure equipment (2001), covered by owner-user audit", "url": "https://inspectioneering.com/journal/2002-11-01/361/canadian-province-issues-minim" }
+  ]
+}

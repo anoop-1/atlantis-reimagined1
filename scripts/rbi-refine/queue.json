@@ -1,0 +1,13 @@
+{
+  "_note": "Work order for the daily RBI runs (owner 2026-11-23: USA, Middle East and Canada first, then Singapore, India, China, Malaysia; Russia and Venezuela are left out). Every slug must be in src/data/rbi-section/list.json. Countries before their hubs; next.mjs skips a hub until its country page exists.",
+  "order": [
+    "baton-rouge", "cushing", "new-york-harbor", "philadelphia", "los-angeles", "chicago",
+    "edmonton", "hardisty", "sarnia", "saint-john",
+    "saudi-arabia", "united-arab-emirates", "qatar", "kuwait",
+    "singapore", "india", "china", "malaysia",
+    "oman", "bahrain", "iraq",
+    "ras-tanura", "jubail", "fujairah", "jebel-ali", "ruwais", "ras-laffan", "yanbu", "ahmadi",
+    "jurong-island", "jamnagar", "pengerang", "zhoushan", "ningbo", "huizhou", "paradip", "mangaluru", "visakhapatnam",
+    "sohar", "duqm", "sitra", "basra"
+  ]
+}

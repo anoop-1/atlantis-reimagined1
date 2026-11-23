@@ -88,6 +88,22 @@
       "links": [["/api-inspection/nde-method-selection-by-damage-mechanism", "NDE method selection by damage mechanism"]]
     },
     {
+      "id": "worked-example",
+      "h": "A worked example: one crude unit overhead loop",
+      "p": [
+        "A crude unit overhead system shows how a loop sheet reads in practice. The loop runs from the top of the atmospheric column through the overhead lines and condensers to the reflux drum, mostly in carbon steel, with alloy tubes in some exchangers. The process engineer supplies the overhead temperature profile, the wash water and neutraliser arrangements and the chloride and pH results from the drum boot water; operators add how steady the desalter has been and how often the wash water pumps trip. The resulting sheet reads like this:"
+      ],
+      "list": [
+        "Credible: hydrochloric acid corrosion where the first water condenses, because chlorides carried over from the crude form acid in that first condensate.",
+        "Credible: ammonium chloride salt deposition and under-deposit corrosion upstream of the water dew point, where salts can form from ammonia and hydrogen chloride in the vapour.",
+        "Credible where hydrogen sulfide is present in the condensed water: wet hydrogen sulfide damage in the reflux drum and its boot.",
+        "Credible at exchanger inlets and downstream of the wash water injection: erosion-corrosion and localised attack.",
+        "Excluded: sulfidation and creep, because the overhead runs far below the temperatures at which they act, with that reason written on the sheet.",
+        "Operating windows proposed: overhead temperature margin above the salt formation point, boot water chloride and pH, and wash water rate.",
+        "Inspection guidance: scanning rather than spot readings at elbows and in the injection zone, tube inspection of the condensers, and crack detection in the drum where wet sulfide damage is credible."
+      ]
+    },
+    {
       "id": "common-errors",
       "h": "Errors that undermine a damage mechanism review",
       "p": [
@@ -144,7 +160,8 @@
     { "q": "Who should attend damage mechanism workshops?", "a": "The unit process engineer, a corrosion or materials specialist, the inspection lead and an experienced operator as a minimum, with maintenance joining for units where repairs have changed materials. Operators matter because they know about upsets, bypasses and intermittent problems that never appear in design documents or in the operating envelope." },
     { "q": "Can a damage mechanism review be carried out remotely?", "a": "Yes. Drawings, process data and history are shared through a data room, draft loop markups are prepared in advance, and workshops run by video with the people who know the unit. Field questions go to your inspectors with a checklist. In the United States, Atlantis can also gather thickness and surface examination evidence with its own technicians." },
     { "q": "How often should the review be updated?", "a": "Whenever the plant changes in a way that could alter damage: a new feed or crude slate, a new injection chemical, changed operating temperature or pressure, metallurgy changes from repairs, an unexplained finding, or recurring operating window exceedances. It should also be reconfirmed at each scheduled RBI reassessment." },
-    { "q": "What happens to mechanisms that are ruled out?", "a": "They are recorded on the loop sheet with the reason for exclusion, such as material not susceptible, temperature below the threshold or no water phase. That record lets a later review see what was considered and spot when a change of conditions means a previously excluded mechanism must be reconsidered." }
+    { "q": "What happens to mechanisms that are ruled out?", "a": "They are recorded on the loop sheet with the reason for exclusion, such as material not susceptible, temperature below the threshold or no water phase. That record lets a later review see what was considered and spot when a change of conditions means a previously excluded mechanism must be reconsidered." },
+    { "q": "Is a damage mechanism review the same as a corrosion study?", "a": "Not quite. A corrosion study usually predicts rates and recommends materials for a design or a process change. A damage mechanism review takes the plant as built and operated and lists every way each loop can degrade, including cracking, high-temperature and mechanical mechanisms that no corrosion rate captures, so that inspection can be planned against each one. A good review uses corrosion study results where they exist and records where each one came from." }
   ],
   "related": [
     ["/inspection/risk-based-inspection", "Risk-based inspection services"],
