@@ -93,7 +93,7 @@
    "p": [
     "TOFD has two blind regions. Near the scanning surface, signals from shallow flaws are hidden within the lateral wave, so a dead zone extends some distance into the material, its depth depending on frequency, pulse length and probe spacing. Near the back wall, flaws away from the centreline between the probes can be masked by the back-wall echo. Every competent TOFD procedure says how these zones are covered.",
     "The usual answers are a complementary pulse-echo or phased array examination aimed at the surface regions, additional TOFD scans offset from the weld centreline, or a different probe arrangement for the near-surface band. Our review checks that the procedure named a method, that the complementary data exist for the same welds, that their coverage actually reaches the dead-zone depths stated, and that indications found by the complementary scans were evaluated against the same acceptance criteria.",
-    "A TOFD-only report on a thin-wall weld, with no complementary data and no statement of the dead zone, is one of the most common findings we make. It does not mean the weld is defective. It means the report cannot show that a near-surface flaw was looked for."
+    "A TOFD-only report on a thin-wall weld, with no complementary data and no statement of the dead zone, is one of the most common gaps in TOFD reporting. It does not mean the weld is defective. It means the report cannot show that a near-surface flaw was looked for."
    ]
   },
   {

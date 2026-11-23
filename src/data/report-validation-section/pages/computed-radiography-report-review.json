@@ -23,7 +23,7 @@
    "h": "How a CR image is made, and the trail each step leaves",
    "p": [
     "A CR imaging plate carries a layer of photostimulable phosphor. Radiation passing through the part traps electrons in the phosphor and forms a latent image. In the scanner, a laser releases that stored energy as light, a photomultiplier converts the light to an electrical signal, and the signal becomes a grey value for each pixel. The plate is then flooded with bright light to erase it, ready for the next exposure.",
-    "That sequence explains most of what goes wrong. The latent image is stable for hours but fades with time, so a long delay between exposure and scan costs signal. A plate that was not fully erased can carry a ghost of the previous shot. Plates stored near radiation sources can pick up a background image. Pixel size depends on how fast the plate moves through the scanner and how often the signal is sampled, so the scan settings decide the finest detail the image can hold, whatever the exposure.",
+    "That sequence explains most of what goes wrong. The latent image is stable for hours but fades with time, so a long delay between exposure and scan loses signal. A plate that was not fully erased can carry a ghost of the previous shot. Plates stored near radiation sources can pick up a background image. Pixel size depends on how fast the plate moves through the scanner and how often the signal is sampled, so the scan settings decide the finest detail the image can hold, whatever the exposure.",
     "A good CR report captures enough of this trail for someone else to follow it: which plate, which scanner, which settings, when the plate was scanned, what processing was applied and which file the reported image came from. A weak report shows a picture and a verdict. Our review measures the distance between the two."
    ]
   },
@@ -71,7 +71,7 @@
      ],
      [
       "ASTM E2002",
-      "Total image unsharpness and basic spatial resolution",
+      "Image unsharpness and basic spatial resolution",
       "Duplex wire measurement and how basic spatial resolution was derived"
      ],
      [
@@ -113,8 +113,8 @@
   {
    "h": "Image quality on the production image",
    "p": [
-    "IQI sensitivity remains the headline figure in most CR reports, but on its own it can mislead. A wire or hole can be visible in a region of low noise while the weld, under a heavier section or a less favourable exposure, carries far more. That is why procedures written to the current CR practices also ask for a signal-to-noise measure, normalized to the basic spatial resolution, and for the basic spatial resolution itself to be measured with a duplex wire indicator.",
-    "Underexposure is the CR failure we meet most often. Phosphor plates tolerate a wide exposure range, so an underexposed image still looks like a picture once software has stretched its contrast. The penalty is noise: fine wires and small rounded indications sink into it. A measured SNR in the weld region is the way to show that the exposure was adequate, and its absence from a report is a gap we record even when the IQI appears satisfactory.",
+    "IQI sensitivity remains the headline figure in most CR reports, but on its own it can mislead. A wire or hole can be visible in a region of low noise while the weld, under a heavier section or a less favourable exposure, carries far more. That is why ISO 17636-2 sets a minimum normalized signal-to-noise ratio alongside the IQI and uses a duplex wire indicator for basic spatial resolution, and why many CR procedures written for ASME or ASTM work add a measured SNR in the weld region as well.",
+    "Underexposure is among the commonest CR failures. Phosphor plates tolerate a wide exposure range, so an underexposed image still looks like a picture once software has stretched its contrast. The penalty is noise: fine wires and small rounded indications sink into it. A measured SNR in the weld region is the way to show that the exposure was adequate, and its absence from a report is a gap we record even when the IQI appears satisfactory.",
     "CR plates also vary in their intrinsic resolution, and some plate types used for speed in field work cannot match film for fine detail without geometric magnification. The technique sheet should show why the plate type, distances and pixel size chosen were enough for the thickness and the smallest flaw the acceptance criteria require to be detected."
    ]
   },
@@ -214,12 +214,15 @@
   ]
  ],
  "sources": [
-  "https://cdn.standards.iteh.ai/samples/115531/d87f662b437c4fe0b493840a0f367b9b/ASTM-E2007-10-2023-.pdf",
-  "https://webstore.ansi.org/standards/astm/astme2033e2033m24",
-  "https://store.astm.org/e2033-17.html",
-  "https://webstore.ansi.org/standards/astm/astme2445e2445m20",
-  "https://store.astm.org/e2446-24.html",
-  "https://www.iso.org/standard/78320.html",
-  "https://www.nrc.gov/reading-rm/doc-collections/cfr/part034"
+   "https://cdn.standards.iteh.ai/samples/115531/d87f662b437c4fe0b493840a0f367b9b/ASTM-E2007-10-2023-.pdf",
+   "https://webstore.ansi.org/standards/astm/astme2033e2033m24",
+   "https://store.astm.org/e2033-17.html",
+   "https://webstore.ansi.org/standards/astm/astme2445e2445m20",
+   "https://store.astm.org/e2446-24.html",
+   "https://www.iso.org/standard/78320.html",
+   "https://www.nrc.gov/reading-rm/doc-collections/cfr/part034",
+   "https://store.astm.org/e2002-22.html",
+   "https://store.astm.org/e2339-21.html",
+   "https://webstore.ansi.org/preview-pages/ISO/preview_ISO+17636-2-2022.pdf"
  ]
 }

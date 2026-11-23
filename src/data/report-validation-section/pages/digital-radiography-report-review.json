@@ -66,7 +66,7 @@
      ],
      [
       "ASTM E2002",
-      "Determining total image unsharpness and basic spatial resolution",
+      "Determining image unsharpness and basic spatial resolution",
       "How the basic spatial resolution reported was measured, and on which image"
      ],
      [
@@ -85,7 +85,7 @@
   {
    "h": "System qualification and the long-term stability record",
    "p": [
-    "Under ASTM E2698 a user cannot simply take a detector out of its case and start production work. The practice expects a written procedure approved by the cognizant Level 3 and a system qualification report showing that the particular detector, source and software combination achieves the required image quality. E2737 then supplies the baseline and periodic tests that show the system has not drifted. Those two records are often the first things missing when we ask for supporting documents.",
+    "Under ASTM E2698 a user cannot simply take a detector out of its case and start production work. The practice expects a written procedure approved by the cognizant Level 3 and a system qualification report showing that the particular detector, source and software combination achieves the required image quality. E2737 then supplies the baseline and periodic tests that show the system has not drifted. Those two records are often the first things missing from a package of supporting documents.",
     "We read the qualification report against the work actually done. A qualification carried out on thin plate at modest voltage does not cover a thick-wall girth weld shot at much higher energy. A system qualified with one software version may behave differently after an upgrade. We note the detector serial number, the acquisition software and the energy range qualified, and compare them with the image headers and the technique sheet.",
     "The stability record matters for a different reason. A DDA can lose pixels, change its offset behaviour or develop lag as it ages or after it is dropped. If the periodic check before the examination was overdue, or if the detector failed a check and was repaired without a fresh baseline, every image taken in that period carries a question mark. The written opinion says so, and says whether later checks narrow the doubt."
    ]
@@ -210,13 +210,16 @@
   ]
  ],
  "sources": [
-  "https://store.astm.org/e2698-26.html",
-  "https://newsroom.astm.org/newsroom-articles/new-astm-nondestructive-testing-standards-will-aid-users-use-digital-detector",
-  "https://store.astm.org/e2597_e2597m-22.html",
-  "https://store.astm.org/e2736-17r22.html",
-  "https://webstore.ansi.org/standards/astm/astme273723",
-  "https://cdn.standards.iteh.ai/samples/115531/d87f662b437c4fe0b493840a0f367b9b/ASTM-E2007-10-2023-.pdf",
-  "https://www.iso.org/standard/78320.html",
-  "https://www.nrc.gov/reading-rm/doc-collections/cfr/part034"
+   "https://store.astm.org/e2698-26.html",
+   "https://newsroom.astm.org/newsroom-articles/new-astm-nondestructive-testing-standards-will-aid-users-use-digital-detector",
+   "https://store.astm.org/e2597_e2597m-22.html",
+   "https://store.astm.org/e2736-17r22.html",
+   "https://webstore.ansi.org/standards/astm/astme273723",
+   "https://cdn.standards.iteh.ai/samples/115531/d87f662b437c4fe0b493840a0f367b9b/ASTM-E2007-10-2023-.pdf",
+   "https://www.iso.org/standard/78320.html",
+   "https://www.nrc.gov/reading-rm/doc-collections/cfr/part034",
+   "https://store.astm.org/e2002-22.html",
+   "https://store.astm.org/e2339-21.html",
+   "https://webstore.ansi.org/preview-pages/ISO/preview_ISO+17636-2-2022.pdf"
  ]
 }
