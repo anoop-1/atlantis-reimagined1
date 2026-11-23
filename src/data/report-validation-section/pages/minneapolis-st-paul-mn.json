@@ -1,0 +1,154 @@
+{
+  "title": "Twin Cities NDT Report Validation | Minneapolis–St. Paul, MN",
+  "description": "Independent review of NDT reports and digital inspection data from Twin Cities refineries, crude oil pipelines and Xcel Energy nuclear plants, done remotely.",
+  "h1": "Independent NDT report and inspection data review for Twin Cities refineries, pipelines and nuclear plants",
+  "eyebrow": "Report validation: Minneapolis–St. Paul",
+  "intro": "Almost every barrel of crude refined in the Twin Cities arrives through the same pipeline system, is processed at one of two refineries south and east of St. Paul, and shares the region with two nuclear plants that are planning for operation into the 2050s. One of those refineries is being sold. That chain produces girth weld records, turnaround packages, aging management data and acquisition data rooms, and each of them needs a reader who can say what the evidence supports. We review NDT reports and the digital inspection data behind them independently, against the procedure and the code that governed the work, and we do it remotely from the files you send.",
+  "highlights": [
+    {
+      "h": "A sale in progress",
+      "p": "Marathon has agreed to sell the St. Paul Park refinery to CVR Energy. Transactions like this put inspection history in front of new readers, and an independent review tells them how much of it holds up."
+    },
+    {
+      "h": "Minnesota's own pipeline office",
+      "p": "Intrastate gas and hazardous liquid lines in Minnesota answer to the state's Office of Pipeline Safety, which also inspects interstate lines as PHMSA's agent. Pipeline records are read with that regulator in mind."
+    },
+    {
+      "h": "Records written in winter",
+      "p": "Cold-weather examinations raise questions about couplant, temperature correction and qualified penetrant ranges. The reviewer checks that the record shows the conditions the procedure needed."
+    }
+  ],
+  "sections": [
+    {
+      "h": "One crude system, two refineries, two reactors",
+      "p": [
+        "The Minnesota Pipe Line system starts at Clearbrook in the northwest of the state and runs four pipelines carrying crude from Canada and North Dakota to the refineries at St. Paul Park and Rosemount. Flint Hills Resources operates and maintains it. At the Rosemount end, Flint Hills' Pine Bend refinery has a crude capacity of about 375,000 barrels per day and supplies a large share of the gasoline and diesel used in Minnesota. At St. Paul Park, Marathon Petroleum's refinery runs about 105,000 barrels per day; in November 2026 Marathon and MPLX agreed to sell it, together with the Mandan refinery in North Dakota and related midstream assets, to CVR Energy, with closing expected by the end of 2026 subject to regulatory clearance.",
+        "Xcel Energy operates both of the state's nuclear plants. Monticello, on the Mississippi about 40 miles northwest of Minneapolis, had its operating licence renewed by the NRC on December 30, 2024, to run until September 2050. Prairie Island, in Goodhue County near Red Wing, has two units producing about 1,100 megawatts combined; their current licences expire in 2033 and 2034, the Minnesota Public Utilities Commission approved extending operation into the early 2050s in August 2025, and Xcel planned to apply to the NRC in 2026 for 20-year licence renewals.",
+        "Independent report reviews here are commissioned by refinery inspection and reliability groups, pipeline integrity engineers, contractors answering a rejection, buyers and lenders reading a data room, and suppliers whose records have to satisfy a nuclear licensee. The companies named on this page describe where the region's records come from; naming them does not mean we have reviewed their records or worked for them."
+      ]
+    },
+    {
+      "h": "A refinery sale and the inspection data room",
+      "p": [
+        "When a refinery changes hands, the buyer's engineers get a few weeks with a data room that holds years of inspection history: vessel and piping reports, thickness databases, exchanger tube data, open recommendations, repair records and the inspection plans that tie them together. The seller's people know which parts of that history are solid. The buyer usually does not, and the purchase agreement may be signed before the buyer's own inspectors set foot in the plant.",
+        "A data room review is a reading of records, not a condition assessment of the plant. We agree a sample with the buyer's team, weighted toward high-consequence circuits, equipment with open recommendations, recent repairs and anything inspected with a technique that changed between outages. Each sampled report goes through the seven checks: procedure, personnel on the date of work, equipment and calibration, technique, acceptance criteria, interpretation and sizing, and traceability. The opinion tells the buyer which parts of the history can carry its own inspection planning after closing and where the gaps are large enough to justify re-examination early in its ownership.",
+        "Sellers use the same review from the other side, to find and close documentation gaps before a buyer's advisers find them. Either way the reviewer works for the party that engaged it and has no stake in whether the deal closes."
+      ]
+    },
+    {
+      "h": "Turnaround records at refinery scale",
+      "p": [
+        "A refinery the size of Pine Bend closes a turnaround with reports from several inspection contractors at once, each using its own templates and digital reporting platform, and the owner's inspectors have days to decide what can go back into service. Independent review earns its place in that window only if it is targeted, so the sample is built around risk: rejectable and borderline findings, repairs, circuits whose damage mechanism is actively progressing, and packages from contractors new to the site.",
+        "The findings that come out of turnaround reviews are mostly about traceability. Readings filed against CML numbers that the owner's database no longer uses, phased array scans saved without the setup file that produced them, repair weld examinations that cite the original weld's procedure, calibration certificates for instruments that left site before the work they supposedly covered. The opinion classes each finding as a documentation gap or as a doubt about the disposition, so the owner knows which items are paperwork and which need an engineer."
+      ]
+    },
+    {
+      "h": "Crude lines from Clearbrook and the state's pipeline office",
+      "p": [
+        "Minnesota runs its own pipeline safety office within the Department of Public Safety. The Office of Pipeline Safety regulates intrastate natural gas and hazardous liquid operators, covering gas distribution, liquefied propane gas, LNG plants, underground storage and hazardous liquid lines, and it inspects and investigates interstate pipeline companies as an agent of PHMSA. PHMSA's Central Region, which covers Minnesota among eleven states, keeps federal enforcement authority on the interstate side. A Minnesota pipeline record can therefore have a state inspector as its first reader even when the line crosses a state border.",
+        "The records that reach review are girth weld radiographs and DR images from licensed contractors, automated ultrasonic girth weld data on new construction, dig reports that combine coating condition, pit depths and wall measurements, and station piping thickness surveys. The reviewer checks image quality evidence, the link from each image or data file to a weld on the alignment sheet, the acceptance standard applied, and whether dig measurements were taken with calibrated instruments at locations that can be found again. Calculating the remaining strength of corroded pipe stays with the operator's engineer; the review tells that engineer whether the measurements underneath the calculation can be trusted."
+      ]
+    },
+    {
+      "h": "Monticello and Prairie Island: records for decades more operation",
+      "p": [
+        "Licence renewal and long-term operation put heavy weight on inspection records. An aging management program is only as good as the examinations that feed it, and a plant expecting to run into the 2050s needs those examinations to be trendable over decades, across changes of contractor, equipment and procedure. Both Xcel plants fall under NRC Region III, which works from Chicago.",
+        "Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list. Our nuclear work is framed as an independent technical opinion, and the licensee's QA organisation decides whether and how it is used: a second reader on non-safety-related or balance-of-plant scope, oversight of a vendor's examination records before shipment, a check on a contractor's interpretation that station reviewers question, or technical input to a commercial dispute.",
+        "For ultrasonic, penetrant and visual records the review checks the procedure revision the purchase order invoked, examiner certification and any performance demonstration the code required, calibration block traceability to the component's material and thickness, and the disposition of every recorded indication against the acceptance standard the order named. Eddy current data from heat exchanger tubes is not covered by our Level III's certification, so for that scope the proposal names a reviewer with the certification the contract calls for."
+      ]
+    },
+    {
+      "h": "Winter work and what it does to a record",
+      "p": [
+        "Minnesota turnarounds, outages and pipeline digs do not all happen in mild weather, and cold conditions leave marks on an NDT record that a reviewer looks for. None of them makes an examination invalid by itself. Each one is a point where the procedure should have said something and the report should show that it was followed.",
+        "Ultrasonic sound velocity changes with material temperature, so thickness readings taken well away from the temperature of calibration need either a calibration at temperature or a documented correction. Couplants behave differently in the cold, and the report should name the one used. Penetrant procedures qualify a temperature range for the examination surface; work outside it needs a procedure qualified for those conditions, and the report should record the surface temperature. Magnetic particle examinations on cold, wet or frosted surfaces raise questions about surface preparation and particle mobility. Instruments taken from a heated truck to a frozen pipe rack drift, which is why the calibration checks recorded before and after the work matter as much as the readings between them."
+      ]
+    },
+    {
+      "h": "Who reads a Minnesota inspection record",
+      "p": [
+        "A complete record anticipates its readers. In Minnesota several of them come from state agencies rather than federal ones, and each looks for something different."
+      ],
+      "table": {
+        "head": ["Reader", "Authority", "What the record must show that reader"],
+        "rows": [
+          ["Minnesota OSHA", "Minnesota Rules adopt 29 CFR Part 1910 by reference, including the process safety management standard", "Mechanical integrity records with the date, the examiner, the equipment, the test and the result for covered processes"],
+          ["Department of Labor and Industry boiler program", "Minnesota Statutes chapter 326B", "Inspections by National Board commissioned inspectors who hold a Minnesota certificate of competency, whether state boiler inspectors or insurance company boiler inspectors"],
+          ["Office of Pipeline Safety and PHMSA", "Federal pipeline safety standards adopted by the state; PHMSA Central Region for federal enforcement", "Girth weld, dig and integrity records tied to the alignment sheet and the operator's procedures"],
+          ["Minnesota Department of Health", "Minnesota is an NRC Agreement State; the department runs the radioactive materials program", "For radiography, a licensed contractor whose images and interpretation the owner can rely on"],
+          ["NRC Region III and the licensee's QA organisation", "10 CFR Part 50 and the licensee's quality assurance program", "Examinations traceable to the purchase order, the procedure, qualified personnel and calibrated equipment"]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data across the Twin Cities chain",
+      "p": [
+        "Every link in the regional chain now records its inspection work digitally. Pipeline contractors deliver digital radiography and automated ultrasonic data with their own viewing software, refineries keep thickness and corrosion data in inspection data management systems, nuclear vendors issue examination packages through digital reporting platforms, and nearly everyone signs electronically. In a sale, all of it moves again into a data room and then into the buyer's systems.",
+        "A digital inspection review follows a result back to the file that produced it. We confirm the raw file exists and matches the report, check that a DR image's processing history is what the procedure permits, re-gate phased array indications to see whether the reported sizes reproduce, confirm that thickness imports landed on the right CML, and check that each electronic signature belongs to someone certified for that method and level on the date shown. When records have passed through a data room, we also check that what the buyer received is complete: an index that lists raw files the data room never contained is a finding in its own right."
+      ]
+    },
+    {
+      "h": "How the review runs from the Twin Cities",
+      "p": [
+        "Atlantis has no Minnesota staff or premises. The review is done remotely by reviewers working from Houston and Hyderabad, on the reports and raw data you send through secure transfer, so it starts when the files arrive rather than when someone can travel.",
+        "You describe the report, the method, the code and the decision riding on it, through the form or at info@atlantisndt.com, and we reply within one business day with the review scope, the named reviewer and a quote. The reviewer who signs off on ultrasonic, radiographic, magnetic particle, penetrant and visual records holds ASNT NDT Level III certification in each of those five methods, and the wider review team draws its members from nuclear, maritime, oil and gas and petrochemical work.",
+        "Each report receives one of three verdicts: sound, deficient in documentation only, or deficient in disposition. Remaining-life and fitness-for-service assessments stay with your engineer, acceptance of boilers and vessels stays with the commissioned inspector, and personnel certification stays with the employer under its written practice."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "We are a buyer or lender in a Minnesota refinery transaction. What can a review of the data room tell us?",
+      "a": "It tells you how much of the inspection history can support your own decisions after closing. We review a sample weighted toward high-consequence circuits, open recommendations and recent repairs, and the opinion separates documentation gaps from findings that undermine the recorded condition."
+    },
+    {
+      "q": "Can you review girth weld records for a Minnesota pipeline project?",
+      "a": "Yes. We review radiographs, DR images and automated ultrasonic data for image quality, coverage and interpretation, and check that each weld ties to the alignment sheet and the acceptance standard in the operator's procedures. Atlantis does not take radiographs in Minnesota; the review covers images your licensed contractor produced."
+    },
+    {
+      "q": "Who regulates pipelines in Minnesota for the purposes of a record review?",
+      "a": "Intrastate gas and hazardous liquid lines answer to the Minnesota Office of Pipeline Safety, which also inspects interstate lines as PHMSA's agent, while PHMSA keeps federal enforcement authority. We read the record with whichever regulator will see it in mind."
+    },
+    {
+      "q": "Can you give an opinion on records connected with Monticello or Prairie Island?",
+      "a": "We can give an independent technical opinion, for instance on vendor records before shipment or a disputed interpretation. Atlantis does not hold a place on any licensee's Appendix B or NQA-1 approved supplier list, and the licensee's quality organisation decides what use to make of the opinion."
+    },
+    {
+      "q": "Our thickness survey was taken in sub-zero conditions. Will that be a problem?",
+      "a": "Not necessarily. The reviewer checks whether the procedure addressed temperature, whether calibration was done at or corrected for the material temperature, and whether the report records the conditions. If it does not, the opinion says what is missing and what it would take to close the gap."
+    },
+    {
+      "q": "Does anyone need to visit our site in Minnesota?",
+      "a": "No. The review is remote and document-based, carried out on the files you send, so no site access, escort or travel is involved."
+    },
+    {
+      "q": "Do you review exchanger eddy current data from a refinery turnaround?",
+      "a": "Yes, through a reviewer the proposal names who holds the eddy current certification your contract requires; our Level III's certification covers UT, RT, MT, PT and VT only. Raw tube files are reopened and compared with the reported calls."
+    },
+    {
+      "q": "How do we start?",
+      "a": "Send the report or a sample, the procedure and code it was written to, and the decision it supports, using the form or info@atlantisndt.com. We reply within one business day with the scope, the named reviewer and a quote."
+    }
+  ],
+  "related": [
+    ["/inspection/third-party-inspection-minneapolis", "Third-party inspection in Minneapolis"],
+    ["/ndt-training-minneapolis", "NDT training in Minneapolis"],
+    ["/ndt-training-minnesota", "NDT training in Minnesota"],
+    ["/ultrasonic-testing-minneapolis", "Ultrasonic testing in Minneapolis"]
+  ],
+  "sources": [
+    "https://minnesotapipeline.com/about/mpl-system/",
+    "https://pinebendrefinery.com/pine-bend-oil-refinery-transportation-fuels/",
+    "https://www.marathonpetroleum.com/Operations/Refining/St-Paul-Refinery/",
+    "https://www.mprnews.org/story/2026/11/04/marathon-selling-minnesota-oil-refinery",
+    "https://www.bicmagazine.com/industry/investment-banking/marathon-petroleum-to-sell-two-refineries/",
+    "https://www.mprnews.org/story/2025/01/02/monticello-nuclear-plant-gets-federal-approval-to-keep-operating-until-2050",
+    "https://www.tdworld.com/distributed-energy-resources/news/55312738/xcel-energy-receives-approval-to-extend-prairie-island-nuclear-plant-operations",
+    "https://dps.mn.gov/divisions/ops/about-ops/what-we-do",
+    "https://www.phmsa.dot.gov/about-phmsa/offices/central-region",
+    "https://www.nrc.gov/agreement-states/minnesota",
+    "https://www.health.state.mn.us/communities/environment/radiation/radioactive/index.html",
+    "https://www.revisor.mn.gov/statutes/cite/326B.95/pdf",
+    "https://www.revisor.mn.gov/rules/pdf/5205.0010/2025-10-30%2010:54:01+00:00"
+  ]
+}
