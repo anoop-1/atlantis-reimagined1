@@ -4327,3 +4327,22 @@ Owner, 2026-11-23 (after §83): "target more European cities in the maritime por
 - Guides are reference articles (Article schema), class decides the survey extent, every rule number/figure verified or generalised; Atlantis appears only as owner's gauging/CVIP/pre-purchase, never as able to credit or replace a class survey.
 - Quoted rule wording (coating triggers, table cells) may repeat between guides; `check-phrases.mjs` is advisory, the sentence-level guard is the rule.
 - Parallel writers on one family must each read the others' files as they land and vary structure, not just words.
+
+---
+
+## 85. SNT-TC-1A vs NAS 410 sections on 37 US aerospace training city pages — 2026-11-23 (DEPLOYED)
+
+Owner (earlier, scope chosen 2026-11-23): "ASNT-SNT-TC-1A Vs. NAS 410 explainer for all target cities" → "Researched on aerospace cities, short note elsewhere".
+
+### 85.1 What shipped (main d04127e5b7, Deploy run 45134066118)
+- **37 researched sections** (680–860 words each) on `/ndt-training-{wichita, seattle, everett, spokane, phoenix, tucson, huntsville, dallas, fort-worth, san-diego, los-angeles, long-beach, el-segundo, palmdale, east-hartford, cincinnati, dayton, indianapolis, north-charleston, savannah, greenville-south-carolina, salt-lake-city, ogden, tulsa, oklahoma-city, san-antonio, melbourne-florida, jacksonville, mobile, miami, atlanta, memphis, cedar-rapids, rockford, st-louis, colorado-springs, denver}`. One JSON per page: `src/data/nas410-city-2026-11/nas410--ndt-training-{city}.json` ({path, html, sources}); crawler `scripts/nas410-city-2026-11.mjs` (`applyNas410City` right after the geo-depth block, re-applied if a later writer drops it; `assertNas410CityClean`; writer CLI `--check`); React `Nas410CityBlock.tsx` (slot `nas410:` after `geodepth:`).
+- **Explanation only**: each section has the plain statement that Atlantis provides no NAS 410 training, certification, examinations or Responsible Level 3, says the employer's RL3 decides what outside training counts, names no founder near NAS 410, gives no NAS 410 numbers, and never says a named company uses NAS 410 or SNT-TC-1A unless a public source does (Oklahoma City cites AFSCI 20-114, the Air Force depots' NDI personnel instruction "per NAS 410"; Huntsville and Melbourne cite NASA-STD-5009C §4.5.1 "where a program invokes it").
+- **Allowlist**: `NAS410_CITY_PAGES` in `src/data/nas-410-clarification-2026-11.mjs` (in `ALLOWED`); preflight 4b exempts lazy chunks named `nas410--*` (the file prefix keeps the chunk name unique — the city deep-content chunks share the bare page key).
+- **Short note elsewhere**: the US training intent-route block on the other 171 US training pages links `/blog/nas-410-vs-snt-tc-1a` ("Aerospace or aviation work? How SNT-TC-1A compares" — anchor names no NAS 410 because the module is bundled).
+- **Corrections found by the writers** (pages already live): 17 `certPathwayNote`s in `training-cities.ts` claimed, unsourced, that Boeing, P&W, GE, Gulfstream, Textron, Rolls-Royce etc. certify to SNT-TC-1A → rewritten (employer certifies under its own written practice; aerospace suppliers follow the standard their customers' POs name); hedge wording removed from North Charleston, Mobile, Miami, Dayton deep content; LA "does not train welding inspectors" → CWI exam prep offered; Wichita consulting depth page: A220 pylon work moved from Spirit Wichita to Airbus and is moving to Toulouse (was "Airbus took over the line in Wichita"); Fort Worth: Lockheed builds the F-35 there (F-16 production moved to Greenville, SC); San Antonio aviation cell: Lockheed Martin no longer listed among Port San Antonio employers.
+- Verified: build 9,126 pages / 6,626 sitemap URLs, 0 failures; preflight 17/17; pricing PASS; claims PASS (src + dist). IndexNow 39 accepted; sitemap index resubmitted.
+
+### 85.2 Rules this adds
+- A section that names NAS 410 on a page outside the clarification/doc pages needs the page in `NAS410_CITY_PAGES` and its lazy chunk named `nas410--…`.
+- Data files bundled into JS (`training-cities.ts`, deep content, intent routes) must not name NAS 410 even on allowlisted pages — preflight scans chunks by name.
+- Writers: fetch only URLs a WebSearch returned (a typed URL needs a user approval nobody is there to give and stalls the agent).
