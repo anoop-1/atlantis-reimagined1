@@ -1,0 +1,176 @@
+{
+  "title": "NDT Report Review in Lake Charles, LA | LNG and Refining",
+  "description": "Independent review of LNG construction records, refinery and chemical plant NDT reports and digital inspection data from Lake Charles, carried out remotely.",
+  "h1": "Independent NDT report validation for Lake Charles LNG projects, refineries and chemical plants",
+  "eyebrow": "Report validation: Lake Charles, Louisiana",
+  "intro": "Southwest Louisiana now has two LNG export terminals operating in Cameron Parish and two more under construction, alongside the refineries and chemical plants that cluster around Westlake. Each produces inspection records in quantities few owners can check line by line: weld records in very large numbers during construction, turnaround packages during maintenance and vendor data books whenever new equipment arrives. We review those records, and the digital inspection data behind them, independently against the code and the project specification. Atlantis has no presence in Calcasieu or Cameron Parish; every review is done remotely from the records sent to us.",
+  "highlights": [
+    {
+      "h": "Built for construction-scale records",
+      "p": "An LNG train can generate more NDT records than a refinery produces in years. The review is scoped as a risk-based sample, a targeted package or a full set, agreed before any file moves, so the effort goes where the risk is."
+    },
+    {
+      "h": "Cryogenic welds read on their own terms",
+      "p": "Austenitic stainless and nickel steel joints behave differently under ultrasound, penetrant and radiography. The reviewer checks that the technique, calibration and image quality suit the material rather than a carbon steel default."
+    },
+    {
+      "h": "Handover records the operator can rely on",
+      "p": "At mechanical completion the construction record becomes the operator's baseline. We check that the weld database, the reports and the images agree before the project team signs it over."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Four LNG projects at two stages of life",
+      "p": [
+        "Lake Charles sits at the centre of a cluster of export terminals that span every stage from first piling to steady operation. That spread matters for a reviewer, because a terminal under construction produces fabrication and erection records, while a terminal in service produces maintenance and inspection records that are judged against what was handed over at start-up. The status below is as reported by the owners in late 2026.",
+        "The terminals are listed to describe the area and the work it generates. They are not clients, and naming them does not imply that we have reviewed any of their records."
+      ],
+      "table": {
+        "head": ["Terminal", "Location and owner", "Status, November 2026", "Records most often brought for review"],
+        "rows": [
+          ["Cameron LNG", "Hackberry; joint venture of affiliates of Sempra Infrastructure, TotalEnergies, Mitsui and Japan LNG Investment", "Three trains in full commercial operation since August 2020", "Maintenance turnaround packages, exchanger and piping inspection reports, tank and jetty records"],
+          ["Calcasieu Pass", "Cameron Parish; Venture Global", "Commercial operations began in April 2025", "Inspection records from the first years of service compared with the construction baseline"],
+          ["CP2 LNG", "Cameron Parish, south of Lake Charles; Venture Global", "First two phases under construction, with first LNG expected in July 2027", "Weld NDT, module and spool data books, digital radiography and ultrasonic records from fabrication and erection"],
+          ["Louisiana LNG", "Calcasieu Parish; Woodside", "Three trains and two storage tanks under construction, first LNG targeted for 2029", "Construction NDT, vendor acceptance packages and tank weld records"]
+        ]
+      }
+    },
+    {
+      "h": "What an LNG construction record has to prove",
+      "p": [
+        "Cryogenic service puts stainless steel and nickel steels where a refinery would use carbon steel, and that changes what the NDT record must show. Process piping is usually built to ASME B31.3, where the examination extent depends on the fluid service category the designer assigned, and the low-temperature storage tanks follow API 625 and API 620. A data book that reports the right number of examinations against the wrong service category, or that applies acceptance criteria from a different part of the code, can look complete while failing the project specification.",
+        "Much of the piping and many of the process modules on these projects are fabricated away from site, in yards along the Gulf and overseas, and arrive with their own data books. The receiving project team has to accept those books against the same specification as work done on site. Ultrasonic examination used in place of radiography, digital radiography replacing film and automated phased array on thicker joints are now common, and each substitution has to be allowed by the code and the contract and qualified in the procedure. The review checks the substitution as carefully as the result."
+      ],
+      "list": [
+        "Examination extent matched to the fluid service category and the project's NDT specification, joint by joint",
+        "Ultrasonic procedures for austenitic and nickel steel welds qualified on representative blocks, not borrowed from carbon steel work",
+        "Penetrant records on stainless joints with dwell time, temperature and materials recorded",
+        "Image quality indicators and detector settings on every digital radiograph of thin-wall stainless piping",
+        "Positive material identification and ferrite or hardness records tied to the weld numbers they claim to cover",
+        "Repair welds traced to a re-examination of the full excavation, not only the final pass"
+      ]
+    },
+    {
+      "h": "Refineries and chemical plants around Westlake",
+      "p": [
+        "Lake Charles was a refining and chemical town long before LNG arrived. The state's 2025 refinery survey lists Phillips 66's refinery at Westlake at 263,700 barrels per calendar day and Calcasieu Refining at 135,500, and it records the Excel Paralubes hydrocracking plant at Westlake as operating. Sasol runs chemical operations at its Lake Charles complex in Westlake, and Westlake Corporation operates sites north and south of the city, where in December 2025 it shut down a vinyl chloride monomer plant, one diaphragm chlor-alkali unit and its styrene plant.",
+        "Those shutdowns are a reminder that inspection records outlive the units they describe. Equipment that is idled, mothballed, sold or moved to another site carries its inspection history with it, and the buyer or the next operator has to decide whether that history can be trusted. Turnaround close-out on the refineries, outage records on chemical units and due diligence on idled assets make up most of the Westlake work that reaches an independent reviewer."
+      ]
+    },
+    {
+      "h": "Regulators behind a southwest Louisiana record",
+      "p": [
+        "LNG terminals are pipeline facilities in federal law. PHMSA regulates them under 49 CFR Part 193, and section 193.2013 of that part incorporates NFPA 59A by reference, so construction and inspection records are judged against the editions those rules name as well as against the project specification. Gas and hazardous liquid lines inside the state are overseen by the Pipelines Section of the Louisiana Department of Conservation and Energy, which took that name on 1 October 2025 when it ceased to be the Department of Energy and Natural Resources, under federal certification for both programs.",
+        "Refineries and chemical plants fall under OSHA's process safety management standard, 29 CFR 1910.119, which federal OSHA enforces directly because Louisiana runs no state plan. Boilers and Code-stamped vessels answer to the Boiler Inspection Section of the Office of State Fire Marshal. Industrial radiography is licensed by the Louisiana Department of Environmental Quality under the state's Agreement State program. Atlantis does not perform industrial radiography in Louisiana, so radiographs and DR images from your licensed contractor are reviewed purely as records."
+      ]
+    },
+    {
+      "h": "Digital weld records and handover packages",
+      "p": [
+        "Large LNG projects run on digital inspection data. A weld tracking database links each joint to its welder, procedure, heat numbers, NDT requests and results; digital radiography images sit in DICONDE or vendor formats; phased array and TOFD scans are stored as encoded files; and inspection reports are issued and signed electronically on the contractor's digital reporting platform. At mechanical completion that whole body of data is handed to the operator and becomes the starting point for every future inspection.",
+        "Our review tests whether the parts agree. A sample of joints is traced from the database to the report, the image or scan file and the personnel and calibration records valid on the day. We look for welds marked accepted with no image attached, images that belong to a different joint or line, scans acquired outside the qualified setup and electronic signatures applied by someone not certified on that date. Finding those gaps before handover is far easier than reconstructing them after the construction contractor has demobilised."
+      ]
+    },
+    {
+      "h": "Faults that make LNG and chemical plant reports hard to defend",
+      "p": [
+        "Most reports from the Lake Charles area are sound, and saying so is a useful result. The faults below are the ones that most often turn an acceptable examination into an indefensible record, and each of them is checked on every review."
+      ],
+      "list": [
+        "A weld map revised during construction while the NDT reports still reference the old joint numbers",
+        "Ultrasonic sensitivity set on a carbon steel block for an austenitic joint",
+        "Digital radiographs exported without the processing history, so nobody can say what was adjusted",
+        "A penetrant system changed mid-project without the procedure being revised",
+        "Thickness readings on insulated chemical plant piping with no record of how the surface was prepared",
+        "Exchanger tube data analysed against a reference standard of a different gauge or alloy",
+        "Personnel certificates valid at the start of a long project but expired by the time the later welds were examined"
+      ]
+    },
+    {
+      "h": "Combined-cycle power at Westlake",
+      "p": [
+        "Entergy Louisiana's Lake Charles Power Station, a gas-fired combined-cycle plant at Westlake, reached commercial operation ahead of schedule and now produces the steady outage records of a modern fossil unit. Heat recovery steam generator tube surveys, high-energy piping weld examinations and records for the steam turbine and its supports are read against ASME Section I, B31.1 and the outage scope.",
+        "For a plant of this age the questions are usually about trending rather than construction: whether thickness grids can be repeated, whether flow-accelerated corrosion locations named in the plan were the ones actually measured, and whether a repair was examined to the extent its procedure required. Certificate inspections for the jurisdiction remain with the commissioned inspector."
+      ]
+    },
+    {
+      "h": "Working with us from southwest Louisiana",
+      "p": [
+        "There is no Atlantis team in Lake Charles and none is needed. The offices are in Houston and Hyderabad, and reviews are performed remotely on documents and data supplied through a secure transfer link, or through your own project platform if the contract requires it. Large projects often prefer to give the reviewer read access to a controlled folder rather than send copies, and that works equally well.",
+        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under an ASNT NDT Level III whose certification covers all five of those methods. For eddy current, remote field or acoustic emission data, the proposal names a reviewer holding the certification the contract asks for. The review team behind them brings experience from nuclear, maritime, oil and gas and petrochemical work, a useful mix on projects where shipyard-style module fabrication meets process plant codes."
+      ],
+      "list": [
+        "Describe the project or asset, the methods, the code and specification and the decision the record supports",
+        "We reply within one business day with a scope, the named reviewer and a quote",
+        "Records and raw files are shared by secure transfer or controlled access",
+        "Questions the record cannot answer come back in writing",
+        "The opinion gives one of three verdicts: sound, deficient in documentation only, or deficient in disposition"
+      ]
+    },
+    {
+      "h": "What stays with the owner and the project",
+      "p": [
+        "An independent review tests the record and stops there. Fitness-for-service and remaining-life calculations stay with the owner's engineer; we do not perform them. Acceptance of an LNG facility, a boiler or a pipeline by its regulator stays with that regulator and with the inspectors the owner engages. Atlantis does not certify personnel, and it never reviews reports for examinations it carried out. Where the record cannot support a decision, the opinion describes the new examination that would settle the question and leaves the choice of contractor to you."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you review NDT records for an LNG project still under construction?",
+      "a": "Yes. Most project reviews are scoped as a risk-based sample of joints, plus every repair and every weld where the technique was substituted, traced from the weld database to the image or scan and the personnel and calibration records. A full read of a smaller package is also possible."
+    },
+    {
+      "q": "Our modules were fabricated outside Louisiana. Can you review their data books?",
+      "a": "We can. Module and spool data books are checked against the project specification and the code exactly as site work would be: examination extent, technique qualification, image quality, acceptance criteria and traceability. Where a book was produced in another country's format, the opinion maps it to the requirements your contract names."
+    },
+    {
+      "q": "Do you review digital radiography from cryogenic piping?",
+      "a": "Yes. DR images are opened in review software where the format allows, and checked for image quality indicators, detector settings, geometry and the processing applied. Atlantis does not take radiographs in Louisiana; images from your licensed radiography contractor are reviewed as records."
+    },
+    {
+      "q": "Which rules do you apply to an LNG terminal record?",
+      "a": "Whatever governed the work, typically 49 CFR Part 193 and the NFPA 59A edition it incorporates, ASME B31.3 for process piping, API 625 and API 620 for the storage tanks, ASME Section V for examination methods and the owner's project specification. The opinion states the edition behind every decision."
+    },
+    {
+      "q": "We are buying an idled unit near Westlake. What can a review tell us?",
+      "a": "Whether the inspection history that comes with the equipment is complete, traceable and technically sound, and where it has gaps. Decisions about condition, rerating or restart stay with your engineer, who can use the opinion to decide what new examination is needed first."
+    },
+    {
+      "q": "Will a reviewer come to Cameron Parish?",
+      "a": "No. The review is carried out remotely on the records and data you share. Nothing in it requires site access, a safety orientation or a gate pass, and no inspection crew is involved."
+    },
+    {
+      "q": "Can the reviewer work inside our project document system?",
+      "a": "Usually, yes. If your project requires reviewers to use its own platform, or to sign a confidentiality agreement first, tell us at the enquiry and the scope will be written around it."
+    },
+    {
+      "q": "Who reviews eddy current or remote field tube data?",
+      "a": "A reviewer named in the proposal who holds the eddy current or remote field certification your contract calls for. The in-house Level III certification covers UT, RT, MT, PT and VT only, and the opinion says which reviewer covered which method."
+    }
+  ],
+  "related": [
+    ["/inspection-services-louisiana", "Inspection services in Louisiana"],
+    ["/inspection/third-party-inspection-lake-charles", "Third-party inspection in Lake Charles"],
+    ["/consulting/ndt-consulting-lake-charles", "NDT consulting in Lake Charles"],
+    ["/ndt-training-lake-charles", "NDT training in Lake Charles"],
+    ["/ultrasonic-testing-lake-charles", "Ultrasonic testing in Lake Charles"],
+    ["/ultrasonic-testing-lng", "Ultrasonic testing for LNG"],
+    ["/penetrant-testing-stainless-steel", "Penetrant testing of stainless steel"]
+  ],
+  "sources": [
+    "https://semprainfrastructure.com/?p=2490",
+    "https://ogj.com/pipelines-transportation/lng/article/55283218/venture-global-begins-commercial-operations-at-calcasieu-pass",
+    "https://www.ogj.com/general-interest/companies/news/55417927/venture-global-moves-up-first-lng-date-for-cp2",
+    "https://www.woodside.com/media-centre/news-stories/story/latest-look-inside-louisiana-lng",
+    "https://www.opportunitylouisiana.gov/news/historic-investment-woodside-energy-announces-17-5-billion-final-investment-decision-for-lng-facility-in-southwest-louisiana-becomes-largest-foreign-direct-investment-in-state-history",
+    "https://www.denr.louisiana.gov/assets/TAD/reports/refinery_survey/2025RefineryReport.pdf",
+    "https://epa.gov/hazardous-air-pollutants-ethylene-oxide/status-report-sasol-chemicals-lake-charles-westlake-la",
+    "https://www.businesswire.com/news/home/20251215282061/en",
+    "https://www.entergy.com/lake-charles-power-station-achieves-commercial-operation",
+    "https://www.law.cornell.edu/cfr/text/49/193.2013",
+    "https://www.dce.louisiana.gov/page/pipeline-safety-program",
+    "https://www.osha.gov/stateplans",
+    "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-a/section-v-5003",
+    "https://www.nrc.gov/agreement-states/louisiana.html"
+  ]
+}

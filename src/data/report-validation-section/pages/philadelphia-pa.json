@@ -35,7 +35,7 @@
     {
       "h": "The plants along the river and the records they produce",
       "p": [
-        "Refining has shrunk inside the city limits. The South Philadelphia refinery no longer operates, and its site is being redeveloped as the Bellwether District. Downriver in Delaware County, Monroe Energy, the refining subsidiary Delta Air Lines bought in 2012, runs the Trainer refinery, which processes close to 200,000 barrels of crude a day and is set up to maximise jet fuel. Its inspection records follow the refinery pattern: API 510 vessel reports, API 570 piping surveys, API 653 tank inspections and exchanger tube data, issued in bulk at every turnaround.",
+        "Refining has shrunk inside the city limits. The South Philadelphia refinery no longer operates, and its site is being redeveloped as the Bellwether District. Downriver in Delaware County, Monroe Energy, owned by Delta Air Lines since 2012, runs the Trainer refinery, which processes close to 200,000 barrels of crude a day and is set up to maximise jet fuel. Its inspection records follow the refinery pattern: API 510 vessel reports, API 570 piping surveys, API 653 tank inspections and exchanger tube data, issued in bulk at every turnaround.",
         "Next door, at Marcus Hook, Sunoco ran a refinery until 2011. Energy Transfer's Marcus Hook Terminal now occupies the site, receiving ethane, propane and butane by pipeline from the Marcellus Shale through the Mariner East system and sending them on to regional and export markets. A terminal of that kind produces storage, piping and loading equipment records, pipeline girth weld files and thickness data, with process safety obligations applying throughout.",
         "In the city's Frankford section, AdvanSix runs what it describes as one of North America's largest phenol producers, making phenol, acetone and alpha-methylstyrene. Chemical plants of this type generate corrosion monitoring data, vessel and column internal inspection reports, repair weld examinations and records on equipment in services where cracking, not just thinning, is the concern.",
         "The nuclear side of the valley is just as close. Constellation operates the Limerick station, about 21 miles northwest of Philadelphia, and Peach Bottom near Delta, Pennsylvania, which it co-owns equally with PSEG. Across the river in Salem County, New Jersey, PSEG Nuclear operates the Salem and Hope Creek stations. Around them sits a supplier base of fabricators, valve shops and service contractors whose examination records feed the plants' procurement and maintenance."
@@ -80,7 +80,7 @@
       "h": "Radiographs, CR and DR from licensed contractors",
       "p": [
         "Both Pennsylvania and New Jersey are Agreement States, so the radiography contractors working at Delaware Valley plants hold state radioactive materials licences rather than NRC ones. Atlantis does not perform industrial radiography anywhere in the United States; that work belongs to licensed firms. What we do is read the result.",
-        "Film radiographs, computed radiography plates and digital detector images are reviewed for image quality first: the image quality indicator in the right place and the required wire or hole visible, density or signal-to-noise within the procedure's limits, and location markers that tie each exposure to a weld. Only then does the reviewer compare the indications on the image with the interpretation on the report. A rejectable indication recorded as acceptable is the serious finding; an image that could not have shown the indication at all is often the more common one."
+        "Film radiographs, computed radiography plates and digital detector images are reviewed for image quality first: the image quality indicator in the right place and the required wire or hole visible, density or signal-to-noise within the procedure's limits, and location markers that tie each exposure to a weld. After that, the reviewer compares the indications on the image with the interpretation on the report. A rejectable indication recorded as acceptable is the serious finding; an image that could not have shown the indication at all is often the more common one."
       ]
     },
     {
@@ -94,7 +94,7 @@
       "h": "How a Philadelphia review is run",
       "p": [
         "There is no Atlantis presence of any kind in Philadelphia or elsewhere in the Delaware Valley; the company's offices are in Houston and Hyderabad. Every review for a client here is carried out remotely, working only from the reports, images and data files sent to us through a secure transfer.",
-        "You send the report, or a representative sample of a package, with the procedure, the code and a note on what depends on the result. We reply within one business day with the review scope and a quote. The review then works through seven checks: whether the procedure was followed, whether the people were qualified on the day, whether the equipment was calibrated, whether the technique could find the flaw that matters, whether the acceptance criteria came from the right code and table, whether the indications were interpreted and sized correctly, and whether the record is complete and traceable.",
+        "You send the report, or a representative sample of a package, with the procedure, the code and a note on what depends on the result. Within one business day we come back with a proposed review scope and a quote. The review then works through seven checks: whether the procedure was followed, whether the people were qualified on the day, whether the equipment was calibrated, whether the technique could find the flaw that matters, whether the acceptance criteria came from the right code and table, whether the indications were interpreted and sized correctly, and whether the record is complete and traceable.",
         "The ultrasonic, radiographic, magnetic particle, penetrant and visual parts of a review are led by an ASNT NDT Level III whose certification covers exactly those five methods. Reviewers on the wider team come from nuclear, maritime, oil and gas and petrochemical work, which matters on a river where all four meet.",
         "Every report reviewed receives one of three verdicts: sound; deficient in documentation only, where the paperwork can be corrected without new examination; or deficient in disposition, where the evidence does not support the accept or reject decision. Each finding cites the clause or procedure step it rests on and the evidence for it."
       ]
@@ -117,7 +117,7 @@
     },
     {
       "q": "Can you take radiographs at our plant?",
-      "a": "No. Atlantis does not perform industrial radiography in the United States. We review film, CR and DR images produced by your licensed radiography contractor."
+      "a": "No. Industrial radiography in the US needs a radioactive materials licence and is not work Atlantis does. We review the film, CR and DR images your licensed radiography contractor produces."
     },
     {
       "q": "Can your opinion be used by a nuclear plant?",
@@ -137,7 +137,7 @@
     },
     {
       "q": "How do we start?",
-      "a": "Send the report or a sample with the procedure, the code and what decision depends on it. We reply within one business day with the review scope and a quote."
+      "a": "Send the report or a sample with the procedure, the code and what decision depends on it; we reply within one business day."
     }
   ],
   "related": [
