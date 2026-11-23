@@ -37,7 +37,7 @@
       "h": "Coal, gas and hydro plants in central Alabama",
       "p": [
         "Outages at a station like Miller or Gaston leave waterwall and superheater thickness grids, header and drum reports, weld examinations on high-energy piping and, on the gas units, heat recovery steam generator records. Those are read against ASME Section I, B31.1 and the outage scope. The review concentrates on whether a grid can be found again next time, whether the thinnest points from the last survey were re-measured, and whether repair welds were examined over the whole excavation. Under Alabama's boiler program, operating certificates and jurisdictional inspection stay with the inspectors who hold that authority.",
-        "Hydro plants add records most reviewers rarely see: magnetic particle and ultrasonic examinations of penstock welds, spillway and intake gate structures, turbine and generator components, and the repair welds that keep older hydro equipment running. These are often written to the owner's own specifications rather than a single national code, so the review checks first that the report names the acceptance basis it used and that the basis matches the specification for that component."
+        "Hydro plants add records most reviewers rarely see: magnetic particle and ultrasonic examinations of penstock welds, spillway and intake gate structures, turbine and generator components, and the repair welds that keep older hydro equipment running. These may be written to the owner's own specifications rather than a single national code, so the review checks first that the report names the acceptance basis it used and that the basis matches the specification for that component."
       ]
     },
     {
@@ -50,7 +50,7 @@
     {
       "h": "Structural steel and highway bridges",
       "p": [
-        "Fabricators in and around Birmingham supply building frames, industrial structures and bridge girders across the region, and their NDT records are among the most frequently disputed in any city. Buildings and industrial structures are usually examined to AWS D1.1, now in its 2025 edition, and steel highway bridges to AASHTO/AWS D1.5M/D1.5:2025, the bridge welding code. The two codes differ in examination extent, acceptance criteria for ultrasonic indications and the special treatment D1.5 gives to fracture-critical members, so a report has to say clearly which one governed each weld.",
+        "Fabricators in and around Birmingham supply building frames, industrial structures and bridge girders across the region, and when a weld is questioned their NDT records become the point of contention between fabricator, erector and owner. Buildings and industrial structures are usually examined to AWS D1.1, now in its 2025 edition, and steel highway bridges to AASHTO/AWS D1.5M/D1.5:2025, the bridge welding code. The two codes differ in examination extent, acceptance criteria for ultrasonic indications and the special treatment D1.5 gives to fracture-critical members, so a report has to say clearly which one governed each weld.",
         "The review of a structural report checks the joint against the weld map, the examination extent against what the code and contract required for that joint, the acceptance table against the loading condition, and the technician's certification against the date. Magnetic particle records need the technique, field direction and lighting checks the procedure called for; ultrasonic records need the transducer, angle, reference level and scanning pattern that prove the full weld volume was covered."
       ],
       "list": [
@@ -153,6 +153,8 @@
     "https://workforce.alabama.gov/inspections/boilers-pressure-vessels/",
     "https://www.osha.gov/stateplans",
     "https://www.nrc.gov/agreement-states/alabama.html",
-    "https://psc.alabama.gov/gas-pipeline-safety/"
+    "https://psc.alabama.gov/gas-pipeline-safety/",
+    "https://www.aws.org/about/news/d11-release/",
+    "https://aashtojournal.transportation.org/new-joint-bridge-welding-code-edition-published/"
   ]
 }
