@@ -1,0 +1,115 @@
+{
+  "slug": "sydney",
+  "name": "Sydney",
+  "country": "Australia",
+  "region": "oceania",
+  "title": "Sydney Ship Thickness Measurement | Port Botany & Harbour UTM",
+  "description": "Ship thickness measurement in Sydney at Port Botany and harbour berths: UTM on tankers, container and cruise ships, ballast tanks, decks and scrubber piping.",
+  "h1": "Ultrasonic Thickness Measurement for Ships Calling at Sydney",
+  "intro": "Sydney's cargo work happens mostly at Port Botany, where container ships, tankers and gas carriers berth, while Sydney Harbour itself is now largely a cruise and passenger port with bulk berths at Glebe Island. Merchant ships rarely dock here, so gauging is usually done alongside during a cargo stay, on a cruise turnaround, or while a ship waits off the coast for its berth. Atlantis has no staff in Australia: technicians fly from India to the vessel for each job once the scope and visa are settled.",
+  "keywords": [
+    "sydney ship thickness measurement",
+    "utm sydney",
+    "port botany ship inspection",
+    "thickness gauging sydney",
+    "hull gauging port botany",
+    "tanker thickness measurement sydney",
+    "cruise ship scrubber piping inspection",
+    "pre-purchase inspection sydney",
+    "ultrasonic thickness gauging australia",
+    "ship inspection nsw"
+  ],
+  "highlights": [
+    {
+      "h": "Gauging during a Port Botany cargo call",
+      "p": "Container ships and tankers at Port Botany usually stay alongside for a day or two. A ranked list of deck plating, hatch coamings, ballast tanks and piping, agreed with the superintendent before arrival, fits the measurement around the cranes, the hoses and the terminal's safety rules."
+    },
+    {
+      "h": "Cruise turnarounds in Sydney Harbour",
+      "p": "Cruise ships turning around at Circular Quay or White Bay spend the whole day alongside between voyages. Technical spaces such as scrubber wash-water lines, overboard connections, void spaces and selected ballast tanks can be measured while passenger and hotel operations carry on elsewhere on board."
+    },
+    {
+      "h": "Steel data for a docking elsewhere",
+      "p": "Few merchant ships dock in Sydney, so a call here is often the owner's last good chance to gather steel data before a yard period in Asia. Readings taken alongside give the repair yard a measured steel estimate in place of a rough allowance."
+    }
+  ],
+  "port": {
+    "h": "Port Botany, Sydney Harbour and the waiting area offshore",
+    "p": [
+      "Sydney has two separate commercial harbours. Port Botany lies on the northern shore of Botany Bay, south of the city centre and beside the airport's runways, and handles the bulk of New South Wales' container trade along with its imported liquid fuels and chemicals. Sydney Harbour, entered between North Head and South Head, carries cruise ships, ferries, naval vessels based at Garden Island and a reduced flow of bulk cargo to Glebe Island. The Port Authority of New South Wales runs navigation, vessel traffic services and pilotage for both harbours, and pilotage is compulsory for most merchant ships. Ships that arrive ahead of their berth window wait off the coast in open water, exposed to the Tasman Sea swell, rather than inside either harbour.",
+      "Port Botany's three container terminals receive the deep-sea services linking Australia with Asia, Europe and North America, plus feeder and coastal calls. The bulk liquids berths on the same peninsula take product tankers, chemical tankers and LPG carriers, a trade that has grown in importance since both of Sydney's oil refineries closed and the city came to import its fuels as finished products. In Sydney Harbour, the Overseas Passenger Terminal at Circular Quay and the White Bay Cruise Terminal handle a heavy cruise programme that peaks in the Australian summer. Glebe Island takes cement and other dry bulk for the construction industry. Vehicle imports, once handled in the harbour, moved to Port Kembla south of the city years ago, so car carriers are no longer a Sydney trade.",
+      "For gauging, the useful moments are the ones where a ship is already stationary for long enough. A container ship working cargo at Botany is alongside for roughly a day; a tanker discharging at the bulk liquids berths may stay a little longer, with the terminal's hot-work and access rules governing what can be opened. Cruise ships arrive early in the morning and sail in the evening on turnaround days, a fixed window that suits a well-prepared crew. East Coast Low weather systems, most frequent from late autumn into winter, can bring gales and big seas to the coast, stopping small-craft transfers and any boarding of ships waiting offshore. The tidal range is modest and seldom affects access alongside."
+    ]
+  },
+  "facilities": {
+    "h": "Where a ship can be gauged in Sydney",
+    "p": [
+      "Most Sydney gauging is done alongside. At Port Botany the ship's agent books access through the terminal operator, and the team works on deck and in the ship's tanks while cargo operations continue, keeping clear of crane lanes and the manifold. Australian port security law requires a Maritime Security Identification Card for unescorted access to security zones, so a visiting team is escorted from the gate to the gangway, which the agent or terminal arranges. A ship waiting offshore can only be reached by launch in good weather, and the length of the wait is hard to predict, so it is seldom the best place to plan a job.",
+      "Docking options are limited. The Captain Cook Graving Dock at Garden Island is a naval dock large enough for most merchant ships, and Defence describes it as shared with civilian industry, but any commercial docking there has to fit around the Navy's programme. Harbour slipways maintain the city's ferries, tugs, pilot vessels and workboats, and those craft can be measured on the slip or alongside. A larger merchant ship trading to Sydney normally docks in Asia, so gauging here usually feeds the yard specification rather than happening in dock."
+    ],
+    "list": [
+      "Port Botany container terminals — deck plating, hatch coamings, cell guides and scrubber discharge lines measured while the ship works cargo.",
+      "Bulk liquids berths at Port Botany — product tankers, chemical tankers and LPG carriers; ballast tanks, deck structure and piping under the terminal's safety rules.",
+      "Overseas Passenger Terminal and White Bay Cruise Terminal — cruise ships on turnaround; scrubber wash-water piping, voids and ballast tanks.",
+      "Glebe Island bulk berths — cement and dry bulk carriers alongside for discharge.",
+      "Captain Cook Graving Dock, Garden Island — the Navy's dock, shared with civilian work when its programme allows; bottom and side shell readings if a merchant ship docks there.",
+      "Harbour slipways and workshops — ferries, tugs, pilot boats and workboats out of the water for maintenance."
+    ]
+  },
+  "context": {
+    "h": "AMSA inspections, biosecurity and the Sydney trades",
+    "p": [
+      "Australia belongs to both the Tokyo MoU and the Indian Ocean MoU, and port state control is carried out by the Australian Maritime Safety Authority (AMSA), whose inspection results feed the databases of both regimes. AMSA inspectors board foreign ships at every major Australian port, and the structural condition of decks, hatch covers and ballast tanks, together with the ship's own maintenance records, falls naturally within an inspection. A ship whose last thickness report showed wastage near the allowable limits, or whose last careful gauging was years ago, is better placed with fresh readings in hand when it reaches Sydney.",
+      "Biosecurity shapes every arrival. Since 15 June 2022 the Department of Agriculture, Fisheries and Forestry has required international vessels to report, through its Maritime Arrivals Reporting System, how they managed biofouling before entering Australian territorial seas: by following an effective biofouling management plan, by cleaning the hull and niche areas within 30 days before arrival, or by an alternative method approved in advance. Sea chests are among those niche areas, and a docking that cleans them is also the moment to gauge the sea chest plating and gratings. The agent also confirms the ship's biosecurity clearance before anyone from shore boards."
+    ]
+  },
+  "eca": "none",
+  "psc": "Tokyo MoU and Indian Ocean MoU",
+  "jobs": {
+    "h": "Gauging jobs we see for ships calling at Sydney",
+    "p": "Sydney jobs are shaped by short stays and the lack of a commercial dock. Most are owner-driven: condition gauging between surveys, a pre-purchase inspection while the seller's ship is alongside, a steel estimate ahead of an Asian docking, or piping and scrubber checks during a cruise turnaround. The scope is agreed with the superintendent before the ship arrives, ranked so the most important spaces come first, and matched to the berth window the agent confirms. The team is mobilised from India once the visa is granted and the call is firm, and readings go to the superintendent at the end of each working day so decisions can be made before the ship sails. Reports follow the class thickness-measurement formats, which keeps them usable for the yard and for later survey planning.",
+    "list": [
+      "Pre-purchase gauging of a product tanker at the Port Botany bulk liquids berths, covering ballast tanks, deck plating and cargo piping, with gas-free cargo tanks added where the seller allows.",
+      "Scrubber wash-water and overboard pipe gauging on a cruise ship during a White Bay turnaround, with dye penetrant checks at the shell connection.",
+      "Pre-docking steel estimate for a container ship before its renewal survey in an Asian yard, measuring deck, sheer strake and ballast tank structure during the Botany call.",
+      "Owner's condition gauging of an LPG carrier's ballast tanks and deck between surveys, scheduled around discharge.",
+      "Hull gauging of a harbour ferry or tug on a Sydney slipway during its maintenance period."
+    ]
+  },
+  "logistics": "The team flies into Sydney Kingsford Smith Airport, which sits next to Port Botany, and reaches the Sydney Harbour berths by road. Indian passport holders need an Australian visa that fits short-term specialist work, and it is applied for as soon as the call is firm, since processing times vary. Access to the Port Botany terminals, the cruise terminals and Garden Island is arranged through the ship's agent, with escorts provided inside security zones. If the ship is to be boarded offshore, the agent books the launch and watches the weather window.",
+  "vessels": [
+    "Container ships",
+    "Product tankers",
+    "Chemical tankers",
+    "LPG carriers",
+    "Cruise ships",
+    "Cement and dry bulk carriers",
+    "Harbour ferries, tugs and workboats"
+  ],
+  "faqs": [
+    {
+      "q": "Can a ship be gauged while it waits off Sydney for a berth?",
+      "a": "It can be, but it is rarely the best plan. Ships wait in open water off the coast, launch transfers depend on swell and wind, and the length of the wait is uncertain. Where the ship will berth at Port Botany or in the harbour within a few days, gauging alongside is safer and more productive. If the wait is long and the weather settled, the agent can arrange a launch and we plan a compact scope."
+    },
+    {
+      "q": "Is there a drydock in Sydney for merchant ships?",
+      "a": "The only large dock is the Captain Cook Graving Dock at Garden Island, a Navy facility that Defence shares with civilian industry. A commercial docking there depends on the naval programme, so most owners dock Sydney-trading ships in Asia. Gauging in Sydney then becomes the preparation: measured readings for the yard specification, so steel quantities are known before the ship arrives in dock."
+    },
+    {
+      "q": "How much can be done during a cruise turnaround day?",
+      "a": "A turnaround gives a fixed window from early morning to the evening sailing. The scope is planned around spaces that do not interfere with passengers or hotel operations: scrubber wash-water and overboard piping, voids, selected ballast tanks and machinery-space pipework. The chief engineer's permits and the ship's enclosed-space procedures decide what can be opened that day; anything left over can be finished at the next Sydney call or at another port on the itinerary."
+    },
+    {
+      "q": "Do Australian biosecurity rules affect when the team can board?",
+      "a": "Yes. A ship arriving from overseas has to be cleared by biosecurity before people from shore go aboard, so the first hours of a call may not be usable for inspection. The agent confirms clearance and arranges the security escort, and we time the start of work to suit. Biofouling reporting is handled by the ship before arrival and does not involve the gauging team."
+    }
+  ],
+  "nearby": [
+    "newcastle-nsw",
+    "melbourne",
+    "brisbane",
+    "adelaide",
+    "auckland",
+    "wellington"
+  ]
+}

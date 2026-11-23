@@ -1,0 +1,201 @@
+{
+  "slug": "condition-monitoring",
+  "navLabel": "Condition Monitoring",
+  "title": "Ship Condition Monitoring | Vibration, Thermography & UT Trends",
+  "description": "Ship condition monitoring between surveys: repeat thickness readings at marked points, vibration analysis, thermography, noise and coating trends.",
+  "h1": "Ship Condition Monitoring: Trending Hull and Machinery Between Surveys",
+  "eyebrow": "Maritime inspection · Owner's surveys",
+  "intro": "A survey records the condition of a ship on one day; condition monitoring shows which way that condition is moving. Atlantis NDT returns to the same marked points at agreed intervals and repeats the same measurements: ultrasonic thickness at fixed locations, vibration on rotating machinery, infrared thermography under load, noise in chosen spaces, and photographs and ratings of hull and coating condition. Each visit is set against a baseline, so the technical manager sees a rate of change and can plan the work before it turns into a defect, a detention or an off-hire.",
+  "highlights": [
+    {
+      "h": "Same point, same condition",
+      "p": "Every reading is taken at a numbered, marked location, with the machine at the agreed load and the instrument set up exactly as it was last time. Without that discipline a trend is only scatter; with it, a modest change between visits starts to mean something."
+    },
+    {
+      "h": "Rates, not snapshots",
+      "p": "Two thickness readings a year apart give a corrosion rate; three vibration surveys show whether a bearing is steady or getting worse. A rate lets the superintendent project when a limit will be reached and book the work for a docking or a port stay instead of a breakdown."
+    },
+    {
+      "h": "Fits the planned maintenance system",
+      "p": "Results come back under the equipment names and codes the ship's planned maintenance system already uses, with alert and action levels agreed in advance, so a reading that crosses a line becomes a work order for the chief engineer rather than a remark buried in a report."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-condition-monitoring-adds",
+      "h": "What condition monitoring adds to the survey cycle",
+      "p": [
+        "Class surveys come round at fixed points: annual, intermediate and renewal, with docking surveys between. Each is a careful look at the ship on the day, followed by months of trading in which ballast tank coatings break down, pipes thin at their bends, bearings wear and electrical connections loosen. An owner who learns about that only at the survey learns about it with the ship in the yard and the steel list growing.",
+        "Condition monitoring fills the gap with measurement. A short list of parameters is chosen for the parts of the ship that matter most to safety and schedule, each is measured at a fixed point, and every visit is compared with a baseline and with alarm levels agreed with the owner. An inspection asks whether a defect is present; monitoring asks what has changed, and how fast. It is narrower than a one-off Vessel Condition Survey and narrower than CVIP, our Comprehensive Vessel Inspection Programme, which builds monitoring into a full inspection plan for the ship."
+      ]
+    },
+    {
+      "id": "techniques-and-intervals",
+      "h": "Techniques, what each one detects, and how often to repeat it",
+      "p": [
+        "We offer five monitoring techniques. Intervals in the table are typical starting points; the right interval for a ship depends on its age, the trend already seen and the port calls available, and it shortens whenever a reading starts to move."
+      ],
+      "table": {
+        "head": [
+          "Technique",
+          "What it detects",
+          "Typical interval",
+          "Ship systems"
+        ],
+        "rows": [
+          [
+            "Repeat ultrasonic thickness at marked locations",
+            "Corrosion rate, local thinning, wastage speeding up after coating breakdown",
+            "Six to twelve months for known hot spots; before each docking for structure",
+            "Ballast and cargo tank structure, decks, hatch coamings, ballast, sea-water and fire-main piping, scrubber wash-water lines"
+          ],
+          [
+            "Vibration analysis, overall and spectrum",
+            "Unbalance, misalignment, looseness, rolling-element bearing damage, impeller and gear faults, resonance",
+            "Quarterly to six-monthly for critical machinery; after any overhaul to reset the baseline",
+            "Pumps, fans, electric motors, purifiers, turbochargers, generators, compressors, intermediate shaft bearings where accessible"
+          ],
+          [
+            "Infrared thermography under load",
+            "Hot connections, unequal phase loading, overloaded breakers, hot bearings and couplings, fouled coolers, gaps in hot-surface insulation",
+            "Annually for electrical systems; before and after a docking",
+            "Main and emergency switchboards, motor control centres, distribution boards, motors, exhaust lagging, heat exchangers"
+          ],
+          [
+            "Noise measurement at fixed positions",
+            "Rising machinery or ventilation noise, failing fans, the effect of equipment changes",
+            "After machinery or ventilation changes; yearly where a trend is kept",
+            "Accommodation, control rooms, workshops, machinery spaces"
+          ],
+          [
+            "Hull and coating condition tracking",
+            "Coating breakdown spreading, anodes wasting, new corrosion, deformation",
+            "At each tank entry and each docking",
+            "Ballast tanks, cargo holds, decks, hatch coamings, topsides"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "thickness-trending",
+      "h": "Repeat thickness readings and corrosion rates",
+      "p": [
+        "A thickness trend is only worth having if the second reading is taken where the first one was. At the baseline each monitoring location is numbered, marked on the structure or pipe, photographed and placed on the ship's drawings, and the probe, gauge mode and surface preparation are recorded with the value. Later visits repeat those settings; a through-coating echo-echo reading is never compared with a single-echo reading on bare steel without saying so.",
+        "The rate is the loss divided by the time between readings, and the useful figure is what it implies: how long until the member reaches the substantial corrosion band or its renewal thickness at the present rate. Differences of the order of a tenth of a millimetre can come from probe position or surface condition rather than corrosion, so the trend over several visits carries the weight. Coating condition is recorded beside each point, because a location that held steady for years can start losing steel quickly once the paint over it fails. Where spot points cannot describe the damage, such as pitted bottom plating or weld grooving, Corrosion Mapping or a wider Ultrasonic Thickness Measurement programme is the better tool."
+      ]
+    },
+    {
+      "id": "vibration-analysis",
+      "h": "Vibration analysis of shipboard rotating machinery",
+      "p": [
+        "On each machine, readings are taken at the bearing housings in the horizontal, vertical and axial directions. Overall vibration velocity, the quantity the ISO 20816 series uses to judge severity, shows whether a machine is getting rougher; the frequency spectrum shows why. A peak at running speed points to unbalance, strong axial and twice-running-speed components to misalignment, harmonic families to looseness, and vane-pass or gear-mesh peaks to impellers or gears. Envelope readings pick up rolling-element bearing damage well before the overall level reacts.",
+        "Ships add complications. Many machines sit on resilient mounts, the hull carries main engine and propeller vibration into every foundation, and a pump behaves differently at sea and alongside. We record the operating condition with every reading, repeat the condition agreed at the baseline, and take a background reading with the machine stopped where that helps. Purifiers and turbochargers are measured where their makers' guidance allows, against the makers' limits where they exist. The general zones in ISO 20816-1 and ISO 20816-3, and ISO 20283-4 for propulsion machinery, are a starting point; for trending, a fan twice as rough as six months ago deserves a look even inside the general zone."
+      ],
+      "list": [
+        "Ballast, cargo, fire, cooling water and lubricating oil pumps and their motors",
+        "Engine room supply and exhaust fans, cargo hold and accommodation ventilation fans",
+        "Fuel and lubricating oil purifiers",
+        "Main and auxiliary turbochargers",
+        "Diesel generator sets and shaft generators",
+        "Air compressors, refrigeration compressors and reefer plant",
+        "Intermediate shaft bearings and thrust block, where they can be reached safely"
+      ]
+    },
+    {
+      "id": "thermography-and-noise-trends",
+      "h": "Thermography and noise as monitoring tools",
+      "p": [
+        "Used once, a thermal image finds faults; used repeatedly, it shows which connections are deteriorating. Each visit images the same panels and components at a comparable electrical load and compares the temperature rise of every finding with the last visit, so a terminal that has climbed steadily is remade before it fails. The method, live-panel safety and severity ranking are described on our Infrared Thermography page.",
+        "Noise monitoring repeats measurements at the positions in the ship's noise survey report, under similar operating conditions. A rise in a control room often points at a fan or pump that the vibration readings then confirm. Instruments and the IMO Noise Code limits are covered on our Ship Noise Survey page."
+      ]
+    },
+    {
+      "id": "baselines-and-alarm-levels",
+      "h": "Baselines and alarm levels",
+      "p": [
+        "A baseline describes the item in a known, acceptable state. For machinery it is best taken soon after commissioning or an overhaul; on an older ship the first visit becomes the baseline, and the report says it records the machine as found. For structure and piping, the last class thickness report can serve if its locations can be found again.",
+        "Two levels are agreed for each item. An alert level asks for closer attention and a shorter interval; an action level asks for work, such as a bearing change, a connection remade or renewal planned for the next docking. Levels come from the maker's data, the standards' general guidance and the item's own history, and they are written down before the second visit so nobody moves them to fit a result. After a repair the item is re-baselined."
+      ]
+    },
+    {
+      "id": "intervals-and-trading-pattern",
+      "h": "Fitting visits to the trading pattern",
+      "p": [
+        "The team travels from India for each visit, so visits work best when tied to a port the ship calls at regularly. A container ship on a fixed loop or a ferry can be met at the same port every time; a tramp bulk carrier or tanker is planned visit by visit around its fixtures, when she is alongside long enough for the machinery to run at the agreed load.",
+        "Intervals follow the trend. Steady machinery can go longer between readings; a pump whose bearing frequencies have started to rise is checked sooner. The visit before a docking matters most, because what it finds reaches the yard's repair list while there is still time to order parts and steel."
+      ]
+    },
+    {
+      "id": "planned-maintenance-and-class",
+      "h": "How results feed planned maintenance, and where class comes in",
+      "p": [
+        "Results are delivered against the ship's equipment register, under the names and codes the planned maintenance system uses, so a reading above an action level becomes a job without retyping. The data files go to the owner with the report, so the trend stays with the ship if the manager or contractor changes.",
+        "Classification societies allow condition monitoring a part in machinery surveys. IACS UR Z20 sets out how a planned maintenance scheme for machinery is approved and audited, including baseline data kept on board and trend analysis, vibration spectra among it, for machinery outside its tolerances; several societies publish their own condition-based maintenance arrangements. Whether monitoring data is accepted towards a survey is the classification society's decision, and our readings do not earn class credit on their own. If a class arrangement or an insurer names a qualification scheme for analysts or thermographers, tell us at enquiry and we confirm before booking.",
+        "Thickness measurement credited to a class survey needs a firm approved by the ship's classification society under IACS UR Z17. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; until a certificate is issued, our repeat readings serve the owner's own decisions."
+      ]
+    },
+    {
+      "id": "team-and-limits",
+      "h": "Who does the work, and what monitoring cannot do",
+      "p": [
+        "Visits are planned and supervised by the founder, our Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and has more than eleven years of international field experience. Thickness readings are taken by technicians certified under our written practice to ASNT SNT-TC-1A; vibration and thermal readings by qualified analysts and thermographers working to written procedures. Atlantis is certified to ISO 9001 and ISO 14001.",
+        "Monitoring finds what its techniques can see: a steady vibration trend says nothing about a cracked casing or a worn liner, and none of it replaces a class survey, a maker's overhaul or the crew's rounds. Lubricating oil analysis is not part of our service; most owners already run it through their oil supplier or an independent laboratory, and those results sit beside ours in the planned maintenance system."
+      ]
+    }
+  ],
+  "codes": [
+    "ISO 17359 – Condition monitoring and diagnostics of machines, general guidelines",
+    "ISO 13373-1 – Condition monitoring and diagnostics of machines, vibration condition monitoring, general procedures",
+    "ISO 13373-2 – Vibration condition monitoring, processing, analysis and presentation of vibration data",
+    "ISO 20816-1 – Mechanical vibration, measurement and evaluation of machine vibration, general guidelines",
+    "ISO 20816-3 – Mechanical vibration, industrial machinery with a power rating above 15 kW",
+    "ISO 20283-4 – Measurement of vibration on ships, vibration of the ship propulsion machinery",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines, thermography, general procedures",
+    "IACS UR Z20 – Planned Maintenance Scheme (PMS) for machinery"
+  ],
+  "deliverables": [
+    "Baseline report with every monitoring point numbered, photographed and located on drawings or the equipment list",
+    "Trend report for each visit, comparing every point with the baseline and the previous visit",
+    "Corrosion rates and projected time to the substantial corrosion band or renewal thickness for each marked location",
+    "Vibration overall values, spectra and likely fault for each machine, with the recommended action",
+    "Thermal and visual image pairs with temperature rise, load and severity, trended against earlier visits",
+    "Alert and action level exceedances by priority, under the ship's planned maintenance system codes",
+    "Data files for the owner's own records, with instrument calibration records"
+  ],
+  "industries": [
+    "Container ships on fixed liner services",
+    "Crude oil, product and chemical tankers",
+    "Bulk carriers",
+    "LNG and LPG carriers",
+    "Car carriers and ro-ro ships",
+    "Cruise ships and ferries",
+    "Offshore support vessels",
+    "Ship managers' technical and fleet departments"
+  ],
+  "faqs": [
+    {
+      "q": "How is condition monitoring different from a condition survey?",
+      "a": "A condition survey is a single, broad assessment of the whole ship for a purpose such as a charter, a financing or a docking plan. Condition monitoring is narrower and repeated: a chosen set of measurements taken at the same points, in the same operating condition, visit after visit, so that the result is a trend and a rate of change. Many owners use a survey to decide what to monitor, then monitor the items that showed risk."
+    },
+    {
+      "q": "How often should the readings be repeated?",
+      "a": "It depends on the item and on what the trend shows. Critical rotating machinery is commonly checked every three to six months, electrical systems by thermography once a year, and corrosion hot spots every six to twelve months or whenever the tanks are open. Intervals shorten as soon as a reading starts to move and lengthen for items that stay steady. The visit before a docking is the one not to miss."
+    },
+    {
+      "q": "Does the machinery need to be running during the visit?",
+      "a": "Yes, for vibration and thermography. Both depend on load, so readings are taken with the machine running at the condition agreed at the baseline, recorded with each reading. That usually means the ship's engineers run pumps, fans and generators for us alongside, or that part of the work is done during a passage. Thickness readings and coating records need safe access instead, with tanks gas-free and released for entry where we go inside."
+    },
+    {
+      "q": "Can condition monitoring readings be credited to a class survey?",
+      "a": "Only if the ship's classification society accepts them, and that is the society's decision. Under a planned maintenance scheme approved to IACS UR Z20, or a society's own condition-based maintenance arrangement, monitoring data can support machinery surveys. Thickness measurement for class credit needs a firm with that society's UR Z17 approval; Atlantis is in the process of obtaining it from DNV, Lloyd's Register and ABS, so until then our readings serve the owner's own decisions."
+    },
+    {
+      "q": "What do you need from us before the first visit?",
+      "a": "The vessel name or IMO number, the machinery and areas you want monitored, the ship's equipment register or planned maintenance codes, the last thickness measurement report, any earlier vibration or thermal survey reports, and the port and dates. If the ship calls regularly at one port, tell us, because tying visits to that call makes planning the team's travel from India much simpler."
+    },
+    {
+      "q": "What happens when a reading crosses an action level?",
+      "a": "It is reported to the chief engineer and the technical manager before the team leaves the ship, with the location, the value, the trend and the likely cause. The report then lists it at the top of the priority list with a recommended action, such as a bearing change, a connection remade or steel to be renewed at the next docking, and the next reading on that item is brought forward."
+    }
+  ]
+}

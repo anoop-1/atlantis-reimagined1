@@ -1,0 +1,174 @@
+{
+  "slug": "comprehensive-vessel-inspection-programme",
+  "navLabel": "CVIP (Comprehensive Vessel Inspection Programme)",
+  "title": "CVIP: Comprehensive Vessel Inspection Programme for Ship Owners",
+  "description": "CVIP, the Atlantis Comprehensive Vessel Inspection Programme: a baseline and repeat inspections of hull, tanks, piping and machinery, with one trend record.",
+  "h1": "CVIP: One Comprehensive Vessel Inspection Programme for the Whole Ship",
+  "eyebrow": "Maritime inspection · Owner's programme",
+  "intro": "CVIP, the Comprehensive Vessel Inspection Programme, is an Atlantis NDT programme for ship owners and managers; it is not an IMO, flag or classification society scheme. It brings together inspections an owner usually buys one at a time, from thickness gauging and crack detection to piping, hatch covers, coatings, thermography, vibration and noise, into one plan for the ship: a baseline visit, repeat visits timed to the survey cycle and port calls, one report format and one trend record for as long as the programme runs.",
+  "highlights": [
+    {
+      "h": "One plan instead of six contractors",
+      "p": "Gauging at the docking, thermography from one firm, vibration from a maker's engineer, hatch tests from another: each report has its own format and its own points. CVIP puts every inspection on one plan, one set of marked locations and one report the technical manager can read in a sitting."
+    },
+    {
+      "h": "Timed to surveys and port calls",
+      "p": "Repeat visits are scheduled against the class survey dates, the next docking and the ports the ship actually uses, so the readings arrive when they can still change a decision: before the steel list is written, before a charter starts, before a sale is negotiated."
+    },
+    {
+      "h": "A record that stays with the ship",
+      "p": "Every visit adds to the same trend record, which the owner keeps. Charterers' vetting questions, a lender's technical review and a buyer's inspection can all be answered from measured history rather than from the condition on one afternoon."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-cvip-is",
+      "h": "What CVIP is, and what it is not",
+      "p": [
+        "Most ships are inspected in fragments. Thickness measurement happens when a survey forces it, crack detection when a crack is already suspected, thermography when an insurer asks, vibration readings when a pump starts to complain. Each job is done well enough, but the reports use different formats, the measurement points move from one contractor to the next, and nobody can say whether the ship is getting better or worse. CVIP replaces those fragments with one programme planned around the ship's structure, systems and trade.",
+        "It sits beside the statutory and class framework, not inside it. CVIP does not replace annual, intermediate or renewal surveys, the Enhanced Survey Programme for tankers and bulk carriers, the IMO Condition Assessment Scheme or a class Condition Assessment Programme, and it does not produce a rating. It produces measured evidence that belongs to the owner. The programme draws on these individual services, each described on its own page:"
+      ],
+      "links": [
+        ["/maritime/ultrasonic-thickness-measurement", "Ultrasonic Thickness Measurement (UTM)"],
+        ["/maritime/hull-structural-integrity", "Hull Structural Integrity"],
+        ["/maritime/magnetic-particle-inspection", "Magnetic Particle Inspection (MPI)"],
+        ["/maritime/ship-piping-inspection", "Ship Piping Inspection"],
+        ["/maritime/scrubber-piping-inspection", "Scrubber Piping Inspection"],
+        ["/maritime/hatch-cover-ultrasonic-testing", "Hatch Cover Ultrasonic Tightness Testing"],
+        ["/maritime/infrared-thermography", "Infrared Thermography"],
+        ["/maritime/condition-monitoring", "Condition Monitoring"],
+        ["/maritime/noise-survey", "Ship Noise Survey"],
+        ["/maritime/corrosion-mapping", "Corrosion Mapping"]
+      ]
+    },
+    {
+      "id": "programme-modules",
+      "h": "Programme modules: what is measured, and when",
+      "p": [
+        "The owner chooses the modules; most programmes take all of the first six and add noise where accommodation or crew complaints make it relevant. Timings below are the usual pattern and are fixed for each ship in the programme plan."
+      ],
+      "table": {
+        "head": ["Programme module", "What is measured", "When"],
+        "rows": [
+          ["Hull, tanks and holds", "Close-up visual condition of structure, coating condition in GOOD, FAIR and POOR terms, anodes, deformation and contact damage", "Baseline; then whenever tanks and holds are opened in port, and before each docking"],
+          ["Thickness at fixed locations", "Spot ultrasonic readings at numbered points, transverse sections where the owner wants them, corrosion mapping where pitting governs", "Baseline; then yearly or as tank access allows; a pre-docking round months before the yard"],
+          ["Crack detection at hot spots", "Magnetic particle inspection at hatch corners, bracket toes, crane pedestals, side frame ends and other fatigue details for the ship type", "Baseline; at each docking; after heavy weather or a reported contact"],
+          ["Piping and scrubber piping", "Wall thickness at bends, tees, reducers and downstream of valves; scrubber wash-water, overboard and drain lines and the shell around the outlet", "Baseline; then every six to twelve months for scrubber and sea-water lines"],
+          ["Hatch covers and closing appliances", "Seals, compression bars, cleats, drains and cross-joints, with an ultrasonic tightness test as the owner's own check", "Baseline; then yearly, or before cargoes that cannot tolerate water"],
+          ["Machinery condition", "Vibration of rotating machinery and infrared thermography of switchboards, motor control centres, motors and hot surfaces", "Baseline; quarterly to six-monthly for critical machinery; electrical thermography yearly"],
+          ["Noise, where wanted", "Levels at the positions of the ship's noise survey report", "Baseline; after machinery, ventilation or accommodation changes"]
+        ]
+      }
+    },
+    {
+      "id": "baseline-visit",
+      "h": "The baseline visit",
+      "p": [
+        "The baseline decides how useful every later visit will be, so it is planned from the ship's documents before the team travels: structural drawings with original scantlings, the last thickness measurement report, the class survey status and any outstanding conditions, the equipment register from the planned maintenance system, earlier thermal or vibration reports, and the noise survey report. From those, and from the known weak points of the ship type, we draw up the inspection plan with the technical manager: which tanks and holds to enter, where to place thickness and crack detection points, which machines to measure and in what operating condition.",
+        "On board, every location is numbered, marked and photographed, and machinery readings are taken with the load recorded. The baseline report describes the ship as found, flags anything that needs action now, and fixes the reference against which every later visit is compared. On an older ship it is often the first time the owner has seen hull, piping and machinery condition in one document."
+      ]
+    },
+    {
+      "id": "repeat-visits",
+      "h": "Repeat visits timed to the survey cycle and port calls",
+      "p": [
+        "After the baseline, visits are laid out against the ship's own calendar. A visit some months before an intermediate or renewal survey shows what the surveyor is likely to find while there is time to act. A pre-docking round gives the yard a steel and pipe renewal list before it writes its estimate, and a short visit after the docking re-baselines the items that were repaired. Between those, machinery and corrosion hot spots are checked at the intervals their trends call for.",
+        "Teams are mobilised from India for each visit, so visits are tied to ports the ship uses regularly where possible, and to stays long enough for tanks to be gas-freed and released or machinery to be run at load. When a trade changes or a docking moves, the programme moves with it; the plan is a working document, not a contract schedule that ignores the ship."
+      ]
+    },
+    {
+      "id": "one-report-one-trend",
+      "h": "One report format and one trend record",
+      "p": [
+        "Every visit produces the same report structure, so a superintendent who has read one can read them all. It opens with the condition of each area and system, then the changes since the last visit and since the baseline, then the defects and findings ranked by priority with a recommended action and a suggested time to act, usually before the next voyage, before the next survey or at the next docking. Photographs, sketches, readings and calibration records follow.",
+        "Behind the report sits the trend record: every thickness point with its history and corrosion rate, every machine with its vibration trend, every thermal finding with its temperature rise over time. The record is delivered as data files the owner keeps, in a form that can be loaded into the planned maintenance system or handed to a future manager, charterer, lender or buyer."
+      ]
+    },
+    {
+      "id": "what-the-owner-gets",
+      "h": "What the owner gets from the programme",
+      "p": [
+        "The return on a programme is measured in decisions made earlier and with better information. The points below are what owners usually set out to achieve when they start one."
+      ],
+      "list": [
+        "Fewer surprises at the special survey: wastage and cracking are found and planned for before the surveyor and the yard find them",
+        "Earlier steel and repair planning, with renewal lists that the yard can work from and parts ordered before the ship arrives",
+        "Evidence for charterers and vetting inspectors that the hull, closing appliances and machinery are maintained by measurement, not by age alone",
+        "Technical history a lender can review when financing or refinancing the ship",
+        "A clean, consistent record when the ship is sold, which shortens the buyer's own inspection and narrows what is left to argue about",
+        "Machinery faults caught as trends, reducing breakdowns at sea and the off-hire that follows them"
+      ]
+    },
+    {
+      "id": "fleet-programmes",
+      "h": "Fleet programmes across sister ships",
+      "p": [
+        "Sister ships share drawings, structural details and machinery, and usually share weaknesses. In a fleet programme the measurement plan is laid out once for the class of ship, with the same point numbering on each hull, so readings can be compared ship against ship as well as visit against visit. A crack at a hatch corner on one ship, or a bearing frequency rising on a sister's ballast pump, tells us exactly where to look first on the others.",
+        "Fleet results are also reported side by side, which helps a technical department decide which ship goes to the yard first, which needs steel work at its next docking, and which can safely run on. Each ship still receives its own report and keeps its own trend record for the day it changes hands."
+      ]
+    },
+    {
+      "id": "class-and-team",
+      "h": "Where CVIP sits beside class, and who does the work",
+      "p": [
+        "Thickness measurement credited to a class survey has to be carried out by a firm approved by the ship's classification society under IACS UR Z17, with the society's surveyor attending as its rules require. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS. Until a certificate is issued, CVIP readings serve the owner's own decisions: steel and docking planning, checks between surveys, evidence for charterers and financiers, and the ship's record for a future sale. Ultrasonic tightness testing of hatch covers for class purposes follows the same rule, so in CVIP it is the owner's check.",
+        "Each programme is planned and supervised by the founder, our Responsible NDT Level III, who holds ASNT NDT Level III in UT, RT, MT, PT and VT and has more than eleven years of international field experience. Technicians are qualified and certified under our written practice to ASNT SNT-TC-1A, and vibration and thermography are carried out by qualified analysts and thermographers to written procedures. Atlantis is certified to ISO 9001 and ISO 14001. If a class rule, a yard or a charterer requires a particular certification scheme for NDT operators, tell us at enquiry and we confirm before anything is booked."
+      ]
+    }
+  ],
+  "codes": [
+    "IACS UR Z7 – Hull classification surveys",
+    "IACS UR Z10.1 to Z10.5 – Hull surveys of oil tankers, bulk carriers, chemical tankers, double-hull oil tankers and double-skin bulk carriers",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "ISO 17359 – Condition monitoring and diagnostics of machines, general guidelines",
+    "ISO 18434-1 – Condition monitoring and diagnostics of machines, thermography",
+    "ASTM E797 – Ultrasonic pulse-echo contact thickness measurement",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Programme plan for the ship or fleet: modules, measurement locations, visit timing against surveys and dockings",
+    "Baseline report describing hull, tanks, piping, closing appliances and machinery as found",
+    "Visit report in one standard format: condition by area, changes since baseline, findings by priority",
+    "Pre-docking steel and pipe renewal list located on the ship's drawings",
+    "Trend record of thickness, vibration and thermal readings, delivered as data files the owner keeps",
+    "Fleet comparison across sister ships, where the programme covers more than one hull",
+    "Photographs, sketches, calibration records and operator certificates for every visit"
+  ],
+  "industries": [
+    "Ship owners and their technical departments",
+    "Third-party ship managers",
+    "Bulk carriers and ore carriers",
+    "Crude oil, product and chemical tankers",
+    "Container ships and car carriers",
+    "LNG and LPG carriers",
+    "Owners preparing ships for sale or refinancing",
+    "Fleets of sister ships"
+  ],
+  "faqs": [
+    {
+      "q": "Is CVIP a class or IMO scheme?",
+      "a": "No. CVIP is a programme Atlantis NDT offers to ship owners and managers, and it is commissioned and owned by them. It does not replace any class survey, the Enhanced Survey Programme, the IMO Condition Assessment Scheme or a class Condition Assessment Programme, and it does not award a rating. Its value is the measured, repeatable record it builds, which the owner can show to charterers, lenders and buyers."
+    },
+    {
+      "q": "Can CVIP thickness readings be used for a class survey?",
+      "a": "Readings credited to a class survey must be taken by a firm approved by the ship's classification society under IACS UR Z17. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS, and until a certificate is issued CVIP readings serve the owner's decisions. Many owners use the pre-docking CVIP round to size the steel work, then have the class-credited gauging done during the survey itself."
+    },
+    {
+      "q": "How long does a programme run?",
+      "a": "Most owners set it up for at least one survey cycle, from one renewal survey to the next, because that is the period over which trends become decisive. It can start at any point in the cycle; starting a year or two before a renewal survey is common, since the first findings then feed straight into the docking. Fleet programmes usually run for as long as the ships stay in the fleet."
+    },
+    {
+      "q": "What does the owner need to provide for the baseline?",
+      "a": "Structural drawings with original scantlings, the last thickness measurement report, the class survey status, the equipment register or planned maintenance codes, earlier thermography, vibration and noise reports if any, the trading pattern and the next docking date. On board, the ship provides gas-free certificates and entry permits for tanks and holds, lighting and access, and engineers to run machinery at the agreed load."
+    },
+    {
+      "q": "Can we start with one ship and add sisters later?",
+      "a": "Yes. The first ship's plan is laid out so it can be repeated: point numbering follows the structure and the equipment register, not one hull. When a sister joins, she gets the same plan and her baseline can be compared directly with the first ship's history. That comparison is often the quickest way to find which ship in a class is ageing fastest and why."
+    },
+    {
+      "q": "Does a CVIP record help when the ship is sold?",
+      "a": "It usually helps both sides. The seller can show a consistent history of thickness, crack detection and machinery readings instead of a single recent report, and the buyer's own Pre-Purchase Inspection can concentrate on checking that history rather than starting from nothing. The buyer still decides what to inspect and obtains the class records through the society with the seller's consent; the CVIP record supports that work rather than replacing it."
+    }
+  ]
+}

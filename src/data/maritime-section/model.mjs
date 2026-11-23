@@ -414,7 +414,7 @@ function textPage(rec, kind, parent, cityList, hubs, comboRows = []) {
     const rows = [...byCountry].map(([country, names]) => [country, names.join(', ')]);
     pg.sections.push({ id: 'ports', h: `Ports we cover in ${REGION_NAME[rec.slug]}`, p: [rec.slug === 'europe' ? 'Each European country with more than one port page has its own page, listed under "In this section" below, and every port has a page describing the traffic, the yards and anchorages where gauging happens, and the jobs we see there.' : 'Each port has its own page describing the traffic, the yards and anchorages where gauging happens, and the jobs we see there. The full list of port pages follows at the end of this page.'], table: { head: ['Country', 'Ports'], rows } });
     pg.related = [...SERVICE_DEFS.filter(([, , , g]) => g === 'survey').slice(0, 5).map(([s, l]) => [path(s), l]), [path('marine-ndt-services'), 'Marine NDT services'], ...REGIONS.filter(([s]) => s !== rec.slug).map(([s, l]) => [path(s), `Maritime inspection in ${l}`])];
-    pg.areaServed = rec.slug === 'europe' ? ['Europe'] : rec.slug === 'middle-east' ? ['Middle East', 'Egypt'] : ['China', 'Hong Kong', 'Singapore'];
+    pg.areaServed = rec.slug === 'europe' ? ['Europe'] : rec.slug === 'middle-east' ? ['Middle East', 'Egypt'] : rec.slug === 'oceania' ? ['Australia', 'New Zealand'] : ['China', 'Hong Kong', 'Singapore'];
   }
   if (kind === 'country') {
     const hub = hubs.find(([s]) => s === rec.slug);

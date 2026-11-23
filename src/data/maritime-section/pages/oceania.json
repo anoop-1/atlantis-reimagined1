@@ -1,0 +1,171 @@
+{
+  "slug": "oceania",
+  "navLabel": "Australia & New Zealand",
+  "title": "Ship Inspection in Australia & New Zealand | Hull Gauging, NDT",
+  "description": "Ship inspection in Australia and New Zealand: thickness gauging, pre-purchase and condition surveys for bulk carriers, LNG carriers and cruise ships.",
+  "h1": "Ship Inspection and Hull Gauging in Australia and New Zealand",
+  "eyebrow": "Maritime inspection",
+  "intro": "Australia is one of the world's largest seaborne exporters of iron ore, coal and LNG, and New Zealand moves almost all its trade by sea, so a large and varied fleet calls at ports a long way from the shipyards of Asia. Atlantis NDT mobilises inspection teams from India to ships at Australian and New Zealand berths and anchorages for owner's condition gauging, pre-purchase and condition surveys, piping and scrubber checks, hatch cover testing and crack detection, planning each visit around visas, long flights and the ship's stay.",
+  "highlights": [
+    {
+      "h": "Gauge here, dock in Asia",
+      "p": "Most large ships trading to Australia dock in China, Singapore or elsewhere in Asia. Pre-docking gauging during a loading call or an anchorage wait in Australia gives the yard its steel list before the ship sails north, instead of after she arrives in dock."
+    },
+    {
+      "h": "Planned around the distance",
+      "p": "The team flies from India for each job, the bulk berths in the Pilbara are remote, and a Capesize may load in little more than a day. Scope, visas and port access are therefore settled early, and the work is matched to the time the ship actually has."
+    },
+    {
+      "h": "For buyers and owners far away",
+      "p": "Ships changing hands are often trading to Australia while the buyer sits in Europe or Asia. A pre-purchase or condition survey at the loading or discharge port reports to the buyer's superintendent the same day, without waiting for the ship to come closer."
+    }
+  ],
+  "sections": [
+    {
+      "id": "trades-australia-new-zealand",
+      "h": "The trades: iron ore, coal, LNG, containers and cruise ships",
+      "p": [
+        "The heaviest traffic is bulk. Iron ore from the Pilbara leaves through Port Hedland and Dampier on Capesize bulk carriers and very large ore carriers, most of it bound for China; Port Hedland handles more bulk cargo than almost any other port in the world. Coal goes out through Newcastle in New South Wales, one of the largest coal export ports anywhere, and through Gladstone and the other Queensland coal terminals, to Japan, Korea, China, India and South-East Asia. These ships shuttle on long, regular routes and return north in ballast, a pattern that shapes how their structure ages.",
+        "LNG is the second great export trade. Gas from the North West Shelf and the other Western Australian projects is loaded near Dampier, Darwin ships LNG from two plants on its harbour, and the three LNG plants on Curtis Island ship out of Gladstone. The carriers, membrane and spherical-tank ships alike, sail mostly to Japan, China, Korea and Taiwan.",
+        "Containers and vehicles come in through Melbourne, Sydney's Port Botany, Brisbane, Fremantle and Adelaide, and in New Zealand through Auckland and Tauranga, which also exports logs, dairy produce and fruit. Cruise ships are a large presence in Sydney, Brisbane, Melbourne and Auckland, concentrated in the southern summer season. Around Fremantle, Darwin and Adelaide there is also a strong offshore and naval shipbuilding and support sector, and Cook Strait ferries link New Zealand's two islands through Wellington."
+      ]
+    },
+    {
+      "id": "bulk-carriers-ore-coal",
+      "h": "Bulk carriers on the ore and coal trades: what inspection finds",
+      "p": [
+        "An ore carrier on the Pilbara–China run completes around ten round voyages a year, loading at very high rates each time, and spends roughly half of every voyage in ballast. The combination works the hull girder, the hold structure and the ballast tanks hard. Dense ore is carried in alternate holds on many ships, concentrating load on the tank top, hopper and stool structure; grabs and bulldozers at the discharge port damage inner bottom plating and hopper sides; ballast tanks under the deck and in the topside spaces see heat, wet-dry cycling and coating breakdown.",
+        "Coal brings different damage. Wet, high-sulphur coal can be acidic, and it attacks hold frames, brackets and the lower parts of transverse bulkheads, while the cargo's own movement abrades coatings. On single-side-skin bulk carriers surveyed under IACS UR Z10.2, hold frames and their lower brackets remain the classic place to gauge and crack-test; on double-skin ships under UR Z10.5 attention moves to the hopper and topside tanks and the inner hull.",
+        "Hatch covers take a beating on both trades, from grab contact, cargo residue in the drains and repeated opening in all weathers, and water damage to cargo is expensive in coal and ruinous in some ore and grain parcels. Condition gauging of hold frames, topside tanks and coamings, magnetic particle crack detection at hatch corners and bracket toes, and an ultrasonic tightness test of the covers as the owner's own check are the jobs we most often plan for ships in this trade."
+      ]
+    },
+    {
+      "id": "lng-carriers-container-cruise",
+      "h": "LNG carriers, container ships, car carriers and cruise ships",
+      "p": [
+        "On a loaded membrane LNG carrier, a cold patch on the inner hull steel is the first outward sign of damaged insulation or a leaking barrier, and a thermal survey of the ballast spaces and trunk deck finds it before the steel is chilled below the temperature it was chosen for. LNG carriers also carry large electrical and machinery plants that suit thermography and vibration monitoring, and on older steam-turbine ships the condition of the plant is often what a charterer or buyer wants measured.",
+        "Container ships calling at Australian and New Zealand ports bring fatigue rather than corrosion to the top of the list: hatch corners, coaming ends, lashing bridge connections and the upper deck around wide hatch openings. Car carriers add ramps, movable decks and their supports. Cruise ships, which spend the southern summer here, bring electrical thermography of large switchboards, vibration of the many pumps and fans in their hotel plant, and noise measurement in cabins and crew spaces."
+      ]
+    },
+    {
+      "id": "port-state-control-amsa-maritime-nz",
+      "h": "Port state control: AMSA and Maritime New Zealand",
+      "p": [
+        "Port state control in Australia is carried out by the Australian Maritime Safety Authority (AMSA), which takes part in both the Tokyo MoU for the Asia-Pacific region and the Indian Ocean MoU. AMSA has a long-standing reputation for close attention to bulk carriers, a legacy of the bulk carrier losses of earlier decades, and it can detain a ship with serious deficiencies and, for repeated or grave failings, refuse it access to Australian ports for a period. Structural condition, hatch covers and coamings, and working and living conditions under the Maritime Labour Convention are frequent areas of attention.",
+        "In New Zealand, port state control is carried out by Maritime New Zealand under the Tokyo MoU. For an owner the practical point is the same in both countries: an older bulk carrier or tanker with wasted coamings, holed air pipe heads or corroded deck structure attracts attention, and condition gauging between surveys finds those items before an inspector records them. That gauging needs no class approval when it is the owner's own record."
+      ]
+    },
+    {
+      "id": "biofouling-rules-arriving-ships",
+      "h": "Biofouling rules for ships arriving in Australia and New Zealand",
+      "p": [
+        "Both countries treat hull fouling as a biosecurity risk. Australia's biofouling management requirements for international vessel arrivals, administered by the Department of Agriculture, Fisheries and Forestry, took effect on 15 June 2022, with an education-first period that ran to 15 December 2023. Operators report how they have managed biofouling through the Maritime Arrivals Reporting System before arrival, and ships that follow an accepted practice, such as an effective biofouling management plan or cleaning of the hull and niche areas within 30 days before arriving, face less intervention.",
+        "New Zealand's Craft Risk Management Standard for biofouling on vessels arriving in New Zealand became mandatory in May 2018 and requires ships to arrive with a clean hull. Ships staying longer, or visiting ports other than the approved places of first arrival, are held to the strictest threshold: little more than a slime layer. Biofouling management itself belongs to the owner, the coating supplier and specialist cleaning contractors. Where it touches our work is at the docking, when sea chests, gratings and the hull coating are open to view and can be photographed and recorded in the same report as the gauging, giving the owner evidence for the management plan and record."
+      ]
+    },
+    {
+      "id": "docking-and-repair",
+      "h": "Where ships dock and repair",
+      "p": [
+        "Australia and New Zealand have few dry docks able to take large ocean-going merchant ships. The graving docks, floating docks and ship lifts that exist, around Brisbane, Henderson south of Fremantle, Sydney, Auckland and Lyttelton among others, are largely occupied by naval, offshore support, ferry, fishing and smaller commercial work, and several of the biggest are naval facilities. In practice, most bulk carriers, tankers and LNG carriers trading to the region are dry-docked in China, Singapore or elsewhere in Asia.",
+        "That makes the Australian or New Zealand port call a useful moment for inspection. A renewal survey docking in a Chinese yard is far easier to plan if the ballast tanks, holds and piping have been gauged during the last loading call or anchorage wait, so the yard has a steel and pipe renewal list before the ship arrives. Readings taken here are located on the ship's own drawings, which the yard can work from directly."
+      ]
+    },
+    {
+      "id": "distance-visas-port-access",
+      "h": "Distance, visas and port access for a team from India",
+      "p": [
+        "Australia and New Zealand are a long flight from India, and the Pilbara ports add a domestic connection through Perth on top. Indian nationals need a visa for both countries that permits the work being done, not a tourist visa, so we apply as soon as the port and dates are reasonably firm and ask the owner or the ship's agent for a letter describing the job. Because the ship's schedule can move after the application is lodged, we plan with a window rather than a single day.",
+        "Australian port security zones require a Maritime Security Identification Card for unescorted access, so a visiting team is escorted through the terminal and to the gangway, arranged by the ship's agent. Bulk berths load fast and berth time is short; tank entry is often better planned for the anchorage wait before loading, the voyage's discharge port or a lay-by berth, while deck, hatch cover and machinery work can be done alongside. In New Zealand, terminal access and boarding are arranged through the agent in the same way."
+      ]
+    },
+    {
+      "id": "where-ships-are-inspected-oceania",
+      "h": "Where ships are inspected in Australia and New Zealand",
+      "p": [
+        "The table summarises the main settings and the work we usually plan for each. Each port has its own page describing the ships that call, the berths and anchorages, and the jobs we see there."
+      ],
+      "table": {
+        "head": ["Area", "Typical setting", "Typical work"],
+        "rows": [
+          ["Pilbara: Port Hedland and Dampier", "Iron ore berths and anchorages; LNG jetties near Dampier", "Hold, topside tank and hatch cover condition on ore carriers; pre-docking gauging before Asian yards; LNG carrier thermography"],
+          ["Queensland: Gladstone and Brisbane", "Coal and LNG terminals; container and cruise berths; repair facilities in Brisbane", "Coal-trade hold gauging and crack detection; LNG carrier checks; container ship fatigue details"],
+          ["New South Wales: Newcastle and Sydney", "Coal berths; Port Botany container terminals; cruise terminals", "Bulk carrier condition surveys; container ship crack detection; cruise ship thermography and noise"],
+          ["Victoria and South Australia: Melbourne and Adelaide", "Container, car carrier and grain berths", "Car carrier deck and ramp inspection; owner's condition gauging; scrubber piping"],
+          ["Western Australia and Northern Territory: Fremantle and Darwin", "Container, vehicle and livestock berths; LNG terminals at Darwin; repair and offshore precinct at Henderson", "Owner's checks and pre-purchase surveys; LNG carrier and offshore vessel inspection"],
+          ["New Zealand: Auckland, Tauranga, Wellington and Lyttelton", "Container, car carrier and log berths; Cook Strait ferry terminals; cruise berths", "Condition surveys and gauging; ferry and ro-ro inspection; hatch cover checks on log carriers"]
+        ]
+      },
+      "links": [
+        ["/maritime/port-hedland", "Port Hedland"],
+        ["/maritime/dampier", "Dampier"],
+        ["/maritime/gladstone", "Gladstone"],
+        ["/maritime/brisbane", "Brisbane"],
+        ["/maritime/newcastle-nsw", "Newcastle, NSW"],
+        ["/maritime/sydney", "Sydney"],
+        ["/maritime/melbourne", "Melbourne"],
+        ["/maritime/adelaide", "Adelaide"],
+        ["/maritime/fremantle", "Fremantle"],
+        ["/maritime/darwin", "Darwin"],
+        ["/maritime/auckland", "Auckland"],
+        ["/maritime/tauranga", "Tauranga"],
+        ["/maritime/wellington", "Wellington"],
+        ["/maritime/lyttelton", "Lyttelton"]
+      ]
+    }
+  ],
+  "codes": [
+    "Tokyo Memorandum of Understanding on Port State Control in the Asia-Pacific Region",
+    "Indian Ocean Memorandum of Understanding on Port State Control",
+    "Australian biofouling management requirements for international vessel arrivals",
+    "New Zealand Craft Risk Management Standard: Biofouling on Vessels Arriving to New Zealand",
+    "IMO 2023 Guidelines for the control and management of ships' biofouling, resolution MEPC.378(80)",
+    "IACS UR Z7, Z10.1 to Z10.5 and Z17",
+    "SOLAS chapter XI-1, regulation 2 and the 2011 ESP Code",
+    "ASTM E797 (ultrasonic pulse-echo contact thickness measurement)"
+  ],
+  "deliverables": [
+    "Thickness measurement report with readings located on the ship's drawings, ready for an Asian yard's steel list",
+    "Hold frame, topside tank and hatch coaming condition records for ore and coal carriers",
+    "Pre-purchase and condition survey reports delivered to the buyer or owner wherever they are",
+    "Thermal survey report for electrical systems and LNG carrier cold-spot checks",
+    "Scrubber and sea-water piping condition report by spool",
+    "Photographs of structure, coatings and sea chests recorded at docking"
+  ],
+  "industries": [
+    "Capesize bulk carriers and very large ore carriers",
+    "Coal-trade bulk carriers",
+    "LNG carriers",
+    "Container ships and car carriers",
+    "Cruise ships and ferries",
+    "Offshore supply and support vessels",
+    "Ship managers with ships trading to Australia and New Zealand",
+    "Buyers and brokers in sale and purchase"
+  ],
+  "faqs": [
+    {
+      "q": "Which port state control regimes apply in Australia and New Zealand?",
+      "a": "Australia's port state control is carried out by AMSA, which takes part in both the Tokyo MoU and the Indian Ocean MoU. New Zealand's is carried out by Maritime New Zealand under the Tokyo MoU. In both countries older bulk carriers and tankers draw close attention to structure, hatch covers and deck fittings, and AMSA can refuse port access to ships with repeated serious failings. Owner's condition gauging between surveys helps find those items first."
+    },
+    {
+      "q": "Can thickness measurement done in Australia be credited to a renewal survey?",
+      "a": "Readings credited to a class survey have to be taken by a firm approved by the ship's classification society under IACS UR Z17, with the surveyor attending as the society requires. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS. Until a certificate is issued, gauging we do in Australia or New Zealand serves the owner's decisions: pre-docking steel estimates, condition checks, pre-purchase and on-hire or off-hire records."
+    },
+    {
+      "q": "Should we gauge in Australia or wait for the yard in Asia?",
+      "a": "For a renewal survey docking, doing the owner's pre-docking gauging during an Australian loading call or anchorage wait usually pays off in yard time. The yard receives the renewal list before the ship arrives, steel can be ordered early, and the gauging done in dock for the survey becomes a confirmation exercise. Ballast tanks and holds need to be cleaned, ventilated and released for entry, which fits an anchorage wait better than a short loading berth."
+    },
+    {
+      "q": "Can you board ore carriers at Port Hedland or Dampier?",
+      "a": "Yes, with planning. The team flies to the Pilbara through Perth, and the ship's agent arranges escorted access through the port security zone and, where the port allows, boarding by launch at anchorage. Loading is fast, so the scope is matched to the time available: deck, hatch cover and machinery work alongside, and tank and hold entry during the anchorage wait or at a later port."
+    },
+    {
+      "q": "Do the biofouling rules change how an inspection is planned?",
+      "a": "Not directly, since biofouling management sits with the owner, the coating supplier and cleaning contractors. They make docking records more valuable, though. When a ship trading to Australia or New Zealand is in dock in Asia, we can photograph and record sea chests, gratings and hull coating condition in the same report as the gauging, which supports the ship's biofouling management plan and record book."
+    },
+    {
+      "q": "How far ahead should we contact you for a job in Australia or New Zealand?",
+      "a": "As early as the port and an approximate date are known. Visas for both countries take time, and the application goes more smoothly with a letter from the owner or agent describing the work. Send the vessel name or IMO number, ship type, class, the purpose of the inspection, the port and dates, and any earlier reports to info@atlantisndt.com or through the enquiry form, and we confirm the plan before anyone travels."
+    }
+  ]
+}

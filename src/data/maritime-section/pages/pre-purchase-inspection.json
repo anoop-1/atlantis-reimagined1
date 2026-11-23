@@ -1,0 +1,162 @@
+{
+  "slug": "pre-purchase-inspection",
+  "navLabel": "Pre-Purchase Inspection",
+  "title": "Pre-Purchase Ship Inspection for Buyers | Hull, Tanks, Machinery",
+  "description": "Pre-purchase inspection of second-hand ships for buyers: holds, tanks, decks, spot thickness, machinery condition and class records before the deal closes.",
+  "h1": "Pre-purchase inspection of second-hand ships: evidence for the buyer before the deal closes",
+  "eyebrow": "Maritime inspection · Sale and purchase",
+  "intro": "A buyer of a second-hand ship rarely gets more than a short visit before the terms are fixed, often at a port call while she keeps trading. Atlantis NDT uses that visit to measure as well as look: structure and coatings in holds, tanks and on deck, spot thickness readings near the renewal limits, crack checks at known hot spots, hatch covers, deck machinery and running machinery. The buyer gets the findings while the inspection window is still open.",
+  "highlights": [
+    {
+      "h": "Measured, not only observed",
+      "p": "A walk-round shows what the ship looks like. Thickness readings where steel wastes first, crack checks at fatigue details and readings on running machinery show what the next renewal survey and the next docking are likely to ask of her new owner."
+    },
+    {
+      "h": "Findings while the window is open",
+      "p": "Sale terms give the buyer a short period to accept or reject the ship after inspection. Anything that could change that decision is reported the same day, before the team leaves, and the full report follows with photographs and readings located on sketches."
+    },
+    {
+      "h": "Clear about its limits",
+      "p": "It is not a valuation, a class survey or a warranty survey, and the readings are not credited to class. Where the seller withholds access or consent, the report says so item by item, so the buyer knows exactly where the evidence stops."
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-inspect",
+      "h": "What a buyer learns from a pre-purchase inspection",
+      "p": [
+        "Class records show what the classification society recorded at past surveys. They do not say what the next renewal survey will find, how much steel the ballast tanks have lost since the last gauging, or whether the generators run as smoothly as the log suggests. A pre-purchase inspection supplies that evidence, gathered on board by people with no stake in the sale.",
+        "It answers three questions. What condition is the steel in, and where is it heading? What condition is the machinery in as it runs today? Do the seller's records agree with what is on board? The plan is built around the buyer's decision rather than a fixed checklist."
+      ]
+    },
+    {
+      "id": "sale-terms",
+      "h": "How the inspection fits the memorandum of agreement",
+      "p": [
+        "Most second-hand ships change hands on the Norwegian Saleform, and the 2012 edition is still the most widely used. Its Clause 4 deals with inspection: the buyers may inspect the ship and her classification records before the memorandum is signed or within a period it sets afterwards, then accept or reject her within a short time. The inspection is made without opening up, and the deck and engine log books are made available. SALEFORM 2025 keeps physical inspection and adds an option to buy without it.",
+        "On board, that means crankcase doors stay shut, nothing is dismantled, and tanks are entered only with the seller's consent and the master's permit. The form also provides for delivery as she was at the time of inspection, fair wear and tear excepted, so a well-documented inspection becomes the buyer's reference for her condition at delivery. Each memorandum is negotiated, and the buyer's broker or lawyer should confirm what this one allows."
+      ]
+    },
+    {
+      "id": "structure",
+      "h": "Holds, tanks and decks: structure and coatings in a short visit",
+      "p": [
+        "The structural inspection goes where wastage starts on that ship type: hold frames, lower brackets, grab-damaged hopper plating and topside tank undersides on a bulk carrier; double-bottom and double-side ballast spaces on a tanker, whose cargo tanks are seldom gas-free while she trades; hatch coaming top plates and ballast tanks on a container ship; and deck plating and wind-and-water strakes on all of them. Coating condition is recorded space by space in the GOOD, FAIR and POOR terms class uses.",
+        "Echo-echo gauging reads through sound paint, so most spot readings need no grinding on a ship the buyer does not yet own. Each reading is set against the original thickness from the drawings or the last class report, and the substantial corrosion band is flagged. Hatch corners and bracket toes are examined visually and, where the master allows a patch to be cleaned, with magnetic particle testing. A sample is not a full gauging, and the report says how the points were chosen; the Ultrasonic Thickness Measurement (UTM) and Hull Structural Integrity pages explain the methods."
+      ],
+      "table": {
+        "head": ["Area", "What we check", "What it tells the buyer"],
+        "rows": [
+          ["Ballast tanks", "Coating rating, wastage, pitting, anodes, spot thickness", "Coating or steel work due at the next special survey"],
+          ["Cargo holds", "Frames, brackets, hopper plating, grab damage, cracks at frame ends", "How she has been worked, and where renewal is likely"],
+          ["Deck and coamings", "Plating thickness, corrosion under fittings, cracks at hatch corners", "Condition of the strength deck"],
+          ["Hatch covers", "Panels, packing, compression bars, cleats, drainage", "Weathertightness and wet cargo claim risk"],
+          ["Deck machinery", "Windlass, winches and cranes run by the crew, foundations", "Repairs the new owner inherits in the first months"],
+          ["Engine room", "Vibration and thermal readings, log books, maintenance records", "Faults present now and overhauls already overdue"],
+          ["Records", "Class status, thickness reports, survey report file", "Whether the paperwork and the ship agree"]
+        ]
+      }
+    },
+    {
+      "id": "hatch-deck",
+      "h": "Hatch covers, closing appliances and deck machinery",
+      "p": [
+        "Hatch covers are what a buyer of a dry cargo ship inherits most directly: panel plating and stiffeners, packing rubber for permanent set, compression bars and cleats for wear, drain channels and non-return valves for blockage, and coaming tops for wastage under the packing line. An ultrasonic test on closed covers can be added as the buyer's own weathertightness check; the Hatch Cover Ultrasonic Tightness Testing page explains it, and a test credited to class needs a firm holding UR Z17 approval from the ship's society.",
+        "Deck machinery is seen working: the crew runs the windlass, mooring winches and cranes while we note brake holding, hydraulic leaks and foundations, and check crane pedestal welds for cracks. Load tests and lifting appliance certification stay with the maker or a competent person."
+      ]
+    },
+    {
+      "id": "machinery",
+      "h": "Machinery condition readings with the chief engineer",
+      "p": [
+        "Readings depend on what the chief engineer can run. Alongside, the main engine is rarely run under load, but the generators, cooling and ballast pumps, purifiers, compressors and fans usually can be. Overall and spectrum vibration readings on bearings and casings are compared with the evaluation guidance in ISO 20816-1 and, more usefully, with sister machines: three identical generators running side by side make good references for each other.",
+        "A thermal survey of the switchboards under load and of exhaust lagging near fuel lines adds faults vibration cannot see; the Infrared Thermography page describes it. The records complete the picture: running hours against overhaul intervals, crankshaft deflection and liner wear records, engine performance data and the engine log. One visit is a snapshot, not a trend: it shows faults present on the day, not how fast a machine is wearing."
+      ]
+    },
+    {
+      "id": "records",
+      "h": "Records to ask for, and how we help read them",
+      "p": [
+        "Class records reach the buyer from the classification society with the seller's authority, and the buyer reviews them. We help read the thickness measurement reports: which areas were in the substantial corrosion band, what was renewed, what the next renewal survey will ask for on a ship of this type and age, and how our readings on board compare. Through the broker, the buyer can ask the seller for the documents below."
+      ],
+      "list": [
+        "Class survey status, with any conditions of class, memoranda and survey due dates",
+        "The last thickness reports and, for ships under the enhanced survey programme, the survey report file with its Executive Hull Summary",
+        "Any Condition Assessment Programme report and the last drydock repair specification",
+        "Planned maintenance records, running hours and main engine performance data",
+        "Hatch cover test records and lifting appliance certificates",
+        "The Inventory of Hazardous Materials certificate, and the port state control history published on Equasis"
+      ]
+    },
+    {
+      "id": "findings-to-decision",
+      "h": "From findings to a decision: proceed, go back to the seller, or walk away",
+      "p": [
+        "Findings are sorted by what the buyer can do about them. Items affecting class are, under most memoranda, for the seller to clear before delivery. Items class has not yet raised but the next special survey will, such as steel near its renewal limit or ballast tank coatings sliding from FAIR to POOR, become points to put to the seller; how the terms change is for the buyer and the broker.",
+        "Sometimes the right answer is to decline the ship within the period the memorandum allows, and a clear record of why protects that decision. If the purchase proceeds, the readings become the first entries in the new owner's record, and the report outlines likely steel renewal by area and extent so the buyer can plan the drydock slot and the time in the yard at the next special survey; the Special Survey Thickness Measurement page covers that step."
+      ]
+    },
+    {
+      "id": "what-it-is-not",
+      "h": "What a pre-purchase inspection is not, and who does the work",
+      "p": [
+        "It is not a valuation, a class survey or a warranty survey, and it offers no opinion on the deal. Thickness measurement credited to a class survey must be carried out by a firm approved by the ship's classification society under IACS UR Z17. Atlantis is in the process of obtaining UR Z17 approval from DNV, Lloyd's Register and ABS; until a certificate is issued, our readings serve the buyer's decision and are not credited to class.",
+        "Teams are mobilised from India for each inspection, with no office or agent at any port, so boarding is planned around visas and the ship's itinerary. The founder, our Responsible NDT Level III (ASNT NDT Level III in UT, RT, MT, PT and VT, more than eleven years of international field experience), plans and supervises the work. Technicians are certified under the company's written practice to ASNT SNT-TC-1A, vibration and thermal readings are taken by qualified analysts and thermographers to written procedures, and Atlantis is certified to ISO 9001 and ISO 14001."
+      ]
+    }
+  ],
+  "codes": [
+    "Norwegian Saleform 2012 (NSF 2012), Clause 4 – Inspection",
+    "IACS UR Z7 – Hull classification surveys, including the GOOD, FAIR and POOR coating condition terms",
+    "IACS UR Z10.1 to Z10.5 – Hull surveys of oil tankers, bulk carriers, chemical tankers, double-hull oil tankers and double-skin bulk carriers",
+    "IACS UR Z17 – Procedural requirements for service suppliers",
+    "ASTM E797 – Ultrasonic thickness measurement by the manual pulse-echo contact method",
+    "ISO 20816-1 – Mechanical vibration, measurement and evaluation of machine vibration: general guidelines",
+    "ASNT SNT-TC-1A – Personnel qualification and certification in NDT"
+  ],
+  "deliverables": [
+    "Same-day summary of the findings that could change the buyer's decision",
+    "Condition of each space and system inspected, with photographs located on sketches or the general arrangement",
+    "Spot thickness readings against original thickness and the class allowable, where drawings or earlier reports allow",
+    "Visual and crack-check findings at fatigue details, hatch covers and deck machinery",
+    "Machinery vibration and thermal readings, with the operating condition at the time",
+    "Notes on the class records and the last thickness measurement reports",
+    "List of items not inspected, with the reason for each"
+  ],
+  "industries": [
+    "Ship buyers and their technical superintendents",
+    "Sale and purchase brokers",
+    "Banks and lessors financing a purchase",
+    "Bulk carriers",
+    "Crude, product and chemical tankers",
+    "Container ships",
+    "General cargo and multipurpose ships",
+    "Gas carriers"
+  ],
+  "faqs": [
+    {
+      "q": "Can you enter the cargo tanks and ballast tanks?",
+      "a": "Ballast tanks, if they are empty, ventilated and certified safe and the master issues an entry permit; cargo holds after discharge. Cargo tanks on a trading tanker are seldom gas-free, so they are assessed from the records and from deck. Every entry needs the seller's consent, and our team enters no space without a valid permit and its own gas monitors."
+    },
+    {
+      "q": "Will the classification society accept your thickness readings?",
+      "a": "Not as class survey readings. Thickness measurement credited to a class survey needs a firm the ship's classification society has approved under IACS UR Z17, and Atlantis is still in the process of obtaining that approval from DNV, Lloyd's Register and ABS. A pre-purchase inspection needs no class credit: the readings inform the buyer's decision and are set against the class records."
+    },
+    {
+      "q": "Do you give an opinion on whether to buy the ship?",
+      "a": "No. We report the condition we found, the readings, the defects and what they are likely to mean at the next survey and docking. Whether to proceed, go back to the seller or decline the ship is the buyer's decision, made with the broker and the buyer's own technical team. We do not value ships and take no part in the negotiation."
+    },
+    {
+      "q": "What if the seller does not allow opening up or grinding?",
+      "a": "That is the normal position, because the Norwegian Saleform provides for inspection without opening up. Most thickness readings can still be taken through sound coating by echo-echo gauging, and machinery is judged from running readings and records. Where a cleaned patch is needed for crack detection we ask through the buyer, and anything not inspected is listed in the report with the reason."
+    },
+    {
+      "q": "What does the buyer need to send before the inspection?",
+      "a": "The vessel name or IMO number, where and when she can be boarded, her class, the buyer's priorities, any class records or thickness reports already received, the drawings available, the contact for boarding and who receives the report. The team travels from India, so early notice of the port and dates helps with visas. Send the details to info@atlantisndt.com or use the enquiry form."
+    },
+    {
+      "q": "Can a bank financing the purchase use the report?",
+      "a": "Yes, if the buyer agrees. Lenders often want independent evidence of condition before a loan is drawn, and the report can be addressed to the buyer and the bank together, or to the bank alone if the bank commissions the inspection. The scope does not change. If the bank has its own report format, send it before the visit so the findings follow it."
+    }
+  ]
+}
