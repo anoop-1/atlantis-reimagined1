@@ -1,0 +1,230 @@
+{
+  "title": "NDT Report Validation in Galveston–Texas City, TX",
+  "description": "Independent review of NDT reports and digital inspection data from Texas City refineries, chemical plants and Galveston Bay terminals, carried out remotely.",
+  "h1": "Independent NDT report review for Texas City refineries, chemical plants and the Galveston Bay waterfront",
+  "eyebrow": "Galveston County, Texas",
+  "intro": "Texas City sits on the western shore of Galveston Bay, and within a few miles of its dock line two large refineries, several chemical sites and dozens of tank and pipeline assets generate inspection records every week. When an owner, a contractor or a buyer needs a second, impartial reading of those records, Atlantis carries out the NDT report validation remotely on the files sent: the PDF, the raw digital inspection data, the calibration sheets and the procedure behind them. The Atlantis office in Houston is a short drive up Interstate 45, yet the review itself never depends on that. It runs on the evidence in the package, and the written opinion ties every finding to a clause, a procedure step or a data file.",
+  "highlights": [
+    {
+      "h": "Built for bayfront refining scale",
+      "p": "Refinery complexes on the Texas City waterfront close out large inspection scopes after every outage. A review can sample by risk, take one contested unit, or read a whole contractor's close-out set, and the scope is fixed in writing before any file is shared."
+    },
+    {
+      "h": "Chemical units read on their own terms",
+      "p": "Acetic acid, aldehydes, organic acids and vinyl acetate service bring stainless and alloy piping, lined vessels and exchanger bundles. The reviewer checks that the technique, the reference standard and the acceptance table actually match the material and the damage expected."
+    },
+    {
+      "h": "Opinion, not a sales pitch",
+      "p": "Atlantis does not review any package where it performed the examination. The verdict stands apart from whoever shot, scanned or signed the original work, and nothing in it depends on winning follow-on inspection."
+    }
+  ],
+  "sections": [
+    {
+      "h": "The industrial shoreline from Texas City to Galveston",
+      "p": [
+        "Marathon Petroleum's Galveston Bay refinery in Texas City is listed by the company at 631,000 barrels per calendar day after its 2018 merger with Marathon's former Texas City refinery next door, and it runs an on-site cogeneration plant rated at 1,055 megawatts. A short distance along Loop 197, Valero's Texas City refinery processes about 260,000 barrels per day and ships products by water and through the Colonial and Explorer pipelines. Both sites rely on deepwater docks, so marine loading arms, dock piping and tank farms belong to the same inspection programmes as the process units.",
+        "Chemicals share the same industrial corridor. Union Carbide, a subsidiary of Dow, owns the roughly 420-acre Texas City Operations site, where two production plants make more than 30 chemicals including aldehydes, organic acids and vinyl acetate. INEOS completed its purchase of the former Eastman Texas City site in December 2023; INEOS Acetyls now runs the 600 kilotonne-per-year acetic acid plant there and operates the plasticisers unit that Eastman still owns. Industrial gases supplier Linde is also among the businesses the Port of Texas City names as partners.",
+        "The Port of Texas City, served by the Texas City Terminal Railway switching line, reports more than 40 million net tons of waterborne cargo a year across 35 berths. Across the causeway, the island's own port adds cargo and cruise terminals. For a reviewer, this geography matters because records from one turnaround often mix refinery process piping, marine dock lines, storage tanks and utility boilers in the same submission."
+      ]
+    },
+    {
+      "h": "What arrives for review from Galveston County sites",
+      "p": [
+        "The packages we see from refining and petrochemical operators in this part of the bay fall into a handful of families. Each family fails in its own way, so the reviewer starts with the checks that decide whether that particular record can carry the decision resting on it."
+      ],
+      "table": {
+        "head": [
+          "Record type",
+          "Typical source near Texas City",
+          "First things the reviewer opens"
+        ],
+        "rows": [
+          [
+            "UT thickness surveys and corrosion maps",
+            "Process piping circuits, dock lines, crude and product tanks",
+            "CML numbering against isometrics, probe and calibration block, temperature correction, grid size on the C-scan"
+          ],
+          [
+            "Phased array and TOFD weld files",
+            "Repairs, alterations and new tie-ins during turnaround",
+            "Scan plan coverage, focal laws, sensitivity setting, indication sizing against the acceptance table"
+          ],
+          [
+            "Film, CR and DR radiographs",
+            "Licensed radiography contractors working the units",
+            "IQI selection and placement, density or SNR, geometric unsharpness, interpretation sheets against the images"
+          ],
+          [
+            "Eddy current and IRIS tube data",
+            "Exchanger bundles pulled during outages",
+            "Calibration standard material, channel set-up, call criteria, tube-sheet map completeness"
+          ],
+          [
+            "MT, PT and VT weld reports",
+            "Fabrication shops and field crews",
+            "Technique sheet, consumables batch, lighting and contact checks, acceptance code and edition"
+          ],
+          [
+            "Boiler and utility inspection records",
+            "Cogeneration and steam systems",
+            "Scope agreed with the authorized inspector, readings against design minimums, traceability of repairs"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Rules that sit behind a Texas City inspection record",
+      "p": [
+        "Most covered process units in the corridor fall under OSHA's process safety management standard, whose mechanical integrity element requires inspection and testing to follow recognized and generally accepted good engineering practices, with each inspection documented. In practice that means API 510 for pressure vessels, API 570 for piping and API 653 for aboveground tanks, with the examination techniques drawn from ASME Section V. A review measures each report against those documents and against the operator's own procedures, which often go further than the codes.",
+        "Boilers are handled differently in Texas. The Texas Department of Licensing and Regulation runs the state boiler program, issuing certificates of operation for terms of one to three years after certificate inspections, which are carried out either by TDLR's own deputy boiler inspectors, mostly on uninsured boilers, or by authorized inspectors employed by the private authorized inspection agencies that cover insured equipment. A report review never takes the place of that inspection; it tells the owner whether the NDT records handed to the inspector hold together.",
+        "Pipelines leaving the refineries split between two regulators. The Railroad Commission of Texas enforces pipeline safety rules on intrastate gas and hazardous liquid lines under its agreement with the federal program, while PHMSA keeps direct jurisdiction over interstate systems. Water and air permits for the sites come from the Texas Commission on Environmental Quality, which matters when an inspection record supports a permit condition or an emissions-related repair.",
+        "Texas is an NRC Agreement State, so industrial radiography in Galveston County is licensed by the Texas Department of State Health Services under its own radiation rules. Atlantis does not take radiographs in Texas or anywhere else in the United States. What we do offer is a document review of the film, CR and DR images produced by the owner's licensed contractor, which needs no radiation licence because nothing is exposed."
+      ]
+    },
+    {
+      "h": "Turnaround close-out on the bay",
+      "p": [
+        "Outage windows at refineries this size compress weeks of examination into a few days of paperwork at the end. Reports are written quickly, often by several contractors using different templates, and the unit restarts before anyone outside the inspection group reads them closely. That is the moment a third-party report review earns its place: before the records harden into the baseline that next cycle's corrosion calculations will be built on.",
+        "For close-out work we usually agree a sample weighted towards the circuits and vessels with the highest consequence or the least margin, plus every report that a plant inspector has already marked for query. The reviewer reconciles each sampled report against the work list, confirms that rejected welds have a repair and re-examination record, and checks that thickness data was entered against the correct CML rather than a neighbouring one. Findings go back to the operator, who decides whether the contractor corrects them."
+      ],
+      "list": [
+        "Repairs closed on paper without a re-examination report attached",
+        "Thickness readings recorded against a CML that was renumbered during the outage",
+        "Acceptance criteria quoted from an edition the contract does not name",
+        "Technician certifications that lapsed partway through the work window",
+        "Calibration records missing for an instrument swapped mid-shift"
+      ]
+    },
+    {
+      "h": "Vendor acceptance and rejected reports",
+      "p": [
+        "Shops and contractors around Galveston County supply spools, vessels and repairs to both refining and chemical owners, and each owner applies its own specification on top of the construction code. When an owner's quality group rejects a data book, the vendor sometimes asks us to read it first and say plainly which comments are justified. When the owner is the client, the question flips: is this package fit to accept, or does it need to go back?",
+        "Either way the reviewer works only from the documents, applies the contract's code and edition, and separates paperwork gaps from technical defects. A missing signature or an absent calibration certificate is a documentation finding the vendor can usually close in a day. A misapplied acceptance table, a missed indication or a scan that never covered the weld root is a disposition finding, and the opinion says so in those words."
+      ]
+    },
+    {
+      "h": "Acquisitions, asset sales and changes of operator",
+      "p": [
+        "The Texas City area has seen refinery mergers and chemical site sales within the last decade, and every change of ownership moves years of inspection history from one data system to another. A buyer's technical team, a lender's engineer or an incoming operator may want an independent view of whether that history is complete and trustworthy before they rely on it.",
+        "For transaction work the review traces a sample of equipment from the current inspection database back to original reports and drawings, checks that intervals and next due dates follow from the recorded data, and lists gaps where a record is referenced but cannot be produced. It does not value the asset or calculate remaining life; those judgements stay with the buyer's engineers and the owner's inspector of record."
+      ]
+    },
+    {
+      "h": "Chemical service and the checks it changes",
+      "p": [
+        "Acetic acid, organic acids and aldehyde units use materials that behave differently under the probe. Austenitic and duplex stainless welds scatter ultrasound, so a phased array report on them needs a reference block of matching material and a technique justified for coarse grain. Alloy and lined equipment adds questions about whether thickness readings were taken through a lining, and whether the gauge was set up for the base metal or the clad layer.",
+        "Exchangers in chemical and refinery service also produce eddy current and IRIS data in volume. Where a review covers electromagnetic methods, the proposal names a reviewer holding the certification that contract requires, because the ASNT NDT Level III who leads our reviews holds that credential in UT, RT, MT, PT and VT only. The checks themselves stay the same: right calibration standard, right channels, right call criteria and a tube-sheet map that accounts for every tube."
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting from bayfront sites",
+      "p": [
+        "Very little of what we receive from Texas City is paper anymore. A single exchanger campaign can arrive as hundreds of raw eddy current files, a corrosion mapping job as encoded scans plus a gridded export, and a radiography scope as DR images with an interpretation spreadsheet. The finished PDF is the last link in a chain, and a digital inspection data review asks whether each link held: whether the raw file matches the setup recorded in the report, whether the export lost resolution, and whether the image the interpreter graded is the one in the archive.",
+        "Digital reporting platforms bring their own failure points. Templates may carry an acceptance table forward from a previous project, drop-down lists may allow a code edition the contract excludes, and electronic signatures may be applied in a batch long after the work. The reviewer looks at file metadata, software versions, audit trails where the platform keeps them and the order in which approvals were recorded, then states whether the digital record can be relied on as evidence."
+      ]
+    },
+    {
+      "h": "How a remote review runs from Galveston County",
+      "p": [
+        "Atlantis has no office located on Galveston Island or in Texas City, and the review does not need one. You describe the records, the method, the governing code and the decision riding on the result; we reply within one business day with a proposed scope and a quote. Files then move through a secure transfer you are comfortable with, and any questions during the review come back to you in writing, so every answer is part of the record.",
+        "The finished opinion lists each check performed, each finding with its supporting evidence and clause reference, and a verdict for every report reviewed: sound, deficient in documentation only, or deficient in disposition. Reviews in ultrasonic, radiographic, magnetic particle, penetrant and visual methods are led by an ASNT NDT Level III certified in those five methods. Others on the review team come from nuclear, maritime, oil and gas and petrochemical work, which helps when a package crosses from process piping into dock or utility equipment."
+      ]
+    },
+    {
+      "h": "Where the review stops",
+      "p": [
+        "An independent review tells you whether a record is sound evidence; it does not convert that evidence into an engineering judgement. Fitness-for-service assessments, remaining-life estimates and interval decisions stay with the owner's engineers and the inspector of record. Atlantis does not act as an authorized inspector, does not certify anyone's technicians, and does not perform radiography in the United States.",
+        "Those limits keep the opinion clean. A reviewer who is not also selling the repair, the inspection or the certification can tell an operator plainly that a contractor's report is fine, and can tell a contractor plainly that a rejection was correct."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Your Houston office is close to Texas City. Will someone visit the plant?",
+      "a": "No site visit is part of the service. The Houston office is where scoping conversations happen, but the review is carried out remotely on the reports and data you send, so no gate pass, permit or escort is needed."
+    },
+    {
+      "q": "Can you review radiographs shot at a Texas City refinery?",
+      "a": "Yes. We review film, CR and DR images and the interpretation records from the owner's licensed radiography contractor. Atlantis does not expose radiographs in the United States; the review is limited to the images and paperwork."
+    },
+    {
+      "q": "We are a contractor whose turnaround reports were rejected. Will you take our side?",
+      "a": "We will read the package against the contract's code, edition and procedures and report what we find. Sometimes that supports the rejection and sometimes it shows the comments were wrong; the opinion is written the same way whoever commissions it."
+    },
+    {
+      "q": "Which codes do you apply to refinery and chemical plant records?",
+      "a": "Whatever the contract and the owner's procedures name. For in-service equipment that is usually API 510, API 570 or API 653 with ASME Section V techniques; for new construction, the construction code such as ASME Section VIII or B31.3 alongside the owner's specification."
+    },
+    {
+      "q": "Do you look at the raw digital inspection data or only the PDF?",
+      "a": "Both, wherever the files exist. Raw phased array, TOFD, corrosion mapping and eddy current files, DR images and the reporting platform's audit trail let the reviewer confirm that the report describes what was actually recorded."
+    },
+    {
+      "q": "Can the review support a TDLR boiler certificate inspection?",
+      "a": "It can tell you whether the NDT records you plan to give the inspector are complete and consistent. The certificate inspection itself, and the decision to issue a certificate of operation, remain with the commissioned inspector and TDLR."
+    },
+    {
+      "q": "Do you assess remaining life from the thickness data you review?",
+      "a": "No. We report whether the thickness data is reliable enough to use. Corrosion rates, remaining life and fitness-for-service calculations stay with your engineers and inspector of record."
+    },
+    {
+      "q": "How do we start a review?",
+      "a": "Send a short description of the records, the method, the governing code and the decision that depends on them through the form or to info@atlantisndt.com. We reply within one business day, setting out what the review would cover and a quote for it."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/third-party-inspection-galveston",
+      "Third-party inspection in Galveston"
+    ],
+    [
+      "/inspection-services-texas",
+      "Inspection services in Texas"
+    ],
+    [
+      "/inspection-services-houston",
+      "Inspection services in Houston"
+    ],
+    [
+      "/consulting/ndt-consulting-houston",
+      "NDT consulting in Houston"
+    ],
+    [
+      "/consulting/level-iii-audit-support-refining",
+      "Level III audit support for refining"
+    ],
+    [
+      "/consulting/level-iii-audit-support-petrochemical",
+      "Level III audit support for petrochemical plants"
+    ],
+    [
+      "/inspection/piping-circuit-inspection-cml",
+      "Piping circuit and CML inspection"
+    ],
+    [
+      "/blog/chemical-plant-ndt-consulting-osha-psm-mechanical-integrity-programs",
+      "OSHA PSM mechanical integrity and NDT"
+    ],
+    [
+      "/blog/heat-exchanger-tube-inspection-methods-procedures",
+      "Heat exchanger tube inspection methods"
+    ],
+    [
+      "/ndt-training-texas-city",
+      "NDT training in Texas City"
+    ]
+  ],
+  "sources": [
+    "https://www.marathonpetroleum.com/Operations/Refining/Galveston-Bay-Refinery/",
+    "https://www.valero.com/about/locations/texas-city-refinery",
+    "https://corporate.dow.com/en-us/locations/texas-city.html",
+    "https://ineos.com/news/ineos-group/ineos-completes-the-acquisition-of-the-eastman-texas-city-site",
+    "https://tctrr.com/home/potc/",
+    "https://www.tdlr.texas.gov/boilers/blrfaq.htm",
+    "https://www.dshs.texas.gov/radiation/industrial-radiographers/laws-rules.aspx",
+    "https://www.law.cornell.edu/regulations/texas/25-Tex-Admin-Code-SS-289-255",
+    "https://rrc.texas.gov/pipeline-safety",
+    "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2024-12/tx-2022-hazardous-liquid-program-evaluation.pdf",
+    "https://osha.gov/laws-regs/standardinterpretations/2015-06-05-0"
+  ]
+}

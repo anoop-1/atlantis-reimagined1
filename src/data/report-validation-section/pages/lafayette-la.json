@@ -1,0 +1,204 @@
+{
+  "title": "NDT Report Validation in Lafayette, LA | Oilfield and Pipeline",
+  "description": "Independent, remote review of oilfield equipment, fabrication shop and pipeline NDT reports and digital inspection data from Lafayette and Acadiana.",
+  "h1": "Independent review of oilfield, fabrication and pipeline NDT records from Lafayette and Acadiana",
+  "eyebrow": "Report validation: Lafayette, Louisiana",
+  "intro": "Lafayette does not refine crude or liquefy gas. It services, builds and maintains the equipment that does, from Highway 90 shops that turn out production skids and pressure vessels to the crews that support platforms in the Gulf. The paperwork that follows that equipment out of the parish is often the only proof a buyer has that a weld, a forging or a pipe spool was examined properly. We read those NDT reports and the digital inspection data behind them as an outside party, against the code and the purchase order they claim to meet. Atlantis keeps no Lafayette office; reviews are done remotely from Houston and Hyderabad.",
+  "highlights": [
+    {
+      "h": "Shop records before equipment leaves",
+      "p": "Vessels, skids and spools built in Acadiana are often shipped to an operator who never saw them fabricated. A review of the weld map, NDT reports and digital files before shipment catches gaps while the shop can still fix them."
+    },
+    {
+      "h": "Pipeline records read against federal and state rules",
+      "p": "Intrastate lines answer to Louisiana's pipeline safety program and interstate lines to PHMSA. The reviewer checks that girth weld and dig reports meet the standard the operator's own procedures adopt."
+    },
+    {
+      "h": "Opinions written for the person who must sign",
+      "p": "Each finding names the clause or procedure step, the record that fails it and what would close it, so a quality manager or an operator's engineer can act without reinterpreting our notes."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A services hub, not a plant town",
+      "p": [
+        "Lafayette Parish and its neighbours, Iberia, St. Martin and St. Mary, grew around supplying the offshore and onshore oil industry. The regional development agency, One Acadiana, describes U.S. Highway 90 through the area as America's energy corridor, lined with hundreds of oil and gas support companies, and lists Halliburton among the service companies with operations in Lafayette, Broussard and New Iberia. The work done here is manufacturing, repair and field support rather than processing, and the inspection records it produces look different from a refinery's.",
+        "Two examples show the type of shop involved. Global Vessel & Tank, headquartered in Lafayette, builds ASME code pressure vessels and API storage tanks for oil and gas surface production, and in November 2025 Louisiana Economic Development announced an expansion of its plant on Coteau Road in New Iberia. Bagwell Energy Services, which announced an expansion in 2019, fabricates piping, vessels, production skids and modular enclosures at the Port of Delcambre. Turner Industries chose a site at the Port of Iberia in 2021 for module fabrication. We name these companies only to describe the local industry; none of them is a client, and naming them does not suggest that we have seen their records."
+      ]
+    },
+    {
+      "h": "Who sends records from Acadiana for an outside opinion",
+      "p": [
+        "The people asking for an independent report review in this area are usually one step removed from the examination itself. A buyer receives a data book from a fabricator. An operator receives dig reports from a contractor. A shop receives a rejection from a client's inspector and wants to know whether it is justified. In each case the person holding the record needs to decide something and does not have an NDT specialist free to go through the files.",
+        "The table sets out the requests we expect most often from the area and what the review concentrates on."
+      ],
+      "table": {
+        "head": [
+          "Who asks",
+          "What arrives",
+          "Where the review concentrates"
+        ],
+        "rows": [
+          [
+            "Operator or buyer receiving fabricated equipment",
+            "Vessel and skid data books, weld maps, UT, MT, PT and radiography reports",
+            "Whether every weld on the map has an examination record, whether the acceptance standard matches the code of construction, and whether repairs were re-examined"
+          ],
+          [
+            "Fabrication shop disputing a client rejection",
+            "The rejected reports, the client's comments and the shop's procedures",
+            "Whether the rejection rests on a real code requirement or on a specification the purchase order never invoked"
+          ],
+          [
+            "Pipeline operator closing out integrity digs",
+            "Dig sheets, UT wall readings, MT or PT crack checks, coating notes and photographs",
+            "Whether measurements are located well enough to match the in-line inspection feature they verify, and whether the procedure qualifies the technique used"
+          ],
+          [
+            "Offshore supplier preparing a shipment",
+            "Inspection records for lifting gear, structural members, piping spools and pressure equipment",
+            "Traceability from heat numbers and weld numbers to the reports, and technician qualification on the date of work"
+          ],
+          [
+            "Contractor bidding a national client",
+            "A sample of past reports and the written practice behind them",
+            "Whether the reports would survive the client's audit, and which gaps to fix before submitting"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Fabrication data books: the checks that decide them",
+      "p": [
+        "A production vessel or separator built to ASME Section VIII arrives with a data book that ought to tell a complete story: material certificates, the welding procedures used, the welders, the weld map and an examination record for every joint the code or the purchase order says must be examined. The commonest failure is not a defect that was missed. It is a record that cannot be tied to the weld it claims to cover, a radiograph with no penetrameter visible, or an ultrasonic report that gives a result without saying which procedure, block and settings produced it.",
+        "Structural skids and modular enclosures add AWS D1.1 to the picture, and piping spools usually bring ASME B31.3. Each code sets its own acceptance criteria, and a shop that works to all three in one building can easily apply the wrong table. The reviewer reads the purchase order and the specification first, establishes which code and edition govern each component, then tests the reports against that, not against the code the technician happened to know best."
+      ],
+      "list": [
+        "Weld map, weld log and NDT reports reconciled line by line, with every repair carrying its own re-examination",
+        "Acceptance criteria quoted from the governing code and edition, not a generic shop table",
+        "Ultrasonic reports that name the procedure, the reference block, the probe and the scanning sensitivity",
+        "Magnetic particle and penetrant reports with the technique, materials, lighting and surface condition recorded",
+        "Radiographs or digital images showing the image quality indicator, density or signal level and full weld coverage",
+        "Technician certificates valid on the examination date under the shop's written practice"
+      ]
+    },
+    {
+      "h": "Pipelines through Acadiana and the rules behind them",
+      "p": [
+        "South Louisiana carries a dense network of gathering, transmission and distribution lines. For intrastate lines the state regulator is the Pipeline Safety Program of the Louisiana Department of Conservation and Energy, which took over the work of the former Department of Energy and Natural Resources on 1 October 2025; the program says it regulates more than four hundred intrastate operators under federal certification agreements and rules that track 49 CFR Parts 192 and 195. Interstate lines answer directly to PHMSA. For a reviewer the practical point is that the operator's written procedures, built to those rules, define what a compliant record looks like.",
+        "Integrity dig reports are a frequent request. They pair a feature reported by an in-line inspection tool with field measurements meant to confirm it: wall thickness by ultrasound, crack checks by magnetic particle or penetrant, and dimensions taken on the exposed pipe. When the dig sheet does not record where on the pipe each reading was taken, or the reference point drifts between the tool data and the field notes, the verification cannot do its job. New construction brings girth weld records, usually to API 1104, where the reviewer checks that the radiographic or ultrasonic procedure was qualified and that every rejected weld was repaired or cut out and re-examined."
+      ]
+    },
+    {
+      "h": "Offshore suppliers and the BSEE connection",
+      "p": [
+        "BSEE, the federal regulator for offshore oil and gas operations on the outer continental shelf, keeps its Lafayette District office on Versailles Boulevard, a sign of how much Gulf activity is managed from the parish. Equipment and components bound for platforms often pass through Acadiana shops for fabrication, repair or recertification, and the operator who installs them is accountable to BSEE for the condition of what goes offshore.",
+        "That makes the supplier's inspection record part of the operator's own compliance file. Reviews in this area tend to focus on traceability, because an offshore component may be inspected onshore, shipped, stored and installed months later. If the inspection report cannot be matched to the serial number, heat number or tag on the component, the operator has a record and a piece of steel that do not demonstrably belong together. We check that link as carefully as the examination itself."
+      ]
+    },
+    {
+      "h": "Digital inspection data from shops and field crews",
+      "p": [
+        "Much of what reaches us from Lafayette is digital: phased array and TOFD files from vessel and spool welds, digital radiography images, UT thickness grids from field crews and reports generated on tablets in a digital reporting system. Digital records make a review stronger, not just faster, because the reviewer can open the raw data rather than relying on the technician's summary. A phased array file shows the scan plan, the focal laws and the gates; a digital radiograph carries its exposure and detector settings; a thickness grid shows each reading with its location.",
+        "The same records can also hide problems. A report template may print a procedure number that was never loaded into the instrument. A digital signature may be applied by whoever has the login rather than the qualified person. A thickness export may be edited in a spreadsheet before the report is built. The NDT data review therefore checks the lineage: that the file in the report matches the file from the instrument, that the instrument settings match the qualified procedure, and that the person who signed was qualified to interpret that method on that date."
+      ]
+    },
+    {
+      "h": "How the review is staffed and what it does not cover",
+      "p": [
+        "Reviews in ultrasonic, radiographic, magnetic particle, penetrant and visual testing are directed by an ASNT NDT Level III who holds certification in those five methods. People on the wider review team have worked in nuclear, maritime, oil and gas and petrochemical settings, which helps when a Lafayette shop builds for a client in a sector with stricter paperwork than oilfield equipment usually carries. If a package includes eddy current or another method outside those five, the proposal names a reviewer holding the certification the contract calls for.",
+        "Some decisions stay with others. We do not act as an Authorized Inspector or inspector of record for boilers and pressure vessels under Louisiana jurisdiction; that role belongs to the Boiler Inspection Section of the Office of State Fire Marshal and to inspectors of licensed insurance companies who hold a National Board or Louisiana commission. We do not calculate remaining life or fitness for service; that belongs to the operator's engineer. We do not certify technicians. Atlantis does not take radiographs in Louisiana or anywhere in the United States; in Louisiana the Department of Environmental Quality licenses radioactive material and certifies industrial radiographers, and the review of radiographs, CR and DR images produced by the owner's licensed contractor is part of what we offer. We also decline any review of work Atlantis itself examined."
+      ]
+    },
+    {
+      "h": "Three situations we see from the area",
+      "p": [
+        "A shop in Broussard ships a separator, and the operator's inspector rejects the data book because two nozzle welds lack ultrasonic reports. The shop believes the welds were radiographed instead. The review checks the weld map, the radiographs and the purchase order to establish whether radiography satisfied the requirement and whether the data book simply failed to say so, which is a documentation finding, or whether an examination the contract required was skipped, which is a disposition finding.",
+        "A pipeline operator has several dozen dig reports from a season of integrity work and an audit coming. The review samples the package against the operator's procedures and flags where readings are unlocated or the crack check method was not recorded. A buyer of used production equipment receives historic inspection reports with the deal and wants to know how much weight they can carry before the equipment returns to service. In each case the output is a written opinion, finding by finding, with the evidence attached."
+      ]
+    },
+    {
+      "h": "Sending records from Lafayette",
+      "p": [
+        "Everything happens remotely. You send the reports, the procedures they cite, the purchase order or specification, and any raw digital files through a secure transfer link we provide. We confirm the scope and a quote, agree what is to be sampled and what is to be read in full, and start once you accept. Questions go back by email or video call, and nobody needs access to your shop or site. We reply within one business day to a new enquiry.",
+        "The opinion sorts each report into one of three outcomes: sound; deficient in documentation only, where the examination appears adequate but the record does not prove it; or deficient in disposition, where the acceptance decision itself is in doubt. Each finding is tied to the clause or procedure step and to the evidence, so the shop, the operator or the buyer can close it without guessing what we meant."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have staff or premises in Lafayette or elsewhere in Acadiana?",
+      "a": "No. Atlantis has offices in Houston and Hyderabad only. Reviews of Lafayette records are done remotely from the files you send, and nobody needs to visit your shop or site."
+    },
+    {
+      "q": "Can you review a fabricator's data book before the equipment ships?",
+      "a": "Yes. That is often the most useful time, because the shop can still add a missing report or re-examine a weld. We check the weld map, the NDT reports and any digital files against the code and the purchase order."
+    },
+    {
+      "q": "Our client's inspector rejected our reports. Can an independent review help?",
+      "a": "It can show whether the rejection rests on a requirement the contract actually invokes, and separate documentation gaps from real examination problems. The opinion is written so you can take it back to the client."
+    },
+    {
+      "q": "Who regulates intrastate pipelines in Louisiana now?",
+      "a": "The Pipeline Safety Program of the Louisiana Department of Conservation and Energy, which replaced the Department of Energy and Natural Resources on 1 October 2025. Interstate lines are regulated by PHMSA."
+    },
+    {
+      "q": "Do you review integrity dig reports and in-line inspection verification records?",
+      "a": "Yes. We check that field measurements are located and documented well enough to verify the tool's reported features, and that the methods used were covered by the operator's procedures."
+    },
+    {
+      "q": "Can you take radiographs at a Louisiana shop?",
+      "a": "No. Atlantis shoots no radiographs at Louisiana shops or at any other US location. We review radiographs, CR and DR images taken by the owner's licensed contractor, including image quality and interpretation."
+    },
+    {
+      "q": "Will you sign as the Authorized Inspector on a vessel?",
+      "a": "No. That role stays with the Office of State Fire Marshal's Boiler Inspection Section or a commissioned inspector employed by a licensed insurance company. Our opinion supports their decision and yours; it does not replace it."
+    },
+    {
+      "q": "What do you need to start a review?",
+      "a": "The reports, the procedures they reference, the purchase order or specification and any raw digital inspection files. Send them and we return the scope and a quote, and we reply within one business day."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-louisiana",
+      "Inspection services in Louisiana"
+    ],
+    [
+      "/practical-ndt-lafayette-la",
+      "Practical NDT in Lafayette"
+    ],
+    [
+      "/consulting/oil-gas-ndt-consulting",
+      "Oil and gas NDT consulting"
+    ],
+    [
+      "/consulting/level-iii-audit-support-pipeline",
+      "Level III audit support for pipelines"
+    ],
+    [
+      "/blog/pipeline-integrity-management-ili-dig-verification-and-api-1163-explained",
+      "ILI dig verification explained"
+    ],
+    [
+      "/blog/wps-pqr-wpq-explained-asme-ix-aws-d1-1-api-1104",
+      "WPS, PQR and WPQ explained"
+    ],
+    [
+      "/consulting/ndt-consulting-new-orleans",
+      "NDT consulting in New Orleans"
+    ]
+  ],
+  "sources": [
+    "https://www.oneacadiana.org/building-businesses/key-industries/energy/",
+    "https://www.opportunitylouisiana.gov/news/global-vessel-tank-expands-new-iberia-operations-to-support-louisianas-energy-sector",
+    "https://www.opportunitylouisiana.gov/news/bagwell-energy-services-announces-150-job-expansion-in-iberia-parish",
+    "https://www.opportunitylouisiana.gov/news/turner-industries-selects-port-of-iberia",
+    "https://www.dce.louisiana.gov/page/pipeline-safety-program",
+    "https://www.dce.louisiana.gov/news/denr-to-become-ce",
+    "https://www.bsee.gov/sites/bsee.gov/files/2024-05/BSEE%20NTL%202024-GO1%20-%20Lafayette%20Address%20Change.pdf",
+    "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-a/section-v-5003",
+    "https://www.deq.louisiana.gov/radiation",
+    "https://www.nrc.gov/agreement-states/louisiana"
+  ]
+}

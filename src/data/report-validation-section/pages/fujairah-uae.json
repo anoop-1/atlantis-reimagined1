@@ -1,0 +1,217 @@
+{
+  "title": "Fujairah NDT Report Validation | Tank, Pipeline & Power Review",
+  "description": "Independent review of tank, terminal, refinery, pipeline and power plant NDT reports and digital inspection data from Fujairah, carried out remotely.",
+  "h1": "NDT report validation for Fujairah's tank terminals, refinery, crude pipeline and power plants",
+  "eyebrow": "Report validation · Fujairah, UAE",
+  "intro": "Fujairah earns its living storing, blending and shipping oil on the Gulf of Oman coast. Tank farms by the dozen, a crude export pipeline from Abu Dhabi, a fuel oil refinery and large power and desalination plants all depend on inspection records that terminal managers, owners, lenders and insurers have to trust without having watched the work. We give those records an independent report review: the floor scans, shell thickness surveys, weld examinations and tube data you send are checked against the procedure, the code and the owner's specification, and the findings are written up with their evidence. Atlantis has no Fujairah presence; the review is carried out remotely.",
+  "highlights": [
+    {
+      "h": "Tank records are the core of it",
+      "p": "Most Fujairah inspection paperwork concerns storage tanks: floor scans, shell and roof surveys, settlement measurements and repair welds. The review checks those records against API 653, API 650 and the terminal's own inspection programme."
+    },
+    {
+      "h": "One reader across many terminals",
+      "p": "Traders and owners who store product at more than one FOIZ terminal receive reports in several formats. An independent reading puts them on the same footing so the evidence can be compared fairly. Differences in method, coverage and acceptance basis are named rather than smoothed over."
+    },
+    {
+      "h": "Scan data checked against the summary",
+      "p": "Floor scanning, corrosion mapping and phased array files are opened and compared with the report that summarises them, because conclusions are usually drawn from the summary alone."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A coast built around storage and shipping",
+      "p": [
+        "The Fujairah Oil Industry Zone (FOIZ) gathers the emirate's terminals, refining and processing plants behind the Port of Fujairah. Liquid cargo moves across the berths of Fujairah Oil Tanker Terminals, which can run nine main berths or fourteen wing berths, or a mix of the two, plus a deep-water jetty for tankers up to 330,000 deadweight tonnes that has been in full operation since 2016. Two matrix manifold systems connect each storage terminal to any berth and allow product to move between terminals without a vessel. The port describes Fujairah as one of the world's three largest bunkering hubs, with fuel held in the zone's tanks and delivered by barge to ships at anchor.",
+        "Terminal operators in the zone include Vopak Horizon Fujairah, a joint venture of Royal Vopak, Horizon Terminals, the Government of Fujairah and Kuwait's Independent Petroleum Group, with tanks ranging from 6,000 to 100,000 cubic metres; VTTI Fujairah, which lists 66 tanks, more than 1.9 million cubic metres of storage and eleven jetties; and Horizon Terminals, part of the ENOC Group. New capacity keeps arriving: in January 2025 FOIZ announced a land lease for a further products terminal of about 1.2 million cubic metres. These names describe the area. They are not clients, and nothing here suggests that Atlantis has reviewed their records or holds approved-vendor status with them."
+      ]
+    },
+    {
+      "h": "Crude arriving by pipeline from Habshan",
+      "p": [
+        "ADNOC's Habshan–Fujairah crude pipeline crosses more than 360 km of the UAE, from the onshore Habshan fields in Abu Dhabi to the Fujairah coast, avoiding the Strait of Hormuz. The 48-inch line entered commercial operation in 2012 and is reported to carry up to about 1.5 million barrels a day, with an expansion planned to come into service in 2027 that would roughly double export capacity through Fujairah. ADNOC has also built three underground crude storage caverns carved into the mountains near Fujairah, each designed for 14 million barrels, with South Korea's SK Engineering and Construction as the engineering, procurement and construction contractor.",
+        "Pipeline and export facilities produce a recognisable set of records: girth weld radiography or automated UT from construction and expansion work, coating and cathodic protection reports, thickness and corrosion surveys at above-ground sections and stations, and tank records for the crude storage at the export end. When an expansion ties into an operating system, the hot-tap and tie-in weld reports are some of the most closely read documents in the whole package, and some of the easiest to get wrong."
+      ]
+    },
+    {
+      "h": "The refinery and processing plants in the zone",
+      "p": [
+        "Refining in Fujairah is built around the bunker market. The best-known example is the refinery in the Port of Fujairah that Uniper sold in 2023: it processes about 65,000 barrels of crude a day and produces mostly very low-sulphur fuel oil for ships. Smaller processing and blending units elsewhere in the zone run on the same logic of turning crude and residues into marine fuel.",
+        "Refinery records reaching a reviewer from Fujairah are typical of simple process plant: API 510 inspection reports on columns, drums and exchangers, API 570 circuit surveys with condition monitoring locations, eddy current or IRIS data from exchanger bundles, and repair weld reports raised during short shutdowns. The units are smaller than a Jubail refinery, but the paperwork has the same gaps when it is produced in a hurry: missing calibration records, readings without locations, and acceptance criteria quoted from the wrong edition."
+      ]
+    },
+    {
+      "h": "Power and water at Qidfa",
+      "p": [
+        "Fujairah also hosts large utility plants supplying electricity and desalinated water to the northern emirates. The Fujairah F2 independent water and power plant can deliver about 2,000 MW of power and 130 million imperial gallons of water a day, using multi-effect distillation units and a seawater reverse osmosis facility; it is owned 60 percent by Fujairah Water and Electricity Company, part of TAQA, and 40 percent by a company held equally by Engie and Marubeni. At Qidfa, the 2.4 GW Fujairah F3 combined-cycle plant began full commercial operation in October 2025; TAQA holds 40 percent, Marubeni 20.4, Mubadala 20 and Hokuriku Electric Power 19.6, and the Emirates Water and Electricity Company buys its output.",
+        "Plants like these generate heat recovery steam generator tube surveys, high-energy piping weld reports, condenser and heater tube data, and thickness surveys of desalination shells, brine heaters and seawater piping. Seawater service puts corrosion and erosion at the centre of most findings, so thickness grids and the trend between surveys carry more weight than any single reading. A survey that changes grid positions from one outage to the next breaks that trend, and the review says when it has happened."
+      ]
+    },
+    {
+      "h": "What a tank record has to prove, and where it usually falls short",
+      "p": [
+        "In-service tanks in the zone are commonly inspected to API 653, new and rebuilt tanks are built to API 650, and the terminal's inspection programme or the owner's specification sits on top. A tank report has to show how much of the floor was scanned, what the remaining thickness is under and around each indication, how the shell courses compare with minimum required thickness, how the tank has settled, and whether every repair weld was examined to an acceptable procedure.",
+        "Magnetic flux leakage floor scanning is a screening tool: indications it raises are normally proved up with ultrasonic thickness measurement before a remaining thickness is reported. A report that quotes MFL percentages as final wall loss without prove-up, or that leaves annular plates and critical zones out of the scan without saying so, is one of the commonest problems we see. Reviews of MFL data are carried out by a reviewer holding the certification the contract asks for, named in the proposal."
+      ],
+      "table": {
+        "head": [
+          "Asset",
+          "Typical governing documents",
+          "Records that arrive",
+          "Gaps the review often finds"
+        ],
+        "rows": [
+          [
+            "In-service storage tank",
+            "API 653 and the terminal inspection programme",
+            "Floor scan maps, UT prove-up, shell and roof thickness, settlement survey",
+            "Scan coverage not stated, MFL calls reported as final thickness, settlement data without reference points"
+          ],
+          [
+            "New or rebuilt tank",
+            "API 650 and the purchase specification",
+            "Weld radiographs or UT, vacuum box and hydrotest records, PWHT where required",
+            "Spot radiograph locations not traceable to the weld map, repair welds never re-examined"
+          ],
+          [
+            "Terminal and process piping",
+            "API 570, ASME B31.3",
+            "Circuit thickness surveys, CML lists, weld reports for modifications",
+            "Readings without locations, inspection intervals unsupported by measured rates"
+          ],
+          [
+            "Pressure equipment in the refinery",
+            "API 510, ASME Section VIII",
+            "Internal and external inspection reports, nozzle and weld examinations",
+            "Wrong edition quoted, calibration certificates missing for the date of work"
+          ],
+          [
+            "Exchanger and condenser bundles",
+            "Owner tube inspection procedure",
+            "Eddy current, IRIS or RFT data with tube maps",
+            "Calibration standards that do not match tube material, plugged-tube maps out of date"
+          ],
+          [
+            "Crude export pipeline sections",
+            "ADNOC specifications, API 1104 for welding",
+            "Girth weld NDT, coating and CP records, tie-in reports",
+            "Tie-in welds missing from the NDT summary, technique sheets not matching wall thickness"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Authorities and standards behind a Fujairah report",
+      "p": [
+        "FOIZ is the government body that manages the zone and leases its land, and each terminal adds its own operating and inspection procedures. Where ADNOC is the owner, its published engineering standards and specifications, covering among other things pressure vessels, piping and onshore pipelines, apply alongside the international codes; other owners write their requirements into the contract. We ask for the exact documents the contract names before the review starts.",
+        "Radiation sources in the UAE fall under the Federal Authority for Nuclear Regulation (FANR), which licenses radiation-related activities under federal law. Radiography on a Fujairah site is therefore performed by FANR-licensed contractors. Atlantis takes no radiographs in the UAE; we review the films, CR plates and DR images those contractors produce."
+      ]
+    },
+    {
+      "h": "Digital inspection data from terminals and plants",
+      "p": [
+        "Terminal inspection has become a digital inspection business. Floor scanners and corrosion mapping systems produce colour maps from thousands of readings, phased array crawlers record shell welds, and radiography contractors increasingly deliver DR images instead of film. Final reports are often produced on digital reporting platforms that pull those files into a branded PDF, and the owner's maintenance system then stores only the PDF.",
+        "That chain is where evidence goes missing. A digital NDT data review starts by asking for the native files behind the PDF, then checks that grid spacing, scan coverage, gain and calibration settings match the procedure, that the minimum readings in the report are the minimum readings in the data, and that the version of the report signed off is the version built from the final data set. Electronic signatures are checked against the certified interpreter named on the report, and we note whether the archive keeps the raw data that future surveys will need for trending."
+      ]
+    },
+    {
+      "h": "Running a review remotely from Fujairah",
+      "p": [
+        "The work is document-based. Records come to us by secure transfer and are reviewed by reviewers in Houston and Hyderabad, so nobody needs to come to site. Where a question can only be answered on site, we say so and leave it to the owner's own inspectors; any site work by others follows the security instructions in force at the terminal or plant.",
+        "We reply within one business day with what we received, what is missing, and the scope and a quote. If Atlantis performed any of the examinations in the package, we decline: the review only means something if we have no stake in the result."
+      ],
+      "list": [
+        "Terminal managers checking a contractor's API 653 report before deciding when a tank returns to service",
+        "Product owners and traders comparing inspection histories of tanks they store in at different terminals",
+        "Lenders, insurers and buyers reading the inspection record of a terminal they are about to finance, cover or acquire",
+        "Refinery and utility engineers closing out a shutdown package from several NDT contractors",
+        "NDT contractors whose floor scan or weld report has been rejected and who want an outside reading"
+      ]
+    },
+    {
+      "h": "Who reviews, and what the opinion does not decide",
+      "p": [
+        "Reviewers come from careers in nuclear, maritime, oil and gas and petrochemical work, which suits a coast where storage, refining and power sit side by side. Review of ultrasonic, radiographic, magnetic particle, penetrant and visual records is overseen by an ASNT NDT Level III whose certification covers those five methods and no others.",
+        "The opinion ends in one of three verdicts: sound, deficient in documentation only, or deficient in disposition. It does not calculate remaining life, set inspection intervals or decide whether a tank or vessel may stay in service; those judgements stay with the owner's engineer and the terminal's authorised inspector. Atlantis does not act as inspector of record and does not certify anyone's personnel."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have a team or premises in Fujairah?",
+      "a": "No. Atlantis has offices in Houston and Hyderabad only and nobody in the UAE or anywhere else in the GCC. Fujairah reviews are done remotely on the records you send."
+    },
+    {
+      "q": "Can you review an API 653 tank inspection report from a FOIZ terminal?",
+      "a": "Yes. We check floor scan coverage and prove-up, shell and roof thickness against minimum required thickness, settlement data, repair weld examinations and the calculations the report relies on, against API 653 and the terminal's own programme."
+    },
+    {
+      "q": "Do you review MFL floor scan data?",
+      "a": "Yes, by a reviewer holding the certification the contract asks for, named in the proposal. The usual questions are coverage of the floor and annular plates and whether indications were proved up with UT before thickness was reported."
+    },
+    {
+      "q": "We store product at more than one terminal. Can you compare their inspection reports?",
+      "a": "Yes. We read each report against the same code and set out, terminal by terminal, what the evidence supports and where the documentation is weaker, so you can compare like with like."
+    },
+    {
+      "q": "Can you review records from the Habshan–Fujairah pipeline or other pipeline work?",
+      "a": "We review girth weld NDT, tie-in reports and thickness surveys against the specification and API 1104 where the contract names it, for whoever holds the records and needs them checked."
+    },
+    {
+      "q": "Does Atlantis carry out radiography in the UAE?",
+      "a": "No. Radiography there is done by FANR-licensed contractors. We review their films, CR plates and DR images."
+    },
+    {
+      "q": "Will the review tell us how long the tank can stay in service?",
+      "a": "No. Remaining life and inspection intervals stay with the owner's engineer and authorised inspector. The review tells you whether the data behind those decisions is complete and correctly reported."
+    },
+    {
+      "q": "How do we send a report?",
+      "a": "Use the enquiry form or email info@atlantisndt.com with the report, procedure, drawings and native data files. We reply within one business day, list anything still needed and set out the scope and a quote for a Fujairah package."
+    }
+  ],
+  "related": [
+    [
+      "/consulting/ndt-consulting-fujairah",
+      "NDT consulting in Fujairah"
+    ],
+    [
+      "/inspection/third-party-inspection-fujairah",
+      "Third-party inspection in Fujairah"
+    ],
+    [
+      "/ndt-training-fujairah",
+      "NDT training in Fujairah"
+    ],
+    [
+      "/consulting/oil-gas-ndt-consulting",
+      "Oil and gas NDT consulting"
+    ],
+    [
+      "/consulting/level-iii-audit-support-refining",
+      "Level III audit support for refining"
+    ],
+    [
+      "/inspection/piping-circuit-inspection-cml",
+      "Piping circuit inspection and CMLs"
+    ],
+    [
+      "/corrosion-mapping",
+      "Corrosion mapping"
+    ]
+  ],
+  "sources": [
+    "https://fujairahport.ae/business-activities/oil/",
+    "https://foiz.gov.ae/",
+    "https://www.vopak.com/terminals/vopak-horizon-fujairah",
+    "https://www.vtti.com/terminal/vtti-ftl-united-arab-emirates/",
+    "https://thenationalnews.com/business/energy/2026/05/15/uaes-west-east-pipeline-expansion-to-become-operational-in-2027-doubling-oil-export-capacity/",
+    "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/crude-oil/052522-adnocs-fujairah-crude-oil-storage-caverns-set-to-open-in-2023-sources",
+    "https://gulfnews.com/business/energy/montfort-acquires-unipers-marine-fuels-oil-refinery-in-uae-1.96114822",
+    "https://fapco.ae/company-profile/",
+    "https://gulfnews.com/business/markets/fujairah-f3-power-plant-starts-full-commercial-operations-1.500322418",
+    "https://adnoc.ae/en/suppliers/engineering-standards-and-specifications",
+    "https://ssmc.ae/assets/uploads/2024/12/Licence-for-the-Provision-of-Technical-Service-Related-to-Radiation-Safety-FANR-SP-2024-001.pdf",
+    "https://gulfbusiness.com/en/2020/energy/dubai-owned-enoc-group-records-increase-in-storage-demand-across-facilities-globally"
+  ]
+}

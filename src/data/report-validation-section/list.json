@@ -658,6 +658,74 @@
     "refinery",
     "oil-gas"
    ]
+  },
+  {
+   "slug": "lafayette-la",
+   "kind": "city",
+   "navLabel": "Report validation in Lafayette, LA",
+   "place": "Lafayette",
+   "region": "Louisiana",
+   "country": "United States",
+   "label": "LA",
+   "industries": [
+    "oil-gas",
+    "fabrication",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "galveston-texas-city-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Galveston–Texas City, TX",
+   "place": "Galveston–Texas City",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "refinery",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "riyadh-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Riyadh, Saudi Arabia",
+   "place": "Riyadh",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "power",
+    "fabrication",
+    "structural"
+   ]
+  },
+  {
+   "slug": "pascagoula-ms",
+   "kind": "city",
+   "navLabel": "Report validation in Pascagoula, MS",
+   "place": "Pascagoula",
+   "region": "Mississippi",
+   "country": "United States",
+   "label": "MS",
+   "industries": [
+    "refinery",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "fujairah-uae",
+   "kind": "city",
+   "navLabel": "Report validation in Fujairah, UAE",
+   "place": "Fujairah",
+   "region": "United Arab Emirates",
+   "country": "United Arab Emirates",
+   "label": "UAE",
+   "industries": [
+    "refinery",
+    "oil-gas",
+    "power"
+   ]
   }
  ]
 }

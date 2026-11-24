@@ -1,0 +1,211 @@
+{
+  "title": "NDT Report Review in Riyadh, Saudi Arabia | Independent",
+  "description": "Independent NDT report review for Riyadh power projects, fabrication shops and steel structures: data books, DR images and PAUT files, checked remotely.",
+  "h1": "Independent NDT report validation for Riyadh's power, fabrication and structural steel records",
+  "eyebrow": "Report validation · Riyadh, Saudi Arabia",
+  "intro": "Riyadh is where a large share of Saudi engineering decisions are signed off, even when the welds themselves were made somewhere else. Utility and petrochemical head offices, giga-project owners, project management consultants and the factories of the capital's industrial cities all receive NDT reports they did not produce and must accept or reject. That is the moment an independent reader helps. We review the reports, radiographs, digital images and scan files you send, test them against the procedure, the code and the owner's specification, and write down what the evidence supports. Atlantis has no Riyadh office and no staff in the Kingdom; every review is carried out remotely.",
+  "highlights": [
+    {
+      "h": "Written for the person who signs",
+      "p": "In Riyadh the reader is usually an engineering department or a consultant acting for the owner. The opinion is laid out so that a reviewer at that desk can see each finding, the clause behind it and the page of evidence it comes from."
+    },
+    {
+      "h": "Power, shop and steel records",
+      "p": "Combined-cycle plant construction, factory data books from the industrial cities and structural steel packages for public buildings and transport each fail in their own ways. The scope is set around the record type you actually hold."
+    },
+    {
+      "h": "Digital files opened, not just PDFs read",
+      "p": "Where the contractor captured DR images, PAUT or TOFD data or thickness grids, we ask for the native files and check them against the summary sheet, because the summary is where most disagreements start."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Why so many NDT reports land on desks in the capital",
+      "p": [
+        "Most of the Kingdom's heavy process plant sits on the coasts, at Jubail, Ras Tanura, Yanbu and Rabigh. Riyadh's role is different. Saudi Electricity Company, the national utility, is headquartered in the city, and SABIC's corporate headquarters is there too. Government entities that commission power, water, transport and civic projects run their engineering reviews from Riyadh, and the project management consultancies they hire are staffed there. The result is a steady flow of inspection paperwork that reaches the capital for acceptance after the work has been done hundreds of kilometres away, or a few kilometres away on one of the projects reshaping the city itself.",
+        "That separation between where a weld is examined and where its report is judged is exactly why second opinions are asked for. The engineer in Riyadh did not see the examination, often does not know the NDT contractor, and has to decide on documents alone. When those documents are thin, contradictory or simply unfamiliar, an outside technical reading is a practical way to decide whether to accept, query or reject. Naming the organisations above describes the market; it does not mean Atlantis has worked for any of them or holds approved-vendor status with them."
+      ]
+    },
+    {
+      "h": "Power generation in and around Riyadh",
+      "p": [
+        "The central region's electricity comes largely from gas- and oil-fired thermal plants. Power Plant 9, a combined-cycle station about 54 km east of the city, has been expanded in stages over many years. New capacity is still being added: in October 2025 Saudi Electricity Company signed power purchase agreements with the Saudi Power Procurement Company for two combined-cycle plants in Riyadh, PP13 and PP14, each of 1,678 MW. Construction on that scale produces thousands of weld examinations on heat recovery steam generators, high-energy piping, feedwater lines and balance-of-plant systems.",
+        "Power records carry their own risk profile. Boiler external piping and the pressure parts of a heat recovery steam generator are usually built to ASME Section I, while the rest of the steam and water piping follows ASME B31.1. The two codes ask for different examinations and use different acceptance tables, and a report that applies the wrong one can look complete while proving the wrong thing. Creep-strength enhanced ferritic steels used in hot sections add hardness and heat-treatment records to the package, and those charts are part of what we read alongside the NDT itself.",
+        "Running plants send a different kind of file: outage thickness surveys of tubes and headers, dissimilar-metal weld examinations, condenser and feedwater heater tube data, and repair weld reports written under schedule pressure. Eddy current tube data is reviewed by a reviewer holding the certification the contract asks for, named in the proposal, because Atlantis does not claim Level III status in that method."
+      ]
+    },
+    {
+      "h": "Factories in the capital's industrial cities",
+      "p": [
+        "Riyadh's manufacturing base is concentrated in industrial cities developed by MODON, the Saudi Authority for Industrial Cities and Technology Zones. The Second Industrial City inside Riyadh hosts plants ranging from steel fabrication to defence and oil-and-gas equipment; Wahaj, for example, leased land there for a factory serving defence, aviation and oil and gas manufacturing. Sudair Industrial City, roughly 150 km north of the capital, is a greenfield site developed by MODON that hosts around three hundred factories, most of them small and medium-sized firms.",
+        "Those shops build pressure vessels, skids, spools, storage equipment, structural frames and machined components for buyers across the Kingdom and the Gulf. Their data books travel to an owner's vendor inspector, and a held data book can stop shipment. Shops ask for an independent reading in two situations: before submission, to find gaps while they are still easy to close, and after a rejection, to learn whether the objection holds against the procedure and the purchase order or whether it rests on a misread clause."
+      ]
+    },
+    {
+      "h": "Steel structures, the Saudi Building Code and the city's big projects",
+      "p": [
+        "Structural steel is a large share of what Riyadh builds. The Saudi Building Code is maintained by a national committee chaired by the Governor of the Saudi Standards, Metrology and Quality Organization (SASO), and the Saudi Building Code Application Law of 2017 extended the code to public and private construction, with enforcement phased in between July 2018 and July 2023. Rolled and welded steel structures fall under SBC 306, the steel structures code. Welded connections on those frames are normally examined and accepted to AWS D1.1 or to the project specification that invokes it.",
+        "SASO publishes a list of conformity assessment bodies accepted to inspect under the building code. Atlantis is not on that list and does not act as a building code inspection body; our role is a technical reading of the NDT records a contractor, fabricator or consultant already holds, for whoever needs to rely on them. Code compliance decisions stay with the accepted inspection body and the authority having jurisdiction.",
+        "The scale of current work gives a sense of the volume. The Riyadh Metro, inaugurated in November 2024, runs 176 km across six lines with 85 stations, 34 of them elevated. King Salman Park is being built over more than 16 square kilometres on the grounds of the former Riyadh Air Base, with the Royal Arts Complex and a group of museums inside it. The Expo 2030 Riyadh site covers six million square metres, and its main utilities and infrastructure works package went to Nesma & Partners. Every one of these programmes generates weld maps, UT and MT reports on moment connections and column splices, and visual inspection records that a consultant has to accept."
+      ]
+    },
+    {
+      "h": "Who asks for a review, and what they receive",
+      "p": [
+        "The table pairs the parties who typically commission a review from Riyadh with the records they send and the checks that usually decide the outcome. It is a guide to scope, not a list of clients."
+      ],
+      "table": {
+        "head": [
+          "Who commissions it",
+          "What they send",
+          "What the review tests first"
+        ],
+        "rows": [
+          [
+            "Owner's engineering department reviewing an EPC handover",
+            "Mechanical completion dossiers, weld maps, NDT summaries, PWHT charts",
+            "Whether every weld on the map has an examination, a qualified technician and an accepted result to the right code edition"
+          ],
+          [
+            "Project management consultant on a public building or transport job",
+            "Structural steel NDT reports, UT on full-penetration welds, MT on fillet welds, VT records",
+            "AWS D1.1 acceptance applied to the correct connection category, and repairs re-examined"
+          ],
+          [
+            "Power plant contractor before turnover",
+            "HRSG and piping radiographs or DR images, PAUT files, hardness records",
+            "Section I versus B31.1 boundaries, image quality indicators, scan coverage against the technique sheet"
+          ],
+          [
+            "Fabricator whose data book was held",
+            "Vendor data book, the inspector's comments, procedures and personnel certificates",
+            "Which comments rest on the purchase order or code and which do not"
+          ],
+          [
+            "NDT contractor whose report was rejected",
+            "The rejected report, raw data, procedure and the rejection letter",
+            "Whether the technique, calibration and interpretation support the original call"
+          ],
+          [
+            "Plant owner after an outage",
+            "Tube thickness surveys, header and dissimilar-metal weld reports",
+            "Grid coverage, minimum readings traced to locations, and data that matches the report"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Codes, owner specifications and Saudi authorities on a Riyadh record",
+      "p": [
+        "Reports reaching Riyadh are read against several layers at once. The examination methods normally come from ASME Section V; acceptance for vessels, boilers and piping from ASME Section VIII, Section I, B31.1 or B31.3; and for steel structures from AWS D1.1 under the building code. Where the owner is Saudi Aramco or one of its affiliates, the Saudi Aramco Engineering Standards (SAES) and the inspection procedures that go with them add requirements of their own, and those requirements often decide a dispute. Utility and government owners write their own specifications into the contract, and we ask for them before we start.",
+        "Radiation safety is regulated nationally. The Nuclear and Radiological Regulatory Commission (NRRC), established in 2018, licenses the use of ionising radiation in the Kingdom, so industrial radiography on a Riyadh project is carried out by contractors holding NRRC licences. Atlantis performs no radiography in Saudi Arabia; we read the films and digital images those licensed contractors produce."
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting on Riyadh projects",
+      "p": [
+        "Large projects in the capital run their quality records through electronic document control. NDT reports arrive as signed PDFs generated from digital reporting platforms, radiography increasingly arrives as DR detector images or CR plates rather than film, and PAUT and TOFD contractors supply native scan files alongside their summary sheets. That shift helps a reviewer, because the evidence can be reopened, but it also creates new failure points: exported images that have lost their calibration data, PDFs that no longer match the file they claim to summarise, and electronic signatures applied by someone other than the certified interpreter.",
+        "Our NDT data review follows the lineage. We check that each DR or CR image carries its exposure and detector information and that image quality was demonstrated on the image, not asserted on the form. For phased array and TOFD we open the files in review software, compare the scan plan with what was actually collected, confirm calibration and encoder records, and re-size the indications that drove an accept or reject decision. For digital reports we check revision history, who approved each version and whether the archive keeps the raw data that the report depends on."
+      ]
+    },
+    {
+      "h": "How a review works from Riyadh",
+      "p": [
+        "There is no visit and no local presence. You send the records through a secure transfer link and the work is done remotely by reviewers working from Houston and Hyderabad. Hyderabad runs two and a half hours ahead of Riyadh, so questions raised during the review usually reach you inside your own working day.",
+        "We reply within one business day to confirm what we received, list anything missing and set out the scope and a quote. Atlantis never reviews work it performed, so if we examined the components ourselves we say so and decline."
+      ],
+      "list": [
+        "Send the report or data book, the NDT procedure, the drawings or weld map and the specification or code edition the contract names",
+        "Add native files where they exist: DR or CR images, PAUT or TOFD data, thickness grids",
+        "Include personnel certificates and equipment calibration records for the dates of the work",
+        "Tell us the decision the review supports: handover, vendor release, a rejection reply or an outage close-out",
+        "Receive a written opinion with each finding tied to the clause or procedure step and the evidence"
+      ]
+    },
+    {
+      "h": "The reviewers and the edge of the opinion",
+      "p": [
+        "The review team draws on people whose careers were built in nuclear, maritime, oil and gas and petrochemical work, which matters on a Riyadh file because a single data book can mix power, structural and process requirements. Ultrasonic, radiographic, magnetic particle, penetrant and visual reviews are directed by an ASNT NDT Level III who holds certification in exactly those five methods.",
+        "Each opinion closes with one of three verdicts: the record is sound; it is deficient in documentation only; or it is deficient in disposition, meaning the evidence does not support the accept or reject decision recorded. Remaining-life and fitness-for-service assessment stays with the owner's engineer, acceptance under the building code stays with the accepted inspection body, and certification of personnel stays with their employer. Atlantis is not inspector of record on any project; the independent report review gives the people who hold those roles a clearer basis for their decisions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have staff or premises in Riyadh?",
+      "a": "No. Atlantis has offices in Houston and Hyderabad only, with nobody in Saudi Arabia or elsewhere in the Gulf. Reviews of Riyadh records are carried out remotely on the files you send."
+    },
+    {
+      "q": "Can you review structural steel NDT for a building under the Saudi Building Code?",
+      "a": "Yes, as a technical reading of the UT, MT and visual records against AWS D1.1 and the project specification. Atlantis is not one of the SASO-accepted building code inspection bodies, so formal code acceptance remains with the accepted body and the authority having jurisdiction."
+    },
+    {
+      "q": "We are building a combined-cycle plant. Which code will you read our piping reports against?",
+      "a": "The one the design basis names for each system. Boiler external piping and HRSG pressure parts usually fall under ASME Section I and the remaining steam and water piping under B31.1. We check that the report used the right boundary and the right acceptance criteria."
+    },
+    {
+      "q": "Our data book was held by the client's vendor inspector. What should we send?",
+      "a": "The data book as submitted, the inspector's comments, the purchase order or specification, your NDT procedures and the technicians' certificates. The opinion separates comments that rest on a requirement from those that do not."
+    },
+    {
+      "q": "Do you review DR and CR images as well as film?",
+      "a": "Yes. We review digital radiography and computed radiography images produced by NRRC-licensed contractors, checking image quality, exposure records and interpretation. Atlantis takes no radiographs in Saudi Arabia."
+    },
+    {
+      "q": "Will you check reports against Saudi Aramco standards?",
+      "a": "Where Aramco or an affiliate is the owner and the contract invokes its engineering standards, yes. Send the SAES and procedures the contract names, so the review uses the same revision your inspector does."
+    },
+    {
+      "q": "Can the review tell us whether a tube or header can stay in service?",
+      "a": "No. Remaining-life and fitness-for-service judgements stay with the owner's engineer. The review tells you whether the thickness and weld data behind that judgement are complete, traceable and correctly reported."
+    },
+    {
+      "q": "How do we start?",
+      "a": "Send the report and its supporting records through the enquiry form or to info@atlantisndt.com. We reply within one business day with what is missing, the scope and a quote."
+    }
+  ],
+  "related": [
+    [
+      "/ndt-training-riyadh",
+      "NDT training in Riyadh"
+    ],
+    [
+      "/practical-ndt-riyadh",
+      "Practical NDT simulator in Riyadh"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "Outsourced ASNT Level III consulting"
+    ],
+    [
+      "/blog/wps-pqr-wpq-explained-asme-ix-aws-d1-1-api-1104",
+      "WPS, PQR and WPQ explained"
+    ],
+    [
+      "/consulting/subcontractor-approval-audits",
+      "Client and subcontractor approval audits"
+    ],
+    [
+      "/consulting/ndt-audit-documentation",
+      "NDT audit documentation"
+    ]
+  ],
+  "sources": [
+    "https://www.power-technology.com/projects/riyadh/",
+    "https://english.mubasher.info/news/4513316/Saudi-Electricity-Company-announces-signing-of-Power-Purchase-Agreements-with-Saudi-Power-Procurement-Company-for-2-large-scale-CCGT-power-plants-with-a-combined-production-capacity-of-3-356-MW",
+    "https://omrania.com/project/saudi-electricity-company-headquarters/",
+    "https://sabic.com/en/locations/5604-saudi-arabia-saudi-basic-industries-corporation-hq",
+    "https://www.zawya.com/en/business/saudi-modon-wahaj-sign-213mln-riyadh-industrial-land-deal-qp9ghrli",
+    "https://www.gihub.org/resources/showcase-projects/development-of-sudair-industrial-city/",
+    "https://saudipedia.com/en/the-national-committee-for-the-saudi-building-code",
+    "https://info.cype.com/en/codes/sbc-306-cr-2018/",
+    "https://www.saso.gov.sa/en/sectors/product-safety/Documents/SBC-INSP-EN.pdf",
+    "https://www.railwaygazette.com/metro/king-inaugurates-riyadh-metro-ahead-of-public-opening/67903.article",
+    "https://gulfnews.com/world/gulf/saudi/king-salman-park-in-riyadh-is-rising-fast-set-to-be-one-of-the-worlds-largest-urban-parks-1.500329190",
+    "https://www.expo2030riyadh.sa/news-hub/awards-utilities-infrastructure-contract",
+    "https://saudipedia.com/en/nuclear-and-radiological-regulatory-commission",
+    "https://hse.kaust.edu.sa/safety/laboratory-safety/radiation-safety/regulatory-compliance-and-university-policies",
+    "https://vision2030.gov.sa/en/explore/projects/king-salman-park",
+    "https://saudipedia.com/en/article/324/government-and-politics/commissions/nuclear-and-radiological-regulatory-commission"
+  ]
+}
