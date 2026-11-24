@@ -3218,6 +3218,7 @@ const NDTTrainingGroton = lazy(() => import("./pages/ndt-training-groton"));
 const NDTTrainingBathMaine = lazy(() => import("./pages/ndt-training-bath-maine"));
 // === Training city expansion 2026-08-12 — 8 missing high-value US markets ===
 const NDTTrainingNewportNews = lazy(() => import("./pages/ndt-training-newport-news"));
+const NDTTrainingWarnerRobins = lazy(() => import("./pages/ndt-training-warner-robins")); // NA training 2026-11-11
 const NDTTrainingDecaturAlabama = lazy(() => import("./pages/ndt-training-decatur-alabama")); // NA training 2026-11-11
 const NDTTrainingEverett = lazy(() => import("./pages/ndt-training-everett")); // US training 2026-11-23
 const NDTTrainingBremerton = lazy(() => import("./pages/ndt-training-bremerton")); // US training 2026-11-23
@@ -7007,6 +7008,7 @@ export default function RouteTable() { return (
                   <Route path="/ndt-training-savannah" element={<LazyRoute Component={NDTTrainingSavannah} />} />
                   <Route path="/ndt-training-aiken" element={<LazyRoute Component={NDTTrainingAiken} />} />
                   <Route path="/ndt-training-newport-news" element={<LazyRoute Component={NDTTrainingNewportNews} />} />
+                  <Route path="/ndt-training-warner-robins" element={<LazyRoute Component={NDTTrainingWarnerRobins} />} />
                   <Route path="/ndt-training-decatur-alabama" element={<LazyRoute Component={NDTTrainingDecaturAlabama} />} />
                   <Route path="/ndt-training-everett" element={<LazyRoute Component={NDTTrainingEverett} />} />
                   <Route path="/ndt-training-bremerton" element={<LazyRoute Component={NDTTrainingBremerton} />} />

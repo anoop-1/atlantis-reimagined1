@@ -221,5 +221,6 @@ export const US_TRAINING_PAGES = {
   "/ndt-training-joliet": "Joliet, IL", // 2026-11-23
   "/ndt-training-rockford": "Rockford, IL", // 2026-11-23
   "/ndt-training-decatur-alabama": "Decatur, AL", // 2026-11-11
+  "/ndt-training-warner-robins": "Warner Robins, GA", // 2026-11-11
 };
 export const US_TRAINING_PATHS = Object.keys(US_TRAINING_PAGES);

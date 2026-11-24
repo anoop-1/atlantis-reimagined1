@@ -409,6 +409,7 @@ export const REPORTING_CITY_PAGE_SLUGS: Set<string> = new Set([
 
 /** Cities that have a /ndt-training-{slug} page (individual TSX + DynamicTrainingPage fallback). */
 export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
+  'warner-robins', // NA training expansion 2026-11-11
   'decatur-alabama', // NA training expansion 2026-11-11
   'everett','bremerton','pensacola','melbourne-florida','greensboro','columbia-south-carolina','augusta','fort-wayne','evansville','rochester-new-york','syracuse','harrisburg','amarillo','palmdale','cedar-rapids','green-bay','pueblo','lima-ohio','joliet','rockford', // US training expansion 2026-11-23
   'sacramento','long-beach','bakersfield','tucson','reno','colorado-springs','spokane','tacoma','ogden','farmington','hobbs','casper','fairbanks','lafayette','houma','shreveport','freeport','brownsville','birmingham','memphis','louisville','knoxville','chattanooga','greenville-south-carolina','raleigh','wilmington-north-carolina','richmond','lynchburg','portsmouth-new-hampshire','albany','erie','allentown','toledo','dayton','grand-rapids','peoria','toronto','hamilton-ontario','sudbury','regina','saskatoon','red-deer','grande-prairie','kitimat', // NA training expansion 2026-11-11

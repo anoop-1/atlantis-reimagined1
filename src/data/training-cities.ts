@@ -7202,6 +7202,37 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "mobile", label: "Mobile" },
     ],
   },
+  // === North American training expansion 2026-11-11 (scripts/add-na-training-cities-2026-11.mjs) ===
+  {
+    slug: "warner-robins",
+    city: "Warner Robins",
+    country: "USA",
+    lat: 32.62, lng: -83.63,
+    localContext:
+      "Warner Robins grew up around Robins Air Force Base, and the base still shapes the local inspection economy. The Warner Robins Air Logistics Complex performs depot maintenance on military transport and fighter aircraft, and its commodities maintenance group runs a nondestructive inspection operation that checks airframe structure and components with penetrant, magnetic particle, eddy current, ultrasonic and radiographic methods. Defense contractors and aircraft parts suppliers around Houston County add more of the same work, while Middle Georgia manufacturers, utilities and construction contractors need weld and corrosion inspection under ASME, AWS and owner codes.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Civilian employers around Warner Robins certify technicians under their own written practice based on ASNT SNT-TC-1A: the employer sets the hours, runs the examinations and signs the certification. Military depot work follows the technical orders and personnel requirements the Air Force sets, and contractors supporting it follow whatever standard their contract names. ASNT central certification suits technicians who expect to change employers.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 46,000–61,000/year",
+      levelII: "USD 64,000–89,000/year",
+      levelIII: "USD 105,000–148,000/year",
+      usdReference: "USD 64,000–89,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "atlanta", label: "Atlanta" },
+      { slug: "augusta", label: "Augusta" },
+      { slug: "savannah", label: "Savannah" },
+      { slug: "montgomery", label: "Montgomery" },
+      { slug: "columbia-south-carolina", label: "Columbia" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

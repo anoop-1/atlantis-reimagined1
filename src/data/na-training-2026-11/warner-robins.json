@@ -1,0 +1,9 @@
+{
+  "slug": "warner-robins",
+  "lat": 32.62,
+  "lng": -83.63,
+  "localContext": "Warner Robins grew up around Robins Air Force Base, and the base still shapes the local inspection economy. The Warner Robins Air Logistics Complex performs depot maintenance on military transport and fighter aircraft, and its commodities maintenance group runs a nondestructive inspection operation that checks airframe structure and components with penetrant, magnetic particle, eddy current, ultrasonic and radiographic methods. Defense contractors and aircraft parts suppliers around Houston County add more of the same work, while Middle Georgia manufacturers, utilities and construction contractors need weld and corrosion inspection under ASME, AWS and owner codes.",
+  "certPathwayNote": "Civilian employers around Warner Robins certify technicians under their own written practice based on ASNT SNT-TC-1A: the employer sets the hours, runs the examinations and signs the certification. Military depot work follows the technical orders and personnel requirements the Air Force sets, and contractors supporting it follow whatever standard their contract names. ASNT central certification suits technicians who expect to change employers.",
+  "salaryFrom": "savannah",
+  "siblings": ["atlanta", "augusta", "savannah", "montgomery", "columbia-south-carolina"]
+}
