@@ -1,0 +1,341 @@
+{
+  "title": "Fujairah Tank Terminal RBI: Floors, Heated Tanks and Manifolds",
+  "description": "Remote RBI for Fujairah Oil Industry Zone terminals: tank ranking, heated fuel oil tanks, floor plans, shared manifolds and API 653 RBI intervals.",
+  "h1": "Risk-based inspection for Fujairah's crude, fuel oil and product terminals",
+  "eyebrow": "Risk-based inspection in Fujairah",
+  "intro": "Fujairah sits on the Gulf of Oman, outside the Strait of Hormuz, and its oil industry zone is built almost entirely around storage: independent crude and product terminals, bunker fuel blending, a refinery and the end of ADNOC's crude pipeline from Habshan. That makes RBI here mostly a tank population problem, with transfer piping, manifolds and heated systems around it. This page is for terminal integrity and inspection managers in the zone. It covers the facilities, the damage that heated fuel oil, coastal air and flash-flood ground produce, the rules a study must respect and how Atlantis runs one remotely.",
+  "highlights": [
+    {
+      "h": "A tank population, ranked as one",
+      "p": "A Fujairah terminal can hold dozens of tanks from a few thousand to a hundred thousand cubic metres. The study ranks every tank on floor, shell and roof risk together, so out-of-service slots go where the evidence and the consequence justify them."
+    },
+    {
+      "h": "Heated service treated on its own terms",
+      "p": "Fuel oil, residue and bunker blend tanks run warm, carry heating coils and often insulation. Their floors, coils and insulated shells behave differently from ambient crude or gasoil tanks, and the plan gives them their own damage basis and inspection techniques."
+    },
+    {
+      "h": "Boundaries drawn before analysis",
+      "p": "Terminals here share port jetties and manifold systems. The study fixes early which lines, valves and manifolds belong to the terminal's register and which belong to the port or a neighbour, so nothing is counted twice or missed."
+    }
+  ],
+  "sections": [
+    {
+      "id": "fujairah-facilities",
+      "h": "What stands in the Fujairah Oil Industry Zone",
+      "p": [
+        "The Fujairah Oil Industry Zone, known as FOIZ, is the government body that hosts and oversees the storage terminals, refining and oil processing plants next to the Port of Fujairah. Liquid bulk cargo crosses the port through Fujairah Oil Tanker Terminals, which the port describes as able to work nine main berths or fourteen wing berths or a combination of the two, with a deep-water jetty at the eastern end of the breakwater that takes tankers up to VLCC size. Most of the bunker fuel delivered to ships at the Fujairah anchorage is stored in the zone's terminals and loaded onto barges at the port, which makes Fujairah a major bunkering hub.",
+        "Several independent operators run large terminals in the zone. VTTI lists a Fujairah terminal of roughly 1.94 million cubic metres in 66 tanks, with coated, insulated, low-temperature and stainless steel tanks, refrigerated pressure vessels and spheres, and it manages a refinery there. Vopak Horizon Fujairah, a joint venture of Royal Vopak, Horizon Terminals, the Government of Fujairah and Independent Petroleum Group, operates mild steel tanks from about six thousand to one hundred thousand cubic metres and offers heating and blending. The terminal assets built by Brooge Energy passed to the Dubai-listed group GulfNav, which announced completion of the acquisition in November 2025. Fujairah Oil Terminal and other operators complete the cluster.",
+        "Upstream of all this, ADNOC's Abu Dhabi Crude Oil Pipeline brings Murban crude about 360 kilometres from Habshan so it can be loaded beyond the strait, and ADNOC has developed an underground crude storage project at Fujairah. The pipeline and the cavern project sit inside ADNOC's own integrity framework rather than a terminal's, and an RBI for rock caverns is not a tank RBI, so this page concentrates on the above-ground terminals."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/united-arab-emirates",
+          "RBI in the UAE"
+        ],
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ]
+      ]
+    },
+    {
+      "id": "fujairah-asset-mix",
+      "h": "Equipment classes in a Fujairah terminal and where the risk sits",
+      "p": [
+        "Most of the inspection budget in a Fujairah terminal goes into tanks, but tanks are not the only equipment that can fail. The table lists the equipment classes a full terminal study usually registers, the damage that drives probability in each, and the kind of inspection evidence that lets the next examination be credited at a useful effectiveness."
+      ],
+      "table": {
+        "head": [
+          "Equipment class",
+          "Damage that usually drives probability",
+          "Evidence that earns inspection credit"
+        ],
+        "rows": [
+          [
+            "Crude and product tank floors and annular plates",
+            "Soil-side corrosion, product-side pitting under water and sediment, microbiologically influenced corrosion in water bottoms",
+            "Full floor scanning with follow-up ultrasonic sizing of indications, annular plate and critical zone examination, cathodic protection records"
+          ],
+          [
+            "Heated fuel oil and residue tanks",
+            "Floor corrosion under sludge, coil leaks adding water, corrosion under insulation on the shell, hot-spot damage near coils",
+            "Floor scan after thorough cleaning, coil pressure testing, insulation strip and shell thickness at wet or damaged insulation"
+          ],
+          [
+            "Shells, nozzles and wind girders",
+            "Marine atmospheric corrosion, coating breakdown, corrosion at the shell-to-bottom junction",
+            "External visual and thickness surveys, close attention to the chime and to nozzle reinforcement pads"
+          ],
+          [
+            "Floating roofs and seals",
+            "Pontoon and deck corrosion, seal wear from frequent level changes, drain system failure",
+            "Roof and pontoon inspection on the deck, seal gap surveys, roof drain hose and valve checks"
+          ],
+          [
+            "Transfer, manifold and jetty lines",
+            "External corrosion at supports and in salt-laden air, internal corrosion in low points and dead legs, CUI on heated lines",
+            "Thickness surveys at supports and low points, corrosion mapping on heated or insulated sections"
+          ],
+          [
+            "Pumps, blending skids, small heaters and pressure vessels",
+            "Erosion at high-velocity points, fouling and corrosion in heater tubes, internal corrosion in drums and filters",
+            "Thickness readings at the points the loop analysis names, internal examination at shutdown"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "heated-service",
+      "h": "Heated fuel oil, residues and changing bunker blends",
+      "p": [
+        "Fuel oil storage is what sets Fujairah apart from many crude hubs. Heavy grades have to be kept warm to stay pumpable, so tanks carry steam or thermal oil coils and are often insulated, and the product sheds water and sediment onto the floor over months of service. Sludge holds water against the plate, and a leaking coil adds more of it, so floor corrosion in a heated tank can run faster than the same steel would see under a light product. The study asks for coil leak and repair history and treats a tank with repeated coil failures as a higher probability case until a floor scan says otherwise.",
+        "Insulated shells bring corrosion under insulation into the tank programme. A shell kept warm in humid coastal air, with rainwater entering at damaged cladding, roof edges and nozzle penetrations, gives the conditions in which CUI thrives, and the damage is hidden until the insulation comes off. The plan therefore names insulation inspection points on each heated tank, usually at the bottom courses, at stiffening rings and around nozzles, rather than leaving CUI to a general survey.",
+        "Service history matters as much as the current product. A tank may move between high- and low-sulfur fuel oil, marine gasoil and blendstocks, and biofuel blends have entered bunker supply in Fujairah. Each change alters the water content, the microbial risk and sometimes the operating temperature. The register records service changes with dates so that the corrosion rate behind each interval is matched to the service that produced it, and a change of service becomes a reassessment trigger instead of an afterthought."
+      ],
+      "links": [
+        [
+          "/api-inspection/cui-in-api-570-and-api-510-inspection-plans",
+          "CUI in inspection plans"
+        ],
+        [
+          "/corrosion-mapping",
+          "Corrosion mapping"
+        ]
+      ]
+    },
+    {
+      "id": "ground-and-weather",
+      "h": "Ground and weather between the mountains and the sea",
+      "p": [
+        "The zone lies on a narrow coastal strip between the Hajar mountains and the Gulf of Oman. The air is warm, humid and salt-laden for much of the year, which wears coatings on shells, roofs, structural steel and pipe supports, and the condensation that forms on cooled steel overnight keeps chloride deposits active. External corrosion rates on unprotected surfaces should come from the terminal's own survey history, since exposure varies with distance from the shoreline and with the dust and spray each tank receives.",
+        "Rain is infrequent, but when storms arrive water comes down the wadis from the mountains quickly and can pond on low ground. For a tank study that brings three questions. Does water collect against the tank foundation or the chime, and for how long? Has standing water changed the soil conditions under the floor or the performance of the cathodic protection? And has the tank settled, locally or across the foundation? The data request asks for drainage drawings, any post-storm inspection notes, settlement surveys and cathodic protection readings, and the floor probability is set with them in view.",
+        "Settlement also matters for floating roof tanks, where an out-of-round shell can bind the roof and wear seals. Where survey data shows distortion beyond what the terminal's acceptance criteria allow, the study records it as a condition to be assessed by the owner's engineer, not as a number the RBI can absorb on its own."
+      ]
+    },
+    {
+      "id": "floors-and-intervals",
+      "h": "Tank floors and the API 653 RBI route",
+      "p": [
+        "Most terminals in the zone run their tank programmes on API 653, with internal inspection intervals calculated from measured floor corrosion and the minimum remaining thickness allowed at the next inspection. API 653 also allows the internal interval to be set by an RBI assessment made to API RP 580, provided the assessment is validated and then reviewed at least every ten years. In the current fifth edition, later RBI-based intervals are not capped at a fixed number of years; they depend on the quality of the assessment and the inspection evidence behind it.",
+        "That evidence is usually the weak point. The interval an RBI can support depends on how effective the last floor examination was, and a spot ultrasonic survey of a floor credits far less than a full scan with follow-up sizing of every indication. For each tank, the study states what the next floor examination must include to justify the proposed interval: scanning coverage, treatment of the annular plate and critical zone, how soil-side and product-side indications will be told apart, and whether a release prevention barrier or leak detection reduces the consequence.",
+        "Tanks with no floor scan on record are not given a long interval on assumption. They are ranked conservatively, the gap is logged, and the plan places them early in the out-of-service sequence so that a good inspection result can move them into the evidence-based part of the ranking."
+      ],
+      "links": [
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ],
+        [
+          "/api-inspection/api-653-tank-floor-pitting-remaining-thickness",
+          "Tank floor pitting and remaining thickness"
+        ]
+      ]
+    },
+    {
+      "id": "manifolds-and-jetties",
+      "h": "Shared manifolds, jetty lines and where the register stops",
+      "p": [
+        "The port connects terminals to its berths through two matrix manifold systems. A terminal ties a limited number of black and white oil lines into a manifold and through it reaches every main and wing berth, and products can pass from one storage terminal to another without a ship. The deep-water jetty is fed through the second manifold by two large-diameter lines. For a pipeline network this dense, ownership boundaries decide what a terminal RBI can and cannot cover.",
+        "Before any piping is assessed, the study marks the boundary on the terminal's P&IDs: the last valve or flange the terminal owns, the lines run and maintained by the port, and any line owned by a neighbouring terminal. Terminal-owned lines are then grouped into corrosion loops by product, temperature and exposure. Heated black oil lines with insulation, ambient white oil lines, lines that sit full and still between transfers, and low points where water collects each get their own loop, because the damage they suffer is different.",
+        "Pipe supports deserve particular attention in salt-laden air. Corrosion at the contact point between a pipe and its support is easy to miss on a visual survey and can be well advanced before it shows, so the inspection plan lists the support locations to be lifted or examined on each critical line."
+      ]
+    },
+    {
+      "id": "consequence",
+      "h": "Consequence for a terminal on the Gulf of Oman",
+      "p": [
+        "Probability tells a terminal which tanks are most likely to leak; consequence tells it which leaks matter most. In Fujairah the consequence side of the model has to reflect where the tank stands and what it holds, and generic tables rarely do that well. The factors a study works through with the terminal team include:"
+      ],
+      "list": [
+        "Product class and flash point, from crude and gasoline to fuel oil and gasoil, and whether the tank is heated",
+        "Bund capacity, bund floor condition and whether the bund drains to a treatment system or could overflow toward the sea",
+        "Distance to the shoreline, to the port's drainage outfalls and to the boundary with neighbouring terminals",
+        "Whether the floor has a release prevention barrier or a leak detection system that would reveal a floor leak early",
+        "The business impact of losing the tank, including customer contracts and the capacity a terminal cannot offer while it is out of service",
+        "Exposure of adjacent tanks and manifolds in a tightly packed layout"
+      ]
+    },
+    {
+      "id": "rules-in-the-zone",
+      "h": "Rules that apply inside the zone",
+      "p": [
+        "Inspection intervals for tanks and piping in Fujairah are set by each operator's management system, which for most terminals is built on API 650 for design, API 653 for in-service tanks and API 570 for piping, sometimes alongside EEMUA 159 for tank inspection practice. FOIZ publishes codes of practice for the zone, and the emirate's civil defence, environmental and safety conditions apply to the operating permits. Before analysis begins, the study collects whichever of these the terminal is bound by and checks that the proposed method, risk matrix and reassessment frequency fit within them.",
+        "Some terminals here belong to international groups that apply a corporate tank integrity standard across all their sites. Where that is the case, the corporate standard decides the RBI method and the approval route, and the Fujairah study is shaped to it so the results can sit beside those from the group's other terminals."
+      ]
+    },
+    {
+      "id": "remote-sequence",
+      "h": "How a remote study runs for a Fujairah terminal",
+      "p": [
+        "Fujairah works on Gulf Standard Time, and the study is run from a shared data room and video workshops, so no one has to travel to the zone. The records a terminal study most often needs are:"
+      ],
+      "list": [
+        "The tank register with design data, construction year, dimensions, roof type, floor design and any release prevention barrier",
+        "Past internal and external inspection reports, floor scan results with indication maps, and shell thickness surveys",
+        "Coil, roof, seal and roof drain inspection and repair history for each tank",
+        "Product and service history from the terminal management system, including temperatures, water draws and service changes",
+        "Cathodic protection survey results, settlement surveys, drainage drawings and post-storm inspection notes",
+        "P&IDs and line lists for terminal-owned piping, with thickness history and support inspection records"
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ]
+      ]
+    },
+    {
+      "id": "field-and-approval",
+      "h": "Field checks and the approval of each interval",
+      "p": [
+        "Walkdowns, roof and bund checks, insulation inspection and the readings that close data gaps are carried out by the terminal's own inspectors or the inspection contractor already working in the zone, following the site security instructions in force. The study gives them a list that says, for each check, what it is meant to confirm and how the result will change the ranking, so the work can be scheduled into normal operations.",
+        "The proposed intervals go to the terminal's inspection authority for approval under its management system. Atlantis prepares the assessment and the plan but does not act as inspector of record or as an inspection body for any Fujairah asset. Where inspection finds damage that calls for a fitness-for-service judgement, that assessment stays with the owner's engineer; Atlantis does not provide fitness-for-service work, and the RBI is updated once a decision has been made."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "API 653 (tank inspection, repair, alteration and reconstruction)",
+    "API 650 (welded tanks for oil storage)",
+    "API 570 (piping inspection)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 575 (inspection practices for atmospheric and low-pressure tanks)",
+    "API RP 651 and API RP 652 (tank bottom cathodic protection and linings)",
+    "EEMUA 159 (above-ground flat-bottomed storage tanks)"
+  ],
+  "deliverables": [
+    "Ranked tank register with floor, shell and roof risk for every tank",
+    "Out-of-service sequence and proposed internal interval for each tank, with the basis",
+    "Floor examination scope per tank: scanning coverage, annular plate and critical zone, sizing of indications",
+    "Heated tank plan covering coils, insulation inspection points and shell thickness",
+    "Corrosion loops and inspection plan for terminal-owned transfer and manifold piping",
+    "Data-gap log and field check list for the terminal's inspectors",
+    "Reassessment triggers for service changes, storms, settlement and coil failures"
+  ],
+  "industries": [
+    "Independent crude and product terminals",
+    "Bunker fuel storage and blending",
+    "Fuel oil and residue storage",
+    "Crude export storage",
+    "Refining"
+  ],
+  "faqs": [
+    {
+      "q": "Our terminal has over sixty tanks. Can one study cover them all?",
+      "a": "Yes. A terminal study is built to cover the whole tank population, because ranking only makes sense when every tank is compared on the same basis. Tanks with good floor scan histories move through the analysis quickly; tanks with thin records take longer and come out with conservative rankings and a gap log. The plan then gives a sequence of out-of-service inspections across the population rather than a list of isolated intervals."
+    },
+    {
+      "q": "Are heated fuel oil tanks treated differently from crude or gasoil tanks?",
+      "a": "They are. Heated tanks carry coils, often have insulated shells and collect sludge and water on the floor, so their damage basis includes coil leaks, corrosion under insulation and floor corrosion under sediment. The plan sets coil testing, insulation inspection points and floor scan conditions specific to heated service, and a run of coil failures counts against the tank until a floor examination shows the plate is sound."
+    },
+    {
+      "q": "We change bunker grades in our tanks several times a year. How does the study handle that?",
+      "a": "Service changes are recorded with dates, and corrosion rates are tied to the service that produced them. A change to a product with more water, a different temperature or microbial risk is a reassessment trigger, so the tank's interval is checked when the service changes rather than at the next scheduled review."
+    },
+    {
+      "q": "Can API 653 intervals in Fujairah be set by RBI?",
+      "a": "API 653 allows the internal inspection interval to be set by an RBI assessment made to API RP 580, provided it is validated and reviewed at least every ten years. Whether your terminal uses that route depends on your management system and, for some operators, on a group tank integrity standard. The study checks this first and works within whatever your system allows."
+    },
+    {
+      "q": "Do the port's manifold and jetty lines go in our RBI?",
+      "a": "Only the lines your terminal owns and maintains. The study marks the boundary on your P&IDs before analysis, so port-owned lines and neighbouring terminals' lines stay out of your register and none of your own lines are left unassessed. Where you depend on a port line, the report can note it so you can raise it with the port."
+    },
+    {
+      "q": "How do flash floods and settlement enter the assessment?",
+      "a": "Through the data request and the reassessment triggers. Drainage drawings, post-storm notes, cathodic protection readings and settlement surveys inform the floor probability, and a significant storm or a settlement survey showing new distortion triggers a review of the affected tanks. Distortion beyond your acceptance criteria is passed to your engineer for assessment."
+    },
+    {
+      "q": "Does the study need anyone from Atlantis in Fujairah?",
+      "a": "No. The study runs on your records and video workshops, so it needs no travel. Field checks are done by your own inspectors or your inspection contractor, working to a list that explains what each check confirms and how it affects the plan."
+    },
+    {
+      "q": "Who approves the out-of-service dates the study proposes?",
+      "a": "Your inspection authority, under your terminal's management system. Atlantis sets out each proposed interval with its basis and the evidence behind it, but does not act as inspector of record and does not sign off intervals."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/united-arab-emirates",
+      "RBI in the UAE"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/inspection/risk-based-inspection/singapore-tank-terminals",
+      "RBI for Singapore tank terminals"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/remote-rbi",
+      "How a remote RBI study works"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-revalidation-audit",
+      "RBI revalidation and audit"
+    ],
+    [
+      "/standards/api-653",
+      "API 653 explained"
+    ],
+    [
+      "/standards/api-580",
+      "API 580 explained"
+    ],
+    [
+      "/consulting/api-653-tank-inspector-services",
+      "API 653 tank inspector support"
+    ],
+    [
+      "/tools/api-inspection-interval-calculator",
+      "API inspection interval calculator"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "FOIZ is the Fujairah Oil Industry Zone authority; site lists codes of practice and an emergency response centre",
+      "url": "https://foiz.gov.ae/"
+    },
+    {
+      "fact": "FOTT can operate 9 main berths or 14 wing berths or a combination; VLCC jetty at the eastern end of the breakwater in full operation since 2016; two 40-inch lines to Matrix Manifold 2; bunker fuels stored mainly in FOIZ terminals; ADNOC 360 km Habshan-Fujairah pipeline; ADNOC underground oil storage at Fujairah",
+      "url": "https://fujairahport.ae/business-activities/oil/"
+    },
+    {
+      "fact": "VTTI Fujairah: 1,943,000 m3, 66 tanks, coated/insulated/low-temperature/stainless steel tanks, refrigerated pressure vessels and spheres, manages a refinery, 11 jetties, connected through the port's matrix manifold",
+      "url": "https://www.vtti.com/location/fujairah-united-arab-emirates-vtti/"
+    },
+    {
+      "fact": "Vopak Horizon Fujairah: JV of Royal Vopak, Horizon Terminals, Government of Fujairah and Independent Petroleum Group; mild steel tanks 6,000 to 100,000 m3; heating and blending services",
+      "url": "https://www.vopak.com/terminals/vopak-horizon-fujairah"
+    },
+    {
+      "fact": "GulfNav completed the acquisition of all Brooge Energy assets (announced 27 November 2025)",
+      "url": "https://www.mees.com/2025/11/28/news-in-brief/gulfnav-completes-brooge-purchase/f3131cb0-cc5c-11f0-9eec-3354d5709c6b"
+    },
+    {
+      "fact": "Fujairah Oil Terminal is an operator in the zone (VLCC link project)",
+      "url": "https://www.hellenicshippingnews.com/fujairah-oil-terminal-starts-45-mil-vlcc-link-in-bet-on-trading-surge-in-murban-futures/"
+    },
+    {
+      "fact": "Vopak Horizon Fujairah completed its first UAE bio-bunker supply operation (March 2025)",
+      "url": "https://tankterminals.com/news/vopak-horizon-fujairah-completes-its-first-uae-bio-bunker-supply-operation/"
+    },
+    {
+      "fact": "GulfNav announcement 27 November 2025, completion of acquisition of all Brooge Energy assets",
+      "url": "https://ae.marketscreener.com/news/gulf-navigation-successfully-completes-the-acquisition-of-all-brooge-energy-assets-marking-a-majo-ce7d51dad98cf02d"
+    },
+    {
+      "fact": "Vopak Horizon Fujairah first bio-bunker supply in the UAE",
+      "url": "https://hydrocarbonprocessing.com/news/2025/03/vopak-horizon-fujairah-completes-its-first-uae-bio-bunker-supply-operation/"
+    }
+  ]
+}

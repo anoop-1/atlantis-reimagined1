@@ -1,0 +1,304 @@
+{
+  "title": "RBI in Ras Tanura: Refinery, Tank Farm and Export Terminal",
+  "description": "Remote RBI for Ras Tanura's refinery units, crude and product tank farms, sea islands and North Pier: damage mechanisms, data needs and who approves the plan.",
+  "h1": "Risk-based inspection for the Ras Tanura refinery, tank farms and marine terminal",
+  "eyebrow": "Risk-based inspection in Ras Tanura",
+  "intro": "Ras Tanura packs a large refinery, a very large crude and product tank farm and an export terminal of piers and sea islands onto a narrow sand peninsula north of Dammam. This page is for the inspection, corrosion and reliability engineers who keep that equipment in service. It describes what sits on the peninsula and at Ju'aymah, which damage mechanisms the setting puts at the top of the register, how the newer naphtha units and any further conversion units change the picture, how tank farms and loading lines fit into one programme, and how Atlantis runs an RBI study for a Ras Tanura asset without anyone travelling.",
+  "highlights": [
+    {
+      "h": "Three asset families on one spit of sand",
+      "p": "Process units, storage and marine loading share the same salt air and the same saline ground, but they age differently and answer to different parts of the inspection organisation. A useful study keeps them in one risk framework while letting each family carry its own inputs and intervals."
+    },
+    {
+      "h": "New units, short histories",
+      "p": "The clean fuels naphtha complex, and any conversion units added later, bring hydrogen-rich, high-temperature service with little in-service thickness data behind it. Their first RBI rests on design data, materials selection and process conditions, and the plan says what the first inspections must establish."
+    },
+    {
+      "h": "No travel, no site passes",
+      "p": "The study is built from the owner's records and video workshops held in Arabia Standard Time working hours. Walkdowns and any extra readings the plan calls for are made by the inspectors already working for the facility, against a list the report specifies."
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-at-ras-tanura",
+      "h": "What sits on the peninsula and along the coast",
+      "p": [
+        "The Ras Tanura refinery is Saudi Aramco's oldest refining site in the Kingdom, with origins in the early 1940s, and published figures put its crude capacity in the region of 550,000 barrels per day. Alongside the crude and vacuum units it runs hydrocracking, visbreaking, naphtha processing and asphalt production. Around it lies a very large inventory of storage tanks for crude, refined products, LPG and naphtha.",
+        "The marine terminal has two main parts. The North Pier, a long jetty reaching into deep water, loads LPG, naphtha, crude, refined products and bunkers. Offshore of it, the sea island berths provide deep water for crude and fuel oil cargoes, fed from shore by submarine and trestle lines. Further up the coast to the north-west, the Ju'aymah terminal adds single point mooring buoys for crude and berths for refrigerated LPG, with its own onshore tankage. Seen from an inspection planner's desk, the result is a population of equipment in which the refinery is only one piece, and in which storage and transfer piping dominate the item count.",
+        "Jubail's refineries and petrochemical complexes lie further up the coast and are covered separately. Ras Tanura's RBI questions are those of a coastal crude refinery tied to an export system, not of a petrochemical park."
+      ]
+    },
+    {
+      "id": "new-units",
+      "h": "The clean fuels complex and later conversion plans",
+      "p": [
+        "Ras Tanura has been rebuilt in stages to make low-sulfur transportation fuels. The naphtha complex built under the clean fuels programme includes a naphtha hydrotreater, a naphtha splitter, a continuous catalytic reformer and an isomerization unit. In 2022 Aramco announced licensing agreements for a residue upgrading complex intended to turn the refinery into a full-conversion site, with solvent deasphalting, a vacuum gas oil hydrocracker and supporting hydrogen and sulfur units, and in 2025 the trade press reported that the tendering process for that expansion had been cancelled. Owners should confirm which units are operating, under construction or no longer planned when a study is scoped, because the answer decides whether an item is assessed from design data or from history.",
+        "For RBI, these units bring mechanisms that a crude-and-vacuum register built decades ago may treat lightly. Hydrotreaters, the reformer and a hydrocracker operate in hot hydrogen, so high temperature hydrogen attack screening against the actual operating window matters, together with high-temperature H2/H2S corrosion of carbon and low-alloy steel. Reactor effluent air coolers and their piping face ammonium bisulfide corrosion, which is sensitive to velocity, water wash rate and the concentration of the salt in the sour water. Reformer and isomerization circuits see chlorides, so ammonium chloride fouling and corrosion in exchangers and overhead systems need their own loop. Austenitic stainless steel in hydroprocessing is exposed to polythionic acid stress corrosion cracking whenever it is opened to air and moisture at a turnaround, which makes shutdown protection practice an input to the probability of failure.",
+        "A hydrogen plant built on steam methane reforming adds reformer tubes, transfer lines and waste heat equipment in creep and high-temperature service. Reformer tube life is usually managed through dedicated tube inspection and creep assessment rather than a generic RBI calculation, and the study should say which tubes it covers and which it leaves to that programme."
+      ]
+    },
+    {
+      "id": "mechanism-map",
+      "h": "Damage mechanisms by asset group at Ras Tanura",
+      "p": [
+        "The table is a starting map for corrosion loop work, not a finished assignment. Each mechanism is confirmed or ruled out against the owner's process data, materials and inspection history during the damage mechanism review."
+      ],
+      "table": {
+        "head": [
+          "Asset group",
+          "Mechanisms that usually head the list",
+          "What the inspection plan tends to ask for"
+        ],
+        "rows": [
+          [
+            "Crude and vacuum units",
+            "High-temperature sulfidation of carbon and low-chrome steel, naphthenic acid corrosion where the crude blend carries it, overhead chloride and wet H2S corrosion, CUI on insulated lines",
+            "Thickness monitoring at sulfidation-prone circuits with silicon checks on older carbon steel, overhead system UT and corrosion mapping, CUI screening"
+          ],
+          [
+            "Hydroprocessing and reforming",
+            "High temperature H2/H2S corrosion, HTHA, ammonium bisulfide in effluent systems, ammonium chloride, polythionic acid SCC of austenitic steel",
+            "HTHA screening against the operating window, effluent air cooler and piping UT, verification of shutdown protection practice"
+          ],
+          [
+            "Crude and product tank farms",
+            "Soil-side floor corrosion on saline ground, product-side floor pitting under bottom water, shell corrosion near the floor, roof and rim seal damage",
+            "Floor scanning at out-of-service inspection, shell UT, roof inspection, review of cathodic protection records"
+          ],
+          [
+            "Pier, trestle and sea island piping",
+            "Marine atmospheric corrosion, splash zone attack, corrosion at supports and clamps, CUI on heated lines",
+            "External visual and support inspection, thickness at supports, coating condition survey"
+          ],
+          [
+            "Utilities and seawater systems",
+            "Pitting, crevice corrosion and microbiologically influenced corrosion in seawater-cooled exchangers and fire water mains",
+            "Tube inspection on exchangers, internal condition checks on fire water lines"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "tank-farms",
+      "h": "Tank farms on a sand spit",
+      "p": [
+        "Most of the tanks at Ras Tanura stand on low-lying coastal sand close to the sea, where the water table is shallow and the ground carries salt. Under those conditions the underside of a tank floor is a corrosion surface whose rate depends on the foundation design, whether a liner or a release prevention barrier was installed, and how well the cathodic protection has worked across decades of service. Floors laid in different eras, on different foundations, behave differently, so tanks are grouped for RBI by construction and protection history rather than simply by product.",
+        "On the product side, crude tanks accumulate bottom water and sludge, and pitting under that layer is the classic driver of floor loss. Product tanks carrying naphtha or gasoline components are more often limited by roof, pontoon and seal condition. A study that ranks the tank population this way lets the owner send out-of-service inspections first to the tanks whose floor condition and consequence of a leak most justify the downtime, and keep the rest in service on monitored intervals.",
+        "Where the owner's procedures reference API 653, the current fifth edition with its addenda allows an RBI assessment to set the internal inspection interval, provided the assessment is validated and reviewed at least every ten years. The consequence side of the model also has to reflect where a release would go: secondary containment capacity, drainage, the proximity of the shoreline and of the terminal's own loading systems."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "Storage tank RBI"
+        ],
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ]
+      ]
+    },
+    {
+      "id": "marine-systems",
+      "h": "Loading lines, the North Pier and the sea islands",
+      "p": [
+        "Piping that runs along the North Pier and out to the sea islands spends its life in spray and salt air, often over water where inspection access is awkward. The mechanisms are mostly external: coating breakdown, splash zone corrosion on supports and risers, and corrosion concentrated under clamps, shoes and pipe saddles where water sits. Lines kept warm for heavier cargoes add CUI. Because a loss of containment over water carries a high environmental consequence, these systems often rank higher than their modest thickness loss alone would suggest.",
+        "A boundary has to be drawn early. Submarine pipelines between the shore and the sea islands, mooring hoses and the single point moorings at Ju'aymah are usually managed under the operator's pipeline and marine integrity programmes rather than in a plant RBI register. The study records where each line passes from one programme to the other, typically at a defined valve or flange, so no section is assessed twice and none is left out. The same applies to loading arms and marine hoses, which normally follow testing and replacement schedules of their own."
+      ]
+    },
+    {
+      "id": "coastal-climate",
+      "h": "The coastal climate and what it does to insulated plant",
+      "p": [
+        "Ras Tanura's summer combines very high temperatures with humid, salty air off the Gulf, and nights cool enough for condensation on equipment surfaces. Insulated carbon steel operating in the range where water collects and keeps evaporating is the most common CUI case, and on a site this old there is a great deal of it. Insulated austenitic stainless steel faces external chloride stress corrosion cracking under the same wet, salt-laden cladding. Windblown sand abrades coatings and jackets, opening the paths by which water gets in.",
+        "Practical CUI planning here depends on an accurate insulation inventory: which lines and vessels are insulated, at what operating temperature, with what jacketing and when it was last renewed. Many sites hold that information unevenly. Where it is missing, the RBI study treats the item conservatively, logs the gap and asks the owner's inspectors to confirm insulation condition and temperature during routine rounds, which is often enough to move an item a whole risk category."
+      ],
+      "links": [
+        [
+          "/standards/api-583",
+          "API 583 and corrosion under insulation"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ]
+      ]
+    },
+    {
+      "id": "governing-procedures",
+      "h": "Which procedures a Ras Tanura study answers to",
+      "p": [
+        "Ras Tanura is an Aramco-operated facility, so inspection intervals, the RBI method and the approval route come from the company's own engineering standards and procedures rather than from a national inspection statute. Our Saudi Arabia page explains the company's RBI procedure and its link to the equipment inspection schedule in more detail; for a Ras Tanura study the practical points are to confirm the current issue of each governing document with the proponent's inspection unit before work starts, and to shape the deliverables so they slot into the test and inspection planning cycle the refinery and terminal already use.",
+        "Industrial safety directives issued nationally by the High Commission for Industrial Security apply alongside the company's standards, most visibly where fire protection systems, relief devices and tank fire equipment are concerned. API and ASME documents enter mainly by reference from the operator's procedures. When a document conflict appears, for example between a general refinery practice and a terminal-specific instruction, the study flags it for the owner to decide rather than choosing one."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/saudi-arabia",
+          "RBI in Saudi Arabia"
+        ]
+      ]
+    },
+    {
+      "id": "remote-study",
+      "h": "Organising a remote study for a Ras Tanura asset",
+      "p": [
+        "Scope is usually split into work packages that follow the facility's own organisation: a refinery unit or group of units, a tank farm, or the marine terminal systems. Each package has a named contact in the owner's inspection organisation, a data request tailored to it and its own set of workshops, so progress in one area does not wait for records from another. Workshops are booked in Ras Tanura's working day, Sunday to Thursday, and kept short enough to fit around operations meetings.",
+        "Data is shared through a data room the owner chooses, which can be one hosted on the company's own systems where its rules require plant records to stay there. Field verification follows the plan: a list of items where a walkdown, a nameplate check, an insulation survey or extra thickness readings would change the ranking, ordered by area and by how much each answer matters, so the owner's inspectors can work through it during cooler hours. Typical inputs for a package are:"
+      ],
+      "list": [
+        "Equipment and line lists with materials, design and operating conditions, and the unit's P&IDs and PFDs",
+        "Heat and material balances and process chemistry, including sulfur, acid number, chloride and water content of the feeds",
+        "Thickness and inspection history by CML, test and inspection reports and on-stream inspection records",
+        "For tanks: construction records, foundation and liner details, floor and shell inspection reports and cathodic protection survey results",
+        "For marine systems: line routing to the pier and sea islands, coating records and the boundary points with pipeline and marine integrity programmes",
+        "Integrity operating windows, corrosion monitoring data and the management of change records since the last assessment"
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ]
+      ]
+    },
+    {
+      "id": "approval",
+      "h": "Approval, and where the study stops",
+      "p": [
+        "The report sets out a recommended task, method, coverage and due date for each item, with the reasoning traceable to the data and the workshop decisions. Adopting those recommendations is the owner's decision, through the inspection organisation the company's procedures name. Atlantis is not the inspector of record for any Ras Tanura equipment and does not sign intervals into the facility's schedule.",
+        "If an inspection driven by the plan finds damage that calls the equipment's continued service into question, the assessment of that damage belongs to the owner's engineers; Atlantis does not carry out fitness-for-service work. The result of that assessment then goes back into the RBI model so the next due date reflects what was found."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 Risk-Based Inspection",
+    "API RP 581 Risk-Based Inspection Methodology",
+    "API RP 571 Damage Mechanisms",
+    "API RP 583 Corrosion Under Insulation and Fireproofing",
+    "API 510, API 570 and API 653 where the operator's procedures reference them",
+    "ASME PCC-3 Inspection Planning Using Risk-Based Methods",
+    "The operator's engineering standards and inspection procedures"
+  ],
+  "deliverables": [
+    "Corrosion loop and damage mechanism assignment for each work package",
+    "Probability and consequence of failure and a risk ranking per item",
+    "Inspection plan with method, coverage, effectiveness and due date per item",
+    "CML review and data-gap log with a prioritised field verification list",
+    "Boundary register between the plant RBI and pipeline or marine integrity programmes",
+    "Reassessment triggers and a report written for the owner's approval route"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Crude and product storage",
+    "Marine export terminals",
+    "LPG and naphtha handling"
+  ],
+  "faqs": [
+    {
+      "q": "Can one RBI study cover the refinery, the tank farms and the marine terminal?",
+      "a": "Yes, if it is set up that way from the start. The common approach is one risk framework and one set of risk targets, with separate work packages for process units, tank farms and marine systems. Each package uses the inputs that suit it: process chemistry and thickness history for units, floor and foundation data for tanks, coating and support condition for pier and sea island piping. Results can then be compared across the facility, which helps when inspection resources have to be shared between the refinery and the terminal."
+    },
+    {
+      "q": "How are the newer clean fuels units assessed with so little history?",
+      "a": "From design and materials data. The damage mechanism review uses the licensor's process conditions, the materials selection, the operating windows and any start-up inspection baseline. Mechanisms such as high temperature hydrogen attack and ammonium bisulfide corrosion are screened against those conditions. Where no measured corrosion rate exists, the study uses a conservative predicted rate and sets early inspections whose purpose is to replace that prediction with data, after which the assessment is updated."
+    },
+    {
+      "q": "Should the sea island and pier piping be in the RBI register?",
+      "a": "Usually the topside piping on the pier, trestle and sea islands is, while submarine pipelines, single point moorings, loading arms and hoses are managed under their own integrity or testing programmes. The important step is writing down exactly where each line moves from one programme to the other, normally at an identified valve or flange, so the boundary is clear to everyone who inspects it."
+    },
+    {
+      "q": "What usually drives tank floor risk at Ras Tanura?",
+      "a": "Two things in combination: soil-side corrosion on shallow, saline ground and product-side pitting under bottom water in crude service. How fast either progresses depends heavily on the foundation, any liner, drainage and the history of the cathodic protection. That is why the study asks for foundation and protection records alongside floor inspection results, and groups tanks by how they were built as much as by what they store."
+    },
+    {
+      "q": "Does the study follow Saudi Aramco's own RBI procedure?",
+      "a": "It is structured to whichever procedures govern the asset, and for an Aramco facility that means the company's own RBI and inspection scheduling documents. We confirm the current issue of each with the proponent's inspection unit before the data request goes out, so the method, risk targets and outputs match what the reviewer expects. We do not claim any approval or registration with the company; acceptance of the study is the owner's decision."
+    },
+    {
+      "q": "Does anyone from Atlantis need to visit Ras Tanura?",
+      "a": "No. The study is built from records and workshops held by video, so it needs no travel and no site passes. Walkdowns, nameplate checks and any extra readings the plan calls for are made by the facility's own inspectors or the inspection contractor already working there, using a verification list the report provides and ranks by how much each check would change the result."
+    },
+    {
+      "q": "How is corrosion under insulation handled when the insulation records are incomplete?",
+      "a": "Items with unknown insulation condition or operating temperature are assessed conservatively and listed in the data-gap log. The verification list asks the owner's inspectors to confirm temperature, jacketing condition and obvious damage during routine rounds. Those answers often move an item between risk categories, so closing the gap is usually quicker and more useful than adding blanket CUI inspection across a unit."
+    },
+    {
+      "q": "Who approves the intervals that come out of the study?",
+      "a": "The owner, through the inspection organisation its procedures name. The report recommends tasks and due dates and shows how each was reached, but Atlantis does not act as inspector of record and does not enter intervals into the facility's schedule. Where inspection later finds damage that needs an assessment of continued service, that assessment stays with the owner's engineers and its outcome is fed back into the model."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/saudi-arabia",
+      "RBI in Saudi Arabia"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "Storage tank RBI"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for process piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels and heat exchangers"
+    ],
+    [
+      "/inspection/risk-based-inspection/damage-mechanism-review",
+      "Damage mechanism review and corrosion loops"
+    ],
+    [
+      "/inspection/risk-based-inspection/remote-rbi",
+      "How a remote RBI study works"
+    ],
+    [
+      "/inspection/risk-based-inspection/qatar",
+      "RBI in Qatar"
+    ],
+    [
+      "/standards/api-571",
+      "API 571 damage mechanisms"
+    ],
+    [
+      "/standards/api-581",
+      "API 581 explained"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnaround and shutdown inspection"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "Ras Tanura refinery: about 550,000 b/d, oldest refinery site (1940s), vacuum distillation, hydrocracking, naphtha splitter feeding isomerization and reforming, asphalt; Ju'aymah crude terminal part of Ras Tanura port",
+      "url": "https://saudipedia.com/en/ras-tannurah-refinery"
+    },
+    {
+      "fact": "Clean fuels naphtha complex: naphtha splitter, naphtha hydrotreater, continuous catalytic reformer, isomerization unit",
+      "url": "https://www.ogj.com/refining-processing/article/14069343/aramco-progresses-on-ras-tanura-refinerys-new-naphtha-complex"
+    },
+    {
+      "fact": "2022 licensing agreements for Ras Tanura residue upgrader complex: solvent deasphalting, VGO hydrocracker, kerosene treating, sulfur recovery, hydrogen manufacturing (steam methane reformer), utilities and offsites; aim full-conversion refinery",
+      "url": "https://aramcolife.com/en/publications/the-arabian-sun/articles/2022/week-03-articles/ras-tanura-refinery-licensing-agreements-on-residue-upgrade"
+    },
+    {
+      "fact": "Ras Tanura refinery 550,000 b/d crude and condensate; vacuum distillation, hydrocracking, visbreaking (only one in Aramco's portfolio), asphalt, naphtha splitter feeding isomerization and CCR; naphtha hydrotreater from the clean fuel project",
+      "url": "https://saudipedia.com/en/ras-tannurah-refinery"
+    },
+    {
+      "fact": "Aramco berth parameters (July 2025): Ras Tanura North Pier berths 6-11 (6 and 7 mothballed), Sea Island berths 15-20; Ju'aymah 6 SPM crude berths and 2 LPG/NGL berths",
+      "url": "https://www.aramco.com/-/media/downloads/working-with-us/ports-and-terminals-july-2025/12--annex-1-universal-berth-parameters-compressed.pdf"
+    },
+    {
+      "fact": "MEED, 7 March 2025: Aramco cancelled the tendering process for the Ras Tanura refinery expansion (residue upgrade)",
+      "url": "https://www.meed.com/aramco-cancels-tendering-process-for-ras-tanura-refinery-expansion"
+    },
+    {
+      "fact": "High Commission for Industrial Security: sets policies to protect oil and industrial facilities; SAF-01 safety/fire protection directives",
+      "url": "https://saudipedia.com/en/high-commission-for-industrial-security"
+    }
+  ]
+}

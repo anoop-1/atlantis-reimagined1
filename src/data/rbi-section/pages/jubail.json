@@ -1,0 +1,324 @@
+{
+  "title": "RBI in Jubail: Refineries, Crackers and Port Tank Terminals",
+  "description": "Remote risk-based inspection for Jubail Industrial City: SATORP and SASREF units, Sadara and SABIC plants, port chemical tanks, seawater coolers and long racks.",
+  "h1": "Risk-based inspection for plants and terminals in Jubail Industrial City",
+  "eyebrow": "Risk-based inspection in Jubail",
+  "intro": "Jubail Industrial City on Saudi Arabia's Gulf coast packs two export refineries, a mixed-feed cracker complex, many petrochemical affiliates and large chemical tank terminals at the port into one administered industrial zone. This page is for inspection, integrity and reliability engineers at those sites. It describes what the city contains, the damage mechanisms that Jubail's units and climate put at the top of an RBI register, how assets that cross company boundaries complicate a study, which rules apply inside the Royal Commission's jurisdiction, and how Atlantis runs an RBI study for a Jubail facility without anyone travelling there.",
+  "highlights": [
+    {
+      "h": "Refining, cracking and storage side by side",
+      "p": "Heavy crude conversion at SATORP, fuels refining at SASREF, ethane and naphtha cracking at Sadara and a long list of SABIC affiliates all share one coastline. Each brings its own damage mechanisms, and the study has to treat a hydrocracker loop, a caustic wash and a glycol tank differently."
+    },
+    {
+      "h": "Interfaces between owners",
+      "p": "Feedstock, product and utility lines run between companies and out to the port terminals. An RBI study in Jubail starts by fixing where one owner's equipment ends and another's begins, so no transfer line or header falls between two registers."
+    },
+    {
+      "h": "Nothing to arrange at the gate",
+      "p": "The study works from drawings, datasheets, inspection history and video workshops. It needs no travel to the Eastern Province, and the walkdowns and readings it asks for are made by the owner's own inspectors under the plant's permits."
+    }
+  ],
+  "sections": [
+    {
+      "id": "jubail-facilities",
+      "h": "What sits inside Jubail Industrial City",
+      "p": [
+        "Jubail Industrial City is administered by the Royal Commission for Jubail and Yanbu and has grown in two phases. The original city holds the older refining and petrochemical base along the coast; Jubail Industrial City II, further north, was developed for a later wave of plants, including the Sadara complex. Utilities, industrial wastewater treatment and shared infrastructure are run for the whole city, which is part of why a Jubail plant's integrity picture often depends on assets it does not own.",
+        "Two refineries anchor the fuels side. SATORP, the joint venture of Saudi Aramco and TotalEnergies, processes Arabian Heavy crude at a capacity it states as 465,000 barrels a day into a range of fuels and petrochemical feedstocks, and it is building an integrated petrochemical complex beside the refinery. SASREF, which began operating in the mid-1980s, has been wholly owned by Saudi Aramco since the company bought Shell's half of the joint venture in 2019. One is a modern deep-conversion plant and the other has four decades of service history, so the studies they need look quite different.",
+        "On the chemicals side, Sadara Chemical Company, the Aramco and Dow joint venture in Jubail Industrial City II, runs a mixed-feed steam cracker on ethane and naphtha that started up in 2016, with downstream plants for polyethylene, propylene derivatives, amines, glycol ethers and isocyanates including TDI. SABIC and its affiliates operate a wide spread of olefins, aromatics, methanol, fertiliser and polymer plants across the city. At King Fahd Industrial Port, the Chemtank terminal of Jubail Chemicals Storage and Services Company, a venture of SABIC, Royal Vopak and Jubail Yanbu Industrial Company, stores chemicals, petroleum products and liquefied gases, and SabTank, a terminal Vopak operates in the industrial city, handles chemicals and liquefied gas."
+      ]
+    },
+    {
+      "id": "jubail-unit-mechanisms",
+      "h": "Damage mechanisms by unit type in Jubail",
+      "p": [
+        "A Jubail study rarely covers one kind of plant. The same owner may hold a hydrotreater, a seawater cooling network and a caustic tank farm, and the register has to carry the right mechanisms for each. The table lists the combinations that recur most often across the city's refineries, crackers and terminals. It is a starting point for the corrosion loop workshop, not a substitute for it: every mechanism is confirmed against the actual metallurgy, process conditions and inspection history before it drives an interval.",
+        "Where a unit has had a change of feed or severity since its last assessment, for example a refinery taking a heavier crude blend or a cracker shifting its ethane and naphtha ratio, the loops affected by that change are reopened first."
+      ],
+      "table": {
+        "head": [
+          "Unit or system",
+          "Mechanisms that usually lead the ranking",
+          "What the plan leans on"
+        ],
+        "rows": [
+          [
+            "Crude and vacuum units on heavy sour crude",
+            "High-temperature sulfidation, naphthenic acid where the crude blend carries it, overhead chloride and ammonium chloride corrosion",
+            "Thickness trending at hot circuits, overhead dew point and wash water records, PMI on alloy circuits"
+          ],
+          [
+            "Hydrotreaters and hydrocrackers",
+            "Ammonium bisulfide corrosion in reactor effluent air coolers, wet H2S cracking, high-temperature hydrogen attack on carbon and low-alloy steel",
+            "Effluent velocity and water wash data, crack detection on welds, hydrogen partial pressure and temperature records"
+          ],
+          [
+            "Amine, sour water and sulfur recovery",
+            "Amine corrosion and amine stress corrosion cracking, wet H2S damage, sulfidation in hot sulfur service",
+            "PWHT records, crack-detection examinations, lean and rich amine loading data"
+          ],
+          [
+            "Steam crackers and quench systems",
+            "Carburisation and creep of furnace tubes, quench water corrosion, caustic cracking in the caustic tower, low-temperature embrittlement in the cold section",
+            "Tube inspection history, caustic temperature and concentration records, cold-side material specifications"
+          ],
+          [
+            "Seawater cooling, exchangers and fire water",
+            "Pitting, crevice corrosion, MIC, inlet erosion, galvanic attack at dissimilar metals",
+            "Tube inspection data by bundle, chlorination records, coating and lining condition"
+          ],
+          [
+            "Chemical and product tanks at the port",
+            "Soil-side and product-side floor corrosion, shell corrosion at the chime, caustic cracking in hot caustic storage, roof and seal deterioration",
+            "Floor scan history, cathodic protection surveys, product temperature and water bottom records"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "jubail-hydrogen-service",
+      "h": "Hydroprocessing and high-temperature hydrogen attack",
+      "p": [
+        "Heavy crude needs deep conversion, and that puts hydrocrackers, hydrotreaters and their reactor effluent trains near the top of any Jubail refinery register. High-temperature hydrogen attack is the mechanism where an RBI study most needs to be honest about what inspection can and cannot show. Early-stage attack is hard to detect, and the screening tool the industry relies on is API RP 941, which plots safe operating limits for carbon and low-alloy steels against hydrogen partial pressure and temperature.",
+        "In the study, API RP 941 is the owner's engineering reference, not something the RBI team overrides. Atlantis records each susceptible item's material, PWHT status and actual operating envelope from historian data, flags items that sit close to or above the applicable curve, and asks the owner's materials engineer to confirm the susceptibility before it enters the probability calculation. Where the owner's engineer concludes that an item needs an assessment of continued service, that work stays with the owner; Atlantis does not perform fitness-for-service assessments to API 579-1. The RBI plan then carries the inspection the engineer specifies, such as advanced ultrasonic techniques targeted at susceptible welds, and the reassessment trigger tied to any change in operating envelope.",
+        "Reactor effluent air coolers deserve their own attention. Ammonium bisulfide concentration, velocity and the reliability of the water wash decide how fast those headers and tubes lose metal, so the study asks for process data as well as inspection readings and states which integrity operating windows the plan assumes."
+      ],
+      "links": [
+        [
+          "/standards/api-571",
+          "API 571 damage mechanisms"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ]
+      ]
+    },
+    {
+      "id": "jubail-interfaces",
+      "h": "One industrial city, many owners: the interface problem",
+      "p": [
+        "Jubail's plants were designed to feed one another. Ethane and naphtha move from refineries and gas plants to crackers, olefins move to polymer plants, products move to the port terminals, and utilities such as seawater, cooling water and industrial wastewater are shared. Pipelines and racks cross plot limits, and it is common for a line to be designed by one company, operated by a second and inspected by a third.",
+        "An RBI study that stops at the plot fence can leave those lines without a clear owner of the risk. The first deliverable for a Jubail facility is therefore an interface register: every line, header and tank connection that crosses a boundary, with the agreed owner of its inspection, the document that settles it and the data the other party holds. Where ownership is disputed or undocumented, the item goes on the gap log for the owner's management to resolve before an interval is set.",
+        "The same discipline applies inside joint ventures. A refinery or cracker run with an international partner may combine one parent's engineering standards with procedures written locally, so each decision in the register cites the document it rests on."
+      ]
+    },
+    {
+      "id": "jubail-port-tanks",
+      "h": "Chemical, product and liquefied gas storage at the port",
+      "p": [
+        "The tank farms at King Fahd Industrial Port and inside the producing plants hold a wider range of products than a typical refinery tank field: aromatics, alcohols, glycols, caustic soda, acids, fuel products and refrigerated or pressurised liquefied gases. The range matters for RBI because product-side corrosion, lining selection and the consequence of a release vary sharply from one tank to the next. A leak of caustic or a toxic chemical onto ground that drains to the sea is assessed differently from a leak of diesel.",
+        "For atmospheric tanks built to API 650 and inspected under API 653, the current edition allows the internal inspection interval to be set by RBI, provided the assessment is validated and reviewed at least every ten years. Atlantis ranks floors by soil-side and product-side corrosion rates from past scans, the condition and history of cathodic protection, pad drainage on the saline coastal ground, product temperature and the release consequence, so out-of-service time goes first to the tanks whose floors most need it. Pressurised spheres and refrigerated tanks are treated as pressure equipment or under their own construction codes, and the study names which basis applies to each.",
+        "Tanks in hot caustic or heated product service get a separate look for cracking near welds and nozzles, which floor-loss models do not capture."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "Storage tank RBI"
+        ],
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ]
+      ]
+    },
+    {
+      "id": "jubail-seawater-racks",
+      "h": "Seawater coolers, long racks and insulation in coastal heat",
+      "p": [
+        "Many Jubail plants reject heat to warm, saline Gulf water, and the exchangers, intake lines and headers that carry it are a recurring source of unplanned outages. The register groups seawater-side equipment into its own loops, separates titanium, copper-nickel, duplex and coated carbon steel components, and uses bundle-by-bundle tube inspection history rather than a single rate for a whole service. Chlorination and biocide records belong in the data request, because changes in dosing show up later as pitting and MIC.",
+        "The city's long pipe racks carry insulated and uninsulated lines past cooling towers, flare areas and fire water deluge systems, and the summer combination of high humidity at night and fierce daytime heat keeps insulation wet. Corrosion under insulation on carbon steel between the temperatures where water condenses and evaporates, and external chloride stress corrosion cracking of austenitic stainless steel under wet insulation, are therefore assessed line by line. The study uses insulation and coating age, jacketing condition from the owner's last surveys and the operating temperature profile, and it targets inspection at low points, supports and penetrations rather than spreading readings evenly.",
+        "Wind-blown dust settling on racks and structures holds moisture and salts against steel, so external inspection notes from the owner's routine rounds are useful evidence even when they were never meant for an RBI study."
+      ],
+      "links": [
+        [
+          "/standards/api-583",
+          "API 583 and corrosion under insulation"
+        ],
+        [
+          "/inspection/risk-based-inspection/piping-rbi",
+          "Piping RBI"
+        ]
+      ]
+    },
+    {
+      "id": "jubail-rules",
+      "h": "Rules that apply to a Jubail facility",
+      "p": [
+        "Plants inside Jubail Industrial City work under the Royal Commission for Jubail and Yanbu's environmental regulations, which set emission, discharge and waste conditions and are enforced through the Commission's permits. For RBI the practical effect is on consequence: releases to the marine environment, groundwater or the city's shared wastewater system carry regulatory weight, and the consequence model should reflect the permit conditions that apply to the site rather than a generic environmental category.",
+        "National industrial safety directives from the High Commission for Industrial Security apply to petroleum, gas and petrochemical facilities, and the inspection plan has to stay consistent with them where fire protection, relief systems or tank safety equipment are involved. The detailed RBI expectations come from the operator: Saudi Aramco facilities follow the company's own RBI and inspection scheduling procedures, while joint ventures, SABIC affiliates and terminal companies may keep their own integrity management standards. A study for a Jubail site confirms which procedure governs each asset before the data request goes out."
+      ]
+    },
+    {
+      "id": "jubail-remote-study",
+      "h": "How a Jubail study is organised remotely",
+      "p": [
+        "The study follows the plant's shutdown calendar: most Jubail owners want the assessment ready in time to shape the next test and inspection scope. The typical sequence is:"
+      ],
+      "list": [
+        "Scope agreement: units, tanks, interface lines and the governing procedure for each, with the owner's inspection lead named as the approver of record",
+        "Data room set up on the owner's side where plant data must stay inside company systems, with accounts the owner issues and withdraws",
+        "Interface register and equipment list reconciled against P&IDs, line lists and the existing inspection database",
+        "Corrosion loop drafting from process data, metallurgy and history, followed by video workshops with process, operations, corrosion and inspection staff during the plant's working week",
+        "Probability and consequence at the depth the procedure calls for, from qualitative screening to quantitative assessment to API RP 581",
+        "Inspection plan per item, CML optimisation where thickness history supports it, and a walkdown and data-gap list for the owner's inspectors",
+        "Review meeting, comments closed, final report and register exported in the format of the owner's inspection data system"
+      ]
+    },
+    {
+      "id": "jubail-approval",
+      "h": "Field checks, approval and where the study stops",
+      "p": [
+        "The study needs no travel to Jubail. Walkdowns, nameplate checks, confirmation that insulation and supports match the drawings, and any new thickness or crack-detection readings are carried out by the owner's inspectors or the inspection contractor already working at the plant, under the site's permits and safety rules. The report tells them which readings would change the ranking most, so their time goes to the answers that matter.",
+        "Intervals are recommended, not approved, by Atlantis. The owner's inspection organisation, or the inspection authority its procedures name, approves them and remains responsible for the programme; Atlantis is not the inspector of record for any Jubail facility. When inspection finds damage, the result goes back into the register and the next due date is recalculated from it."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection programmes)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 941 (steels for hydrogen service at elevated temperatures and pressures)",
+    "API 510, API 570 and API 653",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)",
+    "Royal Commission for Jubail and Yanbu environmental regulations",
+    "Operator engineering and inspection procedures"
+  ],
+  "deliverables": [
+    "Interface register for lines, headers and tank connections that cross company boundaries",
+    "RBI register per item with damage mechanisms, probability, consequence and risk",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Tank ranking for out-of-service inspection with the basis for each floor",
+    "List of hydrogen-service items flagged for the owner's API RP 941 review",
+    "Data-gap log and walkdown list for the owner's inspectors",
+    "Final report and register export for the owner's inspection data system"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Olefins and aromatics",
+    "Polymers and specialty chemicals",
+    "Fertilisers and methanol",
+    "Chemical and liquefied gas tank terminals",
+    "Industrial utilities and seawater cooling"
+  ],
+  "faqs": [
+    {
+      "q": "Can one study cover a refinery unit and the transfer lines to a port terminal?",
+      "a": "Yes, provided both owners agree which of them is responsible for each line. We build an interface register at the start that lists every line and header crossing a plot limit, the owner of its inspection and the document that settles it. Lines with unclear ownership go on the gap log, and intervals are set only once the responsible owner is confirmed."
+    },
+    {
+      "q": "How do you handle high-temperature hydrogen attack in a hydrocracker study?",
+      "a": "We collect material, PWHT status and the actual operating temperature and hydrogen partial pressure for each susceptible item, compare them with API RP 941 and flag items near or above the curve. Your materials engineer confirms susceptibility before it enters the probability model. Any assessment of continued service stays with your engineers, and the plan carries the inspection they specify."
+    },
+    {
+      "q": "Our tank farm holds caustic, glycols and aromatics. Is a single tank method enough?",
+      "a": "No. Floor corrosion models cover soil-side and product-side metal loss, but tanks in hot caustic or other cracking-prone service also need weld and nozzle examinations that a floor model ignores, and the consequence of a release varies by product. The study treats each service separately and states the basis used for every tank."
+    },
+    {
+      "q": "Does the study need someone from Atlantis at the plant?",
+      "a": "No. It runs on your records and video workshops, with no travel to Jubail. Walkdowns, nameplate checks and any new readings are made by your inspectors or your site inspection contractor under your permits, using a list the study prioritises by how much each answer would change the plan."
+    },
+    {
+      "q": "Our plant's data cannot leave company systems. Can you still work on it?",
+      "a": "Yes. The study team can work inside a data room or collaboration space you host, with accounts you issue and can withdraw at any time. The register and report are delivered back into the same environment and formatted for the inspection data system you already use."
+    },
+    {
+      "q": "Which procedure does the study follow at a joint venture plant?",
+      "a": "Whichever one your organisation says governs the asset. Joint ventures in Jubail may combine a parent company's standards with locally written procedures, so we confirm the governing document per unit at the scoping stage and cite it against each decision in the register, which makes the study easier to audit later."
+    },
+    {
+      "q": "How do Royal Commission rules affect an RBI study?",
+      "a": "Mainly through the consequence side. Releases to the sea, groundwater or the shared wastewater system fall under the Commission's environmental regulations and the site's permit conditions, so we ask for those conditions and reflect them in the consequence model rather than using a generic environmental category."
+    },
+    {
+      "q": "Who approves the intervals the study recommends?",
+      "a": "Your inspection organisation, or the inspection authority your procedures name. The report shows how each recommended interval follows from the data, but approval and responsibility for the programme stay with you. Atlantis is not the inspector of record for the facility."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/saudi-arabia",
+      "RBI in Saudi Arabia"
+    ],
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection services"
+    ],
+    [
+      "/inspection/risk-based-inspection/remote-rbi",
+      "How a remote RBI study works"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels and heat exchangers"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-revalidation-audit",
+      "RBI revalidation and audit"
+    ],
+    [
+      "/standards/api-580",
+      "API 580 explained"
+    ],
+    [
+      "/standards/api-581",
+      "API 581 explained"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnaround and shutdown inspection"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "SATORP: Jubail Industrial City, Eastern Province; Aramco and TotalEnergies partners; 465,000 b/d; Arabian Heavy crude; building an integrated petrochemical complex",
+      "url": "https://www.satorp.com/en/about"
+    },
+    {
+      "fact": "SASREF in Jubail Industrial City; first unit 1984, inaugurated 1986",
+      "url": "https://sasref.com.sa/about.html"
+    },
+    {
+      "fact": "Aramco acquired Shell's 50% share of SASREF in 2019 (wholly owned)",
+      "url": "https://aramco.com/en/news-media/news/2019/aramco-acquires-shell-share-sasref-refining-joint-venture"
+    },
+    {
+      "fact": "Sadara: Aramco and Dow JV in Jubail Industrial City II; mixed-feed cracker on ethane and naphtha started 2016; products incl. ethylene, propylene, plastics, TDI",
+      "url": "https://www.aramco.com/en/what-we-do/mega-projects/sadara-petrochemicals-facility"
+    },
+    {
+      "fact": "Chemtank run by JCSSC (SABIC, Royal Vopak, Jubail Yanbu Industrial Company) at King Fahd Industrial Port; chemicals, petroleum, liquefied gas; clients include SABIC and Sadara",
+      "url": "https://www.vopak.com/terminals/chemtank"
+    },
+    {
+      "fact": "SabTank Al Jubail: Vopak acts only as operator (10% interest in a joint service company); chemicals and liquefied gas; Jubail Industrial City, 8 berths",
+      "url": "https://www.vopak.com/terminals/sabtank-al-jubail"
+    },
+    {
+      "fact": "Royal Commission Environmental Regulations (RCER) apply to industrial facilities in Jubail and Yanbu",
+      "url": "https://www.arabnews.com/node/324922/1000"
+    },
+    {
+      "fact": "Shared industrial wastewater treatment in Jubail (Marafiq)",
+      "url": "https://www.marafiq.com.sa/en/building-value/environmental-performance/"
+    },
+    {
+      "fact": "High Commission for Industrial Security sets policies for the protection of oil and industrial facilities",
+      "url": "https://saudipedia.com/en/which-entity-is-responsible-for-establishing-policies-to-protect-oil-and-industrial-facilities-in-saudi-arabia"
+    }
+  ]
+}
