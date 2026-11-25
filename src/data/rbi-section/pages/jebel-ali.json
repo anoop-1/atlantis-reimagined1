@@ -1,0 +1,214 @@
+{
+  "title": "Jebel Ali and Dubai RBI: Refinery, Terminals and Utilities",
+  "description": "Remote RBI for Jebel Ali and Dubai: condensate refinery units, product tank terminals, seawater utilities, coastal corrosion and Dubai inspection rules.",
+  "h1": "Risk-based inspection for Jebel Ali's condensate refinery, product terminals and coastal utilities",
+  "eyebrow": "Risk-based inspection in Jebel Ali and Dubai",
+  "intro": "Jebel Ali packs a condensate refinery, product storage terminals, an LNG import berth, a large gas-fired power and desalination complex and a free zone full of industrial users into one stretch of the Dubai coast. Each of those owners plans inspection differently, yet they share the same hot, salty air and the same reclaimed, saline ground. This page is for integrity and inspection leads at Jebel Ali and elsewhere in Dubai. It explains the facilities, the damage that shapes an RBI there, the Dubai and free zone rules a study has to respect, and how Atlantis runs the work remotely.",
+  "highlights": [
+    {
+      "h": "Light feed, light products, real risk",
+      "p": "A condensate splitter and its hydrotreaters do not carry the heavy-residue mechanisms of a deep-conversion refinery, but they bring their own: wet sour effluent, chloride carryover, overhead corrosion and light-ends consequence. The study builds the damage basis from the plant's own feed and process data, not from a crude refinery template."
+    },
+    {
+      "h": "Terminals that change grade every week",
+      "p": "Product terminals at Jebel Ali store gasoline components, jet fuel, gasoil, naphtha and fuel oil, often switching a tank between services. The RBI records service history tank by tank, because a floor that has held water-wet naphtha and then fuel oil has a different story from one in steady gasoil duty."
+    },
+    {
+      "h": "One coast, several rulebooks",
+      "p": "Whether an asset sits on the mainland, inside a free zone or within a government utility decides which examination and certification rules apply. The study maps that first, so the plan it produces can be filed and approved where it actually needs to be."
+    }
+  ],
+  "sections": [
+    {
+      "id": "jebel-ali-facilities",
+      "h": "What stands at Jebel Ali and around Dubai",
+      "p": [
+        "The refinery at Jebel Ali is run by ENOC Processing Company, part of the Dubai government's Emirates National Oil Company group. It is a condensate refinery: its most recent expansion added a condensate processing train together with an LPG and naphtha hydrotreater, an isomerisation unit, a kerosene hydrotreater and a diesel hydrotreater, taking capacity to about 210,000 barrels per stream day and orienting the plant towards low-sulfur gasoline, jet fuel and diesel for the domestic market. The equipment population therefore spans fractionation columns and overhead systems, hydrotreating reactors and separators, heater coils, rotating equipment and a large product tank farm.",
+        "Storage is the second pillar. ENOC's terminal business, Horizon Terminals, which the group wholly owns, operates storage in Jebel Ali alongside its Fujairah sites and moves product between the two coasts. Other bulk liquid users in the port and the Jebel Ali Free Zone, known as Jafza, include blending plants, lubricant and chemical facilities and aviation and marine fuel supply chains, each with its own tanks, pipework and pressure equipment.",
+        "Two pieces of energy infrastructure frame the cluster. The Dubai Supply Authority, DUSUP, imports LNG at Jebel Ali through a floating storage and regasification unit chartered from Excelerate Energy, and the Dubai Electricity and Water Authority, DEWA, runs its Jebel Ali power generation and water production complex, a natural-gas-fired site with multi-stage flash and seawater reverse osmosis desalination. Both sit inside their owners' asset management systems rather than a refinery or terminal framework, and the floating unit itself is a classed ship, so an onshore RBI covers the jetty send-out piping and receiving facilities rather than the vessel."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/united-arab-emirates", "RBI in the UAE"],
+        ["/inspection/risk-based-inspection/fujairah", "RBI in Fujairah"]
+      ]
+    },
+    {
+      "id": "damage-by-asset",
+      "h": "Damage mechanisms by asset type in the Jebel Ali cluster",
+      "p": [
+        "The cluster's equipment classes behave very differently, and an RBI that applies one damage list to all of them misallocates inspection. The table pairs each asset group found at Jebel Ali with the mechanisms that usually set its probability of failure and the evidence that lets an inspection be credited at a meaningful effectiveness. Every row is a starting point for the corrosion review, which confirms or removes each mechanism against the site's own records."
+      ],
+      "table": {
+        "head": ["Asset group", "Mechanisms that usually drive probability", "Evidence that earns inspection credit"],
+        "rows": [
+          ["Condensate fractionation columns and overhead systems", "Overhead corrosion from chlorides and acid gases where water condenses, under-deposit attack, erosion at reflux and draw-off nozzles", "Overhead thickness mapping at elbows and drums, internal examination of trays and shell at turnaround, water and pH records from the overhead accumulator"],
+          ["Hydrotreater reactor effluent trains", "Ammonium bisulfide and ammonium chloride corrosion in effluent coolers and downstream piping, wet H2S cracking in separators, high-temperature sulfidation in hot feed and effluent lines", "Air cooler header and tube inspection, wet fluorescent magnetic particle examination of separator welds, thickness surveys at injection and mixing points"],
+          ["Fired heater coils", "Sulfidation and oxidation of tubes, creep where tube metal temperatures run high, external scaling", "Tube metal temperature trends, thickness and diameter measurements at the coil's hottest passes during outages"],
+          ["Product storage tanks", "Product-side pitting under water and sediment, soil-side corrosion of floors on saline ground, shell corrosion at the chime, floating roof and seal degradation", "Floor scanning with ultrasonic sizing of indications, annular plate examination, roof and seal inspection, cathodic protection readings"],
+          ["Transfer lines, jetty headers and pipe racks", "Marine atmospheric corrosion, corrosion at supports and clamps, dead-leg and low-point attack, corrosion under insulation on heated or cold lines", "Support-point thickness surveys, insulation removal at damaged or wet sections, corrosion mapping of low points"],
+          ["Seawater cooling, desalination and utility systems", "Chloride pitting and crevice attack, erosion-corrosion at high velocity, microbiologically influenced corrosion in stagnant sections", "Internal visual and thickness examination at outages, heat exchanger tube testing, cathodic protection and water treatment records"]
+        ]
+      }
+    },
+    {
+      "id": "condensate-refinery",
+      "h": "Planning inspection for a condensate refinery rather than a crude refinery",
+      "p": [
+        "Much published RBI guidance and many corporate templates assume a crude refinery with vacuum residue, coking or cracking units, where high-temperature sulfidation, naphthenic acid attack and heavy fouling dominate the risk picture. A condensate refinery changes the emphasis. Its feed is lighter and its heaviest streams are far less severe, but its product slate is volatile, so the consequence side of the calculation weighs heavily: a release from a light-ends column or a gasoline component line can form a flammable cloud quickly, and that drives consequence of failure even where the probability is modest.",
+        "Condensate grades are not uniform. Some carry sulfur compounds, chlorides from upstream processing or trace contaminants that concentrate in particular cuts, and the hydrotreaters exist precisely to remove them from the products. That moves the corrosive species into the hydrotreater effluent, the sour water and the overheads. The corrosion review therefore starts from feed assays, desalting or wash-water practice where it applies, and the operating data around each hydrotreater, including wash-water injection rates and effluent air cooler velocities, before it assigns any mechanism.",
+        "The isomerisation unit deserves its own attention. Depending on the process licensed, light naphtha isomerisation may involve a chloride promoter and caustic scrubbing of the off-gas, which brings chloride stress corrosion cracking, caustic cracking and corrosion in wet sections into scope. The study confirms the actual process chemistry from the licensor's documentation and the operating manual rather than assuming it, and records any integrity operating windows that protect those sections."
+      ]
+    },
+    {
+      "id": "terminal-tanks",
+      "h": "Product tank farms: service history, floors and roofs",
+      "p": [
+        "A product terminal on the Dubai coast often runs tanks in several services over their lives. Gasoline blendstocks and naphtha bring internal floating roofs and the vapour pressure that makes seal condition a consequence issue; jet fuel brings strict water-bottom control and frequent draining; gasoil and fuel oil bring heavier sediment and, for heated grades, coils and insulation. The RBI register records each tank's service sequence with dates, because the floor corrosion rate depends on what lay on it, for how long and how well the water bottom was managed.",
+        "Floors carry most of the out-of-service decision. Many tanks at Jebel Ali stand on reclaimed or coastal ground where the groundwater is saline and the water table can be shallow, so the condition of the foundation, the release prevention barrier where fitted, the cathodic protection and the edge seal at the chime all matter. The study looks at the last floor scan, the repair history, settlement surveys and cathodic protection readings together, and assigns a floor corrosion rate per tank instead of one figure for the farm.",
+        "Under API 653, an owner may use an RBI assessment to set the internal inspection interval for a tank, provided the assessment follows the code's requirements, is validated and is reviewed at least every ten years. The terminal's own management system decides whether that route is open and who signs it off. Where it is not yet written in, the study can deliver a ranked tank list and draft procedure text for the owner to adopt."
+      ],
+      "list": [
+        "Service history per tank, including periods out of service and changes of grade",
+        "Floor scan results with the repair basis, annular plate thickness and any patch plates",
+        "Settlement and foundation surveys, plus the condition of the chime seal",
+        "Cathodic protection design and recent potential readings",
+        "Roof type, seal type and the dates of the last deck and pontoon inspection",
+        "Water draining records, especially for jet fuel and naphtha tanks"
+      ]
+    },
+    {
+      "id": "coastal-exposure",
+      "h": "Heat, salt and humidity on the Dubai coast",
+      "p": [
+        "Summer on the Dubai coast combines very high daytime temperatures with humid nights. Steel that cools after sunset falls below the dew point, picks up a film of moisture loaded with airborne salt and dust, and stays wet into the morning. On uninsulated equipment that cycle breaks coatings down along edges, welds and bolted joints first; on pipe racks it shows at supports, clamps and shoes where water and debris collect against the steel.",
+        "Insulated equipment is where coastal heat does the quiet damage. Carbon steel lines and vessels operating in the temperature band where water persists under jacketing, and those that cycle in and out of it, are prime candidates for corrosion under insulation. Cold service in the LNG send-out area and chilled utilities can sweat continuously. The study ranks CUI susceptibility per circuit using operating temperature, cycling, insulation and jacketing type, coating age and the state of seals and penetrations, then turns that ranking into a targeted insulation removal and screening plan rather than a percentage applied across the site.",
+        "Wind-driven sand also matters. Abrasion of coatings on exposed tank shells and structural steel, sand ingress into floating roof seals and blocked drains on tank roofs all show up in Dubai inspection records, and the plan includes them where the site history shows they have occurred."
+      ]
+    },
+    {
+      "id": "dubai-rules",
+      "h": "Which rules apply to a facility in Jebel Ali or elsewhere in Dubai",
+      "p": [
+        "The location of an asset decides much of its regulatory frame. On the Dubai mainland, Dubai Municipality publishes a technical guideline on the examination and certification of boilers and pressure vessels, which sits alongside civil defence and environmental requirements. Inside Jafza and other areas regulated by Trakhees, the regulatory arm of the Ports, Customs and Free Zone Corporation, the environment, health and safety department keeps its own list of companies approved to test and certify pressure and lifting equipment. Government entities such as ENOC and DEWA also operate under their own corporate procedures.",
+        "None of these, as far as we have found, prescribes the RBI methodology itself. Statutory examination and certification of pressure equipment continues on whatever basis the applicable authority requires, and an RBI study cannot replace a certificate that the rules demand. What the study can do is make sure the inspection that is done for certification also counts towards the risk plan, and that the plan's intervals sit inside any statutory limit that applies. The table summarises the frameworks a Jebel Ali or Dubai study usually meets."
+      ],
+      "table": {
+        "head": ["Where the asset sits", "Framework that governs examination", "What the RBI study does with it"],
+        "rows": [
+          ["Dubai mainland industrial sites", "Dubai Municipality guidance on examination and certification of boilers and pressure vessels, plus civil defence and environmental conditions", "Keeps recommended intervals inside any statutory examination period and aligns plan dates with certificate renewals"],
+          ["Jafza and other Trakhees-regulated areas", "Trakhees EHS requirements, including examination by approved third-party companies", "Records which items need third-party certification and makes that examination count as inspection evidence"],
+          ["ENOC refinery and terminals", "The group's company procedures and its inspection authority", "Works to the company's risk matrix, terminology and approval route"],
+          ["DEWA and other government utilities", "The utility's own asset management and maintenance system", "Fits outage-based inspection into the utility's planned maintenance and boiler and pressure part regime"]
+        ]
+      }
+    },
+    {
+      "id": "remote-study",
+      "h": "How a Jebel Ali or Dubai study is run remotely",
+      "p": [
+        "The study needs no travel. Data comes through a shared data room set up to the owner's information security rules: P&IDs and process flow diagrams, heat and material balances, equipment datasheets and manufacturer's data reports, thickness and inspection history, process chemistry, integrity operating windows and the existing inspection register or exports from whatever RBI software the owner already runs. If documents must stay on the owner's systems, the work is done through remote access to them instead.",
+        "Workshops run by video with the plant's process, operations, corrosion and inspection people. Dubai works on Gulf Standard Time, four hours ahead of UTC, and the team in Hyderabad is ninety minutes ahead of that, so loop definition, damage mechanism and consequence sessions sit inside the normal working day. A typical sequence is a kick-off and data review, corrosion loop and mechanism workshops unit by unit, consequence reviews with operations, a draft plan review with inspection and a close-out session on the report.",
+        "Walkdowns and data verification are done by the owner's own inspectors against a checklist the study issues: nameplate and as-built checks, insulation and coating condition, dead legs that drawings miss, and tank details such as roof seals and drains. Their findings flow back into the data-gap log, and the plan is not issued until the gaps that change a risk ranking are closed or explicitly carried as assumptions."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"]
+      ]
+    },
+    {
+      "id": "plan-and-approval",
+      "h": "What the plan contains, who approves it and where the study stops",
+      "p": [
+        "For each item the plan states the damage mechanisms, the probability and consequence category or value, the resulting risk, and the next inspection: technique, coverage, location, effectiveness and due date. For piping it also proposes where condition monitoring locations should be added, moved or retired, which in a terminal with long transfer lines often frees effort from straight runs and sends it to supports, low points and mixing points. Reassessment triggers are written in, such as a change of condensate source, a new tank service, a process upset outside an operating window or a damage finding.",
+        "Approval stays with the owner. The plant's inspector of record or inspection authority reviews the recommended intervals and adopts them into the inspection programme; Atlantis does not take that role. Where an inspection finds damage that needs an engineering assessment of continued service, that assessment belongs to the owner's engineer, because Atlantis does not offer fitness-for-service work. The study's job is to make sure the next inspection looks in the right place with the right technique, and that its result can be fed back into the risk register cleanly."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection programmes)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API 510, API 570 and API 653",
+    "API RP 583 (corrosion under insulation)",
+    "API RP 584 (integrity operating windows)",
+    "API RP 932-B (hydroprocessing reactor effluent air cooler systems)",
+    "Dubai Municipality guidance on examination and certification of boilers and pressure vessels",
+    "Trakhees EHS requirements for free zone industrial operations",
+    "Operator inspection and integrity procedures"
+  ],
+  "deliverables": [
+    "Corrosion loop drawings and damage mechanism basis for each unit and terminal area",
+    "RBI register per item with probability, consequence and risk",
+    "Inspection plan per item with technique, coverage, effectiveness and due date",
+    "Tank ranking for out-of-service inspection with a floor corrosion basis per tank",
+    "CML optimisation proposals for transfer lines and jetty headers",
+    "Map of statutory certification items and the authority each answers to",
+    "Data-gap log and walkdown checklist for the owner's inspectors",
+    "Final report and register export for the owner's inspection data system"
+  ],
+  "industries": [
+    "Condensate refining",
+    "Petroleum product tank terminals",
+    "LNG receiving and gas send-out",
+    "Power generation and desalination",
+    "Free zone blending and chemical plants",
+    "Aviation and marine fuel supply"
+  ],
+  "faqs": [
+    {
+      "q": "Our refinery processes condensate. Can you use a standard refinery damage mechanism list?",
+      "a": "Only as a checklist. A condensate refinery lacks many of the residue and conversion-unit mechanisms that fill standard lists, while its hydrotreater effluent, overheads and isomerisation section carry mechanisms that need careful treatment. The corrosion review starts from your feed assays, process chemistry and operating data, removes mechanisms that cannot occur and documents why, and adds any that your licensor's process introduces. The result is a damage basis that your corrosion engineer recognises as describing your plant, not a generic refinery."
+    },
+    {
+      "q": "We switch tanks between jet fuel, gasoil and naphtha. How does the RBI handle that?",
+      "a": "Each tank's service history goes into the register with dates, and the floor and shell corrosion rates are set from the record of what each tank actually held. Where the history is incomplete, the study takes a conservative assumption and flags it in the data-gap log. The plan also sets a reassessment trigger for any future change of service, so a tank moved into a more aggressive duty gets its interval reviewed rather than carrying the old one forward."
+    },
+    {
+      "q": "Does an RBI study replace the third-party certification our free zone requires?",
+      "a": "No. Where Trakhees or another authority requires pressure equipment to be examined and certified by an approved company, that examination continues as the rules require. The study records which items need it, aligns the risk plan with certificate dates and makes sure the examination results are used as inspection evidence. It also checks that no recommended interval runs beyond a statutory limit, so the plan and the certification regime work together rather than in parallel."
+    },
+    {
+      "q": "Can the study include the LNG send-out piping at the jetty?",
+      "a": "Yes, the onshore receiving facilities and send-out piping can be registered and assessed like any other circuits, with cold-service damage, corrosion under insulation and marine atmospheric exposure considered. The floating storage and regasification unit itself is a classed ship and its inspection follows its classification society and flag requirements, so it stays outside a plant RBI. The study draws that boundary explicitly in the register so nothing at the interface is missed."
+    },
+    {
+      "q": "Does anyone from Atlantis need to come to Jebel Ali for the study?",
+      "a": "The study itself needs no travel. Documents arrive through a data room or remote access, workshops run by video, and the walkdowns and data checks are done by your own inspectors using a checklist the study provides. Their findings feed the data-gap log, and the plan is finalised once the gaps that would change a risk ranking are resolved or recorded as assumptions agreed with your team."
+    },
+    {
+      "q": "How is corrosion under insulation prioritised on a hot, humid coastal site?",
+      "a": "Each insulated circuit is ranked on operating temperature and cycling, insulation and jacketing type, coating condition and age, and the state of seals, penetrations and supports. Circuits that run in the band where water persists, cold lines that sweat and equipment with damaged cladding move to the top. The plan then sets insulation removal and screening locations by ranking, so effort goes to the circuits where moisture and temperature combine rather than to a fixed percentage of every line."
+    },
+    {
+      "q": "We already run a commercial RBI package. Do you need to rebuild our model?",
+      "a": "No. The study works from your existing register or exports from your software, follows your RBI procedure and delivers updated data in a format your package can import. Where your procedure specifies a risk matrix, targets or consequence method, those are used throughout. Atlantis does not supply RBI software and does not hold your RBI model in any Atlantis system."
+    },
+    {
+      "q": "Who signs off the intervals recommended for our Jebel Ali units and tanks?",
+      "a": "Your inspector of record or inspection authority, under your integrity management system. The study recommends intervals with their full basis so a reviewer can trace each one to its data, damage mechanism and effectiveness assumption. Atlantis does not act as inspector of record, and if an inspection later finds damage that needs a fitness-for-service evaluation, that work stays with your engineer."
+    }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection/united-arab-emirates", "RBI in the UAE"],
+    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
+    ["/inspection/risk-based-inspection/fujairah", "RBI for Fujairah terminals"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "RBI for storage tanks"],
+    ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review"],
+    ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit"],
+    ["/standards/api-653", "API 653 explained"],
+    ["/standards/api-571", "API 571 explained"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    {"fact": "ENOC Processing Co. (ENOC subsidiary) Jebel Ali condensate refinery expanded 140,000 to 210,000 b/sd with a 70,000 b/sd condensate train, LPG-naphtha hydrotreater, isomerization unit, kerosine and diesel hydrotreaters; Euro 5 products mainly for domestic demand", "url": "https://ogj.com/refining-processing/refining/construction/article/14174488/enoc-nears-commissioning-of-jebel-ali-refinery-expansion-project"},
+    {"fact": "Horizon Terminals is ENOC's wholly owned terminal subsidiary with UAE terminals; products moved between terminals in Jebel Ali and Fujairah", "url": "https://energyconnects.com/news/oil/2020/june/enoc-group-records-increase-in-storage-demand-globally"},
+    {"fact": "Jebel Ali LNG import terminal: Excelerate Energy FSRU Explorer serving Dubai Supply Authority (DUSUP)", "url": "https://excelerateenergy.com/projects/jebel-ali-lng-import-terminal/"},
+    {"fact": "DUSUP extended the Excelerate FSRU time charter (through 2030 per report title)", "url": "https://www.worldports.org/?p=260713"},
+    {"fact": "DEWA Jebel Ali power generation and water production complex is natural-gas-fired with MSF and SWRO desalination", "url": "https://mediaoffice.ae/en/news/2022/October/16-10/DEWAs-Jebel-Ali-Power-Plant"},
+    {"fact": "Dubai Municipality technical guideline DM-HSD-GU47 Examination and Certification of Boilers and Pressure Vessels (V4, 2024)", "url": "https://www.dm.gov.ae/wp-content/uploads/2024/07/DM-HSD-GU47-ECBPV2_Examination-and-Certification-of-Boilers-and-Pressure-Vessels_V4.pdf"},
+    {"fact": "Trakhees (PCFC) EHS list of approved companies for testing and certification of lifting and pressure equipment in free zone industrial operations", "url": "https://www.pcfc.ae/en/Rules%20and%20Regulations/Trakhees/Environment,%20Health%20&%20Safety/Freezone%20Industrial%20Operations/Third%20Party%20Agencies/EHS%20%e2%80%93%20Approved%20Companies%20for%20Testing%20Certification%20of%20Lifting%20Equipment%20Pressure%20Equipment.pdf"}
+  ]
+}

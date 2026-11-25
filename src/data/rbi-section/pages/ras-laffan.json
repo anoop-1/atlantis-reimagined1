@@ -1,0 +1,357 @@
+{
+  "title": "RBI in Ras Laffan and Mesaieed: LNG, GTL and Fertiliser",
+  "description": "Remote RBI for Ras Laffan and Mesaieed: LNG trains, condensate refineries, GTL, gas plants, ammonia and urea, with damage mechanisms and inspection plans.",
+  "h1": "Risk-based inspection for the plants of Ras Laffan and Mesaieed industrial cities",
+  "eyebrow": "Risk-based inspection in Qatar",
+  "intro": "Almost all of Qatar's gas processing, refining and fertiliser capacity sits in two places: Ras Laffan Industrial City on the north-east coast and Mesaieed Industrial City south of Doha. The two sites look alike from a distance, but their equipment ages, process chemistry and owners differ, and an RBI study has to respect those differences. This page is for inspection, integrity and corrosion engineers at plants in either city. It describes the facilities, the damage mechanisms that dominate each process family, how the coastal climate shapes external damage, and how Atlantis runs an RBI study for these plants remotely.",
+  "highlights": [
+    {
+      "h": "Two cities, two equipment generations",
+      "p": "Mesaieed holds the older refining, fertiliser, steel and petrochemical plants; Ras Laffan holds the LNG trains, condensate refineries, GTL plants and newer gas projects. A study sets its assumptions about history, materials and data quality separately for each, rather than averaging them."
+    },
+    {
+      "h": "Process families with their own damage",
+      "p": "Acid gas removal, cryogenic liquefaction, condensate hydrotreating, Fischer-Tropsch synthesis, ammonia and urea each bring mechanisms the others do not. The damage review starts from the process family, then narrows to the circuit."
+    },
+    {
+      "h": "A desk study, field checks by the owner",
+      "p": "The analysis runs from a data room and video workshops, so the study needs no travel and no industrial city pass. Walkdowns and confirming readings are carried out by the plant's own inspectors or its inspection contractor."
+    }
+  ],
+  "sections": [
+    {
+      "id": "ras-laffan-plants",
+      "h": "The plants inside Ras Laffan Industrial City",
+      "p": [
+        "Ras Laffan is the onshore end of the North Field. Raw gas arrives from offshore platforms, is treated and liquefied, and leaves as LNG, condensate, LPG, sulphur, helium and refined products through the industrial city's port. The liquefaction trains are operated by QatarEnergy LNG, the company known as Qatargas until it changed its name in September 2023. The same company operates the Barzan gas plant, commissioned in 2022, which treats North Field gas for the domestic market and recovers ethane, condensate, LPG and sulphur, and it runs helium extraction at the site.",
+        "Condensate separated from the gas is refined on site at the Laffan Refinery, a QatarEnergy-led joint venture with international partners. The first and second refineries were merged on 1 February 2023 into one site of about 306,600 barrels per stream day. The second refinery was built to make naphtha, Jet A-1, ultra-low-sulphur diesel, propane and butane to a low-sulphur specification, which means the site carries desulphurisation and hydrotreating service alongside its splitters.",
+        "Two gas-to-liquids plants stand in the city: Shell's Pearl GTL and Oryx GTL, a joint venture of QatarEnergy and Sasol. Both convert gas into synthesis gas, run Fischer-Tropsch reactors and upgrade the waxy product in hydroprocessing units. New capacity is also arriving. The North Field expansion projects add liquefaction trains to the city, and Ras Laffan Petrochemicals, a joint venture of QatarEnergy and Chevron Phillips Chemical, is building an ethane cracker with two high-density polyethylene units on a site in the city. For RBI purposes these new plants are baseline candidates rather than reassessments."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/qatar",
+          "RBI in Qatar"
+        ],
+        [
+          "/inspection/risk-based-inspection/pressure-vessel-rbi",
+          "RBI for pressure vessels and exchangers"
+        ]
+      ]
+    },
+    {
+      "id": "mesaieed-plants",
+      "h": "The plants inside Mesaieed Industrial City",
+      "p": [
+        "Mesaieed is the older of the two industrial cities. QatarEnergy's refinery there, first established in 1954 and expanded in several phases since, processes both crude oil and condensate, which gives it a broader corrosion library than a pure condensate site: naphthenic and sulphidic attack in hot crude service, overhead chloride and ammonium salt corrosion, and the usual secondary unit mechanisms.",
+        "Around the refinery sit Qatar Fertiliser Company (QAFCO) with its ammonia and urea trains, Qatar Petrochemical Company (QAPCO), which absorbed the former Qatar Vinyl Company's plants in 2017, and Qatar Chemical Company (Q-Chem) with ethylene and polymer plants, Qatar Fuel Additives Company, Qatar Steel and the Qatalum aluminium smelter, together with Mesaieed Port. In 2022 QatarEnergy Renewable Solutions and QAFCO announced Ammonia-7, a blue ammonia train at Mesaieed designed to capture and store carbon dioxide. A plant built in the 1970s or 1980s and modified many times since needs a different approach to data than a train started this decade, and the study plan says so at the outset."
+      ]
+    },
+    {
+      "id": "mechanisms-by-family",
+      "h": "Damage mechanisms by process family",
+      "p": [
+        "The table summarises the mechanisms that usually head the register for each process family found in the two cities, and the inspection evidence that allows the next examination to be credited at a meaningful effectiveness. The plant's own damage review, its materials of construction and its integrity operating windows decide the final list."
+      ],
+      "table": {
+        "head": [
+          "Process family",
+          "Mechanisms that often drive probability",
+          "Evidence that earns credit"
+        ],
+        "rows": [
+          [
+            "Inlet reception and slug catchers",
+            "Wet CO2 corrosion, wet H2S damage (blistering, HIC, SOHIC), erosion at bends and inlet devices",
+            "Wall-thickness mapping at low points and bends, wet H2S crack inspection of welds and nozzles, corrosion monitoring trends"
+          ],
+          [
+            "Acid gas removal and sulphur recovery",
+            "Amine corrosion in hot lean and rich amine, amine stress corrosion cracking, sulphidation and acid dewpoint corrosion in sulphur units",
+            "Crack detection on non-stress-relieved welds, thickness at regenerator overheads and reboiler returns, refractory and shell temperature surveys"
+          ],
+          [
+            "Liquefaction and cryogenic sections",
+            "Brittle fracture of carbon steel cooled below its design limit, thermal fatigue in cycling lines, liquid metal embrittlement of aluminium exchangers where mercury may reach them",
+            "Material verification and minimum design metal temperature review, weld and support inspection on cycling lines, mercury monitoring records"
+          ],
+          [
+            "Condensate splitting and hydrotreating",
+            "Chloride and ammonium bisulphide corrosion in overhead and reactor effluent systems, high-temperature sulphidation, high-temperature hydrogen attack screening",
+            "Thickness and corrosion mapping in effluent air coolers and overheads, alloy verification, HTHA screening against operating history"
+          ],
+          [
+            "Gas-to-liquids synthesis and upgrading",
+            "High-temperature damage in reformers and synthesis gas trains, metal dusting where conditions favour it, hydroprocessing mechanisms in product upgrading",
+            "Tube and component inspection at shutdown, temperature history, inspection targeted to circuits named in the damage review"
+          ],
+          [
+            "Ammonia and urea",
+            "Ammonia stress corrosion cracking in storage, carbamate corrosion of urea synthesis equipment, creep in reformer tubes, hydrogen attack in synthesis loops",
+            "Crack detection in spheres and tanks, liner and passivation inspection, tube creep assessment data, HTHA screening"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cryogenic-and-cold",
+      "h": "Cold service: where low corrosion does not mean low risk",
+      "p": [
+        "Much of an LNG train's cold box, main cryogenic exchanger and rundown system is stainless steel or aluminium, and the internal corrosion rate there is close to zero. A purely corrosion-driven model would push those items to the bottom of the ranking and leave them there. That is reasonable for internal thinning but wrong for other damage. Carbon steel next to cold equipment can be chilled by a leaking flange or an upset, and if it falls below its minimum design metal temperature it can fracture with little warning. The study therefore checks the boundary between cold-rated and ordinary materials, records the minimum temperature each item could see in an upset, and keeps the brittle fracture susceptibility visible in the register.",
+        "Cold insulation is the other weak point. When the vapour barrier fails, moisture enters and freezes against the steel, and during defrost or a warm shutdown the wet insulation keeps the surface damp. Cold service corrosion under insulation develops slowly but out of sight, so the plan names inspection points on cold lines and vessels and links them to insulation condition surveys. For refrigerated LNG and LPG tanks, where internal entry is rare, the study relies on settlement and base heating records, external examination and monitoring, and states plainly what each item's inspection credit rests on."
+      ],
+      "links": [
+        [
+          "/standards/api-571",
+          "API 571 damage mechanisms"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ]
+      ]
+    },
+    {
+      "id": "coastal-external",
+      "h": "External damage on Qatar's Gulf coast",
+      "p": [
+        "Both cities lie on flat, low coastal ground. Summer air is hot and often heavy with moisture, nights bring condensation on cooled steel, and wind carries salt and fine dust onto every surface. Coatings on racks, vessels and tanks age quickly in that combination, and chloride deposits stay active wherever moisture collects. For the external side of an RBI the questions are practical ones: which items are insulated, how old the insulation and coating systems are, where water can enter, and what the plant's own survey history shows about external rates at different distances from the shore.",
+        "Hot insulated carbon steel in the temperature range that favours corrosion under insulation, austenitic stainless steel under wet chloride-bearing insulation, and corrosion at pipe supports and saddles are usually the external items that rank highest. A CUI campaign ordered by the RBI ranking, with insulation removal starting where susceptibility and consequence are both high, is one of the more common outputs a Ras Laffan or Mesaieed plant asks for. Seawater cooling adds its own internal loop: warm, saline Gulf water brings pitting, crevice attack, fouling and inlet erosion to exchangers and to the intake and return systems."
+      ],
+      "links": [
+        [
+          "/standards/api-583",
+          "API 583 and corrosion under insulation"
+        ],
+        [
+          "/corrosion-mapping",
+          "Corrosion mapping"
+        ]
+      ]
+    },
+    {
+      "id": "fertiliser-and-steel",
+      "h": "Ammonia, urea and the older Mesaieed assets",
+      "p": [
+        "Ammonia storage is a cracking problem before it is a thinning problem. Ammonia stress corrosion cracking in carbon steel spheres and refrigerated tanks depends on oxygen contamination, water content and residual stress, so the interval the study proposes is tied to the control of those variables. If the plant's records show oxygen excursions or uncertain water dosing, the probability goes up until crack inspection of the welds confirms the condition. Urea synthesis equipment needs a different kind of evidence: liner and weld condition, passivation air control and the results of carbamate corrosion checks, none of which ordinary thickness readings capture.",
+        "Older plants bring a data problem as much as a damage problem. Design records may be incomplete, equipment may have been rerated or modified, and thickness history may sit in several generations of files. The study does not fill those gaps with assumptions that flatter the result. Missing material certificates, unknown post-weld heat treatment status or absent baseline readings go into the data-gap log, the affected items are ranked conservatively, and the plan places the confirming inspection early."
+      ]
+    },
+    {
+      "id": "new-capacity",
+      "h": "New trains and new plants: starting with a baseline",
+      "p": [
+        "The expansion trains at Ras Laffan and the cracker complex under construction there give owners a chance that older plants never had: to plan inspection by risk from the first shutdown. A baseline RBI is built from design and fabrication records rather than from in-service history. The inputs are the materials selection report, equipment data reports, weld procedure and heat treatment records, hydrotest data, pre-service thickness readings at named locations and the licensor's guidance on operating limits.",
+        "The baseline sets corrosion rate assumptions from the materials report and the expected process conditions, assigns damage mechanisms per circuit and produces a first set of due dates. Its real value comes later, when the first inspections either confirm the assumed rates or show that a circuit behaves differently. The study writes those checkpoints into the plan, so the owner knows which early results should trigger a reassessment and which can simply be filed."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/rbi-implementation",
+          "Implementing an RBI programme"
+        ]
+      ]
+    },
+    {
+      "id": "owners-and-procedures",
+      "h": "Many owners, shared infrastructure and whose rules apply",
+      "p": [
+        "Both industrial cities are crowded with joint ventures. A single site can include equipment owned by one company, operated by another and fed by utilities that serve several plants. An RBI study that ignores this produces either double counting or gaps. Before analysis begins, the study fixes the scope boundary on the P&IDs, records the owner and operator of every system, and confirms which company's inspection procedure governs each one.",
+        "In practice the governing rules in Qatar are the operating companies' own engineering and inspection standards, together with the permit and environmental conditions of the industrial city concerned. Those company standards decide the RBI method, the risk matrix, the reassessment frequency and the approval route. Where a plant belongs to an international group that applies a corporate RBI standard, the Qatar study is shaped to that standard so the results can sit beside the group's other sites."
+      ]
+    },
+    {
+      "id": "remote-delivery",
+      "h": "Running the study remotely for a Qatari plant",
+      "p": [
+        "Workshops are held in the plant's working week, on Arabia Standard Time, in short sessions that fit around operations and are lightened during Ramadan. The data requested for a Ras Laffan or Mesaieed study normally includes:"
+      ],
+      "list": [
+        "P&IDs, PFDs and heat and material balances, with the materials selection report and licensor materials guidance",
+        "Equipment datasheets, data reports, rerating and modification records, and post-weld heat treatment records",
+        "Inspection reports, thickness history, corrosion coupon and probe data, and existing CML and TML layouts",
+        "Process chemistry and integrity operating windows, including acid gas, mercury, chloride, oxygen and water limits",
+        "Insulation and coating registers, cold insulation condition surveys and seawater system inspection history",
+        "Tank and sphere records: settlement surveys, base heating data, external examinations and any internal inspection results",
+        "The owner's RBI procedure, risk matrix and any previous RBI export"
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How a remote RBI study works"
+        ]
+      ]
+    },
+    {
+      "id": "approval-and-limits",
+      "h": "Field verification, approval and where the study stops",
+      "p": [
+        "Nameplate checks, isometric confirmation, insulation and coating condition surveys and any readings needed to close a data gap are carried out by the plant's own inspectors or its contractor. The study gives them a check list that states the purpose of each check and how its result moves the ranking, so the work can be fitted into routine rounds or the next shutdown.",
+        "The output proposes inspection tasks and due dates with their reasoning; the plant's inspection authority decides whether to accept them. Atlantis is not the inspector of record for any asset in either city. If an inspection reveals damage that needs a continued-service judgement, that fitness-for-service work remains with the owner's engineers, and the RBI is updated once their decision is known."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (risk-based inspection methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms affecting fixed equipment)",
+    "API 510 (pressure vessel inspection)",
+    "API 570 (piping inspection)",
+    "API 653 (tank inspection)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API RP 584 (integrity operating windows)",
+    "API RP 941 (steels for hydrogen service)"
+  ],
+  "deliverables": [
+    "Scope boundary and owner register for every system in the study",
+    "Corrosion loops and damage mechanism assignments per process family",
+    "Probability, consequence and risk ranking to the owner's procedure",
+    "Inspection plan with technique, coverage, effectiveness and due date per item",
+    "Brittle fracture and cold insulation review for cryogenic sections",
+    "CUI campaign order for insulated lines and vessels",
+    "Data-gap log and field check list for the plant's inspectors",
+    "Reassessment triggers and baseline checkpoints for new plants"
+  ],
+  "industries": [
+    "LNG liquefaction",
+    "Gas processing and helium recovery",
+    "Condensate refining",
+    "Gas-to-liquids",
+    "Ammonia and urea",
+    "Ethylene and polymers",
+    "Crude refining"
+  ],
+  "faqs": [
+    {
+      "q": "Can one study cover an LNG train and the utilities that serve it?",
+      "a": "Yes, provided the boundary is clear. The study marks on the P&IDs which utilities belong to the train's owner and which are shared or owned by another company in the industrial city. Owned systems such as cooling water, flare and fuel gas go into the same register as the process units, while shared systems are flagged so the responsible owner can include them in its own programme."
+    },
+    {
+      "q": "Our cold section has almost no corrosion. Why does it still appear in the plan?",
+      "a": "Because thinning is not the only way cold equipment fails. Carbon steel next to cryogenic service can fracture if an upset cools it below its design limit, cold insulation can trap moisture and corrode steel unseen, and lines that cycle between ambient and cryogenic temperature can crack at welds and supports. The plan keeps those items visible with checks suited to each mechanism, even where internal inspection is rarely needed."
+    },
+    {
+      "q": "How is a condensate refinery different from a crude refinery in an RBI?",
+      "a": "Condensate carries little residue, so some heavy-oil mechanisms fall away, but chlorides and sulphur compounds still reach overheads, and hydrotreating for low-sulphur jet and diesel brings reactor effluent corrosion, sulphidation and hydrogen damage screening. The study builds its library from the actual feed analyses and unit configuration rather than from a generic crude refinery template."
+    },
+    {
+      "q": "We run an older Mesaieed plant with patchy records. Can RBI still help?",
+      "a": "It can, as long as the gaps are handled honestly. Items with missing materials data, unknown heat treatment or no baseline readings are ranked conservatively and listed in a data-gap log. The plan then sequences confirming inspections so that each result either supports a longer interval or reveals a problem early. Over one or two cycles the evidence base improves and the ranking becomes sharper."
+    },
+    {
+      "q": "Does ammonia storage need crack inspection or thickness readings?",
+      "a": "Primarily crack inspection. Ammonia stress corrosion cracking depends on oxygen, water and residual stress rather than on general wall loss, so the plan specifies a crack detection technique for the welds and ties the interval to how well those variables are controlled. Thickness readings still have a place for external corrosion, but they do not demonstrate freedom from cracking."
+    },
+    {
+      "q": "Is a baseline study worth doing before a new train's first shutdown?",
+      "a": "Yes. Without one, a new plant usually runs on generic intervals until enough history accumulates, which can mean inspecting low-risk items early and leaving susceptible circuits unchecked. A baseline built from design, fabrication and pre-service data gives a risk-based plan from the start and names the early inspections whose results should confirm or correct its assumptions."
+    },
+    {
+      "q": "Does anyone from Atlantis need an industrial city pass?",
+      "a": "No. The work is done remotely through a data room and video workshops, so no site access is required for the study. Walkdowns and confirming readings are done by your own inspectors or your inspection contractor, using a check list that explains what each check decides."
+    },
+    {
+      "q": "Who approves the intervals the study proposes?",
+      "a": "Your inspection authority, under your company's inspection procedure. The study sets out each proposed task and due date with the evidence behind it. Atlantis does not approve intervals or act as inspector of record, and any continued-service assessment after damage is found stays with your engineers."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/qatar",
+      "RBI in Qatar"
+    ],
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection services"
+    ],
+    [
+      "/inspection/risk-based-inspection/remote-rbi",
+      "How a remote RBI study works"
+    ],
+    [
+      "/inspection/risk-based-inspection/damage-mechanism-review",
+      "Damage mechanism review"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels and heat exchangers"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-implementation",
+      "Implementing an RBI programme"
+    ],
+    [
+      "/standards/api-584",
+      "API 584 integrity operating windows"
+    ],
+    [
+      "/standards/api-580",
+      "API 580 explained"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnaround and shutdown inspection"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "Qatargas changed its name to QatarEnergy LNG (September 2023)",
+      "url": "https://www.gulf-times.com/article/668366/qatar/qatargas-changes-name-to-qatarenergy-lng"
+    },
+    {
+      "fact": "Barzan Gas commissioned 2022, supplies domestic sales gas, ethane, condensate, LPG and sulphur; Ras Laffan Helium operations listed",
+      "url": "https://www.qatarenergylng.qa/Operations/Domestic-Market"
+    },
+    {
+      "fact": "Laffan Refinery: LR1 and LR2 merged 1 February 2023, 306,600 BPSD, condensate feed, QatarEnergy majority shareholder with international partners",
+      "url": "https://www.qatarenergylng.qa/Operations/Laffan-Refinery"
+    },
+    {
+      "fact": "Laffan Refinery 2 products: naphtha, Jet A-1, ULSD, propane and butane to low-sulphur Euro-V specification",
+      "url": "https://www.gulf-times.com/story/525784/qatargas-announces-commercial-start-up-of-laffan-refinery2"
+    },
+    {
+      "fact": "Ras Laffan Petrochemicals: QatarEnergy/Chevron Phillips Chemical JV, ethane cracker and two HDPE units, under construction",
+      "url": "https://www.cpchem.com/ras-laffan-petrochemical-project"
+    },
+    {
+      "fact": "North Field East expansion trains at Ras Laffan (start of output reported for 2026; status not stated on the page)",
+      "url": "https://www.gasprocessingnews.com/news/2025/05/qatars-north-field-east-gas-expansion-to-begin-output-in-mid-2026/"
+    },
+    {
+      "fact": "Ammonia-7 blue ammonia project at Mesaieed announced 2022 by QatarEnergy Renewable Solutions and QAFCO, with carbon capture",
+      "url": "https://www.thenationalnews.com/business/energy/2022/08/31/qatarenergy-renewable-solutions-and-qafco-team-up-to-build-ammonia-7-project"
+    },
+    {
+      "fact": "Pearl GTL (Shell); Oryx GTL (QatarEnergy and Sasol)",
+      "url": "https://www.eia.gov/international/content/analysis/countries_long/qatar"
+    },
+    {
+      "fact": "Mesaieed Industrial Area companies: QP refinery, QAFCO, QAFAC, QAPCO, Qatar Steel, QVC, Q-Chem, Qatalum, Mesaieed port",
+      "url": "https://en.wikipedia.org/wiki/Mesaieed_Industrial_Area"
+    },
+    {
+      "fact": "QatarEnergy refinery at Mesaieed: established 1954, expanded in phases, processes crude oil and condensate (units and crude grades not stated)",
+      "url": "https://qatarenergy.qa/en/WhatWeDo/Pages/Refining.aspx"
+    },
+    {
+      "fact": "Qatar Vinyl Company integrated into QAPCO (completed 2017)",
+      "url": "https://www.gulf-times.com/story/554220/QP-completes-Qapco-QVC-integration-to-boost-ahead-of-schedule"
+    },
+    {
+      "fact": "Ras Laffan Petrochemicals: QatarEnergy 70% / Chevron Phillips Chemical 30%, ethane cracker and two HDPE units, startup expected late 2026",
+      "url": "https://www.cpchem.com/ras-laffan-petrochemical-project"
+    }
+  ]
+}

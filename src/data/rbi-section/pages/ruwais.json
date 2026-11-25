@@ -1,0 +1,216 @@
+{
+ "title": "Ruwais RBI: Refinery, Polyolefins and Fertiliser Plants",
+ "description": "Remote risk-based inspection for Ruwais in Al Dhafra: refinery units, Borouge polyolefins, ammonia and urea, hydrogen service, sour water and coastal CUI.",
+ "h1": "Risk-based inspection for the Ruwais industrial area in Al Dhafra",
+ "eyebrow": "Risk-based inspection in Ruwais",
+ "intro": "Ruwais, on the Al Dhafra coast west of Abu Dhabi city, concentrates a large refining complex, a polyolefins site that keeps adding trains, an ammonia and urea plant, a chemicals zone under construction and an LNG export project that has not yet started up. Inspection engineers there deal with hydroprocessing reactors, residue cracking, sour water systems, cracker furnaces, synthesis gas and a sabkha shoreline that is hard on everything insulated. This page explains how an RBI study for a Ruwais unit is scoped, which damage mechanisms dominate each plant type, which frameworks the plan must answer to, and how Atlantis delivers the work remotely.",
+ "highlights": [
+  {
+   "h": "Several owners, one industrial city",
+   "p": "The refinery belongs to ADNOC Refining, the polyolefins plants to Borouge, the fertiliser plant to Fertiglobe's Fertil, and newer chemical units to TA'ZIZ projects. Each runs its own integrity system, so an RBI study is scoped to one owner's register and that owner's approval route."
+  },
+  {
+   "h": "Hydrogen, sulfur and steam everywhere",
+   "p": "Hydrocracking, hydrotreating, residue cracking, ethylene cracking and ammonia synthesis all put hot hydrogen, sulfur compounds or high-pressure steam into contact with steel. The study screens each circuit for those mechanisms before probability of failure is calculated."
+  },
+  {
+   "h": "Remote, on Gulf Standard Time",
+   "p": "Drawings, histories and process data travel through a shared data room, and workshops run by video inside the UAE working day. The study itself needs no travel; walkdowns and thickness checks it asks for are carried out by the owner's own inspectors."
+  }
+ ],
+ "sections": [
+  {
+   "id": "ruwais-facilities",
+   "h": "What stands in the Ruwais industrial area today",
+   "p": [
+    "The ADNOC Refining complex is the anchor. It began as a single refinery commissioned in the early 1980s and grew into two linked sites: an eastern refinery with crude and condensate distillation, a hydrocracker, gasoline, green diesel and base oil plants, and a western refinery that added a residue fluid catalytic cracker, a delayed coker and a carbon black and calcined coke plant. A crude flexibility project widened the range of crudes the complex can process. ADNOC Refining is owned by ADNOC with Eni and OMV as minority shareholders following the 2019 partnership.",
+    "Borouge's polyolefins site sits alongside, with ethane crackers feeding polyethylene and polypropylene trains. Borouge 4, the latest phase, began polymer production in April 2026 with a cross-linkable polyethylene unit, and its remaining units are being commissioned in stages. Since the end of March 2026 the Borouge business has been part of Borouge International, owned equally by ADNOC's XRG and OMV, while Borouge Plc shares stay listed in Abu Dhabi until a planned tender offer.",
+    "Fertil, the Ruwais ammonia and granular urea producer, is part of Fertiglobe, in which ADNOC took a majority stake in 2024. Next to these, the TA'ZIZ industrial chemicals zone has first-phase plants under construction, including a methanol plant, and the Ruwais LNG export project is being built by ADNOC for a planned commercial start in the second half of 2028, with ADNOC Gas due to take ADNOC's stake on completion. A general utilities plant supplies power and water to the industrial area."
+   ],
+   "links": [
+    ["/inspection/risk-based-inspection/united-arab-emirates", "RBI in the UAE"]
+   ]
+  },
+  {
+   "id": "mechanisms-by-plant",
+   "h": "Damage mechanisms by plant type",
+   "p": [
+    "A Ruwais study assigns mechanisms circuit by circuit to API RP 571, but the families below cover most of what the corrosion review spends its time on. The table is a starting map, not a substitute for the owner's corrosion engineer reviewing the process data for each loop."
+   ],
+   "table": {
+    "head": ["Plant or system", "Mechanisms the review screens first", "What usually decides the risk"],
+    "rows": [
+     ["Crude and condensate distillation", "High-temperature sulfidation, naphthenic acid in heavier crudes, overhead hydrochloric acid and ammonium chloride", "How the crude slate has changed since the flexibility project, and overhead wash and neutraliser records"],
+     ["Hydrocracker and hydrotreaters", "High-temperature hydrogen attack, sulfidation in hydrogen, ammonium bisulfide in reactor effluent air coolers, polythionic acid cracking at shutdown", "Operating temperature and hydrogen partial pressure against the current API RP 941 curves, wash water rates, shutdown neutralisation practice"],
+     ["Residue cracker and delayed coker", "Erosion and catalyst attrition, high-temperature sulfidation, thermal fatigue and bulging of coke drums, wet H2S in the gas plant", "Drum cycle history, slurry circuit velocities, refractory condition reports"],
+     ["Sour water and amine units", "Wet H2S cracking and blistering, ammonium bisulfide corrosion, amine stress corrosion cracking, amine corrosion in regenerator overheads", "Ammonium bisulfide concentration, lean and rich amine loading, whether equipment was post-weld heat treated"],
+     ["Ethane crackers and polyolefin trains", "Furnace tube carburisation and creep, quench and dilution steam system corrosion, caustic cracking in wash systems, fatigue in cycling reactors and extruder feed lines", "Furnace run lengths and decoking history, caustic concentration and temperature, pressure cycling counts"],
+     ["Ammonia and urea", "Hydrogen attack in synthesis loops, nitriding, stress corrosion cracking of carbon steel in anhydrous ammonia, carbamate corrosion in urea synthesis", "Oxygen content in ammonia storage, passivation air in urea service, stainless steel grade and weld records"],
+     ["Tank farms, offsites and jetty lines", "Tank floor soil-side and product-side corrosion, external marine atmospheric corrosion, CUI on heated lines", "Cathodic protection history, foundation drainage, insulation condition"]
+    ]
+   }
+  },
+  {
+   "id": "hydrogen-service",
+   "h": "Hydrogen service and HTHA screening",
+   "p": [
+    "Hydrogen runs through much of the complex: hydrocracker and hydrotreater reactor loops, the hydrogen network that links them, the ammonia synthesis loop at Fertil and the cracked-gas sections of the ethylene plants. For carbon steel and C-0.5Mo equipment, the study compares the actual operating envelope, including start-up and upset temperatures where the owner can provide them, with the current API RP 941 curves. Equipment that sits close to or above the curve is flagged for a separate high-temperature hydrogen attack assessment by the owner's materials engineer and for advanced ultrasonic methods selected for HTHA, because ordinary thickness readings will not find it.",
+    "Two record gaps come up repeatedly on older hydrogen equipment. The first is post-weld heat treatment: whether a carbon steel item was stress relieved changes its susceptibility and has to be confirmed from fabrication records rather than assumed. The second is operating history: an item designed for one duty may have run hotter after a debottleneck. The data-gap log lists each case so the risk is not understated by an optimistic default."
+   ],
+   "links": [
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review and corrosion loops"],
+    ["/inspection/ndt-inspection-services/advanced-ndt", "Advanced NDT methods"]
+   ]
+  },
+  {
+   "id": "coast-and-sabkha",
+   "h": "A sabkha shoreline in summer heat",
+   "p": [
+    "Ruwais sits on low coastal flats where saline ground water lies close to the surface, the air carries salt from the Gulf, and summer combines high temperatures with heavy humidity, especially overnight and around dawn. Dew forms on cooler steel, dries in the afternoon and leaves chloride behind; over months that cycle concentrates salt under insulation, at pipe supports and on the underside of horizontal lines.",
+    "For an RBI register this shows up in three places. Corrosion under insulation on carbon steel lines running in the susceptible temperature range, and on equipment that cycles in and out of service, is often the largest single source of piping risk in a coastal Gulf plant. External chloride stress corrosion cracking threatens insulated austenitic stainless steel, which polyolefin, urea and hydrogen units use widely. And tank bottoms and buried or grade-level piping face aggressive saline soil, so cathodic protection survey data carries real weight in the probability calculation. API RP 583 guides the CUI side; the study does not assume coating or insulation condition it has no evidence for."
+   ]
+  },
+  {
+   "id": "who-owns-the-plan",
+   "h": "Whose integrity system the plan answers to",
+   "p": [
+    "Each Ruwais operator inspects under its own management system, built on API, ASME and company engineering standards. ADNOC's published sustainability reporting describes a risk-based approach to asset integrity across its group, with risk-based inspection among the tools used, and assurance reviews that include independent evaluation. An outside study for an ADNOC group company therefore fits into an existing framework rather than replacing it: risk matrix, target risk levels, consequence categories and inspection effectiveness tables come from the owner's procedure where one exists.",
+    "Borouge, Fertil and TA'ZIZ joint ventures each have their own procedures, often drawing on partner practice. The first task of any Ruwais study is to confirm which document governs the risk criteria and who signs off the plan. Statutory occupational safety rules in Abu Dhabi apply to all of them, but they do not prescribe an RBI method, so the methodology question is settled by the owner's procedure and API RP 580 and 581 or ASME PCC-3."
+   ],
+   "list": [
+    "Risk matrix and target risk: taken from the owner's procedure, or proposed and approved before calculation starts",
+    "Methodology: qualitative screening, semi-quantitative ranking or quantitative work to API RP 581",
+    "Interval approval: the owner's inspection authority or inspector of record, never the study team",
+    "Records: kept in the owner's inspection system or exported to it at the end"
+   ]
+  },
+  {
+   "id": "scoping-a-ruwais-study",
+   "h": "Scoping a study for one unit or a whole site",
+   "p": [
+    "Ruwais plants are large enough that a single study rarely covers a whole site at once. Typical scopes are one process unit ahead of its turnaround, a group of units that share a corrosion loop such as a sour water and amine system, a polyolefin train with its utilities, or the offsite tank farm and transfer lines. Units commissioned recently, such as the new Borouge trains, the TA'ZIZ plants once they start and the LNG trains later, have little inspection history, so their first RBI rests on design data, baseline thickness surveys and the damage mechanism review.",
+    "Older units have the opposite problem: decades of readings, several historical RBI exercises and inspection records spread across systems. There, the study often starts by revalidating the existing assessment against current operating conditions and the latest code editions before deciding whether a full reassessment is needed."
+   ],
+   "links": [
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit"],
+    ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"]
+   ]
+  },
+  {
+   "id": "consequence-at-ruwais",
+   "h": "Consequence of failure in a dense industrial city",
+   "p": [
+    "Consequence modelling at Ruwais has to reflect how closely plants are packed. A release from one operator's equipment can affect a neighbour's units, shared pipe racks, the utilities plant or the marine terminal. Light hydrocarbons and hydrogen in hydroprocessing and cracker service carry flammable consequences; sour water, amine and hydrogen sulfide-bearing streams carry toxic ones; ammonia storage and synthesis carry a toxic consequence that often dominates the fertiliser register. Production loss enters the business consequence because units feed one another: a hydrocracker outage affects products, and a cracker outage affects every polymer train behind it.",
+    "The study records the inventory, detection, isolation and mitigation assumptions behind each consequence value, so the owner's process safety team can check them against their own hazard studies. Where the owner's procedure sets consequence categories, the study uses those categories instead of inventing new ones."
+   ]
+  },
+  {
+   "id": "remote-delivery-ruwais",
+   "h": "How the remote study runs",
+   "p": [
+    "The work follows the same sequence whatever the plant. A data request goes out first, listing P&IDs, process flow diagrams, heat and material balances, equipment datasheets and manufacturer's data reports, inspection and thickness histories, integrity operating windows and the current RBI register or software export if there is one. Atlantis then builds the corrosion loops and mechanism assignments and holds video workshops with the unit's process, operations, corrosion and inspection engineers to challenge them.",
+    "Probability and consequence are calculated by the agreed method, each item is ranked, and an inspection plan is drafted with method, coverage, effectiveness and due date per item. A data-gap log lists what was assumed and what field verification would remove the assumption. Working hours suit a UAE team: Hyderabad runs ninety minutes ahead of Gulf Standard Time, so workshops sit inside the UAE working day. Field verification, walkdowns and any extra thickness surveys are carried out by the owner's inspectors or the owner's inspection contractor."
+   ],
+   "links": [
+    ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+    ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API 581"]
+   ]
+  },
+  {
+   "id": "after-the-study",
+   "h": "What the owner receives, and where the study stops",
+   "p": [
+    "The deliverable is a register the owner can load into its own inspection or RBI system, a written report explaining corrosion loops, mechanisms, consequence assumptions and ranking, the inspection plan, a CML and TML optimisation list for piping and vessels, the data-gap log, and reassessment triggers such as a crude slate change, a catalyst change, an integrity operating window exceedance or a new damage finding. Every proposed interval is a recommendation for the owner's inspection authority to approve or change.",
+    "When an inspection finds damage that needs an engineering assessment of whether the equipment can stay in service, that fitness-for-service work stays with the owner's engineer or the specialist the owner appoints; Atlantis does not perform it. The RBI register is then updated with the new findings at the next reassessment."
+   ]
+  }
+ ],
+ "codes": [
+  "API RP 580 (risk-based inspection)",
+  "API RP 581 (risk-based inspection methodology)",
+  "ASME PCC-3 (inspection planning using risk-based methods)",
+  "API RP 571 (damage mechanisms affecting fixed equipment)",
+  "API RP 941 (steels for hydrogen service at elevated temperatures and pressures)",
+  "API RP 583 (corrosion under insulation and fireproofing)",
+  "API RP 584 (integrity operating windows)",
+  "API 510, API 570 and API 653 where the owner's procedures reference them",
+  "The owner's engineering standards and inspection procedures"
+ ],
+ "deliverables": [
+  "Corrosion loops and damage mechanism assignment to API RP 571",
+  "Probability and consequence of failure by the agreed method",
+  "Risk ranking against the owner's matrix",
+  "Inspection plan with method, coverage, effectiveness and due date per item",
+  "CML and TML optimisation list",
+  "Data-gap log and reassessment triggers",
+  "Register export and written report"
+ ],
+ "industries": [
+  "Oil refining",
+  "Polyolefins and petrochemicals",
+  "Ammonia and urea",
+  "Industrial chemicals",
+  "Gas and LNG",
+  "Storage terminals and offsites"
+ ],
+ "faqs": [
+  {
+   "q": "Can one study cover equipment belonging to different Ruwais operators?",
+   "a": "Normally no. The refinery, the polyolefins site, the fertiliser plant and the chemicals zone plants each belong to a different company with its own risk criteria, register and approval route. A study is scoped to one owner. Where two operators share equipment at a boundary, such as a transfer line or a utility header, the study notes the interface and who holds the register for it, so nothing falls between the two systems."
+  },
+  {
+   "q": "Our hydrocracker has been through an RBI cycle before. What does a new study add?",
+   "a": "Usually a check that the previous assessment still matches reality. Operating temperatures, hydrogen partial pressures, feeds and catalyst cycles may have changed, and the current API RP 941 curves and API RP 571 guidance may differ from those the earlier study used. The revalidation compares old assumptions with current data, flags items whose risk has moved, and recommends whether a partial or full reassessment is warranted."
+  },
+  {
+   "q": "How are the newly started Borouge trains assessed with almost no inspection history?",
+   "a": "From design and fabrication data, baseline thickness and inspection records taken at commissioning, the damage mechanism review and the integrity operating windows. Probability of failure for new equipment depends heavily on design margins and on whether operating conditions stay inside the windows. The plan for the first cycle usually focuses on confirming those assumptions, and the reassessment trigger list makes sure the register is revisited once real operating data accumulates."
+  },
+  {
+   "q": "Is high-temperature hydrogen attack assessed inside the RBI study?",
+   "a": "The study screens every hydrogen-service item against the current API RP 941 curves using the operating data the owner provides, and ranks the items that come close. A detailed HTHA assessment, and the choice of specialised ultrasonic methods to look for it, is then a separate engineering task for the owner's materials engineer. The RBI plan carries the screening result and the inspection recommendation so the item is not left on a routine thickness schedule."
+  },
+  {
+   "q": "Can the study cover ammonia storage and the urea synthesis section at Fertil?",
+   "a": "Yes. Ammonia storage tanks and spheres are screened for stress corrosion cracking, which depends on oxygen and water content and on residual stress, and the urea synthesis loop for carbamate corrosion and the condition of its passivation. Toxic consequence normally dominates these registers, so the consequence assumptions on inventory, detection and isolation get particular attention in the workshops with the plant's process safety team."
+  },
+  {
+   "q": "Does anyone from Atlantis need to come to Ruwais?",
+   "a": "The study itself is done remotely from the owner's documents, data and video workshops, so it needs no travel. Walkdowns, insulation and coating condition checks and any additional thickness readings that the data-gap log calls for are carried out by the owner's inspectors or the owner's inspection contractor, and their results are fed back into the register."
+  },
+  {
+   "q": "We already run commercial RBI software. Can the study work inside it?",
+   "a": "Yes. Atlantis works from the owner's existing register or software export, applies the owner's risk matrix and effectiveness tables, and returns the results in a format the owner's system can import. Keeping the register in the owner's own system means the plant team can maintain it between studies without depending on an outside party."
+  },
+  {
+   "q": "Who signs off the due dates a Ruwais study proposes?",
+   "a": "The owner's inspection authority or inspector of record approves every interval. The study proposes due dates and inspection methods with the reasoning behind each one, but the decision to adopt, shorten or lengthen an interval belongs to the owner, which also remains accountable for the inspection programme under its own management system."
+  }
+ ],
+ "related": [
+  ["/inspection/risk-based-inspection/united-arab-emirates", "RBI in the UAE"],
+  ["/inspection/risk-based-inspection/fujairah", "RBI in Fujairah"],
+  ["/inspection/risk-based-inspection/pressure-vessel-rbi", "RBI for pressure vessels and heat exchangers"],
+  ["/inspection/risk-based-inspection/piping-rbi", "RBI for process piping"],
+  ["/inspection/risk-based-inspection/storage-tank-rbi", "Storage tank RBI"],
+  ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review"],
+  ["/inspection/risk-based-inspection/remote-rbi", "How a remote RBI study works"],
+  ["/standards/api-571", "API 571 damage mechanisms"],
+  ["/standards/api-581", "API 581 explained"],
+  ["/inspection/turnarounds-shutdowns", "Turnaround and shutdown inspection"],
+  ["/contact", "Contact Atlantis"]
+ ],
+ "sources": [
+  {"fact": "Ruwais refinery: inaugurated 1982; east refinery hydrocracker (1985), condensate, gasoline, green diesel, base oil plants; west refinery (2014) with RFCC, carbon black and delayed coker plant (2018); crude flexibility project; general utilities plant; ADNOC Refining owned ADNOC 65%, Eni 20%, OMV 15%", "url": "https://en.wikipedia.org/wiki/Ruwais_refinery"},
+  {"fact": "ADNOC closed the refining partnership with Eni and OMV in 2019", "url": "https://adnoc.ae/news-and-media/press-releases/2019/adnoc-closes-landmark-strategic-partnership-agreements-with-eni-and-omv-in-refining-and-trading"},
+  {"fact": "Borouge 4 at Al Ruwais began polymer production in early April 2026 with the XLPE 2 unit; remaining units commissioned through 2026", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2820931-uae-s-borouge-starts-up-al-ruwais-polymers-project"},
+  {"fact": "Borouge International formed (Borouge Plc + Borealis, acquired NOVA Chemicals), owned 50/50 by XRG (ADNOC) and OMV; Borouge Plc shares remain listed on ADX until tender offer expected 2027", "url": "https://www.hydrocarbonengineering.com/petrochemicals/01042026/omv-and-xrg-complete-transactions-to-create-borouge-international"},
+  {"fact": "Borouge International transactions completed 31 March 2026", "url": "https://www.thenationalnews.com/business/energy/2026/03/31/adnocs-xrg-and-omv-complete-deal-to-create-chemicals-sector-giant-borouge-international"},
+  {"fact": "Fertil (Ruwais Fertilizer Industries) produces ammonia and granular urea and is part of Fertiglobe", "url": "https://chemxplore.com/companies/fertil"},
+  {"fact": "ADNOC completed acquisition of a majority stake in Fertiglobe (2024)", "url": "https://guest.meed.com/adnoc-completes-majority-stake-acquisition-in-fertiglobe"},
+  {"fact": "TA'ZIZ first-phase chemical projects in Ruwais under construction, including methanol plant contract", "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/taziz-says-first-phase-chemical-projects-remain-on-track-despite-42225"},
+  {"fact": "Ruwais LNG under construction, 9.6 Mtpa, commercial operations planned 2H 2028; ADNOC Gas to acquire ADNOC's stake on completion", "url": "https://www.gulftoday.ae/business/2026/01/24/adnoc-gas-sees-potential-to-advance-ruwais-lng-commercial-start"},
+  {"fact": "ADNOC Gas to acquire ADNOC's 60% stake in Ruwais LNG, at cost, in H2 2028", "url": "https://worldoil.com/news/2024/11/11/adnoc-gas-to-acquire-60-stake-in-ruwais-lng-from-adnoc/"},
+  {"fact": "ADNOC asset integrity and process safety approach is risk-based; RBI used across the asset lifecycle; assurance reviews incl. independent evaluations (already cited on the UAE page)", "url": "https://reports.adnoc.ae/e/sustainability-report-2025/9hZwCMdM21"}
+ ]
+}
