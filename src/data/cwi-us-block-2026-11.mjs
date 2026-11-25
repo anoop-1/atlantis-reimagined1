@@ -61,7 +61,7 @@ const CITY_OVERRIDE = {
   // Alabama
   huntsville: 'birmingham', montgomery: 'birmingham',
   // Ohio
-  toledo: 'detroit', dayton: 'cincinnati',
+  toledo: 'detroit', dayton: 'cincinnati', akron: 'cleveland',
   // Pennsylvania and New York
   erie: 'buffalo', allentown: 'philadelphia', albany: 'new-york',
   // Missouri, Tennessee, Kentucky, Illinois, Indiana

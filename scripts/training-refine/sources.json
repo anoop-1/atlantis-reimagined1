@@ -370,5 +370,21 @@
  "/ndt-training-michigan": [
   "https://www.monroeccc.edu/programs/non-destructive-testing",
   "https://www.aws.org/magazines-and-media/inspection-trends/it-may-24-feature-03-pascal/"
+ ],
+ "/ndt-training-ohio": [
+  "https://www.tri-c.edu/workforce/advanced-manufacturing-and-engineering/manufacturing/nondestructive-testing-ndt.html",
+  "https://catalog.tri-c.edu/programs/nondestructive-testing-ndt-quality-assurance-qa",
+  "https://www.starkstate.edu/wp-content/uploads/2026/05/AIT103_Non-Destructive-Testing.pdf",
+  "https://catalog.starkstate.edu/programs/welding-technology-cert/"
+ ],
+ "/ndt-training-southern-california": [
+  "https://www.avc.edu/sites/default/files/catalog/Aeronautical%20%20Non-Destructive%20Inspection.pdf",
+  "https://catalog.foothill.edu/degrees-certificates/apprenticeship-non-destructive-testing-technician/",
+  "https://foothill.edu/apprenticeships/trades/aata.html"
+ ],
+ "/ndt-training-virginia": [
+  "https://www.as.edu/non-destructive-tester/",
+  "https://courses.vccs.edu/colleges/tcc/courses/IND105-NondestructiveInspectionNDIandTesting",
+  "https://www.as.edu/tidewater-community-college-transfer-agreement"
  ]
 }

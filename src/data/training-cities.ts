@@ -7233,6 +7233,37 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "columbia-south-carolina", label: "Columbia" },
     ],
   },
+  // === North American training expansion 2026-11-11 (scripts/add-na-training-cities-2026-11.mjs) ===
+  {
+    slug: "akron",
+    city: "Akron",
+    country: "USA",
+    lat: 41.08, lng: -81.52,
+    localContext:
+      "Akron is still the home of rubber and polymer engineering: Goodyear keeps its global headquarters in the city, and tire, polymer and industrial-product makers fill the region around it. Twenty miles south, Canton and North Canton add bearing and specialty steel production at Timken and Metallus. Summit and Stark counties also hold machine shops, forging and casting suppliers, utility plants and fabrication yards, so the inspection work here is mostly castings, forgings, bars, welds and rotating equipment checked to ASTM, ASME and AWS requirements and to customer specifications.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Manufacturers and inspection contractors around Akron certify their own technicians under a written practice based on ASNT SNT-TC-1A, setting the hours, running the examinations and signing the certification. Suppliers to aerospace, defense or nuclear customers add whatever personnel standard those customers flow down in the purchase order. Technicians who expect to move between employers often add ASNT central certification.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 60,000–84,000/year",
+      levelIII: "USD 100,000–142,000/year",
+      usdReference: "USD 60,000–84,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "cleveland", label: "Cleveland" },
+      { slug: "columbus-ohio", label: "columbus-ohio" },
+      { slug: "toledo", label: "Toledo" },
+      { slug: "pittsburgh", label: "Pittsburgh" },
+      { slug: "erie", label: "Erie" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

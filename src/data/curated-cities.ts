@@ -409,6 +409,7 @@ export const REPORTING_CITY_PAGE_SLUGS: Set<string> = new Set([
 
 /** Cities that have a /ndt-training-{slug} page (individual TSX + DynamicTrainingPage fallback). */
 export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
+  'akron', // NA training expansion 2026-11-11
   'warner-robins', // NA training expansion 2026-11-11
   'decatur-alabama', // NA training expansion 2026-11-11
   'everett','bremerton','pensacola','melbourne-florida','greensboro','columbia-south-carolina','augusta','fort-wayne','evansville','rochester-new-york','syracuse','harrisburg','amarillo','palmdale','cedar-rapids','green-bay','pueblo','lima-ohio','joliet','rockford', // US training expansion 2026-11-23
