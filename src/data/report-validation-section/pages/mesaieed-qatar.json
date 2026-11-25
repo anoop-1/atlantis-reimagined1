@@ -1,0 +1,132 @@
+{
+  "title": "Mesaieed NDT Report Validation, Qatar | Independent Review",
+  "description": "Independent review of NDT reports and digital inspection data from Mesaieed's polymer, fertiliser, steel, refining and gas plants, carried out remotely.",
+  "h1": "NDT report review for Mesaieed Industrial City: polymers, fertilisers, steel, refining and gas liquids",
+  "eyebrow": "Report validation · Mesaieed, Qatar",
+  "intro": "Mesaieed Industrial City, about an hour's drive south of Doha, is where Qatar turns gas into polyethylene, fertiliser, steel, refined fuels and gas liquids. Its plants are older and more varied than the LNG trains in the north, and their inspection records reflect that: cracker and polymer line surveys, ammonia and urea equipment reports, steelworks crane and furnace examinations, refinery and pipeline data. We review those NDT reports and the digital inspection data behind them as an independent reviewer and set out, in writing, what the evidence supports. Atlantis has no Mesaieed or Qatar office. Every review is done remotely, from Houston and Hyderabad, on the records you send.",
+  "highlights": [
+    {"h": "Many plant types in one industrial city", "p": "Ethylene and polyethylene units, ammonia and urea plants, a direct-reduction steelworks, a refinery, gas liquids plants and a large power station all generate reports with different weak points."},
+    {"h": "Joint ventures with several readers", "p": "Several Mesaieed producers have international partners. An independent opinion gives each shareholder the same reading of an inspection record."},
+    {"h": "Raw files checked against the report", "p": "Encoded phased array scans, digital radiographs, eddy current tube files and thickness logs are compared with the digital report that summarises them."}
+  ],
+  "sections": [
+    {
+      "h": "Mesaieed Industrial City in brief",
+      "p": [
+        "QatarEnergy describes Mesaieed Industrial City as the base of Qatar's gas processing, refining, petrochemical and metals industries. It covers about 104 square kilometres south of Doha, receives oil and gas by pipeline from Ras Laffan and Dukhan, and is developed and operated by QatarEnergy, which handles applications for land, facilities, permits and gate passes; electricity in the city is managed by Kahramaa. Its port has 30 berths, a container terminal and a single point mooring, and exports crude oil, refined products, petrochemicals, fertilisers and metal products.",
+        "On 5 July 2026 QatarEnergy and the Ministry of Commerce and Industry signed terms of reference to encourage new industrial development in the city, with the ministry leading investor outreach and QatarEnergy contributing technical and commercial expertise. New plant will add to a site where some equipment has been in service for decades. That combination, long histories next to new construction, is what most of our Mesaieed review requests come down to."
+      ]
+    },
+    {
+      "h": "The producers and the records they keep",
+      "p": [
+        "The table lists the main producers in the industrial city as their owners describe them, and the report types each one typically generates. It describes the area only; it is not a list of clients, and Atlantis claims no work for any of these companies."
+      ],
+      "table": {
+        "head": ["Producer", "What the owners publish", "Records that reach review"],
+        "rows": [
+          ["QAPCO", "Industries Qatar 80 percent, TotalEnergies Petrochemicals France 20 percent; ethylene, low-density polyethylene and sulphur, with a listed capacity of about 1.6 million tonnes a year", "Cracker furnace tube surveys, cold-section and compressor piping reports, high-pressure polymer piping examinations"],
+          ["Qatofin", "QAPCO 63 percent, TotalEnergies 36 percent, QatarEnergy 1 percent; a linear low-density polyethylene plant operated by QAPCO, above 570,000 tonnes a year", "Reactor and loop piping reports, exchanger tube data, storage and silo records"],
+          ["Q-Chem and Q-Chem II", "A Chevron Phillips Chemical subsidiary and Mesaieed Petrochemical Holding 49 percent each, QatarEnergy (formerly Qatar Petroleum) 2 percent; started up in 2003 and 2010; ethylene, HDPE and normal alpha olefins", "Furnace and quench system surveys, polyethylene reactor and piping reports, alpha olefin unit vessel examinations"],
+          ["QAFCO", "Fertiliser producer; its Ammonia-7 blue ammonia plant, about 1.2 million tonnes a year, was announced in 2022, with production planned to begin in 2026", "Ammonia converter and storage reports, urea plant stainless weld examinations, new-construction data books for the blue ammonia plant"],
+          ["Qatar Steel", "Owned by Industries Qatar; a direct reduction plant since the late 1970s, a larger Midrex module from 2007 that now carries production, and three electric arc furnaces added in 2014", "Reduction furnace and reformer shell surveys, crane girder and runway MT, structural UT, gas piping thickness data"],
+          ["QatarEnergy refining and gas liquids", "QatarEnergy's Mesaieed refinery and natural gas liquids plants", "T&I packages, piping circuit thickness histories, vessel and column reports, pipeline girth weld records"],
+          ["Mesaieed power plant", "A 2,000 MW combined-cycle plant inaugurated in May 2010, built by Iberdrola for Mesaieed Power", "HRSG tube surveys, steam piping and attachment weld reports, condenser tube data"]
+        ]
+      }
+    },
+    {
+      "h": "Ethylene crackers and polyethylene lines",
+      "p": [
+        "QAPCO and Q-Chem run ethylene crackers at Mesaieed, and Qatofin converts ethylene into linear low-density polyethylene alongside them. Their inspection records carry the damage mechanisms of high-temperature furnace service and the cold, dry conditions of the separation train. Radiant tube surveys look for carburisation and creep, convection sections for external corrosion, and the cold box and low-temperature piping for weld quality in materials chosen for toughness at low temperature.",
+        "Polymer plants add their own difficulty. Low-density polyethylene is made at very high pressure, so the piping is thick-walled, the welds are few but critical, and the UT and surface examination procedures have to suit wall thicknesses that ordinary piping procedures do not cover. When we review a polymer line report we check that the technique was qualified for the actual thickness and geometry, that calibration used a block of matching material and thickness, and that the acceptance criteria came from the owner's specification for that service rather than from a general piping table.",
+        "Furnace tube data deserves special care. Wall thickness, diameter growth and eddy current or magnetic readings for carburisation are often collected by specialist crews with their own software, and the summary the owner receives may not show how the raw readings were filtered. The review asks for the raw data, follows each tube from reading to disposition, and states where a conclusion depends on an assumption the report does not show."
+      ]
+    },
+    {
+      "h": "Ammonia, urea and the new blue ammonia plant",
+      "p": [
+        "Fertiliser plants combine high-pressure synthesis loops, large storage tanks and urea equipment built from stainless steels selected for corrosive process conditions. Reports from them cover ammonia converters and waste heat boilers, refrigerated ammonia storage, carbamate and urea service piping and the welds that join dissimilar materials. Each has a damage mechanism the examination must target, from stress corrosion cracking in ammonia storage to corrosion in urea service, and a report that examined the right weld with the wrong technique does not answer the question it was commissioned for.",
+        "New construction brings a different set of records. A plant as large as Ammonia-7 produces thousands of weld reports, radiographs and phased array scans, assembled into data books for handover. Owners and project teams use an independent review to sample those packages before acceptance, to settle disagreements between a contractor and the client's inspectors, or to check a vendor's data book before equipment is shipped to site. In each case the opinion names the requirement each finding comes from, so the parties can resolve it without arguing about which document governs."
+      ]
+    },
+    {
+      "h": "A steelworks inside a petrochemical city",
+      "p": [
+        "Qatar Steel's Mesaieed plant is unusual among the city's producers because its inspection work is structural and mechanical as much as pressure-related. Direct reduction furnaces and their gas reformers are large refractory-lined pressure shells; electric arc furnaces sit in heavy steel structures; and overhead cranes, runway girders and ladle handling equipment carry loads where a missed crack has immediate consequences.",
+        "Reports from a steelworks therefore include magnetic particle examinations of crane girders and hooks, UT of structural welds, thickness surveys on hot gas ducts and reformer shells, and visual inspection records of supporting steel. The review checks that the MT technique suited the surface condition and the orientation of likely cracks, that the structural acceptance criteria came from the specification the owner named, and that the inspection interval and scope matched what the maintenance plan called for."
+      ]
+    },
+    {
+      "h": "Refinery, gas liquids and the pipelines that feed them",
+      "p": [
+        "Mesaieed's oil and gas assets depend on long pipelines from Dukhan in the west and Ras Laffan in the north, and on the export systems at the port and the single point mooring. Records from these assets include girth weld radiographs and AUT data from construction, in-line inspection verification digs, UT thickness and corrosion mapping at road crossings and supports, and the turnaround packages of the refinery and gas liquids plants.",
+        "Piping and pipeline records in a mature industrial city often span several contractors and several reporting systems. A thickness location examined five times may have five different reference points, two grid layouts and a gap where a survey was missed. Our review checks whether the series can be trended reading for reading, whether the corrosion rate the owner is using comes from comparable data, and whether every disposition follows from the measurements in the report. Interval setting and remaining-life calculations stay with the owner's engineer; the opinion tells that engineer which data can be relied on."
+      ]
+    },
+    {
+      "h": "Specifications, codes and radiation licensing in Mesaieed",
+      "p": [
+        "Each Mesaieed producer writes inspection work to its own engineering specifications, and joint ventures often bring in their international partner's standards as well. Those specifications call up ASME Section V for technique, ASME Section VIII and B31.3 for new construction, API 510, API 570 and API 653 for equipment in service, and ISO or EN weld examination standards on packages engineered in Europe. We read the report against the documents your contract names and quote the clause behind each finding.",
+        "Radiation sources in Qatar may only be used under a licence from the Ministry of Environment and Climate Change, whose radiation protection department licenses and inspects radiological practices. Images and reports from Mesaieed radiography should come from a contractor holding that licence. Atlantis performs no radiography in Qatar; the review covers film, CR and DR images and their reports as documents produced by your licensed contractor."
+      ]
+    },
+    {
+      "h": "The seven checks, weighted for Mesaieed plant types",
+      "p": [
+        "The same seven checks run on every review. The table shows where, for each plant type, the record most often needs a closer look and the reason."
+      ],
+      "table": {
+        "head": ["Plant type", "Checks that need the closest look", "Why"],
+        "rows": [
+          ["Cracker and furnace", "Technique adequacy; interpretation and sizing", "Specialist tube data is filtered by software before the owner sees it"],
+          ["Polyethylene line", "Procedure compliance; equipment and calibration", "Very thick walls fall outside ordinary piping procedures and blocks"],
+          ["Ammonia and urea", "Technique adequacy; acceptance criteria", "The examination must target the plant's damage mechanisms in dissimilar and stainless welds"],
+          ["Steelworks", "Technique adequacy; completeness and traceability", "Crack orientation, surface condition and crane identification decide whether MT and UT answered the question"],
+          ["Refinery and gas liquids", "Acceptance criteria; completeness and traceability", "Long histories across several contractors break trending"],
+          ["New construction data books", "Personnel on the date of work; completeness and traceability", "Large crews and many subcontractors leave gaps in certificates and weld maps"]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data and how a remote review runs",
+      "p": [
+        "Most Mesaieed reports now reach the owner through a digital reporting platform that collects raw files, generates the formatted report and applies electronic signatures. A sound digital record shows who acquired each file, who analysed it, on which instrument and software version, with which settings, and when each signature was applied. We check that lineage first, then compare the raw phased array, DR, eddy current or thickness files with the report, and confirm that templates carried over from another plant or project were changed to the Mesaieed job's acceptance criteria.",
+        "You send the records through a secure transfer, with the procedure, the specification and a note on the decision that depends on the review, and we confirm the scope in writing before work starts. Atlantis keeps no Mesaieed office, team or agent; the work is done in Houston and Hyderabad. Reviews in UT, RT, MT, PT and VT are led by an ASNT NDT Level III holding certification in each of those five methods, and members of the wider review team bring nuclear, maritime, oil and gas and petrochemical experience. For methods beyond those five, the proposal names a reviewer with the certification your contract requires.",
+        "The opinion gives one of three verdicts for each report: sound, deficient in documentation only, or deficient in disposition. Atlantis does not act as inspector of record, does not certify personnel and does not review work it carried out, so the opinion has no interest in the outcome. Send the report or describe it in the form; we reply within one business day and set out the scope and a quote for the Mesaieed records."
+      ]
+    }
+  ],
+  "faqs": [
+    {"q": "Is there an Atlantis team in Mesaieed or Doha?", "a": "No. Atlantis has offices in Houston and Hyderabad only. Mesaieed reports are reviewed remotely from the records you transfer securely."},
+    {"q": "Is this page the same as your Doha and Ras Laffan page?", "a": "No. That page covers the LNG and gas-to-liquids plants of Ras Laffan. This one covers Mesaieed's polyethylene, fertiliser, steel, refining, gas liquids and power plants, whose records and damage mechanisms differ."},
+    {"q": "Can you review cracker furnace tube data?", "a": "Yes. We ask for the raw thickness, diameter and carburisation readings as well as the summary, follow each tube from reading to disposition, and state where a conclusion rests on filtering or assumptions the report does not show."},
+    {"q": "Do you review high-pressure polyethylene piping reports?", "a": "Yes. We check that the UT and surface examination procedures were qualified for the actual wall thickness and geometry, that calibration blocks matched, and that acceptance came from the owner's specification for that service."},
+    {"q": "Can you check data books for a new ammonia or petrochemical plant before handover?", "a": "Yes. We sample or fully review weld reports, radiographs, phased array scans and personnel records against the project specification, and list every gap with the requirement it breaches."},
+    {"q": "Do you review steelworks crane and structural inspection reports?", "a": "Yes. MT and UT reports on crane girders, runways, hooks and structural welds are reviewed for technique, surface condition, crack orientation, acceptance criteria and traceability to the equipment."},
+    {"q": "Will you do radiography at Mesaieed?", "a": "No. Radiography in Qatar is carried out by contractors licensed by the Ministry of Environment and Climate Change. We review the images and reports your licensed contractor produced, as documents."},
+    {"q": "Can the review set inspection intervals or calculate remaining life?", "a": "No. Intervals, fitness-for-service and remaining-life work stay with your engineer and inspection authority. The opinion tells them which data in the report can be relied on."},
+    {"q": "How do I start?", "a": "Send the report, procedure and specification, or describe them in the enquiry form, with a note on the decision the review supports. We reply within one business day, and the reply covers the scope and a quote."}
+  ],
+  "related": [
+    ["/report-validation/due-diligence-inspection-record-review", "Due diligence on inspection records"],
+    ["/consulting/petrochemical-ndt-consulting", "Petrochemical NDT consulting"],
+    ["/inspection/third-party-inspection-mesaieed", "Third-party inspection in Mesaieed"],
+    ["/ndt-training-mesaieed", "NDT training in Mesaieed"],
+    ["/practical-ndt-mesaieed", "Practical NDT simulator in Mesaieed"]
+  ],
+  "sources": [
+    "https://www.qatarenergy.qa/en/WhatWeDo/IndustrialCities/Pages/default.aspx",
+    "https://www.mees.com/2026/7/10/refining-petrochemicals/qatarenergy-to-support-next-phase-of-industrial-growth-at-mesaieed/7afe1440-7c5a-11f1-a23a-a5e24cf0f7db",
+    "https://www.qapco.com/",
+    "https://qapco.com/qatofin",
+    "https://qna.org.qa/en/News-Area/News/2026-7/5/moci-qatarenergy-to-cooperate-on-allocating-hydrocarbon-resources-for-industrial-investment",
+    "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2740163-qatar-energy-qafco-7-to-produce-ammonia-from-april-2026",
+    "https://www.cpchem.com/locations/middle-east/mesaieed-qatar",
+    "https://www.qafco.qa/content/qafco-7-announcement",
+    "https://gem.wiki/Industries_Qatar_Steel_Mesaieed_plant",
+    "https://www.powermag.com/qatar-opens-2000-mw-gas-plant/",
+    "https://qatarenergy.qa/en/WhatWeDo/Pages/Refining.aspx",
+    "https://qna.org.qa/en/News-Area/News/2026-4/20/radiation-protection-department-at-ministry-of-environment-a-safety-valve-first-line-of-defense-against-pollution"
+  ]
+}

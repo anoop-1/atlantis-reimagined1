@@ -1,0 +1,161 @@
+{
+  "title": "NDT Report Validation in San Antonio, TX | Data Review",
+  "description": "Independent review of NDT reports from San Antonio headquarters, Eagle Ford gathering and transmission lines, and Bexar County power generation sites.",
+  "h1": "Independent NDT data review for San Antonio corporate engineering, Eagle Ford pipelines and power generation",
+  "eyebrow": "Report validation: San Antonio, Texas",
+  "intro": "San Antonio is less a plant town than a place where inspection decisions get made. Corporate engineering groups, midstream operators running lines through the Eagle Ford, a municipal utility managing a generating fleet in transition, and an industrial airport full of engine and airframe work all read reports produced somewhere else, by someone else. We give those reports an independent technical reading against the procedure, the code edition and the owner's specification, and we do it remotely from the files you send. San Antonio has no Atlantis office; the nearest one is in Houston, about three hours east by road.",
+  "highlights": [
+    {
+      "h": "Built for people who sign off from a distance",
+      "p": "An engineer at a head office approving work done at a site two hundred miles away needs more than a contractor's summary. The review gives that engineer a second, independent reading of the evidence behind the summary."
+    },
+    {
+      "h": "Field data from wide-spread assets",
+      "p": "Gathering systems, compressor stations and transmission lines generate records from many crews and locations. We check that dig reports, weld records and thickness data reconcile with the segment and asset they claim to describe."
+    },
+    {
+      "h": "Generation assets during change",
+      "p": "Plants being converted, mothballed or returned to service lean on old inspection records. We test whether those records are complete and traceable enough to carry the decision being placed on them."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A city where reports are read, not written",
+      "p": [
+        "Valero Energy has its headquarters in San Antonio and runs refineries far from the city, so its engineering and reliability decisions are often taken on records assembled at distant sites. NuStar Energy, long headquartered in San Antonio, became part of Sunoco when that acquisition closed in May 2024, folding a large pipeline and terminal network into a new owner's integrity program. CPS Energy, the city-owned utility, operates generation in and around Bexar County and holds a 40 percent share of the South Texas Project nuclear plant near Bay City.",
+        "That pattern of decision-making away from the asset is exactly where independent review is most useful. A reliability manager in an office tower, a midstream integrity engineer reading dig packages from three counties, an owner's representative approving a contractor's close-out, a buyer's technical adviser checking an acquired system: each depends on a report written by someone they did not supervise. An independent reviewer who opens the underlying evidence closes some of that distance.",
+        "The city also has a busy aerospace maintenance cluster. Port San Antonio, on the former Kelly Air Force Base, lists Boeing, StandardAero and Chromalloy among its aviation tenants, with engine, component and airframe work feeding a steady flow of magnetic particle, penetrant and ultrasonic reports. Those reports are reviewed against the customer's specification and the approved data the repair cites, and any airworthiness release remains with the organisation that holds that authority."
+      ]
+    },
+    {
+      "h": "Eagle Ford gathering and transmission records",
+      "p": [
+        "The Railroad Commission of Texas describes the Eagle Ford Shale as a formation about 50 miles wide and 400 miles long, and lists among its affected counties Atascosa, Wilson, Karnes, Frio, McMullen and La Salle to the south and south-east of San Antonio. Production from those counties moves through gathering lines, central facilities, compressor and pump stations and onward to transmission systems bound for Gulf Coast refineries and export terminals. Each step creates inspection evidence: girth weld radiographs and DR images, automated UT on mainline welds, dig and recoat reports, hydrostatic test records, and thickness data on station piping.",
+        "Jurisdiction decides which rule set the record must meet. Interstate pipelines answer to PHMSA. Intrastate transmission and distribution lines, and gathering lines that are regulated, fall to the Railroad Commission's pipeline safety program, which adopts the federal minimum standards. A reviewer working on Eagle Ford records first establishes which regime applies to each segment, then checks the welding and examination records against API 1104 or the standard the operator's procedures cite, and the integrity records against 49 CFR Part 192 or Part 195.",
+        "Some Eagle Ford production carries hydrogen sulfide, and where an operator has designated a line or station for sour service the weld record must show more than soundness. Hardness surveys on welds and heat-affected zones, the material and consumable certificates that support them, and the limits the operator's specification draws from NACE MR0175/ISO 15156 all become part of what the reviewer checks. A clean radiograph on a weld whose hardness was never measured, or measured at the wrong locations, does not close the question the specification asks."
+      ]
+    },
+    {
+      "h": "Records we usually see from the San Antonio region",
+      "p": [
+        "The table maps the region's main asset groups to the records an independent review normally covers. Organisations are named only to make the groups recognisable; naming one does not mean Atlantis has reviewed its records or works for it."
+      ],
+      "table": {
+        "head": ["Asset group", "Examples connected to San Antonio", "Records and digital data a review usually opens"],
+        "rows": [
+          ["Corporate refining and reliability groups", "Valero headquarters engineering", "Turnaround packages sent from remote refineries, API 510 and API 570 reports, CML thickness histories, PAUT and TOFD files on repairs"],
+          ["Pipelines and terminals", "Sunoco, including the former NuStar network, and other midstream operators", "Girth weld radiographs and DR images, automated UT data, dig and recoat reports, tank inspection records to API 653"],
+          ["Eagle Ford gathering and stations", "Operators in Atascosa, Wilson, Karnes, Frio and neighbouring counties", "Station piping thickness data, MT and PT on compressor skids, weld maps, sour-service hardness logs, hydrotest charts"],
+          ["Power generation", "CPS Energy plants in Bexar County, including the Spruce units on Calaveras Lake", "Boiler tube thickness surveys, header and drum weld records, UT on high-energy piping, MT on fan and turbine support steel"],
+          ["Nuclear ownership interests", "CPS Energy's share in the South Texas Project", "Owner's independent second opinion on vendor NDT reports, within limits the licensee's QA organisation sets"],
+          ["Aerospace maintenance at Port San Antonio", "Engine and airframe MRO tenants at Kelly Field", "MT, PT and UT reports on parts and fixtures, read against the customer's specification and the approved data the repair cites"]
+        ]
+      }
+    },
+    {
+      "h": "Power generation in transition",
+      "p": [
+        "CPS Energy has said it is on schedule to end coal-fired production by 2028. Its two J.K. Spruce coal units on Calaveras Lake in south Bexar County produce more than 1,300 megawatts between them. Changes like that, whether a unit retires, converts to another fuel or is held in reserve, all draw heavily on inspection history. Boiler tube thickness surveys, records on headers, drums and high-energy piping, and weld records on any replacement or modification have to be trustworthy enough to carry a decision that may run for years.",
+        "Boilers in Texas operate under certificates issued by the Texas Department of Licensing and Regulation, with certificate inspections made by TDLR's inspectors or by authorized inspectors from authorized inspection agencies. A tube survey or drum report therefore serves the owner's engineering group and the inspector whose visit keeps the certificate valid. We check grid layout and coverage against the plan, the thickness instrument and calibration block, whether readings were taken through scale or oxide without correction, and whether the minimum wall cited comes from the right design basis. Where an assessment of remaining life is required, that work stays with the owner's engineer."
+      ]
+    },
+    {
+      "h": "Nuclear interests: what an owner's second opinion can be",
+      "p": [
+        "Because CPS Energy is a co-owner of the South Texas Project, San Antonio is one of the places where nuclear inspection results are read by people who are not the plant's licensee operator. STP Nuclear Operating Company runs the plant. Any review we provide in a nuclear context is an independent technical opinion, and the licensee's quality assurance organisation decides whether and how to use it.",
+        "Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and we do not suggest otherwise. Suitable scope includes non-safety-related NDT reports, vendor oversight on behalf of an owner, a second reading of a disputed result, and checks on balance-of-plant records. We claim no experience at any named nuclear plant."
+      ]
+    },
+    {
+      "h": "Typical review situations around San Antonio",
+      "list": [
+        "A head-office engineer asked to approve a remote refinery's turnaround inspection close-out without having seen the contractor's raw data.",
+        "A midstream operator integrating an acquired system and doubting whether the previous owner's weld and dig records are complete.",
+        "A pipeline construction spread whose girth weld acceptance has been challenged by the owner's inspector.",
+        "A generating unit moving to a new duty, where the owner wants a reading of its boiler and piping inspection history.",
+        "A shop or MRO business whose MT or PT report has been rejected by a customer and who wants to know whether the rejection stands.",
+        "A lender's or insurer's technical adviser who needs an opinion on inspection records before a transaction or claim decision."
+      ],
+      "p": [
+        "Most requests arrive as a question rather than a package. We first ask what decision the record supports and who must accept it, because that sets which of the checks carry the most weight."
+      ]
+    },
+    {
+      "h": "Digital inspection data across wide-spread assets",
+      "p": [
+        "When assets are scattered, digital reporting is what holds the record together. Pipeline operators keep weld and dig data in integrity databases; generating plants keep thickness grids and tube surveys in maintenance systems; MRO shops keep digital NDT reports tied to work orders. Each system makes it easy to issue a tidy report and just as easy for that report to lose its link to the raw file, the calibration it relied on or the person who interpreted it.",
+        "Our reviewers trace that lineage. We check that a DR image carries the identifiers of the weld it represents, that an automated UT file comes with its setup and calibration records, that thickness exports keep CML or grid references intact, that electronic signatures belong to qualified individuals, and that report revisions show what changed and why. Where systems from two owners have been merged after an acquisition, we look for records that were duplicated, orphaned or renamed in the process."
+      ]
+    },
+    {
+      "h": "How a remote review works from San Antonio",
+      "p": [
+        "San Antonio has no Atlantis office, so the review runs entirely on the documents and files you send by secure transfer. A useful package holds the report, the governing procedure and its revision, qualification records for the examiners, calibration certificates, the raw digital inspection data, and the acceptance criteria named in the contract or the operator's procedures.",
+        "We confirm the scope in writing before work starts, including exclusions. The reviewer then works through seven checks: procedure compliance; personnel qualification on the examination date; equipment and calibration; technique adequacy; correct acceptance criteria, code and edition; interpretation and sizing; and completeness and traceability. Each item ends as sound, deficient in documentation only, or deficient in disposition, and the written opinion ties every finding to the clause, procedure step or evidence concerned. We reply within one business day to a review request."
+      ]
+    },
+    {
+      "h": "Who reviews, and what stays with others",
+      "p": [
+        "Reviews in UT, RT, MT, PT and VT are led by an ASNT NDT Level III certified in all five of those methods. Team members come from nuclear, maritime, oil and gas and petrochemical backgrounds, a mix that suits a region whose records range from pipelines to power plants. For methods outside those five, such as eddy current or acoustic emission, the proposal names a reviewer holding the certification your contract requires.",
+        "Atlantis does not perform industrial radiography in Texas; radiographs and DR images from your licensed contractor are reviewed as documents. Fitness-for-service and remaining-life calculations stay with the owner's engineer. Atlantis does not act as inspector of record, Authorized Inspector or ANI, does not certify personnel, and does not review work it performed itself."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have staff in San Antonio?",
+      "a": "No. Atlantis's offices are in Houston and Hyderabad. San Antonio reviews are done remotely on the records and digital inspection data you send by secure transfer."
+    },
+    {
+      "q": "Can you review girth weld records from an Eagle Ford pipeline project?",
+      "a": "Yes. We check radiographs, DR images or automated UT data against the welding and examination procedures, API 1104 or the standard the operator cites, and the applicable 49 CFR part, and confirm that each record ties to the right weld and segment."
+    },
+    {
+      "q": "We acquired a pipeline system and doubt the seller's inspection records. What can you do?",
+      "a": "We can read a sample or the full set of inherited weld, dig and integrity records, flag gaps and inconsistencies, and separate documentation issues from findings that affect acceptance. Integrity assessments and remaining-life work stay with your engineers."
+    },
+    {
+      "q": "Can you review boiler tube surveys from a generating plant?",
+      "a": "Yes. The reviewer checks coverage against the inspection plan, the instrument and calibration, the handling of scale or oxide, the minimum wall basis, and how the report records locations so a later survey can be compared with it."
+    },
+    {
+      "q": "Can a co-owner of a nuclear plant ask you for a second opinion on NDT reports?",
+      "a": "An owner can ask for an independent technical opinion. Atlantis is not an Appendix B or NQA-1 approved supplier, so the licensee's QA organisation decides how the opinion may be used, and scope is usually non-safety-related or advisory."
+    },
+    {
+      "q": "Do you perform radiography for San Antonio projects?",
+      "a": "No. Atlantis performs no industrial radiography for San Antonio work or any other US project. What we do is review the radiographs, CR plates and DR images that your licensed radiography contractor produces, covering image quality, technique, coverage and interpretation."
+    },
+    {
+      "q": "Our MT report on aircraft parts was rejected by the customer. Can you look at it?",
+      "a": "Yes. The reviewer reads the report against the customer's specification and the procedure it cites, checking technique, equipment, indications and records, and gives an opinion on whether the rejection is supported."
+    },
+    {
+      "q": "How do we start a review?",
+      "a": "Send the report, procedure, qualification and calibration records, raw digital data and the acceptance criteria. Request a review and we will come back with scope and a quote."
+    }
+  ],
+  "related": [
+    ["/inspection-services-texas", "Inspection services in Texas"],
+    ["/consulting/ndt-consulting-san-antonio", "NDT consulting in San Antonio"],
+    ["/ndt-training-san-antonio", "NDT training in San Antonio"],
+    ["/ultrasonic-testing-san-antonio", "Ultrasonic testing in San Antonio"],
+    ["/consulting/level-iii-audit-support-pipeline", "Level III audit support for pipelines"],
+    ["/consulting/level-iii-audit-support-power-generation", "Level III audit support for power generation"],
+    ["/blog/pipeline-integrity-management-ili-dig-verification-and-api-1163-explained", "Pipeline integrity, ILI and dig verification"]
+  ],
+  "sources": [
+    "https://valero.com/about/offices",
+    "https://hartenergy.com/transactions/sunoco-completes-73b-nustar-energy-merger-209057",
+    "https://www.cpsenergy.com/en/about-us/programs-services/energy-generation.html",
+    "https://cpsenergy.com/en/about-us/programs-services/energy-generation/coal.html",
+    "https://stpnoc.com/",
+    "https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/eagle-ford-shale/",
+    "https://rrc.texas.gov/pipeline-safety",
+    "https://portsanantonio.us/aerospace",
+    "https://www.phmsa.dot.gov/about-phmsa/offices/southwest-region",
+    "https://www.tdlr.texas.gov/boilers/blrfaq.htm",
+    "https://www.dshs.texas.gov/radiation/industrial-radiographers/laws-rules.aspx"
+  ]
+}

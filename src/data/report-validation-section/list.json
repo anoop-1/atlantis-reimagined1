@@ -726,6 +726,75 @@
     "oil-gas",
     "power"
    ]
+  },
+  {
+   "slug": "freeport-tx",
+   "kind": "city",
+   "navLabel": "Report validation in Freeport, TX",
+   "place": "Freeport",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "petrochem",
+    "lng"
+   ]
+  },
+  {
+   "slug": "jeddah-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Jeddah, Saudi Arabia",
+   "place": "Jeddah",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "power",
+    "refinery",
+    "structural"
+   ]
+  },
+  {
+   "slug": "san-antonio-tx",
+   "kind": "city",
+   "navLabel": "Report validation in San Antonio, TX",
+   "place": "San Antonio",
+   "region": "Texas",
+   "country": "United States",
+   "label": "TX",
+   "industries": [
+    "oil-gas",
+    "pipeline",
+    "power"
+   ]
+  },
+  {
+   "slug": "mesaieed-qatar",
+   "kind": "city",
+   "navLabel": "Report validation in Mesaieed, Qatar",
+   "place": "Mesaieed",
+   "region": "Qatar",
+   "country": "Qatar",
+   "label": "Qatar",
+   "industries": [
+    "petrochem",
+    "refinery",
+    "oil-gas"
+   ]
+  },
+  {
+   "slug": "oklahoma-city-ok",
+   "kind": "city",
+   "navLabel": "Report validation in Oklahoma City, OK",
+   "place": "Oklahoma City",
+   "region": "Oklahoma",
+   "country": "United States",
+   "label": "OK",
+   "industries": [
+    "oil-gas",
+    "pipeline",
+    "power"
+   ]
   }
  ]
 }

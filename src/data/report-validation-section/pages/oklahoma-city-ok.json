@@ -1,0 +1,147 @@
+{
+  "title": "NDT Report Validation in Oklahoma City, OK | Report Review",
+  "description": "Remote, independent review of NDT reports and digital inspection data from central Oklahoma gathering systems, gas plants, power stations and fabricators.",
+  "h1": "Independent NDT data review for Oklahoma City and the central Oklahoma oil patch",
+  "eyebrow": "Report validation · Oklahoma City, Oklahoma",
+  "intro": "Oklahoma City is where many of the decisions about wells, gathering lines, compressor stations and gas-fired generation in the middle of the state are made, even when the equipment itself sits two counties away. Those decisions rest on inspection records written by contractors in the field. An independent report review tells the engineer, buyer or operator whether a record can carry the weight being put on it: whether the procedure was followed, the technician was qualified, the acceptance criteria were the right ones and the digital inspection data actually show what the summary claims. Atlantis does this remotely, on the files you send.",
+  "highlights": [
+    { "h": "Built for field records reviewed from an office", "p": "Engineering and integrity groups in the city often accept reports for assets they will never visit. A second reading of the raw files gives them evidence of their own before they sign off." },
+    { "h": "State and federal programs kept separate", "p": "An intrastate gathering line, an interstate transmission line and a plant pressure vessel can sit on adjoining land. The review records which program each report served before judging it." },
+    { "h": "A written opinion, not a tick sheet", "p": "Every finding names the code clause or procedure step behind it, the evidence we relied on and whether the problem is a paperwork gap or a disposition that the data do not support." }
+  ],
+  "sections": [
+    {
+      "h": "Why central Oklahoma records end up on a reviewer's desk",
+      "p": [
+        "The city's economy has been organised around exploration and production for more than a century, and the office towers downtown still hold the engineering, land, integrity and procurement staff who manage field operations across the Anadarko Basin. That is changing at the top. In February 2026 Devon Energy announced that its headquarters would move to Houston as part of its merger with Coterra Energy, and Expand Energy announced a Houston headquarters move a week later. Both companies said they would keep a significant presence in Oklahoma City, and Expand called the city an important centre of excellence for its operations.",
+        "Moves of that kind shuffle responsibility for records. Inspection files that one team accepted in Oklahoma City may now be audited by a different team in Texas, a buyer may be weighing a package of gathering assets, and contractors who have worked for one operator for years may suddenly be answering to a new specification. Each of those transitions raises the same question: which of the inspection records on file can be relied on as they stand, and which need correcting or repeating? An independent review answers it record by record."
+      ],
+      "list": [
+        "Operators and their engineering contractors accepting weld, thickness and integrity reports from field crews",
+        "Midstream companies running gathering systems, compressor stations and gas processing plants in the SCOOP and STACK",
+        "Power generation owners closing out construction and outage records",
+        "Fabricators of separators, compressor packages, skids and pressure vessels answering a buyer's questions about a data book",
+        "Buyers, lenders and insurers weighing the inspection history of an asset package",
+        "NDT contractors whose reports have been rejected and who want an outside reading before they respond"
+      ]
+    },
+    {
+      "h": "Gathering systems and gas plants in the SCOOP and STACK",
+      "p": [
+        "The SCOOP and STACK plays of the Anadarko Basin, south and northwest of the city, are threaded with gathering pipelines that carry gas from well pads to compressor stations and processing plants. The records these systems generate are a mix: radiographic or ultrasonic examination of girth welds on new lines and tie-ins, thickness surveys on station piping and pressure vessels, magnetic particle and penetrant checks on compressor skid welds, and dig reports where an older line has been exposed to look at external corrosion.",
+        "Oversight depends on where the pipe sits in the system. The Oklahoma Corporation Commission's Pipeline Safety Department administers the state's intrastate program under certification agreements with the U.S. Department of Transportation, covering more than 258 intrastate gathering, transmission, underground gas storage and distribution operators and 33 intrastate hazardous liquid operators, roughly fifty thousand miles of pipe in all. The Commission's rules sit in Chapter 20 of Title 165 of the Oklahoma Administrative Code. Lines that cross state borders answer to PHMSA under 49 CFR Parts 192 and 195. A review of a gathering line report starts by confirming which of those regimes, if either, applied to the segment, because the documentation an auditor expects depends on the answer.",
+        "Inside a gas processing plant the record set changes again. Inlet separators, amine contactors, dehydration vessels, heat exchangers and process piping are inspected under the pressure vessel and piping standards the owner's mechanical integrity program invokes, usually API 510 and API 570, and a plant covered by OSHA's process safety management standard must document each inspection with its date, inspector, equipment and results. The reviewer checks thickness data against previous surveys, looks at whether the examination technique could actually detect the damage mechanism the program targets, and confirms that every reported indication was dispositioned against the acceptance criteria the procedure named."
+      ]
+    },
+    {
+      "h": "Gas-fired generation around the metro",
+      "p": [
+        "Two Oklahoma Gas and Electric stations show how much construction and outage work the area's power fleet produces. At the Mustang Energy Center, on the site of a plant first built in 1950 on the city's western edge, OG&E installed seven Siemens gas-fired units of about 66 MW each. At Horseshoe Lake in Harrah, east of the city, the company has added two GE Vernova 7FA.05 simple-cycle combustion turbines, Units 11 and 12, totalling about 448 MW; in September 2026 Unit 11 was reported to have passed its performance tests and to be due in service in October, six months ahead of schedule.",
+        "Projects like these leave behind thick construction turnover packages: welding and NDT records for fuel gas piping, lube oil and water systems, pressure vessel and heat exchanger data books from suppliers, and boiler and pressure vessel certificates where the equipment falls under state law. Outages on older steam units add tube thickness surveys, header and attachment weld examinations and piping inspections under ASME B31.1. A review of a power turnover package concentrates on traceability, because weld maps, NDT logs and isometrics revised during construction are the commonest source of gaps.",
+        "For a combustion turbine project, the most useful review often happens before the package is closed out, while the construction contractor is still on site to answer questions. A reviewer working through the NDT records in parallel with the owner's quality team can flag missing examination extents or unresolved indications while correcting them is still straightforward."
+      ]
+    },
+    {
+      "h": "Boilers and pressure vessels under Oklahoma law",
+      "p": [
+        "Oklahoma's boiler and pressure vessel statute, administered by the Department of Labor, sets inspection intervals that shape what a plant's inspection file must contain. The table summarises the parts of the statute that most often bear on a report review; the technical acceptance of each examination still comes from the construction or in-service code, and certificate decisions stay with the authorized inspector."
+      ],
+      "table": {
+        "head": ["Equipment or situation", "What the statute requires", "What the reviewer checks in the record"],
+        "rows": [
+          ["Power boilers and high-temperature water boilers", "An internal inspection every year where construction allows, plus a yearly external inspection, preferably under pressure", "That tube and header NDT supporting the internal inspection covers the areas the inspection plan names"],
+          ["Pressure vessels subject to internal corrosion, and waste heat steam generators", "Internal inspection every three years where construction allows; vessels inspected under the API code are excluded from that interval", "Whether the vessel was inspected under the API route or the statutory interval, and whether the NDT record matches that route"],
+          ["Owner-user inspection programs", "Allowed where the program is established, supervised by people the Commissioner approves, and follows the National Board Inspection Code or the API code", "That the program's own procedures were applied, and that the people signing were the ones the program authorises"],
+          ["Hydrostatic tests the inspector calls for", "Performed by the owner, user or a licensed representative and witnessed by an authorized inspector", "Test pressure, gauge identity and calibration, hold time and the witness record"],
+          ["New boilers and vessels built out of state", "Inspected during construction by an inspector holding a valid National Board commission", "That the manufacturer's data report, NDT records and nameplate identifiers agree"]
+        ]
+      }
+    },
+    {
+      "h": "Radiographs from contractors working under reciprocity",
+      "p": [
+        "Oklahoma is an NRC Agreement State, and radioactive materials licensing, including industrial radiography, is handled by the Radiation Management Section in the Department of Environmental Quality's Land Protection Division. A radiography company licensed by the NRC or another Agreement State can work in Oklahoma under reciprocity, but it must file a report of proposed activities with the Department at least three days before starting, and reciprocity activities are limited to 180 days in a calendar year.",
+        "That matters to a reviewer for a simple reason: crews on central Oklahoma pipeline and plant work often come from Texas or other neighbouring states, and their radiographs arrive in the owner's file alongside reports from Oklahoma-licensed firms. Atlantis does not perform industrial radiography in the United States, here or elsewhere. What we do is read the film and the computed or digital radiography images the owner's licensed contractor produced, checking image quality indicators, density or signal-to-noise values, identification and location markers, coverage and the interpretation recorded against each weld. Licensing compliance itself stays between the contractor and the state."
+      ]
+    },
+    {
+      "h": "Vendor packages from oilfield fabricators",
+      "p": [
+        "Shops across the metro build separators, heater treaters, compressor packages, pig launchers and process skids for the operators who work the basin. Each unit leaves with a data book, and the NDT pages are where buyers' inspectors most often find a reason to hold a shipment. Pressure vessels built to ASME Section VIII carry radiography or ultrasonic records for the required examination extent; skid piping built to ASME B31.3 carries the percentage of welds examined under the specified fluid service category; structural frames may carry visual and magnetic particle reports to AWS D1.1.",
+        "A pre-shipment review cross-checks the weld map against the NDT log, the welder identifications against the welding procedure qualification records listed on the traveller, and each examination report against the acceptance criteria of the code edition named on the purchase order. Material heat numbers are traced from the map to the mill certificates. The fabricator learns, while the unit is still in the shop, whether the package will survive the receiving inspector.",
+        "The aerospace supply chain around Tinker Air Force Base, home to the Oklahoma City Air Logistics Complex and its depot maintenance of aircraft and jet engines, also produces NDT records from commercial suppliers. Where such a record is sent for review, it is read against the customer's specification and procedure named on the order; airworthiness decisions are never part of the opinion."
+      ]
+    },
+    {
+      "h": "Digital inspection data from the field",
+      "p": [
+        "Much of what crews in central Oklahoma produce never exists on paper until somebody prints it. Thickness gauges download straight into inspection databases, encoded ultrasonic scanners record full weld volumes, computed and digital radiography systems replace film, and dig crews key measurements into tablets that feed a digital reporting platform. That makes review faster in one sense, because the evidence can be reopened, and harder in another, because a digital report can look complete while the data behind it are not.",
+        "Our NDT data review follows a sample of results from the instrument file to the issued report and on to the value the owner's system holds. It asks whether readings were imported in the right units and assigned to the right condition monitoring locations, whether scan files came from a setup that matches the qualified procedure, whether a template carried values forward from an earlier job, and whether the person whose electronic signature appears on a report held the qualification the procedure required on that date. Where the original acquisition software is needed to reconstruct a measurement, the opinion says whether that was possible, so the owner knows which records can still be tested later."
+      ]
+    },
+    {
+      "h": "Common reasons Oklahoma City clients ask for a review",
+      "p": [
+        "The purpose of the review decides where the reviewer looks hardest. The table pairs the situations we see most often with the first evidence opened and the decision that remains with someone else."
+      ],
+      "table": {
+        "head": ["Situation", "First evidence opened", "Decision that stays with the owner's people"],
+        "rows": [
+          ["Gathering asset sale or acquisition", "Girth weld records, dig reports and station thickness histories for a sample of segments", "Valuation, and any re-inspection the buyer requires"],
+          ["Combustion turbine construction turnover", "Weld maps, NDT logs and supplier data books against the latest isometrics", "Acceptance of the package and release for operation"],
+          ["Rejected contractor report", "The procedure, the raw data and the client's written reasons for rejection", "Whether the client accepts the contractor's answer"],
+          ["Gas plant thickness program audit", "Survey files for several cycles at the same locations", "Corrosion allowance, intervals and any engineering assessment"],
+          ["Vendor data book hold at a fabrication shop", "Examination extent, acceptance criteria and traceability for each pressure weld", "Release of the shipment"],
+          ["Migration to a new digital reporting system", "A traced sample of legacy records before and after import", "System configuration and records retention policy"]
+        ]
+      }
+    },
+    {
+      "h": "How the remote review works, and where it stops",
+      "p": [
+        "There is no Atlantis office anywhere in Oklahoma. The review is performed remotely by people working from Houston and Hyderabad, using the reports and digital inspection data you transfer through a secure link. Tell us what the record covers, the code, specification and procedure that governed it, and the decision it must support; we reply within one business day with a proposed scope and a quote. The work then runs through seven checks: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability.",
+        "Each opinion reaches one of three verdicts: sound, deficient in documentation only, or deficient in disposition. Ultrasonic, radiographic, magnetic particle, penetrant and visual records are reviewed under an ASNT NDT Level III whose certification spans exactly those five methods. Where a package also contains eddy current or another method, the proposal names a reviewer holding whatever certification your contract requires. Team members come from nuclear, maritime, oil and gas and petrochemical work, which helps when the same record has to satisfy an operator, a buyer and a contractor."
+      ],
+      "list": [
+        "Fitness-for-service and remaining-strength assessments stay with the owner's engineer",
+        "The authorized inspector, inspector of record or owner-user program keeps its signing role",
+        "Personnel are not certified through the review; it reports whether the certificates on file covered the work",
+        "Atlantis does not review reports from projects where it carried out the examination"
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Does a reviewer need to visit our Oklahoma City office or field sites?", "a": "No. Atlantis keeps no premises in Oklahoma, and the review is carried out remotely from Houston and Hyderabad on the files you send. If the record cannot support the decision you need, the opinion explains what further examination in the field would settle the question." },
+    { "q": "Can you review gathering line weld and dig reports?", "a": "Yes. We read girth weld examination records against the operator's specification and the standard it invokes, and dig reports against the operator's procedures, after confirming whether the segment fell under the Corporation Commission's intrastate program, PHMSA or neither." },
+    { "q": "Do you look at construction records for gas turbine projects?", "a": "Yes. Weld maps, NDT logs, piping isometrics and supplier data books are cross-checked for examination extent, acceptance criteria and traceability, ideally while the construction contractor is still available to answer questions." },
+    { "q": "Our radiography contractor came from out of state. Can you still review the images?", "a": "Yes. We review film and CR or DR images from any licensed contractor for image quality, identification, coverage and interpretation. Atlantis does not perform industrial radiography in the United States, and the contractor's reciprocity filing with the state remains its own responsibility." },
+    { "q": "Which Oklahoma rules does the review take into account?", "a": "The construction or in-service code first, then the program the record served: the Department of Labor's boiler and pressure vessel statute and owner-user programs, the Corporation Commission's pipeline safety rules, PHMSA for interstate lines and OSHA process safety management for covered plants." },
+    { "q": "Can you check digital inspection data before we load it into a new system?", "a": "Yes. We trace a sample of records from the original instrument files through the contractor's digital reports to the values you intend to import, and report units errors, misassigned locations, carried-forward template fields and unverifiable signatures." },
+    { "q": "Who reviews eddy current tube data from exchangers and air coolers?", "a": "The proposal names a reviewer holding the eddy current certification your contract specifies before any data are sent. The UT, RT, MT, PT and VT records in the same package are reviewed under our Level III in those methods." },
+    { "q": "How do we start a review from Oklahoma City?", "a": "Use the form on this page or email info@atlantisndt.com with the report type, method, governing code or specification and what the review must support. We reply within one business day with the scope and a quote, and the files then come to us by secure transfer." }
+  ],
+  "related": [
+    ["/inspection-services-oklahoma", "NDT inspection services in Oklahoma"],
+    ["/ndt-training-oklahoma-city", "NDT training in Oklahoma City"],
+    ["/consulting/ndt-consulting-oklahoma-city", "NDT consulting in Oklahoma City"],
+    ["/ultrasonic-testing-oklahoma-city", "Ultrasonic testing in Oklahoma City"],
+    ["/consulting/level-iii-audit-support-pipeline", "Level III audit support for pipeline programs"],
+    ["/report-validation/pipeline-girth-weld-report-review", "Pipeline girth weld report review"]
+  ],
+  "sources": [
+    "https://www.kgou.org/business-and-economy/2026-02-02/devon-energy-plans-to-move-headquarters-to-houston-in-massive-merger",
+    "https://okbusinessvoice.com/2026/02/09/expand-energy-to-relocate-hq-to-houston-okc-remains-operations-hub/",
+    "https://www.okenergytoday.com/2026/02/expand-energy-also-moving-headquarters-out-of-okc-to-houston",
+    "https://oklahoma.gov/occ/divisions/transportation/pipeline-safety.html",
+    "https://regulations.justia.com/states/oklahoma/title-165/chapter-20/",
+    "https://rbnenergy.com/daily-posts/blog/there-enough-natural-gas-processing-capacity-scoop-and-stack-part-4",
+    "https://www.power-eng.com/gas/og-e-completes-new-gas-units-at-mustang-energy-center/",
+    "https://www.power-eng.com/gas/turbines/oges-new-gas-unit-at-horseshoe-lake-plant-is-ready-for-operation-six-months-ahead-of-schedule/",
+    "https://www.gem.wiki/Horseshoe_Lake_power_station",
+    "https://law.justia.com/codes/oklahoma/title-40/section-40-141-13/",
+    "https://oklahoma.gov/content/dam/ok/en/deq/documents/land-division/DEQ-FORM-410-241-RAM-Reciprocity-1.pdf",
+    "https://www.nrc.gov/agreement-states/oklahoma.html",
+    "https://www.tinker.af.mil/Units/Oklahoma-City-Air-Logistics-Complex",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+  ]
+}

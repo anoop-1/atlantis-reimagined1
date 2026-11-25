@@ -1,0 +1,143 @@
+{
+  "title": "NDT Report Validation in Jeddah, Saudi Arabia | Report Review",
+  "description": "Independent review of NDT reports and digital inspection data from Jeddah's fuel terminals, Red Sea power plants and steel construction, done remotely.",
+  "h1": "Independent review of NDT reports from Jeddah's terminals, coastal power plants and steel construction",
+  "eyebrow": "Report validation · Jeddah, Saudi Arabia",
+  "intro": "Jeddah no longer refines crude, but it still stores and moves fuel for the western region, draws power and water from large plants along the Red Sea coast, and builds at a scale few cities match. Each of those activities produces NDT reports: tank and piping surveys at the distribution hub, boiler and condenser data from the coastal plants, weld records from fabricators in the city's three industrial cities and from high-rise and infrastructure projects. We read those reports and the digital inspection data behind them as an independent reviewer, against the code, the procedure and the owner's specification. Atlantis has no Jeddah office; every review is done remotely from the records you send.",
+  "highlights": [
+    {"h": "Storage and distribution records", "p": "Tank floor scans, shell thickness surveys and piping circuit reports from a former refinery site now run as a fuel distribution hub, checked against API 653, API 570 and the operator's standards."},
+    {"h": "Coastal power and water plants", "p": "Heat recovery steam generator tube surveys and outage weld reports from a combined-cycle plant to the north, and high-pressure piping and vessel records from a reverse osmosis desalination plant to the south."},
+    {"h": "Structural and fabrication weld records", "p": "UT, MT and VT reports on structural steel, pressure equipment built in Jeddah's industrial cities and modules shipped to sites elsewhere in the Kingdom."}
+  ],
+  "sections": [
+    {
+      "h": "A city that stores, supplies and builds",
+      "p": [
+        "Most of Saudi Arabia's heavy process industry sits in Jubail, Ras Tanura and Yanbu. Jeddah's inspection work has a different shape. It is a supply and distribution city, home to Jeddah Islamic Port, whose 54 berths handle containers, general cargo and bulk, and a construction market with towers, stadiums, housing and transport projects under way at the same time. Its industrial base is spread across three industrial cities supervised by MODON, the Saudi Authority for Industrial Cities and Technology Zones, all to the south of the governorate.",
+        "For a report reviewer that variety matters more than scale. A request from Jeddah may concern a fuel tank, a heat recovery steam generator, a structural connection on a high-rise or a pressure vessel leaving a fabrication shop. The codes differ, the readers of the report differ, and the questions behind the request differ. One review method covers all of them, but the checks are weighted differently for each record, and the written opinion says which requirement each finding is measured against."
+      ]
+    },
+    {
+      "h": "From refinery to distribution hub: what the records now have to show",
+      "p": [
+        "Aramco's Jeddah refinery started operating in 1967 and produced about 80,000 barrels a day before it was shut in late 2017. The company said at the time that refining would end at the complex south of the city and that the site would become a hub for oil products distribution, with western demand supplied from Yanbu and Rabigh and new product pipelines running from Yanbu to Jeddah. It also announced an expansion of the North Jeddah distribution plant.",
+        "A change of duty on that scale leaves a particular inspection history. Tanks once in crude or intermediate service now hold finished products; piping that carried hot process streams may now run at ambient temperature; some equipment has been isolated or retired, and some has been put back into use. Each of those decisions rests on reports, and each report has to show that the examination matched the equipment's current duty, not the one it had when the baseline was taken.",
+        "When we review a record from a converted site, three questions come first. Is the baseline comparable with the current survey, in method, grid and reference points? Does the report apply the acceptance criteria for the present service? And has every change of service been recorded so that a later reader can follow the history without guessing? Gaps are reported as findings, because an owner relying on a converted asset needs to know where the record is thin."
+      ]
+    },
+    {
+      "h": "Power and water plants along the Red Sea coast",
+      "p": [
+        "Jeddah's electricity and much of its drinking water come from large thermal and desalination plants on the coast. Two independent projects frame the area well, one to the north and one to the south. The table describes the plants and the records they generate; it is not a list of clients, and Atlantis claims no work at either."
+      ],
+      "table": {
+        "head": ["Plant", "Location and design", "Records that reach review"],
+        "rows": [
+          ["Rabigh 2 combined cycle", "About 130 km north of Jeddah, beside Rabigh 1; 2,060 MW in three combined-cycle blocks, operating since early 2018; developed by MEPCO, a joint venture of Saudi Electricity Company and an ACWA Power-led consortium, and operated by NOMAC", "HRSG tube thickness surveys, pressure part weld reports from outages, steam piping and turbine casing examinations, condenser tube data"],
+          ["Shuaibah 3 independent water project", "About 90 km south of Jeddah; a seawater reverse osmosis plant of 600,000 cubic metres a day, partly solar powered, built by an ACWA Power-led company to replace the oil-fired Shuaibah plant that combined 900 MW of power with thermal desalination", "High-pressure duplex and super duplex pipe weld reports, pressure vessel and membrane housing examinations, pump and intake corrosion surveys, records from the older plant's retirement"],
+          ["Reverse osmosis and thermal desalination near the city", "Several plants owned or contracted by the national water authorities supply Jeddah", "High-pressure pipe weld reports, stainless and duplex weld examinations, thickness surveys on brine and intake lines"]
+        ]
+      },
+      "list": [
+        "Boiler and HRSG reports: tube wall loss, dissimilar metal welds and header attachments, usually examined during short outages under time pressure.",
+        "Condenser and exchanger tube data: eddy current or IRIS files, where the reviewer checks the calibration standard, the channel set-up and the call criteria.",
+        "Desalination piping: corrosion under seawater conditions, weld root problems in stainless and duplex lines, and thickness histories on intake structures."
+      ]
+    },
+    {
+      "h": "Structural steel, high-rise construction and the industrial cities",
+      "p": [
+        "Jeddah builds in steel and concrete at an unusual scale. Jeddah Economic Company said in October 2026 that Jeddah Tower had passed 116 of its planned 157 floors in September, with completion targeted for late 2028 and Saudi Binladin Group as the construction contractor. Around it sit stadium, transport, housing and waterfront projects, each with its own steel package and its own weld inspection records.",
+        "Behind the construction sites are the fabricators. MODON lists three industrial cities in Jeddah: the first, opened in 1971 with more than a thousand factories; the second, opened in 2009 west of the Coastal Road; and the third, opened in 2012 east of the same road and now home to several hundred factories. Among their tenants are steel fabricators, tank and vessel shops and pipe spool workshops whose reports travel with their products to sites across the Kingdom.",
+        "Structural weld records in Saudi Arabia are usually read against SBC 306, the Saudi Building Code volume on steel structures, together with AWS D1.1 or the project's own specification. A reviewer asks whether the inspection category matches the connection, whether UT of complete-penetration joints followed a qualified procedure, whether MT covered the toe and the weld face, and whether the report names the drawing revision it was examined against. Fabrication shop records add material traceability and welder identification, which a later owner often needs and rarely receives in full."
+      ]
+    },
+    {
+      "h": "Specifications, codes and licences that shape a Jeddah report",
+      "p": [
+        "Work on Aramco facilities in Jeddah is written to Saudi Aramco Engineering Standards, the SAES series, which call up ASME Section V for technique and API 510, API 570 and API 653 for in-service equipment, and frequently go further than the international code. Power and water plants follow their owners' technical specifications and the equipment manufacturers' requirements. Construction follows the Saudi Building Code and the project specification. A review is only as good as the requirement it is read against, so we ask for the specification set named in your contract before we open the report.",
+        "Radiation practices in Saudi Arabia are regulated by the Nuclear and Radiological Regulatory Commission, set up in 2018, which issues the licences that radiography contractors work under. Film, CR and DR images from Jeddah projects should therefore trace back to a licensed radiography contractor. Atlantis does not carry out radiography in Saudi Arabia; we review the images and reports your licensed contractor produced, as documents."
+      ]
+    },
+    {
+      "h": "Seven checks, applied to three typical Jeddah records",
+      "p": [
+        "Every review runs the same seven checks. What changes from one record to the next is where the weak points usually are. The table shows how the checks land on three records we see often from the Jeddah area."
+      ],
+      "table": {
+        "head": ["Check", "Product tank at a distribution site", "HRSG outage report", "Structural weld report"],
+        "rows": [
+          ["Procedure compliance", "MFL floor scan and shell UT done to the approved procedure and grid", "Tube UT procedure suited to small-bore, high-temperature tubing", "UT technique qualified for the joint geometry and thickness"],
+          ["Personnel on the date of work", "Certificates valid for the method and level when the scan ran", "Outage crews often change; each signature checked against its certificate", "Shop and site technicians both traceable"],
+          ["Equipment and calibration", "Scanner sensitivity check and prove-up records", "Gauge calibration on tubes of the right material", "Reference block, DAC or TCG recorded"],
+          ["Technique adequacy", "Coverage of floor edges and sump areas", "Access limits stated, not hidden", "Scanning both sides where the code asks"],
+          ["Acceptance criteria", "Current service and correct API 653 table", "Owner's retirement thickness, not a generic value", "SBC 306, AWS D1.1 or project table, with edition"],
+          ["Interpretation and sizing", "Indications proved up and sized before disposition", "Wall loss trended against previous outages", "Length and depth sizing consistent with the method"],
+          ["Completeness and traceability", "Tank number, drawing and survey date line up", "Tube map references match the plant's numbering", "Weld map, drawing revision and heat numbers present"]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data from Jeddah projects",
+      "p": [
+        "Very little arrives as paper any more. Tank floor scanners export colour maps and indication tables, phased array instruments store encoded scans, DR panels produce image files with their own processing history, and eddy current units save full channel data. Many contractors then pass all of it through a digital reporting platform that turns raw files into a formatted report with electronic signatures.",
+        "Our review starts with the raw files where they exist and compares them with the digital report that summarises them. We check that the file names, dates and instrument serial numbers match the report, that the analysis settings are those the procedure allows, that the digital images have not been processed beyond what the standard permits, and that the electronic signatures belong to people qualified on the date of work. Where a project uses a reporting template from another country or another client, we check that the template's acceptance fields were changed to the Jeddah job's requirements.",
+        "Data lineage is often the weak link. A report produced months after the scan, by someone who did not perform it, can still be valid, but the record has to show who analysed which file and when. Where it does not, the opinion says so plainly."
+      ]
+    },
+    {
+      "h": "Why owners, contractors and lenders in Jeddah ask for an independent review",
+      "list": [
+        "A distribution site wants an outside reading of tank and piping histories before deciding whether converted equipment can stay in service on its present interval.",
+        "A power or water plant has an outage report that disagrees with the previous outage's findings and wants to know which one the evidence supports.",
+        "A fabricator in one of the industrial cities has had a data book rejected at receipt and needs to know whether the problem is the examination or the paperwork.",
+        "A construction client has received structural weld reports from several subcontractors and wants a consistent check across them before handover.",
+        "A buyer, insurer or lender is looking at an asset in the region and wants an independent view of what the inspection record will and will not support."
+      ],
+      "p": [
+        "In each case the output is the same kind of document: a written opinion that lists every finding, ties it to the clause or procedure step behind it, and gives one of three verdicts. A report can be sound; it can be deficient in documentation only, where the examination was adequate but the record does not prove it; or it can be deficient in disposition, where the accept or reject decision is not supported by the evidence."
+      ]
+    },
+    {
+      "h": "How a remote review runs from Jeddah, and who does it",
+      "p": [
+        "You send the reports and data through a secure transfer, with the procedure, the specification and a short note on the decision that depends on the review. We confirm the scope in writing before anything is opened. The review itself is done from Houston and Hyderabad, the two cities where Atlantis has offices; we keep no Jeddah office, team or agent, and nothing in the work requires a site visit. If a finding needs a field check, the opinion says what should be checked and by whom, and your own inspectors or contractor carry it out.",
+        "Reviews in UT, RT, MT, PT and VT are led by an ASNT NDT Level III certified in those five methods. Members of the wider review team come from nuclear, maritime, oil and gas and petrochemical work, which helps when a Jeddah record mixes power plant, storage and structural content. For eddy current, IRIS or other methods outside those five, the proposal names a reviewer holding the certification the contract asks for.",
+        "Some decisions stay with others. Fitness-for-service and remaining-life calculations stay with your engineer. Atlantis does not act as inspector of record and does not certify your personnel. We do not review reports for work Atlantis performed, so the opinion has no stake in the verdict. To start, send the report or a description of it; we reply within one business day, setting out the scope and a quote for the Jeddah records."
+      ]
+    }
+  ],
+  "faqs": [
+    {"q": "Does Atlantis have an office or team in Jeddah?", "a": "No. Atlantis has offices in Houston and Hyderabad only. Reviews of Jeddah reports are done remotely from the records you transfer, and no site visit is needed for the review itself."},
+    {"q": "The Jeddah refinery closed in 2017. Why would its site still need report reviews?", "a": "Because the complex continued as an oil products distribution hub. Tanks and piping that changed duty need inspection records that show the examination suited the present service, and owners often want an outside reading of those histories before setting intervals or reusing equipment."},
+    {"q": "Can you review reports written to Saudi Aramco Engineering Standards?", "a": "Yes. Send the SAES documents your contract names together with the report. Where the standard goes beyond ASME or API, the opinion reads the report against the standard and quotes the requirement behind each finding."},
+    {"q": "Do you review boiler and HRSG reports from the coastal power plants?", "a": "Yes. Tube thickness surveys, pressure part weld reports and steam piping examinations are common requests. We check the technique for the tube material and temperature, the retirement criteria used and whether wall loss is trended correctly against earlier outages."},
+    {"q": "Can you review eddy current condenser data from a desalination or power plant?", "a": "Yes. Reviews of eddy current and IRIS data are scoped individually, and the proposal names a reviewer with the certification your contract requires for that method. We check calibration standards, channel set-up, call criteria and the tube map."},
+    {"q": "Which code do you use for structural weld reports from Jeddah construction projects?", "a": "Whichever the project specification names, usually SBC 306 together with AWS D1.1 or a client standard. The opinion states the code and edition each finding is measured against."},
+    {"q": "Will you carry out radiography in Jeddah?", "a": "No. Radiography in Saudi Arabia is done by contractors licensed by the Nuclear and Radiological Regulatory Commission. We review the film, CR and DR images and the reports they produce, as documents."},
+    {"q": "Can the review include a remaining-life assessment?", "a": "No. Fitness-for-service and remaining-life work stays with your engineer. Our opinion tells that engineer which thickness, flaw and sizing data in the report can be relied on."},
+    {"q": "How do I start a review?", "a": "Send the report, the procedure and the specification, or describe them in the enquiry form, with a note on the decision the review supports. We reply within one business day, and the reply carries the proposed scope and a quote."}
+  ],
+  "related": [
+    ["/report-validation/api-510-570-653-report-review", "API 510, 570 and 653 report review"],
+    ["/report-validation/ultrasonic-thickness-report-review", "UT thickness report review"],
+    ["/consulting/ndt-consulting-level-iii", "ASNT Level III consulting"],
+    ["/practical-ndt-jeddah", "Practical NDT simulator in Jeddah"],
+    ["/practical-ndt-rabigh", "Practical NDT simulator in Rabigh"]
+  ],
+  "sources": [
+    "https://english.aawsat.com/home/article/1089666/saudi-aramco-converts-jeddah-refinery-distribution-hub-after-50-years",
+    "https://ogj.com/articles/2017/11/aramco-shutters-plans-to-convert-jiddah-refinery-into-terminal.html",
+    "https://www.power-technology.com/projects/rabigh-2-combined-cycle-power-plant/",
+    "https://www.industrialinfo.com/news/article/saudi-arabias-shuaibah-independent-water-and-power-plant-attains-100-production--149268",
+    "https://www.zawya.com/en/projects/utilities/saudi-mega-conversion-project-shuaibah-3-iwpp-to-transform-into-energy-efficient-reverse-osmosis-plant-in-800mln-deal-ju0l27eh",
+    "https://acwapower.com/en/what-we-do/projects/shuaibah-3-iwp/",
+    "https://acwapower.com/en/what-we-do/projects/rabigh-2-ipp/",
+    "https://gulfnews.com/business/property/jeddah-tower-crosses-116-floors-completion-timeline-moves-1.500699924",
+    "https://saudipedia.com/en/list-of-industrial-cities-in-jeddah",
+    "https://dlca.logcluster.org/node/1913",
+    "https://info.cype.com/en/codes/sbc-306-cr-2018/",
+    "https://saudipedia.com/en/article/324/government-and-politics/commissions/nuclear-and-radiological-regulatory-commission",
+    "https://www.element.com/-/media/files/accreditations/middleeast/jeddah/jeddah-radiation-practice-license.pdf"
+  ]
+}

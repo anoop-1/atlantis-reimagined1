@@ -1,0 +1,161 @@
+{
+  "title": "NDT Report Validation in Freeport, TX | Brazosport Review",
+  "description": "Independent review of NDT reports and digital inspection data from Freeport chemical complexes, the Quintana Island LNG terminal and Brazoria County pipelines.",
+  "h1": "Independent review of inspection records from Freeport, Quintana Island and the Brazosport chemical belt",
+  "eyebrow": "Report validation: Freeport, Texas",
+  "intro": "Freeport is a small city with an outsized inspection workload. Within a few miles of the Brazos River mouth sit Dow's largest integrated site, a BASF Verbund site, Olin's chlor-alkali plant, an LNG export terminal on Quintana Island, NGL and LPG facilities tied to the Sweeny hub and a deep-water port. Every one of them generates weld records, thickness surveys, exchanger data and close-out packages that someone must accept. We give those records an independent reading against the procedure, the code edition and the owner's specification, working remotely from the files you send. Freeport has no Atlantis office; the nearest is in Houston, about an hour north.",
+  "highlights": [
+    {
+      "h": "Chemical service, not just hydrocarbons",
+      "p": "Chlorine, caustic, vinyl chloride, glycols and specialty intermediates change what an inspection record has to prove. The reviewer reads each report with the process stream, the alloy and the owner's damage mechanism review in mind."
+    },
+    {
+      "h": "Cryogenic and stainless weld records",
+      "p": "LNG and NGL work leaves long trails of austenitic stainless and low-temperature carbon steel welds. We check PT, UT and digital radiographic images on those welds against the design code and the project specification, joint by joint where the scope calls for it."
+    },
+    {
+      "h": "One written opinion per question",
+      "p": "Whether the question is one rejected weld map or a whole outage package, the output is a written opinion that ties every finding to a clause, a procedure step or a missing piece of evidence."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Why Freeport produces so many records worth a second look",
+      "p": [
+        "Dow describes Texas Operations, spread over about 7,000 acres around Freeport, as its largest integrated site, and says the site makes around 44 percent of the products Dow sells in the United States. BASF's Freeport site, founded in 1958, is one of the company's six Verbund sites worldwide, with 26 plants on roughly 575 acres. Olin runs a chlor-alkali plant in Freeport that lists chlorine, caustic soda, ethylene dichloride, vinyl chloride monomer and hydrochloric acid among its products. Freeport LNG operates three liquefaction trains on Quintana Island, the third of which entered commercial service in 2020. A short drive inland, Phillips 66 runs its Sweeny refinery and NGL fractionation hub near Old Ocean and ships LPG through its Freeport export terminal.",
+        "Put those operations next to each other and the reason for independent review becomes obvious. Several owners, dozens of inspection and construction contractors, and a large share of shared pipe racks, docks and utilities mean that inspection evidence regularly passes between organisations that did not produce it. A plant engineer accepting a contractor's survey, a terminal buying product through a neighbour's pipeline, a fabricator delivering a module to a Freeport site and a lender reading the inspection history of a new unit all face the same problem: the report looks complete, and they need to know whether it is."
+      ]
+    },
+    {
+      "h": "Records that typically come to us from Brazoria County",
+      "p": [
+        "The table links the main kinds of Freeport-area assets to the records an independent reviewer usually opens. The operators listed are named to make the clusters recognisable. Naming a site here does not mean Atlantis has reviewed its records or works for it."
+      ],
+      "table": {
+        "head": ["Asset group", "Examples in and around Freeport", "Records and digital inspection data a review usually covers"],
+        "rows": [
+          ["Integrated chemical complexes", "Dow Texas Operations, BASF Freeport", "API 510 vessel and API 570 piping reports, CML thickness histories, PAUT and TOFD files on repair welds, PT on austenitic and nickel alloy welds, exchanger tube data"],
+          ["Chlor-alkali and vinyls", "Olin Freeport", "Thickness and corrosion mapping on equipment in wet chlorine and caustic service, weld records on lined and alloy piping, MT and VT on structural supports"],
+          ["LNG liquefaction and storage", "Freeport LNG on Quintana Island", "Weld records on stainless and low-temperature carbon steel piping, DR images from licensed contractors, PT on cryogenic welds, insulation and coating survey results"],
+          ["NGL, LPG and refining", "Phillips 66 Sweeny hub and Freeport LPG export terminal", "Fractionator and exchanger reports, sphere and bullet inspection records, UT used in place of radiography on tie-ins, pressure-relief and piping circuit data"],
+          ["Port, docks and pipelines", "Port Freeport berths, product and feedstock lines", "Dock and jetty steel records, girth weld radiographs and DR images, dig reports, cathodic protection and coating data linked to pipeline segments"],
+          ["Modules and shop fabrication", "Skids, spools and modules delivered by water or road", "Manufacturer's data books, film or digital radiographs, PMI and hardness logs, hydrotest records, welder continuity files"]
+        ]
+      }
+    },
+    {
+      "h": "Corrosive streams and a salt-air coastline",
+      "p": [
+        "A Freeport inspection record is shaped by two environments at once: what is inside the pipe and what surrounds it. Inside, chlorinated and caustic service, wet hydrogen chloride, amine and sour water, and cryogenic hydrocarbons each bring their own damage mechanisms, and each calls for a technique that can actually find that mechanism. Outside, the site sits on low ground at the coast, so insulated equipment, supports, flanges and small-bore connections face chlorides, humidity and long wet seasons. Corrosion under insulation and chloride stress corrosion cracking of austenitic stainless steel are therefore recurring reasons an owner questions a report.",
+        "Our reviewers ask whether the method chosen fits the mechanism the owner's damage review predicts. A spot thickness reading on a line where localized pitting under insulation is expected will not support a clean disposition, however neat the table. A PT report on stainless welds in chloride service needs the right penetrant system, controlled halogen content where the procedure demands it, and a cleaning record that shows the surface was fit to test. When the method and the mechanism do not match, the opinion says so plainly, separate from any clerical gaps. Where the owner has a risk-based inspection plan, we also check that the report covers the locations and coverage that plan assigned."
+      ]
+    },
+    {
+      "h": "LNG and cryogenic weld records from Quintana Island",
+      "p": [
+        "Liquefaction trains, storage and marine loading carry far more austenitic stainless and nickel steel welding than a typical refinery. Their weld records are reviewed against the design code the project used, which for process piping is commonly ASME B31.3, and for low-temperature storage tanks commonly API 620 with its low-temperature annex, alongside the federal LNG rules in 49 CFR Part 193 and the NFPA 59A edition that part incorporates. PHMSA administers Part 193 for LNG plants, so the operator's records also need to stand up to federal inspection, not only to the owner's engineering group.",
+        "Typical questions from cryogenic scope include whether volumetric examination on thin stainless welds was qualified for that wall and grain structure, whether PT preceded or followed final cleaning and passivation, whether impact-tested material and welding consumables are traceable to the joints recorded, and whether DR images meet the image quality and density or signal requirements the procedure set. We check each of those against the evidence sent, not against what the cover letter says."
+      ]
+    },
+    {
+      "h": "Situations that prompt a review in Freeport",
+      "p": [
+        "Most requests from the Brazosport area fall into a handful of patterns. The list below is how we usually see them arrive, and the first conversation is about which decision depends on the record."
+      ],
+      "list": [
+        "An outage or turnaround close-out where the owner's inspectors want an independent sample of a contractor's reports before equipment returns to service.",
+        "A rejected weld or survey report, where the contractor wants to know whether the rejection holds up before contesting it.",
+        "A module, spool or vessel data book held at receipt because the buyer's quality group found gaps.",
+        "A unit changing hands or being refinanced, where the buyer or lender wants an opinion on the reliability of the inspection history.",
+        "A dispute between a shop, an installer and an owner over who is responsible for a defect found after delivery.",
+        "A corrosion survey on insulated piping that the reliability group suspects understates loss."
+      ]
+    },
+    {
+      "h": "Rules behind a Freeport inspection record",
+      "p": [
+        "Covered process equipment at Freeport's chemical and gas plants falls under OSHA's process safety management standard, 29 CFR 1910.119, whose mechanical integrity element expects inspections and tests to follow recognised and generally accepted good engineering practice and to be documented. In practice that means API 510, API 570, API 653 and the owner's own standards, and a report has to satisfy both the code and the owner's program to be accepted.",
+        "Boilers in Texas are certificated by the Texas Department of Licensing and Regulation, and certificate inspections are carried out by TDLR inspectors or by authorized inspectors working for authorized inspection agencies. Pipelines divide between PHMSA for interstate systems and the Railroad Commission of Texas for intrastate lines. Texas is an NRC Agreement State: industrial radiography licensing and radiographer certification sit with the Department of State Health Services under 25 TAC §289.255. Atlantis does not perform industrial radiography in Texas. Radiographs, CR plates and DR images produced by your licensed contractor are reviewed as documents, which is a different activity and one we offer."
+      ]
+    },
+    {
+      "h": "The digital side: raw files, platforms and data lineage",
+      "p": [
+        "Most Freeport contractors now deliver digital inspection data through a reporting platform rather than a stack of paper, and that shifts where errors hide. A digital NDT report may draw on an encoded PAUT or TOFD file, a DR image with its own processing history, a thickness grid exported from a data logger or an eddy current tube file, and each of those can drift away from the summary sheet without anyone noticing. When the scope allows it, our reviewers open the raw files in suitable analysis software and compare what the data shows with what the report states.",
+        "We also look at data lineage: whether file names, CML numbers and equipment tags match the owner's database; whether a scan's setup and calibration files travel with it; whether a DR image was enhanced in a way the procedure permits; whether electronic signatures belong to the people whose qualifications appear in the package; and whether a revision history shows what changed after the first issue. A digital reporting system makes these checks possible. It does not make them unnecessary."
+      ]
+    },
+    {
+      "h": "Running the review from Freeport",
+      "p": [
+        "Freeport has no Atlantis office, and none is needed for this work. You send the records through a secure transfer link. The package usually includes the report, the governing procedure and revision, personnel qualification records, calibration certificates, the raw digital data and the acceptance criteria the contract names. We confirm the scope in writing, including which checks apply and what is excluded.",
+        "The reviewer works through the seven standard checks: procedure compliance, personnel qualification on the date of examination, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability. Each item is classed as sound, deficient in documentation only, or deficient in disposition. Questions go back to you in a single list rather than as a stream of emails, and the written opinion follows. We reply within one business day to any request for review."
+      ]
+    },
+    {
+      "h": "The reviewers and the limits of the opinion",
+      "p": [
+        "For UT, RT, MT, PT and VT, the review is directed by an ASNT NDT Level III holding certification in each of those five methods. Members of the wider team bring experience from nuclear, maritime, oil and gas and petrochemical work, which helps when a Freeport package mixes chemical, marine and gas scope in one set. For eddy current, acoustic emission or other methods, the proposal names a reviewer who holds the certification the contract calls for.",
+        "Some decisions stay with others. Remaining life and fitness-for-service assessments remain the job of the owner's engineer. Atlantis does not act as inspector of record, Authorized Inspector or ANI, and does not certify the contractor's personnel. To keep the opinion independent, we do not review reports for work Atlantis itself performed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there an Atlantis office or reviewer in Freeport?",
+      "a": "No. Atlantis's offices are in Houston and Hyderabad. Freeport reviews are carried out remotely on the records and digital inspection data you send, which is how independent report review normally works."
+    },
+    {
+      "q": "Can you review PT and UT records on stainless welds in chloride or cryogenic service?",
+      "a": "Yes. The reviewer checks the procedure, the penetrant system and its contaminant limits, cleaning and surface preparation, qualification of any UT technique on thin austenitic welds, and whether the acceptance criteria applied match the design code and project specification."
+    },
+    {
+      "q": "Our contractor delivered the outage package through a digital reporting platform. Can you work from that?",
+      "a": "Yes, as long as we can receive the underlying files as well as the platform's summary. Exports of raw PAUT, TOFD, DR, thickness and eddy current data let the reviewer compare the data with the reported dispositions."
+    },
+    {
+      "q": "Do you shoot radiographs at Freeport plants?",
+      "a": "No. Atlantis carries out no industrial radiography at Freeport plants or anywhere else in the country. We review radiographs, CR plates and DR images taken by your licensed radiography contractor and report on image quality, technique and interpretation."
+    },
+    {
+      "q": "A data book for a module bound for a Freeport site was held at receipt. Can a review help?",
+      "a": "It can. We read the data book against the purchase specification and the design code, separate documentation gaps from issues that affect acceptance, and set out what evidence would close each item."
+    },
+    {
+      "q": "Can the review support a unit sale or refinancing?",
+      "a": "Yes. A buyer, seller or lender can ask for an opinion on how reliable a unit's inspection history is. The review stops short of a remaining life or fitness-for-service assessment, which stays with the owner's engineer."
+    },
+    {
+      "q": "Which codes will you apply to our records?",
+      "a": "Those your contract and program name, usually including ASME Section V for methods, ASME B31.3 or Section VIII for design acceptance, API 510, 570 and 653 for in-service inspection, API 620 for low-temperature tanks, and API 1104 or the 49 CFR rules for pipelines."
+    },
+    {
+      "q": "What should we send to start?",
+      "a": "The report or package, the procedure and revision, personnel and calibration records, any raw digital files, and the acceptance criteria. Send the report and we will come back with scope and a quote."
+    }
+  ],
+  "related": [
+    ["/inspection-services-houston", "Inspection services in Houston"],
+    ["/inspection-services-texas", "Inspection services in Texas"],
+    ["/consulting/level-iii-audit-support-lng", "Level III audit support for LNG"],
+    ["/consulting/level-iii-audit-support-petrochemical", "Level III audit support for petrochemical plants"],
+    ["/consulting/petrochemical-ndt-consulting", "Petrochemical NDT consulting"],
+    ["/blog/lng-plant-inspection-ndt-requirements-and-procedures", "LNG plant inspection requirements"],
+    ["/ndt-training-freeport", "NDT training in Freeport"]
+  ],
+  "sources": [
+    "https://corporate.dow.com/en-us/locations/freeport",
+    "https://www.basf.com/us/en/who-we-are/organization/locations/featured-sites/Freeport",
+    "https://olinchloralkali.com/about-us/locations/",
+    "https://www.ogj.com/pipelines-transportation/lng/article/14175258/freeport-lng-train-3-begins-commercial-operation",
+    "https://www.ogj.com/refining-processing/gas-processing/article/17272657/phillips-66-advances-sweeney-fractionator-freeport-export-terminal",
+    "https://www.oilandgas360.com/phillips-66-to-expand-sweeny-hub-fractionation-capacity-by-300000bpd/",
+    "https://www.portfreeport.com/containers",
+    "https://www.phmsa.dot.gov/pipeline/liquified-natural-gas/lng-plant-requirements-frequently-asked-questions",
+    "https://www.phmsa.dot.gov/about-phmsa/offices/southwest-region",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://www.tdlr.texas.gov/boilers/blrfaq.htm",
+    "https://www.dshs.texas.gov/radiation/industrial-radiographers/laws-rules.aspx",
+    "https://rrc.texas.gov/pipeline-safety"
+  ]
+}
