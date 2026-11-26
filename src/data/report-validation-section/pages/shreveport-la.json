@@ -1,0 +1,202 @@
+{
+  "title": "NDT Report Review in Shreveport, LA | Refinery and Haynesville",
+  "description": "Remote, independent review of NDT reports and digital inspection data from Shreveport's refinery, Haynesville gathering lines and northwest Louisiana plants.",
+  "h1": "Independent NDT report review for northwest Louisiana: Shreveport, Bossier and the Haynesville",
+  "eyebrow": "Report validation: Shreveport, Louisiana",
+  "intro": "Northwest Louisiana sits far from the river refineries and the coast, and its inspection paperwork reflects that. Around Shreveport the records come from a specialty and lubricants refinery in the city, from gathering and takeaway lines that move Haynesville shale gas south toward the Gulf, from gas processing and compression stations, and from power plants that burn the same gas. When an owner, a buyer or a contractor needs someone outside the job to read those reports and the digital inspection data behind them, we do that remotely. Atlantis keeps no Shreveport or Bossier City office; the review team works from Houston and Hyderabad on the records you send.",
+  "highlights": [
+    {
+      "h": "Gathering and takeaway records read line by line",
+      "p": "Girth weld radiographs, AUT and UT files, coating and hydrotest packages from Haynesville construction are checked against the operator's procedures, API 1104 and the federal or state rules the line falls under."
+    },
+    {
+      "h": "Refinery and plant records checked against the code that governs them",
+      "p": "Thickness surveys, CML data, weld repair reports and vessel inspection records are compared with API 510, 570 or 653, the owner's inspection plan and the edition the plant actually adopted."
+    },
+    {
+      "h": "A written opinion someone can sign off on",
+      "p": "Every finding cites the clause or procedure step, the record that misses it and what would close the gap, so the engineer or quality lead who commissioned the review can act on it directly."
+    }
+  ],
+  "sections": [
+    {
+      "h": "What makes Shreveport's inspection work different",
+      "p": [
+        "Caddo and Bossier parishes are gas country first. The Haynesville shale underlies the area, and the last few years have added large-diameter pipe to carry its production south. Williams began flowing gas on its Louisiana Energy Gateway in July 2025, delivering Haynesville supply into the Transco system in Beauregard Parish, and Momentum Midstream's NG3 gathering system began commissioning in late August 2025, ahead of its planned start. Behind those headline projects sit hundreds of miles of smaller gathering laterals, compressor stations, treating plants and meter sites, each with its own construction and integrity records.",
+        "The other anchor is refining. Calumet operates a refinery in Shreveport that the company lists in its base oil network and that, according to Calumet's April 2026 operational update, was processing more than fifty thousand barrels a day of feedstock. Lubricant base oil and specialty product units bring a different set of damage concerns from a plant that makes only fuels, and their inspection files reflect that. Add SWEPCO's J. Lamar Stall Unit, a natural gas combined-cycle plant at the Arsenal Hill site in Shreveport, along with the fabrication and repair shops that serve the gas field, and the result is a mix of pipeline, refinery and power records rather than one dominant type.",
+        "We name these operators only to describe the industry in the area. None is a client, and naming them does not mean we have seen any of their records."
+      ]
+    },
+    {
+      "h": "The people who ask for a second reading",
+      "p": [
+        "In the gas field the request usually comes from someone who inherited records rather than produced them. A midstream company buys a gathering system and wants to know whether the weld and pressure test files support the operating pressure it plans to run. A producer whose contractor built a lateral wants an outside check before the line goes into service. A construction company whose radiographs were rejected by the owner's inspector wants to know whether the rejection is supported by the acceptance standard the contract invoked.",
+        "On the refinery and power side the triggers are turnarounds, audits and changes of contractor. A plant that has switched inspection vendors may want the outgoing vendor's last thickness survey checked before it becomes the baseline for remaining-life trends. A unit owner preparing for an internal audit may want the inspection records for a circuit read by someone with no stake in them. The table below groups the requests we expect most often."
+      ],
+      "table": {
+        "head": [
+          "Situation in northwest Louisiana",
+          "Records usually sent",
+          "What the reviewer looks at hardest"
+        ],
+        "rows": [
+          [
+            "Acquisition of a Haynesville gathering system",
+            "Weld logs, radiograph or AUT reports, hydrotest charts, MAOP documentation, material records",
+            "Whether every girth weld in the log has an examination record, whether repairs were re-examined, and whether the test records support the stated pressure"
+          ],
+          [
+            "Owner rejection of a contractor's girth weld radiography",
+            "Film or digital images, the radiography procedure, the reader sheets and the owner's comments",
+            "Image quality indicators, density or signal levels, and whether each rejected indication is outside the API 1104 acceptance criteria the contract named"
+          ],
+          [
+            "Refinery inspection vendor changeover",
+            "Thickness readings, CML maps, previous survey data and the inspection plan",
+            "Repeatability of CML locations, instrument and probe records, and whether corrosion rates were computed from comparable readings"
+          ],
+          [
+            "Compressor or treating station construction close-out",
+            "Piping weld maps, UT, MT and PT reports, PMI results, pressure test records",
+            "Traceability from the isometric drawing to each report and qualification of the technicians on the date the work was done"
+          ],
+          [
+            "Power plant outage reports",
+            "Boiler tube thickness surveys, weld repair records, HRSG inspection notes",
+            "Whether the techniques suit the tube geometry and whether repair welds were examined to the construction code the owner adopted"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Haynesville pipeline records and the rules behind them",
+      "p": [
+        "Which regulator a line answers to decides which records must exist. Interstate transmission lines fall under PHMSA's rules in 49 CFR Part 192. Intrastate pipelines in Louisiana are overseen by the Pipeline Safety Program, now part of the Pipelines Section of the Office of Enforcement in the Louisiana Department of Conservation and Energy, which replaced the Department of Energy and Natural Resources on 1 October 2025. Many gathering lines fall into categories with lighter federal requirements, and the operator's own procedures then become the main yardstick. A line that crosses into East Texas brings a second state program into the picture.",
+        "An independent review of construction records starts from that question. We ask the operator which rules and which edition of API 1104 the construction specification adopted, then check that the weld procedure, welder qualification, examination procedure and acceptance criteria on the reports all line up with it. Mismatches are common where several contractors worked on one system: one spread may have examined welds against one acceptance table while another used a different one, and the data book quietly merges them.",
+        "For integrity work on lines already in service, dig reports carry the weight. The reviewer checks that each measurement is located well enough to be tied to the in-line inspection feature it is meant to confirm, that the UT or MT technique fits the anomaly type, and that the report records what was found rather than only whether it passed. Assessing remaining strength or remaining life from those measurements stays with the operator's engineer; our opinion addresses whether the measurements are reliable enough to feed that assessment."
+      ]
+    },
+    {
+      "h": "Refinery and plant inspection files",
+      "p": [
+        "A specialty refinery's inspection records are organised around circuits, corrosion loops and the inspection plan. The review asks whether the files support the plan rather than simply whether each report looks tidy. Typical points the reviewer checks include whether thickness readings come from the same marked locations as the last survey, whether the instrument and probe were verified on a reference block of similar material and temperature, whether readings below the alert threshold were followed up as the plan requires, and whether the corrosion rate calculation used the readings it claims to use.",
+        "Pressure vessel and tank records are read against API 510 and API 653 and against the owner's own inspection procedures. Repair and alteration records are checked against the National Board Inspection Code where the owner uses it. Louisiana's boiler rules, in Title 55, Part V of the Louisiana Administrative Code, require new boilers to be built and stamped to the ASME Code and registered with the National Board, and require repairs and alterations to follow the currently adopted edition of the NBIC, so boiler work in a plant usually carries an authorized inspection trail the reviewer can follow. Acting as the Authorized Inspector or inspector of record is not something we do; the opinion supports the person who holds that role."
+      ],
+      "list": [
+        "Procedure compliance: does the report follow the written technique the site approved?",
+        "Personnel: were the technicians certified for that method and level on the date of the work?",
+        "Equipment: is there a calibration and verification trail for every instrument named?",
+        "Technique: was the method able to find the damage the inspection plan was looking for?",
+        "Acceptance: was the right code, edition and table applied?",
+        "Interpretation and sizing: do the recorded indications and thicknesses match the raw data?",
+        "Completeness: can each result be traced to a location, a drawing and a date?"
+      ]
+    },
+    {
+      "h": "Radiography records without radiography",
+      "p": [
+        "Girth weld radiography is still a large share of what arrives from pipeline construction around Shreveport, along with computed and digital radiography images from newer spreads. Louisiana is an NRC Agreement State, so radioactive material licences and industrial radiographer certification are handled by the Louisiana Department of Environmental Quality. No industrial radiography is carried out by Atlantis at any US site, Louisiana included. What we offer is a review of the films, CR plates and DR images that the owner's licensed radiography contractor produced.",
+        "That review covers the parts a reader sheet can hide: whether the image quality indicator and its placement meet the procedure, whether film density or the digital signal-to-noise level is within the required range, whether the geometry and coverage match the technique sheet, and whether each indication was characterised and dispositioned correctly. A second interpretation of a disputed weld is often the quickest way to settle an argument between a contractor and an owner without re-shooting it."
+      ]
+    },
+    {
+      "h": "Digital inspection data from the gas field and the plants",
+      "p": [
+        "More of the evidence now arrives as files rather than paper. Automated ultrasonic girth weld scans, phased array data, digital radiographs, thickness logger exports and photographs taken on tablets in the right-of-way all end up in a digital reporting system before anyone signs a report. We ask for the raw files as well as the issued report, because the report is a summary and the files are the evidence. Where the raw data is missing, the review says so and grades the finding accordingly.",
+        "Digital reporting brings its own failure points. Templates may carry forward an old acceptance table, a reporting platform may round thickness values, and an electronic signature may show who approved a report without showing who acquired the data. The reviewer checks the data lineage from instrument file to final report: file names and time stamps that match the weld or CML number, setup files that match the procedure, and an audit trail that shows changes after acquisition. Records that will be relied on in a sale or an audit need that chain to hold."
+      ]
+    },
+    {
+      "h": "How a remote review runs from Caddo or Bossier Parish",
+      "p": [
+        "Nothing about the review needs anyone on site in Shreveport. You send the reports, the raw digital inspection data, the procedures and the governing specification through a secure transfer link. We confirm the scope in writing, including which code editions apply and what question the opinion must answer, and send a scope and a quote. We reply within one business day.",
+        "The reviewers then work through the seven checks on every record in scope, raise questions where something is missing, and issue a written opinion. Each record gets one of three verdicts: sound; deficient in documentation only, where the work appears acceptable but the record does not prove it; or deficient in disposition, where a result or acceptance decision appears wrong. A short call to walk through the findings is part of the job. Atlantis does not review work on projects where it carried out the examination itself, which keeps the opinion independent."
+      ]
+    },
+    {
+      "h": "Who reads your records, and what stays with you",
+      "p": [
+        "Reviews in UT, RT, MT, PT and VT are directed by an ASNT NDT Level III holding certification in those five methods. The wider team brings experience from oil and gas, petrochemical, nuclear and maritime work, which helps when a Haynesville package includes gas processing piping or when a refinery record touches pressure equipment built to a different code. For methods outside those five, such as eddy current or magnetic flux leakage data, the proposal names a reviewer who holds the certification the contract calls for.",
+        "Some decisions stay with the owner. Fitness-for-service and remaining-life calculations remain with your engineer. Certifying your technicians remains with your employer's written practice. Acceptance of the asset for service remains with you and, where it applies, with the regulator. The opinion is there to tell those people whether the inspection records in front of them can be trusted."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you have an office or inspectors in Shreveport?",
+      "a": "No. Atlantis has offices in Houston and Hyderabad. Reviews of Shreveport and Bossier City records are done remotely from the reports and digital inspection data you send, so nobody needs to visit the site."
+    },
+    {
+      "q": "Can you review girth weld radiographs from a Haynesville pipeline project?",
+      "a": "Yes. We review film, computed radiography plates and digital radiography images produced by your licensed contractor, checking image quality, coverage and each disposition against the acceptance criteria your specification adopted. We do not perform radiography in the United States."
+    },
+    {
+      "q": "Which acceptance standard do you use for pipeline welds?",
+      "a": "The one your construction specification invoked, usually an edition of API 1104 or an owner standard built on it. We confirm the edition before starting, because a mismatch between the specification and the reports is one of the most common findings."
+    },
+    {
+      "q": "Our line is intrastate. Does that change the review?",
+      "a": "It changes which rules the records must meet. Louisiana intrastate lines are overseen by the Pipeline Safety Program in the Department of Conservation and Energy, while interstate lines answer to PHMSA. We read the records against whichever applies and against your own procedures."
+    },
+    {
+      "q": "Can you check a thickness survey before we use it as a new baseline?",
+      "a": "Yes. The reviewer compares CML locations, instrument and probe verification, temperature corrections and the readings themselves with the previous survey and the inspection plan, and flags anything that would distort corrosion rate trends."
+    },
+    {
+      "q": "Will you calculate remaining life or fitness for service from the data?",
+      "a": "No. Those calculations stay with your engineer. Our opinion addresses whether the measurements and reports are reliable enough to be used in that assessment."
+    },
+    {
+      "q": "What do you need to start a report review?",
+      "a": "The issued reports, the raw digital files where they exist, the examination procedures, technician certifications, calibration records and the governing specification or code edition. Send what you have and we will list any gaps when we send the scope and a quote."
+    },
+    {
+      "q": "Can you review records for a power plant outage?",
+      "a": "Yes. Boiler and HRSG tube surveys, weld repair records and related UT, MT, PT and VT reports can be reviewed against the construction code and repair rules the owner follows, including the NBIC where it applies."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-louisiana",
+      "Inspection services in Louisiana"
+    ],
+    [
+      "/ndt-training-shreveport",
+      "NDT training in Shreveport"
+    ],
+    [
+      "/ultrasonic-testing-shreveport",
+      "Ultrasonic testing in Shreveport"
+    ],
+    [
+      "/report-validation/pipeline-girth-weld-report-review",
+      "Pipeline girth weld report review"
+    ],
+    [
+      "/report-validation/api-510-570-653-report-review",
+      "API 510, 570 and 653 report review"
+    ],
+    [
+      "/ultrasonic-pipe-thickness-testing",
+      "Ultrasonic pipe thickness testing"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "ASNT Level III consulting"
+    ]
+  ],
+  "sources": [
+    "https://calumet.investorroom.com/2026-04-02-Calumet-Announces-First-Quarter-2026-Operational-Update",
+    "https://calumet.com/brochures/base-oils/",
+    "https://pgjonline.com/news/2025/july/williams-leg-pipeline-starts-up-boosting-haynesville-gas-flows-report-says",
+    "https://pgjonline.com/news/2025/october/momentum-midstream-s-ng3-pipeline-starts-early-boosts-haynesville-capacity",
+    "https://www.swepco.com/community/projects/generation",
+    "https://www.dce.louisiana.gov/news/denr-to-become-ce",
+    "https://www.dce.louisiana.gov/page/pipeline-safety-program",
+    "https://www.deq.louisiana.gov/emergency-radiation/industrial-radiography",
+    "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-a/section-v-5001",
+    "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-b/section-v-5006",
+    "https://regulations.justia.com/states/louisiana/title-55/part-v/chapter-50/subchapter-c/section-v-5034",
+    "https://www.nrc.gov/agreement-states/louisiana"
+  ]
+}

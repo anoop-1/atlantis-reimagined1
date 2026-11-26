@@ -795,6 +795,75 @@
     "pipeline",
     "power"
    ]
+  },
+  {
+   "slug": "muscat-oman",
+   "kind": "city",
+   "navLabel": "Report validation in Muscat, Oman",
+   "place": "Muscat",
+   "region": "Oman",
+   "country": "Oman",
+   "label": "Oman",
+   "industries": [
+    "refinery",
+    "oil-gas",
+    "power"
+   ]
+  },
+  {
+   "slug": "shreveport-la",
+   "kind": "city",
+   "navLabel": "Report validation in Shreveport, LA",
+   "place": "Shreveport",
+   "region": "Louisiana",
+   "country": "United States",
+   "label": "LA",
+   "industries": [
+    "refinery",
+    "oil-gas",
+    "pipeline"
+   ]
+  },
+  {
+   "slug": "sohar-oman",
+   "kind": "city",
+   "navLabel": "Report validation in Sohar, Oman",
+   "place": "Sohar",
+   "region": "Oman",
+   "country": "Oman",
+   "label": "Oman",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "houma-la",
+   "kind": "city",
+   "navLabel": "Report validation in Houma, LA",
+   "place": "Houma",
+   "region": "Louisiana",
+   "country": "United States",
+   "label": "LA",
+   "industries": [
+    "oil-gas",
+    "fabrication"
+   ]
+  },
+  {
+   "slug": "sitra-bahrain",
+   "kind": "city",
+   "navLabel": "Report validation in Sitra, Bahrain",
+   "place": "Sitra",
+   "region": "Bahrain",
+   "country": "Bahrain",
+   "label": "Bahrain",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "power"
+   ]
   }
  ]
 }

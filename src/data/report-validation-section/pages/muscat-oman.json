@@ -1,0 +1,188 @@
+{
+  "title": "NDT Report Validation in Muscat, Oman | Independent Review",
+  "description": "Remote, independent review of refinery, crude terminal, gas pipeline and power and water plant NDT reports and digital inspection data from Muscat.",
+  "h1": "Independent NDT report review for Muscat's refinery, crude export terminal and utility plants",
+  "eyebrow": "Report validation · Muscat, Oman",
+  "intro": "Muscat is where much of Oman's oil and gas business is decided. Operator head offices, the national energy ministry, the gas grid owner and the utility regulator sit in the capital area, and the Mina Al Fahal coast carries a refinery and the country's main crude export terminal. Inspection reports from all over Oman are read and approved here, often by people who never saw the work. Atlantis gives those reports an independent review: the scan files, radiographs, thickness grids and weld records you send are checked against the procedure and the code, and every finding is written up with its evidence. The review is remote; there is no Atlantis office anywhere in Oman.",
+  "highlights": [
+    {
+      "h": "Decisions made far from the site",
+      "p": "Engineers in Muscat approve inspection findings from fields, stations and plants hundreds of kilometres away. A second reading of the record they approve on, done against the clause and the procedure step, gives that decision a firmer footing."
+    },
+    {
+      "h": "Terminal, refinery and utility records",
+      "p": "Floating-roof tank surveys from the crude terminal, API 510 and API 570 reports from the refinery, and boiler, heat recovery and desalination data from utility plants are the report types that most often reach a reviewer from the capital."
+    },
+    {
+      "h": "The digital record, not only the summary",
+      "p": "Phased array files, CR and DR images and thickness databases are opened and compared with the report pages built from them, because the summary page is what gets signed and filed."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Why so much inspection paperwork ends up in the capital",
+      "p": [
+        "Oman's oil and gas industry is spread across the interior, the south and the coast, but its approvals concentrate around Muscat. The Ministry of Energy and Minerals sets policy for the sector. Energy Development Oman, created in December 2020 to hold the government's 60 percent stake in the Block 6 oil concession and its full interest in Block 6 non-associated gas, opened its headquarters at Mina Al Fahal in 2022. Petroleum Development Oman (PDO) operates Block 6 and, through it, produces most of the country's oil. OQ, the integrated state energy group, runs the refineries, the petrochemical plants and, through OQ Gas Networks, the national gas transmission system.",
+        "That arrangement means a technical authority in a Muscat office may be the last person to read a weld report from an upstream station, a thickness survey from a gas pipeline block valve or a shutdown package from a refinery. They read it on paper or on screen, weeks after the crew demobilised. When a finding is disputed, when a contractor's report looks thin, or when a project team wants an outside opinion before handover, an independent report review is a practical way to test the record before it is accepted.",
+        "None of the organisations named on this page is a client. Nothing here suggests that Atlantis has reviewed their records or holds approved-vendor status with any of them; they are named so the page describes the place accurately."
+      ]
+    },
+    {
+      "h": "Mina Al Fahal: the refinery and the crude export terminal",
+      "p": [
+        "The Mina Al Fahal refinery in Muscat started up in 1982 and is operated today by OQ Refineries and Petroleum Industries. It is a hydroskimming refinery: crude distillation, reforming, treating and the tankage and loading systems that go with them. Plant of that age produces a long inspection history, which is exactly why its records need reading carefully. Thickness trends on overhead lines and exchanger shells only mean something if the condition monitoring locations stayed in the same place between surveys, and that is not always obvious from the latest report.",
+        "Next to it is the Mina Al Fahal crude terminal, which PDO manages for Oman's crude and condensate exports. In 2024 PDO added Tank T-111, a 0.6 million barrel floating-roof tank 78.5 m in diameter and 24.4 m high, to the ten floating-roof tanks already on the terminal, giving roughly half a day of extra buffer storage. Large floating-roof tanks generate floor scanning data, shell thickness surveys, roof and seal inspections, settlement measurements and repair weld examinations, and those records decide whether a tank goes back into crude service."
+      ],
+      "table": {
+        "head": [
+          "Asset near Muscat",
+          "Operator (as published)",
+          "Records a reviewer usually receives",
+          "What the review looks at first"
+        ],
+        "rows": [
+          [
+            "Mina Al Fahal refinery",
+            "OQ Refineries and Petroleum Industries",
+            "API 510 vessel reports, API 570 circuit surveys, exchanger tube data, shutdown weld reports",
+            "Edition of the code applied, CML continuity, calibration of the thickness gauge, repair weld disposition"
+          ],
+          [
+            "Mina Al Fahal crude terminal",
+            "PDO",
+            "Floor scan maps, UT prove-up, shell course thickness, settlement data, roof and seal inspection",
+            "Stated scan coverage, prove-up of screening calls, reference points for settlement, shell t-min basis"
+          ],
+          [
+            "Gas transmission lines feeding the capital area",
+            "OQ Gas Networks",
+            "Girth weld radiographs or automated UT, station piping thickness, coating and holiday records",
+            "Film or image quality, technique sheet against procedure, acceptance standard and edition"
+          ],
+          [
+            "Power and desalination plants",
+            "Independent project companies selling to Nama PWP",
+            "Boiler and HRSG tube surveys, high-energy piping welds, seawater piping and shell thickness",
+            "Grid repeatability, erosion and corrosion trend, weld procedure references, inspector qualification"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Gas pipelines and the people who sign for them",
+      "p": [
+        "OQ Gas Networks describes itself as the owner and operator of Oman's natural gas transportation system. The network reached 4,235 km at the end of 2024 and is planned to grow to about 4,623 km by 2027, serving around 130 connected consumers that include power and water plants, refineries, petrochemical units, cement works and the free zones. New lines bring new construction records: girth weld examinations, hydrotest packages, coating reports and tie-in welds into live systems.",
+        "Pipeline construction records are usually reviewed in bulk at the end of a spread, which is where errors hide. A girth weld report that quotes an acceptance standard from the wrong edition of API 1104, a radiograph series where the image quality indicator is not visible on every film, or an automated UT record whose calibration block does not match the wall thickness on that section can each be missed when hundreds of welds are signed off together. The review samples or reads the complete set, depending on the scope you choose, and lists every weld that needs another look."
+      ]
+    },
+    {
+      "h": "Power and water for the capital",
+      "p": [
+        "Electricity and desalinated water for Muscat come from independent plants that sell their output to Nama Power and Water Procurement Company, with the Authority for Public Services Regulation overseeing the electricity and water sector. The newest large project in the capital area is the Al Ghubrah 3 independent water project, a 300,000 cubic metre per day desalination plant in Al Ghubrah developed by Capital Desalination Company, a project company owned by GS Inima, Al Jomaih Energy and Water and Sogex; Nama signed the water purchase agreement in May 2024 and the plant is expected to start operating in 2027.",
+        "Utility plants produce their own family of NDT records. Construction and commissioning bring weld radiography or phased array data on high-pressure piping, positive material identification on alloy spools, and thickness baselines on seawater intake and brine lines. Operating plants add boiler and heat recovery steam generator tube surveys during outages and repeat thickness grids on equipment exposed to seawater. In seawater service the trend between surveys usually matters more than any single reading, so a grid that moves, or a gauge setting that changes between outages, can turn a sound trend into a false alarm or hide a real one."
+      ]
+    },
+    {
+      "h": "Standards and authorities that frame a Muscat review",
+      "p": [
+        "There is no single Omani NDT code. A review is built from the documents the contract and the operator actually name, and those differ by asset. Upstream and terminal work follows the operator's own specifications and procedures; refinery equipment is usually inspected to API 510 and API 570 with API 653 for tanks; pipelines to API 1104 or the project specification; power plant pressure parts to ASME Section I and B31.1; and NDT techniques to ASME Section V or the ISO standards the specification calls for. Personnel are qualified under the written practice or certification scheme the contract requires, which may be ASNT SNT-TC-1A, ISO 9712 or an operator scheme.",
+        "Our reviewer reads the purchase order, the inspection and test plan and the procedure before opening a single report, because the right answer for a Mina Al Fahal tank and the right answer for a gas station weld are not the same. Where an operator specification is cited but not supplied, the opinion says so and lists the findings that depend on it. Regulatory approvals, the operator's own technical authority and the engineer's decisions on repair or continued service stay with those who hold them."
+      ],
+      "list": [
+        "Operator specifications and procedures named in the contract",
+        "API 510, API 570 and API 653 for refinery and terminal equipment",
+        "API 1104 or the project specification for pipeline girth welds",
+        "ASME Section I, B31.1 and B31.3 for pressure parts and piping",
+        "ASME Section V or the specified ISO standards for NDT techniques",
+        "The written practice or certification scheme that qualifies the personnel"
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting from Omani projects",
+      "p": [
+        "More of what comes out of Omani sites is digital than it was ten years ago. Phased array and TOFD files from pipeline and piping welds, CR and DR images from radiography contractors, thickness databases from corrosion surveys and floor scan exports from tank inspections arrive alongside the PDF report, and many operators now receive reports through digital reporting platforms with electronic signatures. That brings advantages and new failure points at the same time.",
+        "Our digital inspection review checks that the raw file belongs to the weld, the line or the tank it is labelled with; that the settings stored in the file match the technique sheet; that the images were not processed in a way the procedure does not allow; and that the summary figures can be traced back to the data. In a digital reporting system we also look at who signed each record and when, whether revisions are visible, and whether the signature belongs to someone qualified on the date of the work. A report can be tidy and electronically signed and still be built on the wrong file."
+      ]
+    },
+    {
+      "h": "Situations that lead Muscat teams to request a review",
+      "p": [
+        "Requests usually follow a decision point. A shutdown at the refinery has finished and the inspection package has to be closed out before the unit restarts. A new tank or a repaired floor is ready to return to crude service and the floor scan report is the evidence. A pipeline spread has finished and the owner wants the weld records checked before taking it over. A contractor's report has been rejected by the operator's technical authority and the contractor wants to know whether the rejection holds. A lender or an incoming partner wants an outside view of the inspection history of an asset it is about to finance or buy.",
+        "In each case the question is narrow: does this record support the conclusion written on it? We answer that question for the documents you send. We do not inspect the asset, we do not act as inspector of record, and remaining-life or fitness-for-service calculations stay with the owner's engineer."
+      ]
+    },
+    {
+      "h": "How a remote review runs from Muscat",
+      "p": [
+        "You send the reports and their supporting files through a secure transfer: procedures, technique sheets, calibration certificates, personnel certificates, raw data and the governing specification. We confirm what was received, list anything missing and agree the scope and a quote before work starts. Reviews in UT, RT, MT, PT and VT are led by an ASNT NDT Level III holding certification in those five methods; for eddy current, MFL or any other method the proposal names a reviewer with the certification your contract asks for. Other members of the review team come from nuclear, maritime, oil and gas and petrochemical work.",
+        "Each record is run through seven checks: procedure compliance, personnel qualification on the date of the work, equipment and calibration, technique adequacy, the acceptance criteria applied, interpretation and sizing, and completeness and traceability. The written opinion places each report in one of three verdicts, sound, deficient in documentation only, or deficient in disposition, and ties every finding to the clause or procedure step and the evidence behind it. Questions are handled by email or video call across the time difference between Oman and our offices in Houston and Hyderabad. We do not review reports for work Atlantis performed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have staff or a Muscat office?",
+      "a": "No. Atlantis has offices in Houston and Hyderabad only and no office, agent or partner anywhere in Oman or the wider GCC. Every review is carried out remotely from the records you send, and no site visit is part of the service."
+    },
+    {
+      "q": "Which Muscat-area report types do you review most often?",
+      "a": "Storage tank floor scans and shell surveys, refinery vessel and piping inspection reports, pipeline girth weld radiographs and automated UT records, and boiler, heat recovery and seawater piping surveys from power and water plants."
+    },
+    {
+      "q": "Can you review against a PDO or OQ specification?",
+      "a": "Yes, if you send the specification or the relevant sections of it. The review then checks the report against that document as well as the code it references. We hold no approved-vendor status with any operator, so the opinion is for you to use within your own process."
+    },
+    {
+      "q": "Will the review tell us whether the tank can go back into service?",
+      "a": "It tells you whether the inspection record is sound enough to support that decision and where it falls short. The return-to-service decision, and any fitness-for-service or remaining-life assessment, stays with the owner's engineer and inspection authority."
+    },
+    {
+      "q": "Can you open phased array, TOFD, CR and DR files?",
+      "a": "Yes. Send the raw files with the report and tell us which software produced them; we open them, compare the stored settings with the technique sheet and check that the reported indications can be found in the data."
+    },
+    {
+      "q": "Do you review reports in Arabic?",
+      "a": "The written opinion is issued in English. Where the report or attachments are in Arabic, tell us at the start so the scope can allow for it; numerical records, images and data files are reviewed directly."
+    },
+    {
+      "q": "How do we start a review from Oman?",
+      "a": "Send the report, its supporting files and the governing specification through the enquiry form or to info@atlantisndt.com. We reply within one business day with a list of anything missing, the proposed scope and a quote."
+    },
+    {
+      "q": "Can a contractor ask for a review of its own rejected report?",
+      "a": "Yes. Contractors, owners, lenders and buyers all commission reviews. The opinion is the same whichever party asks, because it rests on the clause and the evidence rather than on who is paying for it."
+    }
+  ],
+  "related": [
+    [
+      "/report-validation/refinery-inspection-report-review",
+      "Refinery inspection report review"
+    ],
+    [
+      "/report-validation/digital-inspection-data-review",
+      "Digital inspection data review"
+    ],
+    [
+      "/ultrasonic-testing",
+      "Ultrasonic testing"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "ASNT Level III consulting"
+    ],
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection"
+    ]
+  ],
+  "sources": [
+    "https://www.offshore-technology.com/marketdata/mina-al-fahal-refinery-hydroskimming-oman/",
+    "https://www.omanobserver.om/ampArticle/1153098",
+    "https://www.omanobserver.om/ampArticle/1115929",
+    "https://www.omanobserver.om/ampArticle/1176104",
+    "https://enterpriseam.com/climate/2024/05/14/omans-nama-signs-ppa-agreement-for-the-sultanates-largest-desal-plant",
+    "https://gov.om/authority-for-public-services-regulation",
+    "https://oq.com/en/news-and-media/newsroom/20260120-oq-refineries-and-petroleum-industries-delivers-record-performance-in-2025",
+    "https://www.saudigulfprojects.com/2026/11/ghubrah-3-desalination-plant-93-percent-complete-325-million-muscat-oman/"
+  ]
+}

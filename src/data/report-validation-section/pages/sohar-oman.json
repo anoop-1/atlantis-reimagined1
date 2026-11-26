@@ -1,0 +1,201 @@
+{
+  "title": "Sohar NDT Report Review | Refinery, Polymer & Fabrication",
+  "description": "Independent, remote review of NDT reports and digital inspection data from Sohar's refinery, aromatics and polymer plants, steel works and fabricators.",
+  "h1": "NDT report validation for the Sohar industrial port: refining, polymers, metals and fabrication",
+  "eyebrow": "Report validation · Sohar, Oman",
+  "intro": "Sohar, on Oman's Batinah coast, packs a refinery, an aromatics plant, polypropylene and polyethylene units, a steam cracker, a steel works, an aluminium smelter and a ring of fabrication and maintenance contractors into one industrial port and its freezone. Plants that share utilities, pipe racks and contractors also share inspection habits, good and bad. Atlantis reviews the NDT reports and digital inspection data those plants and their contractors send: weld records, thickness surveys, exchanger tube data and fabrication dossiers are checked against the procedure and the code, and each finding is written up with its evidence. The work is done remotely; Atlantis has no office anywhere in Oman.",
+  "highlights": [
+    {
+      "h": "Integrated plants, integrated records",
+      "p": "The Sohar refinery feeds naphtha and propylene to the neighbouring aromatics and polypropylene units, and its light ends feed the steam cracker. An inspection gap at one plant can show up as a reliability question at the next, so the review reads records with those links in mind."
+    },
+    {
+      "h": "Fabrication dossiers before they ship",
+      "p": "Spools, vessels and structural steel made in and around the freezone carry weld maps, NDT reports and material records. Questions answered while the dossier is still in the shop take far less effort to settle than a rejection after delivery to site."
+    },
+    {
+      "h": "One standard of reading across contractors",
+      "p": "Several NDT and inspection contractors often work the same turnaround. An independent report review applies one consistent reading to all of them and names the differences in method and acceptance basis."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A port built around heavy industry",
+      "p": [
+        "SOHAR Port and Freezone is owned by the Sultanate of Oman and the Port of Rotterdam and managed by Sohar Industrial Port Company as a 50:50 joint venture. Its industry is grouped in clusters for logistics, metals and petrochemicals, later joined by a food cluster, and a freezone sits beside the port for manufacturers who want to be close to the quays. Utilities are shared: Majis Industrial Services runs two seawater intake plants that supply chlorinated cooling water through a network to the major industrial tenants, a reverse osmosis plant producing potable and process water, and a central effluent treatment and recycling plant.",
+        "For inspection that density matters. The same seawater cooling network serves several plants, so the corrosion behaviour of exchanger tubes and cooling water piping is a shared concern. The same fabrication shops and NDT contractors move between plants, so a habit in one company's reports tends to turn up in its neighbours'. The names on this page describe the place. They are not clients, and nothing here suggests Atlantis has reviewed their records or holds approved-vendor status with any of them."
+      ]
+    },
+    {
+      "h": "The refinery, aromatics and polymer chain",
+      "p": [
+        "The Sohar refinery began commercial operation in 2006 and is run, with the aromatics plant and the polypropylene plant, by OQ Refineries and Petroleum Industries, part of the integrated state energy group OQ. The Sohar Refinery Improvement Project took OQ's combined refining capacity to 198,000 barrels a day across its refineries. For 2025 the company reported refining 93 million barrels of crude, with its two polypropylene units producing 317 thousand tonnes.",
+        "The Liwa Plastics Industries Complex added a steam cracker, which takes light ends from OQ's Sohar plants and rich gas from Fahud, plus high-density and linear low-density polyethylene units and another polypropylene plant; rich gas reaches Sohar from a gas extraction plant at Fahud through a pipeline of about 300 km. OQ reported that its polymer complex made over one million tonnes in 2025. OQ Gas Networks has also contracted a new 193 km, 42-inch pipeline from Fahud to Suhar to supply the industrial hub, which will bring its own construction weld records.",
+        "That chain produces nearly every kind of NDT record a reviewer sees: API 510 reports on columns, reactors and drums; API 570 circuit surveys; furnace tube and transfer line inspections; eddy current and IRIS data from exchanger bundles on the cooling water network; positive material identification on alloy piping; and crack-detection reports on rotating and static equipment in cracker and polymer service."
+      ],
+      "table": {
+        "head": [
+          "Plant type in Sohar",
+          "Typical damage concerns",
+          "Records that reach the reviewer",
+          "Checks that tend to find problems"
+        ],
+        "rows": [
+          [
+            "Crude and conversion units",
+            "General and localised corrosion, high-temperature sulfidation, fouling in exchangers",
+            "Thickness grids at condition monitoring locations, API 510 and API 570 reports",
+            "Location continuity between surveys, gauge calibration, t-min basis quoted"
+          ],
+          [
+            "Aromatics and polymer units",
+            "Corrosion under insulation, fatigue at vibrating small-bore connections",
+            "Profile radiography or pulsed eddy current screening, MT and PT crack reports",
+            "Screening results reported as measured wall, surface preparation recorded"
+          ],
+          [
+            "Steam cracker",
+            "Carburisation and creep in furnace tubes, thermal fatigue in quench systems",
+            "Tube diameter and thickness surveys, weld UT and radiographs from repairs",
+            "Technique suited to the tube material, acceptance standard and edition"
+          ],
+          [
+            "Seawater-cooled exchangers",
+            "Pitting, erosion at tube inlets, under-deposit corrosion",
+            "Eddy current or IRIS tube data, tube sheet maps, plugging lists",
+            "Calibration standard matches tube material and size, every call traceable"
+          ],
+          [
+            "Fabrication shops",
+            "Weld defects, wrong material, incomplete NDT coverage",
+            "Weld maps, radiographs, UT and PAUT records, PMI and material certificates",
+            "Coverage against the specification, welder and inspector identity on each weld"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Metals: steel and aluminium",
+      "p": [
+        "The metals cluster includes the Jindal Shadeed integrated steel plant, which commissioned a two-million-tonne-a-year melt shop in 2014 alongside a direct reduced iron plant, producing billets, blooms and round sections, and an aluminium smelter with its own port facility. Iron ore pelletising has also grown around the port.",
+        "Metals plants generate inspection records of a different flavour from the petrochemical units. Crane rails, ladle and converter structures and lifting equipment get MT and VT reports; high-temperature gas ducts, kilns and reduction furnaces get thickness surveys; rotating equipment gets UT of shafts and couplings. These records are often produced quickly during short maintenance windows, which is where incomplete calibration records and missing location sketches appear."
+      ]
+    },
+    {
+      "h": "Fabrication and maintenance contractors around the freezone",
+      "p": [
+        "A large share of Sohar's NDT reports never originate inside an operating plant at all. Fabricators and maintenance contractors in the freezone and the nearby industrial estate build spools, vessels, skids and steelwork for the plants on their doorstep and for projects elsewhere in Oman and the Gulf. Each item ships with a dossier: weld maps, welding procedure references, welder identities, NDT reports, hardness and PMI records and material certificates.",
+        "Fabrication dossiers fail in predictable ways. The radiography coverage stated in the specification does not match the welds actually examined; a phased array scan plan does not cover the full weld volume for the joint geometry; an MT report gives no yoke lift check or field indicator; a weld is accepted to a code table other than the one in the purchase order. A review before shipment catches those while the item is still in the shop and the welder is still on payroll. We check NDT records against the welding procedure references, but we do not write or qualify welding procedures."
+      ]
+    },
+    {
+      "h": "Which documents govern a Sohar inspection report",
+      "p": [
+        "The governing documents in Sohar depend on who owns the asset and who bought the fabrication. Refinery and petrochemical equipment is usually inspected to API 510, API 570 and API 653 under the operator's own inspection procedures, with pressure equipment built to ASME Section VIII and piping to ASME B31.3. Fabrication for export follows whatever the purchaser's specification names, which may be ASME, EN or a Gulf operator's standard. NDT techniques follow ASME Section V or the ISO standards the specification invokes, and inspection personnel are qualified under the scheme the contract requires, such as ASNT SNT-TC-1A or ISO 9712.",
+        "Oman's labour law and its occupational safety regulations govern the workplace, and the operators' own technical authorities approve inspection findings. Those approvals stay where they are. The review gives your technical authority, your client or your lender an independent technical opinion of the record, tied clause by clause to the documents you supply."
+      ]
+    },
+    {
+      "h": "Where Sohar records most often go wrong",
+      "p": [
+        "Across refinery, polymer, metals and fabrication work, the same handful of weaknesses accounts for most findings. Thickness surveys quote readings without a sketch or grid reference, so the next survey cannot repeat them and the corrosion rate becomes guesswork. Screening techniques used for corrosion under insulation are reported as if they measured remaining wall. Calibration blocks are listed by serial number but their certificates are missing or expired. Personnel certificates cover the method but not the level required to interpret and accept, or they lapsed before the date of the examination.",
+        "Acceptance criteria cause the most argument. A shop builds to one edition of a code while the purchaser's specification names another; a contractor applies a construction acceptance table to an in-service weld; a crack-like indication is dispositioned against a volumetric criterion meant for porosity. The review names the clause that should have applied, shows the evidence, and states whether the outcome changes. Often the weld or the component is fine and only the paperwork needs correcting, which is why the deficient-in-documentation verdict exists alongside the deficient-in-disposition one."
+      ]
+    },
+    {
+      "h": "Digital inspection data from Sohar plants and shops",
+      "p": [
+        "Digital radiography and computed radiography have largely replaced film on many Gulf projects, phased array and TOFD increasingly stand in for radiography on thick welds, and tube inspection always produces digital data. Plants and contractors also move reports onto digital reporting platforms, where a report may be assembled, reviewed and electronically signed without ever being printed.",
+        "For digital inspection data we open the raw files, confirm the weld, tube or location they belong to, and compare the stored settings, gain, gates, focal laws, exposure and processing, with the technique sheet and the procedure. For digital reporting we check the audit trail: who created and changed the record, whose electronic signature closed it, and whether that person held the right qualification on the date of the examination. Where the data and the report disagree, the data wins, and the opinion says so plainly."
+      ]
+    },
+    {
+      "h": "Typical reasons a Sohar team asks for a review",
+      "list": [
+        "Close-out of a turnaround package before the unit restarts",
+        "Acceptance of a fabrication dossier from a shop before the item ships or is installed",
+        "A rejected NDT report that the contractor or the owner wants tested independently",
+        "Comparing reports from several contractors who worked the same shutdown",
+        "Exchanger tube data that points to a plugging or retubing decision",
+        "Due diligence on an asset or a supplier before a purchase or a financing"
+      ],
+      "p": [
+        "Each of these comes down to the same question: does the record support what is written on it? The review answers that for the documents you send. It does not replace inspection of the asset, the inspector of record or the engineer who decides repair or continued service; fitness-for-service and remaining-life calculations stay with the owner's engineer."
+      ]
+    },
+    {
+      "h": "From Sohar to a written opinion, remotely",
+      "p": [
+        "You upload the reports and supporting files through a secure transfer: procedures, technique sheets, calibration and personnel certificates, raw data files and the governing specification. We confirm receipt, list what is missing and agree the scope and a quote before starting. A Level III certified by ASNT in UT, RT, MT, PT and VT leads reviews in those methods; for eddy current, IRIS, MFL or other methods the proposal names a reviewer holding the certification your contract requires. The wider review team has backgrounds in nuclear, maritime, oil and gas and petrochemical work.",
+        "Seven checks are applied to every record: procedure compliance, personnel qualification on the date of the work, equipment and calibration, technique adequacy, the acceptance criteria used, interpretation and sizing, and completeness and traceability. Each report ends up as sound, deficient in documentation only, or deficient in disposition, and every finding cites the clause or procedure step and the evidence. We work from our offices in Houston and Hyderabad, communicate by email and video call, and decline any review of an examination Atlantis carried out."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there an Atlantis team in Sohar or anywhere in Oman?",
+      "a": "No. Atlantis works from Houston and Hyderabad and has no office, agent or partner in Oman or elsewhere in the GCC. Each review is done at a distance, working only from the files your team uploads."
+    },
+    {
+      "q": "Can you review a fabrication dossier before the item leaves the shop?",
+      "a": "Yes. Send the weld map, NDT reports, raw data, welding procedure references and the purchase specification. The review checks coverage, technique, acceptance criteria and traceability weld by weld, and lists what needs fixing before shipment."
+    },
+    {
+      "q": "Do you review eddy current and IRIS data from seawater-cooled exchangers?",
+      "a": "Yes. The proposal names a reviewer holding the certification your contract requires for those methods. We check the calibration standard against the tube material and size, the analysis settings, and that every reported call can be found in the data."
+    },
+    {
+      "q": "Will the opinion be accepted by our operator?",
+      "a": "That is the operator's decision. The opinion is an independent technical document tied to the clauses and evidence, written so a technical authority can follow it. Atlantis holds no approved-vendor status with any Sohar operator."
+    },
+    {
+      "q": "Can you compare reports from two contractors on the same shutdown?",
+      "a": "Yes. We read both sets against the same procedure and acceptance criteria and set out where their methods, coverage or interpretations differ and which records are sound."
+    },
+    {
+      "q": "Do you write welding procedures or qualify welders?",
+      "a": "No. We check that NDT records reference the right welding procedure and welder, but writing or qualifying welding procedures and certifying personnel are outside the service."
+    },
+    {
+      "q": "What files should we send for a digital radiography review?",
+      "a": "The original image files in the format the system saved them, the technique sheet, the procedure, the detector and source details, and the report. Exported screenshots alone are not enough to check image quality and processing."
+    },
+    {
+      "q": "How do we request a review?",
+      "a": "Use the enquiry form or email info@atlantisndt.com with the reports and the governing specification. We reply within one business day, setting out any gaps in what arrived together with a proposed scope and a quote."
+    }
+  ],
+  "related": [
+    [
+      "/report-validation/refinery-inspection-report-review",
+      "Refinery inspection report review"
+    ],
+    [
+      "/report-validation/digital-inspection-data-review",
+      "Digital inspection data review"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "ASNT Level III consulting"
+    ],
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection"
+    ],
+    [
+      "/ultrasonic-testing",
+      "Ultrasonic testing"
+    ]
+  ],
+  "sources": [
+    "https://majis.om/?p=660716",
+    "https://www.offshore-technology.com/marketdata/oq-refineries-and-petroleum-industries-sohar-complex-oman/",
+    "https://oq.com/en/products/refined-products",
+    "https://oq.com/en/news-and-media/newsroom/20260120-oq-refineries-and-petroleum-industries-delivers-record-performance-in-2025",
+    "https://oq.com/en/news-and-media/newsroom/20200507-lpic",
+    "https://www.omanobserver.om/ampArticle/1176104",
+    "https://www.aist.org/jindal-shadeed-commissions-integrated-steel-plant-in-oman",
+    "https://www.portofrotterdam.com/en/about-port-authority/partner-ports/sohar",
+    "https://www.wikiwand.com/en/articles/Sohar_Industrial_Port"
+  ]
+}

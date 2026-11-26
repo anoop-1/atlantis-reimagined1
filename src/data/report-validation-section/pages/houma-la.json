@@ -1,0 +1,203 @@
+{
+  "title": "Houma, LA NDT Report Validation | Offshore and Fabrication",
+  "description": "Independent remote review of fabrication yard NDT records, offshore platform reports and digital inspection data from Houma and Terrebonne Parish.",
+  "h1": "Fabrication and offshore NDT records from Houma, read by an independent reviewer",
+  "eyebrow": "Report validation: Houma, Louisiana",
+  "intro": "Houma has served the offshore oil and gas industry since the middle of the last century. Terrebonne Parish describes itself as the gateway to the state's heaviest concentration of offshore service companies, and the Houma Navigation Canal gives its yards a direct water route to the Gulf. The structures, skids and piping built and repaired here leave with data books that a distant operator, an insurer or a regulator will rely on. We review those NDT reports and the digital inspection data behind them as an outside party. Atlantis keeps no Terrebonne Parish office; the work is done remotely from Houston and Hyderabad.",
+  "highlights": [
+    {
+      "h": "Structural weld records against AWS D1.1 and API RP 2A",
+      "p": "Jacket, deck and module weld reports are checked against the structural welding code and the platform design practice the project specification adopted, joint category by joint category."
+    },
+    {
+      "h": "Offshore inspection reports read before they reach the regulator",
+      "p": "Topside piping surveys, structural inspection findings and repair close-outs are checked for the evidence an operator needs when the records support its BSEE obligations."
+    },
+    {
+      "h": "Findings that a yard can close",
+      "p": "Every point in the opinion names the clause, the record and the missing evidence, so a fabricator's quality department can fix the data book rather than argue about what the reviewer meant."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A parish built around the Gulf",
+      "p": [
+        "Oil was first produced in Terrebonne Parish in 1929, and offshore discoveries after the Second World War turned Houma into a supply and fabrication town. The Houma Navigation Canal, completed in 1961, runs about thirty miles to Terrebonne Bay, which is why so many yards and service bases line it. To the east, in neighbouring Lafourche Parish, Port Fourchon serves as the land base for much of the Gulf's deepwater activity and for the Louisiana Offshore Oil Port. Equipment and records move between the two constantly.",
+        "Steel fabrication remains the industry that generates the most inspection paperwork here. Gulf Island Fabrication, with its fabrication and operations campus in Houma, became part of IES Holdings when that acquisition closed on 16 January 2026. Smaller shops build production skids, pressure vessels, piping spools and modules, and a network of service companies repairs platform equipment brought back to the bank. We mention these businesses to describe the area; none is a client, and naming them does not imply we have seen their records."
+      ]
+    },
+    {
+      "h": "Records that leave a Houma yard",
+      "p": [
+        "Offshore structures are judged long after the fabricator has moved on. The data book that ships with a jacket, a deck or a set of modules is often the operator's sole evidence that each weld was examined to the right standard. That makes the handover the natural moment for an independent report review: problems found while the work is still in the yard can be corrected there, while the same problems found offshore cost the operator far more effort to close.",
+        "The person asking for the review is rarely the fabricator alone. An operator's project team may want an outside reading of a contractor's data book before it signs the mechanical completion certificate. A fabricator may want a sample of its reports checked before a new client's audit, or may need a neutral view after a client inspector rejected a batch of ultrasonic reports. A buyer of used production equipment refurbished in a Houma shop may want to know whether the paperwork that came with it supports the pressure rating on the nameplate. Each of those people needs a decision, not a commentary, so the opinion is organised around the question they put to us.",
+        "The table lists the record types we expect from the area and the questions the reviewer asks of each."
+      ],
+      "table": {
+        "head": [
+          "Record type",
+          "Typical contents",
+          "Questions the reviewer asks"
+        ],
+        "rows": [
+          [
+            "Jacket and pile weld data book",
+            "Weld maps, UT reports on tubular joints, MT reports, repair logs, dimensional records",
+            "Was every joint on the map examined to the extent its category requires? Were repairs re-examined? Do UT reports state the technique used for the tubular geometry?"
+          ],
+          [
+            "Deck and module structural records",
+            "Visual weld inspection reports, MT and UT results, welder identification, material traceability",
+            "Do weld numbers trace to welders who were qualified on the date of welding? Is the acceptance standard the one named in the specification?"
+          ],
+          [
+            "Topsides process piping package",
+            "Isometrics, radiograph or UT reports, PT on stainless and alloy welds, PMI results, pressure test records",
+            "Does each weld on the isometric have an examination record of the required type and percentage? Were radiographs reviewed for image quality?"
+          ],
+          [
+            "Production skid and vessel data book",
+            "ASME Section VIII documentation, nozzle and seam examination reports, hydrotest charts",
+            "Do examination extents match the joint efficiency used in design? Is there a calibration trail for each instrument?"
+          ],
+          [
+            "Platform repair or modification close-out",
+            "Pre- and post-repair inspection, MT or UT of new welds, photographs, marked-up drawings",
+            "Is the repair located clearly enough to be found again, and does the record show the original damage was removed?"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Structural codes the reviewer reads against",
+      "p": [
+        "BSEE's platform rules in 30 CFR 250.901 list the industry standards platforms must meet. Among them are API Recommended Practice 2A-WSD for fixed offshore platforms and AWS D1.1, the structural welding code for steel, alongside a range of other API practices for floating and moored structures and NACE documents on materials and corrosion control. The regulation's own table cites older editions of some of these documents, such as AWS D1.1:2000, so in practice a fabrication contract will name the editions it adopts and then add the operator's own specification on top, often tightening examination extents or acceptance limits for critical joints.",
+        "A structural record review therefore starts by establishing the hierarchy. Which edition of AWS D1.1 does the contract adopt? Does the operator's specification require ultrasonic examination of tubular connections beyond what the code demands? Which welds are primary structure and which secondary? With that settled, the reviewer checks each report against the acceptance criteria for the joint it describes. A recurring problem is the use of statically loaded acceptance criteria on connections that the design treats as cyclically loaded, or of plate-butt UT techniques on tubular T, K and Y joints where the geometry calls for a different approach.",
+        "Welding procedure and welder qualification records are read only to confirm traceability: that the welds examined were made under a procedure and by a welder the project accepted. We do not write or qualify welding procedures, and the review does not replace the fabricator's welding inspection."
+      ]
+    },
+    {
+      "h": "Offshore inspection reports reviewed onshore",
+      "p": [
+        "Once a platform is installed, the inspection reports change character. Topside piping thickness surveys, structural above-water inspections, crane and lifting equipment checks and the close-out of anomalies all produce records that an operator keeps as evidence of its integrity programme. BSEE oversees offshore operations in the Gulf of America through regional and district offices, including its Houma District. When an operator's records may be examined by the regulator or by an insurer, a second reading before they are filed can be worthwhile.",
+        "For these reports the reviewer concentrates on repeatability and decision support. Thickness readings need fixed, identifiable locations and recorded instrument verification if they are going to support a corrosion rate. Anomaly reports need enough description and location detail for the next campaign to find the same feature. Repair close-outs need evidence that the damage was removed and the new weld examined. Where the operator's engineer will use the data in an assessment of remaining strength or remaining life, that calculation stays with the engineer; the opinion tells them whether the inputs hold up."
+      ]
+    },
+    {
+      "h": "Radiographs and digital images from yard work",
+      "p": [
+        "Process piping built in Houma yards is still often examined by radiography, increasingly with computed or digital radiography rather than film. In Louisiana, an NRC Agreement State, industrial radiography is licensed by the Louisiana Department of Environmental Quality. Atlantis performs no radiography in the United States. We review the films, CR plates and DR images that a fabricator's licensed radiography contractor has produced.",
+        "On those images the reviewer checks the image quality indicator selection and position, film density or digital signal levels against the procedure, coverage of the full weld length, and whether each indication was identified and accepted or rejected correctly against the governing code. Reports that record a weld as acceptable without a legible image quality indicator, or that show coverage gaps at film or plate overlaps, are among the most frequent findings."
+      ]
+    },
+    {
+      "h": "Digital reporting from the yard to the operator",
+      "p": [
+        "Large fabrication projects now run their inspection records through digital reporting systems: weld tracking databases, phased array and AUT files, digital radiographs, tablet-based visual inspection forms and electronically signed reports. Those systems make it easier to compile a data book, and they also make it easier to compile one that looks complete when it is not. A digital inspection data review checks the underlying evidence as well as the summary.",
+        "We ask for raw instrument files and setup files where the technique produces them, and compare file names, weld numbers and time stamps with the report. We check that the template used for the report carries the correct acceptance table, that thickness or indication sizes were not rounded or truncated on transfer, and that the electronic signature trail identifies who acquired the data, who interpreted it and who approved it. Where a database export is the delivered record, we check that its fields map clearly to the welds and drawings they describe."
+      ],
+      "list": [
+        "Raw data present for every scanned weld, or a stated reason why not",
+        "Setup and calibration files matching the approved procedure",
+        "Report fields that trace to drawing numbers and weld identifiers",
+        "Signature trail separating acquisition, interpretation and approval",
+        "No changes after approval without a recorded revision"
+      ]
+    },
+    {
+      "h": "Running a remote review from Terrebonne Parish",
+      "p": [
+        "You send the data book or reports, any raw digital files, the examination procedures, technician certifications and the project specification through a secure link. We confirm the question the opinion must answer and the code editions in scope, and send a scope and a quote; we reply within one business day. The review runs seven checks on each record: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability.",
+        "Each record receives one of three verdicts. Sound means the record supports the result. Deficient in documentation only means the examination appears acceptable but the record does not prove it. Deficient in disposition means a result or acceptance decision appears to be wrong. The written opinion ties every finding to the clause or procedure step and to the evidence, and we walk through it with you on a call. To keep the opinion independent, Atlantis does not review records from projects where it carried out the examination.",
+        "Large data books are usually reviewed in stages agreed at the start, for example primary structure first and secondary steel later, or one module at a time as the yard releases it. That lets findings reach the quality department while the relevant crews are still on the job, and it keeps each part of the opinion tied to a defined set of drawings."
+      ]
+    },
+    {
+      "h": "The reviewers and the limits of the opinion",
+      "p": [
+        "An ASNT NDT Level III certified in UT, RT, MT, PT and VT leads reviews in those methods. Others on the team come from oil and gas, petrochemical, nuclear and maritime backgrounds, which is useful for Houma work because offshore structures, process piping and pressure vessels can appear in a single package. Where a record involves a method outside those five, the proposal names a reviewer holding the certification the contract requires.",
+        "The opinion does not certify personnel, does not act as inspector of record for any code, and does not accept a structure or vessel for service. Those decisions belong to the fabricator, the operator, its engineers and the regulator. What the opinion gives them is a clear statement of whether the NDT evidence in the data book can be relied upon, and what would make it reliable where it falls short."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there an Atlantis office or team in Houma?",
+      "a": "No. Atlantis has offices in Houston and Hyderabad only. Houma records are reviewed remotely from the reports and digital files you send through a secure link."
+    },
+    {
+      "q": "Can you review a jacket or deck data book before it ships?",
+      "a": "Yes. That is one of the most useful times to do it. The reviewer checks weld maps, UT, MT and visual reports, repair logs and traceability against the specification and AWS D1.1 edition the contract adopted, while corrections can still be made in the yard."
+    },
+    {
+      "q": "Do you check tubular joint UT reports?",
+      "a": "Yes. We check whether the technique described suits the tubular T, K or Y geometry, whether the acceptance criteria match the joint category the design assigns, and whether the scan coverage and calibration are documented."
+    },
+    {
+      "q": "Can you review radiographs from topsides piping fabrication?",
+      "a": "Yes. We review film, CR and DR images produced by your licensed radiography contractor for image quality, coverage and correct disposition. Atlantis does not perform radiography in the United States."
+    },
+    {
+      "q": "Will your review satisfy BSEE?",
+      "a": "The opinion is an independent technical assessment of your NDT records. It helps an operator understand whether its evidence holds up, but compliance with BSEE requirements stays the operator's responsibility."
+    },
+    {
+      "q": "Do you write or qualify welding procedures?",
+      "a": "No. We read welding procedure and welder qualification records only to confirm that examined welds trace to an accepted procedure and a qualified welder."
+    },
+    {
+      "q": "What if our records are held in a weld tracking database?",
+      "a": "Send an export with the related raw files and reports. We check that database fields map to drawings and weld numbers, that values were not altered on transfer, and that the signature trail is complete."
+    },
+    {
+      "q": "Can you assess whether a damaged platform member is still fit for service?",
+      "a": "No. Fitness-for-service and remaining strength assessments stay with the operator's engineer. We review whether the inspection data feeding that assessment is reliable."
+    },
+    {
+      "q": "Can you review a sample of reports rather than a full data book?",
+      "a": "Yes. A sample review is common before an audit or a new contract. We agree the sampling basis with you in advance, such as a percentage of welds per joint category or every report from a given crew, and the opinion states clearly what was and was not examined."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-louisiana",
+      "Inspection services in Louisiana"
+    ],
+    [
+      "/ndt-training-houma",
+      "NDT training in Houma"
+    ],
+    [
+      "/ultrasonic-testing-offshore",
+      "Ultrasonic testing offshore"
+    ],
+    [
+      "/magnetic-particle-inspection-structural-steel",
+      "Magnetic particle inspection of structural steel"
+    ],
+    [
+      "/ultrasonic-weld-inspection",
+      "Ultrasonic weld inspection"
+    ],
+    [
+      "/consulting/oil-gas-ndt-consulting",
+      "Oil and gas NDT consulting"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "ASNT Level III consulting"
+    ]
+  ],
+  "sources": [
+    "https://www.tpcg.org/aboutus",
+    "https://www.portfourchon.com/about-glpc/port-facts",
+    "https://www.marinelink.com/news/ies-holdings-acquire-gulf-island-532173",
+    "https://www.sec.gov/Archives/edgar/data/0001031623/000114036126001488/ef20063243_8k.htm",
+    "https://www.ecfr.gov/current/title-30/chapter-II/subchapter-B/part-250/subpart-I/subject-group-ECFR02237cde39821db/section-250.901",
+    "https://www.bsee.gov/site-page/bsee-houma-district-hosts-open-house-to-showcase-new-office-building",
+    "https://www.deq.louisiana.gov/emergency-radiation/industrial-radiography",
+    "https://iesholdingsinc.gcs-web.com/node/19136",
+    "https://portfourchon.com/seaport/port-facts",
+    "https://www.nrc.gov/agreement-states/louisiana"
+  ]
+}

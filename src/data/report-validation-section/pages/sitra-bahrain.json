@@ -1,0 +1,242 @@
+{
+  "title": "NDT Report Validation in Sitra, Bahrain | Independent Review",
+  "description": "Independent report review for Sitra's refinery, fertiliser and power plants: NDT reports and digital inspection data checked remotely against the code.",
+  "h1": "Independent review of NDT reports from Sitra's refinery, fertiliser complex and power plants",
+  "eyebrow": "Report validation: Sitra, Bahrain",
+  "intro": "Sitra is where Bahrain refines its crude, makes its fertiliser and methanol, and will soon generate a large share of its electricity and water. Refining has gone on there since 1936, and the Bapco Modernization Program inaugurated in December 2024 added a new generation of units beside the old ones. That mix of very old and very new plant produces inspection records of every vintage. We carry out independent review of the NDT reports and digital inspection data those plants generate, against the procedure, the operator's specification and the governing code. Atlantis has no office, staff or agent anywhere in Bahrain; every review is done remotely on the records you send.",
+  "highlights": [
+    {
+      "h": "Ninety years of refinery records",
+      "p": "Reports from units dating back decades sit beside data books from units commissioned in 2024 and 2025. The review checks whether each generation of records can carry the trend and acceptance it is asked to support."
+    },
+    {
+      "h": "Three plant types on one island",
+      "p": "Refinery, ammonia and methanol, and power and desalination equipment fail in different ways. Each report is read against the damage its asset actually faces, not a generic checklist."
+    },
+    {
+      "h": "Findings tied to evidence",
+      "p": "The written opinion lands on sound, deficient in documentation only, or deficient in disposition, and every finding names the clause or procedure step and the record that supports it."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Sitra at a glance: refining, fertiliser and utilities side by side",
+      "p": [
+        "Sitra sits on Bahrain's east coast and carries most of the country's heavy industry within a short distance. The refinery, now run by Bapco Refining as an operating company of Bapco Energies, is the industrial asset most reports from Sitra concern. A short distance away, Gulf Petrochemical Industries Company operates ammonia, methanol and urea plants on a reclaimed industrial site. The Electricity and Water Authority is procuring a new independent water and power plant in Sitra, and crude from Saudi Arabia arrives through a pipeline that ends at the refinery.",
+        "For anyone who commissions inspection, that concentration matters. Contractors, fabricators and inspection firms move between these plants, so the same technician, procedure template or digital reporting system can appear in records from all of them. A weakness in one contractor's practice tends to show up in several owners' files at once, which is one reason owners ask for an independent report review rather than relying on the contractor's own sign-off.",
+        "Facilities are named on this page only to describe the area. Naming them does not mean Atlantis has reviewed their records, appears on any of their vendor lists or has worked for their owners."
+      ]
+    },
+    {
+      "h": "The modernised refinery and the reports its new units generate",
+      "p": [
+        "The Bapco Modernization Program was inaugurated in December 2024. MEED reported that it lifts crude capacity from 267,000 barrels a day towards 400,000, and in December 2025 Bapco Energies said the final figure would be about 405,000 once the ramp-up finishes. The new plant includes two crude and two vacuum distillation units, two vacuum gas oil hydrocrackers, two diesel hydrotreaters, a residue hydrocracker, two hydrogen plants and three sulphur recovery units, alongside amine, sour water and tail gas treatment.",
+        "Each of those unit types produces its own family of inspection records, and each family has its own way of going wrong. The table pairs the unit families named for the programme with the records a reviewer typically receives from them and the question the review is built around."
+      ],
+      "table": {
+        "head": [
+          "Unit family",
+          "Records that usually arrive",
+          "What the reviewer is really asking"
+        ],
+        "rows": [
+          [
+            "Crude and vacuum distillation",
+            "Column and overhead piping thickness surveys, corrosion maps, weld repair reports",
+            "Do the readings cover the overhead and transfer-line locations where corrosion actually concentrates?"
+          ],
+          [
+            "Hydrocrackers and hydrotreaters",
+            "PAUT and TOFD files on heavy-wall reactor welds, hardness and PMI records, exchanger tube data",
+            "Was the technique qualified for the wall thickness and metallurgy, and does the sizing hold up in the raw files?"
+          ],
+          [
+            "Residue hydrocracker",
+            "Construction data books, post-weld heat treatment charts, first in-service baselines",
+            "Will these records serve as a baseline that later inspections can trend against?"
+          ],
+          [
+            "Hydrogen plants",
+            "Reformer tube inspection data, outlet header and pigtail weld reports",
+            "Is the tube data traceable to individual tubes and positions, and are the acceptance values the right ones?"
+          ],
+          [
+            "Sulphur recovery, amine and sour water",
+            "Weld and heat-affected-zone crack surveys, wet fluorescent MT reports, UT thickness",
+            "Was the surface preparation and method sensitive enough for cracking in wet sour and amine service?"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Old units, new units and the trouble with mixed baselines",
+      "p": [
+        "Bapco Refining traces refining in Bahrain to 1936, two years after oil exports began. Some equipment has inspection histories stretching back through several reporting systems, from handwritten sheets to scanned files to modern inspection databases. Other equipment was commissioned within the last two years and has only construction records and a first in-service survey.",
+        "When the two meet, problems follow. A new line tied into an old header may carry thickness readings taken with a different instrument, a different calibration block and a different location numbering scheme from the readings upstream. A trend drawn across that boundary can show corrosion that is not there, or hide corrosion that is. The reviewer checks that the condition monitoring locations match between surveys, that the instrument and probe settings are comparable, and that any change in reference point is recorded rather than silently absorbed into the trend.",
+        "Construction data books for the new units deserve the same scrutiny. A data book that records acceptance against the correct code edition but cannot show where a reading was taken is of limited use to the inspection engineer who has to set the next interval. The review flags that gap early, while the contractor who produced the records can still be asked to close it."
+      ]
+    },
+    {
+      "h": "Crude in, products out: pipeline, tank farm and terminal records",
+      "p": [
+        "The AB-4 pipeline, completed in 2018, runs 118 kilometres from Saudi Aramco's Abqaiq plant to the Sitra refinery, partly onshore and partly offshore, in 30-inch pipe. It replaced a line laid in 1945. Bapco Refining describes storage facilities for 14 million barrels, along with marine terminals for its products.",
+        "Storage and transfer assets generate a steady stream of reports: API 653 tank inspections with floor scan results and shell thickness surveys, settlement surveys, roof and seal inspections, nozzle weld reports after modifications, and pipeline integrity records on the onshore section. Tank floor reports in particular are worth an independent look, because the scan coverage, the follow-up of indications and the treatment of the critical zone near the shell are easy to describe confidently in a summary that the raw data does not support.",
+        "For transfer piping and jetty lines, the reviewer checks that thickness readings reach the locations where soil, splash or insulation creates the conditions for external corrosion, not only the convenient ones near access points."
+      ]
+    },
+    {
+      "h": "Ammonia, methanol and urea: the fertiliser complex",
+      "p": [
+        "Gulf Petrochemical Industries Company grew out of a 1979 agreement between Bahrain, Saudi Arabia and Kuwait and is owned in equal shares by Bahraini state interests, SABIC and Kuwait's Petrochemical Industries Company. Its ammonia and methanol plants started production in 1985 and its urea plant followed in 1998, all on reclaimed land in Sitra.",
+        "Plants of that type and age produce records a refinery reviewer may see less often. Steam reformer tubes and outlet systems are inspected for creep and high-temperature damage. Ammonia storage and transfer equipment may need checks for stress corrosion cracking. Urea synthesis equipment uses stainless and special alloys whose welds call for careful penetrant, ferrite and thickness work. Synthesis gas compressors, waste heat boilers and high-pressure piping add their own weld and thickness reports.",
+        "An independent review asks whether the method chosen could find the damage the plant is prone to, whether the acceptance criteria came from the right code or the licensor's requirement, and whether repeat surveys can genuinely be compared. Where an inspection programme relies on a technique outside ultrasonic, radiographic, magnetic particle, penetrant and visual testing, the proposal names a reviewer certified in that technique."
+      ]
+    },
+    {
+      "h": "Power and desalination: today's stations and the new Sitra plant",
+      "p": [
+        "In August 2025 the Electricity and Water Authority launched an international tender for a Sitra independent water and power plant of about 1,400 to 1,500 megawatts and 30 million imperial gallons of water a day, to be built, owned and operated by a private developer. EWA has said it expects initial operation in the second quarter of 2028 and full commercial operation a year later, as part of a plan to replace older plants with more efficient ones.",
+        "A project of that size produces a long run of construction records: heat recovery steam generator and boiler tube welds, high-energy piping, pressure parts for desalination units, structural steel and storage tanks. Developers, lenders' engineers and the eventual operator each have reasons to want those records checked by someone with no part in producing them. Existing power and desalination stations add in-service records such as boiler tube thickness surveys, feedwater heater tube data and seawater intake piping inspections, where the review looks closely at coverage and at how thinning in brine and seawater service has been sized."
+      ]
+    },
+    {
+      "h": "Authorities and specifications that frame a Sitra report",
+      "p": [
+        "A report from Sitra is usually written against an international code and an operator's own specification at the same time, and the national framework sits around both. The table summarises how the main layers bear on a review. Clause-level requirements come from the documents your contract names; the review quotes those, not a summary."
+      ],
+      "table": {
+        "head": [
+          "Layer",
+          "Who sets it",
+          "How the review uses it"
+        ],
+        "rows": [
+          [
+            "Oil and gas oversight",
+            "The oil ministry, now the Ministry of Oil and Environment, which took over the functions of the National Oil and Gas Authority when that body was abolished by royal decree in 2021",
+            "Context for the owner's obligations; the review does not interpret ministerial requirements on the owner's behalf"
+          ],
+          [
+            "Radiation protection",
+            "Supreme Council for Environment; licensing rules for radiation workers and protection officers were published in the Official Gazette in 2026",
+            "Confirms radiography records name licensed personnel where the owner's contract asks for it"
+          ],
+          [
+            "Workplace safety",
+            "Ministry of Labour, under the Labour Law for the Private Sector, Law No. 36 of 2012",
+            "Background only; site safety stays with the owner and contractor"
+          ],
+          [
+            "Operator engineering standards",
+            "Each owner's own specifications and procedures",
+            "Read alongside the code; where they are stricter, the stricter requirement governs the verdict"
+          ],
+          [
+            "International codes",
+            "ASME, API, AWS and ASTM documents named in the contract",
+            "The code, edition and table each acceptance decision must match"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data and digital reporting from Sitra contractors",
+      "p": [
+        "Most packages now arrive as digital inspection data rather than paper. Phased array and TOFD files on reactor and column welds, digital radiography images, corrosion mapping grids, eddy current tube files and inspection database exports all come with the PDF report built from them. The review opens the raw files where they are supplied, because a digital reporting platform can produce a tidy summary from data that was gated, filtered or calibrated wrongly.",
+        "The reviewer also checks data lineage: that the file names, scan identifiers and equipment serial numbers in the raw data match the report, that electronic signatures belong to the people the procedure says must sign, and that edits after approval are visible in the audit trail. Records produced in both Arabic and English are checked for consistency between the two versions where both are sent. Large files are exchanged through a secure transfer that you choose or that we set up, and nothing is published or shared beyond the people named in the engagement."
+      ],
+      "list": [
+        "Raw PAUT, TOFD and DR files with the setup and calibration files that produced them",
+        "Corrosion mapping grids and thickness databases with location references",
+        "Signed digital reports, approval logs and revision histories",
+        "Procedures, technique sheets and personnel certificates valid on the date of work"
+      ]
+    },
+    {
+      "h": "How a remote review from Sitra runs, and where it stops",
+      "p": [
+        "You send the report, the procedure, the specification, personnel certificates, calibration records and any raw data, together with the reason for the review: a turnaround close-out, a rejected report, vendor acceptance on a new project or due diligence. The work is carried out from Houston and Hyderabad, which between them cover most of the Bahrain working day. Every package passes through seven checks: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability.",
+        "For Sitra packages, the UT, RT, MT, PT and VT content is checked under an ASNT NDT Level III who holds certification in all five of those methods. The wider team brings experience from nuclear, maritime, oil and gas and petrochemical work. We do not review examinations Atlantis performed, and we do not certify personnel.",
+        "Radiographs, CR and DR images from your licensed radiography contractor are reviewed as documents; Atlantis carries out no radiography in Bahrain. Fitness-for-service, remaining-life and rerating decisions stay with the owner's engineer, and acceptance for service stays with the inspector your programme names."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have staff or premises in Sitra or elsewhere in Bahrain?",
+      "a": "No. There is no Atlantis office, inspector, agent or partner in Bahrain or anywhere in the GCC. Our offices are in Houston and Hyderabad, and reviews are carried out remotely on the records you send."
+    },
+    {
+      "q": "Is Atlantis an approved vendor for Bapco Energies, GPIC or EWA?",
+      "a": "No, and we do not claim to be. Reviews are commissioned by whoever needs an independent opinion: an owner, a contractor preparing a close-out package, a fabricator, a developer or an adviser."
+    },
+    {
+      "q": "Can you review construction data books from the modernisation units?",
+      "a": "Yes. The reviewer checks that the data books support the acceptance they record, use the right code edition and identify reading and weld locations well enough to serve as a baseline for later in-service inspection."
+    },
+    {
+      "q": "Will you look at reformer or furnace tube inspection data from the fertiliser plants?",
+      "a": "Yes, where the data comes from techniques we can review directly, such as ultrasonic thickness and visual records. If the tube data comes from a specialist technique outside our five methods, the proposal names a reviewer holding the relevant certification."
+    },
+    {
+      "q": "Can you check whether an operator was right to reject our report?",
+      "a": "Yes. Send the report, the rejection comments, the procedure and the certificates. The opinion separates documentation points you can correct from findings that change the accept or reject decision."
+    },
+    {
+      "q": "Do you review API 653 tank reports from the Sitra tank farm area?",
+      "a": "Yes. Floor scan coverage, indication follow-up, shell thickness locations and the inspector's conclusions are checked against API 653 and the owner's specification."
+    },
+    {
+      "q": "Can the review tell us how long a vessel or line can stay in service?",
+      "a": "No. It tells you whether the inspection data behind that decision can be relied on. Remaining-life and fitness-for-service assessments stay with your engineer."
+    },
+    {
+      "q": "How do we send records from Bahrain?",
+      "a": "Use the form or email info@atlantisndt.com with the asset, the method, the specification and why you want the review. We reply within one business day with the scope and a quote, and arrange a secure transfer for large files."
+    }
+  ],
+  "related": [
+    [
+      "/consulting/ndt-consulting-bahrain",
+      "NDT consulting in Bahrain"
+    ],
+    [
+      "/inspection/tank-inspection-services-bahrain",
+      "Tank inspection in Bahrain"
+    ],
+    [
+      "/report-validation/api-510-570-653-report-review",
+      "API 510, 570 and 653 report review"
+    ],
+    [
+      "/report-validation/phased-array-data-review-paut",
+      "PAUT data review"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "Outsourced ASNT Level III consulting"
+    ],
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection"
+    ],
+    [
+      "/ultrasonic-testing",
+      "Ultrasonic testing"
+    ]
+  ],
+  "sources": [
+    "https://www.meed.com/bahrain-inaugurates-bapco-modernisation-programme",
+    "https://www.mees.com/2025/12/12/news-in-brief/bahrains-sitra-refinery-capacity-to-reach-405000-bd/a05f59c0-d760-11f0-b2f5-a784561392b9",
+    "https://bapcoenergies.com/bapco-refining",
+    "https://bapco.net/en/page/bapco-at-glance/",
+    "https://bapcoenergies.com/our-projects/new-ab4-pipeline",
+    "https://www.ewa.bh/en/ewa-launches-international-tender-for-1400-mw-and-30-migd-sitra-independent-water-and-power-production-plant",
+    "https://www.zawya.com/en/economy/bahrain-govt-scraps-noga-transfers-control-to-oil-ministry-nbs14lpo",
+    "https://www.spglobal.com/energy/en/news-research/latest-news/energy-transition/061322-bahrain-names-climate-envoy-as-new-oil-and-environment-minister",
+    "https://www.newsofbahrain.com/bahrain/132108.html",
+    "https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=91026",
+    "https://ognnews.com/Article/21493/GPIC_a_role_model",
+    "https://marcopolis.net/?p=853"
+  ]
+}
