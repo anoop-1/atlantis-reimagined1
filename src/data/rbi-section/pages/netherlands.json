@@ -1,0 +1,331 @@
+{
+ "title": "Risk-Based Inspection in the Netherlands: WBDA and PGS 29",
+ "description": "How RBI fits Dutch pressure equipment re-inspection terms, NL-CBI supervision, Seveso rules and PGS 29 tanks, and how Atlantis runs remote RBI studies.",
+ "h1": "Risk-based inspection for Dutch refineries, chemical clusters and tank terminals",
+ "eyebrow": "Risk-based inspection in the Netherlands",
+ "intro": "The Netherlands is one of the few countries where risk-based inspection is written into the pressure equipment rules themselves: a validated risk method can stretch a re-inspection term well beyond its fixed length, but only inside a supervised system. This page is for integrity and inspection managers in Rotterdam, Amsterdam, Moerdijk, Zeeland, Chemelot and the northern chemical parks. It explains how an outside RBI study fits the Warenwetbesluit drukapparatuur 2016, the NL-CBI and the user inspection department, the Seveso obligations now held in the Omgevingswet, and PGS 29 for storage tanks, and how Atlantis delivers that study remotely.",
+ "highlights": [
+  {
+   "h": "RBI is a route the law already offers",
+   "p": "Dutch re-inspection terms come in three kinds: fixed, extended and flexible. The flexible term rests on a validated risk-control methodology, which the explanatory note to the regulation openly calls risk-based inspection. An outside study has to produce work that survives that validation and the supervising body's checks."
+  },
+  {
+   "h": "The inspection body keeps the decision",
+   "p": "A designated NL-CBI issues the statement of re-inspection, and a certified user inspection department works under its supervision. Atlantis prepares the analysis, the register and the plan; it is not an inspection body, not a user inspectorate and not the party that sets a term."
+  },
+  {
+   "h": "No travel, European working hours",
+   "p": "Hyderabad is three and a half to four and a half hours ahead of Dutch time, depending on the season, so workshops sit comfortably in the Dutch morning and early afternoon. Field checks go on a written list for your own inspectors or inspection contractor."
+  }
+ ],
+ "sections": [
+  {
+   "id": "nl-legal-frame",
+   "h": "The legal frame: who asks what of a Dutch plant",
+   "p": [
+    "Three bodies of Dutch law reach the equipment an RBI study covers, and each was written for a different purpose. The Warenwetbesluit drukapparatuur 2016 and its implementing Warenwetregeling govern pressure equipment in use: when it must be re-inspected, by whom, and on what terms. The Seveso rules for major-accident hazards, held since 1 January 2024 in the decrees under the Omgevingswet, ask whether the operator prevents and limits serious accidents with dangerous substances through a prevention policy, a safety management system and, for upper-tier sites, a safety report. The PGS series of guidelines, PGS 29 above all, describes how flammable liquids are stored safely in above-ground vertical tanks.",
+    "None of these tells a refinery how often to open a particular column. What they do is decide which items have statutory terms, who may lengthen those terms, and what evidence a regulator will expect to see about the integrity of the rest. The study is organised around those answers before any probability or consequence rating is made."
+   ],
+   "table": {
+    "head": [
+     "Instrument",
+     "Who applies or supervises it",
+     "What it reaches",
+     "Where RBI sits"
+    ],
+    "rows": [
+     [
+      "Warenwetbesluit drukapparatuur 2016 and Warenwetregeling drukapparatuur 2016",
+      "Designated NL-CBIs, user inspection departments under their supervision, and the Nederlandse Arbeidsinspectie for enforcement",
+      "Pressure vessels, piping and other pressure equipment designated for re-inspection",
+      "The flexible term route requires a validated risk-control methodology, a certified quality system, a documented annual inspection and maintenance programme and a user inspection department"
+     ],
+     [
+      "Seveso obligations in paragraph 4.2 of the Besluit activiteiten leefomgeving",
+      "The Omgevingswet competent authority (usually the province, through the environmental services), the Nederlandse Arbeidsinspectie for worker safety inside the site, and the safety region",
+      "Establishments holding dangerous substances above the Seveso thresholds",
+      "Equipment integrity and inspection planning form part of the safety management system that inspectors audit"
+     ],
+     [
+      "PGS 29, Richtlijn voor de veilige bovengrondse opslag van brandbare vloeistoffen in verticale cilindrische tanks",
+      "Referenced through the Omgevingswet regulations; version 1.0 of August 2021 is the designated one, with version 1.1 of April 2026 published",
+      "Installations with at least one above-ground vertical cylindrical steel tank on a foundation",
+      "Inspection bodies working to PGS 29 offer both time-based and risk-based tank re-inspection"
+     ],
+     [
+      "Operator standards, insurers and international codes",
+      "The owner and its parent group",
+      "Everything above, plus equipment outside statutory scope",
+      "API RP 580 and API RP 581, ASME PCC-3, EEMUA 159 and the owner's own RBI procedure"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "nl-terms",
+   "h": "Fixed, extended and flexible terms under the Warenwetregeling",
+   "p": [
+    "In the consolidated text in force from 1 January 2026, the Warenwetregeling drukapparatuur sets fixed re-inspection terms by equipment type. Fired or otherwise heated equipment with a risk of overheating starts at two years and most pressure vessels and piping at four, while the inspection body may set a first term of six years where no unacceptable risk to people or the environment exists. Safety accessories take the shortest fixed term of the equipment they protect, and the inspection year may be overrun by up to six months for particular reasons.",
+    "An extended term can reach double the fixed term. It covers the internal inspection only, carries extra inspection conditions, can be made conditional on the owner having a user inspection department, and becomes available only after the second fixed term has been completed.",
+    "The flexible term is where risk-based inspection lives. It can reach four times the fixed term with an absolute ceiling of eighteen years, and it is open only to an owner that runs a certified quality system, applies a validated risk-control methodology, keeps a documented annual programme of inspection and maintenance work, records every factor that governs the integrity of the installation, holds an overview of the installation with its modifications, repairs and inspection records, and has a user inspection department in place. The explanatory note to the regulation says plainly that this methodology is also known as RBI, and it points to a model method in the Praktijkregels voor Drukapparatuur, sector guidance that is not itself binding.",
+    "Read these figures against the consolidated regulation on wetten.overheid.nl before relying on them: your NL-CBI applies whichever version is in force on the day it issues the statement, and amendments do not wait for a study to finish."
+   ]
+  },
+  {
+   "id": "nl-cbi-ivg",
+   "h": "The NL-CBI and the user inspection department",
+   "p": [
+    "A Nederlandse conformiteitsbeoordelingsinstantie, known for years as an AKI, is designated by the Ministry of Social Affairs and Employment and issues the statement of re-inspection after a positive result. Large users may instead run their own inspection department, an inspectieafdeling van de gebruiker, which inspects the owner's equipment under the supervision of a designated NL-CBI. That department must belong to a group with a shared safety policy, run a quality system based on ISO 9001, and be free of activities that would compromise its independence.",
+    "Supervision is not a formality. The NL-CBI verifies the re-inspection plans for extended and flexible terms, attends or repeats part of the inspections, and audits the department's quality system; one inspection body describes checking at least ten percent of the department's inspections. Flexible-term work cannot be chosen on its own, either: a department has to hold it together with fixed or extended term tasks.",
+    "For an outside RBI study this sets the audience. The register, the damage mechanism basis and the proposed plans will be read by the user inspection department that owns the programme and then by an NL-CBI that knows what a defensible flexible-term case looks like. The study is written for those readers, with every term proposal traceable to the data that supports it."
+   ]
+  },
+  {
+   "id": "nl-clusters",
+   "h": "Where the Dutch refining, chemical and storage capacity sits",
+   "p": [
+    "Rotterdam is the centre of gravity. The Port of Rotterdam names BP, ExxonMobil, Shell and Vitol as the operators whose refineries in the port take about half of the crude landed there, with the rest moving on to refineries elsewhere in the Netherlands, in Belgium and in Germany. Crude arrives at terminals in Europoort and on the Maasvlakte, and the Botlek, Pernis and Europoort areas hold the refineries, crackers, chemical plants and a large share of the country's independent tank storage. A separate page for the Rotterdam cluster is planned in this section; this page stays at national level.",
+    "Amsterdam is a different kind of site. The port describes itself as the largest gasoline port in the world, a place where gasoline and diesel are stored, blended and traded, with tank storage serving biofuel customers and a kerosene pipeline from Evos Amsterdam that carries about half of Schiphol airport's supply. For an RBI study the inventory there is mostly atmospheric tanks, blending systems and transfer piping rather than process units.",
+    "Outside the two big ports the picture is clustered chemistry: the Moerdijk industrial area with Shell's chemicals site, the Scheldt-bank industry around Vlissingen and Terneuzen in Zeeland, the Chemelot site at Geleen in Limburg, and the chemical cluster at Delfzijl with the Eemshaven nearby in the north. Each of these is a Seveso cluster in its own right, and each mixes pressure equipment under the Warenwetbesluit with tanks under PGS 29."
+   ]
+  },
+  {
+   "id": "nl-damage",
+   "h": "What the Dutch climate and asset base push up the register",
+   "p": [
+    "A North Sea delta is not a hot climate, but it is a wet one, and the damage mechanisms reflect that. Insulated piping and vessels see long periods of condensation and rain wetting with frequent wet and dry cycling, so corrosion under insulation and under fireproofing ranks high wherever insulation is old or damaged. Chloride-laden marine air drives external corrosion on jetty lines, structural supports and tank shells close to the water.",
+    "Much of the industrial land in Rotterdam, Moerdijk and Zeeland is reclaimed or low-lying, with groundwater close to the surface. Tank bottoms on such foundations need careful soil-side corrosion assessment: cathodic protection records, membrane and leak detection details, and settlement history all feed the probability rating for the floor.",
+    "The fuel slate is changing, too. Biodiesel, ethanol and other bio-components in Amsterdam and Rotterdam storage bring mechanisms that older registers never assigned, such as stress corrosion cracking of carbon steel in fuel-grade ethanol and microbiologically influenced corrosion in water bottoms. Hydrogen and ammonia projects in the ports add high-temperature hydrogen attack, hydrogen embrittlement and ammonia stress corrosion cracking to the review of any equipment that is repurposed or newly connected."
+   ],
+   "list": [
+    "Corrosion under insulation and fireproofing on long-insulated piping, vessels and supports",
+    "Marine atmospheric corrosion on jetties, pipe racks and tank shells near the water",
+    "Soil-side tank floor corrosion on reclaimed, high-groundwater foundations",
+    "Ethanol stress corrosion cracking and microbiologically influenced corrosion in bio-component storage",
+    "Sulfidation, naphthenic acid corrosion and wet sour mechanisms in refinery crude and hydroprocessing units",
+    "High-temperature hydrogen attack and ammonia stress corrosion cracking in hydrogen and ammonia service"
+   ]
+  },
+  {
+   "id": "nl-tanks",
+   "h": "Storage tanks: PGS 29 for the installation, a tank code for the inspection",
+   "p": [
+    "Atmospheric storage tanks are not pressure equipment, so the Warenwetbesluit's terms do not apply to them. Their framework is PGS 29, which the Omgevingswet regulations reference and which also counts as best available technique in the environmental quality decree. In practice, Dutch tank owners plan inspection to EEMUA 159, API 653 or their own procedure, and inspection bodies working to PGS 29 offer time-based and risk-based re-inspection alike.",
+    "A tank RBI study for a Dutch terminal therefore sets out the basis for each tank's shell, floor and roof intervals, the corrosion rates behind them, the consequence of a floor or shell leak given bund and soil conditions, and the triggers that would bring an inspection forward. Where API 653 is the chosen code, its current fifth edition allows RBI to set the internal inspection interval provided the assessment is validated and reviewed at least every ten years. The study states which code it applies and leaves the acceptance of the interval with the owner and its inspection body."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/storage-tank-rbi",
+     "RBI for storage tanks"
+    ],
+    [
+     "/standards/api-653",
+     "API 653 explained"
+    ]
+   ]
+  },
+  {
+   "id": "nl-asks",
+   "h": "What Dutch owners typically ask an outside RBI team for",
+   "p": [
+    "Most Dutch refineries and large chemical sites already run RBI, often inside a mature user inspection department, so the request is rarely a first study. More often it is extra analysis capacity before a turnaround, an independent check of a methodology before the NL-CBI reviews it, or a structured way to bring acquired, repurposed or mothballed equipment back into a flexible-term programme."
+   ],
+   "list": [
+    "A revalidation of an existing study: refreshed corrosion rates, process changes since the last review, and the evidence an NL-CBI expects to see for a continued flexible term",
+    "Damage mechanism reviews for units changing feed, adding bio-components, or moving into hydrogen or ammonia service",
+    "A tank programme for a terminal moving from time-based to risk-based re-inspection under PGS 29",
+    "CML and TML optimisation for piping circuits whose measurement points have grown by habit rather than by risk",
+    "A data-gap log before a turnaround, so the owner's inspectors can collect missing thickness, coating and insulation data during the shutdown",
+    "A methodology comparison between the owner's procedure and API RP 581 or ASME PCC-3, written for an internal or NL-CBI audit"
+   ]
+  },
+  {
+   "id": "nl-remote",
+   "h": "How a remote study runs from Hyderabad and Houston",
+   "p": [
+    "The study starts with a shared data room. The owner uploads P&IDs, process flow diagrams, heat and material balances, equipment datasheets and manufacturer's data books, inspection reports and thickness history, the integrity operating windows and the existing risk register or exports from whatever RBI software the site already uses. Dutch-language inspection reports and statements of re-inspection are read as they are; nothing has to be translated before work begins.",
+    "Workshops then run by video with the owner's process, operations, corrosion and inspection people. Hyderabad is three and a half hours ahead of Dutch time in summer and four and a half in winter, which puts sessions in the Dutch morning and early afternoon; Houston, six or seven hours behind, picks up evening review and quality checks. Corrosion loops and damage mechanisms are assigned to API RP 571, probability and consequence are rated at the level the owner chooses, and each item receives a proposed method, coverage, effectiveness and due date.",
+    "Nothing in the study requires anyone from Atlantis to be on site. Walkdowns, insulation and coating condition checks and any thickness readings needed to close gaps are listed for the owner's inspectors or inspection contractor, and their results come back into the model before it is finalised. When damage is found that needs a fitness-for-service assessment to API 579-1/ASME FFS-1, that assessment stays with the owner's engineer; Atlantis does not offer it."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/remote-rbi",
+     "How remote RBI works"
+    ],
+    [
+     "/inspection/risk-based-inspection/rbi-revalidation-audit",
+     "RBI revalidation and audit"
+    ]
+   ]
+  },
+  {
+   "id": "nl-seveso",
+   "h": "Seveso sites: integrity evidence for the safety management system",
+   "p": [
+    "Since the Omgevingswet took effect on 1 January 2024, the Brzo 2015 no longer exists as a separate decree. The Seveso duties sit mainly in paragraph 4.2 of the Besluit activiteiten leefomgeving, with enforcement and coordination rules in the Omgevingsbesluit, and they rest jointly on the Arbeidsomstandighedenwet, the Omgevingswet and the Wet veiligheidsregio's. Joint inspections by the environmental service, the Nederlandse Arbeidsinspectie and the safety region still look at how a site controls loss of containment.",
+    "An RBI register is useful evidence in those inspections only when it agrees with the rest of the safety management system. Consequence ratings should match the scenarios in the safety report, damage mechanisms should appear in management of change reviews, and overdue or deferred inspections should be visible rather than buried. The study cross-references these points so the register can be shown to an inspector without a separate explanation."
+   ]
+  }
+ ],
+ "codes": [
+  "Warenwetbesluit drukapparatuur 2016 and Warenwetregeling drukapparatuur 2016 (re-inspection terms)",
+  "Praktijkregels voor Drukapparatuur (sector guidance, model risk method)",
+  "Besluit activiteiten leefomgeving, paragraph 4.2 (Seveso obligations)",
+  "PGS 29 (above-ground storage of flammable liquids in vertical cylindrical tanks)",
+  "API RP 580 and API RP 581 (risk-based inspection)",
+  "API RP 571 (damage mechanisms)",
+  "API 510, API 570 and API 653",
+  "ASME PCC-3 (inspection planning using risk-based methods)",
+  "EEMUA 159 (above-ground flat-bottomed storage tanks)"
+ ],
+ "deliverables": [
+  "Equipment and piping register with corrosion loops and assigned damage mechanisms",
+  "Probability and consequence ratings with the basis for each",
+  "Risk ranking and proposed inspection plans per item, marked by term type where relevant",
+  "Supporting file for a flexible-term case, written for the user inspection department and NL-CBI review",
+  "CML and TML optimisation for piping circuits",
+  "Data-gap log and field check list for the owner's inspectors",
+  "Reassessment triggers and a study report"
+ ],
+ "industries": [
+  "Refineries",
+  "Petrochemical and chemical plants",
+  "Independent tank terminals",
+  "Fuel blending and biofuel storage",
+  "Hydrogen and ammonia import projects"
+ ],
+ "faqs": [
+  {
+   "q": "Is risk-based inspection allowed under Dutch pressure equipment law?",
+   "a": "Yes. The Warenwetregeling drukapparatuur offers a flexible re-inspection term that depends on a validated risk-control methodology, and the explanatory note to the regulation identifies that methodology with RBI. The route is only open to owners with a certified quality system, an annual inspection programme and a user inspection department or service, and the NL-CBI that supervises the department checks the plans before a term is set. An outside study supports that case; it does not replace the supervised system."
+  },
+  {
+   "q": "How long can a flexible term be?",
+   "a": "Under the consolidated Warenwetregeling, a flexible term may reach four times the fixed term for the equipment type, with an absolute ceiling of eighteen years and shorter caps for some safety accessories. The fixed terms themselves start at two years for heated equipment at risk of overheating and four years for most vessels and piping. Your NL-CBI applies the text in force when it issues the statement, so check the figures there before planning on them."
+  },
+  {
+   "q": "Can Atlantis act as the NL-CBI or as our user inspection department?",
+   "a": "No. Atlantis is not designated as an NL-CBI, is not certified as a user inspection department, and does not issue statements of re-inspection. It prepares the analysis, the register, the proposed plans and the supporting file that your inspection department and your NL-CBI review. The decision on each term, and the signature on it, stays with them."
+  },
+  {
+   "q": "Does the Brzo still apply after the Omgevingswet?",
+   "a": "The Brzo 2015 was withdrawn when the Omgevingswet took effect on 1 January 2024. Its obligations continue, mainly in paragraph 4.2 of the Besluit activiteiten leefomgeving, with supervision shared between the Omgevingswet competent authority, the Nederlandse Arbeidsinspectie and the safety region. For an RBI study the practical point is unchanged: the register should be consistent with the safety management system and the safety report."
+  },
+  {
+   "q": "Do storage tanks fall under the Warenwetbesluit drukapparatuur?",
+   "a": "Atmospheric storage tanks are not pressure equipment, so the Warenwetbesluit's re-inspection terms do not apply to them. Their reference framework is PGS 29, and owners plan the inspection itself to EEMUA 159, API 653 or their own procedure. A risk-based tank programme is common at Dutch terminals, and the study states which code each interval is based on."
+  },
+  {
+   "q": "Our existing study runs in commercial RBI software. Can you work from it?",
+   "a": "Yes. Most Dutch sites already hold their register in a commercial RBI package or in their own spreadsheet-based method. Atlantis works from exports of that data, the owner's procedure and the supporting inspection records, and returns findings in a form that can be loaded back into the owner's system. Atlantis does not supply or run an RBI software product of its own."
+  },
+  {
+   "q": "Does anyone need to travel to the Netherlands for the study?",
+   "a": "No. Data collection, workshops, reviews and the report all run remotely through a shared data room and video sessions. Field checks that the study identifies, such as walkdowns, insulation and coating condition surveys or thickness readings to close data gaps, are listed for the owner's own inspectors or inspection contractor, and their results return to the model before it is issued."
+  },
+  {
+   "q": "Can you review equipment being converted to hydrogen or ammonia service?",
+   "a": "Yes, as part of a damage mechanism review. The study assesses mechanisms that the new service introduces, such as high-temperature hydrogen attack, hydrogen embrittlement or ammonia stress corrosion cracking, records the materials, operating windows and inspection history that the assessment depends on, and proposes inspection before and after the change. Design approval and any fitness-for-service work remain with the owner's engineers and inspection body."
+  }
+ ],
+ "related": [
+  [
+   "/inspection/risk-based-inspection",
+   "Risk-based inspection services"
+  ],
+  [
+   "/inspection/risk-based-inspection/remote-rbi",
+   "Remote RBI studies"
+  ],
+  [
+   "/inspection/risk-based-inspection/storage-tank-rbi",
+   "RBI for storage tanks"
+  ],
+  [
+   "/inspection/risk-based-inspection/damage-mechanism-review",
+   "Damage mechanism review and corrosion loops"
+  ],
+  [
+   "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+   "Quantitative RBI to API 581"
+  ],
+  [
+   "/inspection/risk-based-inspection/rbi-revalidation-audit",
+   "RBI revalidation and audit readiness"
+  ],
+  [
+   "/inspection/risk-based-inspection/piping-rbi",
+   "RBI for piping"
+  ],
+  [
+   "/standards/api-580",
+   "API 580 explained"
+  ],
+  [
+   "/standards/api-571",
+   "API 571 damage mechanisms"
+  ],
+  [
+   "/inspection/turnarounds-shutdowns",
+   "Turnaround and shutdown inspection"
+  ],
+  [
+   "/contact",
+   "Contact Atlantis"
+  ]
+ ],
+ "sources": [
+  {
+   "fact": "Warenwetregeling drukapparatuur 2016 as published (Stcrt. 2016, 37419): explanatory note identifies the risk-control methodology with RBI and points to the model method in the Praktijkregels voor Drukapparatuur",
+   "url": "https://zoek.officielebekendmakingen.nl/dossier/stcrt-2016-37419.pdf"
+  },
+  {
+   "fact": "Consolidated Warenwetregeling drukapparatuur 2016 (BWBR0038317, valid from 1 Jan 2026): Art. 5(1) fixed terms 2 yr fired/heated, 4 yr vessels and piping; Art. 5(4) first term 6 yr where no unacceptable risk; Art. 5(2) safety accessories shortest term; Art. 7 extension max double, only the internal examination, may require inspectieafdeling van de gebruiker, only after second fixed term; Art. 8 flexibilisation max 4x, cap 18 yr, conditions (a) certified QMS (b) validated risk-control methodology (c) documented annual programme (d) records integrity factors (e) overview of installation, modifications, repairs (f) user inspection department; Art. 9 overrun up to 6 months for special reasons",
+   "url": "https://wetten-overheid.nl/wet/BWBR0038317"
+  },
+  {
+   "fact": "WBDA 2016 Art. 36: inspectieafdeling van de gebruiker under NL-CBI supervision, group safety policy, ISO 9001 quality system, independence; flexible-term tasks only with fixed/extended tasks; NL-CBI verifies plans for extended and flexible terms",
+   "url": "https://www.arboportaal.nl/binaries/arboportaal/documenten/publicatie/2017/04/18/warenwetbesluit-drukapparatuur-2016-artikel-26-en-artikel-36/Warenwetbesluit+Drukapparatuur+2016%2C+Artikel+26+en+Artikel+36.pdf"
+  },
+  {
+   "fact": "NL-CBI designated by SZW, previously AKI; issues Verklaring van Herkeuring; IVG under NL-CBI supervision with at least 10% of inspections checked",
+   "url": "https://www.lrqa.com/nl-nl/cbi-services-nl/"
+  },
+  {
+   "fact": "Brzo 2015 withdrawn 1 Jan 2024 by the Omgevingswet; Seveso duties in Bal paragraph 4.2; Omgevingsbesluit enforcement/coordination; legal basis Arbowet, Omgevingswet, Wet veiligheidsregio's; supervisors: competent authority (usually province, via omgevingsdiensten), Nederlandse Arbeidsinspectie, veiligheidsregio",
+   "url": "https://lokaleregelgeving.overheid.nl/CVDR763529/1"
+  },
+  {
+   "fact": "PGS 29 title; version 1.1 April 2026 latest; version 1.0 August 2021 designated in Omgevingsregeling; designated BBT in Bkl annex XVIII",
+   "url": "https://iplo.nl/thema/externe-veiligheid/publicatiereeks-gevaarlijke-stoffen-pgs/overzicht-pgs-richtlijnen/"
+  },
+  {
+   "fact": "PGS 29 scope (installations with at least one above-ground vertical cylindrical steel tank); inspection body offers TBI/RBI re-inspection and RBI method validation",
+   "url": "https://www.lrqa.com/nl-nl/pgs-29-nl/"
+  },
+  {
+   "fact": "Port of Rotterdam: refineries of BP, ExxonMobil, Shell and Vitol take half the crude; the rest goes to refineries elsewhere (port names Vlissingen, Antwerp and Germany; Vlissingen generalised on the page because the refinery there is part-owned by a sanctioned-country company); crude terminals in Europoort and Maasvlakte",
+   "url": "https://www.portofrotterdam.com/en/logistics/cargo/liquid-bulk/crude-oil"
+  },
+  {
+   "fact": "Port of Amsterdam: 'largest gasoline port in the world' (port's own claim, attributed); tank storage firms serve biofuel customers; 16 km pipeline from Evos Amsterdam supplies about half of Schiphol's kerosene",
+   "url": "https://www.portofamsterdam.com/en/business/cargo-flows/liquid-bulk"
+  },
+  {
+   "fact": "Shell chemicals at Moerdijk",
+   "url": "https://www.shell.nl/over-ons/wat-wij-doen/chemie.html"
+  },
+  {
+   "fact": "Dutch chemical clusters: Port of Moerdijk, Chemelot (Geleen), Valuepark Terneuzen, Chemical Cluster Delfzijl",
+   "url": "https://chemxplore.com/parks-clusters"
+  },
+  {
+   "fact": "Vitol Processing Rotterdam (VPR) refinery is a current Vitol asset",
+   "url": "https://www.vitol.com/vpr"
+  },
+  {
+   "fact": "Shell Moerdijk chemicals site still operated by Shell in 2026 (turnaround article)",
+   "url": "https://www.shell.nl/over-ons/nieuws/shell-venster-2026/moerdijk-in-turnaround.html"
+  }
+ ]
+}

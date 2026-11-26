@@ -1,0 +1,313 @@
+{
+  "title": "RBI in Yanbu: Red Sea Refineries, Base Oils and Export Tanks",
+  "description": "Remote risk-based inspection for Yanbu Industrial City: the Yanbu refinery, SAMREF, YASREF, Luberef, Yansab, port storage tanks and seawater systems.",
+  "h1": "Risk-based inspection for refineries, petrochemical plants and tank farms in Yanbu",
+  "eyebrow": "Risk-based inspection in Yanbu",
+  "intro": "Yanbu Industrial City sits on the Red Sea coast north-west of Jeddah and holds three crude refineries, a base oil plant, a large petrochemical complex and the storage and berths of King Fahd Industrial Port. This page is written for the inspection, corrosion and reliability engineers who keep those assets running. It sets out what each facility type puts into an RBI register, how the Red Sea climate and seawater change the damage picture, which procedures a Yanbu study has to answer to, and how Atlantis carries out the whole assessment remotely, with field checks left to the plant's own inspectors.",
+  "highlights": [
+    {
+      "h": "Hydroskimming, conversion and base oils in one city",
+      "p": "A domestic fuels refinery, two large export joint ventures and a hydroprocessing base oil plant share the same coastline. Their corrosion loops differ sharply, so a Yanbu study starts by sorting assets by process severity rather than by company."
+    },
+    {
+      "h": "Red Sea conditions, not Gulf conditions",
+      "p": "Warm, very saline seawater, salt-laden onshore air and desert dust shape the external and cooling-water side of the register. Treating Yanbu as a copy of an Eastern Province plant misses mechanisms and misplaces inspection effort."
+    },
+    {
+      "h": "Remote from the first workshop to the report",
+      "p": "Data arrives through a data room the owner can host, workshops run by video in Saudi working hours, and walkdowns and readings stay with the site's inspection team. The report names each measurement that would change a risk ranking."
+    }
+  ],
+  "sections": [
+    {
+      "id": "yanbu-facilities",
+      "h": "The plants and terminals along Yanbu's coast",
+      "p": [
+        "The Royal Commission for Jubail and Yanbu, set up by royal decree in 1975, administers Yanbu Industrial City, a planned zone of several hundred square kilometres on the Red Sea. It hosts the largest oil export port on that coast and the refining and chemical plants that grew up around it. For RBI purposes the city is best read as a set of process families rather than a list of company names, because the same mechanism can appear in two plants with different owners and the same owner can run very different risk profiles.",
+        "The table lists the main families a study is likely to meet. It is a starting point for scoping, not a description of any operator's register, and the facility's own equipment list always decides what is in scope."
+      ],
+      "table": {
+        "head": [
+          "Facility",
+          "Owner or operator",
+          "What tends to lead the RBI register"
+        ],
+        "rows": [
+          [
+            "Yanbu refinery (domestic fuels)",
+            "Saudi Aramco",
+            "Hydroskimming crude and naphtha circuits, sulfur recovery, product tankage with dual-seal floating roofs, product loading berths"
+          ],
+          [
+            "SAMREF export refinery",
+            "Aramco and Mobil Yanbu Refining Company (ExxonMobil), equal shares",
+            "High-throughput crude and vacuum units, sulfur recovery, fuel oil and diesel tankage, marine loading lines"
+          ],
+          [
+            "YASREF export refinery",
+            "Aramco and Sinopec joint venture",
+            "Heavy sour crude processing, distillate hydrocracking, hydrotreating, catalytic reforming, coke and sulfur handling"
+          ],
+          [
+            "Luberef Yanbu base oil plant",
+            "Luberef (Saudi Aramco Base Oil Company), majority owned by Aramco",
+            "High-pressure hydroprocessing, catalytic dewaxing, hydrofinishing, base oil storage"
+          ],
+          [
+            "Yansab and other petrochemical plants",
+            "SABIC and its affiliates",
+            "Cracking furnaces, cold-end and cryogenic sections, caustic and glycol systems, polymer plants"
+          ],
+          [
+            "King Fahd Industrial Port storage",
+            "Port users and terminal operators under the Saudi Ports Authority",
+            "Crude, product and bunker tanks, jetty and transfer piping, loading arms"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "three-refineries",
+      "h": "Three refineries, three different risk registers",
+      "p": [
+        "The Aramco Yanbu refinery, completed in 1983, is a hydroskimming plant that mostly supplies the domestic market with LPG, gasoline, jet fuel, kerosene, diesel, naphtha and fuel oil, and since 2016 it has received alkylate shipments for gasoline blending. Without deep conversion, its register is weighted towards the crude unit overhead, where hydrochloric acid and ammonium chloride attack condensers and the overhead line, towards high-temperature sulfidation in the crude heater and transfer line, and towards the sulfur recovery train. Blending components that arrive by ship add receipt lines and intermediate tankage to the scope, and the study confirms from the process description which streams are made on site and which are imported before it assigns any mechanism.",
+        "SAMREF, owned in equal shares by Aramco and an ExxonMobil affiliate, processes more than four hundred thousand barrels of crude a day and makes propane, diesel, marine fuel oil and sulfur. At that scale the inspection backlog is often the real constraint, so a useful study separates the large population of low-consequence piping, where interval extensions are defensible, from the hot, high-inventory circuits that deserve more frequent attention. In December 2025 the partners signed a venture framework agreement to evaluate an upgrade and an integrated petrochemical complex, with preliminary front-end engineering to follow. Units that may be modified or tied in during such a project are worth flagging in the register now, since a tie-in changes process conditions and resets the basis for some corrosion loops.",
+        "YASREF, the Aramco and Sinopec joint venture inaugurated in 2016, runs Arab Heavy crude through a distillate hydrocracker, hydrotreaters and a gasoline complex with continuous catalytic reforming, and produces petroleum coke, sulfur and benzene alongside ultra-low-sulfur diesel and gasoline. Heavy, sour feed raises sulfidation rates in hot sections and loads the downstream units with sulfur and nitrogen, so ammonium bisulfide in the hydrocracker effluent system, amine and sour water service and the coke-handling equipment all feature prominently. A plant of this age has roughly a decade of inspection history: enough to calculate measured corrosion rates for most circuits, but often thin for the long-interval items that have been opened only once or twice."
+      ]
+    },
+    {
+      "id": "hydroprocessing",
+      "h": "Hydrogen service: hydrocrackers, hydrotreaters and base oil units",
+      "p": [
+        "Yanbu concentrates high-pressure hydrogen equipment. Luberef's Yanbu plant makes Group II and Group III base oils by an all-hydroprocessing route, combining hydrocracking, catalytic dewaxing and hydrofinishing, and the YASREF hydrocracker and hydrotreaters add further reactors, feed-effluent exchangers and separators. For these items the study screens each component for high-temperature hydrogen attack against the operating envelope and the steel actually installed, using API RP 941 and the documented history of temperature and hydrogen partial pressure, not just design values. Where carbon steel or C-0.5Mo components sit close to the limits, the assessment records which inspection technique can detect early attack and how much coverage would be needed, because conventional thickness readings will not find it.",
+        "The cooler end of the same units carries a different set of problems. Reactor effluent air coolers and their headers suffer ammonium bisulfide corrosion that is sensitive to velocity, water wash rate and the bisulfide concentration, so the study asks for wash water records and the integrity operating windows that control them. Austenitic stainless steel parts can crack from polythionic acid during shutdowns if neutralisation and nitrogen purging are not carried out, which makes the turnaround procedures a genuine input to the probability of failure. Catalytic reforming adds chloride carryover in the net gas and stabiliser circuits, where ammonium chloride salts deposit and corrode under the deposit."
+      ],
+      "list": [
+        "High-temperature hydrogen attack screening per component, with the steel grade and weld procedure confirmed from records",
+        "Effluent air cooler and header assessment linked to wash water and bisulfide limits",
+        "Shutdown practice for austenitic items treated as a probability input, not a footnote",
+        "Chloride deposition in reformer net gas, stabiliser and regeneration systems",
+        "Temper embrittlement and hydrogen embrittlement checks on older chromium-molybdenum reactors at start-up and cool-down"
+      ]
+    },
+    {
+      "id": "petrochemicals",
+      "h": "Crackers, glycol and polymer plants",
+      "p": [
+        "Yansab, majority owned by SABIC with SABIC affiliates and public shareholders holding the rest, makes ethylene, propylene, ethylene glycols, polyethylene, polypropylene, butenes, MTBE and benzene in Yanbu, and the city has further petrochemical plants besides. Cracking furnace coils are usually managed by their own creep and carburisation programme, with tube metal temperature records and periodic diameter or wall measurements, and the RBI study should take that programme as an input rather than replace it. Transfer line exchangers, quench systems and the caustic tower are better suited to the register: dilute caustic at elevated temperature can cause caustic stress corrosion cracking in carbon steel that was not stress relieved, and the study needs the post-weld heat treatment records to rank it.",
+        "The cold end raises a consequence and brittle fracture question more than a corrosion one. Ethylene and propylene sections operate well below ambient, and a register that only tracks wall loss will under-rate a vessel whose minimum design metal temperature is marginal for an upset or depressurisation case. Glycol and polymer plants are generally milder on internal corrosion, which is exactly why they benefit from RBI: much of their equipment can carry longer intervals, freeing inspection time for the hot, sour refinery circuits next door."
+      ]
+    },
+    {
+      "id": "storage-and-port",
+      "h": "Crude, product and bunker storage at King Fahd Industrial Port",
+      "p": [
+        "Yanbu's export role means a large share of its fixed equipment is storage and transfer. King Fahd Industrial Port has more than thirty berths serving the industrial city, the refineries keep their own crude and product tank farms, and the Aramco refinery's records note dual seals fitted to many floating-roof tanks. Bunkering is growing as well: the Saudi Ports Authority signed a twenty-year site lease with Petrotank in August 2025 for an integrated ship refuelling centre at the port, where Petrotank already runs a fuel station with eight storage tanks.",
+        "For tanks the study follows API 653 or the owner's tank standard. Under the current API 653 edition, the fifth of 2014 with its addenda, RBI may set the internal inspection interval when the assessment is validated and reviewed at least every ten years. Floor and annular plate corrosion usually leads the ranking: soil-side attack depends on the foundation, the drainage and whether cathodic protection is present and working, and coastal ground with salt and occasional water near the surface can make the soil side more aggressive than the product side. Roof drains, rim seals and the shell near the wind girder deserve their own lines in the register, because salt and sand carried by onshore wind collect there.",
+        "Jetty and transfer piping is often owned by one company, operated by another and inspected by a third. A Yanbu study that stops at the tank farm fence leaves the most exposed piping, on the trestles above the sea, outside any risk ranking. The scope discussion at the start should settle who owns each line to the loading arm and whose records cover it."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "Storage tank RBI"
+        ],
+        [
+          "/consulting/api-653-tank-inspector-services",
+          "API 653 tank inspection support"
+        ]
+      ]
+    },
+    {
+      "id": "red-sea-climate",
+      "h": "What the Red Sea climate does to external surfaces and cooling water",
+      "p": [
+        "Yanbu's summers are long and hot, the coastal air carries salt, and humidity near the shore is high enough for night-time condensation on cool steel. Insulated carbon steel lines and vessels that run between roughly ambient and moderate process temperatures are the classic corrosion under insulation candidates, and the risk rises wherever jacketing is damaged, sealant has cracked in the sun or deluge testing soaks the lagging. External chloride stress corrosion cracking of austenitic stainless steel under insulation is the matching risk for hotter stainless lines. API RP 583 gives the framework, and the study ranks each insulated circuit by temperature band, coating age, insulation condition and the inspection history behind it.",
+        "Seawater is the other external driver. Red Sea water is warm and among the most saline in the world, so seawater-cooled exchangers, intake structures, cooling water headers and firewater mains face pitting, crevice corrosion under deposits, erosion at inlets and microbiologically influenced corrosion in low-flow branches. These systems often sit outside the main refinery RBI scope because they belong to utilities, yet a cooling water failure can shut down a unit just as effectively as a process leak. Including them, even with a simpler qualitative method, closes a common gap.",
+        "Inland of the shoreline, wind-blown sand abrades coatings and packs crevices at pipe supports, and strong sunlight degrades paint and sealants faster than in temperate climates. Pipe-to-support contact points on long racks are therefore worth a specific line in the inspection plan, with the plant's inspectors confirming condition during routine rounds."
+      ]
+    },
+    {
+      "id": "procedures",
+      "h": "Which procedures and rules a Yanbu study answers to",
+      "p": [
+        "Plants inside the industrial city operate under the Royal Commission's environmental and permitting conditions and under the High Commission for Industrial Security's safety directives where those apply. Neither sets RBI methodology. The procedure that decides how the study is built is the operator's own. For assets Saudi Aramco operates, that means its engineering procedures for risk-based inspection and the equipment inspection schedule. The joint venture refineries, the base oil plant and the petrochemical affiliates may follow their own integrity standards, a partner's standards or a blend, and terminal operators often work from an API 653 programme with an RBI basis written into their management system.",
+        "Before any data is requested, the study team asks the owner to name the governing document for each asset group and the person who can approve a departure from it. That answer fixes the method level, from qualitative screening to a quantitative API RP 581 assessment, the reassessment interval and the form the report must take. Where two procedures could apply, for example on a line that crosses from a refinery into a port operator's area, the register records which one was used and why."
+      ]
+    },
+    {
+      "id": "remote-delivery",
+      "h": "Running a Yanbu study remotely",
+      "p": [
+        "The study needs no travel to Yanbu. It is organised so that every step can be done from Houston and Hyderabad with the plant's people taking part by video during the Saudi working week, Sunday to Thursday. A typical sequence is set out below; the owner can reorder it to suit an upcoming shutdown."
+      ],
+      "list": [
+        "Scope agreement: asset list, governing procedure, method level and the people who will join each workshop",
+        "Data room set-up, hosted by the owner where plant data cannot leave company systems",
+        "Data request built on the owner's own record structure: equipment files, P&IDs, PFDs, heat and material balances, inspection and thickness history, corrosion monitoring and process chemistry",
+        "Early gap log returned to the plant, showing which missing records will force conservative assumptions",
+        "Corrosion loop and damage mechanism workshops with process, operations, corrosion and inspection staff, drafted to API RP 571",
+        "Probability and consequence assessment at the agreed method level, with each assumption written down",
+        "Inspection plan per item: technique, coverage, expected effectiveness and due date, plus CML and TML recommendations",
+        "Review workshop, final report and a list of reassessment triggers for the operations and inspection teams"
+      ]
+    },
+    {
+      "id": "field-and-approval",
+      "h": "Field checks, approval and where the study stops",
+      "p": [
+        "Walkdowns, nameplate checks and confirmation that the drawings match the installed hardware are carried out by the owner's inspectors or the inspection contractor already working at the plant. When a missing reading would change an item's ranking, the report specifies exactly what to collect, such as a thickness grid at a mixing tee downstream of a wash water injection point or a crack-detection examination on a caustic service weld, so the site team can gather it under its own procedures.",
+        "The report recommends intervals and tasks and shows the reasoning behind each one. The owner's inspection authority approves them; Atlantis does not act as inspector of record or as an approved inspection body for any Yanbu facility. If inspection under the plan finds damage that needs an assessment for continued service, that fitness-for-service evaluation stays with the owner's engineers, and its outcome is fed back into the RBI model so the next due date reflects the real condition."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 941 (steels for hydrogen service at elevated temperatures and pressures)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API RP 584 (integrity operating windows)",
+    "API 510, API 570 and API 653",
+    "Royal Commission for Jubail and Yanbu environmental regulations",
+    "Operator engineering standards and inspection procedures"
+  ],
+  "deliverables": [
+    "Corrosion loop and damage mechanism register",
+    "Risk ranking for each equipment item and piping circuit",
+    "Inspection plan with technique, coverage, effectiveness and due date",
+    "CML and TML optimisation recommendations",
+    "Data-gap log with the field checks that would change a ranking",
+    "Reassessment triggers and a final study report"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Base oil production",
+    "Petrochemicals",
+    "Crude and product export terminals",
+    "Marine bunkering",
+    "Utilities and seawater cooling"
+  ],
+  "faqs": [
+    {
+      "q": "Can one study cover a refinery and the jetty piping that serves it?",
+      "a": "Yes, provided ownership and records are settled at the start. Jetty and trestle piping at King Fahd Industrial Port may be owned, operated and inspected by different parties. The study maps each line from the tank to the loading arm, names whose records cover each section and whose procedure governs it, and then ranks the whole route in one register so no exposed section above the water is left unassessed."
+    },
+    {
+      "q": "How do you handle a hydrocracker or base oil plant with high-pressure hydrogen equipment?",
+      "a": "Each component in hydrogen service is screened for high-temperature hydrogen attack using API RP 941, the confirmed steel grade and the recorded operating history rather than design conditions alone. Components close to the limits get a stated inspection technique and coverage, because ordinary thickness readings cannot detect early attack. The effluent air cooler system is assessed separately for ammonium bisulfide corrosion, using the wash water records and operating limits."
+    },
+    {
+      "q": "Does a study for a Yanbu plant follow Saudi Aramco's RBI procedure?",
+      "a": "Only where that procedure governs the asset. Aramco-operated facilities work to the company's own engineering procedures, and the study is structured to them. Joint ventures, the base oil plant, petrochemical affiliates and terminal operators may follow their own integrity standards or a partner's. The owner names the governing document for each asset group before data collection starts, and the report records which document every decision rests on."
+    },
+    {
+      "q": "Should seawater cooling and firewater systems be in the RBI scope?",
+      "a": "We recommend it. Red Sea water is warm and highly saline, so exchangers, headers, intakes and firewater mains face pitting, deposit attack, erosion and microbiologically influenced corrosion. These systems often fall outside the main process register because utilities own them. A simpler qualitative assessment is usually enough to rank them and set sensible inspection tasks."
+    },
+    {
+      "q": "Does anyone from Atlantis have to travel to Yanbu?",
+      "a": "No. The study is designed to be completed without travel. Documents come through a data room, workshops run by video, and field verification is carried out by the plant's own inspectors or its inspection contractor. Where a missing reading matters, the report specifies the measurement, the technique and the location so it can be collected under the site's procedures."
+    },
+    {
+      "q": "How is tank floor risk ranked for coastal tank farms?",
+      "a": "The study looks at the soil-side and product-side history separately: floor scan or thickness results from previous out-of-service inspections, the foundation design, drainage, whether cathodic protection is installed and how well it performs, and the product's water and sediment content. Coastal ground can be more aggressive than inland sites, so the absence of soil-side data is logged as a gap rather than assumed benign."
+    },
+    {
+      "q": "Can the study account for units that may change under a planned upgrade?",
+      "a": "Yes. Equipment that may be modified, tied in or re-rated during a project is flagged in the register, with a reassessment trigger linked to the change. That way the plant does not carry intervals based on process conditions that are about to change, and the project team knows which corrosion loops will need a fresh review when the new design is fixed."
+    },
+    {
+      "q": "Who approves the intervals in the final plan?",
+      "a": "The owner's inspection authority, as named in the company's own procedures. The report gives recommended intervals and tasks with the reasoning for each, but Atlantis is not the inspector of record and does not approve them. Any damage found that needs a fitness-for-service assessment remains with the owner's engineers, and the result is then entered into the RBI model."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/saudi-arabia",
+      "RBI in Saudi Arabia"
+    ],
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection services"
+    ],
+    [
+      "/inspection/risk-based-inspection/jubail",
+      "RBI in Jubail"
+    ],
+    [
+      "/inspection/risk-based-inspection/remote-rbi",
+      "How a remote RBI study works"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for process piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/damage-mechanism-review",
+      "Damage mechanism review and corrosion loops"
+    ],
+    [
+      "/standards/api-571",
+      "API 571 damage mechanisms"
+    ],
+    [
+      "/standards/api-581",
+      "API 581 explained"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnaround and shutdown inspection"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "SAMREF owned equally by Aramco and Mobil Yanbu Refining Company (ExxonMobil subsidiary); over 400,000 b/d; products propane, diesel, marine fuel oil, sulphur; venture framework agreement 8 Dec 2025 for upgrade and petrochemical complex, preliminary FEED",
+      "url": "https://www.aramco.com/en/news-media/news/2025/samref-refinery-upgrade"
+    },
+    {
+      "fact": "YASREF: Aramco 62.5% / Sinopec 37.5%; inaugurated 20 Jan 2016; Arab Heavy crude; distillate hydrocracker, hydrotreaters, CCR gasoline complex; products gasoline, ULSD, petroleum coke, sulfur, benzene",
+      "url": "https://saudipedia.com/en/yasref-refinery"
+    },
+    {
+      "fact": "Aramco Yanbu refinery: completed 1983, hydroskimming, mainly domestic market; products LPG, gasoline, jet, kerosene, diesel, naphtha, fuel oil; first alkylate shipment received 2016 (no alkylation unit stated); 29 tanks with dual seals",
+      "url": "https://saudipedia.com/en/yanbu-refinery"
+    },
+    {
+      "fact": "Luberef Yanbu: Group II/III base oils by all-hydroprocessing (hydrocracking, dewaxing, hydrofinishing)",
+      "url": "https://www.hydrocarbonengineering.com/refining/27032018/luberef-ii-yanbu-refinery-to-produce-group-iiiii-base-oils"
+    },
+    {
+      "fact": "Yansab: SABIC 55%, affiliates 10%, public 35%; products ethylene, propylene, glycols, PE, PP, butenes, MTBE, benzene",
+      "url": "https://en.wikipedia.org/wiki/Yanbu_National_Petrochemical_Company"
+    },
+    {
+      "fact": "Royal Commission for Jubail and Yanbu established 1975, administers Yanbu Industrial City on the Red Sea, ~350 km NW of Jeddah; largest oil export port on the Red Sea coast",
+      "url": "https://saudipedia.com/en/the-royal-commission-for-jubail-and-yanbu"
+    },
+    {
+      "fact": "King Fahd Industrial Port Yanbu: 34 marine berths",
+      "url": "https://www.zawya.com/en/projects/industry/yanbu-industrial-city-strengthens-position-as-global-hub-for-industry-and-energy-en21uoda"
+    },
+    {
+      "fact": "Mawani lease with Petrotank (Aug 2025), 110,700 m2 site over 20 years, integrated ship refuelling centre at King Fahad Industrial Port; Petrotank's existing fuel station has eight tanks",
+      "url": "https://www.arabnews.pk/node/2610864"
+    },
+    {
+      "fact": "YASREF ownership Aramco 62.5% / Sinopec 37.5%; units incl. CLG hydrocracker, diesel and naphtha hydrotreaters, CCR, delayed coker, hydrogen and sulfur units",
+      "url": "https://www.meed.com/yanbu-export-refinery/"
+    },
+    {
+      "fact": "Luberef = Saudi Aramco Base Oil Company, majority owned by Aramco (listed 2022)",
+      "url": "https://www.arabnews.pk/node/2223876"
+    }
+  ]
+}

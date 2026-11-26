@@ -1,0 +1,382 @@
+{
+ "title": "RBI at Mina Al Ahmadi: Refineries, LPG Trains and Crude Tanks",
+ "description": "Remote risk-based inspection for the Mina Al Ahmadi coast: KNPC's upgraded refineries, LPG trains and spheres, KOC crude tank farms and export piers.",
+ "h1": "Risk-based inspection for the Mina Al Ahmadi refining and export coast",
+ "eyebrow": "Risk-based inspection at Mina Al Ahmadi",
+ "intro": "Mina Al Ahmadi, on Kuwait's Gulf coast south of the capital, holds the country's oldest refinery, its gas and LPG trains, and the crude storage and piers through which most Kuwaiti crude leaves for export. Mina Abdullah refinery sits a short way down the same coast, and the two were rebuilt and tied together under one modernisation programme. This page is written for the inspection and integrity engineers who keep those assets running. It sets out what is there, the damage mechanisms that rise to the top of a register on this coast, the questions a study has to settle after a major rebuild, and how Atlantis carries out the work remotely.",
+ "highlights": [
+  {
+   "h": "A rebuilt refinery on an old site",
+   "p": "Mina Al-Ahmadi started in 1949 and was largely remade by the Clean Fuels Project, which added residue desulphurisation, coking, vacuum distillation and hydrogen units. A register here mixes seventy years of history with equipment that has seen only a few run lengths."
+  },
+  {
+   "h": "Gas, LPG and pressurised storage",
+   "p": "Five LPG trains, ethane recovery and the newer north LPG tanks make pressurised storage and cold service a large share of the risk. Spheres and bullets need their own weld-by-weld crack detection logic, not the method used for atmospheric tankage."
+  },
+  {
+   "h": "Export crude in quantity",
+   "p": "Kuwait Oil Company's tank farms and piers at Mina Al Ahmadi move very large volumes of crude, so a leak from a floor or a loading line carries consequences the study has to weigh, measured in more than product loss."
+  }
+ ],
+ "sections": [
+  {
+   "id": "ahmadi-what-is-there",
+   "h": "What stands on the Mina Al Ahmadi coast",
+   "p": [
+    "Three groups of assets share this stretch of shoreline. The first is the Mina Al-Ahmadi refinery of Kuwait National Petroleum Company (KNPC), which began in 1949 with a crude capacity of 25,000 barrels per day and today is rated by KNPC at 346,000 barrels per day across some 10.5 square kilometres beside the sea. The second is the gas processing complex inside the same fence: the gas plant inaugurated in 1979 with its first three LPG trains, an ethane recovery unit added in 2008, a fourth LPG train in 2016, the new north LPG tanks completed in 2017 and a fifth LPG train inaugurated in 2022. The third is the crude export system of Kuwait Oil Company (KOC), with its storage tanks, pipelines and the piers where tankers berth.",
+    "Down the coast, KNPC's Mina Abdullah refinery, rated at 454,000 barrels per day, has an offshore sea island for export about five kilometres out. The older Shuaiba refinery between them was shut in 2017 and parts of its site and facilities were taken into the modernisation programme rather than left idle. The large Al-Zour refinery, about 90 kilometres south of Kuwait City, belongs to a different stretch of coast and is covered on the Kuwait country page."
+   ],
+   "table": {
+    "head": [
+     "Asset group",
+     "Owner",
+     "What drives the RBI register"
+    ],
+    "rows": [
+     [
+      "Mina Al-Ahmadi refinery process units",
+      "KNPC",
+      "Residue desulphurisation and hydrogen loops, the refurbished FCC, the new delayed coker and vacuum unit, sulphur recovery and sour water"
+     ],
+     [
+      "Gas plant, ethane recovery and LPG trains",
+      "KNPC",
+      "Cold service, wet sour gas upstream of treating, amine systems, pressurised LPG spheres and bullets"
+     ],
+     [
+      "Refinery product and intermediate tankage",
+      "KNPC",
+      "Frequent grade changes, floating roofs and seals, heated residue and bitumen tanks"
+     ],
+     [
+      "Crude storage, pipelines and export piers",
+      "KOC",
+      "Water and sludge on tank floors, soil-side corrosion, marine loading lines, hoses and pier piping in splash zones"
+     ],
+     [
+      "Mina Abdullah refinery and sea island export",
+      "KNPC",
+      "Hydrocracking and ARDS units, delayed coking, the inter-refinery transfer lines and subsea export lines"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ahmadi-after-cfp",
+   "h": "Assessing a refinery after the Clean Fuels Project",
+   "p": [
+    "The Clean Fuels Project rebuilt both refineries to produce Euro-4 and Euro-5 grade fuels, integrating them into one complex rated at about 800,000 barrels per day. KNPC reports 76 new units and 4,045 new equipment items across the two sites, seven existing units upgraded and seven shut down. At Mina Al-Ahmadi the work refurbished the fluid catalytic cracker and added a vacuum distillation unit, a delayed coker, an atmospheric residue desulphurisation unit, sulphur recovery, gas oil desulphurisation and hydrogen production. New units came on stream through 2020 and 2021.",
+    "For RBI that rebuild creates three populations inside one register. New units have design corrosion predictions and baseline readings, but only a few years of service, so the plan front-loads inspections that test whether predicted rates are real. Retained units have long histories, but the process feeding them changed when the new units started, so a corrosion rate measured before the project may no longer describe the service. Units that were shut down leave equipment that is isolated, mothballed or reused, and each item needs a status in the register rather than silent removal.",
+    "The step most often missed after a project of this size is re-assigning damage mechanisms on retained equipment whose feed, temperature or contaminant level shifted. A crude unit receiving different blends, or a sour water stripper now treating water from new hydroprocessing units, can move from low to medium or high susceptibility without any change of hardware. The study compares current operating data with the basis the existing register was built on and flags every item where the two no longer match."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/damage-mechanism-review",
+     "Damage mechanism review"
+    ],
+    [
+     "/api-inspection/corrosion-rate-calculation-long-term-short-term",
+     "Long-term and short-term corrosion rates"
+    ]
+   ]
+  },
+  {
+   "id": "ahmadi-mechanisms",
+   "h": "Damage mechanisms that lead a register here",
+   "p": [
+    "Residue desulphurisation and hydrogen production put hydrogen at high temperature and pressure into play, so reactor circuits and their effluent trains are screened against API RP 941 operating limits and for high-temperature hydrogen attack, with reactor effluent air coolers checked for ammonium bisulphide corrosion where wash water practice and velocities matter as much as metallurgy. The delayed coker brings cyclic thermal fatigue, bulging and cracking of drums and their skirts, and high-temperature sulphidation in furnace and transfer lines. Sulphur recovery, amine regeneration and sour water stripping bring wet H2S cracking, amine stress corrosion cracking where post-weld heat treatment is missing, and acid corrosion at the warm end of overhead systems.",
+    "The FCC, refurbished rather than replaced, carries its own long-running concerns: erosion in catalyst handling and standpipes, refractory degradation and hot spots, and carbonate stress corrosion cracking in the wet gas compression and gas recovery section downstream of the main fractionator. In the gas plant and LPG trains, low-temperature sections need brittle fracture screening against minimum design metal temperatures, and pressurised storage is examined for cracking at welds, nozzles and leg attachments.",
+    "Outside the process, the coast decides much of the external risk. Hot, dusty, salt-laden air on uninsulated steel attacks coatings, and insulated lines that cycle through the temperature band where corrosion under insulation is fastest are the single biggest external item on most coastal registers. Seawater cooling systems add pitting, under-deposit and microbiologically influenced corrosion."
+   ],
+   "links": [
+    [
+     "/api-inspection/amine-caustic-cracking",
+     "Amine and caustic cracking"
+    ],
+    [
+     "/api-inspection/wfmt-acfm-crack-detection-sour-service",
+     "Crack detection in sour service"
+    ],
+    [
+     "/api-inspection/cui-in-api-570-and-api-510-inspection-plans",
+     "CUI in API 510 and API 570 plans"
+    ],
+    [
+     "/standards/api-583",
+     "API 583 and corrosion under insulation"
+    ]
+   ]
+  },
+  {
+   "id": "ahmadi-lpg",
+   "h": "LPG trains, spheres and bullets",
+   "p": [
+    "Pressurised LPG storage is equipment where the consequence term dominates. A release from a sphere is not limited to its contents, because a pressurised flammable cloud on a congested site can affect neighbouring units, so even a modest probability can place a sphere in a high risk category. The study therefore spends effort on getting probability right, which for spheres usually means crack-like damage rather than thinning: wet H2S where treating upstream is imperfect, cracking at weld toes and nozzle reinforcement, and external corrosion at leg-to-shell junctions, under fireproofing and where water pools on supports.",
+    "Inspection credit for a sphere depends on what was done and how much of the weld length was covered. An external visual check credits very little against internal cracking, while wet fluorescent magnetic particle testing of the internal welds, or an equivalent volumetric method qualified for the flaw type, credits much more. The plan states the coverage required on each weld group so that the inspection actually bought matches the credit assumed. Newer vessels, such as those in the north LPG tank area, start with baseline data and are scheduled to confirm early that no fabrication or commissioning damage exists."
+   ],
+   "links": [
+    [
+     "/consulting/api-510-pressure-vessel-inspector-services",
+     "API 510 pressure vessel inspector support"
+    ],
+    [
+     "/inspection/ndt-inspection-services/advanced-ndt",
+     "Advanced NDT methods"
+    ]
+   ]
+  },
+  {
+   "id": "ahmadi-crude-tanks",
+   "h": "Crude tank farms and the export piers",
+   "p": [
+    "KOC's export system stores and moves crude in quantity, and that volume is what an RBI study for it has to respect. On large crude tanks, water and sediment settle to the floor, where sludge shelters pitting on the product side; on the soil side, the condition of the pad, its drainage, any leak detection and the cathodic protection readings decide how fast plates thin. Floor scans from previous out-of-service inspections, with their coverage and detection threshold, are the most valuable data a tank study can receive, because they turn a guessed floor corrosion rate into a measured one.",
+    "API 653 lets an owner set the internal inspection interval of a tank by an RBI assessment carried out to API RP 580, rather than by the fixed calendar rules, once the assessment has been reviewed and approved by a team that includes an authorised inspector and an engineer experienced in tank design; the assessment then has to be reviewed and validated at least every ten years. Before relying on that route, the study confirms which KOC procedure governs the tank and what that procedure adds.",
+    "At the piers, the risk sits in the marine loading lines, hoses, pier piping in the splash and tidal zones and the supports that hold them. These items rarely fit a tank or vessel template, and the study gives them their own circuits so that external corrosion at supports and in the splash zone is inspected at the right frequency. KOC has also awarded a contract for new export crude storage and enhancements to its export infrastructure, without naming the site; any new tanks enter the register with design data and a baseline inspection plan from the start."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/storage-tank-rbi",
+     "RBI for storage tanks"
+    ],
+    [
+     "/api-inspection/api-653-tank-floor-pitting-remaining-thickness",
+     "Tank floor pitting and remaining thickness"
+    ],
+    [
+     "/standards/api-651",
+     "API 651 cathodic protection"
+    ],
+    [
+     "/consulting/api-653-tank-inspector-services",
+     "API 653 tank inspector support"
+    ]
+   ]
+  },
+  {
+   "id": "ahmadi-transfer-lines",
+   "h": "Lines that join the two refineries and the port",
+   "p": [
+    "Integration of Mina Al-Ahmadi and Mina Abdullah relies on inter-refinery transfer lines, and crude reaches both refineries from KOC's system. Long lines that cross company boundaries, roads and open ground are easy to leave between registers. The study begins by drawing the boundaries: which operating company owns each line, where custody changes, which flange or valve marks the end of one register and the start of another, and who holds the inspection history for the section in between.",
+    "Once ownership is clear, such lines are divided into circuits by service, temperature and environment rather than by drawing number. Buried and road-crossing sections need different evidence from those on sleepers: cathodic protection records and any pigging or guided wave results where they exist, external coating surveys where they do not. Where a line has no inspection evidence at all, the study says so and proposes the first inspection that would establish a baseline, rather than assigning a rate taken from a neighbouring line."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/piping-rbi",
+     "RBI for process piping"
+    ],
+    [
+     "/api-inspection/api-570-deadleg-inspection",
+     "Deadleg inspection"
+    ],
+    [
+     "/api-inspection/erosion-corrosion-piping",
+     "Erosion-corrosion in piping"
+    ]
+   ]
+  },
+  {
+   "id": "ahmadi-rules",
+   "h": "Rules and standards that frame a study here",
+   "p": [
+    "In Kuwait the inspection requirements for refinery, gas and export equipment come chiefly from the operating companies' own engineering and inspection standards, which reference the API and ASME inspection codes. The study is built to the KNPC or KOC procedure that governs the asset, including its risk matrix, its targets and its rules for inspection effectiveness, and takes API RP 580, API RP 581 and ASME PCC-3 as the technical basis where the procedure points to them.",
+    "Environmental obligations sit with the Environment Public Authority under the Environment Protection Law, Law No. 42 of 2014 as amended. RBI does not replace any permit condition, but the consequence analysis should reflect the environmental sensitivity of a release to the sea or to coastal ground, and the study records where a permit or monitoring requirement already sets an inspection or survey that the plan must keep."
+   ]
+  },
+  {
+   "id": "ahmadi-remote",
+   "h": "Organising the study without travel",
+   "p": [
+    "Work begins with a data room hosted by the owner or shared through its document system: process flow diagrams and P&IDs, heat and material balances, equipment datasheets and manufacturer's data reports, inspection and thickness records, corrosion monitoring and integrity operating windows, and the existing RBI register or the export from whatever software holds it. Where data cannot leave company systems, review can run on screen-shared sessions inside them.",
+    "The first deliverable is a screening note and gap log, issued before any workshop, so that the plant's people know which documents and readings will matter. Workshops by video then confirm corrosion loops and damage mechanisms with process, operations, corrosion and inspection engineers, in sessions sized to their shift pattern rather than one long meeting. Calculations follow at the depth the governing procedure requires, from qualitative screening up to a quantitative API RP 581 assessment, and the draft is reviewed with the plant before it is issued.",
+    "Kuwait works on Arabia Standard Time all year, and Hyderabad's working day covers the Kuwaiti one, with Houston continuing review after it ends. None of this needs anyone from Atlantis at Mina Al Ahmadi: the walkdowns, nameplate checks and readings the gap log asks for are carried out by the owner's inspectors or their inspection contractor, following a list that explains why each item matters."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/remote-rbi",
+     "How a remote RBI study works"
+    ],
+    [
+     "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+     "Quantitative RBI to API RP 581"
+    ]
+   ]
+  },
+  {
+   "id": "ahmadi-approval",
+   "h": "What the study hands over, and who decides",
+   "p": [
+    "Each item leaves the study with its damage mechanisms, probability and consequence, risk ranking, inspection technique, coverage, credited effectiveness and due date, plus the CMLs to add, move or retire and the events that should trigger reassessment. The operating company's inspection authority approves the intervals and decides how the plan is adopted; Atlantis does not act as inspector of record or as an approving body. Where inspection later finds damage needing an evaluation of fitness for continued service, that assessment stays with the owner's engineers, and the RBI model is updated with the outcome."
+   ]
+  }
+ ],
+ "codes": [
+  "API RP 580 (risk-based inspection programmes)",
+  "API RP 581 (RBI methodology)",
+  "ASME PCC-3 (inspection planning using risk-based methods)",
+  "API RP 571 (damage mechanisms)",
+  "API RP 941 (steels for hydrogen service at elevated temperatures and pressures)",
+  "API 510, API 570 and API 653",
+  "API RP 583 (corrosion under insulation)",
+  "API RP 584 (integrity operating windows)",
+  "KNPC and KOC engineering and inspection procedures"
+ ],
+ "deliverables": [
+  "RBI register per item in the governing KNPC or KOC risk matrix",
+  "Mechanism reassignment list for retained units whose service changed after the Clean Fuels Project",
+  "Inspection plan per item with technique, coverage, credited effectiveness and due date",
+  "Weld-group crack detection plan for LPG spheres and bullets",
+  "Crude tank ranking for out-of-service and floor inspection",
+  "Ownership and boundary map for transfer lines and pier piping",
+  "Data-gap log and walkdown list for the owner's inspectors",
+  "Reassessment triggers tied to operating windows and management of change"
+ ],
+ "industries": [
+  "Crude oil refining",
+  "Gas processing and LPG",
+  "Crude storage and export",
+  "Pressurised storage",
+  "Marine loading"
+ ],
+ "faqs": [
+  {
+   "q": "Can one study cover both a refinery unit and the KOC lines that feed it?",
+   "a": "It can, provided the boundary is fixed first. The study identifies which company owns each line, where custody changes and which flange marks the end of each register. Items on both sides can then be assessed in one exercise, while each operating company keeps its own register, risk matrix and approval route for what it owns."
+  },
+  {
+   "q": "Our unit was rebuilt under the Clean Fuels Project. Is the old inspection history still useful?",
+   "a": "Partly. Readings on retained equipment remain valid evidence of past wall loss, but rates measured before the new units started may not describe current service if feed, temperature or contaminants changed. The study separates history from before and after the change, uses the later data where it exists and schedules early readings where it does not."
+  },
+  {
+   "q": "How are LPG spheres handled differently from atmospheric tanks?",
+   "a": "Spheres are pressure vessels, assessed to the vessel code, and their risk is usually driven by consequence and by crack-like damage rather than thinning. The plan specifies which weld groups receive internal crack detection, the coverage needed for the credited effectiveness, and the external checks at legs, fireproofing and supports."
+  },
+  {
+   "q": "Can the internal inspection interval of a large crude tank be set by RBI?",
+   "a": "Under API 653 an owner may set the internal interval by an RBI assessment made to API RP 580 instead of the fixed rules, once the assessment is accepted by the owner's authorised inspector and an experienced tank engineer and reviewed at least every ten years. The study checks what the governing KOC or KNPC procedure adds before that route is used."
+  },
+  {
+   "q": "What if our data cannot leave company systems?",
+   "a": "The analysis can be done during screen-shared sessions inside your systems, with only the agreed outputs leaving. That slows the work a little but keeps controlled documents where your information security rules require them to stay."
+  },
+  {
+   "q": "Does anyone from Atlantis need to come to Mina Al Ahmadi?",
+   "a": "No. The study is delivered through a data room and video workshops. Walkdowns, nameplate checks and any readings needed to close gaps are carried out by your inspectors or your inspection contractor, following a list that ties each check to the decision it informs."
+  },
+  {
+   "q": "How does the study treat the piers and marine loading lines?",
+   "a": "They are given their own circuits, separate from onshore piping, because their environment differs. Splash and tidal zones, supports and clamps, hoses and expansion joints are assessed for external corrosion and fatigue, and the plan sets frequencies that reflect the marine exposure rather than the onshore service."
+  },
+  {
+   "q": "Who signs off the intervals?",
+   "a": "Your inspection authority. Atlantis recommends intervals and tasks with the reasoning for each, but does not approve them or take the inspector-of-record role, and any fitness-for-service evaluation after damage is found stays with your engineers."
+  }
+ ],
+ "related": [
+  [
+   "/inspection/risk-based-inspection/kuwait",
+   "RBI in Kuwait"
+  ],
+  [
+   "/inspection/risk-based-inspection/ras-tanura",
+   "RBI at Ras Tanura"
+  ],
+  [
+   "/inspection/risk-based-inspection/jubail",
+   "RBI in Jubail"
+  ],
+  [
+   "/inspection/risk-based-inspection/storage-tank-rbi",
+   "RBI for storage tanks"
+  ],
+  [
+   "/inspection/risk-based-inspection/pressure-vessel-rbi",
+   "RBI for pressure vessels"
+  ],
+  [
+   "/inspection/risk-based-inspection/rbi-revalidation-audit",
+   "RBI revalidation and audit"
+  ],
+  [
+   "/standards/api-580",
+   "API 580 explained"
+  ],
+  [
+   "/standards/api-581",
+   "API 581 explained"
+  ],
+  [
+   "/standards/api-571",
+   "API 571 damage mechanisms"
+  ],
+  [
+   "/tools/api-inspection-interval-calculator",
+   "API inspection interval calculator"
+  ],
+  [
+   "/inspection/turnarounds-shutdowns",
+   "Turnaround and shutdown inspection"
+  ],
+  [
+   "/contact",
+   "Contact Atlantis"
+  ]
+ ],
+ "sources": [
+  {
+   "fact": "Mina Al-Ahmadi refinery: started 1949 at 25,000 bpd; 346,000 bpd; ~10.5 km2 on the seashore; ethane recovery 2008; 4th LPG train 2016; new north LPG tanks 2017; 5th LPG train 2022; Euro-5 after CFP",
+   "url": "https://www.knpc.com/en/our-business/oil-refining/mina-al-ahmadi-refinery"
+  },
+  {
+   "fact": "CFP: 76 new units, 4,045 equipment items, MAA 346,000 and MAB 454,000 bpd, integrated complex ~800,000 bpd, Euro-4/5 fuels",
+   "url": "https://www.knpc.com/en/strategic-projects/commissioned-projects/clean-fuels-project-cfp"
+  },
+  {
+   "fact": "CFP at MAA: refurbished FCC; new VDU, DCU, ARDS, SRU, gas oil desulphurisation, hydrogen production; MAB package includes refurbished units at the Shuaiba site and inter-refinery transfer lines",
+   "url": "https://www.offshore-technology.com/projects/knpcs-clean-fuels-project/"
+  },
+  {
+   "fact": "CFP units commissioned 2020-2021 (MAA NCU 107 March 2020; MAB HCU 114 mechanical completion May 2021); 7 units revamped, 7 retired",
+   "url": "https://www.ogj.com/general-interest/article/14208271/kuwaits-clean-fuels-project-reaches-mechanical-completion"
+  },
+  {
+   "fact": "Shuaiba refinery to close, facilities folded into CFP",
+   "url": "https://www.ogj.com/refining-processing/refining/article/17240946/clean-fuels-project-will-reshape-the-refining-industry-in-kuwait"
+  },
+  {
+   "fact": "Shuaiba refinery shut in 2017 (March/April 2017)",
+   "url": "https://en.wikipedia.org/wiki/Kuwait_National_Petroleum_Company"
+  },
+  {
+   "fact": "Mina Abdullah refinery: built 1958, ARDS, delayed coker, hydrocracker; sea island export 5 km offshore",
+   "url": "https://www.knpc.com/en/our-business/crude-oil-refining/mina-abdullah-refinery"
+  },
+  {
+   "fact": "Al-Zour refinery about 90 km south of Kuwait City, 615,000 bpd",
+   "url": "https://www.knpc.com/en/our-business/oil-refining/al-zour-refinery"
+  },
+  {
+   "fact": "Gas plant at Mina Al-Ahmadi inaugurated February 1979 with LPG trains 31-33; five LPG trains; 5th train commissioned March 2022",
+   "url": "https://knpc.com/en/our-business/gas-processing"
+  },
+  {
+   "fact": "Mina Al Ahmadi piers (South Pier, North Pier, New Oil Pier); pilots and tugs owned by KOC",
+   "url": "https://marineinsight.com/know-more/10-largest-oil-and-gas-loading-terminals-in-the-middle-east"
+  },
+  {
+   "fact": "KOC contract (June 2026, L&T, CAPT approval) for export crude storage facilities and enhancements to export infrastructure; location not stated",
+   "url": "https://www.hellenicshippingnews.com/kuwait-awards-992mln-export-crude-oil-infrastructure-deal-to-lt/"
+  },
+  {
+   "fact": "Environment Protection Law No. 42 of 2014 as amended; Environment Public Authority",
+   "url": "https://www.iea.org/policies/12004-law-no-42-of-2014-as-amended-the-environment-protection-law"
+  },
+  {
+   "fact": "API 653 RBI route for internal interval, review/validation at least every 10 years (site rule, CLAUDE.md 86.4 and page brief)",
+   "url": "https://atlantisndt.com/inspection/risk-based-inspection/storage-tank-rbi"
+  },
+  {
+   "fact": "KIPIC merged into KNPC by absorption: SPC approval 29 Apr 2026, gazetted 1 Jun 2026 (context; not stated on this page)",
+   "url": "https://www.arabtimesonline.com/news/knpc-absorbs-kipic-expands-energy-portfolio/"
+  }
+ ]
+}
