@@ -187,6 +187,7 @@
     "rockford": ["Rockford","IL","USA","city"],
     "decatur-alabama": ["Decatur","AL","USA","city"],
     "warner-robins": ["Warner Robins","GA","USA","city"],
-    "akron": ["Akron","OH","USA","city"]
+    "akron": ["Akron","OH","USA","city"],
+    "charleston-west-virginia": ["Charleston","WV","USA","city"]
   }
 }

@@ -7264,6 +7264,37 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "erie", label: "Erie" },
     ],
   },
+  // === North American training expansion 2026-11-11 (scripts/add-na-training-cities-2026-11.mjs) ===
+  {
+    slug: "charleston-west-virginia",
+    city: "Charleston",
+    country: "USA",
+    lat: 38.35, lng: -81.63,
+    localContext:
+      "Charleston anchors the Kanawha Valley chemical corridor. Union Carbide, a Dow subsidiary, runs its West Virginia Operations from the South Charleston site, Dow is a tenant at the Altivia-owned Institute site, and chemical production continues at Belle. Natural gas transmission lines and compressor stations cross the region, and Appalachian Power's John E. Amos plant sits in neighbouring Putnam County. Piping, vessels and welds follow ASME, API and AWS codes, so UT thickness, VT, MT and PT are in constant use, with RT on pipeline and process welds.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Kanawha Valley employers, most of them inspection contractors and plant maintenance firms, certify technicians under their own written practices based on ASNT SNT-TC-1A, setting hours, exams and vision checks. Chemical plant owners add contractor qualification and mechanical integrity requirements, and pipeline operators add operator qualification rules. ASNT central certification suits technicians who move between employers or states.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 60,000–85,000/year",
+      levelIII: "USD 98,000–140,000/year",
+      usdReference: "USD 60,000–85,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "pittsburgh", label: "Pittsburgh" },
+      { slug: "lynchburg", label: "Lynchburg" },
+      { slug: "cincinnati", label: "Cincinnati" },
+      { slug: "west-virginia", label: "West Virginia" },
+      { slug: "columbus-ohio", label: "columbus-ohio" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

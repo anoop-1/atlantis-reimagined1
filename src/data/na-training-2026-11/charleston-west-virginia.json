@@ -1,0 +1,15 @@
+{
+  "slug": "charleston-west-virginia",
+  "lat": 38.35,
+  "lng": -81.63,
+  "localContext": "Charleston anchors the Kanawha Valley chemical corridor. Union Carbide, a Dow subsidiary, runs its West Virginia Operations from the South Charleston site, Dow is a tenant at the Altivia-owned Institute site, and chemical production continues at Belle. Natural gas transmission lines and compressor stations cross the region, and Appalachian Power's John E. Amos plant sits in neighbouring Putnam County. Piping, vessels and welds follow ASME, API and AWS codes, so UT thickness, VT, MT and PT are in constant use, with RT on pipeline and process welds.",
+  "certPathwayNote": "Kanawha Valley employers, most of them inspection contractors and plant maintenance firms, certify technicians under their own written practices based on ASNT SNT-TC-1A, setting hours, exams and vision checks. Chemical plant owners add contractor qualification and mechanical integrity requirements, and pipeline operators add operator qualification rules. ASNT central certification suits technicians who move between employers or states.",
+  "salaryFrom": "west-virginia",
+  "siblings": [
+    "pittsburgh",
+    "lynchburg",
+    "cincinnati",
+    "west-virginia",
+    "columbus-ohio"
+  ]
+}

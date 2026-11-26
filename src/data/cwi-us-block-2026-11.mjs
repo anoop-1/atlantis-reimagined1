@@ -78,6 +78,7 @@ const CITY_OVERRIDE = {
   // US training cities added 2026-11-23 (state default is not the nearest CWI page)
   pensacola: 'mobile', evansville: 'louisville', 'rochester-new-york': 'buffalo', syracuse: 'buffalo', amarillo: 'oklahoma-city',
   'cedar-rapids': 'chicago', 'columbia-south-carolina': 'charlotte',
+  'charleston-west-virginia': 'columbus-ohio',
 };
 /** Region pages: the CWI page that best represents the region, or the national page. */
 const REGION_TARGET = {
