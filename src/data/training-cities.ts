@@ -7295,6 +7295,37 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "columbus-ohio", label: "columbus-ohio" },
     ],
   },
+  // === North American training expansion 2026-11-11 (scripts/add-na-training-cities-2026-11.mjs) ===
+  {
+    slug: "longview-texas",
+    city: "Longview",
+    country: "USA",
+    lat: 32.5, lng: -94.74,
+    localContext:
+      "Longview is the industrial center of East Texas. Eastman runs a large chemical manufacturing site on the Sabine River south of the city, Komatsu builds large mining wheel loaders at its Longview plant, and rail tank car building has a long local history, although Trinity announced in 2025 that one of its Longview facilities would close. Gas gathering and transmission pipelines cross the region from the East Texas and Haynesville producing areas. Process piping, vessels and welded structures follow ASME, API and AWS codes, so UT thickness, VT, MT and PT see daily use.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: [],
+    certPathwayNote:
+      "Longview employers, chiefly plant maintenance and inspection contractors, fabricators and equipment builders, certify technicians under their own written practices based on ASNT SNT-TC-1A, setting hours, exams and vision checks. Chemical plant owners add mechanical integrity and contractor qualification rules, and pipeline operators add operator qualification requirements. ASNT central certification suits technicians who expect to move between employers.",
+    salary: {
+      currency: "USD",
+      levelI: "USD 44,000–58,000/year",
+      levelII: "USD 62,000–92,000/year (turnaround OT can push past $130K)",
+      levelIII: "USD 105,000–160,000/year",
+      usdReference: "USD 62,000–92,000",
+    },
+    examCenters: [
+      { name: "Atlantis NDT — on-site corporate delivery", bodies: ["ASNT"] },
+    ],
+    siblings: [
+      { slug: "shreveport", label: "Shreveport" },
+      { slug: "dallas", label: "Dallas" },
+      { slug: "fort-worth", label: "Fort Worth" },
+      { slug: "beaumont", label: "Beaumont" },
+      { slug: "houston", label: "Houston" },
+    ],
+  },
 ];
 
 // ─── Lookup helpers ───────────────────────────────────────────────────────

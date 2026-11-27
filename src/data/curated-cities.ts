@@ -409,6 +409,7 @@ export const REPORTING_CITY_PAGE_SLUGS: Set<string> = new Set([
 
 /** Cities that have a /ndt-training-{slug} page (individual TSX + DynamicTrainingPage fallback). */
 export const TRAINING_CITY_PAGE_SLUGS: Set<string> = new Set([
+  'longview-texas', // NA training expansion 2026-11-11
   'charleston-west-virginia', // NA training expansion 2026-11-11
   'akron', // NA training expansion 2026-11-11
   'warner-robins', // NA training expansion 2026-11-11

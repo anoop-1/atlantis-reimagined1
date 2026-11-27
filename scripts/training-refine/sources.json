@@ -412,5 +412,18 @@
   "https://www.mass.gov/dph/rcp",
   "https://pct.edu/catalog/majors/NDT",
   "https://www.ccp.edu/nondestructive-testing"
+ ],
+ "/ndt-training-north-carolina": [
+  "https://cpcc.edu/programs/nondestructive-examination-technology",
+  "https://nccommunitycolleges.edu/students/what-we-offer/programs/nondestructive-examination-technology"
+ ],
+ "/ndt-training-minnesota": [
+  "https://ridgewater.edu/academics/areas-of-study/advanced-manufacturing-engineering/nondestructive-testing-technology-ndt/",
+  "https://ohe.mn.gov/institutions/american-institute-nondestructive-testing"
+ ],
+ "/ndt-training-arizona": [
+  "https://www.pima.edu/academics-programs/degrees-certificates/imc/aviation/level-i/",
+  "https://uti.edu/programs/non-destructive-testing",
+  "https://www.uti.edu/locations/texas/houston/non-destructive-testing"
  ]
 }

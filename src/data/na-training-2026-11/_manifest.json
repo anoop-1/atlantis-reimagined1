@@ -68,6 +68,7 @@
     "decatur-alabama": ["Decatur", "AL", "USA", "alabama"],
     "warner-robins": ["Warner Robins", "GA", "USA", "georgia"],
     "akron": ["Akron", "OH", "USA", "ohio"],
-    "charleston-west-virginia": ["Charleston", "WV", "USA", "west-virginia"]
+    "charleston-west-virginia": ["Charleston", "WV", "USA", "west-virginia"],
+    "longview-texas": ["Longview", "TX", "USA", "texas"]
   }
 }

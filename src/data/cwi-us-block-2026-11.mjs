@@ -51,7 +51,7 @@ const STATE_DEFAULT = {
 const CITY_OVERRIDE = {
   // Texas
   baytown: 'houston', 'deer-park': 'houston', 'pasadena-texas': 'houston', galveston: 'houston', 'texas-city': 'houston', 'sugar-land': 'houston', freeport: 'houston',
-  'port-arthur': 'beaumont', austin: 'san-antonio', brownsville: 'corpus-christi', midland: 'fort-worth', odessa: 'fort-worth', 'el-paso': 'phoenix',
+  'port-arthur': 'beaumont', austin: 'san-antonio', brownsville: 'corpus-christi', midland: 'fort-worth', odessa: 'fort-worth', 'el-paso': 'phoenix', 'longview-texas': 'dallas',
   // California
   'san-jose': 'san-francisco', martinez: 'san-francisco', sacramento: 'san-francisco', 'el-segundo': 'los-angeles', 'long-beach': 'los-angeles', bakersfield: 'los-angeles',
   // Florida

@@ -224,5 +224,6 @@ export const US_TRAINING_PAGES = {
   "/ndt-training-warner-robins": "Warner Robins, GA", // 2026-11-11
   "/ndt-training-akron": "Akron, OH", // 2026-11-11
   "/ndt-training-charleston-west-virginia": "Charleston, WV", // 2026-11-11
+  "/ndt-training-longview-texas": "Longview, TX", // 2026-11-11
 };
 export const US_TRAINING_PATHS = Object.keys(US_TRAINING_PAGES);

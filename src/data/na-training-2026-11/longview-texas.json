@@ -1,0 +1,15 @@
+{
+  "slug": "longview-texas",
+  "lat": 32.5,
+  "lng": -94.74,
+  "localContext": "Longview is the industrial center of East Texas. Eastman runs a large chemical manufacturing site on the Sabine River south of the city, Komatsu builds large mining wheel loaders at its Longview plant, and rail tank car building has a long local history, although Trinity announced in 2025 that one of its Longview facilities would close. Gas gathering and transmission pipelines cross the region from the East Texas and Haynesville producing areas. Process piping, vessels and welded structures follow ASME, API and AWS codes, so UT thickness, VT, MT and PT see daily use.",
+  "certPathwayNote": "Longview employers, chiefly plant maintenance and inspection contractors, fabricators and equipment builders, certify technicians under their own written practices based on ASNT SNT-TC-1A, setting hours, exams and vision checks. Chemical plant owners add mechanical integrity and contractor qualification rules, and pipeline operators add operator qualification requirements. ASNT central certification suits technicians who expect to move between employers.",
+  "salaryFrom": "beaumont",
+  "siblings": [
+    "shreveport",
+    "dallas",
+    "fort-worth",
+    "beaumont",
+    "houston"
+  ]
+}
