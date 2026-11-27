@@ -1,0 +1,210 @@
+{
+  "title": "NDT Report Validation in Cleveland, OH | Independent Review",
+  "description": "Independent review of bridge steel, mill, boiler and Perry-area NDT reports and digital inspection data from Cleveland, done remotely on the records sent.",
+  "h1": "Independent review of NDT reports and digital inspection data for Cleveland's bridges, steel plants, boilers and fabricators",
+  "eyebrow": "Report validation: Cleveland and northeast Ohio",
+  "intro": "Much of the inspection paperwork that comes out of Cleveland is about steel that carries load: highway girders over the Cuyahoga valley, crane runways and ladle hooks inside a working steel plant, pressure parts in district steam and industrial boiler houses, and welded assemblies leaving fabrication shops across Cuyahoga, Lake and Lorain counties. A reactor on the lakeshore east of the city adds its own vendor and outage records. We read those NDT reports and the digital inspection data behind them independently, check them against the procedure, the code and the purchaser's specification, and write down what the evidence supports. Everything happens remotely, working from the records and data you transfer.",
+  "highlights": [
+    {
+      "h": "Load-bearing steel first",
+      "p": "Bridge welds, crane girders and structural connections are judged against welding codes that leave little room for a missing calibration or an unrecorded scan. We read those records the way the engineer of record will."
+    },
+    {
+      "h": "Repairs under Ohio boiler rules",
+      "p": "Ohio routes major repairs and alterations on stamped boilers and vessels through the National Board Inspection Code, a permit or an R certificate holder, and a signing inspector. The NDE behind that repair has to stand up to all of them."
+    },
+    {
+      "h": "A second reader, not a competitor",
+      "p": "We do not review work we performed, and the opinion is yours to use. It names each finding, the clause or procedure step it rests on and the evidence in the file."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Who in northeast Ohio asks for a report review",
+      "p": [
+        "The people who send us Cleveland reports are rarely the people who wrote them. A bridge owner's consultant wants to know whether a fabricator's ultrasonic records on groove welds will satisfy the contract before girders are erected. A plant engineer at a steel mill has a thickness survey on a gas main that disagrees with last year's readings and wants a view on which set to believe. A boiler owner has a repair package that an inspector has questioned. A buyer of a fabrication business wants to know whether the shop's NDE history would survive a customer audit.",
+        "What these clients share is a decision that depends on a document. An independent review does not repeat the examination; it tests whether the report, the procedure, the personnel records, the calibration evidence and the raw digital inspection data actually support the result written at the bottom of the page. Where they do, the opinion says so plainly. Where they do not, it says which link in the chain is missing and what would close it."
+      ]
+    },
+    {
+      "h": "Bridge and highway steel: fabrication NDE versus in-service inspection",
+      "p": [
+        "Cleveland's skyline is crossed by river bridges, and the region's newest large spans are the two George V. Voinovich Bridges that carry Interstate 90 over the Cuyahoga River into the city. The westbound span was completed in November 2013 and the eastbound span was fully open in October 2016, after the original Innerbelt Bridge, more than sixty years old, was demolished in 2014. We mention them to show the scale of steel work in the region; it is not a claim that we reviewed their records.",
+        "Two quite different families of report come out of this kind of infrastructure. Fabrication and erection NDE, such as ultrasonic testing of complete joint penetration groove welds, magnetic particle testing of fillet welds and visual weld inspection, is governed by the welding code named in the contract, usually the AWS D1.5 Bridge Welding Code for highway work, along with the owner's specification. The Ohio Department of Transportation requires field welders on its bridges either to hold an AWS certified welder card showing qualification to AWS D1.5 or to qualify through its own program under Supplement 1011, and lists the latter on its qualified field welder site. In-service bridge inspection reports, by contrast, record condition and are written to the federal National Bridge Inspection Standards and the owner's manual rather than to a welding code.",
+        "Reviewers see the two families confused more often than one would expect. A fabrication UT report that cites the wrong acceptance table for tension versus compression members, or a field repair record that relies on a welder whose qualification lapsed, can leave a structurally sound weld without the paper to prove it. A condition rating, on the other hand, is not something an NDE review can overturn; where a client asks us to look at in-service data such as ultrasonic thickness readings on a corroded member, the opinion stays with the measurement quality and leaves the rating to the bridge owner's engineer."
+      ]
+    },
+    {
+      "h": "Inside a working steel plant",
+      "p": [
+        "Cleveland-Cliffs runs Cleveland Works on the Cuyahoga River with two blast furnaces, two steel-producing facilities, an 84-inch hot strip mill, a pickling line, a five-stand tandem mill and a hot-dip coating line, making hot-rolled, cold-rolled and galvanized sheet and semi-finished slabs. A plant of that kind generates a steady volume of maintenance NDE, and naming it describes the local industry rather than any engagement of ours.",
+        "The reports that matter most in an integrated mill are often the unglamorous ones: magnetic particle records on crane hooks, sheaves and runway girder welds; ultrasonic thickness surveys on blast furnace gas mains, cooling water headers and stack shells; penetrant and visual records on repaired rolls and housings; and examination records on steam, air and hydraulic pressure equipment. Many are written quickly between production campaigns, by contractors working to the mill's own procedures.",
+        "When those records are reviewed, the recurring gaps are practical. Thickness readings on hot or scaled surfaces with no note of the surface preparation or temperature correction. Magnetic particle reports on lifting equipment that do not identify the technique, the field direction or whether a field indicator was used. Repairs signed off on a visual check when the governing procedure asked for MT after grinding. None of these proves the part is defective, but each weakens the record that the plant relies on to keep equipment running."
+      ]
+    },
+    {
+      "h": "Boilers, district steam and Ohio's repair route",
+      "p": [
+        "Downtown Cleveland is heated and cooled through a district network run by Cleveland Thermal, which supplies steam, hot water and chilled water from a central plant on Hamilton Avenue through roughly fifteen miles of underground piping to around ninety buildings. Add hospital, university and industrial boiler plants across the metro and the result is a large population of boilers and pressure vessels whose repairs are documented under state rules.",
+        "Ohio Administrative Code rule 4101:4-9-01 sets the route for existing equipment. Routine repairs that involve welding need a permit and inspector approval before work starts, with welding to ASME Section IX. Major repairs or alterations on ASME-stamped or Ohio-numbered boilers follow Part 3 of the National Board Inspection Code; without an R certificate the contractor or owner needs a permit from the Division of Industrial Compliance and a special or general inspector approves the repair and signs the repair report, while alterations require an R certificate holder and an authorized inspector. Pressure vessel repairs follow the same NBIC part.",
+        "The NDE in those packages is where we come in. A repair report may need to show that the excavation was examined before welding, that the finished weld was examined after any required heat treatment, and that the examiner was qualified on the date of the work. We check exactly that chain. The inspector's acceptance and the signature on the repair report stay with the commissioned inspector; we are not an inspector of record and we do not sign for the repair."
+      ]
+    },
+    {
+      "h": "Report types from Cleveland and where they tend to fall short",
+      "p": [
+        "The table summarises the reports we most often expect from the region, the documents that govern them and the weakness a reviewer should look for first."
+      ],
+      "table": {
+        "head": [
+          "Report or data set",
+          "Usually governed by",
+          "What the reviewer opens",
+          "Weak point seen most often"
+        ],
+        "rows": [
+          [
+            "UT of CJP groove welds on bridge or building steel",
+            "AWS D1.5 or AWS D1.1 and the contract specification",
+            "Procedure, transducer and calibration block records, scanning pattern, indication log, weld map",
+            "Indications rated against the wrong table for the member's stress type, or scanning faces not recorded"
+          ],
+          [
+            "MT of fillet welds and repaired areas",
+            "The welding code, ASME Section V Article 7 or ASTM E709 as named",
+            "Technique sheet, yoke check, field indicator use, lighting, sketches",
+            "No technique or field direction recorded, so coverage cannot be shown"
+          ],
+          [
+            "UT thickness surveys on mill gas mains and headers",
+            "Owner's procedure and the equipment's design basis",
+            "Gauge and probe records, calibration and verification readings, location drawings, raw data file",
+            "Readings on hot or scaled surfaces with no surface or temperature note"
+          ],
+          [
+            "Boiler or vessel repair NDE package",
+            "NBIC Part 3, ASME Section V and the construction code",
+            "Repair plan, weld procedure reference, NDE reports before and after heat treatment, personnel certificates",
+            "Final examination dated before the last heat treatment the plan required"
+          ],
+          [
+            "Vendor examination records for a nuclear station",
+            "Purchase order, licensee specification and the referenced ASME sections",
+            "Order, procedures, certificates, examination data, nonconformance records",
+            "Acceptance standard in the report differs from the one the order named"
+          ],
+          [
+            "Digital radiographs or CR images of shop welds",
+            "Construction code and ASME Section V Article 2",
+            "Image files, image quality indicator evidence, exposure and processing records",
+            "Exported JPEG images reviewed instead of the original files, with no IQI visible"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Perry Nuclear Power Plant: an opinion the licensee's QA group weighs",
+      "p": [
+        "The Perry Nuclear Power Plant, about 35 miles northeast of Cleveland on the Lake Erie shore, is a General Electric boiling water reactor licensed to Vistra Operations Company LLC and overseen by NRC Region III. The renewal application was filed in July 2023 by the plant's previous owner, Energy Harbor, when the original operating licence was due to expire in November 2026, and the NRC approved a 20-year renewal in July 2025. Long-term operation keeps a steady flow of inspection, vendor and outage records moving through the station and its suppliers.",
+        "Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list, and we do not present our work as part of a nuclear quality program. What we offer a station or its suppliers is an independent technical opinion on a record, which the licensee's quality assurance organisation decides how to use. Typical uses are balance-of-plant or other non-safety-related scope, a supplier's examination records before shipment, an owner's check on a contractor interpretation that its own reviewers question, or technical input to a commercial disagreement between a vendor and a purchaser. We have no history at the plant and claim none."
+      ]
+    },
+    {
+      "h": "Radiographs from Ohio contractors, reviewed rather than shot",
+      "p": [
+        "Ohio is an NRC Agreement State. Its radioactive materials program is run by the state's Bureau of Environmental Health and Radiation Protection, with NRC Region III in Chicago handling the federal side, and Ohio Administrative Code chapter 3701:1-68 covers industrial radiation-generating equipment such as X-ray systems. Any radiography in a Cleveland plant or shop is therefore carried out by a contractor licensed or registered with the state.",
+        "No Atlantis crew exposes radiographs on any US site. Reviewing the film, computed radiography images or digital detector images that a licensed contractor produced is a document review, and that is the service. The reviewer checks density or signal-to-noise evidence, image quality indicator placement and visibility, coverage against the weld map, film or image identification, and whether each indication was interpreted against the acceptance criteria the contract actually named."
+      ]
+    },
+    {
+      "h": "The digital side of a Cleveland review",
+      "p": [
+        "More of the region's NDE now arrives as digital inspection data rather than a signed paper form. Fabricators send phased array files for groove welds, mills keep thickness readings in maintenance databases, contractors issue digital NDT reports from reporting platforms with electronic signatures, and radiography arrives as image files instead of film. Each format makes some checks easier and hides others.",
+        "A sound digital review asks for the original files, not exports: the encoded scan file with its setup, the image with its acquisition parameters, the database extract with its timestamps. It then checks data lineage, meaning that the file attached to a report is the file the technician actually acquired, that the setup in the file matches the procedure, and that whoever signed electronically held the certification the written practice requires on that date. Digital reporting does not remove the need for those checks; it simply moves the evidence from a filing cabinet into a server, where it can be reopened and tested."
+      ]
+    },
+    {
+      "h": "How the review runs from Cleveland",
+      "p": [
+        "Atlantis has no Cleveland office and no staff in Ohio; our offices are in Houston and Hyderabad. Every review is carried out remotely on the records you transfer to us through a secure link. Reviews in UT, RT, MT, PT and VT are led by an ASNT NDT Level III certified in those five methods, and the wider review team has members who come from nuclear, maritime, oil and gas and petrochemical work."
+      ],
+      "list": [
+        "You describe the decision the review supports: accepting a fabricator's records, answering an inspector's question, settling a dispute or assessing an inherited history.",
+        "We agree the scope and the sample, and tell you which original files we need, including raw digital inspection data where it exists.",
+        "The reviewer runs the seven checks: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability.",
+        "You receive a written opinion that rates the record sound, deficient in documentation only, or deficient in disposition, with each finding tied to the clause or procedure step and the evidence.",
+        "Fitness-for-service judgments, remaining-life estimates and repair acceptance stay with your engineer and your commissioned inspector."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you review a fabricator's ultrasonic records on bridge girder welds before erection?",
+      "a": "Yes. We check the procedure against AWS D1.5 and the contract specification, the calibration and scanning records, the indication log and the weld map, and say whether each weld's acceptance is supported. If phased array was used, we ask for the encoded files rather than screenshots."
+    },
+    {
+      "q": "Will your opinion replace the Ohio inspector's approval of a boiler repair?",
+      "a": "No. Under the Ohio rules a special or general inspector, or an authorized inspector for an R certificate holder, approves the repair and signs the report. Our review tests the NDE evidence in the package so that the inspector's questions can be answered before the package is submitted."
+    },
+    {
+      "q": "Do you send anyone to the plant?",
+      "a": "No. The review is done remotely on the records you send. Atlantis has no Cleveland or Ohio presence, and we do not need site access to judge whether a report is supported by its evidence."
+    },
+    {
+      "q": "Can you review radiographs taken by our Ohio radiography contractor?",
+      "a": "Yes. Reviewing film, CR or DR images and the radiographic report is a document review. We do not perform radiography in the United States; the licensed contractor keeps responsibility for the exposures and the radiation safety program."
+    },
+    {
+      "q": "We supply components to a nuclear station. Can you look at our examination records?",
+      "a": "Yes, as an independent technical opinion. We are not an approved Appendix B or NQA-1 supplier, so the licensee's quality organisation decides whether and how the opinion is used. We check the records against the purchase order, the procedures and the referenced code sections."
+    },
+    {
+      "q": "Our thickness survey on a mill gas main disagrees with last year's. Can you say which is right?",
+      "a": "We can say which data set is better supported. We compare the gauge and probe records, calibration evidence, surface condition notes and locations for both surveys. If neither is reliable at certain points, the opinion says so and recommends where new readings are needed."
+    },
+    {
+      "q": "What do you need from us to begin?",
+      "a": "The report, the procedure it was written to, the personnel certificates, calibration records and any raw digital files, plus a short note on the decision the review supports. Send them or a description of the job to info@atlantisndt.com and we reply within one business day."
+    },
+    {
+      "q": "Will you ever review a report for work Atlantis performed?",
+      "a": "No. Independence is the point of the review, so we decline any record where Atlantis carried out the examination."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-ohio",
+      "Inspection services in Ohio"
+    ],
+    [
+      "/consulting/ndt-consulting-cleveland",
+      "NDT consulting in Cleveland"
+    ],
+    [
+      "/ndt-training-cleveland",
+      "NDT training in Cleveland"
+    ],
+    [
+      "/magnetic-particle-inspection-structural-steel",
+      "MT on structural steel"
+    ],
+    [
+      "/consulting/nbic-r-stamp-ndt-audit-support",
+      "NBIC R stamp NDT audit support"
+    ]
+  ],
+  "sources": [
+    "https://www.fhwa.dot.gov/ipd/project_profiles/oh_voinovich_bridge.aspx",
+    "https://www.dot.state.oh.us/Divisions/ConstructionMgt/Materials/structures/Pages/FieldWelderQual.aspx",
+    "https://d1io3yog0oux5.cloudfront.net/_b310c64dc24b264f217cfa9ae635a7b7/clevelandcliffs/db/1170/10181/fact_sheet/CLF_FactSheet_Cleveland_102025.pdf",
+    "https://www.districtenergy.org/blogs/district-energy/2025/11/24/clevelands-hidden-piping-network-powers-downtown-b",
+    "https://codes.ohio.gov/ohio-administrative-code/rule-4101:4-9-01",
+    "https://www.nrc.gov/info-finder/reactors/perr1.html",
+    "https://www.nrc.gov/cdn/doc-collection-news/2025/25-025.pdf",
+    "https://www.ans.org/news/article-7179/vistras-perry-nuclear-plant-approved-for-license-renewal/",
+    "https://www.govinfo.gov/content/pkg/FR-2023-08-09/html/2023-17006.htm",
+    "https://investor.vistracorp.com/2025-07-07-Vistra-Receives-Approval-to-Extend-Operation-of-Perry-Nuclear-Plant-Through-2046",
+    "https://www.nrc.gov/agreement-states/ohio.html",
+    "https://codes.ohio.gov/ohio-administrative-code/rule-3701%3A1-68-02"
+  ]
+}

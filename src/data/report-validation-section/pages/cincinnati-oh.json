@@ -1,0 +1,204 @@
+{
+ "title": "NDT Report Validation in Cincinnati, OH | Independent Review",
+ "description": "Remote, independent review of NDT reports and digital inspection data from Cincinnati fabricators, part suppliers, chemical plants and river power stations.",
+ "h1": "Independent NDT report review for Greater Cincinnati's shops, chemical sites and river power plants",
+ "eyebrow": "Report validation: Cincinnati and Northern Kentucky",
+ "intro": "Greater Cincinnati produces inspection records in more shapes than most metros its size. Machined and fabricated parts leave supplier shops with penetrant and magnetic particle certificates; batch chemical and polymer plants keep vessel and stainless piping files; coal and gas stations along the Ohio River generate boiler tube and high-energy piping data at every outage. When one of those records has to carry a decision, a second reader helps. Atlantis reviews NDT reports and the digital inspection data behind them, independently and remotely, against the procedure, the code edition and the purchaser's requirements, and writes down what the evidence supports and where it stops. There is no Atlantis office anywhere in Greater Cincinnati; every review is done from the files you send.",
+ "highlights": [
+  {
+   "h": "Supplier certificates read against the purchase order",
+   "p": "Parts made in the Mill Creek valley and the northern suburbs ship with NDT certificates. We check that the certificate answers the specification the buyer actually named, not a similar one."
+  },
+  {
+   "h": "Batch plants with stainless and specialty alloys",
+   "p": "Surfactant, ester and polymer units run reactors, kettles and transfer lines in alloys where penetrant and thickness records matter. Those reports get the same seven checks as a refinery package."
+  },
+  {
+   "h": "Two boiler programs, one river",
+   "p": "Ohio commissions its inspectors through the superintendent of industrial compliance; Kentucky runs a Boiler Inspection Section under its housing and buildings department. The opinion is written for whichever reader will hold the record."
+  }
+ ],
+ "sections": [
+  {
+   "h": "Where Cincinnati's inspection records come from",
+   "p": [
+    "GE Aerospace keeps its world headquarters in Evendale, in the former Wright Aeronautical complex where it set up a second jet engine assembly plant in 1948 and dedicated it early the next year, and in 2024 it announced new additive machines, tooling and test cell upgrades for its greater Cincinnati facilities. Around that anchor sits a wide circle of machine shops, forging and casting suppliers, heat treaters and coating houses whose parts travel with inspection certificates. We mention the company to describe the regional supply chain only; it is not a statement that Atlantis has reviewed its records, worked for it, or holds any supplier approval from it.",
+    "The chemical side is smaller in scale than the Gulf Coast but dense. BASF's Este Avenue site, straddling Cincinnati and St. Bernard, runs three plants making alkyl polyglucoside surfactants, mono-, di- and polyol esters, oleate esters, compounded lubricants and coolants, and in October 2026 BASF announced that its expanded alkyl polyglucoside capacity there had been inaugurated. Downriver at Addyston, an INEOS plant makes mass ABS and suspension SAN, which INEOS Styrolution markets. Across the river in Boone County, Kentucky, Duke Energy's East Bend Station is a single-turbine plant of roughly 600 megawatts.",
+    "Add the structural and pressure-equipment fabricators that serve the region, and the result is a steady flow of shop weld reports, part certificates, vessel internal inspection reports, thickness surveys and boiler outage packages. Each of those has its own way of going wrong on paper."
+   ]
+  },
+  {
+   "h": "Part certificates from the supplier base",
+   "p": [
+    "A certificate of conformance that lists a penetrant or magnetic particle examination is a short document carrying a lot of weight. The purchaser accepts the part on it, and if a question arises months later, the certificate and the shop's examination record are usually all that exist. Reviews of these documents tend to turn on detail: which specification revision the order called up, which penetrant family and sensitivity level the shop used, whether the developer form matched the procedure, and whether the light-meter readings for fluorescent work were recorded on the day.",
+    "In aerospace and other precision work the governing requirements come from the purchaser's flow-down, and the employer certifies its own examiners under a written practice. Atlantis does not judge whether a supplier's personnel scheme satisfies a particular prime; we check whether the record shows that the examiner was qualified under the scheme the order named, that the qualification was current on the examination date, and that the procedure used was the approved revision. Where an order invokes a customer specification we have not been sent, the opinion says so rather than guessing at its content.",
+    "Magnetic particle records on forgings and machined steel parts get attention on field direction, current type, the method of verifying field strength and the demagnetisation step. Ultrasonic certificates on bar, plate or forgings are checked for the reference standard, the scanning coverage and the recording threshold the specification set."
+   ]
+  },
+  {
+   "h": "Batch chemical, polymer and ester plants",
+   "p": [
+    "Specialty chemical sites differ from refineries in ways that show up in their inspection files. Equipment is smaller, more varied and often older; many vessels are jacketed, glass-lined or made of austenitic or duplex stainless; and process changes between campaigns can move a vessel into a service its inspection plan never anticipated. A review in this setting often starts by asking whether the examination method still suits the damage the current service can cause.",
+    "Common findings are mundane but consequential. Thickness surveys on jacketed vessels report readings taken through areas the jacket covers without saying how access was gained. Penetrant reports on stainless nozzles omit surface temperature, which decides whether the dwell time was valid. Repair packages show a weld examined before post-weld cleaning rather than after. Each of these can usually be resolved from records the plant already holds, which is why we ask for the procedure and the raw data along with the report.",
+    "Where an owner uses the results to set intervals under its process safety program, the opinion tells the integrity engineer which readings and dispositions can carry that decision. Remaining-life and fitness-for-service calculations stay with the owner's engineer; we do not perform them."
+   ]
+  },
+  {
+   "h": "Ohio River generation: boiler tubes, headers and HRSGs",
+   "p": [
+    "Coal units and gas-fired plants in the Cincinnati area share a record type that reviewers know well: the outage package. Waterwall and superheater tube thickness maps, header and attachment weld examinations, high-energy piping reports and the repair NDE after tube replacements all arrive in one bundle, often from several contractors working different shifts. The usual difficulty is stitching. Readings from one contractor's grid do not line up with the previous outage's grid, a replaced tube section carries no report after final heat treatment, or a header ligament indication was accepted on a sketch that the data does not reproduce.",
+    "Combined cycle plants bring heat recovery steam generator records into the same picture, where access drives what was actually examined. A good report states which tube rows and which elevations were reachable; a weak one implies full coverage. The review checks the claimed coverage against the scan plan, the access record and the data files."
+   ]
+  },
+  {
+   "h": "Questions a Cincinnati review usually has to answer",
+   "p": [
+    "The reason a client sends records shapes the opinion. This table lists the questions that come up most often in work from the region, with the evidence that usually settles each one."
+   ],
+   "table": {
+    "head": [
+     "Record arriving",
+     "Question behind the request",
+     "Evidence we ask for",
+     "What would mean deficient in disposition"
+    ],
+    "rows": [
+     [
+      "Supplier PT or MT certificate",
+      "Can the part be accepted on this paper?",
+      "Order and specification revision, shop procedure, examiner qualification record, process control logs",
+      "A relevant indication accepted against limits looser than the order required"
+     ],
+     [
+      "UT certificate on forging or bar",
+      "Was the volume the specification required actually covered?",
+      "Scan plan, reference block details, recorded data or screen captures, instrument calibration",
+      "Rejectable reflectors missed because the recording level was set above the specified threshold"
+     ],
+     [
+      "Vessel internal inspection report from a batch plant",
+      "Does the report support the next interval?",
+      "Prior reports, thickness data files, CML drawings, repair records",
+      "Corrosion rate taken from readings that were not at the same locations"
+     ],
+     [
+      "Boiler outage package",
+      "Can the unit return to service on the record as written?",
+      "Contractor reports, tube maps, repair NDE after heat treatment, radiographs or UT data",
+      "A repair weld released without the examination the procedure required after final heat treatment"
+     ],
+     [
+      "Fabricator weld report for structural steel",
+      "Does the report meet the job's code and the engineer's specification?",
+      "Welding code edition named in the contract, UT or MT procedure, inspector records",
+      "Discontinuities accepted against the wrong connection category or tension classification"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Ohio, Kentucky and the readers of a boiler record",
+   "p": [
+    "In Ohio, boilers and pressure vessels within the state program are inspected by general or special inspectors holding an Ohio commission issued by the superintendent of industrial compliance, and an inspector's certificate of competency follows an application and a written examination set by the board of building standards. In Kentucky, 815 KAR 15:026 from the Department of Housing, Buildings and Construction covers existing boilers and pressure vessels, including inspection frequencies, hydrostatic tests, repairs and alterations by reference to the National Board Inspection Code, and the reporting duties of special and owner-user inspectors.",
+    "Those readers matter to how a report is judged. A record headed for a commissioned inspector needs to show the repair organisation, the code basis and the examinations clearly enough for that inspector to act on it. Atlantis is not an inspector of record, an Authorized Inspector or an owner-user inspection organisation, and the opinion never stands in for one. It tells the owner whether the NDE portion of the record is strong enough to put in front of the person who signs."
+   ]
+  },
+  {
+   "h": "Radiographs from a two-state metro",
+   "p": [
+    "Both Ohio and Kentucky are NRC Agreement States. Ohio's radioactive materials program sits in the Ohio Department of Health's Bureau of Environmental Health and Radiation Protection, and Kentucky's in the Radiation Health Branch of the Cabinet for Health and Family Services. Industrial radiography on either bank of the river is therefore licensed by the state where the work is done.",
+    "Atlantis carries out no industrial radiography anywhere in the United States, on either bank of the river. What we offer is review of radiographs, computed radiography and digital radiography images produced by the owner's licensed contractor: density or signal-to-noise against the procedure, image quality indicator placement and sensitivity, geometric unsharpness, film or detector identification, and whether each interpretation matches what the image shows. A review led by an ASNT NDT Level III in radiographic testing can confirm or challenge a call without anyone needing a source on site."
+   ]
+  },
+  {
+   "h": "The digital side of a Cincinnati record",
+   "p": [
+    "Much of what arrives is now digital inspection data rather than paper. Shops attach scanned certificates to an electronic quality system; plants export thickness readings from an inspection data management platform; outage contractors deliver encoded UT files, CR and DR images, and spreadsheets assembled from several gauges. Digital reporting makes records easier to move, and it also makes it easier for a record to lose the link between a reading and the instrument, procedure and person that produced it.",
+    "A digital inspection review therefore checks lineage as well as content. We look at file names and metadata against the report, instrument serial numbers and calibration dates inside the data, software versions and analysis settings, whether images were processed after the reader's call, and whether an electronic signature belongs to someone qualified on the examination date. When a platform migration has turned raw files into PDFs, the opinion says plainly which conclusions the remaining evidence can and cannot support."
+   ]
+  },
+  {
+   "h": "How a remote review runs from Cincinnati, and what it leaves out",
+   "p": [
+    "You send the report, the procedure, the order or specification and whatever raw data exists, through a secure transfer. We agree the question and the sample with you before work starts, then run the seven checks: procedure compliance, personnel qualification on the date of the work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability. The written opinion ties each finding to the clause or procedure step and to the evidence, and gives one of three verdicts: sound, deficient in documentation only, or deficient in disposition.",
+    "Reviews in UT, RT, MT, PT and VT are led by a reviewer who holds ASNT NDT Level III certification in each of those five methods. The wider team includes members whose backgrounds are in nuclear, maritime, oil and gas and petrochemical work. For eddy current, acoustic emission or other methods, the proposal names a reviewer with the certification the contract calls for.",
+    "Some things stay outside the review. We do not review examinations Atlantis performed, so the opinion has no stake in the verdict. We do not certify personnel, calculate remaining life or fitness for service, or act as the inspector who accepts the equipment. Nuclear work is offered as an independent technical opinion for the licensee's quality organisation to weigh; Atlantis is not on any licensee's 10 CFR 50 Appendix B or NQA-1 approved supplier list."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Is there an Atlantis office or inspection crew near Cincinnati?",
+   "a": "No. Atlantis has offices in Houston and Hyderabad only. Reviews for Cincinnati and Northern Kentucky clients are done remotely from the records you send, and nobody needs to visit the plant or shop."
+  },
+  {
+   "q": "Can you review penetrant and magnetic particle certificates from an aerospace parts supplier?",
+   "a": "Yes. We read the certificate and the shop's examination record against the purchase order and the specification revision it names, and check examiner qualification on the examination date. Whether a personnel scheme satisfies a particular customer remains that customer's decision."
+  },
+  {
+   "q": "Our plant is on the Kentucky side. Does that change the review?",
+   "a": "The technical checks are the same. The opinion notes that Kentucky's boiler and pressure vessel rules come from 815 KAR 15 and that radiography there is licensed by the Kentucky Radiation Health Branch, so the record is judged with the right reader in mind."
+  },
+  {
+   "q": "Can you take our radiographs and re-interpret them?",
+   "a": "We can review film radiographs, CR and DR images from your licensed radiography contractor, including image quality and every interpretation. We do not carry out radiography in the United States."
+  },
+  {
+   "q": "What do we need to send for a boiler outage review?",
+   "a": "The contractor reports, tube maps or thickness files, the procedures used, repair records showing the examination after final heat treatment, and the previous outage's data if you want trends compared. Raw files are more useful than summaries."
+  },
+  {
+   "q": "Does your opinion decide whether our kettle or boiler goes back into service?",
+   "a": "It tells you whether the NDE record supports the decision your engineer or inspector has to make. The fitness-for-service or remaining-life calculation, and the acceptance itself, stay with the owner's engineer and the inspector of record."
+  },
+  {
+   "q": "Do you review digital inspection data, or only finished reports?",
+   "a": "Both, and the raw data usually decides the outcome. We open encoded UT files, thickness exports, CR and DR images and digital reporting platform exports, and check them against the report they support."
+  },
+  {
+   "q": "Can you review work Atlantis carried out?",
+   "a": "No. To keep the opinion independent, we do not review examinations Atlantis performed. If Atlantis did any of the work in your package, we tell you before scoping."
+  },
+  {
+   "q": "How do we start?",
+   "a": "Send the report and a short note on the decision it supports, and ask for scope and a quote. We reply within one business day."
+  }
+ ],
+ "related": [
+  [
+   "/inspection-services-ohio",
+   "Inspection services in Ohio"
+  ],
+  [
+   "/ndt-training-cincinnati",
+   "NDT training in Cincinnati"
+  ],
+  [
+   "/inspection/third-party-inspection-cincinnati",
+   "Third-party inspection in Cincinnati"
+  ],
+  [
+   "/penetrant-testing-cincinnati",
+   "Penetrant testing in Cincinnati"
+  ],
+  [
+   "/magnetic-particle-testing-cincinnati",
+   "Magnetic particle testing in Cincinnati"
+  ]
+ ],
+ "sources": [
+  "https://www.geaerospace.com/company/about-us",
+  "https://www.geaerospace.com/news/press-releases/ge-aerospace-invest-over-650m-manufacturing-facilities-supply-chain-2024",
+  "https://www.basf.com/us/images/sites/ohio/Cincinnati-OH-SiteFactSheet.pdf",
+  "https://www.basf.com/us/en/media/news-releases/2026/10/P-US-26-39",
+  "https://www.ineos.com/de/sites/addyston/",
+  "https://www.duke-energy.com/Our-Company/About-Us/Power-Plants/East-Bend-Station",
+  "https://codes.ohio.gov/ohio-administrative-code/rule-4101:4-8-01",
+  "https://codes.ohio.gov/ohio-revised-code/section-4104.07",
+  "https://apps.legislature.ky.gov/law/kar/titles/815/015/026/REG/",
+  "https://www.geaerospace.com/news/articles/100-year-anniversary/how-ges-magnificent-seven-established-evendale-complex",
+  "https://ineos.com/sites/addyston",
+  "https://www.nrc.gov/agreement-states/ohio",
+  "https://www.nrc.gov/agreement-states/kentucky"
+ ]
+}

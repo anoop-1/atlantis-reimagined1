@@ -1,0 +1,198 @@
+{
+  "title": "NDT Report Review in Lima, OH | Independent Report Validation",
+  "description": "Independent review of refinery, chemical plant and fabrication NDT reports and digital inspection data from Lima and Allen County, carried out remotely.",
+  "h1": "Lima, Ohio: an independent second reading of refinery, chemical and fabrication inspection records",
+  "eyebrow": "Report validation: Lima and Allen County",
+  "intro": "Lima is a small city with a heavy industrial footprint: a refinery that has run on the same ground since 1886, an acrylonitrile and hydrogen cyanide plant, a government-owned armoured vehicle plant and the machine and fabrication shops that supply all three. Each produces inspection records that somebody else has to rely on, whether a turnaround planner, a process safety auditor, a purchaser or a government quality representative. We give those NDT reports and their digital inspection data an independent review against the procedure, the code and the specification, and put in writing what the evidence will bear. Nothing requires a visit; we work from the records you send.",
+  "highlights": [
+    {
+      "h": "Crude that changes, records that must keep up",
+      "p": "A refinery able to swing between light and heavy feedstock needs thickness and corrosion records that show the effect of each swing. We test whether the data can carry that trend."
+    },
+    {
+      "h": "Toxic service, process safety evidence",
+      "p": "Where a unit handles highly hazardous chemicals, inspection records are part of the process safety file. A review checks they would survive an auditor reading them line by line."
+    },
+    {
+      "h": "Shop records that travel",
+      "p": "Fabricated parts leave Allen County with their NDE reports attached. We check those reports before a customer, a prime contractor or a government reviewer does."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Lima's industrial base and the records it produces",
+      "p": [
+        "Cenovus Energy owns the Lima Refinery, founded by John D. Rockefeller in 1886 and still operating on its original site. Husky Energy bought the refinery in 2007, and Cenovus acquired Husky on January 1, 2021. Trade reporting in 2026 put its crude capacity at about 172,000 barrels a day. Alongside gasoline and diesel, Cenovus lists commercial jet fuel, benzene and anode-grade petroleum coke among the refinery's products, and says a crude flexibility project completed in 2019 increased its ability to process heavy oil.",
+        "On the chemical side, INEOS Nitriles operates a Lima site producing acrylonitrile, acetonitrile, hydrogen cyanide and the catalyst used in the acrylonitrile process. On the defence side, the Joint Systems Manufacturing Center is a government-owned, contractor-operated plant overseen by the Defense Contract Management Agency, with General Dynamics Land Systems running daily operations on Abrams tanks and Stryker components.",
+        "These names describe what makes Lima's inspection paperwork distinctive. Listing them is not a statement that Atlantis has reviewed their records, worked for their owners or holds any approved-vendor status with them."
+      ]
+    },
+    {
+      "h": "When the crude slate moves, the corrosion record has to follow",
+      "p": [
+        "A refinery that can switch between light and heavy feedstock is also a refinery whose corrosion rates can move with it. Heavier and more sour crudes tend to change what happens in hot crude and vacuum circuits, coker sections and overhead systems, which is why damage mechanism reviews under API 571 and the plant's own corrosion control documents matter as much as the readings themselves.",
+        "For a reviewer, the practical question is whether the ultrasonic thickness history can show the effect. That depends on readings being taken at the same condition monitoring locations each time, with the same probe type and calibration approach, and on the locations being tied to isometrics rather than to a technician's memory. It also depends on the data surviving changes of inspection contractor and of inspection data management system, both of which are common over a refinery's ownership changes.",
+        "A review of a circuit's history therefore looks for breaks: a CML renumbered without a cross-reference, a jump in wall thickness that only makes sense if a gauge was changed, readings that stop after a repair without new baseline values. Where those breaks exist, the opinion says where the trend can be relied on and where it cannot, so that the owner's engineer can decide what to re-measure before setting the next interval. Remaining-life calculations and fitness-for-service decisions stay with that engineer.",
+        "Benzene and other aromatics streams bring a further layer. Stainless and alloy piping in those units is often examined with liquid penetrant and ultrasonic methods, and the records need to show surface preparation, penetrant system and dwell for PT, and couplant, probe and reference block for UT. Equipment in thermal and cyclic service elsewhere in the plant has long inspection histories in which weld examination records carry particular weight. When those records pass between contractors and outages, small omissions accumulate, and a periodic independent review is a way to find them before an auditor or a buyer does."
+      ]
+    },
+    {
+      "h": "Turnaround packages and what a reviewer samples",
+      "p": [
+        "Refinery and chemical plant turnarounds produce more NDE in a few weeks than the rest of the year combined, much of it written under time pressure by crews brought in for the event. A close-out review is most useful when it is aimed rather than exhaustive. The sample usually includes:"
+      ],
+      "list": [
+        "Repairs and replacements on high-consequence equipment, with the NDE that released them.",
+        "Phased array and TOFD weld examinations, reviewed from the encoded files rather than the summary sheets.",
+        "Exchanger bundle data from eddy current or other electromagnetic tube examinations, with the calibration standards and the tube sheet map.",
+        "Thickness surveys on circuits whose rates have changed since the last outage.",
+        "Any record that a client, a contractor or the plant's own inspectors have already disputed.",
+        "Items deferred to the next window, so that the reason for deferral is supported by evidence and not only by schedule."
+      ]
+    },
+    {
+      "h": "Process safety records in a toxic-chemical plant",
+      "p": [
+        "Plants that handle highly hazardous chemicals above threshold quantities fall under OSHA's Process Safety Management standard, 29 CFR 1910.119. Its mechanical integrity element requires inspection and testing of process equipment to follow recognised and generally accepted good engineering practices, with a frequency consistent with manufacturers' recommendations and good engineering practice, and more often where prior operating experience shows it is needed. The inspection and testing must be documented.",
+        "That documentation is the part an independent reviewer can test. For hydrogen cyanide or acrylonitrile service the questions are familiar ones asked with more at stake: does the record show which procedure was used and that it suits the material and the service, was the examiner qualified on that date, were the readings taken where the inspection plan says they should be, and does the disposition rest on the acceptance criteria the plan named. A record that cannot answer those questions is a gap in the process safety file even if the equipment is fine.",
+        "Our opinion is written so that a process safety coordinator or an auditor can follow it: each finding is tied to a document and a clause, with the evidence quoted, and the verdict separates paperwork that can be completed from dispositions that need new examination."
+      ]
+    },
+    {
+      "h": "Defence and fabrication work: controlled data comes first",
+      "p": [
+        "Lima's fabrication and machining shops supply heavy equipment, energy and defence customers, and their weld and casting reports travel with the parts. For energy work those reports are usually written to ASME Section V and the construction code; for structural work to AWS D1.1; for defence programs to whatever the contract and its referenced specifications require.",
+        "Defence records often carry export-control or contract restrictions. We review only what the owner of the data is permitted to share and has cleared for release to us, and we tell a client early if a record set looks like it needs that clearance before it leaves the plant. Government quality oversight, where it applies, stays with the government's own representatives; an independent review can help a supplier prepare for it but does not stand in for it.",
+        "Within those limits the checks are the same as anywhere else. Magnetic particle and penetrant reports must show technique, materials and lighting; ultrasonic reports must show the calibration and scanning coverage; visual weld reports must show what was measured and against which criteria."
+      ]
+    },
+    {
+      "h": "Typical Lima situations and the evidence that settles them",
+      "p": [
+        "What prompts a review shapes which documents get opened first. Below are situations we would expect from Allen County clients, with the evidence that normally decides each one."
+      ],
+      "table": {
+        "head": [
+          "Situation",
+          "Question the client is asking",
+          "Evidence the reviewer asks for",
+          "Finding that would make the record deficient in disposition"
+        ],
+        "rows": [
+          [
+            "Thickness history after a feedstock change",
+            "Can the trend be used to set the next inspection date?",
+            "CML lists, isometrics, gauge and probe records, raw reading files for each survey",
+            "Readings that cannot be tied to the same locations across surveys"
+          ],
+          [
+            "Turnaround weld repairs released on PAUT",
+            "Is each acceptance supported by the data?",
+            "Encoded PAUT files, scan plans, setup files, calibration records, indication tables",
+            "An accepted indication whose length or height the file does not support"
+          ],
+          [
+            "Process safety audit of inspection records",
+            "Would the mechanical integrity file survive the audit?",
+            "Inspection plans, procedures, personnel certificates, completed records",
+            "Dispositions made against criteria the plan did not name"
+          ],
+          [
+            "Customer rejection of a shop's weld reports",
+            "Was the rejection justified?",
+            "Purchase order, specification, procedures, reports, any images or scan files",
+            "Examinations performed to a procedure the order did not accept"
+          ],
+          [
+            "Exchanger tube data before re-tubing decisions",
+            "Are the plugging calls reliable?",
+            "Raw tube files, calibration standards, analysis settings, tube sheet map",
+            "Tubes reported as examined that the data does not cover"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data, digital reporting and Ohio's radiography rules",
+      "p": [
+        "A modern turnaround in Lima leaves behind more files than pages. Encoded phased array scans, eddy current tube recordings, computed and digital radiography images, thickness databases and digital NDT reports issued from reporting platforms with electronic signatures all form part of the record. A review that only reads the PDF misses most of what can be tested.",
+        "We ask for the original digital inspection data with the report: the scan file with its setup, the image with its acquisition and processing parameters, the database export with its timestamps and user entries. We then check data lineage, that the setup in the file matches the procedure, that images have not been altered beyond what the procedure permits, and that each electronic signature belongs to someone certified for that method and level on that date.",
+        "Radiography in Ohio is regulated by the state, which is an NRC Agreement State; its radioactive materials program sits with the state's Bureau of Environmental Health and Radiation Protection. Atlantis performs no industrial radiography in the United States. We review the film, CR and DR images and the reports that the plant's licensed radiography contractor produces, checking image quality evidence, coverage, identification and interpretation."
+      ]
+    },
+    {
+      "h": "How a remote review works from Allen County",
+      "p": [
+        "Atlantis has no Lima office and no Ohio staff; our offices are in Houston and Hyderabad. Records come to us through a secure transfer, and the review is carried out remotely by a team whose members come from nuclear, maritime, oil and gas and petrochemical work. Reviews in UT, RT, MT, PT and VT are led by an ASNT NDT Level III holding certification in those five methods. For eddy current or other methods outside them, the proposal names a reviewer who holds the certification your contract requires.",
+        "Each review runs the same seven checks: procedure compliance, personnel qualification on the date of the work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability. The written opinion gives one of three verdicts for each record, sound, deficient in documentation only, or deficient in disposition, and ties every finding to the clause or procedure step and the evidence behind it. We never review an examination that Atlantis performed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you tell us whether our refinery thickness history is good enough to trend?",
+      "a": "Yes. We review the CML scheme, the location drawings, the gauge and probe records and the raw reading files for each survey, then say which circuits have a continuous, comparable history and which have breaks. Setting the interval and any remaining-life judgment stays with your engineer."
+    },
+    {
+      "q": "Do you review PAUT and TOFD files from a Lima turnaround?",
+      "a": "Yes. We open the encoded files with their setups and scan plans, check calibration and coverage, and compare each recorded indication with the acceptance criteria the procedure and code named. Screenshots alone are not enough for that check."
+    },
+    {
+      "q": "Can a review support a process safety audit?",
+      "a": "It can help you prepare for one. We test whether your inspection and testing records show the procedure, the examiner's qualification, the location and the acceptance basis. The audit itself and any compliance conclusions belong to your process safety program and the auditor."
+    },
+    {
+      "q": "We make parts for a defence program. Can you see our NDE reports?",
+      "a": "Only what you are permitted to share and have cleared for release. If records are export-controlled or restricted by contract, please confirm clearance before sending them. Government quality oversight stays with the government's own representatives."
+    },
+    {
+      "q": "Who reviews eddy current tube data?",
+      "a": "Our Level III certification covers UT, RT, MT, PT and VT and does not include eddy current. For tube data the proposal names a reviewer holding the certification your contract requires, who reopens the raw files, calibration standards and analysis settings."
+    },
+    {
+      "q": "Can you review radiographs from our contractor?",
+      "a": "Yes. Reviewing film, CR and DR images and radiographic reports is a document review. Atlantis does not perform radiography in the United States, and the licensed contractor stays responsible for the exposures."
+    },
+    {
+      "q": "Will someone come to the plant?",
+      "a": "No. The review is done remotely from the records and digital files you send, so there is no site access, badging or safety induction to arrange."
+    },
+    {
+      "q": "How do we start?",
+      "a": "Send the report, the procedure, personnel certificates, calibration records and any raw digital files, with a note on the decision the review supports, to info@atlantisndt.com or through the form on this page. We reply within one business day; the answer describes a proposed scope for your Lima records and includes a quote."
+    }
+  ],
+  "related": [
+    [
+      "/inspection-services-ohio",
+      "Inspection services in Ohio"
+    ],
+    [
+      "/consulting/ndt-consulting-lima",
+      "NDT consulting in Lima"
+    ],
+    [
+      "/ndt-training-lima-ohio",
+      "NDT training in Lima"
+    ],
+    [
+      "/ultrasonic-testing-refining",
+      "Ultrasonic testing in refining"
+    ],
+    [
+      "/penetrant-testing-refining",
+      "Penetrant testing in refining"
+    ]
+  ],
+  "sources": [
+    "https://cenovus.com/News-and-Stories/Our-stories/Cenovus-celebrates-milestone-refinery-anniversaries",
+    "https://cenovus.com/Our-company/Our-history",
+    "https://cenovus.com/Our-operations/Products-and-services/Transportation-fuels/US-refined-products",
+    "https://boereport.com/2026/01/26/cenovus-172000-bpd-refinery-in-lima-ohio-suffers-storm-related-mechanical-issues-iir-says/",
+    "https://www.ineos.com/sites/lima/",
+    "https://www.dla.mil/About-DLA/News/Energy/Article/1196533/factory-tour-shows-how-an-abrams-comes-to-life/",
+    "https://www.osha.gov/laws-regs/standardinterpretations/2016-05-11",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+    "https://www.nrc.gov/agreement-states/ohio.html"
+  ]
+}

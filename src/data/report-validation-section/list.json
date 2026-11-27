@@ -864,6 +864,75 @@
     "petrochem",
     "power"
    ]
+  },
+  {
+   "slug": "cleveland-oh",
+   "kind": "city",
+   "navLabel": "Report validation in Cleveland, OH",
+   "place": "Cleveland",
+   "region": "Ohio",
+   "country": "United States",
+   "label": "OH",
+   "industries": [
+    "structural",
+    "power",
+    "fabrication",
+    "nuclear"
+   ]
+  },
+  {
+   "slug": "rabigh-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Rabigh, Saudi Arabia",
+   "place": "Rabigh",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "refinery",
+    "petrochem",
+    "power"
+   ]
+  },
+  {
+   "slug": "cincinnati-oh",
+   "kind": "city",
+   "navLabel": "Report validation in Cincinnati, OH",
+   "place": "Cincinnati",
+   "region": "Ohio",
+   "country": "United States",
+   "label": "OH",
+   "industries": [
+    "fabrication",
+    "power",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "jazan-saudi-arabia",
+   "kind": "city",
+   "navLabel": "Report validation in Jazan, Saudi Arabia",
+   "place": "Jazan",
+   "region": "Saudi Arabia",
+   "country": "Saudi Arabia",
+   "label": "Saudi Arabia",
+   "industries": [
+    "refinery",
+    "power"
+   ]
+  },
+  {
+   "slug": "lima-oh",
+   "kind": "city",
+   "navLabel": "Report validation in Lima, OH",
+   "place": "Lima",
+   "region": "Ohio",
+   "country": "United States",
+   "label": "OH",
+   "industries": [
+    "refinery",
+    "fabrication"
+   ]
   }
  ]
 }

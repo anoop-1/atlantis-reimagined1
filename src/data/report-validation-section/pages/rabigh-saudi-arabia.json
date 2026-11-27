@@ -1,0 +1,245 @@
+{
+  "title": "NDT Report Validation in Rabigh, Saudi Arabia | Remote Review",
+  "description": "Independent, remote review of NDT reports and digital inspection data from Rabigh's integrated refinery, petrochemical units, power plants and desalination.",
+  "h1": "Independent review of NDT reports from Rabigh's refinery, petrochemical, power and water plants",
+  "eyebrow": "Report validation · Rabigh, Saudi Arabia",
+  "intro": "Rabigh is a small Red Sea governorate with an unusually dense cluster of process and utility plant. An integrated refinery and petrochemical complex sits beside two large independent power plants, a utility plant that feeds the complex with steam, power and water, and a large seawater reverse osmosis plant. North of the town, King Abdullah Economic City adds a port and an industrial valley. Every one of these assets generates NDT reports and digital inspection data on a cycle. We review those records independently, remotely, against the code, the procedure and the owner's specification, and say in writing what the evidence supports. There is no Atlantis presence in Rabigh; the work is done from Houston and Hyderabad on the files you send.",
+  "highlights": [
+    {
+      "h": "Refinery and cracker records in one complex",
+      "p": "Crude units, an ethane cracker, polymer plants and an aromatics complex share one site in Rabigh. A single reviewer can follow a corrosion circuit or a weld repair across unit boundaries instead of reading each package in isolation."
+    },
+    {
+      "h": "Utility plant evidence, read on its own terms",
+      "p": "Heavy fuel oil steam plants, combined cycle blocks and reverse osmosis trains each leave different inspection data. The review weights boiler tubes, steam piping, condensers and seawater intake piping according to what each record has to prove."
+    },
+    {
+      "h": "Digital reports traced back to raw files",
+      "p": "Where a contractor's digital reporting platform produced the PDF, we ask for the exported scan files, images and thickness logs behind it and check that the summary matches the data it came from."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Rabigh in one paragraph: refinery, cracker, power and water on one coastline",
+      "p": [
+        "Petro Rabigh lies about 165 km north of Jeddah on the Red Sea coast. The refinery at its core started operating in 1989 with 325,000 barrels a day of light and medium Arab crude and was raised to 400,000 barrels a day in 1998; the Rabigh Refining and Petrochemical Company was formed around it in 2005 to add ethylene, polyethylene and other petrochemicals. A second phase launched in 2012 added an aromatics complex and expanded ethane cracking. The company has been listed on the Saudi stock exchange since January 2008.",
+        "Ownership shifted in October 2025. Aramco announced that it had completed the purchase of an additional 22.5 percent from Sumitomo Chemical, taking its holding to about 60 percent, a majority; Sumitomo Chemical keeps 15 percent. The same announcement describes a transformation programme that includes asset upgrades aimed at higher-margin products and plant reliability. Upgrade programmes of that kind lean on the inspection history of the equipment being modified, which is one reason independent report review has a place here.",
+        "Around the complex sit the utilities. ACWA Power lists Rabigh IPP, a heavy fuel oil steam turbine plant of 1,204 MW in commercial operation since 2013, and Rabigh 2 IPP, a gas-fired combined cycle plant of about 2,060 MW gross alongside it; both sell their output to the Saudi Electricity Company. A separate utility plant, operated by the Rabigh Arabian Water and Electricity Company, has supplied the petrochemical complex with power, steam and reverse osmosis water since 2008. Rabigh 3 IWP, a seawater reverse osmosis plant rated at 600,000 cubic metres a day, has been in commercial operation since the end of 2021."
+      ]
+    },
+    {
+      "h": "What each Rabigh asset sends for review",
+      "p": [
+        "The table maps the area's main plant types to the reports that typically arrive from them. It describes the industrial landscape only; it does not list clients, and naming a facility here does not mean Atlantis has worked for its owner."
+      ],
+      "table": {
+        "head": [
+          "Asset type in Rabigh",
+          "Examples in the area",
+          "Records that reach an independent review"
+        ],
+        "rows": [
+          [
+            "Integrated refinery",
+            "The 400,000 barrel-a-day crude refinery at the heart of Petro Rabigh",
+            "T&I packages, piping circuit thickness histories, vessel internal inspection reports, exchanger tube data, weld repair records"
+          ],
+          [
+            "Olefins and polymers",
+            "Ethane cracker, polyethylene and other polymer units",
+            "Furnace coil and transfer line surveys, PT and VT on stainless welds, reactor nozzle repairs, vendor data books for replacement equipment"
+          ],
+          [
+            "Aromatics",
+            "The phase 2 aromatics complex",
+            "Column and exchanger inspection reports, corrosion maps on carbon steel and alloy piping, encoded UT on critical welds"
+          ],
+          [
+            "Heavy fuel oil steam plant",
+            "Rabigh IPP and the utility plant serving the complex",
+            "Boiler tube thickness surveys, header and steam pipe weld examinations, flue gas ducting surveys, condenser eddy current files"
+          ],
+          [
+            "Combined cycle plant",
+            "Rabigh 2 IPP and its announced expansion",
+            "HRSG tube and header records, high-energy piping weld reports, construction and handover NDT for new blocks"
+          ],
+          [
+            "Seawater reverse osmosis",
+            "Rabigh 3 IWP and the RO trains of the utility plant",
+            "Intake and brine piping thickness surveys, duplex and super duplex weld records, pressure vessel and pump casing examinations"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Reading a record from an integrated complex",
+      "p": [
+        "An integrated site complicates inspection records in a specific way. Hydrogen, steam, fuel gas and intermediate streams pass between units, so a corrosion circuit may start in the refinery and end in a petrochemical plant, and the inspection plans on either side may have been written by different engineering groups. When we review a package from a site like this, we first establish which inspection plan governs each location and which edition of which standard the plan cites, because a reading that is acceptable under one plan can be a finding under the next.",
+        "The second complication is the volume of contractors. A turnaround on a complex of this size brings several NDT companies on site at once, each with its own written practice, procedures and report templates. Three questions come up repeatedly in that situation: whether the technician who signed a report was qualified under the written practice of the company that employed them on the date of the work, whether the procedure revision on the report was the one approved for that scope, and whether the equipment serial numbers trace to calibration certificates that were valid that day. None of those checks needs a site visit; they need the right documents in the transfer.",
+        "The third is history. A refinery that started in the late 1990s and an aromatics plant built after 2012 carry inspection records of very different ages and formats, from scanned paper thickness sheets to encoded phased array files. A review that compares this year's data with a previous survey has to establish that the two were taken at the same locations, with comparable techniques, before any rate of change is worth reading."
+      ]
+    },
+    {
+      "h": "Steam, power and water: the utility side of Rabigh",
+      "p": [
+        "The utility plants in Rabigh are not peripheral; the petrochemical complex depends on them for steam and water, and the national grid depends on the two IPPs. ACWA Power's description of the utility plant serving the complex lists five 118 MW steam turbines, nine 470 tonne-an-hour steam generators, three wet limestone flue gas desulphurisation units and sixteen reverse osmosis trains. Each of those systems produces its own family of inspection reports, and each fails in its own way.",
+        "In boiler and HRSG records, our attention goes to whether repeat tube surveys were taken at the same elevations and tube numbers, whether the minimum thickness the report compares against is the design value from the owner's documents, and whether weld repairs on tubes were examined after the heat treatment the repair procedure required. In condenser eddy current data, we check that the calibration standard matches the tube alloy, diameter and wall, and that the plugging list follows from the reported indications. In flue gas desulphurisation equipment, thickness and lining surveys need location references that a later survey can repeat.",
+        "Reverse osmosis plants raise different questions. High-pressure piping and vessels often use duplex or super duplex stainless steel, where penetrant and visual records carry most of the weld evidence and ferrite or hardness checks may be part of the procedure. Intake and brine lines in carbon or lined steel generate thickness surveys whose value lies in repeatability. Remaining-life judgements on any of this equipment stay with the owner's engineer; the review tells that engineer whether the data under the judgement is sound."
+      ],
+      "list": [
+        "Boiler and HRSG tube thickness surveys and tube weld repair records",
+        "Steam piping and header weld examinations, including encoded UT where the specification calls for it",
+        "Condenser and heat exchanger eddy current files with calibration records and plugging maps",
+        "FGD absorber, duct and lining surveys",
+        "Duplex and super duplex weld PT and VT records from RO high-pressure systems",
+        "Intake, outfall and brine piping thickness histories"
+      ]
+    },
+    {
+      "h": "King Abdullah Economic City and the construction pipeline",
+      "p": [
+        "King Abdullah Economic City lies in Rabigh Governorate, north of Jeddah, and was announced in 2005. Saudipedia describes an Industrial Valley of about 55 million square metres and King Abdullah Port on the main Asia to Europe shipping route. Manufacturers, warehouses and logistics operators in the valley build steel structures, storage, process skids and piping, and each project closes out with a data book.",
+        "For fabrication and construction work, independent review is usually commissioned at one of two points: when an owner's inspector rejects a weld report and the fabricator wants a second reading before repairs start, or when a buyer receiving a data book wants to know whether the NDT evidence in it would stand up later. Structural records are read against the code and edition named in the contract, typically AWS D1.1 or the project specification, and process piping against ASME B31.3 unless the owner's specification says otherwise.",
+        "The announced expansion of Rabigh 2 adds a further construction stream. ACWA Power reported signing a power purchase agreement for the expansion in April 2026 with the Saudi Power Procurement Company. New combined cycle blocks generate large volumes of shop and field NDT on high-energy piping and HRSG modules, and an owner's second opinion on that evidence before handover is a common reason to ask for a review."
+      ]
+    },
+    {
+      "h": "The standards a Rabigh report is read against",
+      "p": [
+        "We never review a report against a generic idea of good practice. The first document we ask for is the requirement set named in the contract or the owner's specification, because that is what decides whether a finding is real. For Rabigh records it typically comes in three layers.",
+        "The first layer is the international code: ASME Section V for technique, ASME Section VIII and Section I for vessels and boilers, B31.3 and B31.1 for piping, API 510, API 570 and API 653 for in-service equipment, and AWS D1.1 for structural steel. The second is the owner's own engineering standards. Where a client's contract invokes Saudi Aramco Engineering Standards, the SAES series, we read the report against the SAES clauses the contract names, because they often go further than the base code; we do so as the client's reviewer, not as an approved vendor of any operator. Utility owners and their EPC contractors have their own technical specifications, and equipment manufacturers add requirements for turbines, boilers and pumps.",
+        "The third layer is national. Radiation practices in Saudi Arabia are licensed by the Nuclear and Radiological Regulatory Commission, set up in March 2018, so film, CR and DR images from Rabigh jobs should trace to a licensed radiography contractor. Atlantis does not carry out radiography in Saudi Arabia; we review the images and the reports that accompany them as documents."
+      ]
+    },
+    {
+      "h": "Four situations that bring Rabigh records to an independent reviewer",
+      "p": [
+        "Most review requests from an area like this fall into a small number of patterns. Each one changes which of the seven checks we weight most heavily."
+      ],
+      "table": {
+        "head": [
+          "Situation",
+          "Who usually asks",
+          "Where the review concentrates"
+        ],
+        "rows": [
+          [
+            "T&I close-out before start-up",
+            "Plant inspection group or the NDT contractor",
+            "Completeness against the inspection plan, acceptance criteria and edition, readings that were never dispositioned"
+          ],
+          [
+            "Rejected report or disputed indication",
+            "Contractor, fabricator or owner's inspector",
+            "Technique adequacy, interpretation and sizing, whether the rejection rests on the governing clause"
+          ],
+          [
+            "Upgrade or tie-in to existing equipment",
+            "Project engineering team or a shareholder's engineers",
+            "Whether the inspection history of the connected equipment is complete and comparable enough to plan around"
+          ],
+          [
+            "New-build handover",
+            "Owner, lender's technical adviser or EPC contractor",
+            "Personnel qualification, procedure approval, traceability of each weld to its examination and result"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Digital inspection data and digital reporting from Rabigh",
+      "p": [
+        "Very little of what arrives from a Red Sea complex today is paper. Phased array and TOFD scans come as encoded files, radiography increasingly as CR or DR images, eddy current as instrument data with calibration channels, and thickness surveys as grid exports from a data logger or a digital inspection platform. The report is often generated by software that assembles all of this into a PDF with electronic signatures.",
+        "Digital reporting makes some failures easier to hide. A template can carry the previous job's procedure number, a scan can be exported with a gate setting that was changed after the calibration, and a signature block can show an approval date earlier than the data it approves. Our digital inspection data review compares the report with its raw files: instrument settings against the calibration record, scan coverage against the scan plan, image quality indicators and density or signal-to-noise values against the requirement, and timestamps against the sequence the procedure describes.",
+        "We also look at data lineage. If a thickness grid was re-imported into a new system after a software change, the review asks whether the locations still align with the previous survey. If a digital radiograph was processed, we ask for the processing history. When raw files cannot be supplied, the opinion says which conclusions depend on the summary alone."
+      ]
+    },
+    {
+      "h": "How a remote review works for a Rabigh site",
+      "p": [
+        "The process is the same whether the records come from a refinery unit, a steam plant or a fabrication shop in the Industrial Valley. You describe the scope and the decision the review must support; we list the documents and files we need; you transfer them through a secure link; the reviewer works through the seven checks and writes the opinion. No one from Atlantis travels to Rabigh, and we do not need site access, because the review is of the record, not of the hardware.",
+        "Reviews in UT, RT, MT, PT and VT are led by an ASNT NDT Level III who holds those five methods. For eddy current, acoustic emission or other methods, the proposal names a reviewer with the certification your contract requires. Members of the review team come from nuclear, maritime, oil and gas and petrochemical work, which helps when a Rabigh package mixes process plant, steam plant and marine intake equipment.",
+        "Two limits apply. We do not review reports for work Atlantis performed, so the opinion stays independent of the examination. And the review does not replace the people who carry legal responsibility: fitness-for-service and remaining-life calculations stay with the owner's engineer, acceptance of equipment stays with the owner's inspector, and certification of personnel stays with their employer."
+      ],
+      "list": [
+        "Scope and the decision the review supports",
+        "Reports, procedures and the written practice they cite",
+        "Technician certificates and the employer's certification records",
+        "Calibration certificates for every instrument and probe used",
+        "Raw digital files: scans, images, eddy current data, thickness exports",
+        "The owner's specification and the code edition named in the contract"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have staff or a facility in Rabigh?",
+      "a": "No. Atlantis has offices in Houston and Hyderabad only, with nothing in Rabigh or elsewhere in Saudi Arabia. Every review is carried out remotely on the reports and digital files you transfer to us."
+    },
+    {
+      "q": "Can you review records from both the refinery and the petrochemical units of an integrated complex?",
+      "a": "Yes. The same seven checks apply to a crude unit piping survey and a polymer plant weld repair, but the reviewer reads each against the inspection plan and standard that governs that location. Where a circuit crosses a unit boundary, the opinion says which plan applied at each point."
+    },
+    {
+      "q": "Will you read a report against Saudi Aramco Engineering Standards?",
+      "a": "Yes, when your contract invokes them. Tell us which SAES documents and revisions the scope names and the review uses them alongside ASME, API or AWS. We act as your reviewer; Atlantis does not claim approved-vendor status with any operator."
+    },
+    {
+      "q": "Do you review boiler and HRSG inspection data from Rabigh power plants?",
+      "a": "Yes. Tube thickness surveys, header and steam piping weld reports, and repair records are common requests. We check repeatability of survey locations, the minimum thickness basis and the examination sequence after repair. Remaining-life judgements stay with the owner's engineer."
+    },
+    {
+      "q": "Can you check penetrant and visual records on duplex welds from a desalination plant?",
+      "a": "Yes. We review the procedure, the surface preparation and temperature limits, the penetrant system and its certification, the viewing conditions and the recorded indications, and whether any ferrite or hardness checks the procedure required were reported."
+    },
+    {
+      "q": "Who reviews eddy current condenser data?",
+      "a": "The Level III who leads our UT, RT, MT, PT and VT reviews does not hold ET. For eddy current data, the proposal names a reviewer with the certification your contract requires, and the opinion is signed accordingly."
+    },
+    {
+      "q": "Will Atlantis carry out radiography in Rabigh?",
+      "a": "No. Exposures on Rabigh sites belong to the owner's radiography contractor, who works under a licence from the Kingdom's radiation regulator. What we take on is the reading of their film, CR or DR images and the reports that go with them."
+    },
+    {
+      "q": "What happens if our raw scan files are not available?",
+      "a": "We review what exists and the opinion states which conclusions rest on the report alone and which would need the raw data. That distinction is often useful in itself when a record is being relied on for a decision."
+    },
+    {
+      "q": "How do we start a review of Rabigh records?",
+      "a": "Send a short description of the scope and the decision, plus a sample report if you have one. We reply within one business day with the document list and a quote."
+    }
+  ],
+  "related": [
+    [
+      "/report-validation/api-510-570-653-report-review",
+      "API 510, 570 and 653 report review"
+    ],
+    [
+      "/report-validation/ultrasonic-thickness-report-review",
+      "UT thickness report review"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "ASNT Level III consulting"
+    ],
+    [
+      "/practical-ndt-rabigh",
+      "Practical NDT simulator in Rabigh"
+    ]
+  ],
+  "sources": [
+    "https://saudipedia.com/en/petro-rabigh",
+    "https://www.aramco.com/en/news-media/news/2025/aramco-completes-acquisition-of-additional-stake-in-petro-rabigh",
+    "https://acwapower.com/en/projects/rabigh-ipp/",
+    "https://acwapower.com/en/what-we-do/projects/rabigh-2-ipp/",
+    "https://acwapower.com/en/media-center/latest-news/acwa-signs-power-purchase-agreement-for-the-expansion-of-rabigh-2-power-plant-project/",
+    "https://acwapower.com/en/what-we-do/projects/petro-rabigh-iwspp/",
+    "https://acwapower.com/en/what-we-do/projects/rabigh-3-iwp/",
+    "https://saudipedia.com/en/king-abdullah-economic-city",
+    "https://saudipedia.com/en/article/324/government-and-politics/commissions/nuclear-and-radiological-regulatory-commission",
+    "https://japan.aramco.com/en/what-we-do/services/projects/petro-rabigh",
+    "https://saudipedia.com/en/nuclear-and-radiological-regulatory-commission",
+    "https://hse.kaust.edu.sa/safety/laboratory-safety/radiation-safety/regulatory-compliance-and-university-policies"
+  ]
+}

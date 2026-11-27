@@ -1,0 +1,200 @@
+{
+  "title": "NDT Report Validation in Jazan, Saudi Arabia | Remote Review",
+  "description": "Independent remote review of NDT reports and digital inspection data from the Jazan refinery, its gasification and power complex, desalination and new industry.",
+  "h1": "Independent NDT report review for Jazan's refinery, gasification power complex and growing industrial city",
+  "eyebrow": "Report validation · Jazan, Saudi Arabia",
+  "intro": "Jazan, in the far southwest of the Kingdom, is one of the newer industrial centres on the Red Sea. A 400,000 barrel-a-day refinery owned by Aramco shares its site with an integrated gasification combined cycle complex that turns refinery feedstock into power, steam and hydrogen, and both sit inside an industrial city that is still filling up with new plants. Newer assets do not mean fewer inspection records; they mean first and second cycles of in-service data, construction data books still being relied on, and owners comparing the two. We review that evidence independently and remotely, against the code, the procedure and the owner's specification. Atlantis has no Jazan presence; the review is done from Houston and Hyderabad on the records you send.",
+  "highlights": [
+    {
+      "h": "A refinery and its utility plant read together",
+      "p": "The gasification complex depends on the refinery for feedstock and the refinery depends on it for power, steam and hydrogen. A review that understands both sides can tell which equipment's records matter to which decision."
+    },
+    {
+      "h": "Baseline data from young plant",
+      "p": "Early in-service surveys set the baseline every later corrosion rate is measured from. We check that the baseline was taken at repeatable locations with a technique good enough to compare against."
+    },
+    {
+      "h": "Raw digital files checked behind the PDF",
+      "p": "Encoded phased array scans, digital radiographs, eddy current data and thickness grid exports are compared with the digital report built from them, so the summary can be trusted for what it says."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Jazan's industrial city on the Baysh coast",
+      "p": [
+        "The heavy industry of the Jazan region is concentrated in Jazan City for Primary and Downstream Industries, on the Red Sea coast about 75 km from Jazan city. It was founded in 2006 as Jazan Economic City, renamed in 2017, and has been administered by the Royal Commission for Jubail and Yanbu since 2015. It covers some 39 million square metres with about 19 km of coastline and is laid out in a heavy industrial zone, a general industrial zone and port and logistics areas, with its own reverse osmosis and sewage treatment plants.",
+        "The industrial city's port was inaugurated on 7 September 2022 and is run by Hutchison Ports as a multipurpose terminal serving the city. For inspection work, the port matters less as a ship terminal than as the route by which replacement equipment, vessels, piping spools and structural steel arrive; each of those deliveries brings a vendor data book with NDT evidence in it.",
+        "The anchor tenants are the refinery and the gasification complex beside it. Around them, the Royal Commission has been signing agreements with further industrial investors, so the area produces a mix of in-service records from operating plant and construction records from projects at various stages."
+      ]
+    },
+    {
+      "h": "The Jazan refinery and what its records cover",
+      "p": [
+        "Saudipedia describes the Jazan refinery as wholly owned by Aramco, with 400,000 barrels a day of capacity on a complex of about 12 square kilometres. Its product slate includes gasoline, ultra-low sulphur diesel, benzene and paraxylene, so the site combines fuels units with aromatics production. A marine terminal able to take large crude carriers supplies the refinery and handles product exports.",
+        "That combination sets the reach of an inspection programme. Crude and vacuum units, hydroprocessing for low-sulphur diesel, reforming and aromatics extraction, product tankage and the jetty lines each have their own damage mechanisms and their own inspection plans. A review request from the refinery side can concern any of them, and the questions differ: thickness trending and corrosion under insulation on hot and cold piping, weld and cladding examinations on hydroprocessing equipment, tank floor and shell data, or jetty and pipeline thickness in a marine atmosphere.",
+        "Because the plant is relatively young, many in-service records are still being compared with construction-era data. That comparison only works if the original examination and the later survey are of the same thing. When we review a trend, we ask for both datasets and check location references, techniques and instrument settings before accepting any calculated rate."
+      ]
+    },
+    {
+      "h": "Gasification, syngas and the power complex",
+      "p": [
+        "Next to the refinery stands an integrated gasification combined cycle complex. In September 2021 Aramco announced that a joint venture of Air Products, ACWA Power, Saudi Aramco Power Company and Air Products Qudra would acquire the air separation units, gasification, syngas clean-up, utilities and power assets from Aramco and own and operate them under a 25-year contract. The assets passed to the joint venture in two groups, the first in late October 2021 and the second in January 2023. At formation Air Products held 46 percent directly and 50.6 percent in total through Air Products Qudra, ACWA Power 25 percent and Saudi Aramco Power Company 20 percent. Aramco supplies the feedstock and receives power, steam, hydrogen and other utilities in return.",
+        "ACWA Power gives the complex's capacity as 3,800 MW gross power, 585,000 tonnes an hour of steam and 184,000 normal cubic metres an hour of hydrogen. Plant of this type joins three inspection worlds in one site: cryogenic and oxygen service in the air separation units, high-temperature, high-pressure syngas equipment in gasification and clean-up, and boilers, HRSGs, steam piping and turbines in the combined cycle blocks.",
+        "Each brings its own review questions. Oxygen service equipment depends on cleanliness and on records of the welds and materials that the oxygen piping specification permits. Gasification and syngas lines involve high temperatures, sulphur compounds and hydrogen, so examination records for welds and any cladding or overlay need to be read against the material and process limits in the procedure. Power blocks produce tube thickness surveys, high-energy piping weld examinations and condenser eddy current data. Where an owner's engineer is judging the condition of any of this equipment, the judgement and any remaining-life figure stay with that engineer; our opinion tells them whether the NDT data underneath can carry it."
+      ],
+      "list": [
+        "Air separation units: weld and material records for cryogenic vessels, cold boxes and oxygen piping",
+        "Gasifiers and syngas equipment: weld, overlay and thickness data on high-temperature hydrogen and sulphur service",
+        "Syngas clean-up and sulphur recovery: corrosion surveys and exchanger tube data",
+        "HRSGs and boilers: tube thickness surveys, header and tube weld repairs",
+        "Steam and high-energy piping: weld examinations, often encoded UT",
+        "Condensers and coolers: eddy current tube files with calibration records"
+      ]
+    },
+    {
+      "h": "Water for the region: reverse osmosis on the southern coast",
+      "p": [
+        "Water supply in the southwest relies on seawater desalination. Shuqaiq 3, a reverse osmosis plant on the Red Sea coast rated at 450,000 cubic metres a day, has been in commercial operation since January 2022; it is owned by Shuqaiq Three Company for Water, whose shareholders are Marubeni, Abdul Latif Jameel, Rawafid Alhadarah Holding and Acciona. The industrial city has its own reverse osmosis plant as well.",
+        "Reverse osmosis plants produce a narrower set of records than a refinery but a demanding one. High-pressure pumps, piping and pressure vessels in duplex or super duplex stainless steel rely on penetrant and visual evidence for welds, sometimes with ferrite or hardness checks written into the procedure. Intake and brine lines produce thickness surveys that are only useful if they repeat. When those records come for review, we read them against the owner's technical specification and the code the equipment was built to, usually ASME B31.3 for process piping and ASME Section VIII for vessels unless the contract says otherwise."
+      ]
+    },
+    {
+      "h": "Which requirement does the report answer to?",
+      "p": [
+        "Before any of the seven checks starts, the reviewer needs to know which documents the report has to satisfy. In Jazan that answer often has more than one owner, because the refinery, the gasification and power complex and the industrial city's tenants have different operators and different specifications. The table shows the layers we usually see."
+      ],
+      "table": {
+        "head": [
+          "Layer",
+          "Typical content",
+          "How the review uses it"
+        ],
+        "rows": [
+          [
+            "International code",
+            "ASME Section V for technique; Section VIII, Section I, B31.3 and B31.1 for construction; API 510, API 570 and API 653 for in-service equipment; AWS D1.1 for structural steel",
+            "Sets the base acceptance criteria and examination requirements, at the edition the contract names"
+          ],
+          [
+            "Operator standards",
+            "Saudi Aramco Engineering Standards where a client's contract invokes them; the joint venture's own specifications for the power complex; tenants' specifications in the industrial city",
+            "Adds or tightens requirements; findings are tied to the clause the contract actually names"
+          ],
+          [
+            "Manufacturer requirements",
+            "Turbine, boiler, compressor and pump makers' inspection and repair instructions",
+            "Govern technique and acceptance on the components they cover"
+          ],
+          [
+            "National licensing",
+            "Radiation practice licences issued by the Nuclear and Radiological Regulatory Commission, set up in 2018",
+            "Confirms that radiographic images came from a licensed contractor; Atlantis reviews the images and does not perform radiography"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Where Jazan records tend to go wrong",
+      "p": [
+        "Some failures turn up wherever NDT is done. Others are more likely on a site with Jazan's profile: young plant, several operators, many contractors and a long supply route for equipment. These are the patterns that most often produce findings when records from a site like this are reviewed."
+      ],
+      "list": [
+        "Baseline surveys taken without location references a later crew can repeat, so the second survey cannot produce a defensible rate",
+        "Vendor data books in which the NDT reports name a procedure revision that was not approved for that order, or name technicians whose certificates had lapsed on the examination date",
+        "Thickness readings compared against nominal wall rather than the minimum required thickness from the owner's documents",
+        "Phased array or TOFD reports that summarise coverage without the scan plan or encoded files that would prove it",
+        "Radiographic reports where image quality indicator placement or density, or the CR and DR equivalents, are not recorded",
+        "Eddy current tube reports whose calibration standard does not match the tube material or wall",
+        "Penetrant reports on stainless and duplex welds that omit surface temperature, dwell time or the penetrant system batch",
+        "Indications recorded but never dispositioned against the acceptance criteria before the package was closed"
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting from a modern site",
+      "p": [
+        "Plants built in the last decade tend to generate their inspection evidence digitally from the start. Construction NDT on piping and pressure equipment often arrives as encoded scans and digital radiographs; in-service programmes keep thickness data in an inspection database; contractors deliver reports through digital reporting platforms with electronic approval. That is an advantage for an independent reviewer, provided the raw data is kept and supplied.",
+        "Our digital inspection data review works from the file outward. We check instrument and software settings against the calibration record, gate and gain settings against the procedure, coverage against the scan plan, image processing history against the acceptance requirement, and the order of timestamps against the sequence the procedure lays down. For digital reporting we look at templates and data lineage: whether a report generated from a template carried over a previous job's procedure number, whether a thickness grid survived a migration between systems with its locations intact, and whether the electronic signature dates are consistent with the data they approve.",
+        "When raw files are missing, the opinion records which conclusions rest only on the report. For an owner deciding whether to accept a data book or rely on a baseline, that distinction is part of the answer."
+      ]
+    },
+    {
+      "h": "Who asks for an independent review in Jazan",
+      "p": [
+        "Owners and their inspection groups ask when a turnaround package must be closed before restart, or when the first in-service surveys disagree with construction records. Joint venture partners and their engineers ask when they want one reading of the evidence that each partner can rely on. EPC contractors and fabricators ask when an owner's inspector has rejected reports and they want to know whether the rejection rests on the governing clause before committing to repairs. Lenders' technical advisers and prospective investors ask when a data book will support a financial or commercial decision.",
+        "In each case the output is the same kind of document: a written opinion that classifies the record as sound, deficient in documentation only, or deficient in disposition, with every finding tied to the clause or procedure step and to the evidence. What the reader does with it stays with them: acceptance of equipment remains with the owner's inspector, certification of personnel with their employer, and any fitness-for-service assessment with the owner's engineer."
+      ]
+    },
+    {
+      "h": "Running a remote review from Jazan",
+      "p": [
+        "The review needs records, not a site visit. You tell us the scope and the decision the review should support; we send a document list; you upload reports, procedures, certificates, calibration records and raw files through a secure transfer; the reviewer works through the seven checks and writes the opinion. Questions go back by email or video call. No one from Atlantis travels to Jazan, and the review never requires access to the plant.",
+        "Ultrasonic, radiographic, magnetic particle, penetrant and visual records from Jazan are reviewed under the lead of an ASNT NDT Level III who holds all five of those methods. For eddy current or any other method, the proposal names a reviewer holding the certification your contract calls for. The wider review team draws on people from nuclear, maritime, oil and gas and petrochemical work, which suits a site where refinery, gasification, power and marine equipment sit side by side. Atlantis does not review examinations it performed, so the opinion is independent of the work it judges."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there an Atlantis facility or team in Jazan?",
+      "a": "No. Atlantis keeps offices in Houston and Hyderabad only and has none in Jazan, Saudi Arabia or the wider Gulf. The review is carried out remotely on the records you transfer."
+    },
+    {
+      "q": "Can you review records from the gasification and power complex as well as the refinery?",
+      "a": "Yes. Air separation, gasification, syngas and power block records go through the same seven checks as refinery reports, read against the specification and code that govern each piece of equipment. Tell us which operator's specification applies so the findings are tied to the right document."
+    },
+    {
+      "q": "Our plant is new. Why review baseline inspection data?",
+      "a": "Every later corrosion rate is calculated from the baseline. If the first survey cannot be repeated at the same locations, or used a technique too coarse to compare against, every future trend inherits the problem. A review early in the plant's life is the easiest time to correct it."
+    },
+    {
+      "q": "Will you check a vendor data book before we accept the equipment?",
+      "a": "Yes. We check that each weld or component traces to an examination, that the procedure and technician were approved and qualified on the date, that calibration was valid and that the recorded results meet the acceptance criteria the purchase order invoked."
+    },
+    {
+      "q": "Do you work to Saudi Aramco Engineering Standards?",
+      "a": "When the contract invokes SAES documents, the review reads the report against the clauses and revisions named. We are your independent reviewer and claim no approved-vendor status with Aramco or any other operator."
+    },
+    {
+      "q": "Can you carry out radiography or other testing in Jazan?",
+      "a": "No. The review is of records only. Radiographic images come from contractors licensed by the Nuclear and Radiological Regulatory Commission, and we read the film, CR or DR images and the reports that accompany them."
+    },
+    {
+      "q": "Who reviews eddy current data from condensers and exchangers?",
+      "a": "Our Level III for UT, RT, MT, PT and VT does not hold ET. For eddy current data the proposal names a reviewer with the certification the contract requires."
+    },
+    {
+      "q": "Can the review give a remaining-life figure for the equipment?",
+      "a": "No. Remaining life and fitness-for-service stay with the owner's engineer. The review tells that engineer whether the NDT data the calculation would use is sound, and where it is not."
+    },
+    {
+      "q": "How do we send Jazan records for review?",
+      "a": "Describe the scope and the decision it supports, and attach a sample report if one is ready. We reply within one business day with a document list, the transfer arrangements and a quote."
+    }
+  ],
+  "related": [
+    [
+      "/report-validation/api-510-570-653-report-review",
+      "API 510, 570 and 653 report review"
+    ],
+    [
+      "/report-validation/ultrasonic-thickness-report-review",
+      "UT thickness report review"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "ASNT Level III consulting"
+    ]
+  ],
+  "sources": [
+    "https://saudipedia.com/en/jazan-refinery",
+    "https://saudipedia.com/en/jazan-city-for-basic-and-transformation-industries",
+    "https://hutchisonports.com/ports/world/hutchison-ports-jazan",
+    "https://www.aramco.com/en/news-media/news/2021/asset-acquisition-and-project-financing-agreements--joint-venture-in-jazan",
+    "https://acwapower.com/en/what-we-do/projects/jazan-igcc/",
+    
+    "https://saudipedia.com/en/article/324/government-and-politics/commissions/nuclear-and-radiological-regulatory-commission",
+    "https://www.prnewswire.com/news-releases/air-products-aramco-acwa-power-and-air-products-qudra-reach-financial-close-and-transfer-second-group-of-assets-for-12-billion-gasification-and-power-joint-venture-at-jazan-saudi-arabia-301726853.html",
+    "https://www.marubeni.com/en/news/2022/release/00034.html",
+    "https://saudipedia.com/en/nuclear-and-radiological-regulatory-commission",
+    "https://hse.kaust.edu.sa/safety/laboratory-safety/radiation-safety/regulatory-compliance-and-university-policies"
+  ]
+}
