@@ -1,0 +1,232 @@
+{
+  "title": "RBI in Antwerp: Refineries, Chemical Plants and Tank Terminals",
+  "description": "Risk-based inspection for Antwerp refineries, crackers, chemical plants and tank terminals: damage mechanisms, VLAREM tank checks and a remote study.",
+  "h1": "Risk-based inspection for the Antwerp port refining, chemical and storage cluster",
+  "eyebrow": "Risk-based inspection in Belgium",
+  "intro": "The Antwerp part of Port of Antwerp-Bruges packs two refineries, steam crackers, a large integrated chemical site, dozens of specialty plants and a dense group of independent tank terminals along both banks of the Scheldt. This page is for the inspection, integrity and maintenance engineers who work there. It sets out which assets dominate an Antwerp risk register, which damage mechanisms the North Sea climate and the product slate push to the top, how VLAREM tank checks and the federal technical control regime sit beside an RBI plan, and how Atlantis runs the study for an Antwerp site entirely from a distance.",
+  "highlights": [
+    {
+      "h": "A cluster built on shared pipe",
+      "p": "Ethylene, propylene, hydrogen, steam and nitrogen move between Antwerp companies through pipelines and racks that cross site fences. The study maps who owns each segment and whose data it uses before any item is ranked, so nothing falls between two registers."
+    },
+    {
+      "h": "Tanks reviewed beside their statutory checks",
+      "p": "Flemish environmental rules already require periodic tank examinations by recognised experts. The RBI plan for a terminal is written so those examinations and the risk-based internal inspection dates reinforce each other instead of being planned in two separate spreadsheets."
+    },
+    {
+      "h": "Belgian office hours, no site visit",
+      "p": "Workshops run by video in the Antwerp morning and early afternoon, documents arrive through a shared data room, and anything that must be seen or measured goes on a written check list for the owner's own inspectors or inspection contractor."
+    }
+  ],
+  "sections": [
+    {
+      "id": "antwerp-cluster",
+      "h": "What sits along the Scheldt",
+      "p": [
+        "On the right bank, north of the city, the industrial zone runs from the older docks up towards Zandvliet and the Dutch border. TotalEnergies operates an integrated refining and petrochemical platform there, and ExxonMobil runs its Antwerp refinery and petrochemical site in the same port. BASF Antwerpen covers roughly six square kilometres with about fifty production plants arranged in integrated value chains, and the BASF site hosts partner units that include air separation and hydrogen production, chlor-alkali, hydrogen peroxide concentration, styrenics and a gas-fired combined heat and power plant.",
+        "On the left bank, around Kallo, Doel and Beveren, there are further chemical producers, including INEOS sites, and a cluster of large tank terminals. According to the port authority, more than twenty terminals across Port of Antwerp-Bruges offer independent liquid bulk storage, about 8.9 million cubic metres of it in Antwerp. Vopak runs several Antwerp terminals, among them Eurotank, which specialises in chemicals, alpha olefins, gasoil and petroleum products. Advario Stolthaven Antwerp reports 189 tanks, from about sixty to forty-three thousand cubic metres, for chemicals, petroleum products and gases. SEA-TANK and LBC Tank Terminals also operate Antwerp storage.",
+        "The cluster is changing. TotalEnergies has announced that the older of its two Antwerp steam crackers will close by the end of 2027, with the newer one kept to supply its own downstream units. Parts of the site are being converted to renewable fuels. A risk register that was set up for the old configuration needs to follow those changes, and the closures and conversions are discussed further down this page."
+      ],
+      "table": {
+        "head": ["Asset group", "Typical Antwerp examples", "What usually drives the RBI ranking"],
+        "rows": [
+          ["Crude and conversion units", "Atmospheric and vacuum distillation, hydrotreaters, hydrocrackers, fluid catalytic cracking, sulphur recovery", "High-temperature sulphidation, naphthenic acid where the crude slate contains it, wet sour water damage, high temperature hydrogen attack screening"],
+          ["Olefins and derivatives", "Steam cracker furnaces and quench, cold boxes, ethylene oxide and glycols, styrene, polymers", "Furnace tube creep and carburisation, low-temperature embrittlement screening in cold sections, caustic cracking in spent caustic systems"],
+          ["Inorganic and chlor-alkali", "Chlorine, caustic soda, hydrogen peroxide, nitric acid and nitrogen chemicals", "Wet chlorine and hypochlorite corrosion, caustic stress corrosion cracking, nitric acid attack on unsuitable stainless grades"],
+          ["Independent tank terminals", "Fixed and floating roof tanks for crude, products, biofuels and chemicals; pressurised and refrigerated gas storage", "Floor soil-side and product-side corrosion, shell corrosion at the water line, roof seal and pontoon condition, product compatibility after a change of service"],
+          ["Inter-site pipelines and racks", "Ethylene, propylene, hydrogen, steam and nitrogen lines between companies", "Corrosion under insulation, support point corrosion, road and dock crossings, uncertain ownership of inspection records"]
+        ]
+      }
+    },
+    {
+      "id": "antwerp-climate",
+      "h": "The North Sea climate and what it does to Antwerp equipment",
+      "p": [
+        "Antwerp is not hot, but it is damp most of the year. Mild winters with frequent temperatures just above freezing, long periods of drizzle and fog off the Scheldt estuary, and salt carried inland on westerly winds keep insulation jackets wet for much of the year. Carbon steel lines that run between ambient and roughly 175 °C, or that cycle through that band during start-up, shutdown and campaign changes, are the classic corrosion under insulation candidates, and Antwerp has a great deal of such pipe on long racks.",
+        "Cold service brings its own problem. Equipment that operates below freezing collects condensation and ice under damaged insulation and vapour barriers, then thaws during a shutdown or a mild spell. Refrigerated ethylene and propylene storage, cold box piping and chilled process lines therefore need a separate screening for wetting and freeze-thaw damage to the insulation system itself, not only for corrosion of the steel underneath.",
+        "Austenitic stainless steel deserves its own population in the register. Insulated stainless lines and vessels in chemical service, wetted by rain that carries chlorides from the estuary and from leaching insulation, can suffer external chloride stress corrosion cracking at moderate temperatures. Ranking that population separately, with its own inspection techniques, avoids burying it inside a carbon steel CUI programme that would look for wall loss instead of cracks."
+      ],
+      "list": [
+        "Wet insulation on long, lightly heated racks between plants and terminals",
+        "Freeze-thaw damage to vapour barriers on cold and refrigerated service",
+        "Chloride cracking under insulation on stainless steel chemical lines",
+        "Atmospheric corrosion on structural steel, pipe supports and tank roofs near the water",
+        "Soil-side corrosion of tank floors on reclaimed, wet ground with a high water table"
+      ]
+    },
+    {
+      "id": "antwerp-process",
+      "h": "Process damage mechanisms that come up again and again",
+      "p": [
+        "A refinery register in Antwerp looks much like any coastal European refinery: sulphidation in hot hydrocarbon sections, ammonium bisulphide and ammonium chloride corrosion in hydroprocessing effluent trains, amine corrosion and cracking in gas treating, wet hydrogen sulphide damage in sour water and overhead systems, and creep and spheroidisation in fired heater tubes. The study assigns each of these to corrosion loops using API RP 571, then checks them against the operating envelope the unit actually saw, which the integrity operating windows and historian data reveal.",
+        "Chemical plants widen the list considerably. Caustic service needs the temperature and concentration of every line confirmed before a cracking susceptibility can be set, because a caustic line traced above its stress-relief limit and one that runs cold are very different risks. Chlorine and hydrochloric acid systems, nitric acid plants, peroxide units and organic acid service each have mechanisms that generic refinery templates miss. Where a plant has its own corrosion specialist or materials guide, the study uses it as the reference and records any disagreement with the generic literature instead of overwriting it.",
+        "Polymer and derivative units add fouling-related damage, erosion at letdown valves and in slurry service, and fatigue on reciprocating compressor piping. Hydrogen and syngas equipment needs screening for high temperature hydrogen attack against the current version of the Nelson curves in API RP 941, with the actual hydrogen partial pressure and metal temperature for each item rather than design values."
+      ]
+    },
+    {
+      "id": "antwerp-terminals",
+      "h": "RBI for Antwerp's independent tank terminals",
+      "p": [
+        "Terminal registers are dominated by tanks, transfer lines and jetty piping, and they change constantly because storage is leased. A tank that held gasoil last year may hold a biofuel blend, a specialty chemical or a renewable feedstock this year. Each change of service resets part of the damage picture: microbiologically influenced corrosion becomes more likely with some biofuels and water bottoms, certain chemicals attack the coating or the floor welds, and heated products bring shell corrosion at the vapour space. The RBI study keeps a service history for each tank and re-runs the affected parts of the assessment whenever the lease changes the product.",
+        "Floor condition is usually the main uncertainty. Many Antwerp tanks stand on ground reclaimed from polders, with a shallow water table and, in places, saline groundwater. The plan therefore weights soil-side corrosion heavily until a recent floor scan, settlement survey and cathodic protection record say otherwise. Where a terminal has magnetic flux leakage floor scans from previous outages, the study uses their coverage and detection threshold as evidence of inspection effectiveness rather than simply recording that the floor was inspected.",
+        "For tank intervals the study works with API 653 where the owner applies it, and with EEMUA 159 where the terminal's procedures follow that guide. Under the current edition of API 653, an RBI assessment may set the internal inspection interval as long as it is validated and reviewed at least every ten years. Pressurised and refrigerated gas storage is planned separately, because its damage mechanisms, design codes and statutory status differ from atmospheric tanks."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/storage-tank-rbi", "Storage tank RBI"],
+        ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection support"],
+        ["/corrosion-mapping", "Corrosion mapping"]
+      ]
+    },
+    {
+      "id": "antwerp-rules",
+      "h": "Flemish and federal rules beside the risk plan",
+      "p": [
+        "The full Belgian framework is covered on the Belgium page; for an Antwerp site three layers matter most. Flanders regulates storage of hazardous liquids and gases through its environmental rules, VLAREM II, which require checks before a tank is placed and before it is put into use, under the supervision of a recognised environmental expert for tanks or a competent expert, periodic examinations afterwards by a recognised environmental expert, and, since 1 January 2025, an updated annex 5.17.3 on the construction and checking of permanent leak detection systems. Federal well-being at work law makes certain work equipment subject to checks by external services for technical controls, which must be accredited under ISO/IEC 17020 and recognised by the Minister. Seveso obligations for major-accident hazards apply to most of the larger sites in the port.",
+        "None of these instruments hands the operator an RBI interval. What they do is fix which checks are statutory, who must perform them and what evidence an inspector will ask for. The study therefore starts by tagging every item with its statutory status, the body that examines it and the date of its last examination, and it never moves a statutory date. Risk-based dates are set for the inspections that the operator controls, and the plan shows clearly where the two sets of dates fall together so one shutdown can serve both."
+      ]
+    },
+    {
+      "id": "antwerp-change",
+      "h": "Closures, conversions and change of service",
+      "p": [
+        "Antwerp is in the middle of a structural shift. Older capacity is being shut, some units are being converted to renewable feedstocks and fuels, and new projects are being built. Each kind of change affects an RBI programme differently, and the study handles them as separate cases.",
+        "Equipment that is being mothballed for possible restart needs a preservation-based assessment: what damage can progress while it sits, under nitrogen or dry air, and what has to be inspected before it returns to service. Equipment that is being permanently isolated leaves the register, but its tie-ins, shared relief systems and connected lines stay in, often with a higher consequence than before because they are now dead legs. Equipment converted to renewable or bio-based feedstocks needs its damage mechanisms reviewed from scratch, because oxygenates, free fatty acids, chlorides and phosphorus in those feeds can introduce corrosion that the original crude-based assessment never considered."
+      ],
+      "list": [
+        "Mothballing: preservation records, inspection required before restart",
+        "Permanent isolation: tie-ins, shared relief headers and new dead legs kept in the register",
+        "Conversion to renewable feedstocks: corrosion loops and mechanisms reassessed",
+        "New plant: baseline inspection data loaded as the first entry in each item's history"
+      ]
+    },
+    {
+      "id": "antwerp-remote",
+      "h": "How the study is run for an Antwerp site",
+      "p": [
+        "The work begins with a scoping call to settle the units, the methodology and the format the owner wants the register in. Many Antwerp operators already have an RBI standard set by a parent group, and some run commercial RBI software; in those cases the study follows the group standard and works from exports of the existing register, so the result can be loaded back without rebuilding it. Where there is no group standard, the choice between qualitative, semi-quantitative and quantitative work to API RP 581 is made per unit, according to the data available and the decisions the owner wants to support.",
+        "Documents then go into a shared data room: P&IDs and PFDs, heat and material balances, equipment datasheets and manufacturer's records, thickness and inspection history, previous RBI reports, process chemistry and the integrity operating windows. Drawings and procedures in Dutch are fine; the study notes and registers are written in English unless the owner asks otherwise, with Dutch terms kept where they are the site's own vocabulary.",
+        "Workshops are held by video with the operations, process, corrosion and inspection people, typically one corrosion loop or one tank farm at a time. Atlantis works from Hyderabad, whose clock runs three and a half to four and a half hours ahead of Brussels time, so a Belgian morning or early afternoon suits both sides.",
+        "The study needs no travel. Anything that must be looked at or measured, such as a suspect insulation run, a tank with a missing floor record or a heater with doubtful tube metal temperature data, is written onto a field check list with what to measure, where, and what result would change the ranking. The owner's own inspectors or inspection contractor carry out those checks, and their results are fed back before the plan is issued."
+      ],
+      "links": [
+        ["/inspection/risk-based-inspection/remote-rbi", "How remote RBI works"],
+        ["/inspection/risk-based-inspection/quantitative-rbi-api-581", "Quantitative RBI to API RP 581"]
+      ]
+    },
+    {
+      "id": "antwerp-turnaround",
+      "h": "Fitting the plan to Antwerp turnaround windows",
+      "p": [
+        "Large Antwerp sites plan major turnarounds years ahead, and the neighbours often plan theirs close together because they share feed, product and utility connections. When an ethylene supplier, a derivatives plant and a terminal all come down in the same season, inspection contractors, scaffolding and cranes are in short supply across the whole port.",
+        "The RBI plan helps by sorting inspection tasks into those that genuinely need the unit open, those that can be done on stream with external methods, and those that can be deferred to the next window with an acceptable risk. That sorting is most useful twelve to eighteen months before a turnaround, when the scope can still be shaped, and it gives the turnaround planners a defensible reason for every opening on the list."
+      ],
+      "links": [
+        ["/inspection/turnarounds-shutdowns", "Turnarounds and shutdowns"],
+        ["/inspection/risk-based-inspection/rbi-implementation", "RBI programme implementation"]
+      ]
+    },
+    {
+      "id": "antwerp-approval",
+      "h": "Who decides, and where the study stops",
+      "p": [
+        "Atlantis prepares the analysis, the register and the inspection plan. The owner's inspection authority, the recognised experts and the accredited technical control services keep every decision the law gives them, and the owner's inspector approves the intervals. Atlantis is not an inspection body, a recognised environmental expert or an external technical control service in Belgium, and the plan does not replace any statutory examination.",
+        "When an inspection finds damage beyond what the code allows, the assessment of whether the item can stay in service belongs to the owner's engineer or a fitness-for-service specialist; Atlantis does not perform API 579 assessments. The RBI register records the finding, raises the probability of failure until the damage is assessed and repaired, and resets the plan once the outcome is known."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (RBI methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API RP 584 (integrity operating windows)",
+    "API RP 941 (high temperature hydrogen attack)",
+    "API 510, API 570 and API 653",
+    "EEMUA 159 (above ground flat-bottomed storage tanks)",
+    "VLAREM II (Flemish environmental rules for hazardous substance storage)",
+    "Codex on well-being at work, Book II Title 5 (external services for technical controls)",
+    "Seveso III Directive as implemented in Belgium"
+  ],
+  "deliverables": [
+    "Boundary and ownership register for inter-site pipelines, racks and shared utilities",
+    "Corrosion loop drawings and damage mechanism assignment per loop",
+    "RBI register with probability, consequence and risk per item, flagged by statutory status",
+    "Inspection plan per item: technique, coverage, effectiveness and due date",
+    "Tank service history and change-of-service reassessment record for terminals",
+    "Field check list for the owner's inspectors, with the result that would change each ranking",
+    "Data-gap log and reassessment triggers",
+    "Final RBI report"
+  ],
+  "industries": [
+    "Refining",
+    "Steam cracking and olefin derivatives",
+    "Inorganic and chlor-alkali chemicals",
+    "Specialty and fine chemicals",
+    "Independent tank terminals",
+    "Industrial gases and utilities"
+  ],
+  "faqs": [
+    {
+      "q": "Do VLAREM tank examinations count as inspections in the RBI plan?",
+      "a": "They count as evidence, and the study credits them for what they actually examined. A periodic examination by a recognised expert that covered the shell externally, the bund and the leak detection does not tell you the floor's soil side condition, so the plan still needs an internal inspection date for the floor. The register shows each statutory examination beside the risk-based tasks so the terminal can see where one access serves both purposes."
+    },
+    {
+      "q": "Can RBI extend the dates of statutory checks by an external technical control service?",
+      "a": "Not on its own. Statutory dates are set by the regulation and the accredited service that performs the check, and the study never moves them. RBI sets the dates of inspections that the operator controls, such as internal inspections of non-statutory vessels, thickness surveys on piping and CUI programmes. If a statutory body accepts risk-based evidence for an item, that is its decision, and the study can provide the documentation it asks for."
+    },
+    {
+      "q": "Our group already runs RBI in commercial software. What does an outside study add?",
+      "a": "Usually a second look at the inputs and the assumptions. Antwerp registers built years ago often carry design temperatures instead of operating ones, generic corrosion rates, and damage mechanisms that no longer match the current feed or a change of service. The study works from your software exports, challenges the inputs with your process and corrosion people, and returns a corrected register in the same structure so it loads back without rework."
+    },
+    {
+      "q": "How do you handle pipelines that run between two companies' sites?",
+      "a": "The first step is a boundary register: for each line that crosses a fence, where ownership changes, who holds the inspection records for each segment, and whose inspector approves the plan. The risk assessment then follows that split. Where neither party has recent data on a segment, typically a rack section or a road crossing, the plan says so and puts it on the field check list."
+    },
+    {
+      "q": "Which damage mechanism usually tops an Antwerp register?",
+      "a": "On the refining and long rack side it is usually corrosion under insulation, because the climate keeps insulation wet and there is a great deal of warm carbon steel pipe. On chemical plants it depends on the chemistry: caustic cracking, chloride cracking on insulated stainless steel and acid corrosion appear often. On terminals, soil-side floor corrosion is normally the main uncertainty until a recent floor scan is available."
+    },
+    {
+      "q": "Does the study need anyone to come to our site in Antwerp?",
+      "a": "No. Everything is done through the data room and video workshops. Where the ranking depends on something that has to be seen or measured, the study writes it onto a field check list with the location, the method and the threshold that matters, and your own inspectors or inspection contractor carry it out. Their results go back into the register before the plan is issued."
+    },
+    {
+      "q": "We are converting a unit to renewable feedstock. When should the RBI be redone?",
+      "a": "Before the unit starts on the new feed, and again after the first campaign. Renewable and bio-based feeds can introduce oxygenates, organic acids, chlorides and phosphorus that change the corrosion picture, so the corrosion loops and mechanisms should be reassessed during the design of the conversion. After the first run, the inspection results and process data confirm or correct those assumptions."
+    },
+    {
+      "q": "Who approves the intervals in the final plan?",
+      "a": "Your inspector or inspection authority approves every interval, and any statutory examination stays with the recognised expert or technical control service that the law names. Atlantis is not the inspector of record. If an inspection finds damage that needs a fitness-for-service assessment, that assessment stays with your engineer or a specialist you appoint."
+    }
+  ],
+  "related": [
+    ["/inspection/risk-based-inspection", "Risk-based inspection services"],
+    ["/inspection/risk-based-inspection/storage-tank-rbi", "Storage tank RBI"],
+    ["/inspection/risk-based-inspection/piping-rbi", "Piping RBI"],
+    ["/inspection/risk-based-inspection/pressure-vessel-rbi", "Pressure vessel RBI"],
+    ["/inspection/risk-based-inspection/damage-mechanism-review", "Damage mechanism review"],
+    ["/inspection/risk-based-inspection/rbi-revalidation-audit", "RBI revalidation and audit"],
+    ["/inspection/risk-based-inspection/netherlands", "RBI in the Netherlands"],
+    ["/standards/api-581", "API 581 explained"],
+    ["/standards/api-571", "API 571 damage mechanisms"],
+    ["/inspection/asset-integrity-services", "Asset integrity services"],
+    ["/contact", "Contact Atlantis"]
+  ],
+  "sources": [
+    {"fact": "More than 20 terminals offer about 9.5 million m3 of independent liquid bulk storage across Port of Antwerp-Bruges, of which about 8.9 million m3 in Antwerp", "url": "https://www.portofantwerpbruges.com/en/business/cargo/liquid-bulk"},
+    {"fact": "TotalEnergies to shut oldest Antwerp steam cracker by end of 2027; newer cracker kept for own units in Antwerp and Feluy; SAF conversion", "url": "https://hydrocarbonprocessing.com/news/2025/04/totalenergies-to-shut-antwerp-steam-cracker-at-the-end-of-2027/"},
+    {"fact": "TotalEnergies Antwerp platform", "url": "https://www.ogj.com/refining-processing/refining/operations/article/55284951/totalenergies-to-shutter-ethylene-unit-at-antwerp-platform"},
+    {"fact": "ExxonMobil has a refinery and petrochemical site in the port of Antwerp", "url": "https://www.belganewsagency.eu/exxonmobil-explores-possible-sale-of-chemical-plants-in-belgium-and-uk"},
+    {"fact": "BASF Antwerpen about 6 km2, 50 plants, 15 value chains; partners on site incl. Air Liquide (air separation, hydrogen/CO), INOVYN (chlor-alkali), Solvay (hydrogen peroxide concentration), INEOS Styrolution, Zandvliet Power (CHP)", "url": "https://www.basf.com/be/en/who-we-are/Group-Companies/BASF-Antwerpen/About-the-site/Partners-on-site"},
+    {"fact": "INEOS Antwerp Doel site", "url": "https://www.ineos.com/no/sites/antwerp-doel/"},
+    {"fact": "Vopak Terminal Eurotank Antwerp: chemicals, gasoil, petroleum products, specialty chemicals and alpha olefins", "url": "https://www.vopak.com/terminals/vopak-terminal-eurotank-antwerp"},
+    {"fact": "Vopak Terminal Linkeroever Antwerp exists", "url": "https://www.vopak.com/terminals/vopak-terminal-linkeroever-antwerp"},
+    {"fact": "Advario Stolthaven Antwerp: 189 tanks, 60 to 43,000 m3, chemicals, petroleum products and gases", "url": "https://www.stolt-nielsen.com/our-businesses/stolthaven-terminals/terminal-network/advario-stolthaven-antwerp-nv/"},
+    {"fact": "SEA-TANK terminal in Antwerp", "url": "https://biofuels-news.com/news/sea-tank-opens-antwerp-terminal"},
+    {"fact": "LBC Tank Terminals storage in Antwerp", "url": "https://fuelsandlubes.com/lbc-tank-terminals-starts-expansion-of-storage-capacity-in-antwerp"},
+    {"fact": "VLAREM II: tank checks before placing and use supervised by recognised environmental expert or competent expert; renewed annex 5.17.3 on permanent leak detection systems in force since 1 January 2025", "url": "https://www.vlaanderen.be/natuur-milieu-en-klimaat/erkenning-als-technicus-deskundige-opleidingscentrum-of-labo/informatie-voor-de-milieudeskundige-houders-gassen-of-gevaarlijke-stoffen"},
+    {"fact": "EDTC external services for technical controls: ISO/IEC 17020 accredited, recognised by the Minister; Codex Book II Title 5", "url": "https://werk.belgie.be/nl/themas/welzijn-op-het-werk/organisatorische-structuren/externe-diensten-voor-technische-controles"},
+  {"fact": "TotalEnergies Antwerp refinery 338,000 b/d, two steam crackers, HDPE plant, ethylene and propylene pipelines to Feluy", "url": "https://totalenergies.com/company/projects/oil/antwerp-refining-petrochemical-platform-belgium"}
+  ]
+}

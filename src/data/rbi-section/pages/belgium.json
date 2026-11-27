@@ -1,0 +1,388 @@
+{
+ "title": "Risk-Based Inspection in Belgium: Seveso, VLAREM and Tanks",
+ "description": "How an RBI study fits Belgian pressure equipment rules, approved bodies, the Seveso inspection services and VLAREM tank checks, delivered remotely by Atlantis.",
+ "h1": "Risk-based inspection for Belgian refineries, chemical sites and tank storage",
+ "eyebrow": "Risk-based inspection in Belgium",
+ "intro": "Belgium splits the rules that touch a process plant between the federal state and three regions, so an inspection manager in Antwerp, Ghent or the Walloon chemical zones answers to several regulators at once. This page is for the integrity, inspection and maintenance leads at those sites. It sets out which Belgian instruments reach pressure equipment and storage tanks, what the Seveso inspection services expect to see in an inspection programme, where an outside risk-based inspection study fits next to the approved inspection body, and how Atlantis runs that study remotely without anyone travelling to Belgium.",
+ "highlights": [
+  {
+   "h": "Federal and regional rules overlap",
+   "p": "Worker safety and pressure equipment sit with the federal government, environmental permits and most tank conditions with Flanders, Wallonia and Brussels, and Seveso duties with all of them under one cooperation agreement. The study maps every item to the rule that sets its minimum inspection before any risk rating is made."
+  },
+  {
+   "h": "The approved body still inspects",
+   "p": "Statutory examinations of Belgian pressure equipment and the recognised expert checks on tanks stay with the bodies and experts the law names. Atlantis supplies the risk analysis, the register and the proposed plan; it is not an approved body, an EDTC or an environmental expert."
+  },
+  {
+   "h": "Dutch and French records welcome",
+   "p": "Inspection reports, permits and certificates arrive in Dutch, French or English and are read as they are. Workshops run in English by video in the Belgian working day, and the field checks the study needs go to your own inspectors on a written list."
+  }
+ ],
+ "sections": [
+  {
+   "id": "be-split",
+   "h": "Who regulates what in a Belgian plant",
+   "p": [
+    "A refinery manager in the Netherlands deals mostly with one national framework. In Belgium the same manager deals with a federal layer and a regional layer that were drafted separately and are enforced by different services. The federal Codex over het welzijn op het werk, together with older provisions of the general regulation on worker protection (the ARAB, or RGPT in French) that remain in force, governs equipment used at work, including steam equipment and gas receptacles. Placing new pressure equipment on the market follows the Pressure Equipment Directive 2014/68/EU as transposed by royal decree. The regions run the environmental permit regimes, and in Flanders the VLAREM II conditions set checks on tanks for gases and dangerous substances.",
+    "Over all of that sits the Seveso regime for major-accident hazards, which Belgium implements through a cooperation agreement between the federal state and the three regions. The useful consequence for an RBI study is simple: before a single probability rating is made, every vessel, line and tank is tagged with the rule that fixes its minimum examination and with the party entitled to perform it. A risk-based plan can bring an inspection forward or justify a longer gap only where the governing rule leaves room for that, and the register should show which is which."
+   ],
+   "table": {
+    "head": [
+     "Layer",
+     "Instrument",
+     "What it reaches",
+     "What it means for RBI"
+    ],
+    "rows": [
+     [
+      "Federal, worker safety",
+      "Codex over het welzijn op het werk and the ARAB provisions still in force, with the royal decree of 18 October 1991 for steam equipment",
+      "Work equipment in use, steam equipment, gas receptacles and other pressure equipment covered by those texts",
+      "Statutory examinations stay with the body the rule names; the RBI plan sits on top of the legal minimum"
+     ],
+     [
+      "Federal, products",
+      "Royal decree transposing the Pressure Equipment Directive 2014/68/EU",
+      "Design, manufacture and conformity of new pressure equipment",
+      "Supplies the design data, materials and manufacturer's records the study starts from"
+     ],
+     [
+      "Regional, environment",
+      "VLAREM II in Flanders, integral and sectoral conditions or permit conditions in Wallonia, permit conditions in Brussels",
+      "Storage tanks, bunds and many other installations named in the environmental permit",
+      "Tank intervals have a regional legal floor; risk analysis decides whether more is needed"
+     ],
+     [
+      "Federal and regional together",
+      "Seveso cooperation agreement of 16 February 2016",
+      "Upper- and lower-tier establishments holding dangerous substances",
+      "Inspectors audit the inspection and maintenance system that the RBI study feeds"
+     ],
+     [
+      "Owner and group",
+      "API RP 580 and API RP 581, ASME PCC-3, EEMUA 159, the owner's own procedure",
+      "All equipment, including items outside statutory scope",
+      "Sets the method, the risk matrix and the documentation standard"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "be-bodies",
+   "h": "Approved bodies, EDTCs and recognised experts",
+   "p": [
+    "Belgian statutory inspection is done by named categories of third party rather than by whoever the owner chooses. External services for technical controls at the workplace, the EDTCs, are recognised under Book II, Title 5 of the Codex and inspect equipment such as lifts, electrical installations and steam equipment on behalf of employers. Bodies approved for specific regulations, often called erkende organismen or organismes agréés, carry out commissioning and periodic examinations of pressure equipment under the older royal decrees and the ARAB. Vinçotte, for example, publishes a BELAC accreditation to ISO/IEC 17020 as a type A inspection body whose scope lists periodic checks of process pressure equipment, steam equipment and gas receptacles.",
+    "For tanks in Flanders the relevant figure is different again: VLAREM II requires the periodic examinations of holders for gases and dangerous substances to be done by an environmental expert recognised in that discipline. In each case the legal check belongs to the recognised party. An RBI study does not replace any of them; what it changes is the quality of the information they inspect against. A register that states the active damage mechanisms, the expected corrosion rate and the locations most likely to show damage gives the approved body and the recognised expert a sharper scope for the same statutory visit."
+   ]
+  },
+  {
+   "id": "be-seveso-expect",
+   "h": "What the Belgian Seveso inspectors look for in an inspection programme",
+   "p": [
+    "The Belgian Seveso inspection services, which bring together the federal chemical risk division of FOD Werkgelegenheid, Arbeid en Sociaal Overleg with the Flemish, Brussels and Walloon inspection teams, publish inspection instruments that describe what they check on site. The instrument on inspection and maintenance does not prescribe risk-based inspection as such, but much of what it asks for is what a well-run RBI programme already produces. It expects every equipment category to belong to an inspection programme, each item to have a defined inspection type with a written instruction, and the choice of technique to follow the degradation mechanisms that can occur.",
+    "Several of its expectations map directly onto an RBI deliverable, and the study is laid out so that each one can be shown to an inspector without a second document."
+   ],
+   "list": [
+    "A maximum inspection interval for each containment, with the reason for the choice recorded: the RBI plan gives a due date and the basis for it per item",
+    "Re-evaluation of the interval after every inspection: the reassessment triggers and the corrosion rate update rules in the study do exactly this",
+    "Inspection frequency raised above the legal minimum where corrosive products or other risk factors justify it: the risk ranking shows where the legal floor is not enough",
+    "Overdue inspections allowed only with explicit approval from senior management, and visible lists of overdue work: the register flags deferrals instead of hiding them",
+    "Named responsibility and competence for each category, with third parties used where the site lacks the skills, provided the site can still judge their work: the study documents its method so the owner's inspection department can review and own it"
+   ]
+  },
+  {
+   "id": "be-tanks",
+   "h": "Storage tanks: regional floors and international tank codes",
+   "p": [
+    "Atmospheric tanks for flammable liquids are where regional rules matter most. In its 2015 instrument on flammable liquids the Seveso inspection services summarised the Flemish VLAREM II terms for above-ground holders as a limited examination, a thorough external check, every three years and a general examination, which adds a thorough internal check, at most every twenty years, both carried out by an environmental expert recognised for holders of gases and dangerous substances. Those terms are a legal floor, and a site's own risk analysis decides whether a tank needs more. Check the current consolidated VLAREM text before relying on those figures; regional conditions are amended more often than tank inspections take place.",
+    "The same instrument describes Brussels as having no sectoral operating conditions for large hydrocarbon storage, with conditions written into each permit instead, and Wallonia as setting the conditions for large storage sites in the environmental permit. In Wallonia an arrêté of 17 July 2003 sets integral conditions, including periodic checks, for stores of combustible liquids in fixed tanks, but its scope is limited to smaller stores of liquids with a flash point between fifty-five and one hundred degrees Celsius and excludes bulk petroleum product storage, so the conditions for a large terminal or refinery tank farm come from the permit.",
+    "Above those floors, Belgian terminals plan the actual inspection to EEMUA 159, API 653 or their own procedure. EEMUA 159 includes a risk-based method that sets the next internal inspection as a risk-dependent share of the remaining life, and API 653 in its current fifth edition lets an RBI assessment set the internal interval provided the assessment is validated and reviewed at least every ten years. Floors usually govern: a tank RBI study for a Belgian site therefore concentrates on floor corrosion rates from both sides, the soil and foundation details, leak detection and containment, and the water bottoms that collect in almost every tank."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/storage-tank-rbi",
+     "RBI for storage tanks"
+    ],
+    [
+     "/standards/api-653",
+     "API 653 explained"
+    ]
+   ]
+  },
+  {
+   "id": "be-capacity",
+   "h": "Where Belgian refining, chemical and storage capacity sits",
+   "p": [
+    "Almost all of it is on the Scheldt. The refining, cracking, chemical production and independent tank storage on both banks of the river around Antwerp make up most of Belgium's RBI workload. TotalEnergies lists its Antwerp refinery at a capacity of 338,000 barrels a day as part of an integrated platform, alongside a petrochemical complex and a polyethylene plant; ExxonMobil also runs major operations in the Antwerp port. A separate page in this section covers the Antwerp cluster in detail, so this page stays at national level.",
+    "Further up the estuary, North Sea Port, formed in 2018 from the Port of Ghent and Zeeland Seaports, joins Ghent with Terneuzen and Vlissingen across the Dutch border, with chemical, energy and fuel storage activity along the Ghent to Terneuzen canal. Inland, the chemical industry in Hainaut connects to Antwerp by pipeline: TotalEnergies moves ethylene and propylene from Antwerp to its polymer plant at Feluy. Equipment at a Walloon site therefore often shares a supply chain and a corporate RBI procedure with a Flemish one while sitting under a different regional permit regime."
+   ]
+  },
+  {
+   "id": "be-change",
+   "h": "Restructuring, mothballing and new service: why registers go stale",
+   "p": [
+    "Belgian petrochemicals are in a period of change. TotalEnergies has announced that one of the Antwerp steam crackers will shut at the end of 2027, and investment decisions across the port have been paused or reshaped in the last two years. Every one of these changes alters the inputs an RBI register depends on: connected piping that sees new flows or stands idle, utilities that run at different loads, tanks that change product or go out of service, and equipment that is preserved for a restart that may or may not come.",
+    "A register built for steady operation does not cover those states well. Equipment that is mothballed needs a preservation basis and a defined inspection before return to service. Equipment moved to new duty, such as bio-components, recycled feedstock, hydrogen or ammonia, needs its damage mechanisms reviewed against API RP 571 before the old corrosion rates are trusted. The Scheldt climate adds its own pressure: long wet periods drive corrosion under insulation on piping and vessels, and estuary air attacks jetty lines, racks and tank shells close to the water.",
+    "An outside study is often commissioned for exactly this reason, as a structured review of the items whose service has changed rather than a rewrite of a register that still works for the rest of the site."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/damage-mechanism-review",
+     "Damage mechanism review"
+    ],
+    [
+     "/inspection/risk-based-inspection/rbi-revalidation-audit",
+     "RBI revalidation and audit"
+    ]
+   ]
+  },
+  {
+   "id": "be-requests",
+   "h": "Typical requests from Belgian operators",
+   "p": [
+    "Most large Belgian sites already operate an RBI programme under a group procedure, so outside work tends to be targeted. The requests below are the common shapes."
+   ],
+   "list": [
+    "Revalidation of an existing study ahead of a turnaround, with refreshed corrosion rates and process changes since the last review",
+    "A damage mechanism review for units changing feed, product or duty, or being prepared for long-term preservation",
+    "Conversion of a terminal's tank programme from fixed intervals to a documented risk-based basis above the VLAREM or permit minimum",
+    "CML and TML optimisation for piping circuits whose measurement points no longer match the active mechanisms",
+    "A data-gap log written for the owner's inspectors and the approved body, so missing thickness, coating and insulation data are collected during the next shutdown",
+    "An independent comparison of the owner's procedure with API RP 581 or ASME PCC-3, prepared for a group audit or a Seveso inspection"
+   ]
+  },
+  {
+   "id": "be-languages",
+   "h": "Working with Dutch and French records",
+   "p": [
+    "A Belgian inspection history is rarely in one language. A Flemish site may hold Dutch-language approved body reports, French-language manufacturer's records from a Walloon fabricator and English group standards, and a site that changed owner may have all three for the same vessel. The study accepts the records as they come. Terms that differ between languages, such as the names of examination types or the categories in an environmental permit, are mapped once in a glossary attached to the register, so the same item is never described two ways.",
+    "The register and the report are written in English unless the owner asks for the key tables in Dutch or French as well. Statutory documents, permits and certificates are referenced by their original titles so the approved body and the Seveso inspectors recognise them immediately."
+   ]
+  },
+  {
+   "id": "be-remote",
+   "h": "How the study runs from Hyderabad and Houston",
+   "p": [
+    "Belgium keeps Central European time. Hyderabad is four and a half hours ahead in winter and three and a half in summer, so video workshops fit the Belgian morning and early afternoon; Houston, about seven hours behind for most of the year, covers review and checking at the end of the Belgian day. The phases below are the usual order of work, and no phase requires anyone from Atlantis at the site."
+   ],
+   "table": {
+    "head": [
+     "Phase",
+     "What the owner provides",
+     "What Atlantis returns"
+    ],
+    "rows": [
+     [
+      "Data room",
+      "P&IDs, PFDs, heat and material balances, datasheets, manufacturer's data books, approved body and recognised expert reports, thickness history, permits and the existing register or software exports",
+      "A data inventory and a first list of gaps"
+     ],
+     [
+      "Corrosion loops",
+      "Process chemistry, integrity operating windows and materials",
+      "Loops with damage mechanisms assigned to API RP 571"
+     ],
+     [
+      "Workshops",
+      "Operations, process, corrosion and inspection people in video sessions",
+      "Agreed loop definitions, consequence cases and assumptions"
+     ],
+     [
+      "Risk analysis",
+      "Answers to open data questions",
+      "Probability and consequence ratings at the chosen level, qualitative to quantitative API RP 581 or the owner's own method, and the risk ranking"
+     ],
+     [
+      "Field checks",
+      "Walkdowns, insulation and coating condition, and thickness readings by the owner's inspectors or contractor",
+      "Updated ratings once the results are back"
+     ],
+     [
+      "Plan and report",
+      "Review by the owner's inspection department",
+      "Inspection plans per item with method, coverage, effectiveness and due date, CML optimisation, reassessment triggers and the report"
+     ]
+    ]
+   },
+   "links": [
+    [
+     "/inspection/risk-based-inspection/remote-rbi",
+     "How remote RBI works"
+    ],
+    [
+     "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+     "Quantitative RBI to API 581"
+    ]
+   ]
+  },
+  {
+   "id": "be-decides",
+   "h": "Who decides the interval",
+   "p": [
+    "The plan Atlantis delivers is a proposal backed by evidence. The owner's inspection department accepts or changes it, the approved body and the recognised expert carry out and sign the statutory examinations, and the Seveso inspectors judge whether the whole system controls loss of containment. Atlantis is not the inspector of record for any item and does not issue statutory certificates.",
+    "Where an inspection finds damage that needs a fitness-for-service assessment to API 579-1/ASME FFS-1, that assessment stays with the owner's engineer; Atlantis does not offer it. The study records the finding, raises the item's risk and states what information the engineer will need."
+   ]
+  }
+ ],
+ "codes": [
+  "Codex over het welzijn op het werk (federal worker safety code), including Book II, Title 5 on EDTCs",
+  "ARAB / RGPT provisions still in force and the royal decree of 18 October 1991 on steam equipment",
+  "Pressure Equipment Directive 2014/68/EU as transposed in Belgium",
+  "Seveso cooperation agreement of 16 February 2016 (Directive 2012/18/EU)",
+  "VLAREM II (Flanders) and Walloon integral and sectoral conditions",
+  "API RP 580 and API RP 581 (risk-based inspection)",
+  "API RP 571 (damage mechanisms)",
+  "API 510, API 570 and API 653",
+  "ASME PCC-3 (inspection planning using risk-based methods)",
+  "EEMUA 159 (above-ground flat-bottomed storage tanks)"
+ ],
+ "deliverables": [
+  "Equipment, piping and tank register tagged with the governing Belgian rule and the party that performs the statutory check",
+  "Corrosion loops and damage mechanisms assigned to API RP 571",
+  "Probability and consequence ratings with their basis, and a risk ranking",
+  "Inspection plans per item with method, coverage, effectiveness and due date",
+  "CML and TML optimisation for piping circuits",
+  "Data-gap log and field check list for the owner's inspectors",
+  "Language glossary for Dutch, French and English record terms",
+  "Reassessment triggers and a study report"
+ ],
+ "industries": [
+  "Refineries",
+  "Petrochemical and chemical plants",
+  "Independent tank terminals",
+  "Polymer plants",
+  "Fuel and bio-component storage"
+ ],
+ "faqs": [
+  {
+   "q": "Is risk-based inspection recognised in Belgium?",
+   "a": "RBI is widely used at Belgian refineries, chemical plants and terminals, usually under a group procedure based on API RP 580 and API RP 581 or EEMUA 159 for tanks. What a risk-based plan cannot do is remove a statutory examination that a federal decree or a regional permit condition requires. The plan works above those minimums, and the Seveso inspection services expect the interval for each item to be justified and reviewed after every inspection, which is what a good RBI study records."
+  },
+  {
+   "q": "Can Atlantis carry out the statutory examinations?",
+   "a": "No. Statutory examinations of pressure equipment are carried out by the bodies the regulations name, EDTC inspections by recognised external services, and the VLAREM tank examinations in Flanders by a recognised environmental expert. Atlantis is none of these. It prepares the risk analysis, the register and the proposed inspection plan that the owner's inspection department and those bodies use."
+  },
+  {
+   "q": "Which Seveso authority will read our inspection programme?",
+   "a": "That depends on where the establishment sits. Inspections are carried out jointly by the federal chemical risk division of FOD Werkgelegenheid, Arbeid en Sociaal Overleg and the regional inspection service: the Flemish Department Omgeving team for major-risk companies, Brussels Environment, or the Walloon major-accident risk unit. The register is written so that any of them can follow an item from damage mechanism to due date."
+  },
+  {
+   "q": "Do VLAREM tank intervals still apply if we adopt RBI?",
+   "a": "Yes. The VLAREM II examinations of above-ground holders are a legal minimum carried out by a recognised environmental expert, and a risk-based plan does not lengthen them. What RBI adds is the evidence for inspecting sooner or more thoroughly where floor corrosion, product corrosivity or foundation conditions call for it, and a clear basis for the internal inspection scope when the tank is opened."
+  },
+  {
+   "q": "Our records are partly in French and partly in Dutch. Is that a problem?",
+   "a": "No. The study reads approved body reports, permits, manufacturer's data and inspection history in Dutch, French or English. Differing terms are mapped once in a glossary attached to the register so each item has one description. The report is in English, and key tables can be provided in Dutch or French as well if the owner's inspection department prefers."
+  },
+  {
+   "q": "Does anyone need to come to Belgium for the study?",
+   "a": "No. Data collection, workshops, analysis and reporting all run through a shared data room and video sessions. Walkdowns, insulation and coating checks and any thickness readings needed to close data gaps go on a written list for the owner's own inspectors or inspection contractor, and their results are folded into the ratings before the plan is issued."
+  },
+  {
+   "q": "Can the study cover equipment being mothballed or changing service?",
+   "a": "Yes. A damage mechanism review for idle or repurposed equipment sets out the mechanisms the new state introduces, the preservation and monitoring basis, and the inspection needed before return to service or before the first period in new duty. Design approval for a change of service and any fitness-for-service work stay with the owner's engineers and the approved body."
+  },
+  {
+   "q": "We already use commercial RBI software. Can Atlantis work from it?",
+   "a": "Yes. Atlantis works from exports of the owner's existing register, whether that sits in a commercial RBI package or a spreadsheet-based method, together with the owner's procedure and the supporting inspection records. Results are returned in a form that can be loaded back into the owner's system. Atlantis does not supply an RBI software product."
+  }
+ ],
+ "related": [
+  [
+   "/inspection/risk-based-inspection",
+   "Risk-based inspection services"
+  ],
+  [
+   "/inspection/risk-based-inspection/remote-rbi",
+   "Remote RBI studies"
+  ],
+  [
+   "/inspection/risk-based-inspection/storage-tank-rbi",
+   "RBI for storage tanks"
+  ],
+  [
+   "/inspection/risk-based-inspection/piping-rbi",
+   "RBI for piping"
+  ],
+  [
+   "/inspection/risk-based-inspection/pressure-vessel-rbi",
+   "RBI for pressure vessels"
+  ],
+  [
+   "/inspection/risk-based-inspection/damage-mechanism-review",
+   "Damage mechanism review"
+  ],
+  [
+   "/inspection/risk-based-inspection/rbi-revalidation-audit",
+   "RBI revalidation and audit readiness"
+  ],
+  [
+   "/inspection/risk-based-inspection/netherlands",
+   "RBI in the Netherlands"
+  ],
+  [
+   "/standards/api-580",
+   "API 580 explained"
+  ],
+  [
+   "/standards/api-571",
+   "API 571 damage mechanisms"
+  ],
+  [
+   "/contact",
+   "Contact Atlantis"
+  ]
+ ],
+ "sources": [
+  {
+   "fact": "Belgian Seveso inspection instrument 'Inspectie en Onderhoud' (CRC/SIT/005-N, March 2012): max interval per containment with justification, re-evaluation after each inspection, overdue only with senior management approval, overdue lists, degradation-driven techniques, third-party competence",
+   "url": "https://werk.belgie.be/sites/default/files/nl/modules_pages/publicaties/prev_zwareong/sit/sit005-v1-inspectie-instrument-inspectie-en-onderhoud.pdf"
+  },
+  {
+   "fact": "Inspection instrument 'Ontvlambare vloeistoffen' (CRC/SIT/019-N v1, July 2015, editorial close 14 July 2015): VLAREM II 3-yearly limited (external) examination and at most 20-yearly general (external + internal) examination by a recognised environmental expert (art. 5.17.4.3.16-17); Brussels no sectoral conditions for large hydrocarbon storage; Wallonia permit conditions; EEMUA 159 risk-based method; water always present in tanks",
+   "url": "https://employment.belgium.be/sites/default/files/nl/modules_pages/publicaties/prev_zwareong/sit/sit019-v1-inspectie-instrument-ontvlambare-vloeistoffen.pdf"
+  },
+  {
+   "fact": "Seveso cooperation agreement of 16 February 2016 implements Directive 2012/18/EU, replacing the 1999 agreement",
+   "url": "https://werk.belgie.be/nl/themas/welzijn-op-het-werk/seveso-preventie-van-zware-ongevallen/toelichting-bij-de-wetgeving-ter"
+  },
+  {
+   "fact": "Belgian Seveso authorities: FOD WASO chemical risk division, FOD Economie, NCCN; Flemish Department Omgeving teams; Brussels Environment; Walloon Cellule Risques d'Accidents Majeurs",
+   "url": "https://werk.belgie.be/nl/themas/welzijn-op-het-werk/seveso-preventie-van-zware-ongevallen/de-seveso-overheidsdiensten-belgie"
+  },
+  {
+   "fact": "EDTCs regulated in Codex Book II Title 5; inspect lifts, aerial platforms, electrical installations, steam equipment",
+   "url": "https://werk.belgie.be/nl/themas/welzijn-op-het-werk/organisatorische-structuren/externe-diensten-voor-technische-controles"
+  },
+  {
+   "fact": "Vinçotte BELAC ISO/IEC 17020 type A scope: periodic checks of process pressure equipment, A.R. 18/10/1991, ARAB/RGPT gas receptacle articles; 'erkende organismes'",
+   "url": "https://www.vincotte.be/uploads/inspectionregEN.pdf"
+  },
+  {
+   "fact": "Walloon AGW of 17 July 2003, integral conditions for stores of combustible liquids in fixed tanks (flash point 55-100 C, 3,000 to <25,000 litres; bulk petroleum products excluded), with periodic checks (10-yearly visual check of above-ground tanks)",
+   "url": "https://wallex.wallonie.be/de/contents/acts/1/1415.html"
+  },
+  {
+   "fact": "Port of Antwerp-Bruges describes itself as a major integrated chemical cluster (press release 11 Feb 2026)",
+   "url": "https://newsroom.portofantwerpbruges.com/en/press-releases/port-of-antwerp-bruges-heart-of-european-industry-calls-for-decisive-action-at-european-industry-summit"
+  },
+  {
+   "fact": "TotalEnergies Antwerp: integrated platform, refinery 338,000 b/d, two steam crackers, petrochemicals, HDPE plant, ethylene/propylene pipelines to Feluy polymer plant",
+   "url": "https://totalenergies.com/company/projects/oil/antwerp-refining-petrochemical-platform-belgium"
+  },
+  {
+   "fact": "TotalEnergies to shut an Antwerp steam cracker at the end of 2027",
+   "url": "https://hydrocarbonprocessing.com/news/2025/04/totalenergies-to-shut-antwerp-steam-cracker-at-the-end-of-2027/"
+  },
+  {
+   "fact": "ExxonMobil Belgian plants (about 2,000 employees) and paused Antwerp investments, Sept 2025",
+   "url": "https://www.brusselstimes.com/1752189/exxonmobil-suspends-port-of-antwerp-investments"
+  },
+  {
+   "fact": "North Sea Port formed 2018 from Port of Ghent and Zeeland Seaports; Ghent, Terneuzen, Vlissingen; chemical, energy and fuel storage",
+   "url": "https://chemxplore.com/companies/north-sea-port"
+  },
+  {"fact": "TotalEnergies to shut its oldest Antwerp steam cracker by the end of 2027; newer cracker kept", "url": "https://hydrocarbonprocessing.com/news/2025/04/totalenergies-to-shut-antwerp-steam-cracker-at-the-end-of-2027/"},
+  {"fact": "ExxonMobil has a refinery and petrochemical site in the port of Antwerp", "url": "https://www.belganewsagency.eu/exxonmobil-explores-possible-sale-of-chemical-plants-in-belgium-and-uk"}
+ ]
+}

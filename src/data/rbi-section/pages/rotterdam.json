@@ -1,0 +1,325 @@
+{
+ "title": "RBI in Rotterdam: Pernis, Botlek, Europoort and Maasvlakte",
+ "description": "Risk-based inspection for Rotterdam refineries, chemical plants and tank terminals: local damage mechanisms, supervision and how a remote RBI study runs.",
+ "h1": "Risk-based inspection for the refineries and tank terminals of the Rotterdam port",
+ "eyebrow": "Risk-based inspection in Rotterdam",
+ "intro": "Between Pernis in the east and the Maasvlakte on the coast, the port of Rotterdam holds crude-oil refineries, a renewables refinery, aromatics and oxo-chemical plants, and a very large volume of bulk liquid storage, all joined by pipeline corridors that cross company boundaries. This page is written for inspection and integrity engineers working in that strip. It walks through the port area by area, explains which damage mechanisms the North Sea delta and the current wave of conversions push up the register, notes who supervises these sites locally, and sets out how Atlantis organises an RBI study for a Rotterdam facility without anyone travelling.",
+ "highlights": [
+  {
+   "h": "Organised by port area",
+   "p": "Pernis, Botlek, Europoort and the Maasvlakte were built in different decades on different ground, for different cargoes. The study starts by placing each item in its area, because foundation conditions, exposure to sea wind and the age of the equipment change from one basin to the next."
+  },
+  {
+   "h": "Conversions treated as new risk",
+   "p": "Hydrogen supply, renewable feedstocks, mothballed units and repurposed tanks are all present in the port today. Each change of service is reviewed for the damage mechanisms it introduces rather than inheriting the ratings of the equipment's previous life."
+  },
+  {
+   "h": "Remote, with your inspectors in the field",
+   "p": "Data room, video workshops and review cycles cover the analytical work. Anything that must be looked at, measured or verified on the jetty, the rack or the tank floor goes onto a written list for the inspectors the owner already uses in the port."
+  }
+ ],
+ "sections": [
+  {
+   "id": "rdam-areas",
+   "h": "Pernis to the Maasvlakte: one port, four integrity settings",
+   "p": [
+    "The Rotterdam port grew seaward. Pernis, closest to the city, was developed before the other big industrial areas and carries a refinery and chemical complex whose plant has been rebuilt and extended over many decades. The Botlek followed, then Europoort near Rozenburg, and finally the Maasvlakte, built on land reclaimed from the North Sea. An integrity engineer moving westward meets newer steel, bigger tanks, deeper water and harder exposure to the wind coming off the sea.",
+    "That history is useful to an RBI study. The age of a unit, the period its piping specifications date from, and the ground its tanks stand on all follow the area it sits in, so the first sort of an equipment list for a Rotterdam operator is often geographic. The table gives the general picture; the study replaces it with the owner's own records."
+   ],
+   "table": {
+    "head": [
+     "Area",
+     "What is there",
+     "What usually dominates the risk register"
+    ],
+    "rows": [
+     [
+      "Pernis",
+      "Shell Energy and Chemicals Park Rotterdam, with its refinery and chemical units, and the end point of the new hydrogen pipeline from the Maasvlakte",
+      "Older insulated piping and supports, hydroprocessing and hydrogen systems, and equipment whose service history spans several process revamps"
+     ],
+     [
+      "Botlek",
+      "ExxonMobil's refinery and aromatics plant, phthalic anhydride and plasticizer units, an integrated hydrogen plant run by Air Products, and independent chemical and products terminals",
+      "Aromatics and solvent service, hydrocracking and hydrotreating circuits, and many small chemical tanks with varied linings and coatings"
+     ],
+     [
+      "Europoort",
+      "The BP Rotterdam refinery, the Vitol Processing Rotterdam refinery near Rozenburg, the Gunvor site, an ExxonMobil oxo-alcohol plant and large crude and products terminals such as Vopak Terminal Europoort",
+      "Crude and condensate distillation, large floating-roof tanks, long jetty and transfer lines in salt air"
+     ],
+     [
+      "Maasvlakte",
+      "Maasvlakte Olie Terminal for crude, Neste's renewables refinery, and the electrolysis plant built to send hydrogen to Pernis",
+      "Very large crude tanks on reclaimed sand, renewable feedstock and hydrotreating service, and new hydrogen equipment"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "rdam-refining",
+   "h": "The refineries and what each brings to an RBI study",
+   "p": [
+    "The Port of Rotterdam says the port's five refineries share a combined distillation capacity of fifty-eight million tonnes a year, and it names BP, ExxonMobil, Shell and Vitol among the operators taking crude landed in the port. Each site raises a slightly different set of integrity questions, and an outside study is scoped around the one in front of it rather than a generic refinery template.",
+    "At Pernis, Shell Nederland Raffinaderij runs the refinery inside what Shell now calls the Shell Energy and Chemicals Park Rotterdam. In September 2025 Shell decided not to restart construction of the biofuels plant it had begun there in 2022, so equipment prepared for that project needs a clear status in the register: preserved, released for other service or retired. In Botlek, Esso Nederland operates ExxonMobil's refinery, which added a hydrocracker in recent years and sits next to the company's aromatics plant, built in 1963, with an Air Products hydrogen plant integrated into the complex.",
+    "In Europoort, BP operates a large crude-oil refinery; in September 2025 the company stopped further work on a standalone biofuels unit at the site. Vitol's VPR refinery near Rozenburg began in 1993 as a simple condensate splitter and has since been expanded to process a flexible blend of crude oil and condensate, which matters for corrosion because feed variability is part of how the plant earns its living. Gunvor's Europoort refinery, bought from Kuwait Petroleum, is in a different position again: its crude distillation units had already been shut, in late 2024 the company said it intended to mothball the processing units and run the site as a terminal, and in July 2025 it announced plans to mothball the terminal activity as well, subject to consultation with the works council, while keeping its energy transition projects at the site."
+   ]
+  },
+  {
+   "id": "rdam-standby",
+   "h": "Mothballed, paused and repurposed equipment",
+   "p": [
+    "A port in transition leaves behind equipment that is neither running nor scrapped. Units placed in preservation, half-built plant from paused projects, and tanks moved from crude to products or from fossil to renewable cargo all sit in Rotterdam today. Ordinary RBI logic assumes the item is in its design service with a known corrosion rate; standby equipment breaks that assumption.",
+    "The study gives these items their own treatment. Preservation method is recorded, whether nitrogen blanket, dry air, inhibitor fill or simple isolation, because the probability of failure during standby depends almost entirely on whether that preservation was kept up. Mechanisms that only appear in idle steel are reviewed: under-deposit and oxygen corrosion where lines were drained but not dried, microbiologically influenced corrosion in stagnant water, and corrosion under insulation that carries on whether or not the process does. Before anything returns to service the plan lists the inspection that must be complete first, so a restart is not approved on the strength of a corrosion rate measured years earlier in a different service."
+   ],
+   "list": [
+    "Preservation status and the evidence that it was maintained, item by item",
+    "Mechanisms active in idle equipment, assessed separately from operating rates",
+    "Pre-restart inspection scope written as a condition, not a recommendation",
+    "Service-change review where a vessel, line or tank is going to a new product"
+   ]
+  },
+  {
+   "id": "rdam-storage",
+   "h": "Tank storage: very large crude tanks and dense products farms",
+   "p": [
+    "Rotterdam's storage runs from very large crude tanks to compact farms of small chemical tanks. Maasvlakte Olie Terminal, which has six shareholders and where Vopak offers storage and handling to third parties on an independent basis, holds crude in tanks of roughly one hundred and ten to one hundred and twenty thousand cubic metres and sends it to the refineries by pipeline. Vopak Terminal Europoort handles crude and petroleum products in tanks ranging from a couple of thousand to around a hundred thousand cubic metres. Around them, independent terminals in the Botlek and Pernis areas store products, chemicals and bio-components.",
+    "For RBI these tanks fall outside the Dutch pressure equipment terms and are planned under PGS 29 and the owner's chosen tank code, usually EEMUA 159 or API 653. The study works tank by tank on the three questions that drive interval decisions: how fast the floor is losing metal on the product side and the soil side, how the shell is doing at the bottom course and in the wind and splash zone, and what a leak would reach. On reclaimed land the soil-side answer depends heavily on cathodic protection history, the condition of any membrane under the floor, settlement surveys and groundwater level, so those records are requested at the start rather than discovered missing at the end.",
+    "Floating roofs in an exposed estuary deserve their own line in the register. Pontoon and deck corrosion, seal condition, roof drain integrity and rainwater loading are all affected by the North Sea weather, and a roof problem is a consequence driver as much as a probability one. Where a tank has changed cargo, for instance from crude to a bio-component, the study looks again at internal lining compatibility and at mechanisms such as ethanol stress corrosion cracking that the old register would never have carried."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/storage-tank-rbi",
+     "RBI for storage tanks"
+    ],
+    [
+     "/standards/api-653",
+     "API 653 explained"
+    ]
+   ]
+  },
+  {
+   "id": "rdam-corridors",
+   "h": "Pipeline corridors, jetties and the edges of ownership",
+   "p": [
+    "Crude landed on the Maasvlakte reaches Pernis, Botlek and Europoort through pipeline corridors, bundles and racks that several companies share. Jetty lines, transfer headers and loading arms sit in some of the harshest exposure in the port. An RBI register that stops at the fence can miss the items most likely to fail, simply because nobody listed them.",
+    "Early in the study the owner confirms, with drawings, where its responsibility starts and ends: which flange or valve is the boundary on each import and export line, who owns the jetty piping, and which shared supports and sleeves are in or out of scope. Items owned by a neighbour are recorded as interfaces with a named contact, so a high consequence on the other side of the fence is at least visible. Buried and sleeved crossings under roads and waterways are flagged separately, since their inspection options are limited and their consequence of failure in a waterway is high."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/piping-rbi",
+     "RBI for process piping"
+    ]
+   ]
+  },
+  {
+   "id": "rdam-damage",
+   "h": "Damage mechanisms that tend to lead a Rotterdam register",
+   "p": [
+    "The delta climate is mild in temperature and generous with water. Rain, sea fog, condensation and salt spray keep insulation damp for long stretches, and the wind off the coast carries chloride a long way inland across flat ground. Process conditions add their own mechanisms on top of that background. The list below is a starting point for the damage mechanism review, not a substitute for it; the review assigns mechanisms to API RP 571 loop by loop from the owner's materials, process data and inspection findings."
+   ],
+   "list": [
+    "Corrosion under insulation on carbon steel piping and vessels where cladding is old, damaged or poorly sealed, and chloride stress corrosion cracking under insulation on austenitic stainless steel",
+    "Atmospheric and splash-zone corrosion on jetty structures, transfer lines and tank shells facing the water",
+    "Soil-side floor corrosion on tanks built on reclaimed sand with groundwater close beneath",
+    "High-temperature sulfidation and naphthenic acid corrosion where crude slates vary, as they do at plants built to run flexible feeds",
+    "Wet sour and ammonium bisulfide corrosion in hydrotreater and hydrocracker effluent systems",
+    "High-temperature hydrogen attack and hydrogen embrittlement in hydrogen production, hydroprocessing and newly connected hydrogen service",
+    "Corrosion from free fatty acids, chlorides and water in renewable feedstock pretreatment and storage",
+    "Microbiologically influenced corrosion in water bottoms, firewater systems and idle lines"
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/damage-mechanism-review",
+     "Damage mechanism review and corrosion loops"
+    ],
+    [
+     "/standards/api-571",
+     "API 571 damage mechanisms"
+    ]
+   ]
+  },
+  {
+   "id": "rdam-hydrogen-renewables",
+   "h": "Hydrogen and renewable feed: equipment in new service",
+   "p": [
+    "Two changes in the port are reaching inspection plans now. Gasunie completed the first thirty-two kilometres of the Dutch hydrogen network in May 2026, running from the Maasvlakte to Pernis, and commercial flow is due to start once Shell's electrolysis plant on the Maasvlakte comes online, with the hydrogen used first in Shell's own refining. On the Maasvlakte, Neste's renewables refinery, in operation since 2011, is being expanded, with completion expected in 2027 and a large share of the added capacity able to make sustainable aviation fuel.",
+    "Both bring equipment into service conditions the old register did not cover. Connecting a new hydrogen supply to existing hydroprocessing units can change partial pressures and temperatures in ways that move items across the boundaries used to screen for high-temperature hydrogen attack, so those items are rescreened against current operating windows. Renewable feedstocks carry acids, chlorides and water that are absent from conventional crude units, which shifts the mechanisms in pretreatment, feed tanks and hydrotreating. For each changed circuit the study records what changed, which mechanisms were added or removed, and what baseline inspection should be done before the new service runs long enough to blur the picture."
+   ],
+   "links": [
+    [
+     "/standards/api-584",
+     "API 584 integrity operating windows"
+    ]
+   ]
+  },
+  {
+   "id": "rdam-supervision",
+   "h": "Who looks at integrity in the Rotterdam port",
+   "p": [
+    "The national framework is set out on our Netherlands page: re-inspection terms for pressure equipment under the Warenwetbesluit drukapparatuur 2016, the role of the designated inspection body and the user inspection department, and PGS 29 for tanks. Locally, what an integrity manager in the port notices most is the Seveso supervision. The province of Zuid-Holland is the competent authority for licensing and supervising the high-risk companies in the province, and DCMR Milieudienst Rijnmond carries out the licensing, supervision and enforcement on the province's behalf across Zuid-Holland, the port included. Seveso establishments are inspected at least once a year.",
+    "For an RBI study that frequency has a practical effect. The register, the inspection backlog and the reasoning behind deferred work are likely to be looked at every year, not once a cycle, so they are written to be read quickly by someone who did not build them. The study keeps a short summary of open data gaps and overdue items at the front of the report for exactly that reader."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/rbi-revalidation-audit",
+     "RBI revalidation and audit readiness"
+    ]
+   ]
+  },
+  {
+   "id": "rdam-remote",
+   "h": "Running the study from Hyderabad and Houston for a Rotterdam site",
+   "p": [
+    "Rotterdam keeps Central European Time, one hour ahead of UTC in winter and two in summer. Hyderabad is four and a half hours ahead in winter and three and a half in summer, so its working day overlaps the Dutch morning and early afternoon, which is when video workshops are held. Houston sits seven hours behind for most of the year and overlaps the end of the Dutch working day.",
+    "Work moves through four steps. A data room is opened and filled with the equipment list, P&IDs, process data, the integrity operating windows, inspection history and any export from the RBI package the site already uses. Area workshops follow by video, one for each process area or tank farm, with the operator's process, operations, corrosion and inspection specialists. Analysis then produces the loops, mechanisms, probability and consequence ratings and the proposed plan for every item. A final round of review lets the owner's inspection department challenge each conclusion before the report is issued.",
+    "Nobody from Atlantis needs to come to the port. The study writes a field verification list for the owner's own inspectors or the inspection contractor it already uses in Rotterdam, covering walkdowns, insulation and coating checks, thickness readings at missing locations and any tank floor data needed to settle an interval. Their results are loaded back into the analysis before it is closed. Intervals are approved by the owner's inspection department and its inspection body, and where damage needs a fitness-for-service assessment to API 579-1/ASME FFS-1 that work stays with the owner's engineer; Atlantis does not offer it."
+   ],
+   "links": [
+    [
+     "/inspection/risk-based-inspection/remote-rbi",
+     "How remote RBI works"
+    ]
+   ]
+  },
+  {
+   "id": "rdam-turnaround",
+   "h": "Fixing the inspection scope before a port turnaround",
+   "p": [
+    "Large shutdowns in the port compete for the same scaffolding, insulation crews and inspection contractors, and their scopes are frozen months before the first unit comes down. An RBI result that arrives after the freeze changes nothing until the next stop. The study is therefore planned backwards from the owner's scope freeze date, with the turnaround items finished first and the remaining equipment completed afterwards.",
+    "The output for the turnaround is a list the planners can use directly: which items need internal inspection in this stop, which can safely wait, which need insulation removed or scaffolding erected for access, and which data gaps can only be closed while the unit is open. Items whose inspection is being deferred carry the reason, so the decision survives questions later."
+   ],
+   "links": [
+    [
+     "/inspection/turnarounds-shutdowns",
+     "Turnaround and shutdown inspection"
+    ]
+   ]
+  }
+ ],
+ "codes": [
+  "API RP 580 and API RP 581 (risk-based inspection)",
+  "API RP 571 (damage mechanisms)",
+  "API RP 584 (integrity operating windows)",
+  "API 510, API 570 and API 653",
+  "ASME PCC-3 (inspection planning using risk-based methods)",
+  "EEMUA 159 (above-ground flat-bottomed storage tanks)",
+  "Warenwetbesluit drukapparatuur 2016 and Warenwetregeling drukapparatuur 2016",
+  "PGS 29 (above-ground storage of flammable liquids in vertical cylindrical tanks)"
+ ],
+ "deliverables": [
+  "Equipment, piping and tank register organised by port area and corrosion loop",
+  "Damage mechanism assignment to API RP 571 for each loop",
+  "Probability and consequence ratings with the basis recorded",
+  "Proposed inspection plan per item: method, coverage, effectiveness and due date",
+  "Status and pre-restart conditions for preserved or repurposed equipment",
+  "Interface list for shared pipelines, jetty lines and racks",
+  "Field verification list for the owner's inspectors and a data-gap log",
+  "Reassessment triggers and the study report"
+ ],
+ "industries": [
+  "Crude oil refineries",
+  "Renewable fuels refining",
+  "Aromatics and chemical plants",
+  "Independent tank terminals",
+  "Crude import terminals",
+  "Hydrogen production and supply"
+ ],
+ "faqs": [
+  {
+   "q": "Can the study cover a site with both pressure equipment and PGS 29 tanks?",
+   "a": "Yes, and most Rotterdam sites need exactly that. Vessels and piping are rated within the Dutch pressure equipment framework, with the re-inspection terms decided by the owner's inspection department and inspection body. Atmospheric tanks are planned under PGS 29 and the tank code the owner applies. The register keeps the two groups clearly labelled so nobody reads a tank interval as a statutory term, or the other way round."
+  },
+  {
+   "q": "We have units in preservation. Should they stay in the RBI register?",
+   "a": "They should. Equipment in standby still corrodes, sometimes faster than in service if preservation lapses, and it can be returned to service at short notice. The study records how each item was preserved and whether that was maintained, rates the mechanisms that act on idle steel, and sets out the inspection that must be completed before restart. Removing preserved equipment from the register is how a restart ends up relying on outdated data."
+  },
+  {
+   "q": "How do you handle equipment moving into hydrogen service?",
+   "a": "Each item affected by the change is rescreened against the new operating conditions, including high-temperature hydrogen attack and hydrogen embrittlement, using the materials, temperatures and hydrogen partial pressures the owner supplies. The study states which items moved category, proposes baseline inspection before or soon after the new service begins, and lists the operating limits that should become integrity operating windows. Design and material approval for the new service stay with the owner's engineers."
+  },
+  {
+   "q": "Our terminal shares pipelines and a jetty with neighbouring companies. What goes in our study?",
+   "a": "Your own equipment up to the agreed ownership boundary, which we ask you to confirm on drawings at the start. Lines and supports owned by neighbours are listed as interfaces with their consequence noted and a contact named, so they are visible without being rated as your assets. Buried or sleeved crossings and jetty lines get particular attention because inspection options there are narrow and failures can reach water."
+  },
+  {
+   "q": "Can Atlantis replace our inspection body or sign the statement of re-inspection?",
+   "a": "No. Atlantis is not a Dutch inspection body, is not a user inspection department and does not sign statements of re-inspection or approve intervals. It prepares the analysis, the register and the supporting file that your inspection department and inspection body review. The decision on each interval stays with them, as the Dutch rules require."
+  },
+  {
+   "q": "Can the study use our Dutch-language inspection reports and drawings?",
+   "a": "Yes. Inspection reports, statements of re-inspection, tank reports and drawing notes in Dutch are used as they are, and nothing needs translating before the work starts. Workshops and the final report are in English unless agreed otherwise, with Dutch terms kept where they are the clearest reference for the site's own people."
+  },
+  {
+   "q": "Does anyone need to visit the port for the study?",
+   "a": "No. Collecting data, running workshops, analysis and review all happen remotely. The checks that need hands and eyes on the plant, such as walkdowns, insulation and coating condition surveys, extra thickness readings or tank floor data, are written into a verification list for your inspectors or the inspection contractor you already use, and their results come back into the analysis before it is closed."
+  },
+  {
+   "q": "When should we start the study if a turnaround is planned?",
+   "a": "Early enough that results for the turnaround units are ready before your scope freeze, because scaffolding, insulation removal and contractor capacity in the port are booked well ahead. We usually ask for the freeze date first and plan the work backwards from it, finishing the turnaround equipment before the rest of the site."
+  }
+ ],
+ "related": [
+  [
+   "/inspection/risk-based-inspection/netherlands",
+   "RBI in the Netherlands"
+  ],
+  [
+   "/inspection/risk-based-inspection/storage-tank-rbi",
+   "RBI for storage tanks"
+  ],
+  [
+   "/inspection/risk-based-inspection/piping-rbi",
+   "RBI for process piping"
+  ],
+  [
+   "/inspection/risk-based-inspection/pressure-vessel-rbi",
+   "RBI for pressure vessels and heat exchangers"
+  ],
+  [
+   "/inspection/risk-based-inspection/damage-mechanism-review",
+   "Damage mechanism review and corrosion loops"
+  ],
+  [
+   "/inspection/risk-based-inspection/remote-rbi",
+   "Remote RBI studies"
+  ],
+  [
+   "/inspection/risk-based-inspection/rbi-revalidation-audit",
+   "RBI revalidation and audit readiness"
+  ],
+  [
+   "/standards/api-580",
+   "API 580 explained"
+  ],
+  [
+   "/standards/api-584",
+   "API 584 and integrity operating windows"
+  ],
+  [
+   "/inspection/turnarounds-shutdowns",
+   "Turnaround and shutdown inspection"
+  ],
+  [
+   "/contact",
+   "Contact Atlantis"
+  ]
+ ],
+ "sources": [
+  {"fact": "Five Rotterdam port refineries, combined distillation capacity 58 million tonnes", "url": "https://www.portofrotterdam.com/en/setting/industry-port/refining-and-chemicals/oil-refineries/"},
+  {"fact": "BP, ExxonMobil, Shell and Vitol refineries take crude landed in Rotterdam; crude terminals in Europoort and Maasvlakte", "url": "https://www.portofrotterdam.com/en/logistics/cargo/liquid-bulk/crude-oil"},
+  {"fact": "Shell Energy and Chemicals Park Rotterdam; Shell Nederland Raffinaderij decided (Sept 2025) not to restart construction of the biofuels plant begun in 2022", "url": "https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/2025/shell-not-restart-construction-rotterdam-biofuels-plant.html"},
+  {"fact": "ExxonMobil Rotterdam refinery (Esso Nederland, Botlek) with new hydrocracker; Air Products hydrogen plant integrated; aromatics plant built 1963; oxo-alcohol plant Europoort; phthalic anhydride and plasticizer plants Botlek", "url": "https://corporate.exxonmobil.com/locations/netherlands/our-operations"},
+  {"fact": "BP operates a crude-oil refinery in Europoort, Rotterdam; stopped work on standalone biofuels facility at Europoort (Sept 2025)", "url": "https://www.dutchnews.nl/2025/09/bp-abandons-plans-for-biofuels-plant-in-rotterdam-port/"},
+  {"fact": "Vitol Processing Rotterdam near Rozenburg, Europoort; condensate splitter from 1993, expanded to process crude and condensate; acquired from Koch in 2017", "url": "https://www.vitol.com/vpr"},
+  {"fact": "Gunvor had said (about Dec 2024) it intended to mothball the processing units and run the site as a terminal; in July 2025 announced plans to mothball the terminal activities, works council to be consulted; energy transition projects unaffected", "url": "https://hydrocarbonprocessing.com/news/2025/07/gunvor-plans-to-halt-oil-terminal-activities-at-europoort-refinery/"},
+  {"fact": "Gunvor acquired the Rotterdam refinery from Kuwait Petroleum", "url": "https://gunvorgroup.com/news/gunvor-acquires-rotterdam-refinery"},
+  {"fact": "Maasvlakte Olie Terminal: crude oil and petrochemicals, six shareholders, Vopak offers independent storage and handling, tanks 110,000-120,000 m3, pipeline distribution to refineries", "url": "https://www.vopak.com/terminals/maasvlakte-olie-terminal-rotterdam"},
+  {"fact": "Vopak Terminal Europoort: crude oil and petroleum products, tank sizes 2,000-100,000 m3", "url": "https://vopak.com/terminals/vopak-terminal-europoort-rotterdam"},
+  {"fact": "Gasunie completed first 32 km of Dutch hydrogen network Maasvlakte-Pernis (May 2026); commercial flow when Shell's hydrogen production facility comes online, hydrogen first used in Shell refining", "url": "https://nltimes.nl/2026/05/21/netherlands-opens-first-32-kilometer-hydrogen-pipeline-maasvlakte-pernis"},
+  {"fact": "Neste Rotterdam renewables refinery on the Maasvlakte, producing since 2011; expansion expected complete 2027 with SAF capability", "url": "https://www.neste.com/about-neste/who-we-are/production/rotterdam"},
+  {"fact": "Province of Zuid-Holland is competent authority for high-risk (Seveso) companies; DCMR Milieudienst Rijnmond carries out licensing, supervision and enforcement on its behalf in Zuid-Holland; Seveso sites inspected at least yearly", "url": "https://zuid-holland.nl/onderwerpen/veiligheid/risicovolle"},
+  {"fact": "Gunvor permanently shut both crude distillation units at Europoort (Argus)", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2206072-gunvor-confirms-permanent-closure-of-europoort-cdus"},
+  {"fact": "Port of Rotterdam crude oil page: crude terminals and refineries in the port", "url": "https://portofrotterdam.com/en/logistics/cargo/liquid-bulk/crude-oil"}
+ ]
+}
