@@ -45,9 +45,7 @@ export const INSPECTION_REGIONS = {
       tpi('jubail', 'Jubail'), tpi('khobar', 'Khobar'), tpi('abqaiq', 'Abqaiq'), tpi('khurais', 'Khurais'), tpi('basrah', 'Basrah'),
     ] },
     { name: 'Asia', links: [
-      tpi('jurong-island', 'Jurong Island, Singapore'), tpi('kuala-lumpur', 'Kuala Lumpur'), tpi('bintulu', 'Bintulu'), tpi('kerteh', 'Kerteh'),
-      tpi('jakarta', 'Jakarta'), tpi('balikpapan', 'Balikpapan'), tpi('batam', 'Batam'), tpi('cilacap', 'Cilacap'), tpi('bangkok', 'Bangkok'),
-      tpi('ho-chi-minh', 'Ho Chi Minh City'), tpi('manila', 'Manila'), tpi('busan', 'Busan'), tpi('ulsan', 'Ulsan'), tpi('shanghai', 'Shanghai'),
+      tpi('jurong-island', 'Jurong Island, Singapore'), tpi('busan', 'Busan'), tpi('ulsan', 'Ulsan'), tpi('shanghai', 'Shanghai'),
       tpi('ningbo', 'Ningbo'), tpi('tianjin', 'Tianjin'), tpi('dalian', 'Dalian'),
     ] },
     { name: 'India', links: [
@@ -56,7 +54,7 @@ export const INSPECTION_REGIONS = {
       tpi('visakhapatnam', 'Visakhapatnam'),
     ] },
     { name: 'Latin America & Africa', links: [
-      tpi('mexico-city', 'Mexico City'), tpi('monterrey', 'Monterrey'), tpi('antofagasta', 'Antofagasta'), tpi('lagos', 'Lagos'), tpi('johannesburg', 'Johannesburg'),
+      tpi('mexico-city', 'Mexico City'), tpi('monterrey', 'Monterrey'), tpi('antofagasta', 'Antofagasta'), tpi('lagos', 'Lagos'),
     ] },
   ],
   footnote: [['/inspection-services', 'API 510, 570 and 653 inspection by city'], ['/contact?service=inspection&subject=Inspection%20enquiry', 'Not listed? Ask about your location']],

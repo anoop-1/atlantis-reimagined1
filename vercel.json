@@ -108,8 +108,16 @@
     }
   ],
   "redirects": [
-    { "source": "/maritime-inspection", "destination": "/maritime", "statusCode": 301 },
-    { "source": "/maritime-inspection/:path*", "destination": "/maritime/:path*", "statusCode": 301 },
+    {
+      "source": "/maritime-inspection",
+      "destination": "/maritime",
+      "statusCode": 301
+    },
+    {
+      "source": "/maritime-inspection/:path*",
+      "destination": "/maritime/:path*",
+      "statusCode": 301
+    },
     {
       "source": "/:path*",
       "has": [
@@ -3117,8 +3125,6 @@
       "destination": "/blog/aerospace-ndt-recertification-2028",
       "statusCode": 301
     },
-    
-    
     {
       "source": "/blog/third-party-asnt-level-iii-consulting-for-aerospace-nas-410-programs",
       "destination": "/blog/third-party-asnt-level-iii-consulting-for-aerospace-programs",
@@ -3137,6 +3143,441 @@
     {
       "source": "/blog/ndt-cert-trends-2027-asnt-iso-pcn-nas-410",
       "destination": "/blog/ndt-cert-trends-2027-asnt-iso-pcn",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-balikpapan-2027-pertamina",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-bontang-2027-pertamina-lng",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-cilacap-2027-pertamina-refinery",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-hanoi-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-ho-chi-minh-2027-petrovietnam",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-jakarta-2027-pertamina",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-manila-2027-philippines-refining",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-phnom-penh-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-surabaya-2027-east-java",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-yangon-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-indonesia",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-johannesburg",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-malaysia",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-south-africa",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-thailand",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-vietnam",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-balikpapan",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-bangkok",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-batam",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-bintulu",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-cilacap",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-ho-chi-minh",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-jakarta",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-johannesburg",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-kuala-lumpur",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-manila",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-indonesia",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-johannesburg",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-malaysia",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-south-africa",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-thailand",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-vietnam",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-indonesia",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-johannesburg",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-malaysia",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-south-africa",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-thailand",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-vietnam",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-indonesia",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-johannesburg",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-malaysia",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-south-africa",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-thailand",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-vietnam",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-indonesia",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-johannesburg",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-malaysia",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-south-africa",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-thailand",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-vietnam",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-indonesia",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-johannesburg",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-malaysia",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-south-africa",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-thailand",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-vietnam",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-indonesia",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-johannesburg",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-malaysia",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-south-africa",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-thailand",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-vietnam",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-indonesia",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-johannesburg",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-malaysia",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-south-africa",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-thailand",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-vietnam",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-indonesia",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-johannesburg",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-malaysia",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-south-africa",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-thailand",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-vietnam",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-indonesia",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-johannesburg",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-malaysia",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-south-africa",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-thailand",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-vietnam",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-indonesia",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-johannesburg",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-malaysia",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-south-africa",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-thailand",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-vietnam",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-kerteh",
+      "destination": "/inspection",
       "statusCode": 301
     }
   ],

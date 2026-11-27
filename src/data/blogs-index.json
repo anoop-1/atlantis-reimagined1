@@ -2068,36 +2068,6 @@
   "metaDescription": "NDT Services Neuquén — Vaca Muerta Shale — Neuquén NDT services + Vaca Muerta shale + oil & gas inspection. ASNT NDT Level III authored. Fre"
  },
  {
-  "slug": "ndt-services-jakarta-2027-pertamina",
-  "title": "NDT Services Jakarta — Pertamina Aligned",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Jakarta — Pertamina Aligned — Jakarta NDT services + Pertamina + Indonesia refining + petrochem. ASNT NDT Level III authored. F"
- },
- {
-  "slug": "ndt-services-surabaya-2027-east-java",
-  "title": "NDT Services Surabaya — East Java Refining",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Surabaya — East Java Refining — Surabaya NDT services + East Java refining + port inspection. ASNT NDT Level III authored. Free"
- },
- {
-  "slug": "ndt-services-cilacap-2027-pertamina-refinery",
-  "title": "NDT Services Cilacap — Pertamina Refinery Decoded",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Cilacap — Pertamina Refinery Decoded — Cilacap NDT services + Pertamina Refinery Unit IV + petrochem. ASNT NDT Level III author"
- },
- {
-  "slug": "ndt-services-balikpapan-2027-pertamina",
-  "title": "NDT Services Balikpapan — Pertamina Balikpapan Refinery",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Balikpapan — Pertamina Balikpapan Refinery — Balikpapan NDT services + Pertamina Balikpapan + East Kalimantan oil & gas. ASNT N"
- },
- {
-  "slug": "ndt-services-bontang-2027-pertamina-lng",
-  "title": "NDT Services Bontang — Pertamina LNG Decoded",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Bontang — Pertamina LNG Decoded — Bontang NDT services + Pertamina LNG + Badak LNG inspection. ASNT NDT Level III authored. Fre"
- },
- {
   "slug": "ndt-services-cairo-2027-egypt-refining",
   "title": "NDT Services Cairo — Egypt Refining + Petrochem",
   "category": "2027 Q1",
@@ -2144,18 +2114,6 @@
   "title": "NDT Services Bogotá — Ecopetrol Aligned",
   "category": "2027 Q1",
   "metaDescription": "NDT Services Bogotá — Ecopetrol Aligned — Bogotá NDT services + Ecopetrol + Colombia refining + petrochem. ASNT NDT Level III authored. Free"
- },
- {
-  "slug": "ndt-services-ho-chi-minh-2027-petrovietnam",
-  "title": "NDT Services Ho Chi Minh — Petrovietnam + Refining",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Ho Chi Minh — Petrovietnam + Refining — Ho Chi Minh NDT services + Petrovietnam + Vietnam refining + offshore. ASNT NDT Level I"
- },
- {
-  "slug": "ndt-services-manila-2027-philippines-refining",
-  "title": "NDT Services Manila — Philippines Refining + Port",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Manila — Philippines Refining + Port — Manila NDT services + Philippines refining + Batangas petrochem + port. ASNT NDT Level I"
  },
  {
   "slug": "ndt-services-refining-aramco-2027-decoded",
@@ -3452,24 +3410,6 @@
   "title": "NDT Services Sanaa — Yemen LNG + Oil",
   "category": "2028 International City Expansion",
   "metaDescription": "NDT Services Sanaa — Yemen LNG + Oil — Sanaa NDT services — Yemen LNG + oil & gas. ASNT NDT Level III authored. Free Atlantis NDT consultati"
- },
- {
-  "slug": "ndt-services-hanoi-2028",
-  "title": "NDT Services Hanoi — Vietnam Petrovietnam",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Hanoi — Vietnam Petrovietnam — Hanoi NDT services — Petrovietnam + Vietnam refining. ASNT NDT Level III authored. Free Atlantis"
- },
- {
-  "slug": "ndt-services-yangon-2028",
-  "title": "NDT Services Yangon — Myanmar Oil & Gas",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Yangon — Myanmar Oil & Gas — Yangon NDT services — Myanmar oil & gas + offshore. ASNT NDT Level III authored. Free Atlantis NDT"
- },
- {
-  "slug": "ndt-services-phnom-penh-2028",
-  "title": "NDT Services Phnom Penh — Cambodia",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Phnom Penh — Cambodia — Phnom Penh NDT services — Cambodia oil & gas + construction. ASNT NDT Level III authored. Free Atlantis"
  },
  {
   "slug": "ndt-services-jeju-2028",
