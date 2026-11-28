@@ -1,0 +1,37 @@
+{
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/training/api-510-training-toledo"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-570-training-toledo"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-580-training-toledo"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-653-training-toledo"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-510-training-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-570-training-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-580-training-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-653-training-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-toledo"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-st-louis"
+  },
+  {
+   "url": "https://atlantisndt.com/api-inspector-training-midwest"
+  }
+ ]
+}
