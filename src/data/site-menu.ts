@@ -32,6 +32,7 @@ export const TRAINING_NAV: MenuItem = {
       { name: "Online NDT Training", path: "/ndt-training-online" },
       { name: "NDT Training in the USA", path: "/ndt-training-usa" },
       { name: "AWS CWI Training (6 Days)", path: "/aws-cwi-training" },
+      { name: "API 510, 570, 580 & 653 Exam Prep", path: "/api-inspector-training-usa" }, // 2026-11-28 owner: self-paced API exam-prep courses
       { name: "NDT Practice Tests", path: "/ndt-practice-tests" },
       { name: "SNT-TC-1A Eligibility Check", path: "/snt-tc-1a-eligibility" },
    ],
@@ -40,6 +41,7 @@ export const TRAINING_NAV: MenuItem = {
 export const SERVICES: MenuItem[] = [
    TRAINING_NAV,
    { name: "AWS CWI Training (6 Days)", path: "/aws-cwi-training", blurb: "Corporate, online or one-to-one exam prep" },
+   { name: "API Inspector Exam Prep", path: "/api-inspector-training-usa", blurb: "API 510, 570, 580 and 653, self-paced online" },
    { name: INSPECTION_NAV.name, path: INSPECTION_NAV.path, blurb: INSPECTION_NAV.blurb ?? "", children: INSPECTION_NAV.children, menuTitle: INSPECTION_NAV.menuTitle, allLabel: INSPECTION_NAV.allLabel, talk: INSPECTION_NAV.talk },
    { name: "NDT Level III Consulting", path: "/consulting", blurb: "Audits, SNT-TC-1A programmes, compliance, ISO", children: CONSULTING_NAV.children, menuTitle: CONSULTING_NAV.menuTitle, allLabel: CONSULTING_NAV.allLabel, talk: CONSULTING_NAV.talk },
    { name: "NDT Report Validation", path: "/report-validation", blurb: "Independent review of issued reports" },

@@ -94,16 +94,17 @@ export const RULES = [
   ['RESPONSE-PROMISE', /\b24\s?[-–]\s?48\s?(?:-?\s?h\b|hrs?\b|hours?\b)/i,
     /\b(?:Atlantis|we|our|us|deploy\w*|mobili[sz]\w*|respon\w*|turnaround|dispatch\w*|on[- ]site|consultants?|quote|proposal)\b/i],
   // ── 2026-10-02 round 2 ────────────────────────────────────────────────
-  // NON-ASNT-SCHEME-OFFER: Atlantis training is ASNT SNT-TC-1A only. It does not
-  // offer CWI, CSWIP, PCN, ISO 9712, ISNT or API 510/570/653/580 training or exam
-  // prep. Third-party descriptions of those schemes are fine; an Atlantis offer
+  // NON-ASNT-SCHEME-OFFER: Atlantis training is ASNT SNT-TC-1A, plus the 6-day AWS CWI
+  // exam prep (2026-11-18) and API 510/570/580/653 exam prep (2026-11-28, owner; see
+  // API-COURSE-CLAIM below). It does not offer CSWIP, PCN, ISO 9712 or ISNT training or
+  // exam prep. Third-party descriptions of those schemes are fine; an Atlantis offer
   // is not. Rules flagged NEG are skipped when a denial precedes the match
   // ("Atlantis NDT does not offer API 653 exam preparation").
   ['NON-ASNT-SCHEME-OFFER', /\bCWI Plus\b/i],
-  ['NON-ASNT-SCHEME-OFFER', /\bAtlantis(?: NDT)?(?:['’]s?)?\s+(?:AWS\s+)?(?:CWI|CSWIP|PCN|ISO 9712|ISNT|API (?:510|570|653|580))\s+(?:exam\s+)?(?:prep|preparation|coaching|course|training|program|programme|route|cohort)s?\b/i],
-  ['NON-ASNT-SCHEME-OFFER', /\b(?:API (?:510|570|653|580)|CWI|CSWIP) (?:study support|study program|prep plan|prep block|prep cohort)s?\b/i, null, 'NEG'],
+  ['NON-ASNT-SCHEME-OFFER', /\bAtlantis(?: NDT)?(?:['’]s?)?\s+(?:AWS\s+)?(?:CWI|CSWIP|PCN|ISO 9712|ISNT)\s+(?:exam\s+)?(?:prep|preparation|coaching|course|training|program|programme|route|cohort)s?\b/i],
+  ['NON-ASNT-SCHEME-OFFER', /\b(?:CWI|CSWIP) (?:study support|study program|prep plan|prep block|prep cohort)s?\b/i, null, 'NEG'],
   ['NON-ASNT-SCHEME-OFFER', /\b(?:AWS )?(?:CWI|CSWIP(?: 3\.\d[A-Z]?)?)(?: \/ CSWIP(?: 3\.\d[A-Z]?)?)? (?:exam )?prep(?:aration)? (?:included|available as add-on|is delivered|block)\b/i],
-  ['NON-ASNT-SCHEME-OFFER', /\b(?:offers?|provides?|runs?|delivers?|includes?|help)\s+(?:both\s+)?(?:Level I, II,? and III\s+)?(?:[A-Z]{2,4}\s+)?(?:training\s+and\s+)?(?:ASNT\s*(?:SNT-TC-1A\s*)?(?:and|\/|&)\s*)?(?:AWS CWI|CWI|CSWIP|PCN|(?:EN )?ISO 9712|ISNT|API (?:510|570|653|580))(?:\s*(?:\/|,|and)\s*(?:CWI|CSWIP|PCN|ISO 9712|ISNT|API (?:510|570|653)))*\s+(?:exam\s+)?(?:training|prep|preparation|courses?|coaching|certification programs?)\b/i, null, 'NEG'],
+  ['NON-ASNT-SCHEME-OFFER', /\b(?:offers?|provides?|runs?|delivers?|includes?|help)\s+(?:both\s+)?(?:Level I, II,? and III\s+)?(?:[A-Z]{2,4}\s+)?(?:training\s+and\s+)?(?:ASNT\s*(?:SNT-TC-1A\s*)?(?:and|\/|&)\s*)?(?:AWS CWI|CWI|CSWIP|PCN|(?:EN )?ISO 9712|ISNT)(?:\s*(?:\/|,|and)\s*(?:CWI|CSWIP|PCN|ISO 9712|ISNT))*\s+(?:exam\s+)?(?:training|prep|preparation|courses?|coaching|certification programs?)\b/i, null, 'NEG'],
   ['NON-ASNT-SCHEME-OFFER', /\bASNT(?: SNT-TC-1A)?\s*(?:and|\/|&)\s*ISO 9712\s+(?:exam\s+)?(?:training|prep|preparation|courses?)\b/i, null, 'NEG'],
   ['NON-ASNT-SCHEME-OFFER', /\b(?:CSWIP|PCN|ISO 9712) Preparation"/],
   ['NON-ASNT-SCHEME-OFFER', /\bprepare candidates for all of these\b/i],
@@ -119,6 +120,12 @@ export const RULES = [
   ['NON-ASNT-SCHEME-OFFER', /["']cwi-training["']\s*:\s*\{/],
   ['NON-ASNT-SCHEME-OFFER', /\bcwi\s*:\s*\{\s*name:\s*['"](?:AWS )?Certified Welding Inspector['"]/],
   ['NON-ASNT-SCHEME-OFFER', /"@type"\s*:\s*"Course"\s*,\s*"name"\s*:\s*"[^"]*\bCWI\b/],
+  // API-COURSE-CLAIM (2026-11-28, owner): Atlantis offers self-paced online API 510/570/580/653 exam prep
+  // with instructor Q&A. API administers the examinations and issues the certification; Atlantis is not an
+  // API-approved, -accredited or -endorsed training provider, and no course length is stated.
+  ['API-COURSE-CLAIM', /\b(?:Atlantis(?: NDT)?|[Ww]e|[Oo]ur (?:API )?(?:course|training|exam prep))\b[^.<"]{0,60}\b(?:is|are|has been|as)\s+(?:an?\s+)?(?:API[- ](?:approved|accredited|authori[sz]ed|endorsed|licensed)\b|official API\b|approved by (?:API|the American Petroleum Institute)\b|an? API (?:TPCP|training provider)\b)/i, null, 'NEG'],
+  ['API-COURSE-CLAIM', /\b(?:Atlantis(?: NDT)?|[Ww]e)\b[^.<"]{0,40}\b(?:issues?|grants?|awards?|administers?|proctors?)\b[^.<"]{0,20}\bAPI (?:510|570|580|653|ICP)\b[^.<"]{0,20}\b(?:certifications?|certificates?|exams?|examinations?)\b/i, null, 'NEG'],
+  ['API-COURSE-CLAIM', /\bAPI (?:510|570|580|653) (?:training|course|exam prep(?:aration)?)\b[^.<"]{0,30}\b(?:\d+|five|six|ten)[- ](?:day|week|hour)s?\b[^.<"]{0,20}\bAtlantis\b|\bAtlantis(?: NDT)?(?:['’]s)? (?:\d+|five|six|ten)[- ](?:day|week|hour) API (?:510|570|580|653)\b/i],
   // CLAIMED-APPROVAL: approvals/listings Atlantis does not hold.
   ['CLAIMED-APPROVAL', /\b(?:ADNOC|Aramco|SABIC|PDO|KOC|QatarEnergy)(?:\s*(?:and|&|\/)\s*(?:Saudi\s+)?(?:ADNOC|Aramco|SABIC|PDO|KOC))?[- ]approved\s+(?:training\s+)?(?:programs?|programmes?|courses?|training)\b/i],
   ['CLAIMED-APPROVAL', /["'](?:Saudi Aramco Approved|SABIC Recogni[sz]ed|ADNOC Approved)["']/],
@@ -359,6 +366,7 @@ const REVIEWED = [
   ['scripts/prerender.mjs', 'Atlantis offers no CWI prep, so no "enrol" there'],
   // 2026-11-18: the audit/CWI build guard's own rule text (it fails on founder misattribution).
   ['scripts/audit-cwi-2026-11.mjs', "['founder misattribution', /Rayavarapu"],
+  ['scripts/api-training-2026-11.mjs', "['founder misattribution', /Rayavarapu"], // 2026-11-28: the API training guard's own rule text
   // 2026-10-07: code comment whose denial ("Atlantis does not") sits on the previous line
   ['scripts/ctr-wave12-overrides.mjs', '*     offer CWI training.'],
 ];

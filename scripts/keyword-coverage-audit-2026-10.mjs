@@ -30,7 +30,7 @@ function text(p) {
 const EXCLUDE = [
   [/\baioa\b|d1 4426|boeing/, 'claim Atlantis cannot evidence (prime approval / AIOA)'],
   [/exam mode|strapping|htha\b/, 'feature or service Atlantis has not confirmed'], // client portal: confirmed 2026-10-10 (portal.atlantisndt.com, §53 screenshots)
-  [/^api (510|570|653) (training|course|exam prep)|api certification training/, 'owner plan: API training excluded'],
+  // 2026-11-28: API 510/570/580/653 exam prep is now an Atlantis course (/api-{code}-training); the exclusion is retired.
   [/^acc p$/, 'fragment of ACCP (ACCP itself is covered)'],
   [/^v1 block$/, 'needs owner confirmation (V1 block scenario in the simulator). LMS: owner confirmed 2026-10-10 that Practical NDT is integrated with the Atlantis LMS and ERP'],
 ];

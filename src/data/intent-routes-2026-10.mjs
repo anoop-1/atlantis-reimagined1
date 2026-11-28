@@ -18,7 +18,8 @@
 //
 // One source for both layers: React (src/components/IntentRouteBlock.tsx) and the crawler
 // (scripts/intent-routes-2026-10.mjs). First matching rule wins. No prices (CLAUDE.md §18);
-// API 510/570/653 readers are never offered API training (Atlantis does not sell it).
+// 2026-11-28 (owner): API 510/570/580/653 readers are offered the self-paced API exam-prep course
+// (/api-{code}-training); API administers the exams and issues the certification.
 
 import { US_TRAINING_PAGES, US_TRAINING_OWNER } from "./us-training-2026-11.mjs"; // 2026-11-10 US training pages
 import { US_NO_RT_PATHS } from "./us-conventional-ndt-2026-11/rt-paths.mjs"; // 2026-11-14: US RT city pages (no RT performed in the US) get no RT service block
@@ -54,6 +55,12 @@ export function methodFor(path) {
 
 const L = {
   l2: ["/ndt-level-2-training", "NDT Level II training to ASNT SNT-TC-1A"],
+  // 2026-11-28: API exam-prep courses (self-paced online with instructor Q&A).
+  apiCourse510: ["/api-510-training", "API 510 exam prep: self-paced online course with instructor Q&A"],
+  apiCourse570: ["/api-570-training", "API 570 exam prep: self-paced online course with instructor Q&A"],
+  apiCourse580: ["/api-580-training", "API 580 risk based inspection exam prep"],
+  apiCourse653: ["/api-653-training", "API 653 exam prep: self-paced online course with instructor Q&A"],
+  apiHub: ["/api-inspector-training-usa", "API inspector training in the USA: 510, 570, 580 and 653"],
   l1: ["/ndt-level-1-training", "NDT Level I training for new technicians"],
   l3: ["/asnt-level-iii-training", "ASNT NDT Level III exam preparation"],
   practical: ["/practical-ndt", "Practical NDT: hands-on practice on a 3D NDT simulator"],
@@ -98,7 +105,7 @@ const meth = (k, kind) => {
 };
 const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
-const EXCLUDE = /^\/($|contact|about|privacy|terms|thank-you|404|erp($|\/|-)|ndt-erp|consulting($|\/)|ndt-consulting|digital-twin|practical-ndt|inspection($|\/|-)|maritime($|\/)|3d-scanning|press|careers($|\/)|sitemap|embed)/; // careers job pages: 2026-11-20
+const EXCLUDE = /^\/($|contact|about|privacy|terms|thank-you|404|erp($|\/|-)|ndt-erp|consulting($|\/)|ndt-consulting|digital-twin|practical-ndt|inspection($|\/|-)|maritime($|\/)|3d-scanning|press|careers($|\/)|sitemap|embed|api-(?:510|570|580|653)-training|api-inspector-training-|training\/api-(?:510|570|580|653)-training-)/; // careers job pages: 2026-11-20
 
 // Specialist inspection services, matched before the generic method service page.
 const SERVICES = [
@@ -176,19 +183,19 @@ function ruleFor(p) {
       MARITIME_LINKS);
   }
   const mk = methodFor(p);
-  const api = /api-(510|570|653)/.exec(p)?.[1];
+  const api = /api-(510|570|580|653)(?!\d)/.exec(p)?.[1];
   const level3 = /level-iii|level-3|(^|[-/])l3([-/]|$)/.test(p);
 
   // 1. Careers and pay -> training + Practical NDT (owner's example).
   if (/salary|career|how-to-become|become-an?-|apprentice|is-ndt-a-good|welder-to|veteran|no-experience|which-ndt-method/.test(p) && !/job-costing|crm-/.test(p)) {
-    const first = level3 ? L.l3 : api ? meth("ut", "training") : /cwi/.test(p) ? meth("vt", "training") : mk ? meth(mk, "training") : L.l2;
+    const first = level3 ? L.l3 : api ? L["apiCourse" + api] : /cwi/.test(p) ? meth("vt", "training") : mk ? meth(mk, "training") : L.l2;
     return block("careers", "Turn the pay data into a plan",
       "Pay in NDT follows certification level, method and documented hours. Atlantis trains to ASNT SNT-TC-1A, led by an ASNT NDT Level III, and Practical NDT gives you scan practice on a 3D simulator before you reach a real job.",
       [first, L.practical, L.tests]);
   }
   // 2. Exam preparation -> practice tests + simulator + training.
   if (/practice-questions|practice-test|mock-exam|study-guide|exam|body-of-knowledge|pass-rate|question-bank|quiz/.test(p)) {
-    const train = level3 ? L.l3 : api ? meth("ut", "training") : /cwi/.test(p) ? meth("vt", "training") : mk ? meth(mk, "training") : L.l2;
+    const train = level3 ? L.l3 : api ? L["apiCourse" + api] : /cwi/.test(p) ? meth("vt", "training") : mk ? meth(mk, "training") : L.l2;
     const sim = mk ? meth(mk, "sim") : api ? meth("ut", "sim") : L.practical;
     return block("exam", "Practise before the exam",
       "Written papers test what you know; employers and practical examinations test what you can do with a probe in your hand. Use the free practice tests to find your gaps, then practise the technique.",
@@ -220,15 +227,15 @@ function ruleFor(p) {
     // compliance pages that had no block get no new inspection link.
     return block("compliance", "Meet this requirement without the paperwork pile-up", "Atlantis writes the procedures and Level III documentation this requirement calls for, trains the technicians, and Atlantis ERP keeps certifications and procedure revisions in one place.", [L.l3docs, L.procedure, L.consultingL3, L.training, L.erpProcedures]);
   }
-  // 5. API inspection codes -> inspector services + inspection (never API training).
-  if (api && /certification|training|course/.test(p)) return block("codes", `Next steps for API ${api} candidates and employers`, `Most API ${api} work runs on ultrasonic thickness and flaw data. Candidates can strengthen their UT skills and practise on the simulator; owner-operators can bring in Atlantis for the NDE and data review behind their API ${api} programme, with the Authorized Inspector staying their own.`, [meth("ut", "training"), meth("ut", "sim"), L["api" + api], L.erpCerts]);
-  if (api === "510") return block("codes", "Need the NDE behind your API 510 programme?", "Atlantis carries out the thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the readings in one system.", [L.api510, L.vessel, meth("ut", "training"), L.erpAssets]);
-  if (api === "570") return block("codes", "Need the NDE behind your API 570 programme?", "Atlantis carries out the CML thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the CMLs and readings in one system.", [L.api570, L.cml, meth("ut", "training"), L.erpAssets]);
-  if (api === "653") return block("codes", "Need the NDE behind your API 653 programme?", "Atlantis carries out tank floor, shell and settlement NDE and reviews the data; your Authorized Inspector stays inspector of record.", [L.api653, L.tank, meth("ut", "training"), L.erpAssets]);
+  // 5. API inspection codes -> the API exam-prep course (2026-11-28) + inspector services + inspection.
+  if (api && /certification|training|course/.test(p)) return block("codes", `Next steps for API ${api} candidates and employers`, `Atlantis's API ${api} exam-prep course is self-paced and online, with an instructor answering your questions; API administers the examination and issues the certification. Owner-operators can also bring in Atlantis for the NDE and data review behind their API programmes, with the Authorized Inspector staying their own.`, [L["apiCourse" + api], L.apiHub, meth("ut", "training"), ...(L["api" + api] ? [L["api" + api]] : [L.rbi]), L.erpCerts]);
+  if (api === "510") return block("codes", "Need the NDE behind your API 510 programme?", "Atlantis carries out the thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the readings in one system.", [L.api510, L.vessel, L.apiCourse510, meth("ut", "training"), L.erpAssets]);
+  if (api === "570") return block("codes", "Need the NDE behind your API 570 programme?", "Atlantis carries out the CML thickness surveys and NDE and reviews the data; your Authorized Inspector stays inspector of record. Atlantis ERP keeps the CMLs and readings in one system.", [L.api570, L.cml, L.apiCourse570, meth("ut", "training"), L.erpAssets]);
+  if (api === "653") return block("codes", "Need the NDE behind your API 653 programme?", "Atlantis carries out tank floor, shell and settlement NDE and reviews the data; your Authorized Inspector stays inspector of record.", [L.api653, L.tank, L.apiCourse653, meth("ut", "training"), L.erpAssets]);
   // 2026-11-07: FFS readers get the FFS consulting page, Level III consulting, UT training and ERP
   // (inspection link kept); RBI readers keep their three links and gain consulting and ERP.
   if (/api-579|fitness-for-service|(^|[-/])ffs([-/]|$)/.test(p)) return block("codes", "From assessment to a plan", "An FFS assessment is only as good as the inspection data behind it. Atlantis provides the Level III review of that data, trains the technicians who collect it, and Atlantis ERP keeps the asset history in one place.", [p === L.ffs[0] ? L.consultingL3 : L.ffs, L.consultingL3, meth("ut", "training"), L.erpAssets, L.rbi].filter((x, i, a) => a.findIndex((y) => y[0] === x[0]) === i));
-  if (/api-5(79|80|81)|fitness-for-service|(^|[-/])ffs([-/]|$)|(^|[-/])rbi([-/]|$)|risk-based/.test(p)) return block("codes", "From assessment to a plan", "Atlantis carries out risk-based inspection studies to API RP 580 and 581, delivered remotely, and the NDE that feeds them; fitness-for-service assessments stay with the owner's engineer.", [L.rbi, L.integrity, L.twin, L.consultingL3, L.erpAssets]);
+  if (/api-5(79|80|81)|fitness-for-service|(^|[-/])ffs([-/]|$)|(^|[-/])rbi([-/]|$)|risk-based/.test(p)) return block("codes", "From assessment to a plan", "Atlantis carries out risk-based inspection studies to API RP 580 and 581, delivered remotely, and the NDE that feeds them; fitness-for-service assessments stay with the owner's engineer.", [L.rbi, L.integrity, L.apiCourse580, L.twin, L.consultingL3, L.erpAssets]);
   if (/nace|cui|corrosion-under-insulation/.test(p)) return block("codes", "Need this inspected?", "Atlantis carries out corrosion and CUI inspection and keeps the findings tied to each asset.", [L.cui, L.rbi, L.erpAssets]);
   // 6. Certification schemes -> training + programme set-up + simulator.
   if (/asnt|snt-tc-1a|cp-189|iso-9712|(^|[-/])accp|(^|[-/])pcn([-/]|$)|nas-410|en-4179|written-practice|certification|level-(i|ii|iii|1|2|3)([-/]|$)/.test(p))

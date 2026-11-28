@@ -246,6 +246,7 @@ const RULES = [
   ['US RT offer', /\b(?:Atlantis(?: NDT)?|we)\b[^.]{0,40}\b(?:perform|performs|provide|provides|offer|offers)\b[^.]{0,30}\b(?:radiograph(?:y|ic testing)|RT\b)/i, true],
   ['founder misattribution', /Rayavarapu[^.]{0,160}\b(?:CWI|Certified Welding Inspector|NAS 410 Level|Authori[sz]ed Inspector|API (?:510|570|653)|eddy current|six methods)/i],
 ];
+export { RULES as AUDIT_CWI_RULES, NEG as AUDIT_CWI_NEG }; // 2026-11-28: used by scripts/api-training-refine/check-cwi.mjs
 export function assertAuditCwiClean(builtPaths) {
   const built = builtPaths instanceof Set ? builtPaths : new Set(builtPaths || []);
   const errors = [];

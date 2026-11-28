@@ -33,6 +33,8 @@ export function assertCwiTrainingBlockClean(builtPaths) {
   if (planCities.join() !== listed.join()) problems.push(`CWI_CITIES differs from _pages.json: only in list [${listed.filter((s) => !planCities.includes(s))}], only in plan [${planCities.filter((s) => !listed.includes(s))}]`);
   const targets = new Set([CWI_NATIONAL, ...listed.map(CWI_PAGE)]);
   for (const t of targets) if (builtPaths && !builtPaths.has(t)) problems.push(`target ${t} not built`);
+  // 2026-11-28: every API link in the block (hub, national, region and live city pages) must be built.
+  for (const p of [...US_TRAINING_PATHS, '/training', '/ndt-training-usa']) for (const [t] of (cwiBlockFor(p)?.api?.links || [])) if (builtPaths && !builtPaths.has(t)) problems.push(`${p}: API link ${t} not built`);
   for (const p of [...US_TRAINING_PATHS, '/training', '/ndt-training-usa']) {
     const b = cwiBlockFor(p);
     if (!b) { problems.push(`${p}: no CWI block`); continue; }

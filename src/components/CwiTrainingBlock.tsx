@@ -1,4 +1,5 @@
-// AWS CWI section on US NDT training pages and the training hubs (owner, 2026-11-20). Same rules, copy and
+// AWS CWI section on US NDT training pages and the training hubs (owner, 2026-11-20), with an API
+// 510/570/580/653 exam-prep part (owner, 2026-11-28). Same rules, copy and
 // markup as scripts/cwi-us-block-2026-11.mjs injects into the crawler <main>: src/data/cwi-us-block-2026-11.mjs.
 // Mounted once in App.tsx outside <Routes>; stands down on published pages, whose prerendered <main> carries it.
 import { createPortal } from "react-dom";
@@ -25,6 +26,19 @@ export default function CwiTrainingBlock() {
             </li>
           ))}
         </ul>
+        {b.api ? (
+          <>
+            <h3 className={C.h3}>{b.api.h}</h3>
+            <p className={C.p}>{b.api.p}</p>
+            <ul className={C.ul}>
+              {b.api.links.map(([href, label]) => (
+                <li key={href}>
+                  <Link to={href} data-api-link={b.kind} className={C.a}>{label}</Link>
+                </li>
+              ))}
+            </ul>
+          </>
+        ) : null}
       </div>
     </section>
   );

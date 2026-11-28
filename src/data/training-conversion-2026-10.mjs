@@ -19,6 +19,8 @@ const SITE = 'https://atlantisndt.com';
 /** Training city, regional, industry and level pages (the owner's "regional city pages"). */
 export function showsTrainingCtaBar(path) {
   if (path === TRAINING_FAQ_PATH || path === ELIGIBILITY_PATH) return false;
+  // 2026-11-28: API exam-prep city pages are not ASNT courses (no SNT-TC-1A eligibility check, not sold on the portal).
+  if (/^\/training\/api-(?:510|570|580|653)-training-/.test(path)) return false;
   return /^\/(?:training|training-[a-z-]+|ndt-training-[a-z-]+|training\/[a-z0-9-]+|[a-z-]+-ndt-training(?:-[a-z-]+)?|(?:ut|rt|mt|pt|vt|et|ndt)-level-[123]-training|asnt-level-iii-training)$/.test(path);
 }
 

@@ -103,6 +103,7 @@ import { consultingSectionRoutes, assertConsultingSectionClean, applyConsultingR
 import { applyNaKeywordDepth, assertNaKeywordDepthClean, naKeywordStats } from './na-keyword-depth-2026-10.mjs'; // 2026-10-26 §64: competitor-keyword sections + H1 synonyms on owner pages
 import { applyUsConventionalRoutes, applyUsConventionalHubRoute, assertUsConventionalClean } from './us-conventional-ndt-2026-11.mjs'; // 2026-11-14 owner: 2,000+ word MT/PT/UT city pages across the US + reworded US RT pages (no RT performed in the US)
 import { applyUsIndustryRoutes, applyUsIndustryHubRoute, applyUsIndustryStateHubRoute, assertUsIndustryClean } from './us-industry-ndt-2026-11.mjs'; // 2026-11-17 owner: US MT/PT/UT pages by industry and by job (39 rewritten, 17 new industry, 11 job)
+import { applyApiTrainingRoutes, assertApiTrainingClean } from './api-training-2026-11.mjs'; // 2026-11-28 owner: API 510/570/580/653 self-paced exam-prep course pages (national, USA hub, regions, cities)
 import { applyAuditCwiRoutes, assertAuditCwiClean } from './audit-cwi-2026-11.mjs'; // 2026-11-18 owner: Level III audit-support pages (ASME, NBIC R, maritime class approval, NAS 410 documentation) + 6-day AWS CWI exam-prep pages
 import { applyGeoDepth, assertGeoDepthClean } from './geo-depth-2026-10.mjs'; // 2026-10-24: researched local blocks on earning geo pages
 import { applyNas410City, assertNas410CityClean } from './nas410-city-2026-11.mjs'; // 2026-11-23 §85: SNT-TC-1A vs NAS 410 sections on US aerospace training city pages
@@ -14149,7 +14150,8 @@ if (pseoNoindexApplied > 0) {
   { const re = applyConsultingIndexable(routes); if (re.length) console.log(`🧭 Consulting menu pages made indexable: ${re.join(', ')}`); } // 2026-10-19
   { const uc = applyUsConventionalRoutes(routes); console.log(`🔧 US conventional NDT (MT/PT/UT) city pages: ${uc.updated} rewritten, ${uc.added} new routes, ${uc.rt} US RT pages reworded`); } // 2026-11-14: after every prune/noindex/consolidation pass
   { const ui = applyUsIndustryRoutes(routes); console.log(`🔧 US MT/PT/UT industry + job pages: ${ui.updated} rewritten, ${ui.added} new routes`); } // 2026-11-17: after every prune/noindex/consolidation pass
-  { const ac = applyAuditCwiRoutes(routes); console.log(`🔧 Audit-support consulting + AWS CWI exam-prep pages: ${ac.updated} rewritten, ${ac.added} new routes`); } // 2026-11-18: after every prune/noindex/consolidation pass
+  { const ac = applyAuditCwiRoutes(routes); console.log(`🔧 Audit-support consulting + AWS CWI exam-prep pages: ${ac.updated} rewritten, ${ac.added} new routes`); }
+  { const at = applyApiTrainingRoutes(routes); console.log(`🔧 API 510/570/580/653 exam-prep pages: ${at.updated} rewritten, ${at.added} new routes`); } // 2026-11-28: after every prune/noindex/consolidation pass // 2026-11-18: after every prune/noindex/consolidation pass
 
   const meta = disambiguateMeta(routes);
   if (meta.fixedTitles || meta.fixedDescs) console.log(`🏷️  Meta disambiguation: ${meta.fixedTitles} duplicate titles + ${meta.fixedDescs} duplicate descriptions made unique`);
@@ -14233,7 +14235,8 @@ assertRbiSectionClean(BUILT_PATHS); // 2026-11-23: RBI pages >=2,000 words, remo
 assertRvSectionClean(BUILT_PATHS); // 2026-11-23: report validation pages >=2,000 own words, remote, independent, no pricing, no NC, no RT offer in the US, no founder/credential/class/nuclear QA claims
 assertUsConventionalClean(BUILT_PATHS); // 2026-11-14: every US MT/PT/UT city record valid (2,000+ words, no RT offer, no advanced methods), every page and link built
 assertUsIndustryClean(BUILT_PATHS); // 2026-11-17: every US MT/PT/UT industry and job record valid, every page and link built
-assertAuditCwiClean(BUILT_PATHS); // 2026-11-18: every audit-support and CWI record valid (2,000+ words, NAS 410 only on its documentation pages, 6-day CWI offer), every page and link built
+assertAuditCwiClean(BUILT_PATHS);
+assertApiTrainingClean(BUILT_PATHS); // 2026-11-28: every API exam-prep record valid (2,000+ own words, self-paced + instructor Q&A, API administers and certifies, no length/price/approval claims), every page and link built // 2026-11-18: every audit-support and CWI record valid (2,000+ words, NAS 410 only on its documentation pages, 6-day CWI offer), every page and link built
 assertInspectionSectionClean(BUILT_PATHS); // 2026-10-18: inspection section links built, no prices/training offers/founder over-claims, >=400 words
 assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, links built, retired duplicates 301 and not built, no FAQ-shaped markup
 assertPracticalSimClean(BUILT_PATHS); // 2026-10-17: Practical NDT simulator pages: links built, >=700 words, geometry, no prices/claims/presence/city names, sibling Jaccard < 0.55

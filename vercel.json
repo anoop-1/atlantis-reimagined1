@@ -1676,17 +1676,7 @@
       "statusCode": 301
     },
     {
-      "source": "/api-510-training",
-      "destination": "/api-510-certification",
-      "statusCode": 301
-    },
-    {
       "source": "/api-570",
-      "destination": "/api-570-certification",
-      "statusCode": 301
-    },
-    {
-      "source": "/api-570-training",
       "destination": "/api-570-certification",
       "statusCode": 301
     },

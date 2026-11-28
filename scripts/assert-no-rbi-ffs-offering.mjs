@@ -7,7 +7,8 @@
  *   flagged. Still forbidden: any fitness-for-service (API 579) offer; any claim that
  *   Atlantis software (ERP, digital twin, platform, module) calculates RBI or FFS; the
  *   automatic "lapse lockout" (the real feature is expiry warnings + blocked
- *   double-booking); API ICP training.
+ *   double-booking). (API ICP exam prep was forbidden until 2026-11-28, when the owner added
+ *   API 510/570/580/653 courses.)
  *
  * Educational mentions of RBI / FFS as industry concepts are fine. What fails
  * is a sentence in which Atlantis (or its ERP / twin / platform / software /
@@ -38,7 +39,7 @@ const HARD = [
   /\bautomatic(?:ally)? lock(?:s|ed|ing)? out\b[^.]{0,60}\b(expired|lapsed)\b/i,
   /\bRBI software per API\b/i,
   /\bRBI, FFS,? and inspection-data integration\b/i,
-  /\bAPI ICP (?:training|course|prep|exam prep|preparation) (?:from|by|with|at) Atlantis\b/i,
+  // 2026-11-28 (owner): API 510/570/580/653 exam prep is now an Atlantis course, so the API ICP training pattern is retired.
   // 2026-10-04: offer-shaped titles / service codes found on live pages
   /\bRBI and FFS on One Model\b/i,
   /\b(?:UT\/)?RBI\/FFS\s*\|/i,
