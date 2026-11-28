@@ -1,0 +1,164 @@
+{
+ "title": "NDT Report Validation in Charleston, WV | Kanawha Valley",
+ "description": "Remote, independent review of NDT reports and digital inspection data from Kanawha Valley chemical plants, power stations and gas pipelines.",
+ "h1": "Charleston and the Kanawha Valley: independent review of chemical, power and gas pipeline inspection records",
+ "eyebrow": "Report validation: Charleston, West Virginia",
+ "intro": "Few American valleys pack as much chemical history into so few river miles as the Kanawha. Upstream and downstream of Charleston sit organic chemical plants, a large coal-fired generating station and the regional headquarters of an interstate gas transmission system, with Marcellus gas processing a couple of hours to the north. All of them buy NDT, and all of them eventually hand inspection records to a reader who did not watch the work being done. We read those NDT reports and the digital inspection data behind them, compare them with the procedure, the code and the specification, and state in writing what the evidence supports. The review is remote; you send the records and we work from them.",
+ "highlights": [
+  {
+   "h": "Chemical units with long histories",
+   "p": "Kanawha Valley sites have been rebuilt, sold and split many times. Inspection records that crossed those changes are where gaps hide, and a review shows which parts of the history still hold."
+  },
+  {
+   "h": "Boilers, headers and coal plant steel",
+   "p": "Generating stations and plant powerhouses produce tube thickness surveys, header weld examinations and repair records that an insurance inspector or the owner's engineer must act on."
+  },
+  {
+   "h": "Gas lines under federal and state rules",
+   "p": "Transmission, gathering and storage operators produce weld and integrity records that a regulator may ask for. We check them before that request arrives."
+  }
+ ],
+ "sections": [
+  {
+   "h": "The valley's plants, and why their paperwork is unusual",
+   "p": [
+    "Dow describes its South Charleston site as occupying Blaine Island and reaching across the Kanawha River into Charleston, and says many of its product lines were first developed there. Downriver at Institute, Dow's own description of its West Virginia operations names Altivia as owner and operator of the site built in 1943 for synthetic rubber, with Dow as a tenant; state air permits list ALTIVIA Services as permittee for the Institute Plant. Upriver at Belle, the Chemours Company holds the permits for a plant the state describes as manufacturing various organic chemicals, with a powerhouse that burns natural gas in four boilers.",
+    "Those arrangements matter to a reviewer. A site with an owner, an operator and one or more tenants can have several people responsible for the same pipe rack, several inspection contractors and more than one inspection data system. When equipment changes hands between businesses on the same fence line, the records do not always follow neatly. An independent review starts by asking whose record it is, which mechanical integrity programme it belongs to and which procedure governed it.",
+    "We name these plants to explain the kind of records the valley produces. Naming them does not mean Atlantis has reviewed their reports, worked for any of their owners or holds approved-vendor status with them; none of them is presented here as a client."
+   ]
+  },
+  {
+   "h": "Process safety records that an auditor reads line by line",
+   "p": [
+    "Most of the larger Kanawha Valley chemical units fall under the OSHA process safety management standard, which makes inspection and testing records part of the mechanical integrity element. An auditor does not ask only whether the thickness reading is acceptable. The auditor asks whether the test followed a written procedure, whether the person was qualified, whether the frequency matches the plan and whether deficiencies were corrected before further use.",
+    "That changes what a report review has to look for. A penetrant record on a stainless nozzle weld can show a clean result and still fail an audit question if the penetrant system, the dwell time or the surface temperature is missing. A thickness survey can show sound readings and still be weak evidence if the circuit's condition monitoring locations moved without a cross-reference. Our opinion separates the two: findings that undermine the engineering conclusion, and findings that only weaken the paper trail.",
+    "Chemical service also brings mechanisms that a generic report form does not prompt for. Chloride cracking in austenitic stainless, caustic and amine cracking in carbon steel, and corrosion under insulation on lines that cycle in temperature all call for specific techniques and specific reporting. API RP 571 is a common reference for describing them, and a review checks whether the technique on the report could actually find the mechanism the plant's damage review expects."
+   ]
+  },
+  {
+   "h": "Generating stations along the Kanawha and the Ohio",
+   "p": [
+    "Appalachian Power owns the John E. Amos plant in Putnam County, a coal-fired station of three steam units commissioned from 1971 onward. Plants of that size and age generate a steady flow of inspection work during outages: waterwall and superheater tube thickness surveys, ultrasonic and magnetic particle examinations of header and attachment welds, and records for weld repairs carried out under the National Board Inspection Code. Smaller boilers in chemical plant powerhouses add more of the same at a smaller scale.",
+    "In West Virginia, the Division of Labor inspects high-pressure steam boilers, which its program page defines as those above fifteen pounds per square inch, every year, and it oversees the insurance company inspectors who are authorised to carry out those inspections. That is the reader a repair record has to satisfy. Atlantis is not that inspector and does not act as an Authorized Inspector or inspector of record; the opinion helps the owner see whether the NDE part of the record is ready to show to the person who signs.",
+    "Boiler tube data is a good example of where reviews earn their keep. A thickness survey that changed technicians, gauges or reference blocks between outages can produce an apparent wastage rate that is really a measurement artefact. The review checks probe type, calibration and the treatment of oxide scale before anyone uses the numbers to plan tube replacements."
+   ]
+  },
+  {
+   "h": "Gas transmission, storage and Marcellus processing",
+   "p": [
+    "TC Energy's Columbia system, acquired with Columbia Pipeline Group in 2016, has been headquartered on MacCorkle Avenue in Charleston since 1956, and the company says it is moving to a new building downtown during 2026. TC Energy puts the wider system at more than fifteen thousand miles of pipeline across ten states, with dozens of storage fields. North of Charleston, MPLX operates the Sherwood gas processing complex in Doddridge County, one of the larger processing sites in the Marcellus region.",
+    "Pipeline and processing work produces a different family of records: girth weld radiographs and their digital equivalents, automated ultrasonic weld data, dig verification reports after in-line inspection, and plant piping examinations at compressor and processing stations. In West Virginia the Public Service Commission's Gas Pipeline Safety Section enforces pipeline safety and its rule adopts the federal requirements of 49 CFR Parts 191, 192, 195 and 199; interstate lines also answer to PHMSA. Reviewers check each record against the code the operator's procedures actually invoke, which may be API 1104, ASME B31.8 or the operator's own specification."
+   ]
+  },
+  {
+   "h": "Report types we receive from this part of West Virginia",
+   "p": [
+    "The table shows the records that typically come from the valley's industries and what a reviewer concentrates on for each. It is a guide to emphasis; every review still runs the full set of checks."
+   ],
+   "table": {
+    "head": ["Source", "Typical records", "What the reviewer looks at hardest"],
+    "rows": [
+     ["Organic chemical units", "UT thickness, PT on stainless welds, CUI screening, exchanger tube data", "Technique fit for the expected damage mechanism; procedure and penetrant details"],
+     ["Plant powerhouses and utility boilers", "Tube thickness surveys, header weld UT and MT, repair NDE", "Calibration and scale treatment; repair records that an inspector will act on"],
+     ["Gas transmission and storage", "Girth weld radiographs, CR or DR images, AUT data, dig reports", "Image quality, acceptance against the invoked code, defect sizing"],
+     ["Processing and compressor stations", "Piping weld examinations, thickness monitoring, PAUT", "Scan coverage, encoded file integrity, CML traceability"],
+     ["Fabrication and repair shops", "Shop NDE reports on spools and vessels", "Personnel qualification on the date of work, code and edition used"]
+    ]
+   }
+  },
+  {
+   "h": "Radiographs in a state that the NRC still licenses directly",
+   "p": [
+    "West Virginia is not an NRC Agreement State. The governor sent the NRC a letter of intent to pursue an agreement in January 2023, but the NRC's page for the state, last updated in September 2026, still lists it as a non-Agreement State, with NRC Region I, headquartered in King of Prussia, Pennsylvania, carrying the agency's responsibilities there. Gamma radiography with sealed sources in West Virginia is therefore licensed by the NRC under 10 CFR Part 34 for now.",
+    "None of that licensing is ours. Atlantis does no industrial radiography in the United States. What we do is examine the films, computed radiography plates and digital radiography images that the owner's licensed contractor produced: image quality indicator selection and placement, density or normalised signal-to-noise against the procedure, geometric unsharpness, identification and location marking, and whether each written interpretation matches the image. A reviewer who holds ASNT NDT Level III certification in radiographic testing, among the five methods (UT, RT, MT, PT and VT) our Level III review is certified in, signs off that part of the work."
+   ]
+  },
+  {
+   "h": "Digital inspection data from Kanawha Valley jobs",
+   "p": [
+    "More of the valley's inspection evidence now arrives as files rather than sheets: phased array and TOFD data from pipeline and plant welds, DR images exported from acquisition software, thickness readings pushed straight into an inspection data management system, and reports assembled on a digital reporting platform with electronic signatures. That is an improvement, as long as the digital record can show where each number came from.",
+    "A review of digital inspection data checks lineage. Can the reported thickness at a location be traced to the raw reading, the instrument and the calibration file? Was the encoded scan saved in its native format, or only as screenshots? Were software gates and filters changed after acquisition, and is there a record of who changed them? Does the electronic signature belong to a person whose certification was current on the date of the work? Reports that look tidy on a screen can fail every one of those questions, and the opinion lists which ones they fail.",
+    "Where a plant has migrated between inspection data systems, which is common after a sale or a change of contractor, we also look for records that lost their history in the transfer: renumbered CMLs, readings stripped of their dates, and attachments that did not migrate. Those are the places where a long thickness trend quietly breaks."
+   ]
+  },
+  {
+   "h": "How the review runs when the records are in Charleston",
+   "p": [
+    "Charleston has no Atlantis office, and neither does the rest of West Virginia; our offices are in Houston and Hyderabad. The review is done remotely from the records you send through a secure transfer. In practice that means the report itself, the procedure and technique sheet, personnel certifications, equipment and calibration records, the raw data files or images where they exist, and the code or specification the work was performed to."
+   ],
+   "list": [
+    "You tell us what decision the report has to support: acceptance of a vendor package, close-out of a turnaround or outage, a rejected report, a regulatory request or a transaction.",
+    "We confirm the scope and the records needed and send a quote; nothing starts until you agree it.",
+    "Reviewers work through procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability.",
+    "The opinion gives one of three verdicts for each report: sound; deficient in documentation only; or deficient in disposition. Each finding cites the clause or procedure step and the evidence behind it.",
+    "Questions go back to the original contractor through you, so the contractor can answer before the opinion is final."
+   ]
+  },
+  {
+   "h": "What stays with the owner, and who is on the review",
+   "p": [
+    "Reviewers on the team have backgrounds in nuclear, maritime, oil and gas and petrochemical work, which suits a valley whose records range from chemical reactors to compressor stations. For methods outside UT, RT, MT, PT and VT, such as eddy current tube data, the proposal names a reviewer holding whatever certification the contract calls for.",
+    "Some decisions are never part of the opinion. Fitness-for-service and remaining-life calculations stay with the owner's engineer. Inspection intervals stay with the owner's inspection programme. Release of a boiler or vessel stays with the inspector who holds that authority. We also decline to review reports for any project where Atlantis performed the examination, because an opinion on our own work would not be independent."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Do you send anyone to Charleston or the Kanawha Valley plants?",
+   "a": "No. Report validation is a remote document and data review. Atlantis has no office anywhere in West Virginia, and the work is done from the records and files you transfer to us."
+  },
+  {
+   "q": "Our chemical plant needs inspection records ready for a process safety audit. Can you help?",
+   "a": "Yes. We review a sample or a full set of mechanical integrity inspection records against the written procedures and the plant's inspection plan, and separate engineering problems from documentation gaps so the plant knows which ones to fix first."
+  },
+  {
+   "q": "Can you review girth weld radiographs from a West Virginia pipeline project?",
+   "a": "Yes. We review the films, CR plates or DR images and the interpretation records produced by the operator's licensed radiography contractor. We do not perform radiography ourselves anywhere in the US."
+  },
+  {
+   "q": "Is West Virginia an Agreement State for radiography licensing?",
+   "a": "Not at the time of writing. The NRC lists West Virginia as a non-Agreement State, so sealed-source radiography there is licensed by the NRC. The state submitted a letter of intent in 2023; check the NRC's state page for the current status."
+  },
+  {
+   "q": "Will your review decide whether a boiler can return to service after a repair?",
+   "a": "No. That decision belongs to the inspector authorised under West Virginia's boiler program and to the owner. Our opinion tells you whether the NDE in the repair record is complete and defensible before it goes to them."
+  },
+  {
+   "q": "We bought a unit in the valley and inherited years of thickness data. What do you check?",
+   "a": "We trace whether CMLs, readings, instruments and calibration survived the change of owner or data system, flag breaks in the history, and say where the trend can and cannot be relied on. Remaining-life work stays with your engineer."
+  },
+  {
+   "q": "Do you review digital NDT reports and raw files, or only signed PDFs?",
+   "a": "Both. We prefer the raw digital inspection data alongside the report, because the encoded files, images and settings are where most digital reporting problems show up."
+  },
+  {
+   "q": "Can you review work that Atlantis inspected?",
+   "a": "No. We do not review reports for projects where Atlantis performed the examination."
+  },
+  {
+   "q": "How do we get started?",
+   "a": "Send a short description of the reports and the decision they support, or the records themselves. We reply within one business day with the scope, the records we need and a quote."
+  }
+ ],
+ "related": [
+  ["/consulting/level-iii-audit-support-petrochemical", "Level III audit support for petrochemical plants"],
+  ["/blog/chemical-plant-ndt-consulting-osha-psm-mechanical-integrity-programs", "OSHA PSM mechanical integrity and NDT"],
+  ["/consulting/level-iii-audit-support-power-generation", "Level III audit support for power generation"],
+  ["/ultrasonic-boiler-tube-inspection", "Ultrasonic boiler tube inspection"],
+  ["/consulting/level-iii-audit-support-pipeline", "Level III audit support for pipelines"],
+  ["/report-validation/radiographic-film-and-digital-interpretation-review", "Radiograph interpretation review"],
+  ["/consulting/nbic-r-stamp-ndt-audit-support", "NBIC R stamp NDT audit support"]
+ ],
+ "sources": [
+  "https://corporate.dow.com/en-us/locations/west-virginia",
+  "https://dep.wv.gov/daq/permitting/titlevpermits/Documents/May%202021/Altivia%20FinalFactSheet%20R30-03900692-2021(7of%208).pdf",
+  "https://dep.wv.gov/daq/permitting/titlevpermits/Documents/September%202023/039-00001(1of5)/FinalFactSheet%20R30-03900001-2023%20(1%20of%205).pdf",
+  "https://www.power-technology.com/marketdata/john-e-amos-power-plant-us/",
+  "https://dep.wv.gov/daq/permitting/titlevpermits/Documents/July%202021/Amos%20FinalFactSheet%20R30-07900006-2021.pdf",
+  "https://labor.wv.gov/safety/consumer-safety/high-pressure-steam-boiler-safety",
+  "https://www.tcenergy.com/stories/2026/2026-06-29-a-legacy-built-on-people-columbia-gas-through-the-generations/",
+  "https://governorjustice.wv.gov/News/press-releases/2019/Pages/Gov.-Justice-cuts-ribbon-on-expansion-of-MPLX-Sherwood-Gas-Processing-Complex-in-Doddridge-County.aspx",
+  "https://law.cornell.edu/regulations/west-virginia/W-Va-C-S-R-SS-150-4-9",
+  "https://www.nrc.gov/agreement-states/west-virginia"
+ ]
+}
