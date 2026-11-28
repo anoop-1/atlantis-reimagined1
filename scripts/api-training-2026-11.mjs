@@ -249,7 +249,7 @@ export function assertApiTrainingClean(builtPaths) {
     if (!/\bself-paced\b|\bat your own pace\b|\bown pace\b/i.test(all)) errors.push(`${path}: does not say the course is self-paced`);
     if (!/\binstructor\b/i.test(all)) errors.push(`${path}: does not mention instructor Q&A`);
     if (!/\b(?:API|American Petroleum Institute)\b[^.]{0,80}\b(?:administers|issues|certif)/i.test(all)) errors.push(`${path}: does not say API administers the exam / issues the certification`);
-    if (plan.kind === 'city' && !new RegExp(`no Atlantis (?:classroom|office|training centre|training center)[^.]{0,20}in ${plan.city.split(' ')[0]}`, 'i').test(all)) errors.push(`${path}: city page must say there is no Atlantis classroom in ${plan.city}`);
+    if (plan.kind === 'city' && !new RegExp(`no Atlantis (?:classroom|office|training centre|training center)[^.]{0,20}in (?:the )?${plan.city.split(' ')[0]}`, 'i').test(all)) errors.push(`${path}: city page must say there is no Atlantis classroom in ${plan.city}`);
     // Sentences of 10+ words must be the page's own.
     for (const s of all.split(/(?<=[.!?])\s+/)) {
       const k = s.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim();
