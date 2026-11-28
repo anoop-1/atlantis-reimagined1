@@ -12,7 +12,7 @@
   },
   {
    "q": "Should I take API 580 at a Seattle-area test centre or by remote proctoring?",
-   "a": "API's API 580 page says the exam can be scheduled either way, so choose by circumstance. Remote proctoring saves the drive but needs a quiet room that meets the proctoring rules and a reliable connection for 3.25 hours. A Prometric centre removes the technology risk. Confirm the options open for your window when you apply, since API controls how each window is delivered."
+   "a": "API's API 580 page says the exam can be scheduled either way, so choose by circumstance. Remote proctoring saves the drive but needs a quiet room that meets the proctoring rules and a reliable connection for 3.25 hours. A Prometric centre removes the technology risk. Confirm the delivery options API offers when you apply, since API decides how the examination is delivered."
   },
   {
    "q": "Can an RBI assessment lengthen Washington's biennial vessel inspections?",
@@ -24,7 +24,7 @@
   },
   {
    "q": "Is environmental consequence tested on the API 580 exam?",
-   "a": "Consequence of failure is one of the knowledge areas in the Body of Knowledge, covering flammable, toxic, environmental and business consequences. Expect questions on what each category covers, how consequence combines with probability into risk and which actions reduce consequence as opposed to probability. You will not be asked to apply a Washington agency's rules, but understanding why a release near Puget Sound weighs heavily makes the principles easier to remember."
+   "a": "Consequence of failure is one of the ten knowledge areas in the Body of Knowledge, and RP 580 discusses the kinds of consequence an assessment weighs, from fire and toxic release to environmental and financial loss. Expect questions on what each category covers, how consequence combines with probability into risk and which actions reduce consequence as opposed to probability. You will not be asked to apply a Washington agency's rules, but understanding why a release near Puget Sound weighs heavily makes the principles easier to remember."
   },
   {
    "q": "I work at a pulp mill, not a refinery. Can I qualify for API 580?",
@@ -55,5 +55,6 @@
   "https://www.marathonpetroleum.com/Operations/Refining/Anacortes-Refinery/",
   "https://www.hfsinclair.com/operations/facilities/us/anacortes-wa/"
  ],
- "published": "2026-11-28"
+ "published": "2026-11-28",
+ "reviewed": "2026-11-28"
 }
