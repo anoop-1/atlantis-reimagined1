@@ -11,4 +11,9 @@ One line per run: date · what went live (deploy commit title) · deploy run. Re
 - 2026-11-28 · API training: San Francisco Bay Area city pages reviewed (Air Product… · run 46114930290
 - 2026-11-28 · AWS CWI: Des Moines, Grand Rapids, Toledo and Fort Wayne city pages r… · run 46116390809
 - 2026-11-28 · API training: St. Louis city pages reviewed (Missouri act title and s… · run 46118228091
-- 2026-11-28 · API training: Philadelphia city pages reviewed (ellipsoidal head exam… · run 46119723891
+- 2026-11-28 · API training: Philadelphia city pages reviewed + AWS CWI Knoxville, Chattanooga, Savannah, Pascagoula · run 46119723891
+- 2026-11-28 · API training: Newark and Denver city pages reviewed · run 46121675310
+- 2026-11-28 · API training: Salt Lake City city pages reviewed + AWS CWI Peoria, Green Bay, Greenville SC, Shreveport · run 46122798219
+- 2026-11-28 · API training: Billings city pages reviewed (+ CLAUDE.md §90; built with the report-validation daily run merged in) · run 46125567426
+
+## Daily runs (scheduled task "API + CWI training daily additions", 23:19 IST)
