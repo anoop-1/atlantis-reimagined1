@@ -2038,60 +2038,6 @@
   "metaDescription": "Hydrogen Permeation in Stainless Steel — hydrogen permeation in austenitic stainless steel, sensitivity by grade + processing. ASNT NDT Leve"
  },
  {
-  "slug": "ndt-services-sao-paulo-2027-petrobras-aligned",
-  "title": "NDT Services São Paulo — Petrobras Aligned",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services São Paulo — Petrobras Aligned — São Paulo NDT inspection services aligned with Petrobras + Vale + Embraer operator standards. A"
- },
- {
-  "slug": "ndt-services-rio-de-janeiro-2027-petrobras-aligned",
-  "title": "NDT Services Rio de Janeiro — Petrobras FPSO Aligned",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Rio de Janeiro — Petrobras FPSO Aligned — Rio de Janeiro NDT services + offshore platform + FPSO inspection per Petrobras. ASNT"
- },
- {
-  "slug": "ndt-services-salvador-2027-bahia-refining",
-  "title": "NDT Services Salvador — Bahia Refining Decoded",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Salvador — Bahia Refining Decoded — Salvador NDT services + Bahia refining + offshore + petrochem. ASNT NDT Level III authored."
- },
- {
-  "slug": "ndt-services-buenos-aires-2027-ypf",
-  "title": "NDT Services Buenos Aires — YPF + Pampean Inspection",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Buenos Aires — YPF + Pampean Inspection — Buenos Aires NDT services + YPF + Pampean inspection programs. ASNT NDT Level III aut"
- },
- {
-  "slug": "ndt-services-neuquen-2027-vaca-muerta",
-  "title": "NDT Services Neuquén — Vaca Muerta Shale",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Neuquén — Vaca Muerta Shale — Neuquén NDT services + Vaca Muerta shale + oil & gas inspection. ASNT NDT Level III authored. Fre"
- },
- {
-  "slug": "ndt-services-cairo-2027-egypt-refining",
-  "title": "NDT Services Cairo — Egypt Refining + Petrochem",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Cairo — Egypt Refining + Petrochem — Cairo NDT services + Egypt refining + Suez Mediterranean offshore. ASNT NDT Level III auth"
- },
- {
-  "slug": "ndt-services-alexandria-2027-port-petrochem",
-  "title": "NDT Services Alexandria — Port + Petrochem",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Alexandria — Port + Petrochem — Alexandria NDT services + port + petrochem inspection. ASNT NDT Level III authored. Free Atlant"
- },
- {
-  "slug": "ndt-services-suez-2027-canal-marine",
-  "title": "NDT Services Suez — Canal + Marine",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Suez — Canal + Marine — Suez NDT services + Canal + marine + refining inspection. ASNT NDT Level III authored. Free Atlantis ND"
- },
- {
-  "slug": "ndt-services-casablanca-2027-morocco-port",
-  "title": "NDT Services Casablanca — Morocco Port + Phosphate",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Casablanca — Morocco Port + Phosphate — Casablanca NDT services + Morocco port + phosphate processing + offshore. ASNT NDT Leve"
- },
- {
   "slug": "ndt-services-istanbul-2027-turkey-port-marine",
   "title": "NDT Services Istanbul — Port + Marine + Construction",
   "category": "2027 Q1",
@@ -2102,18 +2048,6 @@
   "title": "NDT Services Izmir — Aegean Refining",
   "category": "2027 Q1",
   "metaDescription": "NDT Services Izmir — Aegean Refining — Izmir NDT services + Aegean refining + Aliaga petrochem + port. ASNT NDT Level III authored. Free Atl"
- },
- {
-  "slug": "ndt-services-lima-2027-peru-refining",
-  "title": "NDT Services Lima — Peru Refining + Mining",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Lima — Peru Refining + Mining — Lima NDT services + Peru refining + mining + port inspection. ASNT NDT Level III authored. Free"
- },
- {
-  "slug": "ndt-services-bogota-2027-ecopetrol",
-  "title": "NDT Services Bogotá — Ecopetrol Aligned",
-  "category": "2027 Q1",
-  "metaDescription": "NDT Services Bogotá — Ecopetrol Aligned — Bogotá NDT services + Ecopetrol + Colombia refining + petrochem. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "ndt-services-refining-aramco-2027-decoded",
@@ -3286,114 +3220,6 @@
   "metaDescription": "NDT for Solar PV — IEC 61215 Decoded — solar PV panel + framing NDT per IEC 61215 + electroluminescence + IRT. ASNT NDT Level III authored. "
  },
  {
-  "slug": "ndt-services-lagos-2028",
-  "title": "NDT Services Lagos — Nigeria Refining + Offshore",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Lagos — Nigeria Refining + Offshore — Lagos NDT services — Nigeria refining + offshore + petrochem. ASNT NDT Level III authored"
- },
- {
-  "slug": "ndt-services-algiers-2028",
-  "title": "NDT Services Algiers — Sonatrach Aligned",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Algiers — Sonatrach Aligned — Algiers NDT services — Sonatrach + Algeria refining. ASNT NDT Level III authored. Free Atlantis N"
- },
- {
-  "slug": "ndt-services-tripoli-2028",
-  "title": "NDT Services Tripoli — Libya Oil & Gas",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Tripoli — Libya Oil & Gas — Tripoli NDT services — Libya oil & gas + offshore. ASNT NDT Level III authored. Free Atlantis NDT c"
- },
- {
-  "slug": "ndt-services-luanda-2028",
-  "title": "NDT Services Luanda — Angola Sonangol",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Luanda — Angola Sonangol — Luanda NDT services — Sonangol + Angola offshore. ASNT NDT Level III authored. Free Atlantis NDT con"
- },
- {
-  "slug": "ndt-services-nairobi-2028",
-  "title": "NDT Services Nairobi — Kenya KPC Aligned",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Nairobi — Kenya KPC Aligned — Nairobi NDT services — KPC + Kenya pipeline. ASNT NDT Level III authored. Free Atlantis NDT consu"
- },
- {
-  "slug": "ndt-services-dar-es-salaam-2028",
-  "title": "NDT Services Dar es Salaam — Tanzania",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Dar es Salaam — Tanzania — Dar es Salaam NDT services — Tanzania port + LNG project. ASNT NDT Level III authored. Free Atlantis"
- },
- {
-  "slug": "ndt-services-accra-2028",
-  "title": "NDT Services Accra — Ghana Tullow Aligned",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Accra — Ghana Tullow Aligned — Accra NDT services — Tullow + Ghana offshore. ASNT NDT Level III authored. Free Atlantis NDT con"
- },
- {
-  "slug": "ndt-services-port-harcourt-2028",
-  "title": "NDT Services Port Harcourt — Nigeria Refining + Petrochem",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Port Harcourt — Nigeria Refining + Petrochem — Port Harcourt NDT services — Nigeria refining + petrochem + offshore. ASNT NDT L"
- },
- {
-  "slug": "ndt-services-tashkent-2028",
-  "title": "NDT Services Tashkent — Uzbekistan",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Tashkent — Uzbekistan — Tashkent NDT services — Uzbekistan oil + gas. ASNT NDT Level III authored. Free Atlantis NDT consultati"
- },
- {
-  "slug": "ndt-services-baku-2028",
-  "title": "NDT Services Baku — SOCAR Aligned",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Baku — SOCAR Aligned — Baku NDT services — SOCAR + Azerbaijan offshore + refining. ASNT NDT Level III authored. Free Atlantis N"
- },
- {
-  "slug": "ndt-services-astana-2028",
-  "title": "NDT Services Astana — Kazakhstan KazMunayGas",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Astana — Kazakhstan KazMunayGas — Astana NDT services — KazMunayGas + Kazakhstan refining + petrochem. ASNT NDT Level III autho"
- },
- {
-  "slug": "ndt-services-tehran-2028",
-  "title": "NDT Services Tehran — NIOC Aligned",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Tehran — NIOC Aligned — Tehran NDT services — NIOC + Iran refining + petrochem. ASNT NDT Level III authored. Free Atlantis NDT "
- },
- {
-  "slug": "ndt-services-ashgabat-2028",
-  "title": "NDT Services Ashgabat — Turkmenistan",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Ashgabat — Turkmenistan — Ashgabat NDT services — Turkmenistan gas + offshore. ASNT NDT Level III authored. Free Atlantis NDT c"
- },
- {
-  "slug": "ndt-services-santiago-2028",
-  "title": "NDT Services Santiago — Chile ENAP Mining",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Santiago — Chile ENAP Mining — Santiago NDT services — ENAP + Chile mining + refining. ASNT NDT Level III authored. Free Atlant"
- },
- {
-  "slug": "ndt-services-caracas-2028",
-  "title": "NDT Services Caracas — PDVSA Aligned",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Caracas — PDVSA Aligned — Caracas NDT services — PDVSA + Venezuela refining. ASNT NDT Level III authored. Free Atlantis NDT con"
- },
- {
-  "slug": "ndt-services-quito-2028",
-  "title": "NDT Services Quito — Ecuador Petroecuador",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Quito — Ecuador Petroecuador — Quito NDT services — Petroecuador + Ecuador refining + offshore. ASNT NDT Level III authored. Fr"
- },
- {
-  "slug": "ndt-services-asuncion-2028",
-  "title": "NDT Services Asunción — Paraguay",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Asunción — Paraguay — Asunción NDT services — Paraguay oil + gas. ASNT NDT Level III authored. Free Atlantis NDT consultation +"
- },
- {
-  "slug": "ndt-services-montevideo-2028",
-  "title": "NDT Services Montevideo — ANCAP Aligned",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Montevideo — ANCAP Aligned — Montevideo NDT services — ANCAP + Uruguay refining. ASNT NDT Level III authored. Free Atlantis NDT"
- },
- {
   "slug": "ndt-services-basra-2028",
   "title": "NDT Services Basra — Iraq Refining + Oil",
   "category": "2028 International City Expansion",
@@ -3404,30 +3230,6 @@
   "title": "NDT Services Erbil — KRG Oil & Gas",
   "category": "2028 International City Expansion",
   "metaDescription": "NDT Services Erbil — KRG Oil & Gas — Erbil NDT services — KRG + Iraq Kurdistan oil & gas. ASNT NDT Level III authored. Free Atlantis NDT con"
- },
- {
-  "slug": "ndt-services-sanaa-2028",
-  "title": "NDT Services Sanaa — Yemen LNG + Oil",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Sanaa — Yemen LNG + Oil — Sanaa NDT services — Yemen LNG + oil & gas. ASNT NDT Level III authored. Free Atlantis NDT consultati"
- },
- {
-  "slug": "ndt-services-jeju-2028",
-  "title": "NDT Services Jeju — South Korea Offshore",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Jeju — South Korea Offshore — Jeju NDT services — Korea offshore + marine. ASNT NDT Level III authored. Free Atlantis NDT consu"
- },
- {
-  "slug": "ndt-services-suva-2028",
-  "title": "NDT Services Suva — Fiji Pacific",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Suva — Fiji Pacific — Suva NDT services — Fiji + Pacific port + marine. ASNT NDT Level III authored. Free Atlantis NDT consulta"
- },
- {
-  "slug": "ndt-services-port-moresby-2028",
-  "title": "NDT Services Port Moresby — PNG LNG",
-  "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Port Moresby — PNG LNG — Port Moresby NDT services — PNG LNG + offshore. ASNT NDT Level III authored. Free Atlantis NDT consult"
  },
  {
   "slug": "ndt-services-warsaw-2028",

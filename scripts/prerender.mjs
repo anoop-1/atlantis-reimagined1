@@ -2522,6 +2522,9 @@ const countryRegions = [
   { slug: 'mexico', name: 'Mexico', operators: 'Pemex, CFE, Grupo Bimbo, Cemex, BIVA, Iberdrola Mexico', cert: 'ASNT, ISO 9712, AMENDI', regs: 'CRE, ASEA, SENER, NOM standards', cities: ['mexico-city', 'veracruz', 'tampico', 'salina-cruz', 'cadereyta'] },
 ];
 
+// Owner 2026-11-27/28: no field inspection in Africa, Latin America, Asia outside Singapore and India,
+// or Australia and New Zealand (inspection pages there are 301'd, see scripts/retired-*-inspection-*.json).
+const NO_FIELD_INSPECTION_REGIONS = new Set(['south-africa', 'nigeria', 'brazil', 'mexico', 'australia', 'new-zealand', 'malaysia', 'indonesia', 'thailand', 'vietnam', 'philippines']);
 countryRegions.forEach(c => {
   const cityList = c.cities.map(slug => `<li><a href="/ndt-erp-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')}</a> ERP · <a href="/ndt-training-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')} Training</a> · <a href="/consulting/ndt-consulting-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')} Consulting</a> · <a href="/digital-twin-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')} Digital Twin</a> · <a href="/3d-scanning-${slug}">${slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')} 3D Scan</a></li>`).join('\n      ');
 
@@ -2533,7 +2536,7 @@ countryRegions.forEach(c => {
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/regions">Regions</a><a href="/regions/${c.slug}">${c.name}</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
     <h1>Atlantis NDT in ${c.name} 2026 — Country Hub for Inspection Contractors + EPC + Asset Owners</h1>
-    <p><strong>Atlantis NDT</strong> delivers ASNT NDT Level III-led inspection services + software stack across ${c.name}. Affordable, accessible, fully customizable. Free 30-min consultation with founder Anoop Rayavarapu (ASNT NDT Level III in UT, RT, MT, PT and VT) + tailored quote.</p>
+    <p><strong>Atlantis NDT</strong> ${NO_FIELD_INSPECTION_REGIONS.has(c.slug) ? `supports ${c.name} with remote ASNT NDT Level III consulting, training and its software stack; field inspection is not offered in ${c.name}` : `delivers ASNT NDT Level III-led inspection services + software stack across ${c.name}`}. Affordable, accessible, fully customizable. Free 30-min consultation with founder Anoop Rayavarapu (ASNT NDT Level III in UT, RT, MT, PT and VT) + tailored quote.</p>
 
     <h2>${c.name} Operator Roster</h2>
     <p>Operators, EPC contractors and asset owners active in ${c.name} include ${c.operators}.</p>

@@ -3896,7 +3896,6 @@ export default function RouteTable() { return (
                   <Route path="/inspection/third-party-inspection-jubail" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-genoa" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-jebel-ali" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-darwin" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-beaumont" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-london" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-minneapolis" element={<LazyRoute Component={DepthPage} />} />
@@ -3905,27 +3904,21 @@ export default function RouteTable() { return (
                   <Route path="/inspection/third-party-inspection-detroit" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-boston" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-charlotte" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-brisbane" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-delhi" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-miami" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-bath-maine" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-dallas" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-mexico-city" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-edmonton" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-newport-news" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-corpus-christi" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-fort-worth" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-madrid" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-melbourne" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-bergen" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-khobar" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-hamburg" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-louisville" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-huntsville" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-lagos" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-baytown" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-christchurch" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-gladstone" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-newcastle" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-mobile" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-cleveland" element={<LazyRoute Component={DepthPage} />} />
@@ -3938,19 +3931,16 @@ export default function RouteTable() { return (
                   <Route path="/inspection/third-party-inspection-new-york" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-kuwait" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-cincinnati" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-karratha" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-hyderabad" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-al-zour" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-antwerp" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-aberdeen" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-anchorage" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-abqaiq" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-auckland" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-aiken" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-atlanta" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-bangalore" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-bakersfield" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-antofagasta" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-basrah" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-baltimore" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-austin" element={<LazyRoute Component={DepthPage} />} />
@@ -3974,35 +3964,28 @@ export default function RouteTable() { return (
                   <Route path="/consulting/level-iii-audit-support-power-generation" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-ahmedabad" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-pipeline" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-busan" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-vadodara" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-chennai" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-shipbuilding" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-pune" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-offshore" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-dalian" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-mumbai" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-maritime" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/asme-b31-1" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-wuxi" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-fabrication" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-coimbatore" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-petrochemical" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/asme-b31-8" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-tianjin" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-mining" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/api-575" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-ulsan" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-tank-terminals" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-brescia" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/asme-section-ix" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-shanghai" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-nuclear" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/asme-section-v-article-10" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-kolkata" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-lng" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/asme-section-xi" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-ningbo" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-audit-support-aerospace" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-barcelona" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/api-583" element={<LazyRoute Component={DepthPage} />} />
@@ -4015,7 +3998,6 @@ export default function RouteTable() { return (
                   <Route path="/inspection/third-party-inspection-katowice" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/standards/api-651" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection/third-party-inspection-houston" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/inspection/third-party-inspection-monterrey" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/written-practice-for-steel-metals" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-of-record-freeport-texas" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/ultrasonic-testing-level-iii-freeport-texas" element={<LazyRoute Component={DepthPage} />} />

@@ -35,26 +35,17 @@ export const INSPECTION_REGIONS = {
       tpi('katowice', 'Katowice'), tpi('marseille', 'Marseille'), tpi('genoa', 'Genoa'), tpi('brescia', 'Brescia'), tpi('barcelona', 'Barcelona'),
       tpi('bilbao', 'Bilbao'), tpi('madrid', 'Madrid'), tpi('istanbul', 'Istanbul'),
     ] },
-    { name: 'Australia & New Zealand', links: [
-      tpi('brisbane', 'Brisbane'), tpi('melbourne', 'Melbourne'), tpi('darwin', 'Darwin'), tpi('karratha', 'Karratha'), tpi('gladstone', 'Gladstone'),
-      tpi('auckland', 'Auckland'), tpi('christchurch', 'Christchurch'),
-    ] },
     { name: 'Middle East', links: [
       tpi('dubai', 'Dubai'), tpi('abu-dhabi', 'Abu Dhabi'), tpi('jebel-ali', 'Jebel Ali'), tpi('fujairah', 'Fujairah'), tpi('doha', 'Doha'),
       tpi('mesaieed', 'Mesaieed'), tpi('manama', 'Manama'), tpi('kuwait', 'Kuwait'), tpi('al-zour', 'Al Zour'), tpi('dammam', 'Dammam'),
       tpi('jubail', 'Jubail'), tpi('khobar', 'Khobar'), tpi('abqaiq', 'Abqaiq'), tpi('khurais', 'Khurais'), tpi('basrah', 'Basrah'),
     ] },
-    { name: 'Asia', links: [
-      tpi('jurong-island', 'Jurong Island, Singapore'), tpi('busan', 'Busan'), tpi('ulsan', 'Ulsan'), tpi('shanghai', 'Shanghai'),
-      tpi('ningbo', 'Ningbo'), tpi('tianjin', 'Tianjin'), tpi('dalian', 'Dalian'),
-    ] },
+    // 2026-11-28 (owner): inspection pages kept in Asia for Singapore and India only.
+    { name: 'Singapore', links: [tpi('jurong-island', 'Jurong Island, Singapore')] },
     { name: 'India', links: [
       tpi('mumbai', 'Mumbai'), tpi('delhi', 'Delhi'), tpi('chennai', 'Chennai'), tpi('kolkata', 'Kolkata'), tpi('hyderabad', 'Hyderabad'),
       tpi('bangalore', 'Bangalore'), tpi('pune', 'Pune'), tpi('ahmedabad', 'Ahmedabad'), tpi('vadodara', 'Vadodara'), tpi('kochi', 'Kochi'),
       tpi('visakhapatnam', 'Visakhapatnam'),
-    ] },
-    { name: 'Latin America & Africa', links: [
-      tpi('mexico-city', 'Mexico City'), tpi('monterrey', 'Monterrey'), tpi('antofagasta', 'Antofagasta'), tpi('lagos', 'Lagos'),
     ] },
   ],
   footnote: [['/inspection-services', 'API 510, 570 and 653 inspection by city'], ['/contact?service=inspection&subject=Inspection%20enquiry', 'Not listed? Ask about your location']],

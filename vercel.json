@@ -3579,6 +3579,1251 @@
       "source": "/inspection/third-party-inspection-kerteh",
       "destination": "/inspection",
       "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-accra-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-alexandria-2027-port-petrochem",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-bogota-2027-ecopetrol",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-buenos-aires-2027-ypf",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-cairo-2027-egypt-refining",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-caracas-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-casablanca-2027-morocco-port",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-lagos-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-lima-2027-peru-refining",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-luanda-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-nairobi-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-port-harcourt-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-rio-de-janeiro-2027-petrobras-aligned",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-salvador-2027-bahia-refining",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-santiago-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-sao-paulo-2027-petrobras-aligned",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-australia",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-brazil",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-brisbane",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-colombia",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-japan",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-lagos",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-melbourne",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-mexico-city",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-nigeria",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-perth",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-south-korea",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-sydney",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-taiwan",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-antofagasta",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-auckland",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-brisbane",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-busan",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-christchurch",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-dalian",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-darwin",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-gladstone",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-karratha",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-lagos",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-melbourne",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-mexico-city",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-monterrey",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-ningbo",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-shanghai",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-tianjin",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-ulsan",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/third-party-inspection-wuxi",
+      "destination": "/inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-australia",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-brazil",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-brisbane",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-colombia",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-japan",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-lagos",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-melbourne",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-mexico-city",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-nigeria",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-perth",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-south-korea",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-sydney",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-taiwan",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-australia",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-brazil",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-brisbane",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-colombia",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-japan",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-lagos",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-melbourne",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-mexico-city",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-nigeria",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-perth",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-south-korea",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-sydney",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-taiwan",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-australia",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-brazil",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-brisbane",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-colombia",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-japan",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-lagos",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-melbourne",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-mexico-city",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-nigeria",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-perth",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-south-korea",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-sydney",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-taiwan",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-angola",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-argentina",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-australia",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-beijing",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-bogota",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-brazil",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-buenos-aires",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-colombia",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-egypt",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-japan",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-lagos",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-melbourne",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-mexico-city",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-nigeria",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-perth",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-rio-de-janeiro",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-santiago",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-sao-paulo",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-shanghai",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-south-korea",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-sydney",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-taiwan",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-trinidad",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-angola",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-argentina",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-australia",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-beijing",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-bogota",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-brazil",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-buenos-aires",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-colombia",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-egypt",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-japan",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-lagos",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-melbourne",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-mexico-city",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-nigeria",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-perth",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-rio-de-janeiro",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-santiago",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-sao-paulo",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-shanghai",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-south-korea",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-sydney",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-taiwan",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-trinidad",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-angola",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-argentina",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-australia",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-beijing",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-bogota",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-brazil",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-buenos-aires",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-colombia",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-egypt",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-japan",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-lagos",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-melbourne",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-mexico-city",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-nigeria",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-perth",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-rio-de-janeiro",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-santiago",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-sao-paulo",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-shanghai",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-south-korea",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-sydney",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-taiwan",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-trinidad",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-angola",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-argentina",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-australia",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-beijing",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-bogota",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-brazil",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-buenos-aires",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-colombia",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-egypt",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-japan",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-lagos",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-melbourne",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-mexico-city",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-nigeria",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-perth",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-rio-de-janeiro",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-santiago",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-sao-paulo",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-shanghai",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-south-korea",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-sydney",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-taiwan",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-trinidad",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-angola",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-argentina",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-australia",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-beijing",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-bogota",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-brazil",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-buenos-aires",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-colombia",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-egypt",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-japan",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-lagos",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-melbourne",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-mexico-city",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-nigeria",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-perth",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-rio-de-janeiro",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-santiago",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-sao-paulo",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-shanghai",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-south-korea",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-sydney",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-taiwan",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-trinidad",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-australia",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-brazil",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-brisbane",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-colombia",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-japan",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-lagos",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-melbourne",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-mexico-city",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-nigeria",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-perth",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-south-korea",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-sydney",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-taiwan",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-australia",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-brazil",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-brisbane",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-colombia",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-japan",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-lagos",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-melbourne",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-mexico-city",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-nigeria",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-perth",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-south-korea",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-sydney",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-taiwan",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/paut-inspection-lima",
+      "destination": "/inspection/phased-array-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/tofd-inspection-lima",
+      "destination": "/tofd-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/mfl-inspection-lima",
+      "destination": "/magnetic-flux-leakage-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/guided-wave-inspection-lima",
+      "destination": "/guided-wave-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/acoustic-emission-inspection-lima",
+      "destination": "/acoustic-emission-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-algiers-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-ashgabat-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-astana-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-asuncion-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-baku-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-dar-es-salaam-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-jeju-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-montevideo-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-neuquen-2027-vaca-muerta",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-port-moresby-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-quito-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-suez-2027-canal-marine",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-suva-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-tashkent-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-tehran-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-tripoli-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-services-sanaa-2028",
+      "destination": "/inspection/ndt-inspection-services",
+      "statusCode": 301
     }
   ],
   "rewrites": []
