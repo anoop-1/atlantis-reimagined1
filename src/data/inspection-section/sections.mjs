@@ -231,7 +231,7 @@ export const SECTION_PAGES = [
         'Proposed personnel are presented to the client for approval before mobilisation.',
       ] },
       { id: 'models', h: 'Engagement models', p: 'Short call-outs for a single inspection, project and turnaround crews, and longer resident assignments. Personnel can work under the client’s procedures and supervision, or as part of an Atlantis-managed inspection scope with Level III oversight and Atlantis reporting.' },
-      { id: 'note', h: 'Staffing, not training', p: 'This service supplies personnel who already hold the required certifications. Atlantis does not provide training or examination for API, CSWIP, AWS, AMPP or BGAS schemes; candidates seeking those certifications should go to the certifying body.' },
+      { id: 'note', h: 'Staffing, not training', p: 'This service supplies personnel who already hold the required certifications. Atlantis does not provide examinations for API, CSWIP, AWS, AMPP or BGAS schemes or training for CSWIP, AMPP or BGAS, and its API exam prep is a separate self-paced online course; candidates seeking those certifications should go to the certifying body.' },
     ],
     deliverables: ['Shortlist of certified candidates matched to the scope', 'Certificate verification records', 'Mobilisation and timesheet administration', 'Level III technical support on assignment'],
     industries: ['Refining and petrochemical', 'Oil and gas pipelines', 'Power generation', 'Fabrication yards', 'Storage terminals', 'Offshore'],
