@@ -1,0 +1,58 @@
+{
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/training/api-510-training-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-570-training-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-580-training-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-653-training-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-510-training-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-570-training-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-580-training-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-653-training-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-510-training-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-570-training-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-580-training-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-653-training-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-corpus-christi"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-baton-rouge"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-los-angeles"
+  },
+  {
+   "url": "https://atlantisndt.com/api-inspector-training-gulf-coast"
+  },
+  {
+   "url": "https://atlantisndt.com/api-inspector-training-west-coast"
+  },
+  {
+   "url": "https://atlantisndt.com/api-inspector-training-usa"
+  }
+ ]
+}
