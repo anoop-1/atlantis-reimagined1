@@ -442,6 +442,226 @@
    "st": "LA",
    "citySlug": "shreveport",
    "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-newport-news",
+   "slug": "cwi-training-newport-news",
+   "city": "Newport News",
+   "st": "VA",
+   "citySlug": "newport-news",
+   "region": "Mid-Atlantic"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-huntsville",
+   "slug": "cwi-training-huntsville",
+   "city": "Huntsville",
+   "st": "AL",
+   "citySlug": "huntsville",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-little-rock",
+   "slug": "cwi-training-little-rock",
+   "city": "Little Rock",
+   "st": "AR",
+   "citySlug": "little-rock",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-sacramento",
+   "slug": "cwi-training-sacramento",
+   "city": "Sacramento",
+   "st": "CA",
+   "citySlug": "sacramento",
+   "region": "West"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-reno",
+   "slug": "cwi-training-reno",
+   "city": "Reno",
+   "st": "NV",
+   "citySlug": "reno",
+   "region": "West"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-richmond",
+   "slug": "cwi-training-richmond",
+   "city": "Richmond",
+   "st": "VA",
+   "citySlug": "richmond",
+   "region": "Mid-Atlantic"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-rochester-new-york",
+   "slug": "cwi-training-rochester-new-york",
+   "city": "Rochester",
+   "st": "NY",
+   "citySlug": "rochester-new-york",
+   "region": "Northeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-harrisburg",
+   "slug": "cwi-training-harrisburg",
+   "city": "Harrisburg",
+   "st": "PA",
+   "citySlug": "harrisburg",
+   "region": "Northeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-allentown",
+   "slug": "cwi-training-allentown",
+   "city": "Allentown",
+   "st": "PA",
+   "citySlug": "allentown",
+   "region": "Northeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-akron",
+   "slug": "cwi-training-akron",
+   "city": "Akron",
+   "st": "OH",
+   "citySlug": "akron",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-dayton",
+   "slug": "cwi-training-dayton",
+   "city": "Dayton",
+   "st": "OH",
+   "citySlug": "dayton",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-evansville",
+   "slug": "cwi-training-evansville",
+   "city": "Evansville",
+   "st": "IN",
+   "citySlug": "evansville",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-lafayette",
+   "slug": "cwi-training-lafayette",
+   "city": "Lafayette",
+   "st": "LA",
+   "citySlug": "lafayette",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-amarillo",
+   "slug": "cwi-training-amarillo",
+   "city": "Amarillo",
+   "st": "TX",
+   "citySlug": "amarillo",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-casper",
+   "slug": "cwi-training-casper",
+   "city": "Casper",
+   "st": "WY",
+   "citySlug": "casper",
+   "region": "West"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-colorado-springs",
+   "slug": "cwi-training-colorado-springs",
+   "city": "Colorado Springs",
+   "st": "CO",
+   "citySlug": "colorado-springs",
+   "region": "West"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-tacoma",
+   "slug": "cwi-training-tacoma",
+   "city": "Tacoma",
+   "st": "WA",
+   "citySlug": "tacoma",
+   "region": "West"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-pensacola",
+   "slug": "cwi-training-pensacola",
+   "city": "Pensacola",
+   "st": "FL",
+   "citySlug": "pensacola",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-augusta",
+   "slug": "cwi-training-augusta",
+   "city": "Augusta",
+   "st": "GA",
+   "citySlug": "augusta",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-jackson",
+   "slug": "cwi-training-jackson",
+   "city": "Jackson",
+   "st": "MS",
+   "citySlug": "jackson",
+   "region": "South Central"
   }
  ]
 }
