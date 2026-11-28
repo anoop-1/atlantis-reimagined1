@@ -1,5 +1,5 @@
 {
- "_note": "2026-11-18 audit-support consulting + AWS CWI exam-prep pages (CLAUDE.md \u00a780). One record per page in this folder: {slug}.json. Built by scripts/audit-cwi-2026-11.mjs.",
+ "_note": "2026-11-18 audit-support consulting + AWS CWI exam-prep pages (CLAUDE.md §80). One record per page in this folder: {slug}.json. Built by scripts/audit-cwi-2026-11.mjs.",
  "pages": [
   {
    "family": "audit",
@@ -970,6 +970,50 @@
    "city": "San Francisco",
    "st": "CA",
    "citySlug": "san-francisco",
+   "region": "West"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-midland",
+   "slug": "cwi-training-midland",
+   "city": "Midland",
+   "st": "TX",
+   "citySlug": "midland",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-el-paso",
+   "slug": "cwi-training-el-paso",
+   "city": "El Paso",
+   "st": "TX",
+   "citySlug": "el-paso",
+   "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-bakersfield",
+   "slug": "cwi-training-bakersfield",
+   "city": "Bakersfield",
+   "st": "CA",
+   "citySlug": "bakersfield",
+   "region": "West"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-albuquerque",
+   "slug": "cwi-training-albuquerque",
+   "city": "Albuquerque",
+   "st": "NM",
+   "citySlug": "albuquerque",
    "region": "West"
   }
  ]
