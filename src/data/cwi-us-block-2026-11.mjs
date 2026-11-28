@@ -32,6 +32,7 @@ export const CWI_CITIES = {
   midland: ['Midland', 'TX'], 'el-paso': ['El Paso', 'TX'], bakersfield: ['Bakersfield', 'CA'], albuquerque: ['Albuquerque', 'NM'],
   tucson: ['Tucson', 'AZ'], spokane: ['Spokane', 'WA'], billings: ['Billings', 'MT'], anchorage: ['Anchorage', 'AK'],
   'des-moines': ['Des Moines', 'IA'], 'grand-rapids': ['Grand Rapids', 'MI'], toledo: ['Toledo', 'OH'], 'fort-wayne': ['Fort Wayne', 'IN'],
+  knoxville: ['Knoxville', 'TN'], chattanooga: ['Chattanooga', 'TN'], savannah: ['Savannah', 'GA'], pascagoula: ['Pascagoula', 'MS'],
 };
 
 const STATE_CODE = {
@@ -46,7 +47,7 @@ const STATE_CODE = {
 const STATE_DEFAULT = {
   AL: 'birmingham', AK: 'anchorage', AZ: 'phoenix', AR: 'memphis', CA: 'los-angeles', CO: 'denver', CT: 'boston', DE: 'philadelphia', DC: 'washington-dc',
   FL: 'tampa', GA: 'atlanta', HI: 'los-angeles', ID: 'salt-lake-city', IL: 'chicago', IN: 'indianapolis', IA: 'des-moines', KS: 'wichita', KY: 'louisville',
-  LA: 'baton-rouge', ME: 'boston', MD: 'baltimore', MA: 'boston', MI: 'detroit', MN: 'minneapolis', MS: 'new-orleans', MO: 'st-louis', MT: 'billings',
+  LA: 'baton-rouge', ME: 'boston', MD: 'baltimore', MA: 'boston', MI: 'detroit', MN: 'minneapolis', MS: 'pascagoula', MO: 'st-louis', MT: 'billings',
   NE: 'omaha', NV: 'las-vegas', NH: 'boston', NJ: 'newark', NM: 'albuquerque', NY: 'new-york', NC: 'charlotte', ND: 'minneapolis', OH: 'columbus-ohio',
   OK: 'oklahoma-city', OR: 'portland', PA: 'philadelphia', RI: 'boston', SC: 'north-charleston', SD: 'omaha', TN: 'nashville', TX: 'houston',
   UT: 'salt-lake-city', VT: 'boston', VA: 'norfolk', WA: 'seattle', WV: 'pittsburgh', WI: 'milwaukee', WY: 'denver',
@@ -69,7 +70,7 @@ const CITY_OVERRIDE = {
   // Pennsylvania and New York
   erie: 'buffalo', allentown: 'philadelphia', albany: 'new-york',
   // Missouri, Tennessee, Kentucky, Illinois, Indiana
-  springfield: 'st-louis', peoria: 'chicago', whiting: 'chicago', knoxville: 'nashville', chattanooga: 'atlanta', 'oak-ridge': 'nashville', lexington: 'louisville',
+  springfield: 'st-louis', peoria: 'chicago', whiting: 'chicago', knoxville: 'nashville', chattanooga: 'atlanta', 'oak-ridge': 'knoxville', lexington: 'louisville',
   // Carolinas, Virginia, Georgia
   'greenville-south-carolina': 'charlotte', 'wilmington-north-carolina': 'north-charleston', raleigh: 'charlotte', fayetteville: 'charlotte', aiken: 'atlanta',
   richmond: 'norfolk', lynchburg: 'norfolk', 'newport-news': 'norfolk', savannah: 'jacksonville',

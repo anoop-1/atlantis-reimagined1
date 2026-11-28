@@ -1103,6 +1103,50 @@
    "st": "IN",
    "citySlug": "fort-wayne",
    "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-knoxville",
+   "slug": "cwi-training-knoxville",
+   "city": "Knoxville",
+   "st": "TN",
+   "citySlug": "knoxville",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-chattanooga",
+   "slug": "cwi-training-chattanooga",
+   "city": "Chattanooga",
+   "st": "TN",
+   "citySlug": "chattanooga",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-savannah",
+   "slug": "cwi-training-savannah",
+   "city": "Savannah",
+   "st": "GA",
+   "citySlug": "savannah",
+   "region": "Southeast"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-pascagoula",
+   "slug": "cwi-training-pascagoula",
+   "city": "Pascagoula",
+   "st": "MS",
+   "citySlug": "pascagoula",
+   "region": "South Central"
   }
  ]
 }
