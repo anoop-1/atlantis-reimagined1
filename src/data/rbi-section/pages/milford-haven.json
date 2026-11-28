@@ -1,0 +1,353 @@
+{
+  "title": "Milford Haven RBI: Refinery, LNG Terminals and Tank Storage",
+  "description": "Remote RBI for Milford Haven Waterway sites: Pembroke refinery units, LNG import terminal plant, crude and product tanks, jetty lines and PSSR schemes.",
+  "h1": "Risk-based inspection for the refinery, LNG and storage sites on the Milford Haven Waterway",
+  "eyebrow": "Risk-based inspection in Milford Haven",
+  "intro": "The Milford Haven Waterway in Pembrokeshire carries a refinery, two LNG import terminals, a large oil storage terminal on a former refinery site and the jetties that serve them, all exposed to wet Atlantic weather and salt air. This page is for integrity engineers, inspection leads and competent persons working on those sites. It describes the facilities, the damage that the climate and each service produce, how an RBI study fits the UK written scheme of examination and COMAH framework, and how Atlantis carries out the study remotely from the site's own records.",
+  "highlights": [
+    {
+      "h": "Built around the written scheme",
+      "p": "In Great Britain the legal anchor for pressure equipment is the written scheme of examination. The study is arranged so that its inspection plan feeds the scheme that the owner and the competent person maintain, item by item, instead of sitting in a separate binder nobody reconciles."
+    },
+    {
+      "h": "Weather treated as a damage driver",
+      "p": "Pembrokeshire rain, wind-driven spray and long periods of wet insulation make external corrosion and corrosion under insulation the commonest findings on the waterway. The plan gives insulated and splash-zone items their own probability basis rather than borrowing rates from inland plants."
+    },
+    {
+      "h": "Cryogenic plant judged on cracking, not wall loss",
+      "p": "LNG storage and send-out equipment rarely thins. Its risk sits in brittle fracture, cold spots, insulation breakdown and fatigue at the warm end. The study ranks those items on the mechanisms that actually apply and says plainly where thickness readings add nothing."
+    }
+  ],
+  "sections": [
+    {
+      "id": "waterway-sites",
+      "h": "The energy sites along the Milford Haven Waterway",
+      "p": [
+        "Valero's Pembroke refinery stands on the south side of the waterway. Valero gives its throughput as about 270,000 barrels per day and says crude and other feedstocks arrive, and some products leave, through deepwater docking facilities on the Haven. Its units include a fluid catalytic cracker with associated sour water stripping, sulphur recovery and a cogeneration plant, and refined products leave across the Haven as well as by land.",
+        "Two LNG import terminals sit on the north shore. South Hook LNG is owned by QatarEnergy with 67.5 percent, ExxonMobil, through ExxonMobil Qatargas (II) Terminal Company, with 24.15 percent and TotalEnergies with 8.35 percent, and it receives cargoes from Qatar. Dragon LNG, at Waterston, has been owned in equal halves by Shell and VTTI since VTTI completed its purchase of Ancala's stake in August 2024; the terminal can send out up to about nine billion cubic metres of gas a year.",
+        "Between them, the oil storage and distribution terminal on the site of the former Murco refinery, which stopped refining in 2014 and was bought by Puma Energy in March 2015, is now run by Impala Terminals, which took it over from Puma in a 2022 restructuring; the berths were renamed Impala Terminal in 2024. RWE's gas-fired Pembroke power station stands on the south side of the waterway. The Port of Milford Haven, a trust port with no shareholders, manages navigation on the waterway."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/united-kingdom",
+          "RBI in the United Kingdom"
+        ],
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ]
+      ]
+    },
+    {
+      "id": "asset-mix-table",
+      "h": "What a study on the waterway usually registers",
+      "p": [
+        "The sites here are very different from one another, so the register and the dominant mechanisms change with the facility. The table sets out the main equipment families found along the Haven, the damage that tends to control probability in each, and the inspection evidence that lets a future examination be credited with a meaningful effectiveness."
+      ],
+      "table": {
+        "head": [
+          "Equipment family",
+          "Damage that usually controls probability",
+          "Evidence worth crediting"
+        ],
+        "rows": [
+          [
+            "Refinery crude, vacuum and hydroprocessing units",
+            "High-temperature sulfidation, naphthenic acid where crude slates carry it, high-temperature hydrogen attack checks, ammonium salt fouling and corrosion in effluent trains",
+            "Thickness surveys at known hot spots, alloy verification, targeted advanced ultrasonics where cracking is credible"
+          ],
+          [
+            "FCC, sour water and amine systems",
+            "Wet hydrogen sulphide cracking, ammonium bisulphide corrosion, amine stress corrosion cracking, erosion in catalyst handling",
+            "Wet fluorescent magnetic particle or equivalent crack testing on welds, scanning on high-velocity bends"
+          ],
+          [
+            "Crude and product tanks",
+            "Floor and annular plate corrosion from both sides, roof plate and pontoon corrosion, shell corrosion at the chime",
+            "Floor scanning with follow-up sizing, roof surveys, shell thickness and coating condition"
+          ],
+          [
+            "LNG tanks and send-out plant",
+            "Brittle fracture potential if cold liquid reaches carbon steel, insulation failure and cold spots, fatigue at vaporiser and pump connections",
+            "Thermal surveys of tank walls and roofs, insulation inspection, crack testing at fatigue-prone welds"
+          ],
+          [
+            "Jetty pipework and loading arm connections",
+            "Splash-zone and atmospheric corrosion, corrosion at supports and clamps, wear at swivels",
+            "Close visual, lifting at supports, thickness readings at drain points and low spots"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "atlantic-weather",
+      "h": "Atlantic weather and external damage",
+      "p": [
+        "West Wales gets frequent rain and strong onshore winds, and the waterway is a long tidal inlet open to the sea. On the sites that line it, salt carried on the wind lands on structures and piping, and much of the year the steel never fully dries. External corrosion therefore keeps pace with, and on some systems overtakes, internal corrosion as the reason items reach the top of a ranking.",
+        "Corrosion under insulation is the mechanism that most often surprises owners here. Insulation that is soaked by rain, cladding opened at a flange and never resealed, and lines that cycle through the temperature band where water persists all combine to keep insulated carbon steel wet. A study that takes CUI probability from a generic table tends to under-rank these lines. The better approach is to score each insulated circuit on operating temperature, coating age, cladding condition and drain arrangements, and to let the site's own strip-back history calibrate the result.",
+        "Splash and tidal zones under the jetties deserve their own treatment. Pipework supported close to the water, clamps that trap moisture and pipe shoes that rub through coatings are classic places for localised loss. The plan identifies those points individually, because a corrosion rate measured at a dry midspan location says little about a support that is wetted twice a day."
+      ],
+      "links": [
+        [
+          "/api-inspection/cui-in-api-570-and-api-510-inspection-plans",
+          "CUI in inspection plans"
+        ],
+        [
+          "/glossary/corrosion-under-insulation-cui",
+          "Corrosion under insulation explained"
+        ]
+      ]
+    },
+    {
+      "id": "lng-plant",
+      "h": "LNG terminal equipment and why it needs a different logic",
+      "p": [
+        "LNG is stored at around minus 162 degrees Celsius. Large import tanks are typically of the full-containment type, with an inner tank of cryogenic steel such as 9 percent nickel inside an outer concrete wall, and their inner surfaces are not opened for routine inspection the way an oil tank is. An API 653 style floor scan every few years is not how these tanks are managed. Their integrity case rests on design, construction records, monitoring of the annular space and foundation heating, settlement surveys and external thermal checks, and an RBI for such a terminal should reflect that rather than force the tanks into an oil-tank template.",
+        "The probability side for cryogenic plant is dominated by mechanisms that have little to do with wall thinning. Carbon steel connections, supports or drip trays that are wetted by spilled liquid can fracture in a brittle manner. Cold spots on a tank wall or roof can point to insulation settlement or damage. Vaporisers, send-out pumps and the warm end of the process see thermal and mechanical cycling, so fatigue at welded attachments and small-bore connections is a real concern. Seawater systems used for heat exchange bring their own corrosion and fouling problems.",
+        "The study therefore records the material of every item exposed to cold service, flags each place where a leak could reach a material that is not rated for the temperature, and plans thermal surveys, insulation inspections and crack testing where they reveal something. Thickness monitoring is kept for the parts of the plant where it is meaningful, such as seawater lines, boil-off gas handling at near-ambient temperature and utility systems."
+      ]
+    },
+    {
+      "id": "refinery-units",
+      "h": "Refinery units: mechanisms and inspection planning",
+      "p": [
+        "For the refinery, the damage mechanism review follows API 571 unit by unit. Hot sections of the crude and vacuum units are assessed for sulfidation, with the sulphur content of the crude slate and the chromium content of each component deciding the expected rate. Hydroprocessing reactors and effluent trains are reviewed for high-temperature hydrogen attack against the current API 941 approach, and for ammonium chloride and ammonium bisulphide corrosion where process conditions allow salts to form and water to condense.",
+        "The FCC unit, sour water stripping and the amine and sulphur recovery systems carry most of the cracking risk on a refinery of this type. Wet hydrogen sulphide damage in vessels and piping, amine stress corrosion cracking in non-stress-relieved carbon steel, and erosion in catalyst lines all need techniques chosen for the mechanism rather than spot thickness readings. Where integrity operating windows exist, the study links each critical window to the mechanism it protects against, so an excursion becomes a trigger for reassessment of the affected loop."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ],
+        [
+          "/standards/api-584",
+          "Integrity operating windows"
+        ]
+      ]
+    },
+    {
+      "id": "storage-tanks",
+      "h": "Crude and product tanks on the Haven",
+      "p": [
+        "The refinery tank farm and the storage terminal hold crude, intermediates and finished fuels in atmospheric tanks of many ages, sizes and roof types. Ranking them as one population lets the owner place out-of-service windows where risk and consequence justify them, instead of following a fixed rotation. Floors are usually the controlling element: product-side pitting under water and sediment, soil-side corrosion where foundations or cathodic protection have deteriorated, and annular plate loss near the shell.",
+        "UK tank owners commonly follow EEMUA 159 for inspection and maintenance of above-ground atmospheric tanks, while others use API 653 or a company procedure, and some sites use both for different tank groups. The study states which document governs each tank, applies that document's rules on intervals and minimum thicknesses, and does not mix the two in one calculation. Where API 653 is the basis, an RBI-based internal interval is acceptable only while the assessment is validated and reviewed at least every ten years.",
+        "Floating roofs and pontoons, secondary seals, roof drains and wind girders take a beating in this climate and are a frequent source of unplanned work. They are registered as items with their own consequence, because a sunk roof or a blocked drain can take a tank out of service as surely as a floor leak."
+      ],
+      "links": [
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ],
+        [
+          "/api-inspection/api-653-tank-floor-pitting-remaining-thickness",
+          "Tank floor pitting and remaining thickness"
+        ]
+      ]
+    },
+    {
+      "id": "uk-rules",
+      "h": "The UK rules an RBI study has to respect",
+      "p": [
+        "The Pressure Systems Safety Regulations 2000 require the user or owner of a relevant pressure system to have a written scheme of examination drawn up or certified by a competent person, and to have the system examined in line with that scheme. RBI is a way of building the evidence for what the scheme should contain: which items, what kind of examination, and how often. It does not replace the scheme, and the competent person decides whether to adopt the intervals and techniques the study proposes. Atlantis is not the competent person and does not act as inspector of record.",
+        "The major sites on the waterway are also regulated under the Control of Major Accident Hazards Regulations 2015. In Wales the COMAH competent authority is the Health and Safety Executive acting jointly with Natural Resources Wales. COMAH inspectors expect an operator to show how its inspection and maintenance arrangements keep major accident risk low, and a documented RBI is often part of that demonstration. The study's records are written so that an inspector can follow the reasoning from damage mechanism to inspection decision without needing the analyst in the room.",
+        "Atmospheric tanks sit outside the pressure regulations, which is why the choice of EEMUA 159, API 653 or an internal procedure matters so much for them. Refrigerated LNG tanks have their own body of practice, including EEMUA Publication 147 on refrigerated liquefied gas storage tanks, and the study names whichever document the terminal operates to."
+      ]
+    },
+    {
+      "id": "remote-delivery",
+      "h": "Carrying out the study from outside Pembrokeshire",
+      "p": [
+        "The study needs no travel. The site sets up a data room with process flow diagrams, P&IDs, line lists, equipment datasheets and design records, the written scheme of examination and recent examination reports, thickness databases, CUI strip-back records, tank inspection reports and process chemistry. For the LNG terminals, add tank monitoring records, thermal surveys and commissioning data. Where an existing RBI is in a commercial package, an export of the register and assessment data is enough to start from.",
+        "Workshops run by video with the site's operations, process, corrosion and inspection people. A UK site sits five or six hours ahead of Houston and four and a half to five and a half hours behind Hyderabad, depending on the season, so sessions are booked in the UK morning or early afternoon and kept short enough that people can return to plant work. Between sessions, questions and answers are logged so decisions survive changes of attendee.",
+        "Field checks are done by the owner's inspectors or their inspection contractor. The study produces a field verification list of items where the drawings, the register and the plant may disagree, such as insulation that has been removed or replaced, temporary repairs, abandoned branches and supports that have been modified, and the site returns photographs and readings into the data room."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "How remote RBI works"
+        ]
+      ]
+    },
+    {
+      "id": "scope-limits",
+      "h": "Outputs, approvals and what stays with the owner",
+      "p": [
+        "The output is a risk-ranked register with damage mechanisms for every corrosion loop or tank, a recommended inspection for each item with technique, coverage, expected effectiveness and due date, a data-gap log, a list of reassessment triggers and a report explaining the method and assumptions. Probability and consequence can be qualitative, semi-quantitative or quantitative to API RP 581, or follow the operator's own RBI procedure if one exists.",
+        "Where an inspection finds damage beyond what the plan expected, any fitness-for-service assessment stays with the owner's engineer; Atlantis does not offer it. The proposed intervals become effective only when the owner's competent person or inspection authority accepts them into the written scheme or the tank inspection programme."
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 (risk-based inspection)",
+    "API RP 581 (risk-based inspection methodology)",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "API RP 571 (damage mechanisms affecting fixed equipment)",
+    "API 653 (tank inspection, repair, alteration and reconstruction)",
+    "EEMUA 159 (above-ground flat-bottomed storage tanks)",
+    "EEMUA Publication 147 (refrigerated liquefied gas storage tanks)",
+    "API RP 583 (corrosion under insulation and fireproofing)",
+    "API RP 584 (integrity operating windows)",
+    "API RP 941 (steels for hydrogen service)",
+    "Pressure Systems Safety Regulations 2000",
+    "Control of Major Accident Hazards Regulations 2015"
+  ],
+  "deliverables": [
+    "Equipment and tank register with written scheme references",
+    "Corrosion loops and damage mechanism assignments to API 571",
+    "Probability, consequence and risk ranking to the agreed method",
+    "Inspection plan with technique, coverage, effectiveness and due date per item",
+    "CUI and splash-zone campaign order for insulated and jetty systems",
+    "Cold service material and insulation review for LNG plant",
+    "Data-gap log and field verification list for the site's inspectors",
+    "Reassessment triggers tied to integrity operating windows"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "LNG import and regasification",
+    "Oil storage and distribution terminals",
+    "Gas-fired power generation",
+    "Marine jetties and loading facilities"
+  ],
+  "faqs": [
+    {
+      "q": "Does an RBI study replace our written scheme of examination?",
+      "a": "No. Under the Pressure Systems Safety Regulations the written scheme remains the legal document, drawn up or certified by a competent person. The RBI study supplies the reasoning behind its content: why an item is examined, which technique finds the damage expected, and how long the evidence supports before the next examination. The competent person reviews the study's proposals and decides what enters the scheme. Atlantis prepares the study and explains it; it does not certify the scheme or act as the competent person."
+    },
+    {
+      "q": "Our insulated lines keep producing CUI findings. How does the study handle that?",
+      "a": "It treats CUI as a site-specific mechanism. Each insulated circuit is scored on operating temperature, coating system and age, cladding and sealing condition, and how water gets in and drains out. The site's own strip-back findings are used to calibrate the scores, so circuits that look similar on paper but behave differently in this wet climate are separated. The plan then sets an order for removal and inspection, starting where both probability and consequence are high, and records what each strip-back should look for."
+    },
+    {
+      "q": "Can LNG import tanks be included in the same study as the rest of the terminal?",
+      "a": "Yes, but they are assessed on their own terms. Full-containment LNG tanks are not opened for routine internal inspection, so their probability of failure depends on design and construction quality, foundation heating, annular space monitoring, settlement and thermal surveys. The study registers them, records the evidence that exists, and plans the external checks that matter. The surrounding pipework, pumps, vaporisers, boil-off gas systems and seawater systems are assessed with the mechanisms that suit each one."
+    },
+    {
+      "q": "We use EEMUA 159 for our tanks. Will the study switch us to API 653?",
+      "a": "No. The study works with whichever document governs each tank. EEMUA 159 is widely used in the UK and includes its own approach to risk-based inspection intervals. If some tanks are run to API 653 and others to EEMUA 159, the study keeps the two groups separate and applies each document's rules consistently. Choosing between them is the owner's decision, not something the RBI should make by default."
+    },
+    {
+      "q": "How does COMAH affect what the study needs to contain?",
+      "a": "COMAH inspectors look for evidence that inspection and maintenance keep major accident hazards under control. A study that ranks equipment by consequence, explains each mechanism and links the plan to that reasoning helps the operator show this. The report is therefore written for a reader who was not in the workshops, with assumptions, data gaps and reassessment triggers stated plainly. Whether and how the operator presents it to HSE and Natural Resources Wales is up to the operator."
+    },
+    {
+      "q": "Do we need to send our data abroad?",
+      "a": "The study runs from a data room that the site controls or one set up for the project, with access limited to the named study team. The site decides what to share and can withhold anything it does not want to leave the company, such as commercial records. Drawings, inspection histories and process data are what the analysis needs. Data handling terms are agreed in the proposal before anything is uploaded."
+    },
+    {
+      "q": "Who carries out the field checks the study asks for?",
+      "a": "The owner's inspectors or the inspection contractor the site already uses. The study needs no travel, and it produces a list of items where records and plant may differ, together with what each check should confirm. The results come back through the data room and are folded into the register before the plan is finalised."
+    },
+    {
+      "q": "What happens when the study reaches its reassessment triggers?",
+      "a": "The report lists events that should prompt an update, such as a change in crude slate, an integrity operating window excursion, a significant inspection finding, a modification, or a change of service. When one occurs, only the affected loops or tanks are reassessed. A full revalidation is planned at the interval the owner's procedure sets, and in any case at least every ten years for tanks whose internal intervals rely on API 653's risk-based route."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/united-kingdom",
+      "RBI in the United Kingdom"
+    ],
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection services"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for process piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-revalidation-audit",
+      "Revalidating an existing RBI"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-implementation",
+      "Implementing an RBI programme"
+    ],
+    [
+      "/standards/api-580",
+      "API 580 explained"
+    ],
+    [
+      "/standards/api-571",
+      "API 571 damage mechanisms"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnaround and shutdown inspection"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "Valero Pembroke refinery throughput about 270,000 bpd; deepwater docking on the Milford Haven Waterway; FCCU sour water strippers, sulphur recovery unit, cogeneration unit",
+      "url": "https://valero.com/node/156"
+    },
+    {
+      "fact": "South Hook LNG shareholders: QatarEnergy 67.5%, ExxonMobil Qatargas (II) Terminal Company 24.15%, TotalEnergies 8.35%",
+      "url": "https://www.southhooklng.com/about-us/shareholders/"
+    },
+    {
+      "fact": "Ancala agreed to sell its 50% of Dragon LNG to VTTI; Shell keeps 50%; send-out up to 9 bcm a year",
+      "url": "https://www.wales247.co.uk/ancala-sells-stake-in-gas-terminal-located-in-milford-haven"
+    },
+    {
+      "fact": "VTTI completed acquisition of 50% of Dragon LNG, 9 August 2024",
+      "url": "https://www.vtti.com/vtti-completes-acquisition-of-50-of-dragon-lng/"
+    },
+    {
+      "fact": "Former Murco Milford Haven refinery closed after 2014 announcement; Puma Energy acquired the site in March 2015 and runs it as a storage and distribution terminal",
+      "url": "https://en.wikipedia.org/wiki/Milford_Haven_Refinery"
+    },
+    {
+      "fact": "Port of Milford Haven is a trust port with no shareholders; describes itself as the UK's leading energy port",
+      "url": "https://www.mhpa.co.uk/about/port-faqs/"
+    },
+    {
+      "fact": "COMAH competent authority in Wales: HSE jointly with Natural Resources Wales",
+      "url": "https://www.hse.gov.uk/comah/authorityindex.htm"
+    },
+    {
+      "fact": "PSSR 2000: written scheme of examination drawn up or certified by a competent person",
+      "url": "https://www.hse.gov.uk/pressure-systems/pssr.htm"
+    },
+    {
+      "fact": "EEMUA Publication 147: recommendations for refrigerated liquefied gas storage tanks",
+      "url": "https://eemua.org/products/publications/digital/eemua-publication-147"
+    },
+    {
+      "fact": "RWE Pembroke CCGT power plant on the waterway",
+      "url": "https://uk.rwe.com/locations/pembroke-ccgt-power-plant/"
+    },
+    {
+      "fact": "Former Puma Energy terminal renamed Impala Terminal; operator Impala Terminals Infrastructure UK Ltd; berths Impala 1-3 (2024 notice)",
+      "url": "https://mhpa.co.uk/notice-to-mariners/notice-to-mariners-no112-of-2024-puma-energy-terminal-renamed-impala-terminal"
+    },
+    {
+      "fact": "Impala Terminals took over the Milford Haven terminal from Puma Energy in late 2022; operating as of October 2025",
+      "url": "https://pembrokeshire-herald.com/124681/impala-confirms-jobs-at-risk-at-milford-haven-fuel-terminal"
+    },
+    {
+      "fact": "Dragon LNG Group owned 50/50 by BG Energy Holdings (Shell) and VTTI LNG UK (2025 accounts)",
+      "url": "https://www.dragonlng.co.uk/wp-content/uploads/2026/06/Section-172-for-website-2025-accounts.pdf"
+    },
+    {
+      "fact": "Dragon LNG send-out up to 9 bcm/yr (nameplate about 7.6 bcm/yr); two 160,000 m3 full-containment tanks",
+      "url": "https://www.nsenergybusiness.com/projects/dragon-lng-uk/"
+    }
+  ]
+}

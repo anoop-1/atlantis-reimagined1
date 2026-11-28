@@ -1,0 +1,391 @@
+{
+  "title": "RBI on the Humber: Killingholme, Immingham and Saltend",
+  "description": "Risk-based inspection for Humber estuary refineries, tank terminals and chemical plants: damage mechanisms, PSSR and COMAH, and a remote RBI study.",
+  "h1": "Risk-based inspection for refining, storage and chemicals on the Humber estuary",
+  "eyebrow": "Risk-based inspection on the Humber",
+  "intro": "The south bank of the Humber, from Killingholme to the Immingham docks, carries a dense cluster of refining and bulk liquid storage, and the north bank holds the chemical plants of Saltend and the gas terminals at Easington. This page is for inspection engineers, integrity managers and competent persons working there. It covers the facilities and what has changed recently, the damage mechanisms the estuary pushes up a risk register, how an RBI study fits a written scheme of examination and COMAH duties, and how Atlantis runs the study without travelling.",
+  "highlights": [
+    {
+      "h": "Built around the written scheme",
+      "p": "On the Humber the inspection interval that matters legally is the one in the written scheme of examination. The study is organised so that its findings can be read straight into that scheme by the competent person, item by item, with the reasoning attached."
+    },
+    {
+      "h": "Two refinery sites under one owner",
+      "p": "The Humber Refinery and the former Lindsey refinery now belong to the same company. Integrating them raises questions about which equipment stays in service, which changes duty and which is retired, and every one of those choices changes the inspection plan."
+    },
+    {
+      "h": "No travel, owner's inspectors on site",
+      "p": "Drawings, inspection history and process data come through a data room, and the analysis is discussed in video workshops. Every check that needs eyes or a probe on the jetty, the rack or a tank floor goes onto a list for the inspectors the owner already uses."
+    }
+  ],
+  "sections": [
+    {
+      "id": "humber-map",
+      "h": "Where the integrity work sits along the estuary",
+      "p": [
+        "The industrial Humber is really two shores with different characters. The south bank, in North and North East Lincolnshire, is dominated by refining and tank storage: the refinery sites at Killingholme, the bulk liquid terminals around Immingham Dock, and the pipelines and jetties that tie them together. The north bank, on the East Riding side, has the chemicals park at Saltend just east of Hull and, out on the Holderness coast, the gas reception and processing plants at Easington.",
+        "Associated British Ports owns and runs the four estuary ports at Immingham, Grimsby, Hull and Goole, and its liquid bulk berths and the dedicated oil jetties are where much of the estuary's crude, product and chemical traffic crosses the shoreline. For an RBI study that geography matters, because the age of the steel, the ground it stands on and how much salt-laden wind it takes all follow where on the estuary it was built."
+      ],
+      "table": {
+        "head": [
+          "Area",
+          "Main facilities",
+          "What usually leads the RBI register"
+        ],
+        "rows": [
+          [
+            "South Killingholme and North Killingholme",
+            "Phillips 66 Humber Refinery and the former Prax Lindsey refinery, now owned by Phillips 66 Limited",
+            "Crude and vacuum distillation, delayed coking, cracking and treating units, long-serving insulated piping, and equipment whose duty is changing as the two sites are integrated"
+          ],
+          [
+            "Immingham Dock and its surroundings",
+            "Bulk liquid terminals such as Exolum Immingham, the Immingham Oil Terminal jetty operated by Associated Petroleum Terminals (Immingham), and ABP liquid bulk berths",
+            "Hundreds of small and mid-sized tanks in mixed service, heated tanks, pressurised gas storage, jetty and transfer lines in marine air"
+          ],
+          [
+            "Saltend, east of Hull",
+            "Saltend Chemicals Park, home to INEOS acetyls production and other chemical, gas and fertiliser businesses",
+            "Acidic process streams, specialised alloys and linings, utilities shared between operators, and plant whose production has been paused at times"
+          ],
+          [
+            "Easington, Holderness coast",
+            "Gas reception and processing, including the Gassco-run receiving terminal for the Langeled pipeline and the Perenco plants",
+            "Wet gas and condensate handling, glycol and separation equipment, buried and soil-to-air piping on an eroding coast"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "humber-refining",
+      "h": "The refineries at Killingholme and what they bring to a study",
+      "p": [
+        "The Humber Refinery at South Killingholme has been owned by Phillips 66 since the company was separated from ConocoPhillips in 2012. Its configuration includes a fluid catalytic cracker, two delayed coking units, catalytic reformers, alkylation, sulphur recovery and rotary kilns for petroleum coke. Phillips 66 also makes battery anode coke at the site, a specialty coke used in lithium-ion batteries, so the coking and coke-handling equipment is not a by-product line to be inspected as an afterthought: it is a product unit with its own quality demands and its own damage mechanisms.",
+        "North of the railway line is the Lindsey refinery. Crude processing there was wound down in 2025 after the operating company entered insolvency, and in April 2026 Phillips 66 Limited completed the purchase of the refinery assets together with the associated storage and terminal companies. The company has said it will not restart standalone refining at Lindsey and plans to integrate the assets with the Humber site, using the storage and other infrastructure to supply fuel to its UK customers. Its public statements do not set out which individual items of equipment will see service again, so an RBI study for either site starts by establishing, item by item, what is running, what is preserved and what is being prepared for a different duty."
+      ]
+    },
+    {
+      "id": "humber-integration",
+      "h": "Integrating two sites: service changes, preservation and shared systems",
+      "p": [
+        "When a refinery stops processing but its tanks, lines and utilities are kept for another purpose, the inspection history it carries was written for a service that no longer exists. Corrosion rates measured in crude or intermediate service say little about the same tank holding finished product, and a vessel left isolated for months may have suffered more in standby than in its last years of operation. An RBI study treats each of those items as a new assessment rather than carrying the old ratings forward.",
+        "The same applies to connections between sites. Transfer pipelines, jetty lines and utility headers that once marked a boundary between two companies become internal to one owner, and the inspection responsibility for them may sit in two different written schemes until the paperwork catches up. The study makes those interfaces visible so that nothing falls between two registers."
+      ],
+      "list": [
+        "Record of current status for every item: in service, preserved, isolated, awaiting change of duty or retired",
+        "Preservation method and the evidence that it was kept up, because standby damage depends on it",
+        "Change-of-service review covering the mechanisms introduced by the new product, temperature and cycling",
+        "Conditions that must be met before an item returns to service, written as conditions rather than advice",
+        "Interface list for lines, jetties and utilities that cross the former site boundary"
+      ]
+    },
+    {
+      "id": "humber-mechanisms",
+      "h": "Damage mechanisms the estuary pushes up the register",
+      "p": [
+        "Most of what drives risk on the Humber is described in API RP 571; what changes from one estuary to another is which mechanisms dominate and why. Here the weather is the starting point. The estuary is exposed to North Sea wind, frequent drizzle and long periods of high humidity with only moderate summer temperatures, so steel rarely dries properly and insulation that has taken on water can stay wet for most of the year. Corrosion under insulation is therefore a leading item on almost every Humber register, and especially on lines and vessels that run in the range where water condenses and evaporates repeatedly, or that cycle in and out of service.",
+        "Inside the refinery units the list is the familiar one for crude processing, weighted by the crude slate and by the coking route. High-temperature sulfidation affects crude and vacuum heater outlets, transfer lines and bottoms circuits, and naphthenic acid corrosion becomes relevant whenever acidic crudes are run. The overhead systems of distillation units bring chloride and ammonium salt corrosion. Sour water, amine treating and sulphur recovery carry their own cracking and corrosion risks, and hydrotreaters raise the question of high-temperature hydrogen attack on carbon and low-alloy steels, which API RP 941 addresses. Delayed coke drums are a special case: repeated heating and quenching leads to thermal fatigue, bulging and cracking in the shell and skirt, so their inspection planning is usually handled as its own task rather than as an ordinary vessel item.",
+        "Outside the process units, tank floors on reclaimed and estuarine ground suffer soil-side and underside corrosion that depends on drainage, the foundation pad and whether cathodic protection is fitted and working. Fire water, cooling water and seawater systems are candidates for microbiologically influenced corrosion, particularly in dead legs and lines that see little flow. Jetty heads, trestles and the first lengths of transfer piping suffer chloride-laden atmospheric corrosion, and austenitic stainless steel in that air, or under wet insulation, can suffer chloride stress corrosion cracking. At the chemical plants of Saltend the acid and solvent streams demand mechanism reviews specific to the alloys and linings chosen."
+      ],
+      "links": [
+        [
+          "/standards/api-571",
+          "API 571 damage mechanisms"
+        ],
+        [
+          "/glossary/corrosion-under-insulation-cui",
+          "Corrosion under insulation"
+        ],
+        [
+          "/api-inspection/chloride-stress-corrosion-cracking",
+          "Chloride stress corrosion cracking"
+        ]
+      ]
+    },
+    {
+      "id": "humber-tankage",
+      "h": "Tank storage: dense terminals, heated tanks and pressurised gases",
+      "p": [
+        "Storage around Immingham is varied rather than uniform. The Exolum terminal at Immingham alone lists more than two hundred tanks, many of them heated, ranging from small chemical tanks to tanks of around fifteen thousand cubic metres, and holding fuels, chemicals, acids, vegetable oils, sulphur and gases under pressure. The refinery sites add their own crude and product tankage, and the Lindsey storage now forms part of the Phillips 66 estate. A tank RBI here therefore has to cope with many small items in very different services, not a few large crude tanks.",
+        "Atmospheric storage tanks are outside the Pressure Systems Safety Regulations, so their inspection frequency is set by the operator's own arrangements, the duties that follow from COMAH and the good practice the operator adopts, most often EEMUA 159 in the UK, sometimes alongside API 653 where a company standard or an owner group prefers it. The study works to whichever basis the owner already uses and records the reasoning for each interval, so that a regulator's question about why a tank floor was not opened can be answered from the file.",
+        "Heated tanks add their own concerns: corrosion where heating coils, insulation and the shell meet, and coil leaks that contaminate product or soak the bottom. Pressurised storage for liquefied gases is pressure equipment and sits under the written scheme like any other vessel, so it belongs in the same RBI register as the process vessels even though it stands in a tank farm."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ],
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ],
+        [
+          "/api-inspection/api-653-tank-floor-pitting-remaining-thickness",
+          "Tank floor pitting and remaining thickness"
+        ]
+      ]
+    },
+    {
+      "id": "humber-north-bank",
+      "h": "The north bank: Saltend chemicals and the Easington gas plants",
+      "p": [
+        "Saltend Chemicals Park, on the estuary just east of Hull, hosts several operators. Among its process plants are the units making acetic acid, acetic anhydride and ethyl acetate for INEOS Acetyls; in September 2026 INEOS paused acetyls production there, citing the cost of UK gas, and described the stoppage as temporary. Equipment that alternates between operation and long idle periods is precisely where an RBI study must look at standby damage alongside service damage, and where the plan should say what must be checked before a restart.",
+        "Acid service in this kind of plant relies on high alloys, zirconium or other special materials and on linings, and their failure modes differ from those of carbon steel in hydrocarbon service. The study takes the material selection and the operator's corrosion monitoring as its starting point and does not apply refinery rules of thumb to chemistry they were never written for.",
+        "At Easington, on the Holderness coast, Gassco operates the terminal that receives Norwegian gas through the Langeled pipeline, and Perenco operates gas processing and conditioning plants that took over from earlier owners. Gas plants of this kind are dominated by separators, slug catchers, glycol systems, condensate handling and long runs of buried and soil-to-air piping, on a coast that is eroding and exposed to the full North Sea weather. Their risk is spread across many piping circuits rather than concentrated in a few large vessels."
+      ]
+    },
+    {
+      "id": "humber-rules",
+      "h": "PSSR, COMAH and where RBI fits the UK framework",
+      "p": [
+        "Pressure systems on the Humber are governed by the Pressure Systems Safety Regulations 2000. The user or owner must have a written scheme of examination drawn up or certified by a competent person, covering the parts of the system named in the scheme, the nature of the examination and the maximum interval between examinations. The competent person, usually an engineering inspection body or the owner's own inspection organisation, carries out or supervises the examinations and can change the scheme. That makes the competent person the natural owner of any interval derived from an RBI study: the study provides the evidence and the argument, the competent person decides.",
+        "The UK framework does not mandate a single RBI method, and the Health and Safety Executive has long accepted risk-based approaches to setting examination intervals provided they are properly founded, documented and reviewed. Its published research on best practice for RBI emphasises competent teams, good data, a clear treatment of uncertainty and regular review, which is how the study is run. New equipment brought onto either site is designed and placed on the market under the Pressure Equipment (Safety) Regulations 2016, which affects the initial data rather than the in-service plan.",
+        "Several of the major sites on the estuary are upper-tier establishments under the Control of Major Accident Hazards Regulations 2015, regulated in England by the HSE and the Environment Agency acting together as the competent authority. COMAH inspection of these sites looks at how the operator manages ageing plant and loss of containment, including tanks and pipework that fall outside PSSR. A documented RBI register that shows how each item's inspection was chosen supports the operator's demonstration under COMAH; it does not replace it."
+      ],
+      "table": {
+        "head": [
+          "Equipment",
+          "Main legal basis on the Humber",
+          "Who sets the interval",
+          "What the RBI study contributes"
+        ],
+        "rows": [
+          [
+            "Pressure vessels, heat exchangers and pressure piping",
+            "Pressure Systems Safety Regulations 2000, written scheme of examination",
+            "The competent person, through the written scheme",
+            "Ranked risk, proposed interval and examination scope for each item with the basis recorded"
+          ],
+          [
+            "Atmospheric storage tanks",
+            "COMAH duties and the operator's tank integrity arrangements, usually following EEMUA 159",
+            "The operator's inspection authority under its own procedures",
+            "Floor, shell and roof assessment, proposed out-of-service interval and in-service checks"
+          ],
+          [
+            "Pressurised gas storage",
+            "Pressure Systems Safety Regulations 2000",
+            "The competent person",
+            "Same treatment as process vessels, with consequence modelled for the stored gas"
+          ],
+          [
+            "Jetty and transfer pipelines",
+            "PSSR where they form part of a pressure system, plus COMAH and port requirements",
+            "Owner and competent person, often across more than one scheme",
+            "Interface list and a single view of risk along the line"
+          ]
+        ]
+      },
+      "links": [
+        [
+          "/standards/api-580",
+          "API 580 explained"
+        ],
+        [
+          "/standards/api-581",
+          "API 581 explained"
+        ]
+      ]
+    },
+    {
+      "id": "humber-remote",
+      "h": "How a remote study is organised for a Humber site",
+      "p": [
+        "A Humber study usually begins with the existing written schemes of examination, the inspection history and the equipment register, often held in an inspection database or in exports from commercial RBI software that the site already uses. Atlantis works from those records rather than asking the site to rebuild them. Process flow diagrams, piping and instrumentation diagrams, heat and material balances and the integrity operating windows go into a shared data room, and the first workshops agree the corrosion loops with the site's corrosion engineer and process engineers.",
+        "Depending on the season the UK is four and a half or five and a half hours behind Hyderabad and about six hours ahead of Houston, so workshops fall comfortably into the Humber working morning or early afternoon. The study needs no travel. Where a thickness reading is missing, an insulation condition is unknown or the actual state of a preserved unit needs confirming, the item goes onto a field verification list for the owner's own inspectors or the competent person's surveyors, and the result comes back into the data room before the rating is finalised.",
+        "Where a finding shows damage that needs an engineering assessment, that assessment remains with the owner's engineer; Atlantis does not carry out fitness-for-service work. The deliverable is a register with damage mechanisms, probability and consequence, the resulting risk and a proposed inspection plan for every item, a data-gap log, the reassessment triggers and a report written so that the competent person can adopt or adjust each proposal."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "Remote RBI studies"
+        ],
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ]
+      ]
+    },
+    {
+      "id": "humber-timing",
+      "h": "Timing the study around turnarounds and examinations",
+      "p": [
+        "The best moment to finish an RBI study is before the scope of the next major shutdown or statutory examination is fixed, so that its recommendations can change what is opened, what is examined on stream and what is deferred. On a refinery that means working back from the turnaround scope freeze; on a terminal it usually means working back from the tank out-of-service programme and the competent person's next scheme review.",
+        "After the study, the plan needs to be kept alive. Reassessment triggers written into the report include a change of crude or product, a change of service at the integrated Killingholme sites, an excursion outside an integrity operating window, a new finding during an examination and the scheduled periodic review. The register can be held in the owner's existing inspection system so that intervals and due dates stay visible to the inspection team."
+      ],
+      "links": [
+        [
+          "/inspection/turnarounds-shutdowns",
+          "Turnaround and shutdown inspection"
+        ],
+        [
+          "/inspection/risk-based-inspection/rbi-revalidation-audit",
+          "RBI revalidation and audit readiness"
+        ]
+      ]
+    }
+  ],
+  "codes": [
+    "API RP 580 and API RP 581 (risk-based inspection)",
+    "API RP 571 (damage mechanisms)",
+    "API RP 584 (integrity operating windows)",
+    "API RP 941 (high-temperature hydrogen attack)",
+    "API 510, API 570 and API 653",
+    "ASME PCC-3 (inspection planning using risk-based methods)",
+    "EEMUA 159 (above-ground flat-bottomed storage tanks)",
+    "Pressure Systems Safety Regulations 2000",
+    "Control of Major Accident Hazards Regulations 2015"
+  ],
+  "deliverables": [
+    "Equipment, piping and tank register grouped by site and corrosion loop",
+    "Damage mechanism assignment to API RP 571 for each loop",
+    "Probability and consequence ratings with the basis recorded",
+    "Proposed inspection plan per item, written so the competent person can adopt it into the written scheme",
+    "Status and restart conditions for preserved, idle or re-purposed equipment",
+    "Interface list for transfer lines, jetties and shared utilities",
+    "Field verification list for the owner's inspectors and a data-gap log",
+    "Reassessment triggers and the study report"
+  ],
+  "industries": [
+    "Crude oil refining",
+    "Specialty and battery anode coke",
+    "Bulk liquid tank terminals",
+    "Acetyls and chemical manufacturing",
+    "Gas reception and processing",
+    "Port and jetty infrastructure"
+  ],
+  "faqs": [
+    {
+      "q": "Can an RBI study be used to change the intervals in our written scheme of examination?",
+      "a": "Yes, provided the competent person agrees. PSSR leaves the content of the written scheme, including the maximum interval between examinations, to the competent person. The study gives that person a documented argument for each item: the mechanisms that apply, how fast they are likely to progress, what a failure would mean and which examination would detect the damage. The competent person may adopt a proposed interval, shorten it or ask for more evidence. Atlantis does not act as the competent person or as inspector of record."
+    },
+    {
+      "q": "Does the HSE require a particular RBI method?",
+      "a": "No single method is prescribed. What regulators look for is a method that is properly founded and recorded, carried out by people who understand the plant, based on reliable data, honest about uncertainty and reviewed when things change. The study can follow API RP 580 and API RP 581, ASME PCC-3 or the operator's own RBI standard, qualitative, semi-quantitative or quantitative, and the method statement explains which approach was used for which equipment and why."
+    },
+    {
+      "q": "How do you treat equipment at Lindsey that is not currently running?",
+      "a": "Each item is given a status first: operating, preserved, isolated, awaiting a new duty or retired. For preserved and isolated equipment the study looks at how it was laid up and whether that preservation was maintained, because standby damage depends on it. For items being prepared for a new duty, the mechanisms of the new service are assessed from scratch. The plan then lists what must be inspected before any item is returned to service."
+    },
+    {
+      "q": "Are our atmospheric storage tanks included in the same study as the pressure equipment?",
+      "a": "They can be. Tanks are not covered by PSSR, so their intervals sit under your own tank integrity arrangements, usually following EEMUA 159, but they can share the same corrosion loops, consequence model and register as the process equipment. That gives one ranked view of risk across the site, which is useful for COMAH discussions and for planning which tanks come out of service in which year."
+    },
+    {
+      "q": "Our site has delayed coke drums. Are they handled differently?",
+      "a": "Usually yes. Coke drums suffer thermal fatigue from repeated heating and quenching, with bulging and cracking in the shell, the skirt attachment and the cone, and their remaining life is governed by cycle history as much as by wall loss. The study flags them as a separate planning task, draws on published industry guidance on coke drum inspection where the owner uses it, and links their inspection plan to operating records such as cycle times and quench rates rather than treating them as ordinary vessels."
+    },
+    {
+      "q": "Can the study work from our existing inspection database or RBI software exports?",
+      "a": "Yes. Many Humber sites already hold their registers in an inspection management system or commercial RBI software. Atlantis works from exports and reports of those records, reviews and completes the data, and returns the results in a form the site can load back into its own system. Atlantis does not supply RBI software and does not ask the site to move its records."
+    },
+    {
+      "q": "Does anyone need to visit the site for the study?",
+      "a": "No. Data collection, workshops and reviews all run remotely. The physical checks the study depends on, such as confirming insulation condition, measuring thickness at missing points or verifying the state of preserved equipment, are written onto a field verification list for the owner's inspectors or the competent person's surveyors, and their results are fed back before the ratings are finalised."
+    },
+    {
+      "q": "What happens when the inspection that follows the plan finds significant damage?",
+      "a": "The finding goes back to the owner and the competent person. Whether the item can stay in service, needs repair or must be retired is an engineering assessment that stays with the owner's engineer. The RBI register is then updated with the new condition and the item is reassessed, which may bring its next inspection forward or change the method."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection/united-kingdom",
+      "RBI in the United Kingdom"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for process piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels and heat exchangers"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-implementation",
+      "Implementing an RBI programme"
+    ],
+    [
+      "/standards/api-584",
+      "API 584 and integrity operating windows"
+    ],
+    [
+      "/inspection/asset-integrity-services",
+      "Asset integrity services"
+    ],
+    [
+      "/inspection/risk-based-inspection/netherlands",
+      "RBI in the Netherlands"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "Humber Refinery, South Killingholme; owned by Phillips 66 since 2012; FCC, two delayed cokers, reformers, alkylation, SRUs, coke kilns; Lindsey north of the railway line",
+      "url": "https://en.wikipedia.org/wiki/Humber_Refinery"
+    },
+    {
+      "fact": "Phillips 66 makes battery anode coke at Humber (its own superlative claim not repeated on the page)",
+      "url": "https://www.phillips66.co.uk/emerging-energy/batteries/"
+    },
+    {
+      "fact": "Lindsey operating company in insolvency June 2025; crude processing wound down after no credible offers",
+      "url": "https://www.thechemicalengineer.com/news/no-credible-offers-forces-lindsey-refinery-to-close/"
+    },
+    {
+      "fact": "Sale of Lindsey Oil Refinery assets and associated storage/terminal companies to Phillips 66 Limited completed 28 April 2026",
+      "url": "https://www.gov.uk/government/news/update-sale-of-prax-lindsey-oil-refinery-limited-and-associated-companies"
+    },
+    {
+      "fact": "Phillips 66 plans to integrate Lindsey assets with Humber and use storage and other infrastructure to supply UK customers",
+      "url": "https://www.hydrocarbonengineering.com/refining/28042026/phillips-66-limited-completes-acquisition-of-lindsey-oil-refinery-assets/"
+    },
+    {
+      "fact": "Exolum Immingham: 240 tanks incl. 44 heated, 250 to 15,000 m3, oil products, chemicals, acids, vegetable oils, sulphur, pressure storage for gases",
+      "url": "https://tankstorage.org.uk/tsa-members/full-members/exolum/"
+    },
+    {
+      "fact": "Associated Petroleum Terminals (Immingham) Ltd, terminal operator at Queens Road, Immingham",
+      "url": "https://tankstorage.org.uk/tsa-members/terminal-operators/associated-petroleum-terminals-immingham-ltd/"
+    },
+    {
+      "fact": "ABP liquid bulk handling at its Humber ports",
+      "url": "https://www.abports.co.uk/media/r5elv4hw/liquid-bulks_sector_a4_nov19.pdf"
+    },
+    {
+      "fact": "Saltend Chemicals Park companies include INEOS, Air Products, bp, Yara and others",
+      "url": "https://chemxplore.com/parks-clusters/saltend-chemicals-park"
+    },
+    {
+      "fact": "INEOS halted Hull acetic acid, acetic anhydride and ethyl acetate production, described as temporary, citing UK gas prices",
+      "url": "https://www.chemistryworld.com/news/ineos-temporarily-closes-uk-acetyls-plants/4024256.article"
+    },
+    {
+      "fact": "Gassco operates the Easington receiving terminal for Langeled",
+      "url": "https://gassco.eu/en/mottaksterminaler/the-united-kingdom/"
+    },
+    {
+      "fact": "Perenco operates the Easington and Dimlington plants (since 2012)",
+      "url": "https://en.wikipedia.org/wiki/Easington_Gas_Terminal"
+    },
+    {
+      "fact": "Phillips 66 will not restart standalone refining at Lindsey; integrating assets with Humber (completion 28 April 2026)",
+      "url": "https://www.rigzone.com/news/phillips_66_now_owns_lindsey_refinery-28-apr-2026-183556-article/"
+    },
+    {
+      "fact": "INEOS paused Hull acetyls production, September 2026, citing UK gas prices",
+      "url": "https://chemanager-online.com/en/news/ineos-idles-europe-039-s-last-world-scale-acetyls-plant-as-energy-prices-hit-12x-us-level"
+    }
+  ]
+}

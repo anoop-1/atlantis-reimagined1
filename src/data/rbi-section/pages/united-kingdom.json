@@ -1,0 +1,362 @@
+{
+  "title": "Risk-Based Inspection in the UK: PSSR, COMAH and Tanks",
+  "description": "How RBI feeds a PSSR written scheme of examination, what HSE expects under COMAH, how EEMUA 159 tanks fit, and how Atlantis runs remote RBI studies.",
+  "h1": "Risk-based inspection for UK refineries, terminals and chemical plants",
+  "eyebrow": "Risk-based inspection in the United Kingdom",
+  "intro": "In Great Britain, risk-based inspection does not replace the legal machinery for pressure equipment; it feeds it. The written scheme of examination under the Pressure Systems Safety Regulations 2000 still decides what is examined and when, and a competent person still draws up or certifies that scheme. This page is for integrity engineers, inspection leads and COMAH site managers on the Humber, at Stanlow, Fawley, Milford Haven, Grangemouth and the Thames and Teesside storage clusters. It sets out how an outside RBI study becomes evidence the competent person can accept, what HSE has said about RBI, how atmospheric tanks are handled, and how Atlantis delivers the work remotely.",
+  "highlights": [
+    {
+      "h": "The written scheme stays in charge",
+      "p": "An RBI study proposes changes to the type and frequency of examination. Those proposals only take effect once the competent person who certifies the written scheme agrees to them and the scheme is revised. Atlantis writes the study; it does not certify schemes."
+    },
+    {
+      "h": "HSE has published what it expects",
+      "p": "HSE's guidance for its own inspectors describes a team-based, documented RBI process: degradation mechanisms identified first, validated data, uncertainty treated as higher likelihood, and risk reassessed after every examination. A study built to those points is easier to defend at a COMAH inspection."
+    },
+    {
+      "h": "No travel needed for the study",
+      "p": "Records come through a shared data room and the workshops run by video. Walkdowns, thickness checks and data verification are carried out by the owner's inspectors or the owner's existing inspection contractor, working from a check list the study produces."
+    }
+  ],
+  "sections": [
+    {
+      "id": "uk-frame",
+      "h": "The legal frame for UK pressure equipment and hazardous sites",
+      "p": [
+        "Three sets of rules meet at a typical UK refinery or terminal. The Pressure Systems Safety Regulations 2000 (PSSR) govern pressure systems in use at work: vessels, their pipework and protective devices, and pipelines, where the contents are steam at any pressure, compressed or liquefied gases above 0.5 bar gauge, or pressurised hot water above 110 degrees Celsius. The Control of Major Accident Hazards Regulations 2015 (COMAH) apply to sites holding dangerous substances above threshold quantities and reach well beyond pressure equipment. New equipment is placed on the market under separate product rules, the Pressure Equipment (Safety) Regulations 2016, which matter for design data but not for in-service examination.",
+        "Northern Ireland applies its own parallel regulations for pressure systems and major hazards, and its own regulator. The principles described on this page carry across, but a study for a Northern Ireland site should cite the Northern Ireland instruments rather than the Great Britain ones."
+      ],
+      "table": {
+        "head": [
+          "Rule",
+          "What it covers",
+          "Where RBI fits"
+        ],
+        "rows": [
+          [
+            "PSSR 2000 and the L122 Approved Code of Practice",
+            "Pressure vessels, associated pipework, protective devices and pipelines in use at work",
+            "RBI findings support changes to the written scheme: examination type, extent and interval"
+          ],
+          [
+            "COMAH Regulations 2015",
+            "Sites above the dangerous-substance thresholds, including atmospheric storage tanks",
+            "RBI is part of the integrity evidence behind the major accident prevention policy and, at upper-tier sites, the safety report"
+          ],
+          [
+            "Pressure Equipment (Safety) Regulations 2016",
+            "Design and conformity of new pressure equipment",
+            "Supplies design pressure, materials and corrosion allowance as study inputs"
+          ],
+          [
+            "Owner standards and EEMUA 159",
+            "Atmospheric storage tanks, which are generally outside PSSR",
+            "Risk-based tank inspection intervals set under the owner's integrity system"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "uk-wse",
+      "h": "Written schemes, competent persons and what an RBI study changes",
+      "p": [
+        "Before a pressure system is used, the user or owner must have a suitable written scheme of examination in place, drawn up or certified as suitable by a competent person. The competent person examines the system in line with the scheme, reports on each examination, keeps the scheme under review and agrees postponements where they are justified. Where the competent person is in-house, HSE expects that function to sit apart from operations and to have the authority to stop equipment being used.",
+        "That allocation of roles decides how an outside study is used. Atlantis produces the risk ranking, the damage mechanism basis and a proposed examination plan for each item. The competent person then decides whether to adopt those proposals into the scheme, partly or in full, and the owner remains the dutyholder throughout. Atlantis is never the competent person, never the inspector of record and never the body that certifies a scheme.",
+        "Interval changes cut both ways. HSE's guidance notes that a study may lengthen or shorten intervals, or change the kind of examination, and that a shortened interval should be brought in as soon as reasonably practicable. It is equally clear that a study cannot simply move a due date: if equipment is to run beyond the next examination date already in the current report, that needs a formal postponement under the regulations, which involves notifying HSE."
+      ]
+    },
+    {
+      "id": "uk-hse",
+      "h": "What HSE guidance expects of an RBI process",
+      "p": [
+        "HSE has issued an operational circular to its hazardous installations inspectors on checking integrity systems that use RBI, and it points to research report CRR 363/2001, prepared for HSE by TWI and Royal and Sun Alliance, as the main statement of good practice and the source of an RBI audit tool. The circular covers onshore refining and chemical plant as well as offshore process equipment. Several of its points shape how a UK study should be built:"
+      ],
+      "list": [
+        "A multidisciplinary team, normally of at least three people, covering process hazards, materials and mechanical engineering, inspection methods and the plant's own history, with leaders independent of production pressure.",
+        "Identification of degradation mechanisms and the locations where they act, treated as the most critical step in the whole exercise.",
+        "Validated data: design and construction records, inspection reports, operating parameters and their variation, and the record of defects and repairs.",
+        "Uncertainty handled conservatively, so that missing knowledge raises the estimated likelihood rather than lowering it.",
+        "Inspection techniques matched to the predicted damage, with sample checks that test for degradation the team did not expect.",
+        "A cautious start for new equipment, which should carry a shorter first in-service interval until experience supports a longer one.",
+        "Reassessment after every examination and whenever operating conditions, repairs or modifications change the basis.",
+        "Meeting records that show how each judgement was reached, so an auditor can follow the reasoning."
+      ]
+    },
+    {
+      "id": "uk-comah",
+      "h": "COMAH sites: integrity evidence beyond pressure systems",
+      "p": [
+        "The COMAH competent authority is HSE acting jointly with the environment regulator for each nation: the Environment Agency in England, Natural Resources Wales and the Scottish Environment Protection Agency. At a COMAH establishment the critical plant is not limited to what PSSR covers. Large atmospheric tanks of crude, gasoline or other dangerous substances are often among the most important items on the site, and the environment regulators take as close an interest in loss of containment to ground and water as HSE does in harm to people.",
+        "An RBI study for a COMAH site therefore works best when its consequence model reflects both concerns. Environmental consequence, including product reaching soil, groundwater or an estuary, belongs in the ranking alongside flammable and toxic effects. The study can then be cited as part of the evidence behind the major accident prevention policy and, at upper-tier sites, the integrity arguments in the safety report, while the operator keeps ownership of both documents."
+      ],
+      "links": [
+        [
+          "/inspection/asset-integrity-services",
+          "Asset integrity services"
+        ],
+        [
+          "/standards/api-580",
+          "API 580 explained"
+        ]
+      ]
+    },
+    {
+      "id": "uk-tanks",
+      "h": "Atmospheric storage tanks: EEMUA 159, API 653 and the owner's system",
+      "p": [
+        "Atmospheric storage tanks are generally outside PSSR, so no statutory written scheme governs their inspection. Intervals instead come from the operator's own integrity management system, under the COMAH duties where the site is in scope. EEMUA Publication 159, the UK guide to inspection, maintenance and repair of above ground flat-bottomed storage tanks, is the reference most UK terminals use; its sixth edition was published in April 2025. Many international operators run their tanks to API 653 instead, or to an internal standard that borrows from both.",
+        "A tank RBI study for a UK site states which basis the owner uses and keeps to it. Where the owner works to API 653, the current fifth edition lets RBI set the internal inspection interval provided the assessment is validated and reviewed at least every ten years. Where the owner works to EEMUA 159, the study maps floor, shell, roof and appurtenance risk to that guide's approach and the owner's own interval rules. In both cases the damage picture usually centres on soil-side and product-side floor corrosion, annular plate condition, shell corrosion at the liquid line and under wind girders, floating roof seals and drainage, and bund and foundation condition."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/storage-tank-rbi",
+          "RBI for storage tanks"
+        ],
+        [
+          "/standards/api-653",
+          "API 653 explained"
+        ]
+      ]
+    },
+    {
+      "id": "uk-capacity",
+      "h": "Where UK refining, LNG and storage capacity sits",
+      "p": [
+        "UK crude refining has contracted to four large sites. Phillips 66 runs the Humber refinery at South Killingholme; Essar operates Stanlow in Cheshire; ExxonMobil operates Fawley on Southampton Water; and Valero operates the Pembroke refinery on the Milford Haven waterway. A small specialist refinery at Harwich, run by Haltermann Carless, completes the list.",
+        "Two former refineries have changed role. Petroineos stopped processing crude at Grangemouth in 2025 and the site now works as an import terminal. The Lindsey refinery at North Killingholme stopped operating after its owner's insolvency in 2025, and in April 2026 Phillips 66 completed the purchase of Lindsey and associated storage and terminal companies, saying it would not restart standalone refining there and would integrate the assets with its Humber refinery. Conversions like these leave tanks, lines and vessels in new duties with registers written for the old ones.",
+        "Milford Haven also hosts the South Hook and Dragon LNG import terminals, and further LNG import capacity sits at the Isle of Grain in Kent. Independent tank storage is spread along the Thames estuary, the Humber, Teesside, the Mersey and Southampton, alongside the chemical clusters on Teesside and in the North West."
+      ]
+    },
+    {
+      "id": "uk-damage",
+      "h": "Damage mechanisms that UK registers tend to underweight",
+      "p": [
+        "The UK climate is mild but persistently wet, and many sites sit on estuaries. That combination keeps certain mechanisms active for decades while they look minor at any single inspection. A damage mechanism review for a UK site, carried out against API 571, usually spends most of its time on the following:"
+      ],
+      "list": [
+        "Corrosion under insulation and under fireproofing on piping and vessels that run in the cyclic temperature range, made worse where cladding has been damaged or poorly sealed.",
+        "Atmospheric corrosion in chloride-laden estuarine air, especially at pipe supports, clamps and crevices on long jetty and tank farm lines.",
+        "Soil-side corrosion of tank floors on older foundations, and corrosion where buried lines rise through the soil-to-air interface.",
+        "Ageing assets: much UK refining plant dates from the 1950s to the 1970s, so original design records are often incomplete and inspection history carries more weight than drawings.",
+        "Service changes on converted or idled equipment, including lines and tanks moved from crude or intermediate duty to finished product, biofuel or blending service."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/damage-mechanism-review",
+          "Damage mechanism review"
+        ],
+        [
+          "/glossary/corrosion-under-insulation-cui",
+          "Corrosion under insulation"
+        ]
+      ]
+    },
+    {
+      "id": "uk-asks",
+      "h": "What UK operators typically ask an outside RBI team for",
+      "p": [
+        "Most UK requests fall into a handful of patterns. Owners with a mature programme want a second opinion before a competent person is asked to accept longer intervals. Terminals that changed hands or changed duty need a register rebuilt around the new service. Sites preparing for a COMAH intervention want their RBI basis tidied, documented and traceable. Typical scopes include:"
+      ],
+      "list": [
+        "A first RBI study for a terminal or chemical unit that has run on fixed intervals, written so that the competent person can review each proposal item by item.",
+        "Revalidation of an existing study whose data, operating envelope or ownership has moved on since it was built.",
+        "Damage mechanism and corrosion loop reviews for units with new feedstocks, biofuel co-processing or changes in product slate.",
+        "Tank programme reviews that align floor and shell intervals with EEMUA 159 or API 653, whichever the owner adopts.",
+        "Piping circuit and CML optimisation where thickness monitoring locations have grown by habit rather than by risk.",
+        "A data-gap log and field check list for the owner's inspectors ahead of a turnaround."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/rbi-revalidation-audit",
+          "RBI revalidation and audit readiness"
+        ],
+        [
+          "/inspection/risk-based-inspection/piping-rbi",
+          "RBI for piping"
+        ]
+      ]
+    },
+    {
+      "id": "uk-remote",
+      "h": "How the remote study runs between the UK, Houston and Hyderabad",
+      "p": [
+        "The study is delivered remotely. The owner uploads P&IDs, process flow diagrams, equipment datasheets, construction records, written schemes and reports of examination, thickness history and process chemistry to a shared data room. Atlantis builds the corrosion loops and a draft register from those records, then runs a series of video workshops with the site's process, operations, corrosion and inspection people to settle damage mechanisms, operating windows and consequence assumptions.",
+        "Time zones work in the site's favour. The UK sits about six hours ahead of Houston for most of the year, and roughly four and a half to five and a half hours behind Hyderabad depending on British Summer Time, so morning workshops in the UK overlap with the Hyderabad working day and afternoon sessions with Houston. Draft registers and plans can be reviewed overnight from the site's point of view and returned with comments the next morning.",
+        "Nobody needs to travel for the study itself. Where records cannot settle a question, the study issues a short check list for the owner's inspectors or the owner's existing inspection contractor: thickness readings at named locations, insulation condition on specific lines, photographs of supports or tank chimes. Their results go back into the data room and into the next revision of the register."
+      ],
+      "links": [
+        [
+          "/inspection/risk-based-inspection/remote-rbi",
+          "Remote RBI studies"
+        ]
+      ]
+    },
+    {
+      "id": "uk-deliver",
+      "h": "What the competent person receives",
+      "p": [
+        "The output is written for the person who has to sign the scheme, not for the study team. Each item carries its damage mechanisms, the basis for its probability and consequence ratings, the proposed examination method, coverage and effectiveness, and the proposed next due date set against the date in the current report of examination. Proposed changes to the written scheme are listed separately, item by item, so the competent person can accept, amend or reject each one and record the reason.",
+        "When an examination finds damage that needs an engineering assessment, that assessment stays with the owner's engineer or the owner's chosen specialist; Atlantis does not carry out fitness-for-service work. Inspection records can sit in the owner's existing system, and where an owner uses the Atlantis ERP it can hold examination reports and thickness data, but the risk model itself lives in the owner's RBI register or software."
+      ]
+    }
+  ],
+  "codes": [
+    "Pressure Systems Safety Regulations 2000 (PSSR)",
+    "HSE L122 Safety of pressure systems (Approved Code of Practice)",
+    "Control of Major Accident Hazards Regulations 2015 (COMAH)",
+    "Pressure Equipment (Safety) Regulations 2016 (new equipment)",
+    "HSE research report CRR 363/2001 (best practice for risk based inspection)",
+    "EEMUA Publication 159 (above ground flat-bottomed storage tanks)",
+    "API RP 580 and API RP 581 (risk-based inspection)",
+    "API RP 571 (damage mechanisms)",
+    "API 510, API 570 and API 653",
+    "ASME PCC-3 (inspection planning using risk-based methods)"
+  ],
+  "deliverables": [
+    "Equipment and piping register with corrosion loops and API 571 damage mechanisms",
+    "Probability and consequence ratings, including environmental consequence for COMAH sites",
+    "Risk ranking and proposed examination plans per item",
+    "Item-by-item proposed changes to the written scheme of examination for the competent person",
+    "Tank inspection plans on the owner's EEMUA 159 or API 653 basis",
+    "CML and TML optimisation for piping circuits",
+    "Data-gap log and field check list for the owner's inspectors",
+    "Reassessment triggers and a study report with workshop records"
+  ],
+  "industries": [
+    "Refineries",
+    "Import terminals and independent tank storage",
+    "LNG import terminals",
+    "Petrochemical and chemical plants",
+    "Fuel blending and biofuel storage"
+  ],
+  "faqs": [
+    {
+      "q": "Is risk-based inspection recognised under UK pressure systems law?",
+      "a": "PSSR does not use the term, but it does require a suitable written scheme of examination, and HSE's own guidance accepts that RBI findings can justify changing the type and frequency of examination in that scheme. The change becomes effective when the competent person who draws up or certifies the scheme agrees to it. RBI is therefore a recognised way of arriving at a scheme, not a separate legal route around one."
+    },
+    {
+      "q": "Can Atlantis act as our PSSR competent person?",
+      "a": "No. Atlantis carries out the RBI study and writes proposals for the written scheme, but it does not draw up or certify schemes, examine equipment as competent person, or sign reports of examination. Those roles stay with the competent person you appoint, whether that is an in-house function or an outside organisation. The study is written so that the competent person can review every proposal and record why it was accepted or changed."
+    },
+    {
+      "q": "Can an RBI study extend an interval that is already due?",
+      "a": "Not on its own. HSE's guidance is explicit that equipment must not run past the next examination date in the current report unless a formal postponement is made under the regulations, which includes notifying HSE. A study can support a longer interval for the next cycle once the competent person revises the scheme, and it can support a postponement case, but the decision and the notification belong to the competent person and the owner."
+    },
+    {
+      "q": "Do atmospheric storage tanks need a written scheme of examination?",
+      "a": "Atmospheric tanks are generally outside PSSR, so they do not need one. Their inspection is managed under the owner's integrity system and, on COMAH sites, as part of the major accident duties. Most UK terminals use EEMUA 159 as the reference, and some work to API 653 or an internal standard. An RBI study for tanks keeps to whichever basis the owner has chosen."
+    },
+    {
+      "q": "Which edition of EEMUA 159 should the study follow?",
+      "a": "EEMUA published the sixth edition of Publication 159 in April 2025. Where the owner's procedures still cite an earlier edition, the study notes the differences that matter for its proposals and leaves the decision to adopt the newer edition with the owner. The same approach applies to the edition of API 653 or API RP 581 an owner has standardised on."
+    },
+    {
+      "q": "Does anyone need to travel to the UK site?",
+      "a": "No travel is needed for the study. Documents come through a shared data room and the workshops run by video. Field checks that the records cannot replace, such as thickness readings at chosen locations or insulation condition surveys, are carried out by the owner's inspectors or the owner's existing inspection contractor from a check list the study provides."
+    },
+    {
+      "q": "We already run RBI in commercial software. Can you work from it?",
+      "a": "Yes. Many UK sites hold their RBI programme in a commercial software package. Atlantis works from exports of the existing register, the workshop records behind it and the inspection history, reviews the basis item by item, and returns proposed changes in a form the site's own team can load back into its software. The model stays in the owner's system."
+    },
+    {
+      "q": "What happens when an examination finds significant damage?",
+      "a": "The study's reassessment triggers flag that the item needs re-ranking, but the engineering assessment of whether the damaged equipment can stay in service stays with the owner's engineer or a specialist the owner appoints. Once a decision is made, the result and any repair go back into the register and the next revision of the plan."
+    },
+    {
+      "q": "How does a COMAH site use the study?",
+      "a": "The study becomes part of the evidence that the site's critical equipment is inspected in proportion to its risk. Including environmental consequence in the ranking helps, because the Environment Agency, Natural Resources Wales or SEPA share the competent authority role with HSE. The operator keeps ownership of the major accident prevention policy and the safety report, and cites the study where it supports them."
+    }
+  ],
+  "related": [
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection services"
+    ],
+    [
+      "/inspection/risk-based-inspection/remote-rbi",
+      "Remote RBI studies"
+    ],
+    [
+      "/inspection/risk-based-inspection/storage-tank-rbi",
+      "RBI for storage tanks"
+    ],
+    [
+      "/inspection/risk-based-inspection/pressure-vessel-rbi",
+      "RBI for pressure vessels"
+    ],
+    [
+      "/inspection/risk-based-inspection/piping-rbi",
+      "RBI for piping"
+    ],
+    [
+      "/inspection/risk-based-inspection/rbi-revalidation-audit",
+      "RBI revalidation and audit readiness"
+    ],
+    [
+      "/inspection/risk-based-inspection/quantitative-rbi-api-581",
+      "Quantitative RBI to API 581"
+    ],
+    [
+      "/inspection/risk-based-inspection/netherlands",
+      "RBI in the Netherlands"
+    ],
+    [
+      "/standards/api-571",
+      "API 571 damage mechanisms"
+    ],
+    [
+      "/inspection/turnarounds-shutdowns",
+      "Turnaround and shutdown inspection"
+    ],
+    [
+      "/contact",
+      "Contact Atlantis"
+    ]
+  ],
+  "sources": [
+    {
+      "fact": "PSSR scope (vessels, pipework, protective devices, pipelines; fluids above 0.5 bar, hot water above 110 C); WSE drawn up or certified by competent person before use; competent person role; in-house CP independent with authority to stop use; L122 ACOP",
+      "url": "https://www.hse.gov.uk/pressure-systems/pssr.htm"
+    },
+    {
+      "fact": "Owners and users must ensure a suitable written scheme is in place before the system is operated and that examinations follow it",
+      "url": "https://hse.gov.uk/pUbns/indg178.htm"
+    },
+    {
+      "fact": "HSE circular SPC/Technical/General/46: RBI may lengthen or shorten WSE intervals with competent person agreement; shortened intervals implemented ASAP; no running past due date without Reg 9 postponement and HSE notification; new equipment shorter first interval; team of at least three; lack of knowledge raises likelihood; reassess after examination; COMAH critical plant includes atmospheric tanks; CRR 363/2001 (TWI and Royal & Sun Alliance) as main good practice source and audit tool",
+      "url": "https://www.hse.gov.uk/foi/internalops/hid_circs/technical_general/spc_tech_gen_46.htm"
+    },
+    {
+      "fact": "COMAH competent authority: HSE (ONR for nuclear) jointly with EA (England), NRW (Wales), SEPA (Scotland)",
+      "url": "https://hse.gov.uk/Comah/authorityindex.htm"
+    },
+    {
+      "fact": "EEMUA 159 sixth edition published April 2025",
+      "url": "https://eemua.org/getattachment/fd947871-3ac5-40cc-86d8-28f00a82d9fe/Contents-EEMUA-Publication-159-Edition6-April-2025.pdf"
+    },
+    {
+      "fact": "Operating UK refineries: Stanlow (Essar), Fawley (ExxonMobil), Pembroke (Valero), Humber, South Killingholme (Phillips 66), Harwich (Haltermann Carless)",
+      "url": "https://en.wikipedia.org/wiki/Petroleum_refining_in_the_United_Kingdom"
+    },
+    {
+      "fact": "Grangemouth ended crude processing in 2025 and transitioned to an import terminal (Petroineos)",
+      "url": "https://www.hydrocarbonprocessing.com/news/2025/04/grangemouth-refinery-scotland-ceases-crude-oil-processing-transitions-into-import-terminal/"
+    },
+    {
+      "fact": "Lindsey refinery owner in liquidation 2025; Phillips 66 completed purchase of Lindsey and associated storage/terminal companies on 28 April 2026, will not restart standalone refining, integrating assets with Humber",
+      "url": "https://www.rigzone.com/news/phillips_66_now_owns_lindsey_refinery-28-apr-2026-183556-article/"
+    },
+    {
+      "fact": "South Hook and Dragon LNG terminals at Milford Haven",
+      "url": "https://www.mhpa.co.uk/latest-news-blog/triple-lng-vessel-arrivals-12-hours/"
+    },
+    {
+      "fact": "PSSR relevant fluids: steam at any pressure; compressed or liquefied gas above 0.5 bar; pressurised hot water above 110 C (re-checked 2026-11-28)",
+      "url": "https://www.hse.gov.uk/pressure-systems/pssr.htm"
+    },
+    {
+      "fact": "Phillips 66 completed Lindsey purchase 28 April 2026 (five Prax companies incl. storage and terminals); will not restart standalone refining; integrating with Humber",
+      "url": "https://www.rigzone.com/news/phillips_66_now_owns_lindsey_refinery-28-apr-2026-183556-article/"
+    }
+  ]
+}
