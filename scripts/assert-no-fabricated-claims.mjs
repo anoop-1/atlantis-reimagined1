@@ -461,7 +461,9 @@ if (WITH_DIST) {
 // wording is allowed on the CWI pages and their sources only (scripts/audit-cwi-2026-11.mjs CWI_OFFER_PATHS), and in
 // the menu label. On those files the CWI tokens are masked before the NON-ASNT-SCHEME-OFFER rules run, so a CSWIP,
 // PCN, ISO 9712 or API training offer on the same line still fails. Everywhere else the CWI rules stand unchanged.
-const CWI_OFFER_FILE = /^(?:src\/data\/audit-cwi-2026-11\/(?:aws-cwi-training|cwi-training-[a-z-]+)\.json|scripts\/audit-cwi-2026-11\.mjs|src\/data\/site-menu\.ts|dist\/(?:aws-cwi-training|training\/cwi-training-[a-z-]+)\/index\.html)$/;
+// 2026-11-28: the API exam-prep course pages (records + built pages) may name the AWS CWI course too — both are Atlantis
+// training offers; only the CWI token is masked, so any other non-ASNT scheme offer on those pages still fails.
+const CWI_OFFER_FILE = /^(?:src\/data\/audit-cwi-2026-11\/(?:aws-cwi-training|cwi-training-[a-z-]+)\.json|src\/data\/api-training-2026-11\/api-[a-z0-9-]+\.json|scripts\/audit-cwi-2026-11\.mjs|src\/data\/site-menu\.ts|dist\/(?:aws-cwi-training|training\/cwi-training-[a-z-]+|api-(?:510|570|580|653)-training|api-inspector-training-[a-z-]+|training\/api-(?:510|570|580|653)-training-[a-z-]+)\/index\.html)$/;
 const maskCwi = (line) => line.replace(/\b(?:AWS\s+)?(?:Certified Welding Inspector(?:\s*\(CWI\))?|CWI)\b/g, 'WELDQUAL');
 
 const VIOLATIONS = [];
