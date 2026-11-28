@@ -39,6 +39,8 @@
     }
   ],
   "sources": [
+    "https://www.eia.gov/petroleum/refinerycapacity/refcap26.pdf",
+    "https://www.nj.gov/labor/safetyandhealth/assets/PDFs/Boiler and Pressure Vessel Compliance/Certificate of Competency Application for Owner-User Inspector.pdf",
     "https://en.wikipedia.org/wiki/Trainer_Refinery",
     "https://www.pbfenergy.com/refineries/",
     "https://en.wikipedia.org/wiki/Bayway_Refinery",
@@ -58,5 +60,6 @@
     "https://www.api.org/products-and-services/individual-certification-programs/schedule-exams",
     "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/570/2027/570_Publications EffectivitySheet_Final_Feb_June 2027.pdf"
   ],
-  "published": "2026-11-28"
+  "published": "2026-11-28",
+  "reviewed": "2026-11-28"
 }

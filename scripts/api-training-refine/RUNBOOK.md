@@ -52,7 +52,7 @@ records `src/data/audit-cwi-2026-11/cwi-training-{city}.json`; CWI city list `CW
    `node scripts/api-training-refine/check-cwi.mjs {city}` → OK.
 4. **Review:** an independent reviewer subagent (did not write the pages) checks every named facility, owner,
    regulator and code reference against primary sources, corrects errors in place, removes anything unverifiable,
-   keeps 2,000+ own words, and reports changes. Re-run both checkers. If a page cannot pass, remove its row(s).
+   keeps 2,000+ own words, and reports changes. Re-run both checkers. If a page cannot pass, remove its row(s). The reviewer adds `"reviewed": "YYYY-MM-DD"` to each API record it passes; the build publishes only reviewed API records.
    Then add the API city slug to `API_LIVE_CITIES` (only if all four API records pass) and the CWI city to
    `CWI_CITIES` (+ `CITY_OVERRIDE` entries that pointed that city elsewhere can stay; `nearestCwi` prefers the
    city's own page).

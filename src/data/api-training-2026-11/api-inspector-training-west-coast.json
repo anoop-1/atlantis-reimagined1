@@ -35,6 +35,7 @@
   }
  ],
  "sources": [
+  "https://api.org/products-and-services/individual-certification-programs/schedule-exams",
   "https://www.eia.gov/petroleum/refinerycapacity/refcap26.pdf",
   "https://www.eia.gov/todayinenergy/detail.php?id=67807",
   "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2581689-phillips-66-completes-rodeo-renewables-conversion",
@@ -46,5 +47,6 @@
   "https://www.reedsmith.com/our-insights/blogs/ehs-law-insights/102k41b/washington-adopts-new-refinery-process-safety-management-psm-rule/",
   "https://lawfilesext.leg.wa.gov/Law/WAC/WAC%20296%20%20TITLE/WAC%20296%20-104%20%20CHAPTER/WAC%20296%20-104%20-125.htm"
  ],
- "published": "2026-11-28"
+ "published": "2026-11-28",
+ "reviewed": "2026-11-28"
 }

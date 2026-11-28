@@ -39,6 +39,7 @@
     }
   ],
   "sources": [
+    "https://www.eng-tips.com/threads/api-510-temperature-difference.522434",
     "https://bp.com/en_us/united-states/home/where-we-operate/indiana/whiting-refinery.html",
     "https://corporate.exxonmobil.com/-/media/global/files/locations/united-states-operations/exxonmobil-joliet-2026-fact-sheet.pdf",
     "https://www.businesswire.com/news/home/20250909376541/en/Phillips-66-announces-agreement-to-purchase-remaining-interest-in-WRB-Refining-LP",
@@ -61,5 +62,6 @@
     "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/510/2026/Sept 2026 510 BOK_final.pdf",
     "https://www.mccarthy.ca/en/experience/cenovus-energy-inc-completes-us-1-4b-sale-of-interest-in-wrb-refining-to-phillips-66"
   ],
-  "published": "2026-11-28"
+  "published": "2026-11-28",
+  "reviewed": "2026-11-28"
 }

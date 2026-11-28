@@ -35,6 +35,7 @@
   }
  ],
  "sources": [
+  "https://api.org/products-and-services/individual-certification-programs/schedule-exams",
   "https://www.api.org/products-and-services/individual-certification-programs",
   "https://www.api.org/products-and-services/individual-certification-programs/certifications/api571",
   "https://law.resource.org/pub/us/cfr/ibr/002/api.510.2006.pdf",
@@ -42,5 +43,6 @@
   "https://www.law.cornell.edu/cfr/text/49/195.432",
   "https://www.eia.gov/todayinenergy/detail.php?id=67807"
  ],
- "published": "2026-11-28"
+ "published": "2026-11-28",
+ "reviewed": "2026-11-28"
 }

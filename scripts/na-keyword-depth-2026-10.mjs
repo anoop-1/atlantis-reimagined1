@@ -25,7 +25,7 @@
 // and both layers read the same block (one source per fact).
 //
 // Rules (guard below): 350–900 words; no price, fee or day-rate wording; no physical-presence claim;
-// no RBI/FFS offer; no API ICP/CWI/PCN/CSWIP/CGSB/ISO 9712/NAS 410 training offer; Atlantis is never
+// no RBI/FFS offer; no PCN/CSWIP/CGSB/ISO 9712/NAS 410 training offer (API exam prep and AWS CWI are Atlantis courses since 2026-11-28 / 2026-11-18); Atlantis is never
 // the Authorized Inspector or inspector of record and never runs in-line inspection; software
 // sections carry no numerals except standards designations; every link is a built page.
 import { readFileSync, readdirSync, existsSync } from 'fs';
@@ -122,7 +122,7 @@ export function naKeywordProblems(d, knownPaths) {
   for (const s of t.split(/(?<=[.!?])\s+/)) {
     const neg = /\b(not|never|no|isn't|doesn't|does not|don't|do not|owner's|engineer|outside)\b/i;
     if (/\b(Atlantis|we|our)\b/i.test(s) && /\b(RBI|risk[- ]based inspection|API ?5(79|80|81)|fitness[- ]for[- ]service|FFS)\b/i.test(s) && !neg.test(s)) out.push(`RBI/FFS offering? ${s.slice(0, 120)}`);
-    if (/\b(Atlantis|we|our)\b/i.test(s) && /\b(API ICP|API 510|API 570|API 653|PCN|CSWIP|CGSB|ISO 9712|NAS 410|SIFE|SIRE)\b[^.]{0,40}\b(training|course|courses|exam prep|class)\b/i.test(s) && !neg.test(s)) out.push(`non-ASNT training offer? ${s.slice(0, 120)}`);
+    if (/\b(Atlantis|we|our)\b/i.test(s) && /\b(PCN|CSWIP|CGSB|ISO 9712|NAS 410|SIFE|SIRE)\b[^.]{0,40}\b(training|course|courses|exam prep|class)\b/i.test(s) && !neg.test(s)) out.push(`non-ASNT training offer? ${s.slice(0, 120)}`);
     if (/\b(Atlantis|we)\b[^.]{0,30}\b(is|are|act as|serve as|become)\b[^.]{0,20}\b(authori[sz]ed inspector|inspector of record|authori[sz]ed inspection agency)\b/i.test(s) && !/\bnot\b/i.test(s)) out.push(`AI claim? ${s.slice(0, 120)}`);
     if (/\b(Atlantis|we)\b[^.]{0,40}\b(run|runs|operate|operates|perform|performs)\b[^.]{0,30}\b(in-line inspection|ILI|smart pig|pigging)\b/i.test(s) && !neg.test(s)) out.push(`ILI claim? ${s.slice(0, 120)}`);
     if (/\b(Atlantis|we)\b[^.]{0,40}\b(job placement|financing|campus|accredited school)\b/i.test(s) && !neg.test(s)) out.push(`school claim? ${s.slice(0, 120)}`);

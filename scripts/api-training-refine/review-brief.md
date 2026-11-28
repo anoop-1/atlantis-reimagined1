@@ -27,7 +27,8 @@ Check especially:
    API administers and certifies, no named instructor, the founder never tied to an API credential, no Atlantis
    classroom, no US radiography offer, no FFS offer.
 
-After editing, keep each page at 2,000+ own words and run
+When a page has passed your review, add `"reviewed": "YYYY-MM-DD"` (today) to its record — only reviewed
+records are published. After editing, keep each page at 2,000+ own words and run
 `node scripts/api-training-2026-11.mjs --check <slug> …` until it prints OK.
 
 Reply with: for each page, the corrections made (old → new, one line each), what you removed as unverifiable, and

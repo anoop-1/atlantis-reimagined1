@@ -38,9 +38,9 @@
 //
 // CONSTRAINTS HELD
 // No price appears here (CLAUDE.md hard rule) — every offer is a demo, a
-// consultation or a quote on request. API 510/570/653 readers are never offered
-// API training (Atlantis does not sell it); cert-seekers are offered ASNT
-// SNT-TC-1A only. Brand palette is white ground with blue accent.
+// consultation or a quote on request. Since 2026-11-28 API exam readers are
+// offered the self-paced API 510/570/580/653 exam-prep course; other cert-seekers
+// are offered ASNT SNT-TC-1A. Brand palette is white ground with blue accent.
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { leadMagnetOffer, MAGNET_VARIANTS } from "@/lib/lead-magnets";
@@ -68,6 +68,13 @@ const METHODS: Array<[RegExp, string]> = [
 
 // Order matters: first match wins. Narrow, high-intent clusters come first.
 const OFFERS: Array<[RegExp, Offer]> = [
+  [
+    // 2026-11-28 (owner): API exam-prep courses. Readers of API certification, exam, Body of Knowledge and
+    // practice pages, and the course pages themselves, get the course enquiry.
+    /api-(?:510|570|580|653)-(?:training|certification|practice|exam|body-of-knowledge|study|recert)|api-inspector-training|api-(?:510|570|580|653)[a-z0-9-]*(?:exam|bok|body-of-knowledge|course|prep|pass-rate)|api-icp/,
+    { variant: "api-prep", service: "training", subject: "API exam prep",
+      title: "Preparing for an API inspector exam?", sub: "API 510, 570, 580 and 653 exam prep: self-paced online, with instructor Q&A.", button: "Enquire about API exam prep" },
+  ],
   [
     /^\/practical-ndt|^\/erp\/apps\/elearning|practice-questions|practice-test|study-guide|mock-exam|quiz|^\/tools\//,
     { variant: "practice", service: "practical-ndt", subject: "Practical NDT simulator demo",

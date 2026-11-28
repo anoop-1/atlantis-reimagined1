@@ -148,7 +148,8 @@ const FORBIDDEN = [
 // Atlantis offering training for a scheme it does not teach (ISO 9712, PCN,
 // CSWIP, API ICP certifications; AWS CWI exam prep is offered since 2026-11-18, CLAUDE.md §80). Educational / employer-context mentions
 // are fine; a sentence where Atlantis/we/our offers that training is not.
-const SCHEME_SRC = String.raw`(?:EN )?ISO ?9712|PCN|CSWIP|API ?(?:510|570|653|571|577|580|1169|936)|API ICP`;
+// 2026-11-28: API 510/570/580/653 exam prep is an Atlantis course (self-paced online); other API ICP programmes are not.
+const SCHEME_SRC = String.raw`(?:EN )?ISO ?9712|PCN|CSWIP|API ?(?:571|577|1169|936)`;
 const SUBJ_SRC = String.raw`(?:Atlantis|we|our)`;
 // Clause-level (split on . ! ? ; and spaced dashes): Atlantis/we/our offering
 // training FOR a non-ASNT scheme, in either word order.

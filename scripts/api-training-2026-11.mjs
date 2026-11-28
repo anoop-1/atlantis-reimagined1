@@ -53,13 +53,16 @@ function recs() {
   }
   return _recs;
 }
+// A record is published only after an independent fact review: the reviewer's pass sets "reviewed" (a date) on
+// the record. Unreviewed drafts are checked by --check but not built. --check mode (CHECK_ALL) sees every record.
+let CHECK_ALL = false;
 export function apiTrainingPaths() {
   const out = new Map();
-  for (const p of PLAN) { const r = recs()[p.slug]; if (r) out.set(p.path, { plan: p, rec: r }); }
+  for (const p of PLAN) { const r = recs()[p.slug]; if (r && (CHECK_ALL || r.reviewed)) out.set(p.path, { plan: p, rec: r }); }
   return out;
 }
 export const API_TRAINING_PATHS = [...apiTrainingPaths().keys()];
-const have = (path) => byPath.has(path) && !!recs()[byPath.get(path).slug];
+const have = (path) => { const p = byPath.get(path); const r = p && recs()[p.slug]; return !!r && (CHECK_ALL || !!r.reviewed); };
 const placeOf = (p) => (p.st ? `${p.city}, ${p.st}` : p.city);
 
 export const COURSE = {
@@ -267,6 +270,7 @@ export function assertApiTrainingClean(builtPaths) {
 
 // Writer CLI: node scripts/api-training-2026-11.mjs --check <slug> [<slug>…]  (checks records without a build)
 if (process.argv[1] && process.argv[1].endsWith('api-training-2026-11.mjs') && process.argv.includes('--check')) {
+  CHECK_ALL = true;
   const want = new Set(process.argv.slice(process.argv.indexOf('--check') + 1));
   const errs = [];
   try { assertApiTrainingClean(new Set()); } catch (e) { errs.push(...String(e.message).split('\n').slice(1).map((s) => s.trim())); }

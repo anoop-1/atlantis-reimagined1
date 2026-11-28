@@ -39,6 +39,8 @@
     }
   ],
   "sources": [
+    "https://www.eia.gov/petroleum/refinerycapacity/refcap26.pdf",
+    "https://www.ofimagazine.com/news/cvr-energy-ceases-renewable-diesel-production-at-oklahoma-refinery",
     "https://www.hfsinclair.com/operations/refining",
     "https://sg.finance.yahoo.com/news/factbox-phillips-66s-refining-operations-221124796.html",
     "https://cvrenergy.com/About/Refining",
@@ -61,5 +63,6 @@
     "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/510/2026/Sept 2026 510 BOK_final.pdf",
     "https://www.api.org/-/media/Files/Certification/ICP/ICP-Certification-Programs/570/2027/570_Publications EffectivitySheet_Final_Feb_June 2027.pdf"
   ],
-  "published": "2026-11-28"
+  "published": "2026-11-28",
+  "reviewed": "2026-11-28"
 }

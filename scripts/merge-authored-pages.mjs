@@ -71,8 +71,10 @@ function policyErrors(p) {
   // answer "No." Without it the guard rejected 12 of 74 pages for carrying the
   // disclaimer it exists to protect.
   const CLAIMS_TRAINING = /(?<!\b(?:does|do|can|could|will|would|should|is)\s)\b(we|atlantis)\b(?![^.?]{0,80}\b(?:not|never|cannot|can't|doesn't|does not|do not|don't)\b)[^.?]{0,80}\b(offers?|provides?|delivers?|sells?|runs?)\b[^.?]{0,40}\bAPI (510|570|653)[^.?]{0,30}\b(training|course)/i;
-  if (CLAIMS_TRAINING.test(blob)) {
-    errs.push('implies Atlantis sells API 510/570/653 training');
+  // 2026-11-28 (owner): Atlantis now sells self-paced API 510/570/580/653 exam prep, so the offer itself is
+  // allowed; what stays forbidden is presenting it as anything other than exam prep (API certifies).
+  if (CLAIMS_TRAINING.test(blob) && /\b(?:certif(?:y|ies)|issues?|grants?)\b[^.?]{0,30}\bAPI\b/i.test(blob)) {
+    errs.push('implies Atlantis certifies API inspectors');
   }
   return errs;
 }
