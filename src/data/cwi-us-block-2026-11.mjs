@@ -30,6 +30,7 @@ export const CWI_CITIES = {
   norfolk: ['Norfolk', 'VA'], 'north-charleston': ['North Charleston', 'SC'], 'las-vegas': ['Las Vegas', 'NV'], 'san-francisco': ['San Francisco', 'CA'],
   // 2026-11-28: API/CWI wave
   midland: ['Midland', 'TX'], 'el-paso': ['El Paso', 'TX'], bakersfield: ['Bakersfield', 'CA'], albuquerque: ['Albuquerque', 'NM'],
+  tucson: ['Tucson', 'AZ'], spokane: ['Spokane', 'WA'], billings: ['Billings', 'MT'], anchorage: ['Anchorage', 'AK'],
 };
 
 const STATE_CODE = {
@@ -42,9 +43,9 @@ const STATE_CODE = {
 };
 /** State -> the CWI page to send its pages to: the state's main CWI city, or the nearest one in a neighbouring state. */
 const STATE_DEFAULT = {
-  AL: 'birmingham', AK: 'seattle', AZ: 'phoenix', AR: 'memphis', CA: 'los-angeles', CO: 'denver', CT: 'boston', DE: 'philadelphia', DC: 'washington-dc',
+  AL: 'birmingham', AK: 'anchorage', AZ: 'phoenix', AR: 'memphis', CA: 'los-angeles', CO: 'denver', CT: 'boston', DE: 'philadelphia', DC: 'washington-dc',
   FL: 'tampa', GA: 'atlanta', HI: 'los-angeles', ID: 'salt-lake-city', IL: 'chicago', IN: 'indianapolis', IA: 'omaha', KS: 'wichita', KY: 'louisville',
-  LA: 'baton-rouge', ME: 'boston', MD: 'baltimore', MA: 'boston', MI: 'detroit', MN: 'minneapolis', MS: 'new-orleans', MO: 'st-louis', MT: 'salt-lake-city',
+  LA: 'baton-rouge', ME: 'boston', MD: 'baltimore', MA: 'boston', MI: 'detroit', MN: 'minneapolis', MS: 'new-orleans', MO: 'st-louis', MT: 'billings',
   NE: 'omaha', NV: 'las-vegas', NH: 'boston', NJ: 'newark', NM: 'albuquerque', NY: 'new-york', NC: 'charlotte', ND: 'minneapolis', OH: 'columbus-ohio',
   OK: 'oklahoma-city', OR: 'portland', PA: 'philadelphia', RI: 'boston', SC: 'north-charleston', SD: 'omaha', TN: 'nashville', TX: 'houston',
   UT: 'salt-lake-city', VT: 'boston', VA: 'norfolk', WA: 'seattle', WV: 'pittsburgh', WI: 'milwaukee', WY: 'denver',
@@ -73,7 +74,7 @@ const CITY_OVERRIDE = {
   richmond: 'norfolk', lynchburg: 'norfolk', 'newport-news': 'norfolk', savannah: 'jacksonville',
   // West and Mountain
   tucson: 'phoenix', reno: 'san-francisco', 'colorado-springs': 'denver', ogden: 'salt-lake-city', farmington: 'denver', hobbs: 'fort-worth', casper: 'denver',
-  spokane: 'seattle', tacoma: 'seattle', richland: 'seattle', billings: 'denver', williston: 'minneapolis', 'idaho-falls': 'salt-lake-city', fairbanks: 'seattle',
+  spokane: 'seattle', tacoma: 'seattle', richland: 'spokane', billings: 'denver', williston: 'billings', 'idaho-falls': 'salt-lake-city', fairbanks: 'anchorage',
   // New England, Great Lakes
   'east-hartford': 'boston', groton: 'boston', providence: 'boston', 'portsmouth-new-hampshire': 'boston', 'bath-maine': 'boston', duluth: 'minneapolis',
   'grand-rapids': 'detroit', 'des-moines': 'omaha', 'little-rock': 'memphis',
