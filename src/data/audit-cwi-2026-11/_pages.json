@@ -1059,6 +1059,50 @@
    "st": "AK",
    "citySlug": "anchorage",
    "region": "West"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-des-moines",
+   "slug": "cwi-training-des-moines",
+   "city": "Des Moines",
+   "st": "IA",
+   "citySlug": "des-moines",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-grand-rapids",
+   "slug": "cwi-training-grand-rapids",
+   "city": "Grand Rapids",
+   "st": "MI",
+   "citySlug": "grand-rapids",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-toledo",
+   "slug": "cwi-training-toledo",
+   "city": "Toledo",
+   "st": "OH",
+   "citySlug": "toledo",
+   "region": "Midwest"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-fort-wayne",
+   "slug": "cwi-training-fort-wayne",
+   "city": "Fort Wayne",
+   "st": "IN",
+   "citySlug": "fort-wayne",
+   "region": "Midwest"
   }
  ]
 }

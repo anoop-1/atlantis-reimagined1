@@ -31,6 +31,7 @@ export const CWI_CITIES = {
   // 2026-11-28: API/CWI wave
   midland: ['Midland', 'TX'], 'el-paso': ['El Paso', 'TX'], bakersfield: ['Bakersfield', 'CA'], albuquerque: ['Albuquerque', 'NM'],
   tucson: ['Tucson', 'AZ'], spokane: ['Spokane', 'WA'], billings: ['Billings', 'MT'], anchorage: ['Anchorage', 'AK'],
+  'des-moines': ['Des Moines', 'IA'], 'grand-rapids': ['Grand Rapids', 'MI'], toledo: ['Toledo', 'OH'], 'fort-wayne': ['Fort Wayne', 'IN'],
 };
 
 const STATE_CODE = {
@@ -44,7 +45,7 @@ const STATE_CODE = {
 /** State -> the CWI page to send its pages to: the state's main CWI city, or the nearest one in a neighbouring state. */
 const STATE_DEFAULT = {
   AL: 'birmingham', AK: 'anchorage', AZ: 'phoenix', AR: 'memphis', CA: 'los-angeles', CO: 'denver', CT: 'boston', DE: 'philadelphia', DC: 'washington-dc',
-  FL: 'tampa', GA: 'atlanta', HI: 'los-angeles', ID: 'salt-lake-city', IL: 'chicago', IN: 'indianapolis', IA: 'omaha', KS: 'wichita', KY: 'louisville',
+  FL: 'tampa', GA: 'atlanta', HI: 'los-angeles', ID: 'salt-lake-city', IL: 'chicago', IN: 'indianapolis', IA: 'des-moines', KS: 'wichita', KY: 'louisville',
   LA: 'baton-rouge', ME: 'boston', MD: 'baltimore', MA: 'boston', MI: 'detroit', MN: 'minneapolis', MS: 'new-orleans', MO: 'st-louis', MT: 'billings',
   NE: 'omaha', NV: 'las-vegas', NH: 'boston', NJ: 'newark', NM: 'albuquerque', NY: 'new-york', NC: 'charlotte', ND: 'minneapolis', OH: 'columbus-ohio',
   OK: 'oklahoma-city', OR: 'portland', PA: 'philadelphia', RI: 'boston', SC: 'north-charleston', SD: 'omaha', TN: 'nashville', TX: 'houston',
@@ -64,7 +65,7 @@ const CITY_OVERRIDE = {
   // Alabama
   huntsville: 'birmingham', montgomery: 'birmingham',
   // Ohio
-  toledo: 'detroit', dayton: 'cincinnati', akron: 'cleveland',
+  toledo: 'detroit', 'lima-ohio': 'toledo', dayton: 'cincinnati', akron: 'cleveland',
   // Pennsylvania and New York
   erie: 'buffalo', allentown: 'philadelphia', albany: 'new-york',
   // Missouri, Tennessee, Kentucky, Illinois, Indiana
@@ -80,7 +81,7 @@ const CITY_OVERRIDE = {
   'grand-rapids': 'detroit', 'des-moines': 'omaha', 'little-rock': 'memphis',
   // US training cities added 2026-11-23 (state default is not the nearest CWI page)
   pensacola: 'mobile', evansville: 'louisville', 'rochester-new-york': 'buffalo', syracuse: 'buffalo', amarillo: 'oklahoma-city',
-  'cedar-rapids': 'chicago', 'columbia-south-carolina': 'charlotte',
+  'cedar-rapids': 'des-moines', 'columbia-south-carolina': 'charlotte',
   'charleston-west-virginia': 'columbus-ohio',
 };
 /** Region pages: the CWI page that best represents the region, or the national page. */
