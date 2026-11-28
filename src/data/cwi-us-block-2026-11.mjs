@@ -33,6 +33,7 @@ export const CWI_CITIES = {
   tucson: ['Tucson', 'AZ'], spokane: ['Spokane', 'WA'], billings: ['Billings', 'MT'], anchorage: ['Anchorage', 'AK'],
   'des-moines': ['Des Moines', 'IA'], 'grand-rapids': ['Grand Rapids', 'MI'], toledo: ['Toledo', 'OH'], 'fort-wayne': ['Fort Wayne', 'IN'],
   knoxville: ['Knoxville', 'TN'], chattanooga: ['Chattanooga', 'TN'], savannah: ['Savannah', 'GA'], pascagoula: ['Pascagoula', 'MS'],
+  peoria: ['Peoria', 'IL'], 'green-bay': ['Green Bay', 'WI'], 'greenville-south-carolina': ['Greenville', 'SC'], shreveport: ['Shreveport', 'LA'],
 };
 
 const STATE_CODE = {
@@ -56,7 +57,7 @@ const STATE_DEFAULT = {
 const CITY_OVERRIDE = {
   // Texas
   baytown: 'houston', 'deer-park': 'houston', 'pasadena-texas': 'houston', galveston: 'houston', 'texas-city': 'houston', 'sugar-land': 'houston', freeport: 'houston',
-  'port-arthur': 'beaumont', austin: 'san-antonio', brownsville: 'corpus-christi', midland: 'fort-worth', odessa: 'midland', 'el-paso': 'phoenix', 'longview-texas': 'dallas',
+  'port-arthur': 'beaumont', austin: 'san-antonio', brownsville: 'corpus-christi', midland: 'fort-worth', odessa: 'midland', 'el-paso': 'phoenix', 'longview-texas': 'shreveport',
   // California
   'san-jose': 'san-francisco', martinez: 'san-francisco', sacramento: 'san-francisco', 'el-segundo': 'los-angeles', 'long-beach': 'los-angeles', bakersfield: 'los-angeles',
   // Florida
@@ -70,7 +71,7 @@ const CITY_OVERRIDE = {
   // Pennsylvania and New York
   erie: 'buffalo', allentown: 'philadelphia', albany: 'new-york',
   // Missouri, Tennessee, Kentucky, Illinois, Indiana
-  springfield: 'st-louis', peoria: 'chicago', whiting: 'chicago', knoxville: 'nashville', chattanooga: 'atlanta', 'oak-ridge': 'knoxville', lexington: 'louisville',
+  springfield: 'peoria', peoria: 'chicago', whiting: 'chicago', knoxville: 'nashville', chattanooga: 'atlanta', 'oak-ridge': 'knoxville', lexington: 'louisville',
   // Carolinas, Virginia, Georgia
   'greenville-south-carolina': 'charlotte', 'wilmington-north-carolina': 'north-charleston', raleigh: 'charlotte', fayetteville: 'charlotte', aiken: 'atlanta',
   richmond: 'norfolk', lynchburg: 'norfolk', 'newport-news': 'norfolk', savannah: 'jacksonville',
