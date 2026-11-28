@@ -1,5 +1,5 @@
 // Prints today's work for the daily API + CWI run (RUNBOOK.md): the first API city in queue.json whose four
-// course records do not all exist yet (first the first-wave cities still unwritten, then the queue), and the first
+// course records are not all written and reviewed yet (first the first-wave cities still unwritten, then the queue), and the first
 // CWI city in the queue without a record. Output: the plan rows to append.
 import { readFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -10,7 +10,10 @@ const API = join(ROOT, 'src/data/api-training-2026-11');
 const CWI = join(ROOT, 'src/data/audit-cwi-2026-11');
 const plan = JSON.parse(readFileSync(join(API, '_pages.json'), 'utf8')).pages;
 const codes = ['510', '570', '580', '653'];
-const done = (slug) => codes.every((c) => existsSync(join(API, `api-${c}-training-${slug}.json`)));
+// A city is done only when all four records exist AND carry the reviewer's "reviewed" date; a city with unreviewed
+// drafts (a run that stopped before review) is picked again so the next run reviews and finishes it.
+const reviewed = (p) => { try { return Boolean(JSON.parse(readFileSync(p, 'utf8')).reviewed); } catch { return false; } };
+const done = (slug) => codes.every((c) => { const p = join(API, `api-${c}-training-${slug}.json`); return existsSync(p) && reviewed(p); });
 const firstWave = (q.api_first_wave || []).filter((s) => !done(s));
 let api = null;
 if (firstWave.length) {
