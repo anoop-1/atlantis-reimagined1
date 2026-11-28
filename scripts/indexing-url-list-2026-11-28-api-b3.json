@@ -1,0 +1,67 @@
+{
+ "urls": [
+  {
+   "url": "https://atlantisndt.com/training/api-510-training-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-570-training-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-580-training-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-653-training-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-510-training-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-570-training-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-580-training-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/training/api-653-training-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/training/cwi-training-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/training/cwi-training-el-paso"
+  },
+  {
+   "url": "https://atlantisndt.com/training/cwi-training-bakersfield"
+  },
+  {
+   "url": "https://atlantisndt.com/training/cwi-training-albuquerque"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-chicago"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-midland"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-odessa"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-el-paso"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-bakersfield"
+  },
+  {
+   "url": "https://atlantisndt.com/ndt-training-albuquerque"
+  },
+  {
+   "url": "https://atlantisndt.com/api-inspector-training-midwest"
+  },
+  {
+   "url": "https://atlantisndt.com/api-inspector-training-mountain-plains"
+  },
+  {
+   "url": "https://atlantisndt.com/aws-cwi-training"
+  }
+ ]
+}
