@@ -1,0 +1,210 @@
+{
+  "title": "Sharjah NDT Report Validation | Gas, Fabrication, Power Review",
+  "description": "Remote, independent review of NDT reports and digital inspection data from Sharjah's gas plant, Hamriyah fabrication yards and power stations.",
+  "h1": "Independent NDT report review for Sharjah's gas assets, Hamriyah fabricators and power plants",
+  "eyebrow": "Report validation · Sharjah, UAE",
+  "intro": "Sharjah's inspection paperwork comes from three quite different worlds. Inland, the emirate's gas fields and processing plant produce integrity records on wells, flowlines, vessels and piping. On the Gulf coast, the Hamriyah Free Zone fills with fabricators whose weld reports travel with steel to projects across the region. Between them sit combined-cycle power and water plants with tube, weld and boiler data of their own. We read those records as an independent reviewer: the reports and the digital inspection files behind them are checked against the procedure, the code and the purchaser's specification, and every finding is written up with its evidence. Sharjah has no Atlantis office, so the review is done remotely.",
+  "highlights": [
+    {
+      "h": "Gas plant and field records",
+      "p": "Thickness surveys, corrosion maps, weld examinations and repair records from gas gathering, processing, storage and export facilities are checked against the operator's specification and the code each record claims to follow."
+    },
+    {
+      "h": "Data books from Hamriyah yards",
+      "p": "Fabricated vessels, structures and skids leave Hamriyah with a data book. A second reading before shipment catches missing qualifications, wrong acceptance tables and weld maps that do not match the reports."
+    },
+    {
+      "h": "Power plant tube and weld data",
+      "p": "Heat recovery steam generator tube surveys, high-energy piping weld reports and outage NDT packages are opened file by file, so the summary is tested against what the instrument actually recorded."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Where Sharjah's inspection records originate",
+      "p": [
+        "Sharjah is often thought of as a city of trade and housing next to Dubai, but the emirate runs a complete chain of gas production, processing, storage and export, plus one of the larger industrial free zones in the country. That mix shapes what a reviewer receives. Upstream and midstream records arrive from the gas operator and its contractors; fabrication records arrive from yards and workshops that build for owners elsewhere; utility records arrive from power and water plants during commissioning and planned outages.",
+        "Each group writes reports for a different reader. The gas operator's integrity engineer wants corrosion trends tied to known locations. A purchaser two countries away wants proof that a fabricated vessel was examined to the contract. A plant owner wants to know that the tube readings taken in a short outage window support the decision to return a unit to service. An independent review keeps that reader in mind and asks whether the record actually answers their question."
+      ]
+    },
+    {
+      "h": "Gas fields, the Sajaa plant and Moveyeid storage",
+      "p": [
+        "Sharjah National Oil Corporation (SNOC) is the emirate's state energy company. Its upstream portfolio lists the Sajaa and Kahaif fields, discovered in the 1980s, the Moveyeid field, which SNOC converted into a strategic gas storage hub for seasonal and daily swings in demand, and two newer onshore discoveries: Mahani, found with Eni in 2020, and Hedebah, found by SNOC in 2024. SNOC announced completion of the first phase of Hedebah in October 2026, saying the emirate's gas production had more than doubled, with production to be raised during 2027 and a plateau expected by 2028.",
+        "On the midstream side SNOC describes the Sajaa Gas Plant as a processing complex of about 700 million standard cubic feet a day, producing sales gas, condensate and LPG, a pipeline network of more than 500 kilometres, two condensate terminals and terminal facilities at Hamriyah Port for storing, loading and exporting gas products. We name SNOC and its assets to describe the area. SNOC is not a client, and nothing on this page suggests Atlantis has reviewed its records or holds approved-vendor status with it.",
+        "Facilities of this kind generate a familiar record set: wall thickness readings at condition monitoring locations on process and flowline piping, corrosion mapping of vessels and separators where sour or wet gas service is a concern, weld reports from tie-ins that connect new wells and gathering lines to an operating system, and storage and loading records at the coast. New field development adds construction NDT on a large scale, which tends to arrive in bulk when a phase is handed over."
+      ]
+    },
+    {
+      "h": "Hamriyah Free Zone: fabrication for buyers elsewhere",
+      "p": [
+        "The Hamriyah Free Zone Authority describes its Industrial Manufacturing Park as infrastructure built for steel, timber, telecommunications and appliance industries, with steel product makers and fabricators among its tenants, and lists an oil and gas sector covering equipment repair and maintenance, petrochemicals and trading. Its marine area offers a 14 metre deep-water port and a 7 metre inner harbour, with plots that have direct sea access, which is why offshore fabrication, rig equipment work and boat building sit alongside conventional steel shops.",
+        "For a reviewer this means data books written for someone else's acceptance. A pressure vessel built in Hamriyah may be stamped to ASME Section VIII, a structural module may be fabricated to AWS D1.1, and piping spools may follow ASME B31.3 with a purchaser's supplementary requirements layered on top. The fabricator's inspection staff know the shop; the purchaser's engineer knows the project specification. Gaps open where those two sets of knowledge meet, and a second, independent reading is the easiest place to close them, before the steel is on a ship or a truck."
+      ],
+      "list": [
+        "Weld maps that do not reconcile with the examination reports, or reports for welds that do not appear on the map",
+        "UT technique sheets that ignore the actual thickness, bevel or access of the joint examined",
+        "MT and PT reports with no record of the lighting, contact time or consumable batch used",
+        "Repair records that show a repair but no re-examination of the repaired area",
+        "Personnel certificates that expired before the date of the examination they support"
+      ]
+    },
+    {
+      "h": "Power and water: the Hamriyah combined-cycle plant and utility stations",
+      "p": [
+        "The Hamriyah independent power project is a combined-cycle plant of up to 1.8 GW in three blocks, built around GE Vernova 9HA.01 gas turbines with heat recovery steam generators and steam turbines. Commercial operation of all three blocks was announced in October 2023. The plant is owned and operated by SHIPCO, the consortium formed at financial close by GE Vernova's financial services business and Sumitomo Corporation with Shikoku Electric Power Company and Sharjah Asset Management (MEED reported in April 2025 that GE Vernova was looking to sell its stake). It was developed under a long-term power purchase agreement with the Sharjah government and is the emirate's first independent power project, supplying Sharjah's grid, which the Sharjah Electricity, Water and Gas Authority (SEWA) runs. These are named for context only; none is an Atlantis client.",
+        "A combined-cycle unit produces NDT records in predictable places: HRSG tube thickness and weld surveys, examinations of high-energy steam piping and its supports, attachment weld checks on headers, and condenser or cooling system tube data. Outage windows are short, so reports are often written in haste by contractors working shifts. The review checks that readings sit at identified locations, that the technique suits the tube or weld geometry, and that the acceptance criteria quoted are the ones the owner's maintenance specification actually names. Whether a tube stays in service, and for how long, remains the owner's engineering decision."
+      ]
+    },
+    {
+      "h": "Report types from Sharjah and what the review tests in each",
+      "p": [
+        "The table summarises the records most often sent from the emirate and the checks that matter most for each. Every review also runs the standard set of checks on procedure, personnel, equipment and calibration, technique, acceptance criteria, interpretation and traceability."
+      ],
+      "table": {
+        "head": [
+          "Record",
+          "Typical source in Sharjah",
+          "Checks that carry the most weight"
+        ],
+        "rows": [
+          [
+            "Piping and vessel thickness surveys",
+            "Gas gathering, processing and storage",
+            "Locations identifiable on drawings, probe and calibration block suited to the temperature and thickness, readings compared with earlier surveys"
+          ],
+          [
+            "Corrosion mapping and phased array files",
+            "Separators, vessels and piping in gas service",
+            "Scan coverage against the plan, encoder and gate settings, colour scale, and whether the summary minimum matches the raw data"
+          ],
+          [
+            "Weld UT, MT and PT reports",
+            "Hamriyah fabricators, tie-ins, plant repairs",
+            "Code and edition named correctly, technique sheet matched to the joint, consumables and lighting recorded"
+          ],
+          [
+            "Radiographs and digital images",
+            "Fabrication and construction contractors",
+            "Image quality indicators, density or signal-to-noise values, film or plate identification against the weld map"
+          ],
+          [
+            "HRSG and boiler tube surveys",
+            "Combined-cycle and utility plants",
+            "Tube identification, reading density at known damage zones, technique for small-bore tube"
+          ],
+          [
+            "Fabrication data books",
+            "Vessels, skids and structures leaving Hamriyah",
+            "Completeness against the inspection and test plan, repair traceability, personnel and procedure qualification on the work date"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Specifications, codes and authorities behind a Sharjah report",
+      "p": [
+        "There is no single Sharjah inspection rulebook that every record follows. Gas facilities follow the operator's own engineering specifications, which usually call up API, ASME and ASTM documents for design, examination and acceptance. Fabricators work to whatever the purchase order names: ASME Section VIII or Section I for vessels and boilers, ASME B31.3 or B31.1 for piping, AWS D1.1 for structural steel, ASME Section V for the examination methods, and the purchaser's supplementary requirements. Where a Hamriyah shop builds for a project in Abu Dhabi, the ADNOC specifications in the contract may also apply, and the review reads the record against those rather than against a generic code.",
+        "Industrial radiography in the UAE uses radiation sources that the Federal Authority for Nuclear Regulation (FANR) licenses, so the radiography contractor carries that licence and the duties that come with it. Our part is limited to the documents: radiographs, computed radiography plates and digital radiography images are reviewed as records. Port and free zone activity falls under the Sharjah Ports, Customs and Free Zones Authority and the Hamriyah Free Zone Authority, which govern operations in their zones rather than the content of NDT reports. A reviewer's first job is therefore to establish which document set actually governs the record in front of them."
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting in Sharjah projects",
+      "p": [
+        "More of the evidence now arrives as files rather than paper: phased array and TOFD scans, encoded corrosion maps, thickness data logged straight from a gauge, digital radiography images and reports produced on a reporting platform with electronic signatures. That is good for review, because the reviewer can open the original data rather than trust a screenshot. It also adds failure modes that paper never had. A report may be generated from a template that still carries the previous job's code edition. A colour palette may be set so that a thin area looks acceptable. An exported image may be cropped so that the indication sits outside the frame.",
+        "In a digital inspection data review we check that each file traces to the component and the date it claims, that the instrument settings saved in the file agree with the procedure, that the software version can read the data correctly, and that the digital report says what the data shows. Where electronic signatures are used, we check who signed, in what role and when, against the qualification records supplied. When raw files are not available, the opinion says so plainly, because a review of a PDF alone is a narrower opinion than a review of the data."
+      ]
+    },
+    {
+      "h": "Typical reasons a Sharjah record is sent for review",
+      "p": [
+        "Most requests start with a decision someone has to sign. A purchaser wants a second opinion before accepting a fabricated vessel from a Hamriyah yard. A plant owner disputes a contractor's rejection of a batch of welds, or the contractor disputes the owner's. An integrity team inherits survey data from an earlier contractor and needs to know whether it can be trended. A lender or buyer looks at an asset's inspection history before committing money. In each case the value of the review lies in its distance from the work: Atlantis does not review reports on jobs where it carried out the examination.",
+        "The review cannot replace the examination. If coverage was incomplete or the technique could not detect the damage in question, the opinion records that and recommends what further work would answer the question. Planning that further work, or carrying it out, is a separate decision for the owner."
+      ]
+    },
+    {
+      "h": "How a remote review runs from Sharjah",
+      "p": [
+        "You send the report, the procedure it claims to follow, the personnel certificates, calibration records and, wherever possible, the raw digital files, through a secure transfer link. We confirm what has arrived, list anything missing that limits the opinion, and send the scope and a quote. Questions during the review go to the contact you name, by email or video call, so the work does not depend on anyone travelling to Sharjah.",
+        "The output is a written opinion. Each finding cites the clause, table or procedure step it relies on and the evidence in your records, and the whole package receives one of three verdicts: sound, deficient in documentation only, or deficient in disposition. Atlantis works from offices in Houston and Hyderabad; neither Sharjah nor anywhere else in the Gulf has an Atlantis office, laboratory or agent. We reply within one business day."
+      ]
+    },
+    {
+      "h": "The people who review, and where the opinion stops",
+      "p": [
+        "Review of UT, RT, MT, PT and VT work is led by an ASNT NDT Level III holding certification in each of those five methods. Members of the wider review team have backgrounds in nuclear, maritime, oil and gas and petrochemical work, which helps when a Sharjah record crosses between plant, yard and port. For eddy current, acoustic emission or other methods, the proposal names a reviewer whose certification matches what the contract requires.",
+        "Some decisions are not ours to make. Fitness-for-service and remaining-life assessments stay with the owner's engineer. We do not act as inspector of record or Authorized Inspector, and we do not certify personnel. The opinion gives the owner, the purchaser or the contractor an independent technical view of the evidence; what they do with it is their call."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have an office or inspectors in Sharjah?",
+      "a": "No. Atlantis operates from Houston and Hyderabad. Sharjah reviews are carried out remotely on the reports and digital files you send, with questions handled by email or video call."
+    },
+    {
+      "q": "Can you review a fabrication data book before it leaves Hamriyah?",
+      "a": "Yes. Send the data book with the inspection and test plan and the purchase specification. The review checks completeness, weld map reconciliation, qualifications on the work date and the acceptance basis, and lists anything that should be closed before shipment."
+    },
+    {
+      "q": "Which codes will you read a Sharjah report against?",
+      "a": "The documents the record is supposed to follow: the operator's or purchaser's specification and the codes it calls up, such as ASME Section V, Section VIII, B31.3, B31.1, AWS D1.1 or API inspection codes. If the contract names ADNOC or another operator's standards, those govern."
+    },
+    {
+      "q": "Do you carry out radiography in the UAE?",
+      "a": "No. Radiography is performed by contractors licensed by FANR for their radiation sources. We review the radiographs, computed radiography plates and digital radiography images they produce as records, together with the procedure and technique sheets."
+    },
+    {
+      "q": "Can you open phased array, TOFD and corrosion mapping files directly?",
+      "a": "Yes, when the raw files are supplied in a readable format. Reviewing the original data lets us test the report's conclusions against what the instrument recorded, which a PDF summary alone does not allow."
+    },
+    {
+      "q": "Will the review tell us whether a corroded line or tube can stay in service?",
+      "a": "No. Fitness-for-service and remaining-life decisions stay with your engineer. The review tells you whether the inspection evidence is sound enough to base that decision on, and where it falls short."
+    },
+    {
+      "q": "We are a contractor whose report was rejected. Can we ask for a review?",
+      "a": "Yes. Contractors, owners and purchasers all send records. The opinion is independent of who commissions it and is based only on the evidence and the governing documents."
+    },
+    {
+      "q": "How do we start, and how quickly will you respond?",
+      "a": "Send a short description of the records and the decision they support, or the files themselves through the form. We reply within one business day with what we need and the scope and a quote."
+    }
+  ],
+  "related": [
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "Outsourced ASNT Level III consulting"
+    ],
+    [
+      "/consulting/oil-gas-ndt-consulting",
+      "Oil and gas NDT consulting"
+    ],
+    [
+      "/consulting/level-iii-audit-support-power-generation",
+      "Level III audit support for power generation"
+    ],
+    [
+      "/report-validation/corrosion-mapping-data-review",
+      "Corrosion mapping data review"
+    ],
+    [
+      "/ultrasonic-weld-inspection",
+      "Ultrasonic weld inspection"
+    ],
+    [
+      "/ndt-training-dubai",
+      "NDT training in Dubai"
+    ]
+  ],
+  "sources": [
+    "https://www.snoc.ae/our-business/upstream/",
+    "https://www.snoc.ae/our-business/midstream/",
+    "https://www.khaleejtimes.com/uae/sharjah-doubles-gas-production-hedebah-gas-condensate-field-phase-1-complete",
+    "https://www.ge.com/news/press-releases/sewa-shipco-ge-vernova-announce-commercial-operations-of-hamriyah-ipp-meas-most",
+    "https://hfza.ae/?p=3473",
+    "https://gulfnews.com/amp/story/business%2Fcorporate-news%2Fsharjah-ports-customs-and-free-zones-authority-and-gulftainer-strengthen-ties-by-extending-concession-agreements-1.1700554651801",
+    "https://gulfnews.com/uae/government/licences-will-ensure-safe-use-of-radioactive-materials-1.634711",
+    "https://guest.meed.com/ge-vernova-to-divest-hamriyah-ipp-stake",
+    "https://www.power-technology.com/projects/hamriyah-power-project-sharjah-uae/"
+  ]
+}

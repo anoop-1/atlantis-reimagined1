@@ -933,6 +933,73 @@
     "refinery",
     "fabrication"
    ]
+  },
+  {
+   "slug": "duqm-oman",
+   "kind": "city",
+   "navLabel": "Report validation in Duqm, Oman",
+   "place": "Duqm",
+   "region": "Oman",
+   "country": "Oman",
+   "label": "Oman",
+   "industries": [
+    "refinery",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "charleston-wv",
+   "kind": "city",
+   "navLabel": "Report validation in Charleston, WV",
+   "place": "Charleston",
+   "region": "West Virginia",
+   "country": "United States",
+   "label": "WV",
+   "industries": [
+    "petrochem",
+    "power",
+    "oil-gas"
+   ]
+  },
+  {
+   "slug": "sharjah-uae",
+   "kind": "city",
+   "navLabel": "Report validation in Sharjah, UAE",
+   "place": "Sharjah",
+   "region": "United Arab Emirates",
+   "country": "United Arab Emirates",
+   "label": "UAE",
+   "industries": [
+    "oil-gas",
+    "fabrication",
+    "power"
+   ]
+  },
+  {
+   "slug": "ashland-ky",
+   "kind": "city",
+   "navLabel": "Report validation in Ashland, KY",
+   "place": "Ashland",
+   "region": "Kentucky",
+   "country": "United States",
+   "label": "KY",
+   "industries": [
+    "refinery",
+    "petrochem"
+   ]
+  },
+  {
+   "slug": "basra-iraq",
+   "kind": "city",
+   "navLabel": "Report validation in Basra, Iraq",
+   "place": "Basra",
+   "region": "Iraq",
+   "country": "Iraq",
+   "label": "Iraq",
+   "industries": [
+    "oil-gas",
+    "refinery"
+   ]
   }
  ]
 }

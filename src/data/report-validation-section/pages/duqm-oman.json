@@ -1,0 +1,209 @@
+{
+  "title": "NDT Report Validation in Duqm, Oman | Independent Review",
+  "description": "Independent, remote review of Duqm refinery, Ras Markaz tank and SEZ fabrication NDT reports and digital inspection data, checked clause by clause.",
+  "h1": "Independent review of NDT reports from the Duqm refinery, Ras Markaz and the Special Economic Zone",
+  "eyebrow": "Report validation · Duqm, Oman",
+  "intro": "Duqm is young industrial ground. A grass-roots refinery, a crude storage park at Ras Markaz and a port were built on the Arabian Sea coast within roughly a decade, so most of the inspection paperwork here is still the first of its kind: construction dossiers, baseline surveys and the opening rounds of in-service inspection. Getting those first records right matters more than anything that follows, because every later survey is compared with them. Atlantis reads them independently. You send the reports and the digital inspection data behind them, and a reviewer checks each one against the procedure and the governing code, then writes up what holds and what does not. The work is done remotely; Atlantis keeps no office anywhere in Oman.",
+  "highlights": [
+    {
+      "h": "Baselines that later surveys depend on",
+      "p": "On a plant this new, the construction NDT and the first thickness readings become the reference point for decades. A reviewer checks that those records are complete, traceable and repeatable before they are adopted as the baseline."
+    },
+    {
+      "h": "Tank farm and refinery in one review",
+      "p": "Very large crude tanks at Ras Markaz and hydroprocessing and coking units at the refinery produce very different reports. Both are read against the code they were written to, not against a generic checklist."
+    },
+    {
+      "h": "The files, not only the PDF",
+      "p": "Phased array and TOFD data, digital radiographs and thickness databases are opened and compared with the signed report, so a summary cannot drift away from the evidence it claims to describe."
+    }
+  ],
+  "sections": [
+    {
+      "h": "A new industrial town on the Arabian Sea",
+      "p": [
+        "Duqm sits on Oman's central coast in Al Wusta, far from the older industrial belt around Muscat and Sohar. The Special Economic Zone at Duqm is administered by the Public Authority for Special Economic Zones and Free Zones (OPAZ), established by Royal Decree 105/2020, which also oversees the free zones at Sohar, Salalah and Al Mazunah. The zone was planned around heavy industry and logistics: a refinery, liquid storage, a commercial port and the services that grow up around them.",
+        "For inspection reviewers that history has a practical consequence. Very little equipment in Duqm has a long service record. Pressure vessels, piping circuits and storage tanks are mostly in their first or second inspection interval, and the paper that describes them was produced by construction contractors, fabrication shops in several countries and commissioning teams that have since left. When a question arises about a weld, a thickness reading or a tank floor scan, the answers sit in those records and nowhere else.",
+        "None of the organisations named on this page is a client of Atlantis, and nothing here should be read as a claim that Atlantis has reviewed their reports or is registered as an approved vendor with any of them. They are named only so the page describes Duqm accurately."
+      ]
+    },
+    {
+      "h": "OQ8 and the Duqm refinery",
+      "p": [
+        "The Duqm refinery is owned and operated by OQ8, a joint venture of OQ, the Omani state energy group, and Kuwait Petroleum International, part of Kuwait Petroleum Corporation. It is a grass-roots plant on a site of about 900 hectares with a design capacity of 230,000 barrels per stream day. It completed start-up in 2023 and was formally inaugurated by the two governments in early 2024; OQ8 said at the time that it planned to run the plant above its design throughput. OQ8 lists hydrocracking, hydrotreating, delayed coking, sulphur recovery, hydrogen generation and Merox treating among its units, with naphtha, jet fuel, diesel and LPG as the main products.",
+        "That unit mix shapes the inspection record. Hydroprocessing reactors and their effluent trains are heavy-wall vessels and piping in hydrogen service, where construction weld examination, post-weld heat treatment records and in-service ultrasonic data all carry weight. Delayed coker drums go through repeated thermal cycles, so drum shell and skirt weld examinations are reviewed with an eye on how indications are trended from one inspection to the next. Sulphur recovery and sour water systems bring their own corrosion concerns, and amine and hydrogen plants add more. A reviewer reading a Duqm package should expect the damage mechanisms named in the inspection plan to line up with API RP 571 descriptions and with the operator's own corrosion study.",
+        "Because the plant is new, its first turnaround packages are also the first time many circuits are examined in service. Those reports are worth an independent reading precisely because nothing yet exists to compare them with except the construction records."
+      ]
+    },
+    {
+      "h": "Ras Markaz and the tank inspection record",
+      "p": [
+        "Some 80 km of pipeline links the refinery to the crude storage terminal at Ras Markaz, which is run by Oman Tank Terminal Company (OTTCO), an OQ Group subsidiary. The first phase, completed at the end of 2022, was reported at about 26.7 million barrels of capacity and supplies crude to the refinery. Its location outside the Strait of Hormuz is the reason the site keeps attracting storage plans: OQ has published intentions to add onshore crude storage at Duqm, and OTTCO has agreed with Royal Vopak to form a joint venture for storage in the zone. Those are plans as reported, not finished assets.",
+        "Large crude tanks produce a particular kind of inspection file. Floor scans by magnetic flux leakage or similar screening methods are followed by ultrasonic prove-up of the calls; shell courses are gauged; annular plates, roof structures, seals and settlement are surveyed. Under API 653 the owner decides what goes back into service and when the next internal inspection is due. The reviewer's job is narrower: to confirm the coverage the report claims was actually achieved, that the prove-up readings are tied to the screening calls they resolve, and that the thickness values used for minimum-thickness comparisons came from calibrated instruments on the dates shown."
+      ],
+      "table": {
+        "head": [
+          "Asset at Duqm",
+          "Owner or operator (as published)",
+          "Reports a reviewer is usually sent",
+          "First things the review tests"
+        ],
+        "rows": [
+          [
+            "Duqm refinery process units",
+            "OQ8 (OQ and Kuwait Petroleum International)",
+            "Construction weld NDT, API 510 vessel reports, API 570 circuit surveys, turnaround packages",
+            "Code edition, CML positions against the baseline, repair weld examination and disposition"
+          ],
+          [
+            "Heavy-wall reactors and coker drums",
+            "OQ8",
+            "PAUT and TOFD data, wall thickness grids, PWHT and hardness records",
+            "Scan plan coverage, calibration blocks, indication trending between campaigns"
+          ],
+          [
+            "Ras Markaz crude tanks",
+            "OTTCO (OQ Group)",
+            "Floor scan maps, UT prove-up, shell gauging, settlement survey",
+            "Achieved coverage, link between screening calls and prove-up, basis of the minimum-thickness check"
+          ],
+          [
+            "Refinery product export berth",
+            "Facilities built by the refinery company on a Port of Duqm berth",
+            "Pipe thickness surveys, loading arm and line weld reports",
+            "Instrument calibration, location references, completeness of the circuit"
+          ],
+          [
+            "Fabrication and maintenance shops in the zone",
+            "Various contractors",
+            "Fabrication dossiers, weld maps, radiographs and UT reports",
+            "Welder and examiner records on the date of work, acceptance table used"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "The petrochemical plan, stated plainly",
+      "p": [
+        "A petrochemical complex integrated with the refinery has been part of the Duqm story for years, aimed at turning refinery naphtha and LPG into polymers and glycols. In December 2025 regional trade press reported that SABIC had withdrawn from that integration project and that OQ was in talks with other partners; later reports said OQ and Kuwait Petroleum International intended to take the complex forward through OQ8, with first implementation steps expected in 2026. In other words, the petrochemical stage is a plan, not a plant, and this page does not describe it as operating.",
+        "If the project moves forward, its construction will generate the same kind of record the refinery did: vendor fabrication dossiers, field weld radiographs or ultrasonic data, pressure test records and baseline thickness surveys. An independent reading at the vendor acceptance stage, before items ship, is far easier than unpicking a weld record once equipment has been set and insulated."
+      ]
+    },
+    {
+      "h": "Codes, specifications and who signs what",
+      "p": [
+        "Refinery and terminal inspection at Duqm generally follows the American codes the plant was designed to: API 510 for pressure vessels, API 570 for process piping, API 653 for aboveground storage tanks, with ASME Section VIII and B31.3 as construction codes and ASME Section V setting how the examinations themselves are carried out. Owners add their own engineering specifications, and the specification of the operator always sits above the generic code where the two differ. A review is therefore run against the documents the client names: the code edition, the owner's specification and the contractor's approved procedure.",
+        "Radiography in Oman requires a licence from the national radiation protection authority, held by the contractor that exposes the film or digital detector. Reviewing the resulting images is a document task and needs no such licence, which is why radiographs, CR plates and DR files from Duqm can be read remotely.",
+        "Several decisions sit outside an independent report review and stay with the owner. Fitness-for-service and remaining-life assessment under API 579 belong to the owner's engineer. The inspector of record for an API 510, 570 or 653 programme remains the owner's authorised inspector. Certification of NDT personnel belongs to their employer. Atlantis does none of these; the written opinion is evidence the owner can use when making them."
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting at a new plant",
+      "p": [
+        "Projects built in the last decade arrive with more digital inspection data than paper. Phased array and TOFD weld examinations are stored as raw files with their setup; radiography may be computed or digital rather than film; thickness surveys sit in databases tied to isometric drawings; and the final reports are often generated by a reporting platform that adds electronic signatures and approval stamps. Digital reporting makes the record easier to search, but it also makes it easy to sign a summary that no longer matches the data it was built from.",
+        "A digital review therefore checks lineage. The reviewer confirms that the file names, scan dates and equipment serial numbers in the raw data agree with the report, that the calibration recorded in the software is the one the procedure called for, and that the electronic signature belongs to a person whose certification was valid on the day. On a plant as new as Duqm, getting that lineage clean in the first inspection cycle saves every later reviewer the same effort.",
+        "Send the native files where you can, with the viewer version noted. A PDF screenshot of a C-scan shows what someone chose to print; the file shows what the instrument recorded."
+      ]
+    },
+    {
+      "h": "When Duqm teams ask for an independent review",
+      "list": [
+        "Accepting construction NDT and baseline thickness data before it becomes the reference set for the inspection programme.",
+        "Checking a first-turnaround package when a contractor's findings on reactors, coker drums or piping circuits look thin or surprising.",
+        "Reading a tank floor scan and prove-up report from Ras Markaz before the owner decides on return to crude service.",
+        "Settling a disagreement between a fabricator and a client over weld radiographs or ultrasonic results in a vendor dossier.",
+        "Comparing two contractors' thickness surveys of the same circuit that do not agree.",
+        "Testing a digital reporting workflow, from raw file to signed report, before it is rolled out across the site."
+      ],
+      "p": [
+        "Each of these ends in the same deliverable: a written opinion that states, report by report, whether the record is sound, deficient in documentation only, or deficient in disposition, with every finding tied to the clause, procedure step or table it relies on."
+      ]
+    },
+    {
+      "h": "What the review checks, and who checks it",
+      "p": [
+        "Every review runs the same seven checks: compliance with the written procedure; qualification of the examiner on the date of the work; equipment and calibration; whether the technique could find what it was meant to find; whether the right code, edition and acceptance table were applied; interpretation and sizing of indications; and completeness and traceability of the package.",
+        "Reviews in ultrasonic, radiographic, magnetic particle, penetrant and visual testing are led by an ASNT NDT Level III whose certification covers exactly those five methods. Members of the wider review team have worked in nuclear, maritime, oil and gas and petrochemical settings. For eddy current, IRIS, magnetic flux leakage or any other method outside those five, the proposal names a reviewer who holds the certification the contract calls for.",
+        "Atlantis does not review reports for work it performed itself, so the opinion has no stake in the verdict."
+      ]
+    },
+    {
+      "h": "Running a remote review from Duqm",
+      "p": [
+        "There is no Atlantis office, team or agent in Duqm or elsewhere in Oman; the review is carried out remotely from the records you send. A typical sequence starts with a short description of the reports, the method, the code or specification and the decision that depends on them. The answer to that note proposes a scope for the Duqm records and quotes for it, and we reply within one business day. Files then move by a secure transfer route agreed with your document control team, including native digital inspection data where it exists.",
+        "During the review the reviewer may send written questions, for example asking for a missing calibration sheet or the revision of a procedure that a report cites. Video calls can be arranged with your inspection or quality engineer to walk through findings. The written opinion closes the work and can be shared with contractors, licensors or insurers as the owner sees fit.",
+        "Ship repair work at Asyad Dry Dock and vessel traffic through the port are part of Duqm's economy too; members of the review team have maritime backgrounds, but maritime reports are not the subject of this page."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have people or an office at Duqm?",
+      "a": "No. Atlantis has offices in Houston and Hyderabad only. Reviews for Duqm are carried out remotely on the reports and data you send, and nobody from Atlantis needs to travel to the site."
+    },
+    {
+      "q": "Can you review construction NDT before we adopt it as our inspection baseline?",
+      "a": "Yes. That is one of the most useful reviews on a new plant. The reviewer checks that the construction examinations, thickness readings and weld maps are complete and traceable enough to serve as the reference set for later in-service surveys."
+    },
+    {
+      "q": "Will you tell us whether a Ras Markaz tank can go back into service?",
+      "a": "No. Return-to-service decisions under API 653, and any fitness-for-service or remaining-life assessment, stay with the owner and the owner's engineer. The review tells you whether the inspection report supporting that decision is sound and where it falls short."
+    },
+    {
+      "q": "Can you open PAUT, TOFD, CR and DR files from refinery work?",
+      "a": "Yes, provided the native files and the viewer or software version are supplied. Reviewing raw digital inspection data is often where differences between the data and the signed report appear."
+    },
+    {
+      "q": "Do you review against OQ8 or OTTCO specifications?",
+      "a": "The review is run against whatever documents you name, including an owner's engineering specification, as long as you can share the relevant revision. Without it, the reviewer works to the code and procedure cited in the report and says so in the opinion."
+    },
+    {
+      "q": "Who reviews eddy current or IRIS tube data from Duqm exchangers?",
+      "a": "Those methods are outside the five our lead reviewer is certified in. For eddy current, IRIS or similar data, the proposal names a reviewer who holds the certification your contract requires."
+    },
+    {
+      "q": "Can a fabricator in the economic zone ask for a review of its own dossier?",
+      "a": "Yes. A fabricator or contractor can commission an independent reading of its own radiographs, ultrasonic reports and weld records before a client inspection, or after a client has rejected them."
+    },
+    {
+      "q": "How do we start?",
+      "a": "Send a short description of the report, the method, the code or specification and the decision it supports, using the form on this page or info@atlantisndt.com. We reply within one business day; the reply carries a scope for the Duqm records and a quote."
+    }
+  ],
+  "related": [
+    [
+      "/report-validation/refinery-inspection-report-review",
+      "Refinery inspection report review"
+    ],
+    [
+      "/report-validation/tank-inspection-report-review",
+      "Tank inspection report review"
+    ],
+    [
+      "/report-validation/api-510-570-653-report-review",
+      "API 510, 570 and 653 report review"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "ASNT Level III consulting"
+    ],
+    [
+      "/inspection/risk-based-inspection",
+      "Risk-based inspection"
+    ]
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Duqm_Refinery",
+    "https://www.oq8.om/node/263",
+    "https://www.enerdata.net/publications/daily-energy-news/omans-government-inaugurates-230-kbd-duqm-oil-refinery.html",
+    "https://www.omanobserver.om/article/1197041/business/oman-targets-10m-barrel-storage-capacity-at-duqm",
+    "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/121822-omans-ras-markaz-oil-storage-terminal-construction-completed",
+    "https://www.mees.com/2025/12/19/refining-petrochemicals/sabic-withdraws-from-omans-duqm-petrochemical-expansion-project/8a82abe0-dcd4-11f0-ac10-f719df0d02d9",
+    "https://opaz.gov.om/en/about-us/about-the-authority",
+    "https://www.fm.gov.om/en/1557/",
+    "https://asyad.om/maritime/drydock/about/oman-dry-dock-company-(odc)",
+    "https://www.zawya.com/projects/industry/kuwait-oman-to-move-ahead-with-duqm-petrochemicals-complex-report-chojpt9k",
+    "https://oq.com/en/news-and-media/newsroom/20251023-ottco-and-royal-vopak-sign-strategic-agreement-to-establish-a-joint-venture",
+    "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/021424-interview-omans-duqm-refinery-plans-to-exceed-capacity-mulls-upgrading-naphtha-product"
+  ]
+}

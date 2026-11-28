@@ -1,0 +1,216 @@
+{
+ "title": "NDT Report Review in Ashland, KY | Refinery Record Validation",
+ "description": "Independent, remote review of refinery and chemical plant NDT reports and digital inspection data from Ashland, Catlettsburg and the tri-state area.",
+ "h1": "Ashland, Kentucky: a second, independent reading of refinery and process plant inspection records",
+ "eyebrow": "Report validation: Ashland and Boyd County",
+ "intro": "Where the Big Sandy meets the Ohio, Kentucky, West Virginia and Ohio share a few miles of riverbank, and that corner holds a refinery rated at more than three hundred thousand barrels of crude a day. Around it sit an activated carbon plant, a gas-fired generating unit up the Big Sandy, the site of a closed steel mill and the barge and pipeline terminals that move product out. Every one of those operations creates NDT reports that a planner, an inspector, an auditor or a buyer will lean on. We give those reports and their digital inspection data an independent review against the procedure, the code and the specification, and say in writing what the evidence supports. The work is remote and runs from the records you send.",
+ "highlights": [
+  {
+   "h": "A refinery that runs crude and condensate",
+   "p": "Sweet and sour crude plus shale condensate means corrosion behaviour that can shift with the slate. The review asks whether the thickness history is good enough to show it."
+  },
+  {
+   "h": "Three states, three sets of readers",
+   "p": "A contractor may work in Catlettsburg on Monday and Huntington on Wednesday. Each state's boiler program and radiation licensing differ, and the report has to fit the place where the work was done."
+  },
+  {
+   "h": "Records that outlive the plant",
+   "p": "When an industrial site closes or is sold, its inspection history can matter for years. We check what such a history can still prove."
+  }
+ ],
+ "sections": [
+  {
+   "h": "What operates around Ashland today",
+   "p": [
+    "Marathon Petroleum's Catlettsburg Refinery stands on the west bank of the Big Sandy River close to its junction with the Ohio. Marathon gives its crude capacity as 307,000 barrels per calendar day, says it processes both sweet and sour crude, and notes that a condensate splitter completed in 2015 lets it take condensate from the Utica shale. Its product list covers gasoline, distillates, asphalt, natural gas liquids, petrochemicals, propane and heavy fuel oil, which leave by pipeline, barge, truck and rail.",
+    "Close by in Catlettsburg, Calgon Carbon operates its Big Sandy plant on U.S. Route 23, making activated carbon. Further up the Big Sandy, Kentucky Power, an AEP company, converted Unit 1 of its Big Sandy plant from coal to natural gas; the converted unit came online at the end of May 2016. Ashland Works, the AK Steel mill on the Ohio, closed permanently in 2019, its Amanda blast furnace having been decommissioned in 2015, and Cleveland-Cliffs began demolishing the site after it acquired AK Steel.",
+    "We describe these operations because they shape the records produced in the area. Mentioning them is not a claim that Atlantis has worked for them, reviewed their reports or been approved as one of their vendors, and none of them should be read as a client."
+   ]
+  },
+  {
+   "h": "Refinery records: where an outside reading helps",
+   "p": [
+    "A refinery of this size produces inspection records continuously, and in very large volumes during turnarounds. Piping circuits under API 570, pressure vessels under API 510 and tanks under API 653 each come with their own reporting conventions, and the people writing the reports change from one outage to the next. That turnover is the main reason an independent report review finds things that the plant's own reviewers, who see the same formats every day, can miss.",
+    "Sour crude service brings wet hydrogen sulfide damage into play, and with it a need for techniques that can detect and size cracking and blistering rather than simply measure wall loss. Hot crude and vacuum units, coker sections and overhead systems each have their own mechanisms. A reviewer checks that the technique on each report matches what the damage mechanism review predicted for that circuit, using API RP 571 descriptions where the plant does, and flags reports where a thickness gauge was used to look for something only angle beam or phased array ultrasonics would find.",
+    "Condensate adds its own wrinkle. Light feeds behave differently from heavy crude in the same equipment, and a change in the proportion processed can alter corrosion rates in parts of the plant. The question for the record is whether readings at the same condition monitoring locations, taken with consistent instruments and calibration, exist across the period of change. If they do not, the trend cannot carry a conclusion, and the opinion says so. Remaining-life work and fitness-for-service decisions remain with the owner's engineer."
+   ]
+  },
+  {
+   "h": "Turnaround close-out packages",
+   "p": [
+    "The weeks after a refinery turnaround are when reports are most likely to be signed off quickly and least likely to be read closely. A close-out review is aimed at the records that carry the most consequence rather than every sheet. A typical sample from a large refinery outage includes:"
+   ],
+   "list": [
+    "NDE that released repairs and replacements on high-consequence equipment, checked against the repair plan.",
+    "Encoded phased array and TOFD weld files, opened in their native format rather than read from summary pages.",
+    "Thickness surveys for circuits whose next interval depends on the new readings.",
+    "Exchanger tube data from eddy current, remote field or IRIS examinations, with calibration standards and plugging lists.",
+    "Positive material identification records on alloy components, where the plant's programme follows API RP 578.",
+    "Radiographs, CR or DR images of new welds, checked for image quality before the acceptance call is trusted."
+   ]
+  },
+  {
+   "h": "Kentucky's boiler and pressure vessel program",
+   "p": [
+    "Kentucky regulates boilers, pressure vessels and pressure piping under KRS Chapter 236. The program is administered by the Boiler Inspection Section of the Department of Housing, Buildings and Construction, in the Public Protection Cabinet, and the chapter's definitions regulation describes owner-user inspectors as inspectors commissioned by the department and employed by a company operating pressure vessels in the Commonwealth. Large process sites often work with owner-user inspectors alongside the plant's own inspection department.",
+    "For a report reviewer, the practical consequence is who reads the record next. A repair or alteration record destined for a commissioned inspector needs to show the code basis, the repair organisation and the examinations in a way that inspector can act on. Atlantis does not act as inspector of record, Authorized Inspector or owner-user inspector. The opinion only tells the owner whether the NDE inside the record will stand up when that inspector reads it."
+   ]
+  },
+  {
+   "h": "Working across the Ohio River line",
+   "p": [
+    "Ashland's contractors routinely cross state lines within a single week. The table summarises how the three states differ on the points that most often affect an NDT record from this corner of the river. Requirements change, so the owner's programme and the regulator's current pages should always be checked.",
+    "Pipelines add a federal layer on top of the state picture. Kentucky's Public Service Commission enforces pipeline safety for intrastate natural gas transmission and distribution systems, while hazardous liquid lines that carry crude and refined products into and out of a refinery answer to PHMSA. A weld or dig report from a product line and one from a gas lateral may therefore be read by different regulators against different parts of 49 CFR, and the review checks each against the code its operator's procedure invokes."
+   ],
+   "table": {
+    "head": [
+     "Topic",
+     "Kentucky",
+     "West Virginia",
+     "Ohio"
+    ],
+    "rows": [
+     [
+      "Radiography licensing",
+      "Agreement State; licensed by the state's Radiation Health Branch",
+      "Not an Agreement State; NRC licenses sealed-source radiography",
+      "Agreement State; licensed by the Ohio Department of Health"
+     ],
+     [
+      "Boiler and vessel program",
+      "Boiler Inspection Section, Department of Housing, Buildings and Construction",
+      "Division of Labor inspects high-pressure steam boilers",
+      "Superintendent of industrial compliance issues inspectors' certificates of competency"
+     ],
+     [
+      "Gas pipeline safety (intrastate)",
+      "Public Service Commission, natural gas lines",
+      "Public Service Commission, Gas Pipeline Safety Section",
+      "Public Utilities Commission of Ohio"
+     ],
+     [
+      "What the reviewer confirms",
+      "Commissioned inspector's needs are met",
+      "Insurance inspector's needs are met",
+      "Commissioned inspector's needs are met"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Radiographs, CR and DR images from the tri-state area",
+   "p": [
+    "Kentucky licenses industrial radiography itself as an NRC Agreement State; across the Ohio in West Virginia the NRC still licenses it directly. For a report review the licensing route matters only as background, because Atlantis performs no industrial radiography in the United States, whichever bank of the river the weld sits on.",
+    "What we take on is the image side. A reviewer holding ASNT NDT Level III certification in radiographic testing, one of the five methods (UT, RT, MT, PT, VT) in which our Level III review is certified, looks at films, computed radiography plates and digital radiography images supplied by the owner's licensed contractor. The checks cover image quality indicator selection and placement, density or normalised signal-to-noise, geometric unsharpness, location marking and whether every interpretation on the report agrees with the image. A weld rejected or accepted on an image that fails those checks is a weld whose status is not yet known."
+   ]
+  },
+  {
+   "h": "Digital inspection records and digital reporting",
+   "p": [
+    "Refinery inspection now lives largely in software: thickness readings loaded into an inspection data management system, PAUT and TOFD files stored on servers, DR images in viewing software, and reports built and signed on digital reporting platforms. A digital NDT report is only as good as its link back to the reading, the instrument and the person.",
+    "A review of digital inspection data asks plain questions. Is the raw encoded file available, or only the exported image? Were gain, gates or filters changed after acquisition, and is the change logged? Does each thickness value carry its date, instrument serial number and calibration reference? Was the electronic signature applied by someone whose certification was current on the day the work was done? Did any records lose fields when the plant changed data system or contractor?",
+    "For closed or sold sites the digital question becomes one of preservation. Inspection data exported from a decommissioned system can lose its audit trail, and an archive of PDFs without the underlying files is harder to defend. Where historic records matter, for example in a transaction, a remediation programme or a dispute, the review states what the archive can and cannot prove."
+   ]
+  },
+  {
+   "h": "Starting a remote review from Ashland",
+   "p": [
+    "Ashland has no Atlantis office; our offices are in Houston and Hyderabad, and the review is carried out remotely from what you send. A useful package contains the report, the procedure or technique sheet, certifications of the personnel named on it, equipment and calibration records, the raw files or images, and the code or specification the work was done to.",
+    "You tell us what the report has to support: a turnaround close-out, acceptance of a vendor or fabricator package, a report a client rejected, a request from a regulator or a pending purchase. We confirm the scope and the records needed and send a quote. Reviewers then run the seven standard checks: procedure compliance, personnel qualification on the date of work, equipment and calibration, technique adequacy, acceptance criteria, interpretation and sizing, and completeness and traceability.",
+    "Every report receives one of three verdicts: sound, deficient in documentation only, or deficient in disposition. Findings point to the clause or procedure step and to the evidence. Questions for the original contractor go through you, so the contractor can respond before the opinion is issued."
+   ]
+  },
+  {
+   "h": "The review team and its limits",
+   "p": [
+    "Reviewers come from nuclear, maritime, oil and gas and petrochemical backgrounds, which suits the mix of refinery, utility and process records this area produces. Where a review involves a method outside UT, RT, MT, PT and VT, such as eddy current or IRIS tube data, the proposal names a reviewer with the certification the contract specifies.",
+    "We do not calculate remaining life or carry out fitness-for-service assessments; those stay with the owner's engineer. We do not set inspection intervals, release equipment to service or certify personnel. And we will not review reports from any job where Atlantis performed the examination, since that would not be an independent opinion."
+   ]
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Can you review turnaround NDE reports from a large refinery near Ashland?",
+   "a": "Yes. We usually review a targeted sample: repair release records, encoded PAUT and TOFD files, key thickness surveys, exchanger tube data and new-weld images, chosen with you according to consequence."
+  },
+  {
+   "q": "Do you come on site in Kentucky?",
+   "a": "No. The review is remote. Atlantis has offices only in Houston and Hyderabad and works from the records and files you transfer."
+  },
+  {
+   "q": "Our radiography contractor works on both sides of the river. Does that matter for the review?",
+   "a": "The licensing route differs between Kentucky and West Virginia, but the image review is the same. We check the films, CR or DR images and interpretations; we do not perform radiography in the US."
+  },
+  {
+   "q": "Can your opinion satisfy the Kentucky boiler inspector for a repair?",
+   "a": "Not on its own. The commissioned inspector decides. Our review tells you whether the NDE in the repair record is complete and defensible before the inspector sees it."
+  },
+  {
+   "q": "We are buying an industrial site in the tri-state area. What can you review before closing?",
+   "a": "We review the inspection history for gaps, broken trends, missing certifications and unsupported acceptance calls, and state what the records can and cannot prove. Engineering assessments of remaining life stay with your engineer."
+  },
+  {
+   "q": "Do you look at raw digital inspection data or just the PDF report?",
+   "a": "We ask for both. Native PAUT and TOFD files, DR images and inspection database exports show problems that a finished digital report can hide."
+  },
+  {
+   "q": "Who on your side reviews eddy current tube data?",
+   "a": "The proposal names a reviewer holding the certification your contract requires for that method. Our Level III review covers UT, RT, MT, PT and VT."
+  },
+  {
+   "q": "Will you review a report from a job Atlantis inspected?",
+   "a": "No. We only review work performed by others, so the opinion stays independent."
+  },
+  {
+   "q": "How do we begin?",
+   "a": "Describe the reports and what they need to support, or simply send them. We reply within one business day, setting out the scope, any further records required and a quote."
+  }
+ ],
+ "related": [
+  [
+   "/consulting/level-iii-audit-support-refining",
+   "Level III audit support for refining"
+  ],
+  [
+   "/inspection/turnarounds-shutdowns",
+   "Turnaround and shutdown inspection"
+  ],
+  [
+   "/inspection/piping-circuit-inspection-cml",
+   "Piping circuit and CML inspection"
+  ],
+  [
+   "/standards/api-571",
+   "API RP 571 damage mechanisms"
+  ],
+  [
+   "/report-validation/tank-inspection-report-review",
+   "Storage tank inspection report review"
+  ],
+  [
+   "/report-validation/due-diligence-inspection-record-review",
+   "Due diligence on inspection records"
+  ],
+  [
+   "/report-validation/radiographic-film-and-digital-interpretation-review",
+   "Radiograph interpretation review"
+  ]
+ ],
+ "sources": [
+  "https://www.marathonpetroleum.com/Operations/Refining/Catlettsburg-Refinery/",
+  "https://yosemite.epa.gov/oa/rhc/epaadmin.nsf/CAFOs and ESAs/64A9D5B5FA4A0140852585CB004CF9A8/$File/CAFO - Calgon Carbon.pdf",
+  "https://www.hatzelandbuehler.com/project/calgon-carbon-corporation-big-sandy-facility/",
+  "https://www.power-eng.com/coal/big-sandy-natural-gas-conversion-project-completed/",
+  "https://www.steelmarketupdate.com/2022/02/08/cliffs-begins-demolition-of-ashland-works",
+  "https://apps.legislature.ky.gov/law/kar/titles/815/015/010/REG/",
+  "https://psc.ky.gov/Home/PipelineSafety",
+  "https://www.nrc.gov/agreement-states/kentucky",
+  "https://www.nrc.gov/agreement-states/ohio",
+  "https://www.nrc.gov/agreement-states/west-virginia",
+  "https://labor.wv.gov/safety/consumer-safety/high-pressure-steam-boiler-safety",
+  "https://law.cornell.edu/regulations/west-virginia/W-Va-C-S-R-SS-150-4-9",
+  "https://codes.ohio.gov/ohio-revised-code/section-4104.07",
+  "https://codes.ohio.gov/ohio-administrative-code/chapter-4901:1-16",
+  "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2026-03/oh-2024-gas-program-evaluation.pdf"
+ ]
+}

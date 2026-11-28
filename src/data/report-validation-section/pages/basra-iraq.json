@@ -1,0 +1,196 @@
+{
+  "title": "NDT Report Validation in Basra, Iraq | Independent Review",
+  "description": "Remote, independent review of Basra oilfield, gas plant, refinery and export terminal NDT reports and digital inspection data, finding by finding.",
+  "h1": "Basra NDT report review: an independent second reading of oilfield, gas and refinery inspection records",
+  "eyebrow": "Report validation · Basra, Iraq",
+  "intro": "Most of Iraq's crude is produced in Basra governorate and leaves the country through terminals in the northern Gulf. Around that flow sits a dense mix of state companies, joint ventures and service contractors, each producing inspection reports for someone else to accept. Atlantis gives those reports an independent reading. A reviewer opens the radiographs, ultrasonic files, thickness surveys and weld records you send, checks them against the procedure and the code named in the contract, and writes up every finding with the evidence behind it. Atlantis has no office, staff or agent in Iraq. Reviews are carried out remotely from the records sent, so nobody has to travel to a field or a plant.",
+  "highlights": [
+    {
+      "h": "Many companies, one record to accept",
+      "p": "In Basra a report written by a service contractor may be accepted by a joint venture and audited by a state company. An outside reviewer with no stake in any of them can say plainly whether the record stands up."
+    },
+    {
+      "h": "Fields, gas plants, refinery and terminals",
+      "p": "Wellhead and flowline surveys, gas processing piping, refinery turnaround packages and export line thickness data are all read against the code they were written to."
+    },
+    {
+      "h": "Raw digital data alongside the report",
+      "p": "Digital radiographs, phased array files and thickness databases are opened and compared with the summary page, which is often the only thing a reviewing engineer is shown."
+    }
+  ],
+  "sections": [
+    {
+      "h": "Who produces inspection records in Basra",
+      "p": [
+        "Basra's oil and gas industry is run through a set of state companies under the Ministry of Oil, working alongside international partners. Basra Oil Company, formerly the South Oil Company, is the state producer and the counterparty to the large technical service contracts in the south. South Refineries Company, headquartered in the Shuaiba and Zubair area, runs the Basra refinery. South Gas Company is the state partner in Basrah Gas Company. International companies hold contract or equity positions in several of these, and a large population of Iraqi and foreign service contractors does the inspection work itself.",
+        "That structure means the person writing an NDT report is rarely the person who relies on it. A contractor examines welds or measures wall thickness; a joint venture's inspection engineer reviews the result; a state company's technical department may audit it later; and a lender, insurer or incoming partner may ask questions years afterwards. When those parties disagree, or when one of them simply wants a second view before signing, an independent report review gives them a common, documented basis to discuss.",
+        "None of the organisations named on this page is an Atlantis client. Naming them describes Basra accurately; it does not mean Atlantis has reviewed their records or holds approved-contractor status with any of them."
+      ]
+    },
+    {
+      "h": "Rumaila and the oilfield record",
+      "p": [
+        "Rumaila is the largest field in the south and has been run since 2010 by the Rumaila Operating Organization (ROO), formed under the technical service contract that Basra Oil Company, then called South Oil Company, signed in 2009 with bp, PetroChina and SOMO. In 2022 the international partners' interests were moved into Basra Energy Company Limited, owned by bp and PetroChina, which provides technical support. Field operations produce the inspection record you would expect from an old giant being modernised: degassing station piping, storage tanks, water injection systems, flowlines and rotating equipment bases, much of it a mixture of original and replaced metal.",
+        "For a reviewer the age mix is the main difficulty. A thickness survey that compares new readings with a previous campaign only means something if the locations match, the instruments were calibrated on the same basis and the nominal thickness used is the right one for the replaced spool rather than the original. Many disagreements over corrosion rates in mature fields come down to those three points rather than to the measurements themselves.",
+        "A package that survives review usually has a few things in common. Every reading is tied to a numbered location on an isometric or a plot plan. The instrument, probe and calibration block are identified for each day of work, and the verification readings are recorded rather than assumed. The nominal and minimum thicknesses used for comparison are stated with their source, whether that is a line list, a replacement work order or a design calculation. Where a location could not be reached, the report says so instead of leaving a blank that a later reader will mistake for a sound result."
+      ]
+    },
+    {
+      "h": "Basrah Gas Company and gas processing",
+      "p": [
+        "Basrah Gas Company (BGC) is owned 51 percent by South Gas Company, 44 percent by Shell and 5 percent by Mitsubishi. It gathers and processes associated gas from the Rumaila, Zubair and West Qurna-1 fields that would otherwise be flared, and trade press in late 2025 put its processing capacity at about 1.4 billion cubic feet a day after a second expansion, with sales gas output around 1 billion cubic feet a day. Expansion projects bring construction NDT, while the older plants bring in-service inspection of compressors, separators, sour gas piping and LPG storage.",
+        "Gas processing reports have their own pressure points. Sour service piping calls for close attention to hardness testing, weld procedure qualification references and the method used to look for cracking. Spheres and bullets for LPG are examined to pressure vessel rules with careful attention to nozzle and support welds. A review checks that the examination method and coverage specified in the inspection plan were actually used, rather than a convenient substitute."
+      ]
+    },
+    {
+      "h": "The Basra refinery at Shuaiba",
+      "p": [
+        "South Refineries Company describes the Basra refinery as having begun production in 1979 with two refining lines, a third line that came on stream in 2014 and a fourth refining unit that began operating at the end of 2023, followed by an isomerisation unit in early 2024. A fluid catalytic cracking unit is under construction. The refinery also includes gas production units and LPG storage in horizontal and spherical tanks.",
+        "A site with lines of very different ages produces turnaround packages that mix decades-old vessels with brand-new ones. The newest units bring construction dossiers and baseline surveys; the oldest bring long inspection histories with gaps, changes of contractor and changes of reporting format. Independent review is most useful at exactly those joins: where a new baseline is adopted, where a contractor changes, or where a historical record is transferred into a new inspection database."
+      ],
+      "table": {
+        "head": [
+          "Basra asset",
+          "Company named in public sources",
+          "Typical records sent for review",
+          "Where the review usually starts"
+        ],
+        "rows": [
+          [
+            "Rumaila field facilities",
+            "Rumaila Operating Organization (Basra Oil Company, bp, PetroChina)",
+            "Station piping thickness surveys, tank inspections, weld reports on replacement spools",
+            "Location continuity between campaigns, nominal thickness basis, calibration records"
+          ],
+          [
+            "Gas gathering and processing plants",
+            "Basrah Gas Company (South Gas, Shell, Mitsubishi)",
+            "Sour service weld NDT, hardness records, vessel and sphere inspection reports",
+            "Method and coverage against the inspection plan, acceptance table, welder and examiner records"
+          ],
+          [
+            "Basra refinery, Shuaiba",
+            "South Refineries Company",
+            "API 510 and API 570 turnaround reports, exchanger data, new-unit construction NDT",
+            "Code edition applied, repair disposition, baseline completeness for new units"
+          ],
+          [
+            "Crude export lines and offshore terminals",
+            "Iraqi state oil sector",
+            "Pipeline wall thickness data, girth weld radiographs or AUT files, coating records",
+            "Image quality, technique sheet against procedure, sizing of reported anomalies"
+          ]
+        ]
+      }
+    },
+    {
+      "h": "Export routes and the integrity data behind them",
+      "p": [
+        "Crude from the Basra fields is exported through offshore facilities in the northern Gulf, including the Al Basrah Oil Terminal and a set of single point mooring buoys added over the last decade. Getting crude to them depends on onshore tank farms, pumping stations and subsea and onshore pipelines, and each of those produces integrity data: wall thickness surveys, weld examination on tie-ins and repairs, coating and cathodic protection records.",
+        "Pipeline and terminal reports are often prepared for decisions with large consequences, such as whether a line returns to full throughput after a repair. The review is confined to the inspection record: whether the data support the anomalies reported, whether sizing followed the procedure, and whether anything in the files contradicts the summary. Engineering assessment of the anomaly and any remaining-life judgement stay with the operator's integrity engineer."
+      ]
+    },
+    {
+      "h": "Contracts, codes and the documents a review is run against",
+      "p": [
+        "Inspection in southern Iraq is written to a mixture of international codes and company documents. American codes are common: API 510, API 570 and API 653 for in-service vessels, piping and tanks, ASME Section VIII and B31.3 for construction, ASME Section V for how examinations are performed, and API 1104 or company pipeline specifications for girth welds. Joint ventures with international partners frequently add the partner's engineering standards, and state companies have their own technical requirements. Where the contract names a document, that document governs, and the review says which revision it used.",
+        "Industrial radiography in Iraq is licensed by the Iraqi Radioactive Sources Regulatory Authority, and that licence belongs to the contractor making the exposures. Reading films, CR plates or DR images afterwards is a document task, which is why radiographs from Basra can be reviewed remotely.",
+        "Some decisions are never part of the opinion. Fitness-for-service assessment, the inspector-of-record role for a vessel or tank programme, and the certification of NDT personnel all stay with the owner, the owner's appointed inspector and the employer respectively. Atlantis does not take on any of them."
+      ]
+    },
+    {
+      "h": "Digital inspection data and digital reporting in Basra projects",
+      "p": [
+        "Older Basra records are largely paper and scanned paper; newer project and joint-venture work is mostly digital. Phased array and TOFD weld data, automated ultrasonic girth weld files, digital radiographs and thickness databases now arrive alongside reports generated by digital reporting platforms with electronic approval. The mix creates its own risk: a scanned historical report and a digitally generated current one can disagree simply because they were transcribed differently.",
+        "A digital review traces each reported result back to its source file. The reviewer checks that scan dates, equipment identifiers and calibration settings in the native data match the report; that the gate and threshold settings named in the procedure were the ones used; and that whoever electronically signed held a valid certification on that date. Where only scans of paper exist, the opinion says what can and cannot be confirmed from them.",
+        "Reports in Arabic and English can both be reviewed; where a bilingual package disagrees between its two versions, the opinion records the difference rather than choosing one silently."
+      ]
+    },
+    {
+      "h": "Situations that lead to a review",
+      "list": [
+        "A joint venture wants a second reading of a contractor's turnaround or shutdown package before accepting it.",
+        "A state company's audit questions a thickness survey or weld report that a partner had already accepted.",
+        "A contractor believes its report was rejected wrongly and wants an independent view before contesting it.",
+        "New units or expansion trains need their construction NDT checked before it becomes the inspection baseline.",
+        "Historical records are being migrated into a new digital inspection database and their reliability needs to be judged first.",
+        "A lender, insurer or incoming partner asks for evidence that the inspection record behind key equipment is sound."
+      ],
+      "p": [
+        "The opinion classifies each report as sound, deficient in documentation only, or deficient in disposition, and ties every finding to the clause, table or procedure step it rests on."
+      ]
+    },
+    {
+      "h": "How a remote review works from Basra",
+      "p": [
+        "The review is done entirely from the documents and data the client provides; Atlantis staff do not visit Basra sites. Start by describing the reports, the method, the governing code or specification, and what will be decided from them. We reply within one business day of that first note, and the answer carries a defined scope and a quote. Files then move through a secure transfer route your document control team approves.",
+        "Reviews in UT, RT, MT, PT and VT are led by an ASNT NDT Level III whose certification is in those five methods and no others. The wider review team includes people with nuclear, maritime, oil and gas and petrochemical backgrounds. For eddy current, magnetic flux leakage, acoustic emission or any other method, the proposal names a reviewer who holds the certification the contract requires.",
+        "Atlantis does not review its own examinations. Findings can be discussed with your engineers on a video call before the written opinion is issued."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Atlantis have an office or inspectors in Iraq?",
+      "a": "No. Atlantis has offices in Houston and Hyderabad only, with nobody in Iraq. Reviews for Basra are carried out remotely on the reports and digital inspection data you send."
+    },
+    {
+      "q": "Is Atlantis an approved contractor with Basra Oil Company, ROO or BGC?",
+      "a": "No such status is claimed. The companies on this page are named to describe Basra, not as clients. An independent opinion can still be useful to them or their contractors as evidence in a technical discussion."
+    },
+    {
+      "q": "Can you review radiographs from Basra pipeline and plant work?",
+      "a": "Yes. Reviewing film radiographs, CR plates and DR images is a document task. The radiography itself, and the radiation licence for it, stay with the licensed contractor who made the exposures."
+    },
+    {
+      "q": "Our report was rejected by the client's inspection engineer. Can you say whether the rejection was right?",
+      "a": "Yes. The reviewer reads the report, the data and the rejection reasons against the procedure and code, then states which points of the rejection are supported and which are not."
+    },
+    {
+      "q": "Will the review tell us how long a vessel, line or tank can stay in service?",
+      "a": "No. Remaining-life and fitness-for-service assessment stay with the owner's engineer. The review tells you whether the inspection data that assessment would rely on are sound."
+    },
+    {
+      "q": "Can you work with records in Arabic?",
+      "a": "Yes. Arabic, English and bilingual packages can be reviewed, and any difference between two language versions is recorded in the opinion."
+    },
+    {
+      "q": "What should we send for a thickness survey review?",
+      "a": "The survey report, the raw readings or database export, the location drawings or isometrics, instrument and probe calibration records, the procedure, and the previous campaign if rates are being calculated."
+    },
+    {
+      "q": "How do we request a review from Basra?",
+      "a": "Use the form on this page or write to info@atlantisndt.com with the report, method, code or specification and the decision it supports. The first reply sets out the scope and a quote."
+    }
+  ],
+  "related": [
+    [
+      "/report-validation/api-510-570-653-report-review",
+      "API 510, 570 and 653 report review"
+    ],
+    [
+      "/report-validation/ultrasonic-thickness-report-review",
+      "Ultrasonic thickness report review"
+    ],
+    [
+      "/report-validation/radiographic-film-and-digital-interpretation-review",
+      "Radiographic film and digital interpretation review"
+    ],
+    [
+      "/consulting/oil-gas-ndt-consulting",
+      "Oil and gas NDT consulting"
+    ],
+    [
+      "/consulting/ndt-consulting-level-iii",
+      "ASNT Level III consulting"
+    ]
+  ],
+  "sources": [
+    "https://www.bp.com/en/global/corporate/what-we-do/bp-worldwide/bp-in-iraq.html",
+    "https://www.mees.com/2025/10/24/news-in-brief/iraqs-bgc-providing-1bn-cfd-sales-gas/622a3160-b0d8-11f0-b088-fdfb2cc95a70",
+    "https://src.gov.iq/en/ma3lumat-asasy.aspx",
+    "https://www.iraqoilreport.com/news/iraq-expands-southern-export-capacity-26233",
+    "https://radseclexis.stimson.org/wp-content/uploads/2024/09/368.003-IRSRA-Internal-System-to-Control-the-Use-of-Radioactive-Sources.pdf",
+    "https://www.hartenergy.com/news/shell-gets-go-ahead-iraq-gas-project-91558"
+  ]
+}
