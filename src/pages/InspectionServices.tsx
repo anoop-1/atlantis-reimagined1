@@ -103,7 +103,7 @@ const structuredData = {
                name: "Does Atlantis NDT perform API 510, 570, and 653 inspections, or just training?",
                acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Atlantis NDT performs the NDT method work and inspection data review behind API 510 (pressure vessel), API 570 (piping) and API 653 (tank) programs — UT, PAUT, RT, MT, PT, VT and related methods, delivered and reviewed under ASNT SNT-TC-1A qualified personnel. Atlantis does not sell API inspector certification training or exam prep for these codes.",
+                  text: "Atlantis NDT performs the NDT method work and inspection data review behind API 510 (pressure vessel), API 570 (piping) and API 653 (tank) programs — UT, PAUT, RT, MT, PT, VT and related methods, delivered and reviewed under ASNT SNT-TC-1A qualified personnel. Separately, Atlantis offers self-paced online exam-prep courses for API 510, 570, 580 and 653.",
                },
             },
             {

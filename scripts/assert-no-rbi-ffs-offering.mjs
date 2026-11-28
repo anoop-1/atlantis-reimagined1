@@ -103,7 +103,7 @@ export function extractSentences(html) {
 // Reviewed educational sentences that trip the subject heuristic (exact
 // prefixes). Add here only after reading the sentence in context.
 export const ALLOW = [
-  'Atlantis delivers ASNT method training and employer programme support rather than API ICP training',
+  'Atlantis delivers ASNT method training, employer programme support and self-paced online API 510, 570, 580 and 653 exam-prep courses',
   'Atlantis works the procedure and personnel layer that both regimes rely on',
   'Atlantis works the Level III end of this',
   'Interval setting, run-or-repair decisions and fitness-for-service acceptance belong to the asset owner',

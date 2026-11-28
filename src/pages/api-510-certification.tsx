@@ -66,11 +66,11 @@ const inspectionPlanning = [
     { topic: "Damage beyond code limits", standard: "API 510 / API 579-1", detail: "When thickness or flaws fall outside API 510's acceptance rules, the owner repairs, rerates, replaces, or commissions an engineering fitness-for-service assessment (API 579-1/ASME FFS-1). FFS is not on the API 510 exam BOK." },
 ];
 
-// 2026-09-27 — Atlantis NDT does not offer API 510 training or exam prep.
-// This block lists what Atlantis actually provides to pressure-vessel teams.
+// 2026-11-28: the API 510 exam-prep course (/api-510-training) is linked in the
+// section intro; this block lists the other services for pressure-vessel teams.
 const trainingFormats = [
     { icon: Users, title: "API 510 Pressure Vessel Inspection Services", to: "/inspection-services", desc: "In-service pressure vessel inspection, thickness surveys and inspection planning delivered by qualified inspectors for refineries, petrochemical and chemical plants." },
-    { icon: BookOpen, title: "ASNT SNT-TC-1A NDT Training", to: "/training", desc: "Level I and II NDT method training (UT, RT, MT, PT, VT, PAUT) built on ASNT SNT-TC-1A — the NDT skills pressure vessel inspectors rely on. Atlantis NDT does not run API exam preparation." },
+    { icon: BookOpen, title: "ASNT SNT-TC-1A NDT Training", to: "/training", desc: "Level I and II NDT method training (UT, RT, MT, PT, VT, PAUT) built on ASNT SNT-TC-1A — the NDT skills pressure vessel inspectors rely on. API exam prep is a separate self-paced online course." },
     { icon: Clock, title: "NDT Level III Consulting", to: "/consulting", desc: "Written practices, procedure review and NDT program audits by an ASNT Level III for the employers who hire API 510 inspectors." },
 ];
 
@@ -102,7 +102,7 @@ const faqs = [
     },
     {
         question: "What is the pass rate for the API 510 exam?",
-        answer: "API's ICP status update (April 2025) reported per-window API 510 pass rates of roughly 54-69% between 2020 and early 2025. Candidates who practise code navigation and timed open-book questions against the current Effectivity Sheet generally perform better. API publishes the Body of Knowledge and Effectivity Sheet at api.org; Atlantis NDT does not run API exam preparation."
+        answer: "API's ICP status update (April 2025) reported per-window API 510 pass rates of roughly 54-69% between 2020 and early 2025. Candidates who practise code navigation and timed open-book questions against the current Effectivity Sheet generally perform better. API publishes the Body of Knowledge and Effectivity Sheet at api.org; Atlantis NDT offers a self-paced online API 510 exam-prep course, with an instructor answering questions."
     },
     {
         question: "What is the difference between API 510 and API 570?",
@@ -165,7 +165,7 @@ export default function API510Certification() {
             />
             <Breadcrumbs />
         <QuickAnswerBox question="What is API 510 certification and how do you get it?" answer="API 510 is the Authorized Pressure Vessel Inspector certification from the American Petroleum Institute. It qualifies you to perform in-service inspection of pressure vessels under the API 510 Pressure Vessel Inspection Code. The exam is 170 questions over about 7.5 hours at Prometric test centers, covers API 510, RP 571/572/576/577/578, ASME V, VIII Div. 1, IX and PCC-2, and runs in three windows a year (January, May and September)." bullets={["Body of knowledge: API 510, RP 571/572/576/577/578, ASME V, VIII-1, IX, PCC-2","Eligibility: degree + 1 yr, 2-yr degree + 2 yrs, HS + 3 yrs, or 5+ yrs vessel experience","Recertification: every 3 years (20% inspection work + 24 CPD hours; web quiz every 6 years)"]} />
-        <QuickAnswerBox question="How much does API 510 certification cost?" answer="API 510 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT does not sell API exam preparation; we provide API 510 inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
+        <QuickAnswerBox question="How much does API 510 certification cost?" answer="API 510 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT offers a self-paced online API 510 exam-prep course, plus API 510 inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
 
 
             {/* Hero */}
@@ -174,12 +174,12 @@ export default function API510Certification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-red-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 510 Certification Guide 2026: Eligibility, Exam &amp; Codes</h1>
-        {/* 2026-08-07 — Atlantis does not offer an API 510 exam-prep course;
-            this box previously claimed a scheduled USA cohort. Reframed to
-            what Atlantis actually does: ASNT Level III consulting for the
-            employers who hire API 510 inspectors, not a class we run. */}
+        {/* 2026-08-07: this box previously claimed a scheduled USA cohort.
+            2026-11-28: Atlantis now offers a self-paced online API 510
+            exam-prep course (no cohorts); the course is linked in the
+            How Atlantis NDT Supports section below. */}
         <p className="my-4 rounded-md border-l-4 border-emerald-600 bg-emerald-50 p-3 text-sm">
-          <strong>Based in the USA (Houston, Beaumont, Tulsa, Pasadena, Mobile)?</strong> Atlantis NDT Level III consultants work with refining-sector employers (ExxonMobil, Marathon, Phillips 66, Shell) on inspection programs and written-practice support — not an API 510 exam-prep class.
+          <strong>Based in the USA (Houston, Beaumont, Tulsa, Pasadena, Mobile)?</strong> Atlantis NDT Level III consultants support refining-sector employers on inspection programs and written practices, and Atlantis offers a self-paced online API 510 exam-prep course for individual candidates.
           {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to a consultant →</a>
         </p>
 
@@ -328,7 +328,7 @@ export default function API510Certification() {
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">How Atlantis NDT Supports Pressure Vessel Teams</h2>
-                    <p className="text-center text-slate-600 mb-12">Atlantis NDT does not offer API 510 training or exam preparation. Here is what we do provide.</p>
+                    <p className="text-center text-slate-600 mb-12">Atlantis NDT offers a self-paced online <Link to="/api-510-training" className="font-semibold underline underline-offset-2 hover:opacity-80">API 510 exam-prep course</Link>, with an instructor answering questions. Here is what else we provide.</p>
                     <div className="grid md:grid-cols-3 gap-6">
                         {trainingFormats.map((fmt) => (
                             <Card key={fmt.title} className="hover:shadow-lg transition border-t-4 border-t-red-500">

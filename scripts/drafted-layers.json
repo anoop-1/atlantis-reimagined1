@@ -1806,7 +1806,7 @@
           "Girth weld acceptance record for the as-built package"
         ]
       ],
-      "note": "API ICP credentials (510, 570, 653, 1169) are examined and issued by API against documented inspection experience. Atlantis training covers the ASNT method certification underneath them; Atlantis does not sell API 510, 570 or 653 preparation."
+      "note": "API ICP credentials (510, 570, 653, 1169) are examined and issued by API against documented inspection experience. Atlantis training covers the ASNT method certification underneath them, and Atlantis offers self-paced online API 510, 570, 580 and 653 exam-prep courses."
     },
     "facets": [
       {
@@ -1831,7 +1831,7 @@
       },
       {
         "q": "Does Atlantis run open-enrolment oil and gas NDT classes?",
-        "a": "No. Atlantis delivers training on site at employer facilities — your equipment, your procedures, your Written Practice — under ASNT Level III oversight, with an examination and records package built to survive an audit. Individuals enrol online at any time of year, with practical training in the Practical NDT simulator and at the employer's facility. Atlantis does not sell API 510, 570 or 653 preparation. Request a scoped programme and a quote."
+        "a": "No. Atlantis delivers training on site at employer facilities — your equipment, your procedures, your Written Practice — under ASNT Level III oversight, with an examination and records package built to survive an audit. Individuals enrol online at any time of year, with practical training in the Practical NDT simulator and at the employer's facility. API 510, 570, 580 and 653 exam prep is sold separately as self-paced online courses. Request a scoped programme and a quote."
       }
     ]
   },
@@ -6937,7 +6937,7 @@
   },
   {
     "route": "/ndt-training-new-orleans",
-    "answer": "Atlantis delivers NDT training for New Orleans on-site at your own facility anywhere in Louisiana, through online enrolment open all year, or blended — online theory with a supervised in-person practical block at the employer's facility. No Atlantis classroom operates in New Orleans. Programmes run Level I and Level II across UT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A; Atlantis does not offer API inspector preparation.",
+    "answer": "Atlantis delivers NDT training for New Orleans on-site at your own facility anywhere in Louisiana, through online enrolment open all year, or blended — online theory with a supervised in-person practical block at the employer's facility. No Atlantis classroom operates in New Orleans. Programmes run Level I and Level II across UT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A, and API inspector exam prep is offered separately as self-paced online courses.",
     "expansion": "Louisiana's inspection demand is set by three asset populations with different code drivers. Gulf Coast refining and petrochemical units run in-service inspection under API 510 for vessels, API 570 for piping and API 653 for storage tanks, which pulls hardest on ultrasonic thickness work, shear-wave weld examination and tank bottom scanning. Fabrication along the Mississippi corridor examines new construction to ASME Section VIII Division 1 and B31.3, where radiography and penetrant carry most of the volume. Shipyard and marine repair works to ABS and USCG survey requirements, with magnetic particle on fatigue-critical structural welds. A New Orleans candidate should certify in the method their target employers actually examine with, not thinly across all six. Under SNT-TC-1A the employer issues that certification against its own Written Practice, so the employer rather than a school owns the certificate — and an auditor asks for the Written Practice first.",
     "source": "ASNT Recommended Practice No. SNT-TC-1A; ANSI/ASNT CP-189; ISO 9712:2021, Non-destructive testing — Qualification and certification of NDT personnel; ISO/IEC 17024 for certification-body accreditation; API 510, API 570 and API 653 for in-service inspection.",
     "table": {
@@ -7010,7 +7010,7 @@
   },
   {
     "route": "/ndt-training-dallas",
-    "answer": "Atlantis delivers NDT training for Dallas–Fort Worth on-site at your own facility anywhere in Texas, through online enrolment open all year, or blended — online theory with a supervised practical block at the employer's facility. No Atlantis classroom operates in DFW. Programmes run Level I and Level II across UT, PAUT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A; Atlantis does not offer API inspector preparation.",
+    "answer": "Atlantis delivers NDT training for Dallas–Fort Worth on-site at your own facility anywhere in Texas, through online enrolment open all year, or blended — online theory with a supervised practical block at the employer's facility. No Atlantis classroom operates in DFW. Programmes run Level I and Level II across UT, PAUT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A, and API inspector exam prep is offered separately as self-paced online courses.",
     "expansion": "Dallas–Fort Worth splits into two inspection economies running different rulebooks. Aerospace and defence manufacturing — airframe structure, engine hardware, castings and forgings — qualifies personnel under SNT-TC-1A-based written practices carrying the primes’ flow-down, or EN 4179 in Europe, where a designated Responsible Level 3 approves the written practice and accepts the qualification of every Level 1 and Level 2, and the process itself is audited to the Nadcap AC7114 criteria administered by the Performance Review Institute. Fluorescent penetrant and eddy current dominate that work. North Texas pipeline, midstream and structural fabrication runs the other rulebook: SNT-TC-1A or ANSI/ASNT CP-189 personnel certification, with acceptance drawn from ASME Section VIII Division 1, ASME B31.3, API 1104 and AWS D1.1. A technician certified for one economy is not automatically acceptable in the other, and choosing the wrong route first is the most expensive sequencing error in this market.",
     "source": "ASNT Recommended Practice No. SNT-TC-1A, 2024 edition; ANSI/ASNT CP-189; Nadcap NDT audit criteria AC7114 series (Performance Review Institute); ASME BPVC Section VIII Division 1, ASME B31.3, API 1104 and AWS D1.1/D1.1M for acceptance.",
     "table": {

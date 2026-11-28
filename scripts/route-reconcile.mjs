@@ -825,16 +825,16 @@ function buildOne(k, path, appRoute) {
     const slug = m[1];
     gen = trainingCityBody(k, slug);
     const city = k.trainingBySlug[slug]?.city || labelFromSlug(slug, k.CITY_GEO);
-    // HARD RULE (CLAUDE.md): Atlantis does NOT sell API 510/570/653, PCN, or
-    // ISO 9712 training. An earlier pass dropped "API 510/570/653" from this
+    // HARD RULE (CLAUDE.md): Atlantis does NOT sell PCN or ISO 9712 training
+    // (API 510/570/580/653 exam prep was added 2026-11-28 and is sold from its
+    // own /api-5xx-training pages, never from this NDT training-city title). An earlier pass dropped "API 510/570/653" from this
     // title but left "ASNT and ISO 9712" in place — still an offer we cannot
     // fulfil, since ISO 9712 is administered by third-party bodies (AINDT,
     // BINDT/PCN, DGZfP, etc.), not Atlantis. Atlantis trains and certifies to
     // ASNT SNT-TC-1A only; other schemes are covered as market-context content
     // elsewhere (e.g. the ASNT-vs-ISO-9712 comparison articles), never as a
     // service this page offers. The /api-5xx-certification pages stay as they
-    // are — those are informational and exist to attract traffic, and they
-    // never claim Atlantis delivers the training.
+    // are — those are informational and link to the API exam-prep course pages.
     //
     // The replacement also fits the 60-character SERP window better than
     // either previous version.

@@ -107,7 +107,7 @@ const apiStandards = [
         code: "API 510",
         title: "Pressure Vessel Inspection Code",
         description:
-            "Governs the inspection, repair, alteration, and re-rating of in-service pressure vessels. Defines inspection intervals (internal and external), minimum thickness calculations, fitness for service evaluation, and authorized inspector requirements. Atlantis provides procedure development, API 510 pressure vessel inspection services, and third-party audits (Atlantis does not offer API 510 certification training).",
+            "Governs the inspection, repair, alteration, and re-rating of in-service pressure vessels. Defines inspection intervals (internal and external), minimum thickness calculations, fitness for service evaluation, and authorized inspector requirements. Atlantis provides procedure development, API 510 pressure vessel inspection services, third-party audits and a self-paced online API 510 exam-prep course.",
         link: "/api-510-certification",
     },
     {

@@ -50,7 +50,7 @@ export default function NDTTrainingJakarta() {
         "@type": "Course",
         "@id": `${URL}#course`,
         "name": "NDT Training Jakarta — ASNT SNT-TC-1A",
-        "description": "NDT training in Jakarta, Indonesia. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A. Pertamina + Petrokimia + LNG sector focus. Atlantis NDT does not offer API 510/570/653 exam preparation.",
+        "description": "NDT training in Jakarta, Indonesia. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A. Pertamina + Petrokimia + LNG sector focus. API 510/570/653 exam prep is offered separately as a self-paced online course.",
         "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
         "url": URL,
         "hasCourseInstance": [
@@ -123,7 +123,7 @@ export default function NDTTrainingJakarta() {
       <section className="py-16 bg-white">
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold mb-2">API Inspector Certification — Indonesia</h2>
-          <p className="text-slate-600 mb-8">Indonesia's Pertamina refineries, Bontang/Tangguh LNG, and petrochemical complexes demand API 510, 570, and 653 inspectors. These certifications are examined by API; Atlantis NDT does not offer API exam preparation. Our ASNT SNT-TC-1A NDT training builds the method skills these inspectors rely on, and the guides below cover eligibility and exam format.</p>
+          <p className="text-slate-600 mb-8">Indonesia's Pertamina refineries, Bontang/Tangguh LNG, and petrochemical complexes demand API 510, 570, and 653 inspectors. These certifications are examined by API; Atlantis NDT offers self-paced online exam-prep courses for them. Our ASNT SNT-TC-1A NDT training builds the method skills these inspectors rely on, and the guides below cover eligibility and exam format.</p>
           <div className="grid md:grid-cols-3 gap-6">
             {apiCourses.map(c => (
               <Card key={c.code} className="border-l-4 border-blue-600">

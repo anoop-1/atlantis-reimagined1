@@ -467,8 +467,8 @@ export const inspectionServices = [
 ];
 
 // Certification Training Types for scaling to 2000+ pages
-// API 510/570/653 entries removed 2026-09-08 (owner directive: Atlantis
-// does not sell API inspector certification training).
+// API 510/570/653 entries removed 2026-09-08 (owner directive at the time);
+// since 2026-11-28 the API exam-prep pages come from scripts/api-training-2026-11.mjs.
 export const certTrainingTypes = [
   {
     name: "ASNT Level III Certification Training",

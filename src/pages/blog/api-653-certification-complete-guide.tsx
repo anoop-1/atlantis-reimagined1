@@ -50,7 +50,7 @@ export default function API653CertificationCompleteGuide() {
                 <div className="container mx-auto max-w-4xl px-6">
                     <div className="text-amber-200 mb-4">Certification Guide • Updated October 2026</div>
                     <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Certification: Complete Tank Inspector Guide 2026</h1>
-                    <p className="text-xl text-amber-100" dangerouslySetInnerHTML={{ __html: "<strong>API 653 certification</strong> is API&#39;s credential for authorized aboveground storage tank inspectors working under API 653, <em>Tank Inspection, Repair, Alteration, and Reconstruction</em>. This guide covers eligibility, the exam, the 2026 referenced editions, API&#39;s published pass rates, a study plan and recertification. Atlantis NDT does not run API 653 exam preparation; our founder is an ASNT NDT Level III and this guide is free." }} />
+                    <p className="text-xl text-amber-100" dangerouslySetInnerHTML={{ __html: "<strong>API 653 certification</strong> is API&#39;s credential for authorized aboveground storage tank inspectors working under API 653, <em>Tank Inspection, Repair, Alteration, and Reconstruction</em>. This guide covers eligibility, the exam, the 2026 referenced editions, API&#39;s published pass rates, a study plan and recertification. This guide is free; Atlantis NDT also offers a self-paced online API 653 exam-prep course, and API runs the exam and issues the certification." }} />
                 </div>
             </section>
             <article className="py-12">
@@ -74,7 +74,7 @@ export default function API653CertificationCompleteGuide() {
                     </section>
                     <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-8 rounded-xl text-center mb-12">
                         <h2 className="text-2xl font-bold mb-4">Atlantis service scope</h2>
-                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">Atlantis NDT does not offer API 510, API 570 or API 653 exam preparation and does not administer those examinations. We provide ASNT SNT-TC-1A NDT training, ASNT Level III consulting on NDE procedures and written practices, and inspection software (Atlantis ERP and the Digital Twin platform).</p>
+                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">Atlantis NDT offers self-paced online API 510, API 570 and API 653 exam-prep courses, with an instructor answering questions, and does not administer those examinations. We provide ASNT SNT-TC-1A NDT training, ASNT Level III consulting on NDE procedures and written practices, and inspection software (Atlantis ERP and the Digital Twin platform).</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/training" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">ASNT NDT Training</Link>
                             <Link to="/consulting" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">Level III Consulting</Link>

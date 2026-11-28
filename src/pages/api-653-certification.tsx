@@ -67,11 +67,11 @@ const inspectionIntervals = [
     { inspection: "Floor Integrity (MFL/UT)", standard: "API 653 §6.4.2", interval: "At each internal inspection" },
 ];
 
-// 2026-09-27 — Atlantis NDT does not offer API 653 training or exam prep.
-// This block lists what Atlantis actually provides to tank owners.
+// 2026-11-28: the API 653 exam-prep course (/api-653-training) is linked in the
+// section intro; this block lists the other services for tank owners.
 const trainingFormats = [
     { icon: Users, title: "API 653 Tank Inspection Services", to: "/inspection-services", desc: "Aboveground storage tank inspection — shell and floor thickness surveys, MFL floor scanning and inspection planning delivered by qualified inspectors." },
-    { icon: BookOpen, title: "ASNT SNT-TC-1A NDT Training", to: "/training", desc: "Level I and II NDT method training (UT, MT, PT, VT, MFL awareness) built on ASNT SNT-TC-1A — the NDT skills tank inspectors rely on. Atlantis NDT does not run API exam preparation." },
+    { icon: BookOpen, title: "ASNT SNT-TC-1A NDT Training", to: "/training", desc: "Level I and II NDT method training (UT, MT, PT, VT, MFL awareness) built on ASNT SNT-TC-1A — the NDT skills tank inspectors rely on. API exam prep is a separate self-paced online course." },
     { icon: Clock, title: "NDT Level III Consulting", to: "/consulting", desc: "Written practices, procedure review and NDT program audits by an ASNT Level III for the terminals and refineries that hire API 653 inspectors." },
 ];
 
@@ -107,7 +107,7 @@ export default function API653Certification() {
         {
             "@type": "Question",
             "name": "How hard is the API 653 exam?",
-            "acceptedAnswer": { "@type": "Answer", "text": "API 653 has 170 questions over about 7.5 hours (110 closed-book, 60 open-book). It requires knowledge of ten referenced publications. API reported per-window pass rates of roughly 62-76% between 2020 and early 2025; candidates who know the Body of Knowledge and can navigate the codes quickly tend to do best. Atlantis NDT does not run API exam preparation." },
+            "acceptedAnswer": { "@type": "Answer", "text": "API 653 has 170 questions over about 7.5 hours (110 closed-book, 60 open-book). It requires knowledge of ten referenced publications. API reported per-window pass rates of roughly 62-76% between 2020 and early 2025; candidates who know the Body of Knowledge and can navigate the codes quickly tend to do best. Atlantis NDT offers a self-paced online API 653 exam-prep course, with an instructor answering questions." },
         },
         {
             "@type": "Question",
@@ -183,7 +183,7 @@ export default function API653Certification() {
             />
             <Breadcrumbs />
         <QuickAnswerBox question="What is API 653 tank inspector certification?" answer="API 653 is the Authorized Aboveground Storage Tank Inspector certification covering in-service inspection, repair, alteration, and reconstruction of welded storage tanks per the API 653 code. The exam (170 questions, about 7.5 hours, Prometric; windows in March, July and November) covers API 653, API 650, RP 571/575/576/577/651/652 and ASME V and IX. Used for owner-operator tank inspections at terminals, refineries, and bulk distribution facilities." bullets={["Body of knowledge: API 653, 650, RP 571/575/576/577/651/652, ASME V and IX","Eligibility: degree + 1 yr, 2-yr degree + 2 yrs, HS + 3 yrs, or 5+ yrs tank experience","Recertification: every 3 years (20% inspection work + 24 CPD hours; web quiz every 6 years)"]} />
-        <QuickAnswerBox question="How much does API 653 certification cost?" answer="API 653 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT does not sell API exam preparation; we provide API 653 tank inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
+        <QuickAnswerBox question="How much does API 653 certification cost?" answer="API 653 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT offers a self-paced online API 653 exam-prep course, plus API 653 tank inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
 
 
             {/* Hero */}
@@ -192,12 +192,12 @@ export default function API653Certification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-amber-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Certification Guide 2026: Eligibility, Exam &amp; Codes</h1>
-        {/* 2026-08-07 — Atlantis does not offer an API 653 exam-prep course;
-            this box previously claimed a scheduled USA cohort. Reframed to
-            what Atlantis actually does: ASNT Level III consulting for the
-            employers who hire API 653 inspectors, not a class we run. */}
+        {/* 2026-08-07: this box previously claimed a scheduled USA cohort.
+            2026-11-28: Atlantis now offers a self-paced online API 653
+            exam-prep course (no cohorts); the course is linked in the
+            How Atlantis NDT Supports section below. */}
         <p className="my-4 rounded-md border-l-4 border-emerald-600 bg-emerald-50 p-3 text-sm">
-          <strong>Based in the USA (Houston, Beaumont, Tulsa, Pasadena, Mobile)?</strong> Atlantis NDT Level III consultants work with refining-sector employers (ExxonMobil, Marathon, Phillips 66, Shell) on inspection programs and written-practice support — not an API 653 exam-prep class.
+          <strong>Based in the USA (Houston, Beaumont, Tulsa, Pasadena, Mobile)?</strong> Atlantis NDT Level III consultants support refining-sector employers on inspection programs and written practices, and Atlantis offers a self-paced online API 653 exam-prep course for individual candidates.
           {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to a consultant →</a>
         </p>
 
@@ -406,7 +406,7 @@ export default function API653Certification() {
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">How Atlantis NDT Supports Tank Owners</h2>
-                    <p className="text-center text-slate-600 mb-12">Atlantis NDT does not offer API 653 training or exam preparation. Here is what we do provide.</p>
+                    <p className="text-center text-slate-600 mb-12">Atlantis NDT offers a self-paced online <Link to="/api-653-training" className="font-semibold underline underline-offset-2 hover:opacity-80">API 653 exam-prep course</Link>, with an instructor answering questions. Here is what else we provide.</p>
                     <div className="grid md:grid-cols-3 gap-6">
                         {trainingFormats.map((fmt) => (
                             <Card key={fmt.title} className="hover:shadow-lg transition border-t-4 border-t-amber-500">

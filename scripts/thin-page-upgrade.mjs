@@ -861,8 +861,8 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
 
     // API training rescue (2026-08-16) REMOVED 2026-09-08 — it depth-appended
     // and inbound-linked /api-510/570/653-training, which no longer exist
-    // (owner directive: Atlantis does not sell API inspector certification
-    // training; those pages are gone, not just fixed). The cert-defence half
+    // (owner directive at the time; since 2026-11-28 the API exam-prep pages are
+    // rebuilt by scripts/api-training-2026-11.mjs). The cert-defence half
     // (25.4 direct answers on the certification pages) has no dependency on
     // the removed pages and would need to be re-extracted separately if still
     // wanted — not done here since assertApiRescueTargets asserted on all

@@ -102,7 +102,7 @@ export const CTR_WAVE3_OVERRIDES = {
   '/training': {
     title: 'NDT Training Courses — ASNT Level 2 UT Online, PAUT & TOFD Certification',
     description:
-      'ASNT SNT-TC-1A aligned training — including the ASNT Level 2 UT online course, PAUT and TOFD training and certification, and eddy current (ET) Level 2 certification — across UT, RT, MT, PT, VT, ET and advanced methods. Atlantis NDT does not offer API 510, 570 or 653 training or exam preparation. Delivered as public cohorts, on-site corporate group programmes, or blended online theory with supervised practical.',
+      'ASNT SNT-TC-1A aligned training — including the ASNT Level 2 UT online course, PAUT and TOFD training and certification, and eddy current (ET) Level 2 certification — across UT, RT, MT, PT, VT, ET and advanced methods. API 510, 570, 580 and 653 exam prep is offered as separate self-paced online courses. Delivered as public cohorts, on-site corporate group programmes, or blended online theory with supervised practical.',
   },
 
   // 451i @ 2.00% — differentiate from the Article-specific pages

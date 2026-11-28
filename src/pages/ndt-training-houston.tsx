@@ -108,7 +108,7 @@ export default function NDTTrainingHouston() {
     },
     {
       title: "ASNT & API Compliance",
-      description: "All training meets ASNT SNT-TC-1A. Courses reference the API 510/570/653 codes where they set NDT acceptance context for Houston's refinery sector; Atlantis does not offer API certification training or exam prep."
+      description: "All training meets ASNT SNT-TC-1A. Courses reference the API 510/570/653 codes where they set NDT acceptance context for Houston's refinery sector; API 510, 570, 580 and 653 exam prep is a separate self-paced online course."
     },
     {
       title: "Hands-On Practical Training",

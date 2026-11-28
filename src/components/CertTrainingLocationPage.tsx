@@ -46,9 +46,9 @@ interface CertificationData {
 }
 
 const certificationDatabase: Record<string, CertificationData> = {
-    // API 510/570/653 TRAINING entries removed 2026-09-08 (owner directive:
-    // Atlantis does not sell API inspector certification training — city
-    // permutation pages for it, informational or not, should not exist).
+    // API 510/570/653 TRAINING entries removed 2026-09-08 (owner directive at the
+    // time). Since 2026-11-28 the API exam-prep course pages are built by
+    // scripts/api-training-2026-11.mjs, not from this database.
     "asnt-level-iii-training": {
         name: "ASNT Level III (Level 3) NDT Professional Certification",
         slug: "asnt-level-iii-training",

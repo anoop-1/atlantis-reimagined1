@@ -27,7 +27,7 @@
  *    a heading that restates the query verbatim followed immediately by a
  *    40–55 word direct answer.
  *
- * Owner direction 2026-08-04: Atlantis does NOT sell API 510/570/653 training.
+ * Owner direction 2026-08-04 (superseded 2026-11-28, when API exam-prep courses were added).
  * Primary services are NDT training at all levels, ASNT Level III consulting,
  * and inspection services. Nothing here promotes API exam prep as a service.
  *

@@ -8,9 +8,9 @@
  * expensive page to leave alone.
  *
  * WHY /training/api-510-training-{city} IS DELIBERATELY EXCLUDED
- * That family looks identical in shape and is left alone on purpose. Atlantis
- * does not sell API 510 training — those pages exist to attract traffic, which
- * the owner has approved — but a citation layer is an ANSWER BLOCK written in
+ * That family looks identical in shape and is left alone on purpose. Since
+ * 2026-11-28 those API exam-prep pages are written and guarded by
+ * scripts/api-training-2026-11.mjs — and a citation layer is an ANSWER BLOCK written in
  * the site's own voice, and generating thirty of them across thirty cities would
  * put a confident "here is how we deliver API 510 training in Baltimore" into
  * the layer models quote from. Being cited saying something untrue is worse than

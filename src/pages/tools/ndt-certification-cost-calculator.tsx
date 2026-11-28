@@ -654,9 +654,9 @@ export default function NDTCertificationCostCalculator() {
                   contact us
                 </Link>{" "}
                 for personalized training recommendations. API 510, 570 and 653
-                training figures are third-party market estimates — Atlantis NDT
-                does not offer API training or exam preparation; our training is
-                ASNT SNT-TC-1A NDT method training.
+                training figures are third-party market estimates, not Atlantis
+                fees; Atlantis NDT quotes its own self-paced online API exam-prep
+                courses on request, alongside ASNT SNT-TC-1A NDT method training.
               </p>
             </div>
           </div>

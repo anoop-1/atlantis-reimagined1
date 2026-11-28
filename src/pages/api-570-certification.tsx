@@ -64,11 +64,11 @@ const inspectionIntervals = [
     { class: "Class 3 (lower risk)", thickness: "Half the remaining life or 10 yrs max", external: "10 years max" },
 ];
 
-// 2026-09-27 — Atlantis NDT does not offer API 570 training or exam prep.
-// This block lists what Atlantis actually provides to piping integrity teams.
+// 2026-11-28: the API 570 exam-prep course (/api-570-training) is linked in the
+// section intro; this block lists the other services for piping integrity teams.
 const trainingFormats = [
     { icon: Users, title: "API 570 Piping Inspection Services", to: "/inspection-services", desc: "In-service process piping inspection, CML thickness surveys and inspection planning delivered by qualified inspectors for refineries and petrochemical plants." },
-    { icon: BookOpen, title: "ASNT SNT-TC-1A NDT Training", to: "/training", desc: "Level I and II NDT method training (UT, RT, MT, PT, VT, PAUT) built on ASNT SNT-TC-1A — the NDT skills piping inspectors rely on. Atlantis NDT does not run API exam preparation." },
+    { icon: BookOpen, title: "ASNT SNT-TC-1A NDT Training", to: "/training", desc: "Level I and II NDT method training (UT, RT, MT, PT, VT, PAUT) built on ASNT SNT-TC-1A — the NDT skills piping inspectors rely on. API exam prep is a separate self-paced online course." },
     { icon: Clock, title: "NDT Level III Consulting", to: "/consulting", desc: "Written practices, procedure review and NDT program audits by an ASNT Level III for the employers who hire API 570 inspectors." },
 ];
 
@@ -81,7 +81,7 @@ const faqs = [
     { question: "How long is the API 570 certification valid?", answer: "The API 570 certification is valid for 3 years. Recertification requires at least 20% of working time on inspection activities and 24 continuing professional development (CPD) hours per cycle, plus an online web quiz every 6 years. Check api.org for the current rules." },
     { question: "What NDT methods are covered in API 570?", answer: "API 570 inspectors must understand: Ultrasonic Testing (UT) for pipe wall thickness measurement and remaining life calculations; Radiographic Testing (RT) for weld quality; Magnetic Particle Testing (MT) and Liquid Penetrant Testing (PT) for surface cracks; Visual Testing (VT) for general condition. Phased Array UT (PAUT) and TOFD are increasingly used for piping inspection under API 570." },
     { question: "What is Corrosion Monitoring Location (CML) in API 570?", answer: "A CML (Corrosion Monitoring Location) is a designated point on a piping system where periodic thickness measurements are taken to track corrosion rate and estimate remaining life. API 570 requires inspectors to establish, track, and document CMLs based on service conditions, corrosion history, and risk. CML data feeds directly into inspection interval calculations." },
-    { question: 'How much does API 570 certification cost?', answer: 'API 570 exam and recertification fees are set by API Individual Certification Programs and vary by membership status and region. They are set by API — check api.org for current fees. Atlantis NDT does not offer API 570 training or exam preparation.' }, /*kw-embed*/
+    { question: 'How much does API 570 certification cost?', answer: 'API 570 exam and recertification fees are set by API Individual Certification Programs and vary by membership status and region. They are set by API — check api.org for current fees. Atlantis NDT offers a self-paced online API 570 exam-prep course and quotes its fees on request.' }, /*kw-embed*/
     { question: 'What is the API 570 exam pass rate?', answer: 'API publishes per-window statistics: its April 2025 ICP status update showed API 570 pass rates of roughly 45-70% per window between 2020 and early 2025. Thorough coverage of the Body of Knowledge, including API 570, API 574, API 577, and the relevant ASME B31.3 content, is the strongest predictor of passing.' }, /*kw-embed*/
     { question: 'What does the API 570 Body of Knowledge cover for 2026?', answer: 'The 2026 API 570 Body of Knowledge references API 570 (5th ed.), RP 571, 574, 576, 577, 578, ASME B31.3 (2024), B16.5, Section V, Section IX and PCC-2. API revises the effectivity sheet periodically, so verify the documents and editions in force for your 2026 exam date on the API ICP site.' }, /*kw-embed*/
 ];
@@ -159,7 +159,7 @@ export default function API570Certification() {
             />
             <Breadcrumbs />
         <QuickAnswerBox question="What is API 570 piping inspector certification?" answer="API 570 is the Authorized Piping Inspector certification covering in-service inspection of process piping under the API 570 Piping Inspection Code. The exam (170 questions, about 7.5 hours, Prometric) runs in three windows a year (February, June and October) and covers API 570, RP 571/574/576/577/578, ASME B31.3, B16.5, V, IX and PCC-2." bullets={["Body of knowledge: API 570, ASME B31.3, RP 571, RP 574 and others on the effectivity sheet","Eligibility: degree + 1 yr, 2-yr degree + 2 yrs, HS + 3 yrs, or 5+ yrs piping experience","Recertification: every 3 years (20% inspection work + 24 CPD hours; web quiz every 6 years)"]} />
-        <QuickAnswerBox question="How much does API 570 certification cost?" answer="API 570 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT does not sell API exam preparation; we provide API 570 inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
+        <QuickAnswerBox question="How much does API 570 certification cost?" answer="API 570 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT offers a self-paced online API 570 exam-prep course, plus API 570 inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
 
 
             {/* Hero */}
@@ -168,12 +168,12 @@ export default function API570Certification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-blue-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">API 570 Certification Guide 2026: Eligibility, Exam &amp; Codes</h1>
-        {/* 2026-08-07 — Atlantis does not offer an API 570 exam-prep course;
-            this box previously claimed a scheduled USA cohort. Reframed to
-            what Atlantis actually does: ASNT Level III consulting for the
-            employers who hire API 570 inspectors, not a class we run. */}
+        {/* 2026-08-07: this box previously claimed a scheduled USA cohort.
+            2026-11-28: Atlantis now offers a self-paced online API 570
+            exam-prep course (no cohorts); the course is linked in the
+            How Atlantis NDT Supports section below. */}
         <p className="my-4 rounded-md border-l-4 border-emerald-600 bg-emerald-50 p-3 text-sm">
-          <strong>Based in the USA (Houston, Beaumont, Tulsa, Pasadena, Mobile)?</strong> Atlantis NDT Level III consultants work with refining-sector employers (ExxonMobil, Marathon, Phillips 66, Shell) on inspection programs and written-practice support — not an API 570 exam-prep class.
+          <strong>Based in the USA (Houston, Beaumont, Tulsa, Pasadena, Mobile)?</strong> Atlantis NDT Level III consultants support refining-sector employers on inspection programs and written practices, and Atlantis offers a self-paced online API 570 exam-prep course for individual candidates.
           {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to a consultant →</a>
         </p>
 
@@ -318,7 +318,7 @@ export default function API570Certification() {
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">How Atlantis NDT Supports Piping Integrity Teams</h2>
-                    <p className="text-center text-slate-600 mb-12">Atlantis NDT does not offer API 570 training or exam preparation. Here is what we do provide.</p>
+                    <p className="text-center text-slate-600 mb-12">Atlantis NDT offers a self-paced online <Link to="/api-570-training" className="font-semibold underline underline-offset-2 hover:opacity-80">API 570 exam-prep course</Link>, with an instructor answering questions. Here is what else we provide.</p>
                     <div className="grid md:grid-cols-3 gap-6">
                         {trainingFormats.map((fmt) => (
                             <Card key={fmt.title} className="hover:shadow-lg transition border-t-4 border-t-blue-600">

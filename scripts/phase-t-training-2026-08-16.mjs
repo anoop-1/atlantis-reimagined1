@@ -100,8 +100,8 @@ function onlineDepthBlock() {
       the ${L('/asnt-level-iii-training', 'ASNT Level III route')} routinely do the majority of their
       preparation this way while working full-time.</p>
 
-      <!-- 2026-10-18: the "API 570, 510 and 653 online preparation" section was removed — Atlantis does not
-      prepare candidates for API inspector certification (training.md §5.5 / §56.5). -->
+      <!-- 2026-10-18: the "API 570, 510 and 653 online preparation" section was removed (training.md §5.5 / §56.5); since 2026-11-28 API exam prep
+      has its own course pages (scripts/api-training-2026-11.mjs). -->
 
       <h2>What online delivery cannot do — stated plainly</h2>
       <p>Two things, and no online provider can waive either. <strong>The practical examination</strong>:

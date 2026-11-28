@@ -185,7 +185,7 @@ const faqs = [
   },
   {
     q: "How much does API certification cost?",
-    a: "API sets the application, exam and recertification fees and publishes them on api.org; budget separately for study copies of the referenced codes and any optional prep course from a third party. Many employers cover all certification costs. API certification is valid for 3 years; recertification requires at least 20% of working time on inspection activities and 24 CPD hours per cycle, plus a web quiz every 6 years. Atlantis NDT does not offer API exam preparation.",
+    a: "API sets the application, exam and recertification fees and publishes them on api.org; budget separately for study copies of the referenced codes and any optional prep course from a third party. Many employers cover all certification costs. API certification is valid for 3 years; recertification requires at least 20% of working time on inspection activities and 24 CPD hours per cycle, plus a web quiz every 6 years. Atlantis NDT offers self-paced online API 510, 570, 580 and 653 exam-prep courses and quotes their fees on request.",
   },
   {
     q: "What is the difference between API Inspector and CWI?",
@@ -700,7 +700,7 @@ export default function UltimateGuideAPIInspection() {
               Where Atlantis NDT Fits in an API Inspection Programme
             </h2>
             <p className="text-blue-100 mb-6 leading-relaxed">
-              Atlantis NDT does not deliver API 510, 570 or 653 exam preparation.</p>
+              Atlantis NDT offers self-paced online API 510, 570, 580 and 653 exam-prep courses, with an instructor answering questions, alongside NDT training and Level III support.</p>
             <div className="flex flex-wrap gap-4">
               <Link
                 to="/training"
@@ -798,7 +798,7 @@ export default function UltimateGuideAPIInspection() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">API Inspection Support</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Atlantis NDT does not run API 510, 570 or 653 exam preparation.</p>
+              Atlantis NDT runs self-paced online API 510, 570, 580 and 653 exam-prep courses and the NDT work behind API programmes.</p>
             <Link
               to="/contact"
               className="block bg-white text-[#004aad] text-center font-bold px-4 py-3 rounded-lg hover:bg-blue-50 transition text-sm"

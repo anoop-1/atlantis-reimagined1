@@ -21,8 +21,8 @@
  *    scripts/ctr-opportunity-engine.mjs over 90d to 2026-08-01, ranked by clicks
  *    lost against the CTR normally seen at that position.
  *
- * Owner direction 2026-08-04: Atlantis does NOT sell API 510/570/653 training —
- * those pages exist to attract traffic. Primary services are **NDT training at
+ * Owner direction 2026-08-04 (superseded 2026-11-28, when API exam-prep courses
+ * were added): the API certification pages were informational, for traffic. Primary services are **NDT training at
  * all levels**, **ASNT Level III consulting**, and **inspection services**. This
  * wave therefore favours those, not the API exam cluster.
  *

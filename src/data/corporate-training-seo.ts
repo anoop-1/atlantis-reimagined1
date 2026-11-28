@@ -433,7 +433,7 @@ function composeProfile(slug: string): CorporateTrainingCityProfile | null {
     },
     {
       question: `Which certification scheme does the training follow in ${cityLabel}?`,
-      answer: `ASNT SNT-TC-1A. Atlantis NDT does not offer ISO 9712, PCN, CSWIP, ISNT or API training or exam preparation${localSchemes.length ? `; where employers in ${cityLabel} also reference ${localSchemes.join(', ')}, technicians sit those through the relevant certification body` : ''}. Training records are built so your employer can certify under its own written practice.`,
+      answer: `ASNT SNT-TC-1A, with API 510, 570, 580 and 653 exam prep sold separately as self-paced online courses. Atlantis NDT does not offer ISO 9712, PCN, CSWIP or ISNT training or exam preparation${localSchemes.length ? `; where employers in ${cityLabel} also reference ${localSchemes.join(', ')}, technicians sit those through the relevant certification body` : ''}. Training records are built so your employer can certify under its own written practice.`,
     },
     {
       question: `How is training priced in ${cityLabel}?`,

@@ -13,7 +13,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "How is the eLearning platform configured for NDT training specifically?",
-    answer: "Pre-loaded with ASNT SNT-TC-1A 2024 topical outlines for every method (UT, RT, MT, PT, VT, ET, PAUT, TOFD, ECA, LRUT, IRIS, MFL). Question-bank engine you can load with your own course content (Atlantis NDT does not supply API 510 / 570 / 653 exam-prep curricula). Built-in vision-test scheduling per ASNT requirements (Jaeger near vision, Ishihara colour). ISO 9712 multi-sector tracks (oil & gas, aerospace, power generation, fabrication). Multi-language UI: English, Arabic, French, Spanish, Hindi, Bahasa, Mandarin. Custom branding so your training-provider business can run a fully white-labelled academy."
+    answer: "Pre-loaded with ASNT SNT-TC-1A 2024 topical outlines for every method (UT, RT, MT, PT, VT, ET, PAUT, TOFD, ECA, LRUT, IRIS, MFL). Question-bank engine you can load with your own course content (Atlantis NDT sells its API 510 / 570 / 580 / 653 exam-prep courses separately). Built-in vision-test scheduling per ASNT requirements (Jaeger near vision, Ishihara colour). ISO 9712 multi-sector tracks (oil & gas, aerospace, power generation, fabrication). Multi-language UI: English, Arabic, French, Spanish, Hindi, Bahasa, Mandarin. Custom branding so your training-provider business can run a fully white-labelled academy."
   },
   {
     question: "Can the eLearning platform integrate with our existing systems?",

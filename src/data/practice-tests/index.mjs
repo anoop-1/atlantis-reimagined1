@@ -290,7 +290,7 @@ export function practiceHubModel(sets) {
       {
         id: 'more',
         h: 'More practice questions',
-        p: 'Free independent study guides on other levels and on the API inspector examinations. Atlantis NDT does not offer API 510, API 570 or API 653 exam preparation and does not administer those examinations.',
+        p: 'Free independent study guides on other levels and on the API inspector examinations. Atlantis NDT offers self-paced online API 510, API 570 and API 653 exam-prep courses, with an instructor answering questions, and does not administer those examinations.',
         links: [
           ['/blog/ut-level-1-practice-questions', 'UT Level I practice questions', 'worked answers for ultrasonic testing at Level I'],
           ['/blog/api-510-practice-questions', 'API 510 practice questions', 'independent study guide for pressure vessel inspector candidates'],

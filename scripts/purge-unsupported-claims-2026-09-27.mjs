@@ -3,7 +3,8 @@
 //   2. The ERP does not do RBI (API 580/581), FFS (API 579), API 510/570/653
 //      inspection-interval / corrosion-rate / TML work, Gantt charts, barcode
 //      labels, NCR/CAPA, or SAP/Maximo (or other enterprise) integrations.
-//   3. Atlantis does not offer API 510/570/653 training.
+//   3. API 510/570/653 training links were stripped (rule of 2026-09-27, superseded
+//      2026-11-28 when API exam-prep courses were added; do not re-run step 3).
 // Verified against the live ERP addons (see scripts/erp-apps-content-brief.md).
 // Digital Twin, consulting and inspection-service content is left alone except
 // for enterprise-integration claims, which no Atlantis product has.

@@ -15,7 +15,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const examCenters = [
     { city: "Mumbai", venue: "Prometric centres (multiple)", note: "Best slot availability; preferred for Reliance / RIL / Tata Projects candidates" },
-    { city: "Hyderabad", venue: "Prometric centres (Madhapur / Begumpet)", note: "Also home to Atlantis NDT's India office (ASNT SNT-TC-1A NDT training and Level III consulting; Atlantis does not run API exam prep)" },
+    { city: "Hyderabad", venue: "Prometric centres (Madhapur / Begumpet)", note: "Also home to Atlantis NDT's India office (ASNT SNT-TC-1A NDT training and Level III consulting; API exam prep is offered as a self-paced online course)" },
     { city: "Delhi NCR", venue: "Prometric centres (CP / Gurgaon)", note: "IOCL HQ, GAIL, NTPC, Engineers India Ltd candidates" },
     { city: "Chennai", venue: "Prometric centres (Anna Nagar)", note: "Serves CPCL, IOCL Chennai, MRPL, southern EPC candidates" },
     { city: "Bangalore", venue: "Prometric centres (Whitefield)", note: "Growing aerospace and EPC piping demand" },
@@ -64,7 +64,7 @@ export default function Api570India() {
                 "@id": "https://atlantisndt.com/api-570-india#service",
                 "name": "API 570 piping inspection services & ASNT NDT training — India",
                 "serviceType": "Inspection Services",
-                "description": "API 570 piping inspection services, ASNT SNT-TC-1A NDT training and NDT Level III consulting for Indian refineries, EPCs and TPI firms. This guide also covers API 570 exam centres, eligibility and salary in India; Atlantis NDT does not offer API exam preparation.",
+                "description": "API 570 piping inspection services, ASNT SNT-TC-1A NDT training and NDT Level III consulting for Indian refineries, EPCs and TPI firms. This guide also covers API 570 exam centres, eligibility and salary in India; Atlantis NDT also offers a self-paced online API 570 exam-prep course.",
                 "provider": { "@id": "https://atlantisndt.com/#organization" },
                 "areaServed": { "@type": "Country", "name": "India" },
                 "audience": { "@type": "BusinessAudience", "audienceType": "Piping inspectors, refinery / petrochemical / EPC candidates" },
@@ -133,7 +133,7 @@ export default function Api570India() {
                             <p className="text-lg text-slate-600 mb-4">India runs over 20 operating refineries, dozens of petrochemical complexes, and a fast-expanding gas pipeline grid. Process piping per ASME B31.3 carries the entire production chain — and the operator&rsquo;s API 570-certified inspector is the named individual who signs off remaining-life calculations, repair authorisations, and turnaround scope.</p>
                             <p className="text-slate-600 mb-4">For Indian candidates, API 570 is also a ticket to lucrative Middle East rotations. ARAMCO&rsquo;s mega-refining and gas-processing programs (Jafurah, Aramco-Rabigh II), ADNOC&rsquo;s downstream expansion, and QatarEnergy LNG trains all actively recruit API 570 Indian inspectors at $80K–$135K USD tax-free packages.</p>
                             <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
-                                <p className="text-red-900 text-sm"><strong>Atlantis NDT in India:</strong> Atlantis NDT has an address in Hyderabad and delivers ASNT SNT-TC-1A NDT method training (UT, RT, MT, PT, VT) online or on-site at your facility, NDT Level III consulting, and NDE for API 570 piping inspection programmes. Atlantis NDT does not offer API 570 training or exam preparation.</p>
+                                <p className="text-red-900 text-sm"><strong>Atlantis NDT in India:</strong> Atlantis NDT has an address in Hyderabad and delivers ASNT SNT-TC-1A NDT method training (UT, RT, MT, PT, VT) online or on-site at your facility, NDT Level III consulting, and NDE for API 570 piping inspection programmes. It also offers a self-paced online API 570 exam-prep course.</p>
                             </div>
                         </div>
                         <div>
@@ -334,7 +334,7 @@ export default function Api570India() {
                 <div className="container mx-auto max-w-4xl px-6">
                     <Award className="w-12 h-12 mx-auto mb-4 text-red-200" />
                     <h2 className="text-3xl font-bold mb-4">Ready to Sit API 570 in India?</h2>
-                    <p className="text-red-100 mb-8 text-lg">Atlantis NDT does not run API 570 exam preparation. For API 570 piping inspection, ASNT SNT-TC-1A NDT training or Level III consulting in India, talk to our Hyderabad team.</p>
+                    <p className="text-red-100 mb-8 text-lg">Prepare with the self-paced online <Link to="/api-570-training" className="font-semibold underline">API 570 exam-prep course</Link>. For API 570 piping inspection, ASNT SNT-TC-1A NDT training or Level III consulting in India, talk to our Hyderabad team.</p>
                     <div className="flex flex-wrap gap-4 justify-center">
                         <Link to="/inspection-services" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request Inspection Quote</Link>
                         <Link to="/api-510-india" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">API 510 India</Link>

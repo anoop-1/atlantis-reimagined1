@@ -251,7 +251,7 @@ export default function Api510VsApi570() {
                                         <h3 className="font-bold text-slate-800 group-hover:text-amber-700">API 510 Certification Guide</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400" />
                                     </div>
-                                    <p className="text-sm text-slate-600">Eligibility, exam format and the 9 open-book reference codes. Atlantis NDT does not run API exam prep.</p>
+                                    <p className="text-sm text-slate-600">Eligibility, exam format and the 9 open-book reference codes. Atlantis NDT also offers a self-paced online API 510 exam-prep course.</p>
                                 </CardContent>
                             </Card>
                         </Link>

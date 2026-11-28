@@ -58,7 +58,7 @@ const API653 = [
   {
     path: '/api-653-certification',
     heading: 'Looking for the tank inspection scope?',
-    body: `This page covers the credential — eligibility, the body of knowledge, the examination, and what an API 653 inspector is authorised to do. One adjacent thing lives elsewhere on purpose. If you want to understand ${L('/blog/api-653-tank-inspection-guide', 'what an API 653 tank inspection actually involves')} — the survey scope, the floor and shell examination, the settlement and repair decisions — that is the guide, and it goes far deeper than a certification page should. Atlantis does not sell API 653 inspector certification training; candidates prepare through API-authorised providers, and the ${L('/blog/api-510-570-653-exam-schedule-2026', 'exam calendar')} sets the timeline.`,
+    body: `This page covers the credential — eligibility, the body of knowledge, the examination, and what an API 653 inspector is authorised to do. One adjacent thing lives elsewhere on purpose. If you want to understand ${L('/blog/api-653-tank-inspection-guide', 'what an API 653 tank inspection actually involves')} — the survey scope, the floor and shell examination, the settlement and repair decisions — that is the guide, and it goes far deeper than a certification page should. Atlantis offers a self-paced online ${L('/api-653-training', 'API 653 exam-prep course')}, and the ${L('/blog/api-510-570-653-exam-schedule-2026', 'exam calendar')} sets the timeline.`,
   },
   {
     path: '/blog/api-653-tank-inspection-guide',
