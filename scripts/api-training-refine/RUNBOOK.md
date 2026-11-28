@@ -44,8 +44,10 @@ records `src/data/audit-cwi-2026-11/cwi-training-{city}.json`; CWI city list `CW
    link checks (step 5 command), unless `dist/` is already current.
 1. **Pick today's work:** `node scripts/api-training-refine/next.mjs`. If both lists are empty, report that the
    queue is finished and propose the next set from Search Console (API/CWI queries naming places), and stop.
-2. **Add the rows:** append today's four API rows (as printed) to `pages` in `src/data/api-training-2026-11/_pages.json`
-   and today's CWI row to `src/data/audit-cwi-2026-11/_pages.json`. A row without a record is not built.
+2. **Add the rows:** append today's API rows (as printed; first-wave cities already have them) to `pages` in
+   `src/data/api-training-2026-11/_pages.json`. An API row without a reviewed record is not built. The CWI row is
+   appended to `src/data/audit-cwi-2026-11/_pages.json` only in step 4, after its record passes (the audit/CWI guard
+   fails on a plan row without a record).
 3. **Write:** one writer subagent for the API city (brief: `page-brief.md`; the four pages must take different
    angles) and one for the CWI city (`cwi-city-brief.md`). API: `node scripts/api-training-2026-11.mjs --check
    api-510-training-{city} api-570-training-{city} api-580-training-{city} api-653-training-{city}` → OK. CWI:
