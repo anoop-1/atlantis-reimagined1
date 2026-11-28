@@ -1191,6 +1191,17 @@
    "st": "LA",
    "citySlug": "shreveport",
    "region": "South Central"
+  },
+  {
+   "family": "cwi",
+   "kind": "city",
+   "mode": "new",
+   "path": "/training/cwi-training-newport-news",
+   "slug": "cwi-training-newport-news",
+   "city": "Newport News",
+   "st": "VA",
+   "citySlug": "newport-news",
+   "region": "Mid-Atlantic"
   }
  ]
 }

@@ -17,3 +17,4 @@ One line per run: date · what went live (deploy commit title) · deploy run. Re
 - 2026-11-28 · API training: Billings city pages reviewed (+ CLAUDE.md §90; built with the report-validation daily run merged in) · run 46125567426
 
 ## Daily runs (scheduled task "API + CWI training daily additions", 23:19 IST)
+- 2026-11-28 (daily) · API 510/570/580/653 Pasadena, TX (own words ~2,600/2,270/2,290/2,290) + AWS CWI Newport News, VA (~2,520) · reviewer: Bayport Underwood owner → INEOS Oxide (2024), Odfjell 126 tanks + 2 spheres, API 510/570 example arithmetic, Liebherr Wiseda mid-1990s, CWI vision-test detail generalised · all gates PASS

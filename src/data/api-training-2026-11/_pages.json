@@ -969,6 +969,50 @@
    "st": "MT",
    "citySlug": "billings",
    "region": "Mountain & Plains"
+  },
+  {
+   "family": "api",
+   "course": "510",
+   "kind": "city",
+   "path": "/training/api-510-training-pasadena-texas",
+   "slug": "api-510-training-pasadena-texas",
+   "city": "Pasadena",
+   "st": "TX",
+   "citySlug": "pasadena-texas",
+   "region": "Gulf Coast"
+  },
+  {
+   "family": "api",
+   "course": "570",
+   "kind": "city",
+   "path": "/training/api-570-training-pasadena-texas",
+   "slug": "api-570-training-pasadena-texas",
+   "city": "Pasadena",
+   "st": "TX",
+   "citySlug": "pasadena-texas",
+   "region": "Gulf Coast"
+  },
+  {
+   "family": "api",
+   "course": "580",
+   "kind": "city",
+   "path": "/training/api-580-training-pasadena-texas",
+   "slug": "api-580-training-pasadena-texas",
+   "city": "Pasadena",
+   "st": "TX",
+   "citySlug": "pasadena-texas",
+   "region": "Gulf Coast"
+  },
+  {
+   "family": "api",
+   "course": "653",
+   "kind": "city",
+   "path": "/training/api-653-training-pasadena-texas",
+   "slug": "api-653-training-pasadena-texas",
+   "city": "Pasadena",
+   "st": "TX",
+   "citySlug": "pasadena-texas",
+   "region": "Gulf Coast"
   }
  ]
 }

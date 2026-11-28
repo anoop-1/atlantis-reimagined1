@@ -34,6 +34,8 @@ export const CWI_CITIES = {
   'des-moines': ['Des Moines', 'IA'], 'grand-rapids': ['Grand Rapids', 'MI'], toledo: ['Toledo', 'OH'], 'fort-wayne': ['Fort Wayne', 'IN'],
   knoxville: ['Knoxville', 'TN'], chattanooga: ['Chattanooga', 'TN'], savannah: ['Savannah', 'GA'], pascagoula: ['Pascagoula', 'MS'],
   peoria: ['Peoria', 'IL'], 'green-bay': ['Green Bay', 'WI'], 'greenville-south-carolina': ['Greenville', 'SC'], shreveport: ['Shreveport', 'LA'],
+  // daily runs
+  'newport-news': ['Newport News', 'VA'],
 };
 
 const STATE_CODE = {
@@ -120,10 +122,11 @@ const API_CITY_META = {
   chicago: ['Chicago, IL', 'midwest'], toledo: ['Toledo, OH', 'midwest'], 'st-louis': ['St. Louis, MO', 'midwest'],
   philadelphia: ['Philadelphia, PA', 'northeast'], newark: ['Newark, NJ', 'northeast'], denver: ['Denver, CO', 'mountain-plains'],
   'salt-lake-city': ['Salt Lake City, UT', 'mountain-plains'], billings: ['Billings, MT', 'mountain-plains'],
+  'pasadena-texas': ['Pasadena, TX', 'gulf-coast'],
 };
 /** API cities whose four course pages are live (records written). Add a city only when all four exist; the
  *  API training guard (scripts/api-training-2026-11.mjs) fails if a listed city is missing a page. */
-export const API_LIVE_CITIES = ['houston', 'beaumont', 'corpus-christi', 'baton-rouge', 'los-angeles', 'chicago', 'midland', 'lake-charles', 'new-orleans', 'mobile', 'tulsa', 'san-francisco', 'seattle', 'toledo', 'st-louis', 'philadelphia', 'newark', 'denver', 'salt-lake-city', 'billings'];
+export const API_LIVE_CITIES = ['houston', 'beaumont', 'corpus-christi', 'baton-rouge', 'los-angeles', 'chicago', 'midland', 'lake-charles', 'new-orleans', 'mobile', 'tulsa', 'san-francisco', 'seattle', 'toledo', 'st-louis', 'philadelphia', 'newark', 'denver', 'salt-lake-city', 'billings', 'pasadena-texas'];
 export const API_CITIES = Object.fromEntries(API_LIVE_CITIES.map((s) => [s, API_CITY_META[s]]));
 const API_REGION_NAME = { 'gulf-coast': 'Gulf Coast', 'west-coast': 'West Coast', midwest: 'Midwest', northeast: 'Northeast and Mid-Atlantic', southeast: 'Southeast', 'mountain-plains': 'Mountain and Plains' };
 const API_STATE_REGION = {
