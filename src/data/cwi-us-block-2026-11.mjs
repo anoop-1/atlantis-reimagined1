@@ -119,7 +119,7 @@ const API_CITY_META = {
 };
 /** API cities whose four course pages are live (records written). Add a city only when all four exist; the
  *  API training guard (scripts/api-training-2026-11.mjs) fails if a listed city is missing a page. */
-export const API_LIVE_CITIES = ['houston', 'beaumont', 'corpus-christi', 'baton-rouge', 'los-angeles', 'chicago', 'midland', 'lake-charles'];
+export const API_LIVE_CITIES = ['houston', 'beaumont', 'corpus-christi', 'baton-rouge', 'los-angeles', 'chicago', 'midland', 'lake-charles', 'new-orleans'];
 export const API_CITIES = Object.fromEntries(API_LIVE_CITIES.map((s) => [s, API_CITY_META[s]]));
 const API_REGION_NAME = { 'gulf-coast': 'Gulf Coast', 'west-coast': 'West Coast', midwest: 'Midwest', northeast: 'Northeast and Mid-Atlantic', southeast: 'Southeast', 'mountain-plains': 'Mountain and Plains' };
 const API_STATE_REGION = {
